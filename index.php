@@ -33,6 +33,7 @@ $sitemap_array = [
 	"he"=> "",
 	"ku"=>"",
 	"en"=>"Israel and Zionism",
+	],
 "contact" => [
 	"he"=> "",
 	"ku"=> "",
