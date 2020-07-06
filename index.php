@@ -37,6 +37,7 @@ $sitemap_array = [
 	"he"=> "",
 	"ku"=> "",
 	"en"=> "Contact",
+	],
 	];
 
 // Kurdistan
