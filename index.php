@@ -171,10 +171,11 @@ echo "<div id='splash-header'>";
 // Navigation buttons
 echo "<div id='navigation-header'>";
 	foreach ($pageview_request_allowed as $pageview_request_allowed_temp):
-		$selected_temp = null;
-		if ($pageview_request_allowed_temp == $pageview_request): $selected_temp = "navigation-header-button-selected"; endif;
+		if ($pageview_request_allowed_temp == $pageview_request):
+			echo "<div class='navigation-header-button navigation-header-button-selected'>". $translatable_elements[$pageview_request_allowed_temp][$language_request] ."</div>";
+			continue; endif;
 		echo "<a href='/?pageview=".$pageview_request."&language=".$language_request."'>";
-		echo "<div class='navigation-header-button ". $selected_temp ."'>". $translatable_elements[$pageview_request_allowed_temp][$language_request] ."</div>";
+		echo "<div class='navigation-header-button'>". $translatable_elements[$pageview_request_allowed_temp][$language_request] ."</div>";
 		echo "</a>";
 		endforeach;
 	echo "</div>";
