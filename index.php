@@ -25,9 +25,9 @@ $pageview_request = ( empty($_REQUEST['pageview']) ? "home" : $_REQUEST['access'
 if (!(in_array($pageview_request, $pageview_request_allowed))): $pageview_request = "home"; endif;
 
 // The language is also passed in the URL
-$language_request_allowed = [ "ar", "en", "he", "ku", ];
+$language_request_allowed = [ "ar"=>"عربي", "en"=>"English", "he"=>"עברית", "ku"=>"کوردی", ];
 $language_request = ( empty($_REQUEST['language']) ? "en" : $_REQUEST['language'] );
-if (!(in_array($language_request, $language_request_allowed))): $language_request = "home"; endif;
+if (!(isset($language_request_allowed[$language_request]))): $language_request = "home"; endif;
 
 echo "<!doctype html><html amp lang='en'>";
 
