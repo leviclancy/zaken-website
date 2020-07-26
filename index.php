@@ -8,7 +8,7 @@
 /// Booking
 /// Contact
 
-include_once('translatable_elements.php');
+include_once('translatable-elements.php');
 
 // Kurdistan
 // https://www.youtube.com/watch?v=UkSRVefP1Qw at Jewish World Congress
