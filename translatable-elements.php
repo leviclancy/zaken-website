@@ -1,4 +1,4 @@
-$translatable_elements = [
+<? $translatable_elements = [
 	
 	"from-the-desk-of" => [
 		"ar"	=> "",
@@ -63,4 +63,4 @@ $translatable_elements = [
 		"ku"	=> "",
 		],
 
-	];
+	]; ?>
