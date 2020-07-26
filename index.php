@@ -27,7 +27,7 @@ if (!(in_array($pageview_request, $pageview_request_allowed))): $pageview_reques
 // The language is also passed in the URL
 $language_request_allowed = [ "ar"=>"عربي", "en"=>"English", "he"=>"עברית", "ku"=>"کوردی", ];
 $language_request = ( empty($_REQUEST['language']) ? "en" : $_REQUEST['language'] );
-if (!(isset($language_request_allowed[$language_request]))): $language_request = "home"; endif;
+if (!(isset($language_request_allowed[$language_request]))): $language_request = "en"; endif;
 
 echo "<!doctype html><html amp lang='en'>";
 
