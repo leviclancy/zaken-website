@@ -103,7 +103,7 @@ $style_array = [
 	
 	".navigation-header-button" => [
 		"background"		=> "rgba(255,255,255,1)",
-		"color"			=> "rgba(100,100,100,1)",,
+		"color"			=> "rgba(100,100,100,1)",
 		"display"		=> "inline-block",
 		"padding"		=> "7px 15px",
 		"border-radius"		=> "100px",
