@@ -174,7 +174,7 @@ echo "<div id='navigation-header'>";
 		if ($pageview_request_allowed_temp == $pageview_request):
 			echo "<div class='navigation-header-button navigation-header-button-selected'>". $translatable_elements[$pageview_request_allowed_temp][$language_request] ."</div>";
 			continue; endif;
-		echo "<a href='/?pageview=".$pageview_request."&language=".$language_request."'>";
+		echo "<a href='/?pageview=".$pageview_request_allowed_temp."&language=".$language_request."'>";
 		echo "<div class='navigation-header-button'>". $translatable_elements[$pageview_request_allowed_temp][$language_request] ."</div>";
 		echo "</a>";
 		endforeach;
