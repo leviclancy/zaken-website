@@ -49,4 +49,18 @@ $translatable_elements = [
 		"ku"	=> "",
 		],
 
+	"to-contact-the-national-association" => [
+		"ar"	=> "",
+		"en"	=> "To contact the National Association,",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+
+	"to-contact-foundation-of-ours" => [
+		"ar"	=> "",
+		"en"	=> "To contact Foundation of Ours,",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+
 	];
