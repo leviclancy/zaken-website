@@ -21,10 +21,8 @@ mb_http_output('UTF-8');
 
 // The pageview is passed in the URL
 $pageview_request_allowed = [ "home", "bookstore", "kurdistan", "israeli-arabs", "israel-and-zionism", ];
-$pageview_request = ( empty($_REQUEST['pageview']) ? "home" : $_REQUEST['access'] );
+$pageview_request = ( empty($_REQUEST['pageview']) ? "home" : $_REQUEST['pageview'] );
 if (!(in_array($pageview_request, $pageview_request_allowed))): $pageview_request = "home"; endif;
-
-echo $pageview_request;
 
 // The language is also passed in the URL
 $language_request_allowed = [ "ar"=>"عربي", "en"=>"English", "he"=>"עברית", "ku"=>"کوردی", ];
