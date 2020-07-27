@@ -24,6 +24,8 @@ $pageview_request_allowed = [ "home", "bookstore", "kurdistan", "israeli-arabs",
 $pageview_request = ( empty($_REQUEST['pageview']) ? "home" : $_REQUEST['access'] );
 if (!(in_array($pageview_request, $pageview_request_allowed))): $pageview_request = "home"; endif;
 
+echo $pageview_request;
+
 // The language is also passed in the URL
 $language_request_allowed = [ "ar"=>"عربي", "en"=>"English", "he"=>"עברית", "ku"=>"کوردی", ];
 $language_request = ( empty($_REQUEST['language']) ? "en" : $_REQUEST['language'] );
