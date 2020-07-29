@@ -91,25 +91,21 @@ $style_array = [
 		"background-size"	=> "cover",
 		"box-shadow"		=> "0 0 30px -10px rgba(100,100,100,1)",
 		"margin"		=> "0",
-		"padding"		=> "50px 20px",
+		"padding"		=> "100px 20px",
 		"min-height"		=> "500px",
-		"color"			=> "#fff",
-		"vertical-align"	=> "middle",
+		"color"			=> "#222",
+		"text-align"		=> "center",
 		],
 	
 	"#splash-header-topline" => [
 		"font-size"		=> "70%",
 		"font-family"		=> "'Noto Serif JP'",
-		"display"		=> "inline-block",
-		"vertical-align"	=> "middle",
 		],
 
 	"#splash-header-header" => [
 		"font-size"		=> "120%",
 		"font-family"		=> "'Alegreya SC'",
 		"font-style"		=> "italic",
-		"display"		=> "inline-block",
-		"vertical-align"	=> "middle",
 		],
 	
 	"#navigation-header" => [
