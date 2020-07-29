@@ -51,7 +51,10 @@ echo '<script async custom-element="amp-fx-collection" src="https://cdn.ampproje
 echo '<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>';
 echo '<script async custom-element="amp-audio" src="https://cdn.ampproject.org/v0/amp-audio-0.1.js"></script>';
 
-echo '<link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">';
+// echo '<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">';
+// echo '<link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">';
+echo '<link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@1,500&family=Noto+Serif+JP&display=swap" rel="stylesheet">';
+
 
 echo "<title>". $title_temp ."</title>";
 
@@ -61,7 +64,7 @@ echo "<meta name='viewport' content='width=device-width,minimum-scale=1,initial-
 
 $style_array = [
 	"body" => [
-		"font-family" 		=> "Alegreya, Times",
+		"font-family" 		=> "Times",
 		"background"		=> "#fff",
 		"font-size"		=> "17px",
 		"margin"		=> "0",
@@ -90,10 +93,13 @@ $style_array = [
 	
 	"#splash-header-topline" => [
 		"font-size"		=> "70%",
+		"font-family"		=> "'Noto Serif JP'";
 		],
 
 	"#splash-header-header" => [
 		"font-size"		=> "120%",
+		"font-family"		=> "'Alegreya SC'";
+		"font-style"		=> "italic";
 		],
 	
 	"#navigation-header" => [
@@ -210,7 +216,7 @@ if ([$pageview_request, $language_request] == ["kurdistan", "en"]):
 
 	echo "<dl>";
 
-		echo "<dt>What is the role of representative?</dt>
+		echo "<dt>What is the role of representative?</dt>";
 		echo "<dd>The role of representtive </dd>";
 		
 		echo "</dl>";
