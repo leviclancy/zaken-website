@@ -217,7 +217,7 @@ if ([$pageview_request, $language_request] == ["kurdistan", "en"]):
 	echo "<dl>";
 
 		echo "<dt>What is the role of representative?</dt>";
-		echo "<dd>The role of representtive </dd>";
+		echo "<dd>The role of representtive is selected by the Nationnal Association, and awaiting confirmation by the Ministry of Endowments and Religious Affairs in the Krudistan Region.</dd>";
 		
 		echo "</dl>";
 		
