@@ -20,9 +20,9 @@ mb_internal_encoding('UTF-8');
 mb_http_output('UTF-8');
 
 // The pageview is passed in the URL
-$pageview_request_allowed = [ "home", "bookstore", "kurdistan", "israeli-arabs", "israel-and-zionism", ];
-$pageview_request = ( empty($_REQUEST['pageview']) ? "home" : $_REQUEST['pageview'] );
-if (!(in_array($pageview_request, $pageview_request_allowed))): $pageview_request = "home"; endif;
+// $pageview_request_allowed = [ "home", "bookstore", "kurdistan", "israeli-arabs", "israel-and-zionism", ];
+// $pageview_request = ( empty($_REQUEST['pageview']) ? "home" : $_REQUEST['pageview'] );
+// if (!(in_array($pageview_request, $pageview_request_allowed))): $pageview_request = "home"; endif;
 
 // The language is also passed in the URL
 $language_request_allowed = [ "ar"=>"عربي", "en"=>"English", "he"=>"עברית", "ku"=>"کوردی", ];
@@ -180,12 +180,65 @@ echo "<div id='navigation-header'>";
 		endforeach;
 	echo "</div>";
 
-// One div for each one
+	endif;
+	
+if ([$pageview_request, $language_request] == ["home", "en"]):
+
+	echo "<ul><li>Representative of the community of Jews from Kurdistan to the Kurdistan Region.</li>";
+	echo "<li>Author of <i>The Jews of Kurdistan</i>, the authoritative volume on the topic.</li>";
+	echo "<li>Founder of the Israel-Kurdistan Friendship League.</li>";
+	echo "<li>Adviser to the Prime Minister of Israel on Arab affairs.</li>";
+	echo "<li>Director of the Institute of Students and Faculty on Israel, in New York.</li></ul>";
+
+	echo "<hr>";
+
+	echo "";
+
+	endif;
+
+if ([$pageview_request, $language_request] == ["bookstore", "en"]):
+
+	echo "<h2>Bookstore</h2>";
+	echo "<p>To buy <a href='https://kurdishjews.com/'>The Jews of Kurdistan and their Tribal Chieftains</a>.</p>";
+	echo "<p></p>";
+
+	endif;
+
+if ([$pageview_request, $language_request] == ["kurdistan", "en"]):
+
+	echo "<h2>Kurdistan</h2>";
+
+	echo "<dl>";
+
+		echo "<dt>What is the role of representative?</dt>
+		echo "<dd>The role of representtive </dd>";
+		
+		echo "</dl>";
+		
+ 	echo "<p></p>";
+	
+	endif;
+	
+if ([$pageview_request, $language_request] == ["israeli-arabs", "en"]):
+
+	echo "<h2>Israeli Arabs</h2>";
+	echo "<p>To buy <a href='https://kurdishjews.com/'>The Jews of Kurdistan and their Tribal Chieftains</a>.</p>";
+	echo "<p></p>";
+	
+	endif;
+	
+if ([$pageview_request, $language_request] == ["israeli-and-zionism", "en"]):
+
+	echo "<h2>Israel and Zionism</h2>";
+	echo "<p>To buy <a href='https://kurdishjews.com/'>The Jews of Kurdistan and their Tribal Chieftains</a>.</p>";
+	echo "<p></p>";
+
+	endif;
 
 // Contact footer
 echo "<div id='contact-footer'>";
 
-	echo "<div id='contact-footer-primary'>info@mordechaizaken.com</div>";
+	echo "<div id='contact-footer-primary'>info@drmordechaizaken.com</div>";
 
 	echo "<div class='contact-footer-secondary-instructions'>". $translatable_elements["to-contact-the-national-association"][$language_request] ."</div>";
 	echo "<div class='contact-footer-secondary-details'>??@???</div>";
