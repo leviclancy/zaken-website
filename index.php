@@ -186,8 +186,6 @@ echo "<div id='navigation-header'>";
 		endforeach;
 	echo "</div>";
 
-	endif;
-	
 if ([$pageview_request, $language_request] == ["home", "en"]):
 
 	echo "<ul><li>Representative of the community of Jews from Kurdistan to the Kurdistan Region.</li>";
