@@ -87,7 +87,7 @@ $style_array = [
 	
 	"#splash-header" => [
 		"display"		=> "block",
-		"background-image"	=> "linear-gradient(-90deg, rgba(255,255,255,0.8), rgba(255,255,255,0.2)), url('_DSF4377.jpg')",
+		"background-image"	=> "linear-gradient(-90deg, rgba(255,255,255,0.8), rgba(255,255,255,0.2)), linear-gradient(45deg, rgba(230,230,230,0.8), rgba(200,200,200,0.5))",
 		"background-size"	=> "cover",
 		"box-shadow"		=> "0 0 30px -10px rgba(100,100,100,1)",
 		"margin"		=> "0",
