@@ -93,13 +93,13 @@ $style_array = [
 	
 	"#splash-header-topline" => [
 		"font-size"		=> "70%",
-		"font-family"		=> "'Noto Serif JP'";
+		"font-family"		=> "'Noto Serif JP'",
 		],
 
 	"#splash-header-header" => [
 		"font-size"		=> "120%",
-		"font-family"		=> "'Alegreya SC'";
-		"font-style"		=> "italic";
+		"font-family"		=> "'Alegreya SC'",
+		"font-style"		=> "italic",
 		],
 	
 	"#navigation-header" => [
