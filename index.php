@@ -150,22 +150,28 @@ $style_array = [
 	
 	"#contact-footer" => [
 		"display"		=> "block",
-		"color"			=> "rgba(100,100,100,1)",
-		"background"		=> "rgba(255,255,255,1)",
+		"color"			=> "rgba(220,220,220,1)",
+		"background"		=> "rgba(50,50,50,1)",
+		],
+	
+	"#contact-footer div" => [
+		"max-width"		=> "800px",
+		"display"		=> "block",
+		"text-align"		=> "center",
 		],
 	
 	"#contact-footer-primary" => [
-		"display"		=> "block",
-		"font-size"		=> "150%",
+		"font-size"		=> "120%",
+		"margin"		=> "0 auto 50px",
 		],
 	
 	".contact-footer-secondary-instructions" => [
-		"display"		=> "block",
 		"font-style"		=> "italic",
+		"margin"		=> "0 auto 10px",
 		],
 
 	".contact-footer-secondary-details" => [
-		"display"		=> "block",
+		"margin"		=> "0 auto 30px",
 		],
 
 	];
