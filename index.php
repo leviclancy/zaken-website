@@ -169,8 +169,9 @@ $style_array = [
 		],
 
 	"#body-content h1" => [
-		"margin"		=> "30px auto 120px",
-		"font-size"		=> "230%",
+		"margin"		=> "50px auto",
+		"font-size"		=> "240%",
+		"text-shadow"		=> "2px 2px 20px -10px rgba(50,50,50,0.25)",
 		],	
 	
 	"#contact-footer" => [
