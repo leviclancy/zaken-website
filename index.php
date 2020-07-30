@@ -161,17 +161,9 @@ $style_array = [
 		],
 	
 	"#body-content-splash h1" => [
-		"position"		=> "absolute",
-		"top"			=> "30px",
-		"color"			=> "#fff",
+		"margin"		=> "60px auto",
 		],
-	
-	"#body-content-splash amp-img" => [
-		"position"		=> "relative",
-		"filter"		=> "brightness(50%)",
-		"opacity"		=> "50%",
-		],
-	
+		
 	"h1, h2" => [
 		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
 		"font-style"		=> "700",
