@@ -172,6 +172,7 @@ $style_array = [
 		],
 	
 	"#body-content h1, #body-content h2" => [
+		"padding"		=> "0 50px 0 20px",
 		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
 		"font-style"		=> "700",
 		"text-align"		=> "center",
@@ -251,7 +252,7 @@ echo "<div id='body-content'>";
 
 if ([$pageview_request, $language_request] == ["home", "en"]):
 
-	echo "<figure amp-fx='parallax' data-parallax-factor='1.1'><amp-img src='_DSF4377.jpg' width='4' height='3' layout='responsive'></amp-img>";
+	echo "<figure amp-fx='parallax' data-parallax-factor='1.14'><amp-img src='_DSF4377.jpg' width='4' height='3' layout='responsive'></amp-img>";
 	echo "<figcaption>Rawanduz, near Erbil in the Kurdistan Region of Iraq.</figcaption></figure>";
 
 	echo "<h1 amp-fx='parallax' data-parallax-factor='1.1'>A career summary of Dr. Mordechai Zaken</h1>";
