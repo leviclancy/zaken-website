@@ -120,7 +120,7 @@ $style_array = [
 		"height"		=> "1px",
 		"border"		=> "0",
 		"background"		=> "rgba(255,255,255,0.5)",
-		]
+		],
 	
 	".navigation-header-button" => [
 //		"background"		=> "rgba(255,255,255,1)",
@@ -205,6 +205,8 @@ echo "<div id='navigation-header'>";
 
 	echo "<span id='navigation-header-topline'>". $translatable_elements["from-the-desk-of"][$language_request] ."</span>";
 	echo "<span id='navigation-header-name'>". $translatable_elements["dr-mordechai-zaken"][$language_request] ."</span>";
+
+	echo "<hr>";
 
 	foreach ($pageview_request_allowed as $pageview_request_allowed_temp):
 		if ($pageview_request_allowed_temp == $pageview_request):
