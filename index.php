@@ -298,7 +298,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td>1984-1985</td><td>As an MA student at the Hebrew U., he wished to write a paper on the economy of Kurdistani Jews. To his astonishment, he discovered that there was hardly any written material on the Kurds and on the Jews of Kurdistan. Because of the lack of written material he had to resort to oral-history and interviewed 12 elderly Kurdistani Jews for that paper alone (around 1984-85).</td></tr>";
 	echo "<tr><td>1984</td><td>Graduated from Hebrew University with his BA in Political Science and Near Eastern & Islamic Studies.</td></tr>";
 	echo "<tr><td>1958</td><td>Born in Jerusalem</td></tr>";
-	echo "<tr><td>1982</td><td>While studying at the University he was active in the student's body. Among other things he was the Editor-IN-Chief of the 'mythological' students newspaper "Pi Ha-Aton" (פי-האתון), around 1982.</td></tr>";
+	echo "<tr><td>1982</td><td>While studying at the University he was active in the student's body. Among other things he was the Editor-IN-Chief of the 'mythological' students newspaper 'Pi Ha-Aton' (פי-האתון), around 1982.</td></tr>";
 	echo "<tr><td></td><td></td></tr>";
 	echo "</tbody></table>";
 
