@@ -117,11 +117,10 @@ $style_array = [
 	
 	"#splash-header" => [
 		"display"		=> "block",
-		"background-image"	=> "linear-gradient(-90deg, rgba(255,255,255,0.8), rgba(255,255,255,0.2)), linear-gradient(45deg, rgba(230,230,230,0.8), rgba(200,200,200,0.5))",
+		"background-image"	=> "rgba(255,255,255,1)",
 		"background-size"	=> "cover",
 		"margin"		=> "0",
-		"padding"		=> "50px 20px",
-		"min-height"		=> "500px",
+		"padding"		=> "100px 20px",
 		"color"			=> "#222",
 		"text-align"		=> "center",
 		],
@@ -139,7 +138,7 @@ $style_array = [
 	
 	"#body-content" => [
 		"display"		=> "block",
-		"color"			=> "#fff",
+		"color"			=> "#333",
 		"box-shadow"		=> "0 0 30px -5px rgba(100,100,100,0.3)",
 		"padding"		=> "100px 20xp",
 		],
