@@ -95,7 +95,7 @@ $style_array = [
 //		"column-gap"		=> "30px",
 		"font-family"		=> "Assistant",
 		"text-align"		=> "center",
-		"padding"		=> "5px 0 15px",
+		"padding"		=> "50px 0 20px",
 		],
 	
 	"#navigation-header-topline" => [
