@@ -146,6 +146,7 @@ $style_array = [
 	"#body-content p" => [
 		"display"		=> "block",
 		"margin"		=> "20px auto",
+		"max-width"		=> "800px",
 		],
 	
 	"#contact-footer" => [
@@ -167,12 +168,7 @@ $style_array = [
 		"margin"		=> "20px auto 50px",
 		],
 	
-	".contact-footer-secondary-instructions" => [
-		"font-style"		=> "italic",
-		"margin"		=> "0 auto 10px",
-		],
-
-	".contact-footer-secondary-details" => [
+	".contact-footer-secondary" => [
 		"margin"		=> "0 auto 30px",
 		],
 
@@ -279,15 +275,21 @@ echo "</div>";
 // Contact footer
 echo "<div id='contact-footer'>";
 
-	echo "<div id='contact-footer-primary'>To reach Dr. Zaken,<br>
-	E-mail, info@drmordechaizaken.com</div>";
+	echo "<div id='contact-footer-primary'>";
+		echo "To reach Dr. Zaken,<br>";
+		echo "E-mail, info@drmordechaizaken.com";
+		echo "</div>";
 
-	echo "<div class='contact-footer-secondary-instructions'>". $translatable_elements["to-contact-the-national-association"][$language_request] ."</div>";
-	echo "<div class='contact-footer-secondary-details'>E-mail, info@kurdishjewry.org.il</div>";
+	echo "<div class='contact-footer-secondary'>";
+		echo "<i>". $translatable_elements["to-contact-the-national-association"][$language_request] ."</i><br>";
+		echo "E-mail, info@kurdishjewry.org.il";
+		echo "</div>";
 
-	echo "<div class='contact-footer-secondary-instructions'>". $translatable_elements["to-contact-foundation-of-ours"][$language_request] ."</div>";
-	echo "<div class='contact-footer-secondary-details'>Telephone, +1 (207) 216-5608<br>
-	E-mail, info@ours.foundation</div>";
+	echo "<div class='contact-footer-secondary'>";
+		echo "<i>". $translatable_elements["to-contact-foundation-of-ours"][$language_request] ."</i><br>";
+		echo "Telephone, +1 (207) 216-5608<br>";
+		echo "E-mail, info@ours.foundation";
+		echo "</div>";
 
 	echo "</div>";
 
