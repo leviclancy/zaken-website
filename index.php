@@ -90,7 +90,7 @@ $style_array = [
 	
 	"#navigation-header" => [
 		"display"		=> "block",
-		"background-image"	=> "linear-gradient(0deg, rgba(200,200,200,1), rgba(255,255,255,1))",
+		"background-image"	=> "linear-gradient(0deg, rgba(200,200,200,0.8), rgba(255,255,255,1))",
 		"color"			=> "#333",
 //		"column-width"		=> "300px",
 //		"column-count"		=> "2",
@@ -161,6 +161,7 @@ $style_array = [
 	"#body-content amp-img" => [
 		"max-width"		=> "950px",
 		"padding"		=> "0",
+		"box-shadow"		=> "inset 0 30px 30px -15px rgba(255,255,255,1);
 		],
 	
 	"#body-content h1, #body-content h2" => [
