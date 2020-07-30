@@ -205,10 +205,13 @@ $style_array = [
 		"column-width"		=> "300px",
 		"column-count"		=> "3",
 		"column-gap"		=> "30px",
+		"list-style-type"	=> "none",
 		],
 
-	"#body-content li" => [	
-		"font-size"		=> "130%",
+	"#body-content li" => [
+		"display"		=> "block",
+		"font-size"		=> "120%",
+		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
 		],
 	
 	"#contact-footer" => [
