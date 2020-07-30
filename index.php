@@ -137,6 +137,18 @@ $style_array = [
 		"font-style"		=> "italic",
 		],
 	
+	"#body-contact" => [
+		"display"		=> "block",
+		"color"			=> "#fff",
+		"box-shadow"		=> "0 0 30px -5px rgba(100,100,100,0.3)",
+		"padding"		=> "100px 20xp",
+		],
+	
+	"#body-contact p" => [
+		"display"		=> "block",
+		"margin"		=> "20px auto",
+		],
+	
 	"#contact-footer" => [
 		"display"		=> "block",
 		"color"			=> "rgba(100,100,100,1)",
@@ -198,6 +210,8 @@ echo "<div id='splash-header'>";
 	echo "<span id='splash-header-topline'>". $translatable_elements["last-updated"][$language_request] ."</span>";
 	echo "</div>";
 
+echo "<div id='body-content'>";
+
 if ([$pageview_request, $language_request] == ["home", "en"]):
 
 	echo "<p>Dr. Zaken invites the public to learn from his career, drawing on a variety of resources presented here. Dr. Zaken's career </p>";
@@ -252,6 +266,8 @@ if ([$pageview_request, $language_request] == ["israeli-and-zionism", "en"]):
 	echo "<p></p>";
 
 	endif;
+
+echo "</div>";
 
 // Contact footer
 echo "<div id='contact-footer'>";
