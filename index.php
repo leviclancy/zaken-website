@@ -339,7 +339,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 //	echo "<li>Director of the Institute of Students and Faculty on Israel, in New York.</li>";
 	echo "</ul>";
 
-	echo "<figure class='amp-img-fader' amp-fx='parallax' data-parallax-factor='1.14'>";
+	echo "<figure class='amp-img-fader' amp-fx='parallax' data-parallax-factor='1.04'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='_DSF5567-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
