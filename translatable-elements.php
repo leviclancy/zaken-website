@@ -13,6 +13,13 @@
 		"he"	=> "",
 		"ku"	=> "",
 		],
+	
+	"last-updated" => [
+		"ar"	=> "",
+		"en"	=> "Last updated July 29th, 2020",
+		"he"	=> "",
+		"ku"	=> "",
+		],
 		
 	"home" => [
 		"ar"	=> "",
@@ -28,14 +35,14 @@
 		"ku"	=> "",
 		],
 
-	"kurdistan" => [
+	"jews-of-kurdistan" => [
 		"ar"	=> "",
-		"en"	=> "Kurdistan",
+		"en"	=> "Jews of Kurdistan",
 		"he"	=> "",
 		"ku"	=> "",
 		],
 
-	"israeli-arabs" => [
+	"arab-affairs" => [
 		"ar"	=> "",
 		"en"	=> "Israeli Arabs",
 		"he"	=> "",
@@ -44,7 +51,7 @@
 		
 	"israel-and-zionism" => [
 		"ar"	=> "",
-		"en"	=> "Israel + Zionism",
+		"en"	=> "Israel and Zionism",
 		"he"	=> "",
 		"ku"	=> "",
 		],
