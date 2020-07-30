@@ -158,6 +158,7 @@ $style_array = [
 		],
 	
 	"#body-content amp-img" => [
+		"max-width"		=> "950px",
 		"padding"		=> "0",
 		],
 	
@@ -240,15 +241,11 @@ echo "<div id='body-content'>";
 
 if ([$pageview_request, $language_request] == ["home", "en"]):
 
-	echo "<div id='body-content-splash'>";
+	echo "<amp-img src='_DSF4377.jpg' width='4' height='3' layout='responsive'></amp-img>";
 
-		echo "<h1>Dr. Mordechai Zaken</h1>";
+	echo "<h1>Dr. Mordechai Zaken</h1>";
 
-		echo "<amp-img src='_DSF4377.jpg' width='4' height='3' layout='responsive'></amp-img>";
-
-		echo '<h2>' . 'ד"ר מרדכי זקן' . '<br>' . 'د. موردەخای زاکێن' . '</h2>';
-
-		echo "</div>";
+	echo '<h2>' . 'ד"ר מרדכי זקן' . '<br>' . 'د. موردەخای زاکێن' . '</h2>';
 
 	echo "<p>Dr. Zaken invites the public to learn from his career, drawing on a variety of resources presented here. Dr. Zaken's career </p>";
 
