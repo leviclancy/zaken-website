@@ -194,7 +194,7 @@ $style_array = [
 		"padding"		=> "0 100px 0 20px",
 		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
 		"font-weight"		=> "700",
-		"line-height"		=> "1.6em",
+		"line-height"		=> "1.4em",
 		],
 	
 	"#body-content h1" => [
