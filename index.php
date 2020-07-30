@@ -90,7 +90,7 @@ $style_array = [
 	
 	"#navigation-header" => [
 		"display"		=> "block",
-		"background-image"	=> "linear-gradient(90deg, rgba(200,200,200,1), rgba(0,0,0,1))",
+		"background-image"	=> "linear-gradient(0deg, rgba(200,200,200,1), rgba(255,255,255,1))",
 		"color"			=> "#333",
 //		"column-width"		=> "300px",
 //		"column-count"		=> "2",
@@ -126,7 +126,7 @@ $style_array = [
 	
 	".navigation-header-button" => [
 //		"background"		=> "rgba(255,255,255,1)",
-		"color"			=> "rgba(255,255,255,1)",
+		"color"			=> "rgba(100,100,100,1)",
 		"display"		=> "inline-block",
 		"padding"		=> "20px 22px 0 22px",
 //		"border-radius"		=> "100px",
@@ -141,7 +141,8 @@ $style_array = [
 	
 	".navigation-header-button-selected" => [
 //		"background"		=> "rgba(100,100,100,1)",
-		"color"			=> "rgba(255,255,255,0.65)",
+//		"color"			=> "rgba(255,255,255,0.65)",
+		"font-weight"		=> "700",
 		],
 	
 	"#body-content" => [
