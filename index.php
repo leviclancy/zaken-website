@@ -137,14 +137,14 @@ $style_array = [
 		"font-style"		=> "italic",
 		],
 	
-	"#body-contact" => [
+	"#body-content" => [
 		"display"		=> "block",
 		"color"			=> "#fff",
 		"box-shadow"		=> "0 0 30px -5px rgba(100,100,100,0.3)",
 		"padding"		=> "100px 20xp",
 		],
 	
-	"#body-contact p" => [
+	"#body-content p" => [
 		"display"		=> "block",
 		"margin"		=> "20px auto",
 		],
