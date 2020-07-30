@@ -94,6 +94,7 @@ $style_array = [
 		"column-gap"		=> "30px",
 		"font-family"		=> "Assistant",
 		"text-align"		=> "center",
+		"padding"		=> "0 0 20px",
 		],
 	
 	".navigation-header-button" => [
