@@ -270,7 +270,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 //	echo "<li>Director of the Institute of Students and Faculty on Israel, in New York.</li>";
 	echo "</ul>";
 
-	echo "<figure amp-fx='parallax' data-parallax-factor='1.02'><amp-img src='_DSF4565-compressed.jpg' width='1000' height='570' layout='responsive'></amp-img>";
+	echo "<figure><amp-img src='_DSF4565-compressed.jpg' width='1000' height='570' layout='responsive'></amp-img>";
 	echo "<figcaption>Akre, near Duhok in the Kurdistan Region of Iraq.</figcaption></figure>";
 
 	echo "<h2>Condensed biography</h2>";
