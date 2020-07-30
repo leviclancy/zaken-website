@@ -158,6 +158,7 @@ $style_array = [
 		"max-width"		=> "800px",
 		"display"		=> "block",
 		"text-align"		=> "left",
+		"padding"		=> "20px",
 		],
 	
 	"#contact-footer-primary" => [
