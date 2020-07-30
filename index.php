@@ -151,7 +151,7 @@ $style_array = [
 		"display"		=> "block",
 		"color"			=> "#333",
 		"padding"		=> "30px 0 100px",
-		"font-family"		=> "Molengo";
+		"font-family"		=> "Molengo",
 		],
 	
 	"#body-content h1, #body-content h2, #body-content p, #body-content ul, #body-content ol, #body-content figure" => [
