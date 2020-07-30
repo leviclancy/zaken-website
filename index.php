@@ -58,6 +58,7 @@ echo '<link href="https://fonts.googleapis.com/css2?family=Assistant&display=swa
 echo '<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">';
 echo '<link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap" rel="stylesheet">';
 echo '<link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">';
+echo '<link href="https://fonts.googleapis.com/css2?family=Molengo&display=swap" rel="stylesheet">';
 
 echo "<title>". $title_temp ."</title>";
 
@@ -150,6 +151,7 @@ $style_array = [
 		"display"		=> "block",
 		"color"			=> "#333",
 		"padding"		=> "30px 0 100px",
+		"font-family"		=> "Molengo";
 		],
 	
 	"#body-content h1, #body-content h2, #body-content p, #body-content ul, #body-content ol, #body-content figure" => [
