@@ -186,6 +186,7 @@ $style_array = [
 	
 	"#body-content td:first-child" => [
 		"margin"		=> "30px 0 10px",
+		"font-weight"		=> "700",
 		],
 	
 	"#body-content h1, #body-content h2" => [
@@ -198,7 +199,17 @@ $style_array = [
 		"margin"		=> "50px auto",
 		"font-size"		=> "240%",
 		"text-shadow"		=> "2px 2px 20px -10px rgba(50,50,50,0.25)",
-		],	
+		],
+
+	"#body-content ul" => [	
+		"column-width"		=> "300px",
+		"column-count"		=> "3",
+		"column-gap"		=> "30px",
+		],
+
+	"#body-content li" => [	
+		"font-size"		=> "130%",
+		],
 	
 	"#contact-footer" => [
 		"display"		=> "block",
@@ -272,7 +283,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<figure amp-fx='parallax' data-parallax-factor='1.14'><amp-img src='_DSF4377-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Rawanduz, near Erbil in the Kurdistan Region of Iraq.</figcaption></figure>";
 
-	echo "<h1 amp-fx='parallax' data-parallax-factor='1.1'>A career summary of Dr. Mordechai Zaken</h1>";
+	echo "<h1 amp-fx='parallax' data-parallax-factor='1.1'>Career summary of Dr. Mordechai Zaken</h1>";
 
 	echo "<p amp-fx='parallax' data-parallax-factor='1.07'>Dr. Mordechai Zaken was born in 1958 in Jerusalem. His father was born in Iraqi Kurdistan, and immigrated to Israel; his mother was born in El-Roi, a village in Yezreel Valley. His career highlights include,</p>";
 
@@ -287,10 +298,9 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<figure><amp-img src='_DSF5567-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Flags of Israel and Jerusalem, overlooking the ramparts.</figcaption></figure>";
 
-	echo "<h2>Condensed biography</h2>";
+	echo "<h2>Condensed highlights</h2>";
 
 	echo "<table><tbody>";
-	echo "<tr><td></td><td></td></tr>";
 	echo "<tr><td>2019</td><td>2019 Laureate, Prime Minister Prize, Research of the Jews of the Orient.</td></tr>";
 	echo "<tr><td></td><td></td></tr>";
 	echo "<tr><td>2013-2015</td><td>Dr. Zaken's book is translated into Arabic, in Beirut (2013) and into Sorani Kurdish, in Arbil (2015).</td></tr>";
