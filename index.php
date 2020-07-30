@@ -20,7 +20,7 @@ mb_internal_encoding('UTF-8');
 mb_http_output('UTF-8');
 
 // The pageview is passed in the URL
-$pageview_request_allowed = [ "home", "bookstore", "kurdistan", "israeli-arabs", "israel-and-zionism", ];
+$pageview_request_allowed = [ "home", "bookstore", "jews-of-kurdistan", "arab-affairs", "israel-and-zionism", ];
 $pageview_request = ( empty($_REQUEST['pageview']) ? "home" : $_REQUEST['pageview'] );
 if (!(in_array($pageview_request, $pageview_request_allowed))): $pageview_request = "home"; endif;
 
@@ -222,9 +222,9 @@ if ([$pageview_request, $language_request] == ["bookstore", "en"]):
 
 	endif;
 
-if ([$pageview_request, $language_request] == ["kurdistan", "en"]):
+if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 
-	echo "<h2>Kurdistan</h2>";
+	echo "<h2>Jews of Kurdistan</h2>";
 
 	echo "<dl>";
 
@@ -237,9 +237,9 @@ if ([$pageview_request, $language_request] == ["kurdistan", "en"]):
 	
 	endif;
 	
-if ([$pageview_request, $language_request] == ["israeli-arabs", "en"]):
+if ([$pageview_request, $language_request] == ["arab-affairs", "en"]):
 
-	echo "<h2>Israeli Arabs</h2>";
+	echo "<h2>Arab Affairs</h2>";
 	echo "<p>To buy <a href='https://kurdishjews.com/'>The Jews of Kurdistan and their Tribal Chieftains</a>.</p>";
 	echo "<p></p>";
 	
