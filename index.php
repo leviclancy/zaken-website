@@ -118,8 +118,8 @@ $style_array = [
 		"display"		=> "block",
 		"width"			=> "100%",
 		"height"		=> "1px",
-		"border"		=> "0",
-		"background"		=> "rgba(255,255,255,0.5)",
+		"border"		=> "none",
+		"background"		=> "rgba(255,255,255,0.2)",
 		],
 	
 	".navigation-header-button" => [
