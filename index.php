@@ -107,7 +107,7 @@ $style_array = [
 		],
 	
 	"#navigation-header-name" => [
-		"margin"		=> "5px auto 0",
+		"margin"		=> "5px auto 30px",
 		"display"		=> "block",
 		"font-size"		=> "135%",
 		"font-weight"		=> "700",
