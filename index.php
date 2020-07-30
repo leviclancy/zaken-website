@@ -229,7 +229,7 @@ echo "</style>";
 echo "</head><body>";
 
 // Navigation buttons
-echo "<div id='navigation-header' data-parallax-factor='1.3'>";
+echo "<div id='navigation-header' amp-fx='parallax' data-parallax-factor='1.3'>";
 
 	echo "<span id='navigation-header-topline'>". $translatable_elements["from-the-desk-of"][$language_request] ."</span>";
 	echo "<span id='navigation-header-name'>". $translatable_elements["dr-mordechai-zaken"][$language_request] ."</span>";
@@ -251,10 +251,10 @@ echo "<div id='body-content'>";
 
 if ([$pageview_request, $language_request] == ["home", "en"]):
 
-	echo "<figure data-parallax-factor='1.2'><amp-img src='_DSF4377.jpg' width='4' height='3' layout='responsive'></amp-img>";
+	echo "<figure amp-fx='parallax' data-parallax-factor='1.2'><amp-img src='_DSF4377.jpg' width='4' height='3' layout='responsive'></amp-img>";
 	echo "<figcaption>Rawanduz, near Erbil in the Kurdistan Region of Iraq.</figcaption></figure>";
 
-	echo "<h1 data-parallax-factor='1.05'>A career summary of Dr. Mordechai Zaken</h1>";
+	echo "<h1 amp-fx='parallax' data-parallax-factor='1.05'>A career summary of Dr. Mordechai Zaken</h1>";
 
 	echo "<p>Born 1958 in Jerualem, Dr. Zaken </p>";
 
