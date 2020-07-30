@@ -289,6 +289,28 @@ echo '<amp-animation id="slideTransition"
   </script>
 </amp-animation>';
 
+echo '<amp-animation id="slideTransition"
+  layout="nodisplay">
+  <script type="application/json">
+    {
+      "duration": "500ms",
+      "fill": "both",
+      "easing": "ease-out",
+      "iterations": "1",
+      "animations": [{
+        "selector": ".card-title",
+        "keyframes": [{
+            "transform": "translateX(-100%)"
+          },
+          {
+            "transform": "translateX(0)"
+          }
+        ]
+      }]
+    }
+  </script>
+</amp-animation>';
+
 // Navigation buttons
 echo "<div id='navigation-header' amp-fx='parallax' data-parallax-factor='1.3'>";
 
@@ -330,7 +352,10 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 //	echo "<li>Director of the Institute of Students and Faculty on Israel, in New York.</li>";
 	echo "</ul>";
 
-	echo "<figure><amp-img src='_DSF5567-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
+	echo "<figure amp-fx='parallax' data-parallax-factor='1.14'>";
+	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
+	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
+	echo "<amp-img src='_DSF5567-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Flags of Israel and Jerusalem, overlooking the ramparts.</figcaption></figure>";
 
 	echo "<h2>Condensed highlights</h2>";
