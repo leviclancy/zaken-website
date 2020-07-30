@@ -214,6 +214,7 @@ $style_array = [
 		"margin"		=> "20px auto 30px",
 		"font-size"		=> "120%",
 		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
+		"text-align"		=> "center",
 		],
 	
 	"#contact-footer" => [
