@@ -267,21 +267,30 @@ echo "</style>";
 
 echo "</head><body>";
 
-echo '<amp-animation id="slideTransition"
+echo '<amp-animation id="fadeTransition"
   layout="nodisplay">
   <script type="application/json">
     {
-      "duration": "500ms",
+      "duration": "1",
       "fill": "both",
-      "easing": "ease-out",
-      "iterations": "1",
+      "direction": "reverse",
       "animations": [{
-        "selector": ".card-title",
+        "selector": "#cardImage",
         "keyframes": [{
-            "transform": "translateX(-100%)"
+            "opacity": "0.3",
+            "offset": 0
           },
           {
-            "transform": "translateX(0)"
+            "opacity": "1",
+            "offset": 0.4
+          },
+          {
+            "opacity": "1",
+            "offset": 0.6
+          },
+          {
+            "opacity": "0.3",
+            "offset": 1
           }
         ]
       }]
@@ -334,7 +343,7 @@ echo "<div id='body-content'>";
 
 if ([$pageview_request, $language_request] == ["home", "en"]):
 
-	echo "<figure amp-fx='parallax' data-parallax-factor='1.14'>";
+	echo "<figure class='amp-img-fader' amp-fx='parallax' data-parallax-factor='1.14'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='_DSF4377-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
@@ -352,7 +361,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 //	echo "<li>Director of the Institute of Students and Faculty on Israel, in New York.</li>";
 	echo "</ul>";
 
-	echo "<figure amp-fx='parallax' data-parallax-factor='1.14'>";
+	echo "<figure class='amp-img-fader' amp-fx='parallax' data-parallax-factor='1.14'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='_DSF5567-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
