@@ -152,7 +152,7 @@ $style_array = [
 		"display"		=> "block",
 		"color"			=> "rgba(220,220,220,1)",
 		"background"		=> "rgba(50,50,50,1)",
-		"padding"		=> "200px 0",
+		"padding"		=> "100px 0",
 		],
 	
 	"#contact-footer div" => [
@@ -279,13 +279,15 @@ echo "</div>";
 // Contact footer
 echo "<div id='contact-footer'>";
 
-	echo "<div id='contact-footer-primary'>info@drmordechaizaken.com</div>";
+	echo "<div id='contact-footer-primary'>To reach Dr. Zaken<br>
+	E-mail, info@drmordechaizaken.com</div>";
 
 	echo "<div class='contact-footer-secondary-instructions'>". $translatable_elements["to-contact-the-national-association"][$language_request] ."</div>";
-	echo "<div class='contact-footer-secondary-details'>??@???</div>";
+	echo "<div class='contact-footer-secondary-details'>E-mail, info@kurdishjewry.org.il</div>";
 
 	echo "<div class='contact-footer-secondary-instructions'>". $translatable_elements["to-contact-foundation-of-ours"][$language_request] ."</div>";
-	echo "<div class='contact-footer-secondary-details'>+1 (207) 216-5608 info@ours.foundation</div>";
+	echo "<div class='contact-footer-secondary-details'>Telephone, +1 (207) 216-5608<br>
+	E-mail, info@ours.foundation</div>";
 
 	echo "</div>";
 
