@@ -202,14 +202,15 @@ $style_array = [
 		],
 
 	"#body-content ul" => [	
-		"column-width"		=> "300px",
-		"column-count"		=> "3",
-		"column-gap"		=> "30px",
+//		"column-width"		=> "300px",
+//		"column-count"		=> "3",
+//		"column-gap"		=> "30px",
 		"list-style-type"	=> "none",
 		],
 
 	"#body-content li" => [
 		"display"		=> "block",
+		"margin"		=> "20px auto",
 		"font-size"		=> "120%",
 		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
 		],
