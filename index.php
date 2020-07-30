@@ -147,8 +147,7 @@ $style_array = [
 	"#body-content" => [
 		"display"		=> "block",
 		"color"			=> "#333",
-		"box-shadow"		=> "0 0 30px -5px rgba(100,100,100,0.3)",
-		"padding"		=> "100px 20xp",
+		"padding"		=> "100px 20px",
 		],
 	
 	"#body-content h1, #body-content h2, #body-content p, #body-content ul, #body-content ol" => [
@@ -231,8 +230,14 @@ echo "<div id='body-content'>";
 
 if ([$pageview_request, $language_request] == ["home", "en"]):
 
-	echo "<h1>Dr. Mordechai Zaken</h1>";
-	echo '<h2>' . 'ד"ר מרדכי זקן' . ' &nbsp; • &nbsp; ' . 'د. موردەخای زاکێن' . '</h2>';
+	echo "<div id='body-content-splash'>";
+
+		echo "<amp-img src='_DSF4377.jpg' width='4' height='3' layout='responsive'></amp-img>";
+
+		echo "<h1>Dr. Mordechai Zaken</h1>";
+		echo '<h2>' . 'ד"ר מרדכי זקן' . ' &nbsp; • &nbsp; ' . 'د. موردەخای زاکێن' . '</h2>';
+
+		echo "</div>";
 
 	echo "<p>Dr. Zaken invites the public to learn from his career, drawing on a variety of resources presented here. Dr. Zaken's career </p>";
 
