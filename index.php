@@ -70,7 +70,7 @@ $style_array = [
 	"body" => [
 		"font-family" 		=> "Times",
 		"background"		=> "#fff",
-		"font-size"		=> "17px",
+		"font-size"		=> "18px",
 		"margin"		=> "0",
 		"padding"		=> "0",
 		],
@@ -152,7 +152,7 @@ $style_array = [
 		"color"			=> "#333",
 		"padding"		=> "30px 0 100px",
 		"font-family"		=> "Molengo",
-		"font-size"		=> "17px",
+		"line-height"		=> "1.3em",
 		],
 	
 	"#body-content h1, #body-content h2, #body-content p, #body-content ul, #body-content ol, #body-content figure, #body-content table" => [
