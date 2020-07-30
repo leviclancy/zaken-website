@@ -256,7 +256,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 
 	echo "<h1 data-parallax-factor='1.05'>A career summary of Dr. Mordechai Zaken</h1>";
 
-	echo "<p>Born 1958 in Jerualem, Dr. Zaken 
+	echo "<p>Born 1958 in Jerualem, Dr. Zaken </p>";
 
 	echo "<p>Dr. Zaken invites the public to learn from his career, drawing on a variety of resources presented here. Dr. Zaken's career </p>";
 
