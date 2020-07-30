@@ -114,6 +114,14 @@ $style_array = [
 		"font-family"		=> "'Noto Serif JP'",
 		],
 	
+	"#navigation-header hr" => [
+		"display"		=> "block",
+		"width"			=> "100%",
+		"height"		=> "1px",
+		"border"		=> "0",
+		"background"		=> "rgba(255,255,255,0.5)",
+		]
+	
 	".navigation-header-button" => [
 //		"background"		=> "rgba(255,255,255,1)",
 		"color"			=> "rgba(255,255,255,1)",
