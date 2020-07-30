@@ -152,6 +152,7 @@ $style_array = [
 		"display"		=> "block",
 		"color"			=> "rgba(220,220,220,1)",
 		"background"		=> "rgba(50,50,50,1)",
+		"padding"		=> "200px 0",
 		],
 	
 	"#contact-footer div" => [
