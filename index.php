@@ -158,6 +158,7 @@ $style_array = [
 		"max-width"		=> "800px",
 		"padding"		=> "0 20px",
 		"text-align"		=> "left",
+		"box-sizing"		=> "border-box",
 		],
 	
 
@@ -172,7 +173,7 @@ $style_array = [
 		],
 	
 	"#body-content h1, #body-content h2" => [
-		"padding"		=> "0 100px 0 20px",
+		"padding"		=> "0 70px 0 20px",
 		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
 		"font-style"		=> "700",
 		"text-align"		=> "center",
