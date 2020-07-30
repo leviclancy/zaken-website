@@ -275,7 +275,7 @@ echo '<amp-animation id="fadeTransition"
       "fill": "both",
       "direction": "reverse",
       "animations": [{
-        "selector": "#cardImage",
+        "selector": ".amp-img-fader",
         "keyframes": [{
             "opacity": "0.3",
             "offset": 0
@@ -307,7 +307,7 @@ echo '<amp-animation id="slideTransition"
       "easing": "ease-out",
       "iterations": "1",
       "animations": [{
-        "selector": ".card-title",
+        "selector": ".amp-img-fader",
         "keyframes": [{
             "transform": "translateX(-100%)"
           },
