@@ -100,11 +100,14 @@ $style_array = [
 	
 	"#navigation-header-topline" => [
 		"display"		=> "block",
-		"font-size"		=> "80%",
+		"font-size"		=> "70%",
 		"font-family"		=> "'Noto Serif JP'",
+		"text-transform"	=> "uppercase",
+		"letter-spacing"	=> "1px",
 		],
 	
 	"#navigation-header-name" => [
+		"margin"		=> "10px auto 0",
 		"display"		=> "block",
 		"font-size"		=> "130%",
 		"font-family"		=> "'Noto Serif JP'",
@@ -120,6 +123,7 @@ $style_array = [
 		"cursor"		=> "pointer",
 		"font-size"		=> "90%",
 		"text-align"		=> "center",
+		"letter-spacing"	=> "1px",
 //		"border"		=> "2px solid #777",
 		],
 	
