@@ -85,23 +85,24 @@ $style_array = [
 		"display"		=> "none",
 		],
 	
-		"#navigation-header" => [
+	"#navigation-header" => [
 		"display"		=> "block",
 		"background"		=> "#444",
 		"color"			=> "#fff",
-//		"column-width"		=> "300px"
-//		"column-count"		=> "2",
-//		"column-gap"		=> "30px",
+		"column-width"		=> "300px"
+		"column-count"		=> "2",
+		"column-gap"		=> "30px",
 		"font-family"		=> "Assistant",
+		"text-align"		=> "center",
 		],
 	
 	".navigation-header-button" => [
 //		"background"		=> "rgba(255,255,255,1)",
 		"color"			=> "rgba(255,255,255,1)",
 		"display"		=> "inline-block",
-		"padding"		=> "20px 25px",
+		"padding"		=> "20px 20px 0 0",
 //		"border-radius"		=> "100px",
-//		"margin"		=> "20px 20px 0 0",
+		"margin"		=> "0",
 		"cursor"		=> "pointer",
 		"font-size"		=> "80%",
 		"text-align"		=> "center",
