@@ -156,6 +156,22 @@ $style_array = [
 		"max-width"		=> "800px",
 		],
 	
+	"#body-content-splash" => [
+		"position"		=> "relative",
+		],
+	
+	"#body-content-splash h1" => [
+		"position"		=> "absolute",
+		"top"			=> "30px",
+		"color"			=> "#fff",
+		],
+	
+	"#body-content-splash amp-img" => [
+		"position"		=> "relative",
+		"filter"		=> "brightness(50%)",
+		"opacity"		=> "50%",
+		],
+	
 	"h1, h2" => [
 		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
 		"font-style"		=> "700",
@@ -232,9 +248,10 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 
 	echo "<div id='body-content-splash'>";
 
+		echo "<h1>Dr. Mordechai Zaken</h1>";
+
 		echo "<amp-img src='_DSF4377.jpg' width='4' height='3' layout='responsive'></amp-img>";
 
-		echo "<h1>Dr. Mordechai Zaken</h1>";
 		echo '<h2>' . 'ד"ר מרדכי זקן' . '<br>' . 'د. موردەخای زاکێن' . '</h2>';
 
 		echo "</div>";
