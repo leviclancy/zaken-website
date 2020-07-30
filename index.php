@@ -147,7 +147,7 @@ $style_array = [
 	"#body-content" => [
 		"display"		=> "block",
 		"color"			=> "#333",
-		"padding"		=> "100px 20px",
+		"padding"		=> "70px 20px",
 		],
 	
 	"#body-content h1, #body-content h2, #body-content p, #body-content ul, #body-content ol, #body-content amp-img" => [
@@ -163,8 +163,8 @@ $style_array = [
 		],
 
 	"h1" => [
-		"margin"		=> "20px auto 8px",
-		"font-size"		=> "180%",
+		"margin"		=> "30px auto 80px",
+		"font-size"		=> "230%",
 		],	
 	
 	"#contact-footer" => [
