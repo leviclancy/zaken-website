@@ -154,7 +154,7 @@ $style_array = [
 		"font-family"		=> "Molengo",
 		],
 	
-	"#body-content h1, #body-content h2, #body-content p, #body-content ul, #body-content ol, #body-content figure" => [
+	"#body-content h1, #body-content h2, #body-content p, #body-content ul, #body-content ol, #body-content figure, #body-content table" => [
 		"display"		=> "block",
 		"margin"		=> "20px auto",
 		"max-width"		=> "800px",
@@ -169,9 +169,23 @@ $style_array = [
 		"padding"		=> "0",
 		],
 	
+	"#body-content amp-img" => [
+		"border-radius"		=> "10px",
+		],
+	
 	"#body-content figcaption" => [
 		"font-size"		=> "80%",
 		"font-family"		=> "Assistant",
+		],
+	
+	"#body-content td" => [
+		"display"		=> "block",
+		"margin"		=> "0",
+		"padding"		=> "0",		
+		],
+	
+	"#body-content td:first-child" => [
+		"margin"		=> "30px 0 10px",
 		],
 	
 	"#body-content h1, #body-content h2" => [
@@ -255,7 +269,7 @@ echo "<div id='body-content'>";
 
 if ([$pageview_request, $language_request] == ["home", "en"]):
 
-	echo "<figure amp-fx='parallax' data-parallax-factor='1.14'><amp-img src='_DSF4377.jpg' width='4' height='3' layout='responsive'></amp-img>";
+	echo "<figure amp-fx='parallax' data-parallax-factor='1.14'><amp-img src='_DSF4377-compressed.jpg' width='4' height='3' layout='responsive'></amp-img>";
 	echo "<figcaption>Rawanduz, near Erbil in the Kurdistan Region of Iraq.</figcaption></figure>";
 
 	echo "<h1 amp-fx='parallax' data-parallax-factor='1.1'>A career summary of Dr. Mordechai Zaken</h1>";
@@ -270,14 +284,12 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 //	echo "<li>Director of the Institute of Students and Faculty on Israel, in New York.</li>";
 	echo "</ul>";
 
-	echo "<figure><amp-img src='_DSF4565-compressed.jpg' width='1000' height='570' layout='responsive'></amp-img>";
-	echo "<figcaption>Akre, near Duhok in the Kurdistan Region of Iraq.</figcaption></figure>";
+	echo "<figure><amp-img src='_DSF5567-compressed.jpg' width='1000' height='570' layout='responsive'></amp-img>";
+	echo "<figcaption>Flags of Israel and Jerusalem, overlooking the ramparts.</figcaption></figure>";
 
 	echo "<h2>Condensed biography</h2>";
 
-	echo "<table>";
-	echo "<thead><tr><th>Time</th><th>Overview</th></tr></thead>";
-	echo "<tbody>";
+	echo "<table><tbody>";
 	echo "<tr><td></td><td></td></tr>";
 	echo "<tr><td>2019</td><td>2019 Laureate, Prime Minister Prize, Research of the Jews of the Orient.</td></tr>";
 	echo "<tr><td></td><td></td></tr>";
@@ -289,6 +301,12 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td>2003</td><td>Thesis published on Jews of Kurdistan, through Hebrew University. He began working on this research project around 1985 and completed it around 2002/03 when he submitted his PhD dissertation to the Research Committee of the university. The Book, which was partly based on his PhD dissertation, was published at the end of 2007 by Brill Academic Publishers. The PhD Thesis unfolds the story of the Jews in Kurdistan in urban centers and villages and their relations with their tribal chieftains (aghas) from whom they received patronage and protection in the tribal Kurdish society, in return for their loyalty and other social and financial duties and obligations. The second part of the thesis deals with the history of the Assyrians in Kurdistan, during the 19th and 20th centuries.</td></tr>";
 	echo "<tr><td></td><td></td></tr>";
 	echo "<tr><td></td><td></td></tr>";
+	echo "</tbody></table>";
+
+	echo "<figure><amp-img src='_DSF4565-compressed.jpg' width='1000' height='570' layout='responsive'></amp-img>";
+	echo "<figcaption>Akre, near Duhok in the Kurdistan Region of Iraq.</figcaption></figure>";
+
+	echo "<table><tbody>";
 	echo "<tr><td>2001 May — 2007 May</td><td>Advisor on Minorities Affairs to the Minister, Ministry of Internal Security.</td></tr>";
 	echo "<tr><td>1999 — 2002</td><td></td></tr>";
 	echo "<tr><td>1999 Nov — 2001 Dec</td><td>East-Up Inc, Founder. East-Up, Inc. aimed to enhance the medical services and treatment of the Arab speaking world in the Middle East, through the Internet.</td></tr>";
@@ -306,6 +324,9 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td>1982</td><td>While studying at the University he was active in the student's body. Among other things he was the Editor-IN-Chief of the 'mythological' students newspaper 'Pi Ha-Aton' (פי-האתון), around 1982.</td></tr>";
 	echo "<tr><td></td><td></td></tr>";
 	echo "</tbody></table>";
+
+	echo "<figure><amp-img src='_DSF2224-compressed.jpg' width='1000' height='570' layout='responsive'></amp-img>";
+	echo "<figcaption>The Arab neighborhood of the Old City in Jerusalem.</figcaption></figure>";
 
 	echo "<h2>References</h2>";
 
