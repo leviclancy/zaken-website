@@ -157,7 +157,7 @@ $style_array = [
 	"#contact-footer div" => [
 		"max-width"		=> "800px",
 		"display"		=> "block",
-		"text-align"		=> "center",
+		"text-align"		=> "left",
 		],
 	
 	"#contact-footer-primary" => [
