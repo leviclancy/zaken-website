@@ -90,7 +90,7 @@ $style_array = [
 	
 	"#navigation-header" => [
 		"display"		=> "block",
-		"background-image"	=> "linear-gradient(0deg, rgba(200,200,200,0.5), rgba(255,255,255,1))",
+		"background-image"	=> "linear-gradient(0deg, rgba(200,200,200,0.35), rgba(255,255,255,1))",
 		"color"			=> "#333",
 //		"column-width"		=> "300px",
 //		"column-count"		=> "2",
@@ -244,7 +244,8 @@ echo "<div id='body-content'>";
 
 if ([$pageview_request, $language_request] == ["home", "en"]):
 
-	echo "<amp-img src='_DSF4377.jpg' width='4' height='3' layout='responsive'></amp-img>";
+	echo "<figure><amp-img src='_DSF4377.jpg' width='4' height='3' layout='responsive'></amp-img>";
+	echo "<figcaption>Rawanduz, near Erbil in the Kurdistan Region of Iraq.</figcaption></figure>";
 
 	echo "<h1>Dr. Mordechai Zaken</h1>";
 
