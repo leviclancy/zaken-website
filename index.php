@@ -277,7 +277,7 @@ echo '<amp-animation id="fadeTransition"
       "animations": [{
         "selector": ".amp-img-fader",
         "keyframes": [{
-            "opacity": "0.3",
+            "opacity": "0.2",
             "offset": 0
           },
           {
@@ -289,30 +289,8 @@ echo '<amp-animation id="fadeTransition"
             "offset": 0.6
           },
           {
-            "opacity": "0.3",
+            "opacity": "0.2",
             "offset": 1
-          }
-        ]
-      }]
-    }
-  </script>
-</amp-animation>';
-
-echo '<amp-animation id="slideTransition"
-  layout="nodisplay">
-  <script type="application/json">
-    {
-      "duration": "500ms",
-      "fill": "both",
-      "easing": "ease-out",
-      "iterations": "1",
-      "animations": [{
-        "selector": ".amp-img-fader",
-        "keyframes": [{
-            "transform": "translateX(-100%)"
-          },
-          {
-            "transform": "translateX(0)"
           }
         ]
       }]
