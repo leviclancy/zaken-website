@@ -279,7 +279,7 @@ echo "</div>";
 // Contact footer
 echo "<div id='contact-footer'>";
 
-	echo "<div id='contact-footer-primary'>To reach Dr. Zaken<br>
+	echo "<div id='contact-footer-primary'>To reach Dr. Zaken,<br>
 	E-mail, info@drmordechaizaken.com</div>";
 
 	echo "<div class='contact-footer-secondary-instructions'>". $translatable_elements["to-contact-the-national-association"][$language_request] ."</div>";
