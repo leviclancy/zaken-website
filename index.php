@@ -157,6 +157,7 @@ $style_array = [
 		"margin"		=> "20px auto",
 		"max-width"		=> "800px",
 		"padding"		=> "0 20px",
+		"text-align"		=> "left",
 		],
 	
 
@@ -228,7 +229,7 @@ echo "</style>";
 echo "</head><body>";
 
 // Navigation buttons
-echo "<div id='navigation-header'>";
+echo "<div id='navigation-header' data-parallax-factor='1.3'>";
 
 	echo "<span id='navigation-header-topline'>". $translatable_elements["from-the-desk-of"][$language_request] ."</span>";
 	echo "<span id='navigation-header-name'>". $translatable_elements["dr-mordechai-zaken"][$language_request] ."</span>";
@@ -250,12 +251,12 @@ echo "<div id='body-content'>";
 
 if ([$pageview_request, $language_request] == ["home", "en"]):
 
-	echo "<figure><amp-img src='_DSF4377.jpg' width='4' height='3' layout='responsive'></amp-img>";
+	echo "<figure data-parallax-factor='1.2'><amp-img src='_DSF4377.jpg' width='4' height='3' layout='responsive'></amp-img>";
 	echo "<figcaption>Rawanduz, near Erbil in the Kurdistan Region of Iraq.</figcaption></figure>";
 
-	echo "<h1>Dr. Mordechai Zaken</h1>";
+	echo "<h1 data-parallax-factor='1.05'>A career summary of Dr. Mordechai Zaken</h1>";
 
-	echo '<h2>' . 'ד"ר מרדכי זקן' . '<br>' . 'د. موردەخای زاکێن' . '</h2>';
+	echo "<p>Born 1958 in Jerualem, Dr. Zaken 
 
 	echo "<p>Dr. Zaken invites the public to learn from his career, drawing on a variety of resources presented here. Dr. Zaken's career </p>";
 
