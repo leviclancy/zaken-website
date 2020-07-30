@@ -219,15 +219,12 @@ echo "<div id='navigation-header'>";
 
 	echo "</div>";
 
-// Splash at top of page
-echo "<div id='splash-header'>";
-	echo "<span id='splash-header-topline'>". $translatable_elements["from-the-desk-of"][$language_request] ."</span>";
-	echo "<h1 id='splash-header-name'>". $translatable_elements["dr-mordechai-zaken"][$language_request] ."</h1>";
-	echo "</div>";
-
 echo "<div id='body-content'>";
 
 if ([$pageview_request, $language_request] == ["home", "en"]):
+
+	echo "<h1>Dr. Mordechai Zaken</h1>";
+	echo 'ד"ר מרדכי זקן' . ' &nbsp; • &nbsp; ' . 'د. موردەخای زاکێن';
 
 	echo "<p>Dr. Zaken invites the public to learn from his career, drawing on a variety of resources presented here. Dr. Zaken's career </p>";
 
