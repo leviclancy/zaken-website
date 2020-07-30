@@ -156,7 +156,7 @@ $style_array = [
 	
 	"#body-content h1, #body-content h2, #body-content p, #body-content ul, #body-content ol, #body-content figure, #body-content table" => [
 		"display"		=> "block",
-		"margin"		=> "20px auto",
+		"margin"		=> "50px auto",
 		"max-width"		=> "800px",
 		"padding"		=> "0 20px",
 		"text-align"		=> "left",
@@ -170,7 +170,7 @@ $style_array = [
 		],
 	
 	"#body-content amp-img" => [
-		"border-radius"		=> "10px",
+		"border-radius"		=> "6px",
 		],
 	
 	"#body-content figcaption" => [
