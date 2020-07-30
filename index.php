@@ -225,7 +225,7 @@ function css_output($style_array=[]) {
 
 echo "<style amp-custom>";
 echo css_output($style_array);
-echo "@media only screen and (max-width: 600px): { #body-content h1, #body-content h2 { padding: 0 20px; } }";
+echo "@media only screen and (max-width: 600px): { #body-content h1, #body-content h2 { padding: 0 20px; font-size: 200%; } }";
 echo "</style>";
 
 echo "</head><body>";
