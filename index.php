@@ -53,8 +53,9 @@ echo '<script async custom-element="amp-audio" src="https://cdn.ampproject.org/v
 
 // echo '<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">';
 // echo '<link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">';
-echo '<link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@1,500&family=Noto+Serif+JP&display=swap" rel="stylesheet">';
+// echo '<link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@1,500&family=Noto+Serif+JP&display=swap" rel="stylesheet">';
 echo '<link href="https://fonts.googleapis.com/css2?family=Assistant&display=swap" rel="stylesheet">';
+echo '<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">';
 
 echo "<title>". $title_temp ."</title>";
 
@@ -97,6 +98,18 @@ $style_array = [
 		"padding"		=> "5px 0 15px",
 		],
 	
+	"#navigation-header-topline" => [
+		"display"		=> "block",
+		"font-size"		=> "80%",
+		"font-family"		=> "'Noto Serif JP'",
+		],
+	
+	"#navigation-header-name" => [
+		"display"		=> "block",
+		"font-size"		=> "130%",
+		"font-family"		=> "'Noto Serif JP'",
+		],
+	
 	".navigation-header-button" => [
 //		"background"		=> "rgba(255,255,255,1)",
 		"color"			=> "rgba(255,255,255,1)",
@@ -115,27 +128,6 @@ $style_array = [
 		"color"			=> "rgba(255,255,255,0.65)",
 		],
 	
-	"#splash-header" => [
-		"display"		=> "block",
-		"background-image"	=> "rgba(255,255,255,1)",
-		"background-size"	=> "cover",
-		"margin"		=> "0",
-		"padding"		=> "100px 20px",
-		"color"			=> "#222",
-		"text-align"		=> "center",
-		],
-	
-	"#splash-header-topline" => [
-		"font-size"		=> "80%",
-		"font-family"		=> "'Noto Serif JP'",
-		],
-
-	"#splash-header-header" => [
-		"font-size"		=> "120%",
-		"font-family"		=> "'Alegreya SC'",
-		"font-style"		=> "italic",
-		],
-	
 	"#body-content" => [
 		"display"		=> "block",
 		"color"			=> "#333",
@@ -143,7 +135,7 @@ $style_array = [
 		"padding"		=> "100px 20xp",
 		],
 	
-	"#body-content p" => [
+	"#body-content p, #body-content ul, #body-content ol" => [
 		"display"		=> "block",
 		"margin"		=> "20px auto",
 		"max-width"		=> "800px",
@@ -196,6 +188,10 @@ echo "</head><body>";
 
 // Navigation buttons
 echo "<div id='navigation-header'>";
+
+	echo "<span id='navigation-header-topline'>". $translatable_elements["from-the-desk-of"][$language_request] ."</span>";
+	echo "<span id='navigation-header-name'>". $translatable_elements["dr-mordechai-zaken"][$language_request] ."</span>";
+
 	foreach ($pageview_request_allowed as $pageview_request_allowed_temp):
 		if ($pageview_request_allowed_temp == $pageview_request):
 			echo "<div class='navigation-header-button navigation-header-button-selected'>". $translatable_elements[$pageview_request_allowed_temp][$language_request] ."</div>";
@@ -204,13 +200,13 @@ echo "<div id='navigation-header'>";
 		echo "<div class='navigation-header-button'>". $translatable_elements[$pageview_request_allowed_temp][$language_request] ."</div>";
 		echo "</a>";
 		endforeach;
+
 	echo "</div>";
 
 // Splash at top of page
 echo "<div id='splash-header'>";
 	echo "<span id='splash-header-topline'>". $translatable_elements["from-the-desk-of"][$language_request] ."</span>";
 	echo "<h1 id='splash-header-name'>". $translatable_elements["dr-mordechai-zaken"][$language_request] ."</h1>";
-	echo "<span id='splash-header-topline'>". $translatable_elements["last-updated"][$language_request] ."</span>";
 	echo "</div>";
 
 echo "<div id='body-content'>";
@@ -289,6 +285,10 @@ echo "<div id='contact-footer'>";
 		echo "<i>". $translatable_elements["to-contact-foundation-of-ours"][$language_request] ."</i><br>";
 		echo "Telephone, +1 (207) 216-5608<br>";
 		echo "E-mail, info@ours.foundation";
+		echo "</div>";
+
+	echo "<div class='contact-footer-secondary'>";
+		echo $translatable_elements["last-updated"][$language_request];
 		echo "</div>";
 
 	echo "</div>";
