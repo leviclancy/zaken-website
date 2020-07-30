@@ -147,23 +147,28 @@ $style_array = [
 	"#body-content" => [
 		"display"		=> "block",
 		"color"			=> "#333",
-		"padding"		=> "70px 20px",
+		"padding"		=> "70px 0",
 		],
 	
 	"#body-content h1, #body-content h2, #body-content p, #body-content ul, #body-content ol, #body-content amp-img" => [
 		"display"		=> "block",
 		"margin"		=> "20px auto",
 		"max-width"		=> "800px",
+		"padding"		=> "0 20px",
 		],
 	
-	"h1, h2" => [
+	"#body-content amp-img" => [
+		"padding"		=> "0",
+		],
+	
+	"#body-content h1, #body-content h2" => [
 		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
 		"font-style"		=> "700",
 		"text-align"		=> "center",
 		],
 
-	"h1" => [
-		"margin"		=> "30px auto 80px",
+	"#body-content h1" => [
+		"margin"		=> "30px auto 120px",
 		"font-size"		=> "230%",
 		],	
 	
