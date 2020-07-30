@@ -177,7 +177,7 @@ $style_array = [
 		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
 		"font-style"		=> "700",
 		],
-
+	
 	"#body-content h1" => [
 		"margin"		=> "50px auto",
 		"font-size"		=> "240%",
@@ -225,6 +225,7 @@ function css_output($style_array=[]) {
 
 echo "<style amp-custom>";
 echo css_output($style_array);
+echo "@media only screen and (max-width: 600px): { #body-content h1, #body-content h2 { padding: 0 20px; } }";
 echo "</style>";
 
 echo "</head><body>";
