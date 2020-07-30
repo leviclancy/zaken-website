@@ -269,7 +269,7 @@ echo "<div id='body-content'>";
 
 if ([$pageview_request, $language_request] == ["home", "en"]):
 
-	echo "<figure amp-fx='parallax' data-parallax-factor='1.14'><amp-img src='_DSF4377-compressed.jpg' width='4' height='3' layout='responsive'></amp-img>";
+	echo "<figure amp-fx='parallax' data-parallax-factor='1.14'><amp-img src='_DSF4377-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Rawanduz, near Erbil in the Kurdistan Region of Iraq.</figcaption></figure>";
 
 	echo "<h1 amp-fx='parallax' data-parallax-factor='1.1'>A career summary of Dr. Mordechai Zaken</h1>";
@@ -284,7 +284,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 //	echo "<li>Director of the Institute of Students and Faculty on Israel, in New York.</li>";
 	echo "</ul>";
 
-	echo "<figure><amp-img src='_DSF5567-compressed.jpg' width='1000' height='570' layout='responsive'></amp-img>";
+	echo "<figure><amp-img src='_DSF5567-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Flags of Israel and Jerusalem, overlooking the ramparts.</figcaption></figure>";
 
 	echo "<h2>Condensed biography</h2>";
@@ -303,7 +303,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td></td><td></td></tr>";
 	echo "</tbody></table>";
 
-	echo "<figure><amp-img src='_DSF4565-compressed.jpg' width='1000' height='570' layout='responsive'></amp-img>";
+	echo "<figure><amp-img src='_DSF4565-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Akre, near Duhok in the Kurdistan Region of Iraq.</figcaption></figure>";
 
 	echo "<table><tbody>";
@@ -325,7 +325,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td></td><td></td></tr>";
 	echo "</tbody></table>";
 
-	echo "<figure><amp-img src='_DSF2224-compressed.jpg' width='1000' height='570' layout='responsive'></amp-img>";
+	echo "<figure><amp-img src='_DSF2224-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>The Arab neighborhood of the Old City in Jerusalem.</figcaption></figure>";
 
 	echo "<h2>References</h2>";
