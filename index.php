@@ -231,7 +231,7 @@ echo "<div id='body-content'>";
 if ([$pageview_request, $language_request] == ["home", "en"]):
 
 	echo "<h1>Dr. Mordechai Zaken</h1>";
-	echo '<h2>' . 'ד"ר מרדכי זקן' . ' &nbsp; • &nbsp; ' . 'د. موردەخای زاکێن' . "</h2>';
+	echo '<h2>' . 'ד"ר מרדכי זקן' . ' &nbsp; • &nbsp; ' . 'د. موردەخای زاکێن' . '</h2>';
 
 	echo "<p>Dr. Zaken invites the public to learn from his career, drawing on a variety of resources presented here. Dr. Zaken's career </p>";
 
