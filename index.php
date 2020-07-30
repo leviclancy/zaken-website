@@ -156,19 +156,16 @@ $style_array = [
 		"max-width"		=> "800px",
 		],
 	
-	"#body-content-splash" => [
-		"position"		=> "relative",
-		],
-	
-	"#body-content-splash h1" => [
-		"margin"		=> "60px auto",
-		],
-		
 	"h1, h2" => [
 		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
 		"font-style"		=> "700",
 		"text-align"		=> "center",
 		],
+
+	"h1" => [
+		"margin"		=> "20px auto 8px",
+		"font-size"		=> "180%",
+		],	
 	
 	"#contact-footer" => [
 		"display"		=> "block",
