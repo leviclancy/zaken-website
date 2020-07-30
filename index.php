@@ -360,7 +360,10 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td></td><td></td></tr>";
 	echo "</tbody></table>";
 
-	echo "<figure><amp-img src='_DSF4565-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
+	echo "<figure class='amp-img-fader' amp-fx='parallax' data-parallax-factor='1.14'>";
+	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
+	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
+	echo "<amp-img src='_DSF4565-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Akre, near Duhok in the Kurdistan Region of Iraq.</figcaption></figure>";
 
 	echo "<table><tbody>";
@@ -382,7 +385,10 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td></td><td></td></tr>";
 	echo "</tbody></table>";
 
-	echo "<figure><amp-img src='_DSF2224-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
+	echo "<figure class='amp-img-fader' amp-fx='parallax' data-parallax-factor='1.14'>";
+	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
+	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
+	echo "<amp-img src='_DSF2224-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>The Arab neighborhood of the Old City in Jerusalem.</figcaption></figure>";
 
 	echo "<h2>References</h2>";
