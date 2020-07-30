@@ -89,7 +89,6 @@ $style_array = [
 		"display"		=> "block",
 		"background-image"	=> "linear-gradient(-90deg, rgba(255,255,255,0.8), rgba(255,255,255,0.2)), linear-gradient(45deg, rgba(230,230,230,0.8), rgba(200,200,200,0.5))",
 		"background-size"	=> "cover",
-		"box-shadow"		=> "0 0 30px -10px rgba(100,100,100,1)",
 		"margin"		=> "0",
 		"padding"		=> "100px 20px",
 		"min-height"		=> "500px",
@@ -98,7 +97,7 @@ $style_array = [
 		],
 	
 	"#splash-header-topline" => [
-		"font-size"		=> "70%",
+		"font-size"		=> "80%",
 		"font-family"		=> "'Noto Serif JP'",
 		],
 
@@ -110,26 +109,30 @@ $style_array = [
 	
 	"#navigation-header" => [
 		"display"		=> "block",
-		"background"		=> "#eee",
+		"background"		=> "#444",
+		"color"			=> "#fff",
+//		"column-width"		=> "300px"
+//		"column-count"		=> "2",
+//		"column-gap"		=> "30px",
+		"font-family"		=> "Noto Serif JP",
 		],
 	
 	".navigation-header-button" => [
-		"background"		=> "rgba(255,255,255,1)",
-		"color"			=> "rgba(100,100,100,1)",
+//		"background"		=> "rgba(255,255,255,1)",
+		"color"			=> "rgba(255,255,255,1)",
 		"display"		=> "inline-block",
-		"padding"		=> "7px 15px",
-		"border-radius"		=> "100px",
-		"margin"		=> "20px 20px 0 0",
-		"font-family"		=> "Verdana",
+		"padding"		=> "20px 25px",
+//		"border-radius"		=> "100px",
+//		"margin"		=> "20px 20px 0 0",
 		"cursor"		=> "pointer",
 		"font-size"		=> "80%",
 		"text-align"		=> "center",
-		"border"		=> "2px solid #777",
+//		"border"		=> "2px solid #777",
 		],
 	
 	".navigation-header-button-selected" => [
-		"background"		=> "rgba(100,100,100,1)",
-		"color"			=> "rgba(255,255,255,1)",
+//		"background"		=> "rgba(100,100,100,1)",
+		"color"			=> "rgba(255,255,255,0.65)",
 		],
 	
 	"#contact-footer" => [
@@ -174,12 +177,6 @@ echo "</style>";
 
 echo "</head><body>";
 
-// Splash at top of page
-echo "<div id='splash-header'>";
-	echo "<span id='splash-header-topline'>". $translatable_elements["from-the-desk-of"][$language_request] ."</span>";
-	echo "<h1 id='splash-header-name'>". $translatable_elements["dr-mordechai-zaken"][$language_request] ."</h1>";
-	echo "</div>";
-
 // Navigation buttons
 echo "<div id='navigation-header'>";
 	foreach ($pageview_request_allowed as $pageview_request_allowed_temp):
@@ -192,7 +189,16 @@ echo "<div id='navigation-header'>";
 		endforeach;
 	echo "</div>";
 
+// Splash at top of page
+echo "<div id='splash-header'>";
+	echo "<span id='splash-header-topline'>". $translatable_elements["from-the-desk-of"][$language_request] ."</span>";
+	echo "<h1 id='splash-header-name'>". $translatable_elements["dr-mordechai-zaken"][$language_request] ."</h1>";
+	echo "<span id='splash-header-topline'>". $translatable_elements["last-updated"][$language_request] ."</span>";
+	echo "</div>";
+
 if ([$pageview_request, $language_request] == ["home", "en"]):
+
+	echo "<p>Dr. Zaken invites the public to learn from his career, drawing on a variety of resources presented here. Dr. Zaken's career 
 
 	echo "<ul><li>Representative of the community of Jews from Kurdistan to the Kurdistan Region.</li>";
 	echo "<li>Author of <i>The Jews of Kurdistan</i>, the authoritative volume on the topic.</li>";
