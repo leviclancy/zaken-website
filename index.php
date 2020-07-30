@@ -161,7 +161,7 @@ $style_array = [
 	"#body-content amp-img" => [
 		"max-width"		=> "950px",
 		"padding"		=> "0",
-		"box-shadow"		=> "inset 0 30px 30px -15px rgba(255,255,255,1);
+		"box-shadow"		=> "inset 0 30px 30px -15px rgba(255,255,255,1)",
 		],
 	
 	"#body-content h1, #body-content h2" => [
