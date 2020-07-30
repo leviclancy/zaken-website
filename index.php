@@ -198,7 +198,7 @@ echo "<div id='splash-header'>";
 
 if ([$pageview_request, $language_request] == ["home", "en"]):
 
-	echo "<p>Dr. Zaken invites the public to learn from his career, drawing on a variety of resources presented here. Dr. Zaken's career 
+	echo "<p>Dr. Zaken invites the public to learn from his career, drawing on a variety of resources presented here. Dr. Zaken's career </p>";
 
 	echo "<ul><li>Representative of the community of Jews from Kurdistan to the Kurdistan Region.</li>";
 	echo "<li>Author of <i>The Jews of Kurdistan</i>, the authoritative volume on the topic.</li>";
