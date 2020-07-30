@@ -149,7 +149,7 @@ $style_array = [
 	"#body-content" => [
 		"display"		=> "block",
 		"color"			=> "#333",
-		"padding"		=> "20px 0 100px",
+		"padding"		=> "30px 0 100px",
 		],
 	
 	"#body-content h1, #body-content h2, #body-content p, #body-content ul, #body-content ol, #body-content figure" => [
@@ -163,11 +163,9 @@ $style_array = [
 	"#body-content figure, #body-content amp-img" => [
 		"max-width"		=> "950px",
 		"padding"		=> "0",
-		"box-shadow"		=> "inset 0 30px 30px -15px rgba(255,255,255,1)",
 		],
 	
 	"#body-content figcaption" => [
-		"padding"		=> "10px",
 		"font-size"		=> "80%",
 		"font-family"		=> "Assistant",
 		],
