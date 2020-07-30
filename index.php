@@ -295,10 +295,10 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<p amp-fx='parallax' data-parallax-factor='1.07'>Dr. Mordechai Zaken was born in 1958 in Jerusalem. His father immigrated to Israel from Iraqi Kurdistan, and his mother was born in El-Roi, a village in Jezreel Valley in northern Israel. His career highlights include,</p>";
 
 	echo "<ul>";
-	echo "<li>Representative of the community of Jews from Kurdistan to the Kurdistan Region (2020 - now).</li>";
-	echo "<li>Author of <i>The Jews of Kurdistan</i>, the authoritative volume on the topic (2007).</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Representative of the community of Jews from Kurdistan to the Kurdistan Region (2020 - now).</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Author of <i>The Jews of Kurdistan</i>, the authoritative volume on the topic (2007).</li>";
 //	echo "<li>Founder of the Israel-Kurdistan Friendship League.</li>";
-	echo "<li>Adviser to the Prime Minister of Israel on Arab affairs, and Head of Minority Affairs Desk at the Home Ministry, Israeli Ministry of Public Security.</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Adviser to the Prime Minister of Israel on Arab affairs, and Head of Minority Affairs Desk at the Home Ministry, Israeli Ministry of Public Security.</li>";
 //	echo "<li>Director of the Institute of Students and Faculty on Israel, in New York.</li>";
 	echo "</ul>";
 
