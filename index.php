@@ -266,9 +266,12 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<li>Representative of the community of Jews from Kurdistan to the Kurdistan Region (2020 - now).</li>";
 	echo "<li>Author of <i>The Jews of Kurdistan</i>, the authoritative volume on the topic (2007).</li>";
 //	echo "<li>Founder of the Israel-Kurdistan Friendship League.</li>";
-	echo "<li>Adviser to the Prime Minister of Israel on Arab affairs.</li>";
-	echo "<li>Director of the Institute of Students and Faculty on Israel, in New York.</li>";
+	echo "<li>Adviser to the Prime Minister of Israel on Arab affairs, and Head of Minority Affairs Desk at the Home Ministry, Israeli Ministry of Public Security.</li>";
+//	echo "<li>Director of the Institute of Students and Faculty on Israel, in New York.</li>";
 	echo "</ul>";
+
+	echo "<figure amp-fx='parallax' data-parallax-factor='1.14'><amp-img src='_DSF4565-compressed' width='1000' height='570' layout='responsive'></amp-img>";
+	echo "<figcaption>Akre, near Duhok in the Kurdistan Region of Iraq.</figcaption></figure>";
 
 	echo "<h2>Condensed biography</h2>";
 
