@@ -54,7 +54,7 @@ echo '<script async custom-element="amp-audio" src="https://cdn.ampproject.org/v
 // echo '<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">';
 // echo '<link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">';
 echo '<link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@1,500&family=Noto+Serif+JP&display=swap" rel="stylesheet">';
-
+echo '<link href="https://fonts.googleapis.com/css2?family=Assistant&display=swap" rel="stylesheet">';
 
 echo "<title>". $title_temp ."</title>";
 
@@ -85,6 +85,34 @@ $style_array = [
 		"display"		=> "none",
 		],
 	
+		"#navigation-header" => [
+		"display"		=> "block",
+		"background"		=> "#444",
+		"color"			=> "#fff",
+//		"column-width"		=> "300px"
+//		"column-count"		=> "2",
+//		"column-gap"		=> "30px",
+		"font-family"		=> "Assistant",
+		],
+	
+	".navigation-header-button" => [
+//		"background"		=> "rgba(255,255,255,1)",
+		"color"			=> "rgba(255,255,255,1)",
+		"display"		=> "inline-block",
+		"padding"		=> "20px 25px",
+//		"border-radius"		=> "100px",
+//		"margin"		=> "20px 20px 0 0",
+		"cursor"		=> "pointer",
+		"font-size"		=> "80%",
+		"text-align"		=> "center",
+//		"border"		=> "2px solid #777",
+		],
+	
+	".navigation-header-button-selected" => [
+//		"background"		=> "rgba(100,100,100,1)",
+		"color"			=> "rgba(255,255,255,0.65)",
+		],
+	
 	"#splash-header" => [
 		"display"		=> "block",
 		"background-image"	=> "linear-gradient(-90deg, rgba(255,255,255,0.8), rgba(255,255,255,0.2)), linear-gradient(45deg, rgba(230,230,230,0.8), rgba(200,200,200,0.5))",
@@ -105,34 +133,6 @@ $style_array = [
 		"font-size"		=> "120%",
 		"font-family"		=> "'Alegreya SC'",
 		"font-style"		=> "italic",
-		],
-	
-	"#navigation-header" => [
-		"display"		=> "block",
-		"background"		=> "#444",
-		"color"			=> "#fff",
-//		"column-width"		=> "300px"
-//		"column-count"		=> "2",
-//		"column-gap"		=> "30px",
-		"font-family"		=> "Noto Serif JP",
-		],
-	
-	".navigation-header-button" => [
-//		"background"		=> "rgba(255,255,255,1)",
-		"color"			=> "rgba(255,255,255,1)",
-		"display"		=> "inline-block",
-		"padding"		=> "20px 25px",
-//		"border-radius"		=> "100px",
-//		"margin"		=> "20px 20px 0 0",
-		"cursor"		=> "pointer",
-		"font-size"		=> "80%",
-		"text-align"		=> "center",
-//		"border"		=> "2px solid #777",
-		],
-	
-	".navigation-header-button-selected" => [
-//		"background"		=> "rgba(100,100,100,1)",
-		"color"			=> "rgba(255,255,255,0.65)",
 		],
 	
 	"#contact-footer" => [
