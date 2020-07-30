@@ -87,7 +87,7 @@ $style_array = [
 	
 	"#navigation-header" => [
 		"display"		=> "block",
-		"background"		=> "#444",
+		"background-image"	=> "linear-gradient(45deg, rgba(30,30,30,1), rgba(70,70,70,1))",
 		"color"			=> "#fff",
 		"column-width"		=> "300px",
 		"column-count"		=> "2",
