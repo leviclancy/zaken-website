@@ -272,7 +272,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 
 	echo "<table>";
 	echo "<thead><tr><th>Time</th><th>Overview</th></tr></thead>";
-	echo "<tbody>"
+	echo "<tbody>";
 	echo "<tr><td></td><td></td></tr>";
 	echo "<tr><td>2019</td><td>2019 Laureate, Prime Minister Prize, Research of the Jews of the Orient.</td></tr>";
 	echo "<tr><td></td><td></td></tr>";
