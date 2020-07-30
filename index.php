@@ -291,7 +291,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 
 	echo "<h1 amp-fx='parallax' data-parallax-factor='1.1'>Career summary of Dr. Mordechai Zaken</h1>";
 
-	echo "<p amp-fx='parallax' data-parallax-factor='1.07'>Dr. Mordechai Zaken was born in 1958 in Jerusalem. His father was born in Iraqi Kurdistan, and immigrated to Israel; his mother was born in El-Roi, a village in Yezreel Valley. His career highlights include,</p>";
+	echo "<p amp-fx='parallax' data-parallax-factor='1.07'>Dr. Mordechai Zaken was born in 1958 in Jerusalem. His father immigrated to Israel from Iraqi Kurdistan, and his mother was born in El-Roi, a village in Jezreel Valley in northern Israel. His career highlights include,</p>";
 
 	echo "<ul>";
 	echo "<li>Representative of the community of Jews from Kurdistan to the Kurdistan Region (2020 - now).</li>";
