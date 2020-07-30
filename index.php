@@ -171,7 +171,7 @@ $style_array = [
 		],
 	
 	"#body-content amp-img" => [
-		"border-radius"		=> "6px",
+		"border-radius"		=> "4px",
 		],
 	
 	"#body-content figcaption" => [
