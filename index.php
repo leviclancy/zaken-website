@@ -152,7 +152,7 @@ $style_array = [
 		"color"			=> "#333",
 		"padding"		=> "30px 0 100px",
 		"font-family"		=> "Molengo",
-		"line-height"		=> "1.3em",
+		"line-height"		=> "1.5em",
 		],
 	
 	"#body-content h1, #body-content h2, #body-content p, #body-content ul, #body-content ol, #body-content figure, #body-content table" => [
