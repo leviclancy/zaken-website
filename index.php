@@ -176,7 +176,6 @@ $style_array = [
 		"padding"		=> "0 70px 0 20px",
 		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
 		"font-style"		=> "700",
-		"text-align"		=> "center",
 		],
 
 	"#body-content h1" => [
