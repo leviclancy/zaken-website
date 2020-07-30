@@ -90,14 +90,14 @@ $style_array = [
 	
 	"#navigation-header" => [
 		"display"		=> "block",
-		"background-image"	=> "linear-gradient(45deg, rgba(30,30,30,1), rgba(70,70,70,1))",
-		"color"			=> "#fff",
+		"background-image"	=> "linear-gradient(90deg, rgba(200,200,200,1), rgba(0,0,0,1))",
+		"color"			=> "#333",
 //		"column-width"		=> "300px",
 //		"column-count"		=> "2",
 //		"column-gap"		=> "30px",
 		"font-family"		=> "Assistant",
 		"text-align"		=> "center",
-		"padding"		=> "50px 0 20px",
+		"padding"		=> "50px 0 40px",
 		],
 	
 	"#navigation-header-topline" => [
@@ -111,7 +111,7 @@ $style_array = [
 	"#navigation-header-name" => [
 		"margin"		=> "5px auto 30px",
 		"display"		=> "block",
-		"font-size"		=> "135%",
+		"font-size"		=> "140%",
 		"font-weight"		=> "700",
 		"font-family"		=> "'Alegreya SC'",
 		],
@@ -121,7 +121,7 @@ $style_array = [
 		"width"			=> "100%",
 		"height"		=> "1px",
 		"border"		=> "none",
-		"background"		=> "rgba(255,255,255,0.2)",
+		"background"		=> "rgba(150,150,150,0.8)",
 		],
 	
 	".navigation-header-button" => [
@@ -147,7 +147,7 @@ $style_array = [
 	"#body-content" => [
 		"display"		=> "block",
 		"color"			=> "#333",
-		"padding"		=> "70px 0",
+		"padding"		=> "20px 0 100px",
 		],
 	
 	"#body-content h1, #body-content h2, #body-content p, #body-content ul, #body-content ol, #body-content amp-img" => [
