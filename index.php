@@ -209,8 +209,9 @@ $style_array = [
 		],
 
 	"#body-content li" => [
+		"max-width"		=> "500px",
 		"display"		=> "block",
-		"margin"		=> "20px auto",
+		"margin"		=> "20px auto 30px",
 		"font-size"		=> "120%",
 		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
 		],
