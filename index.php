@@ -143,6 +143,7 @@ $style_array = [
 //		"background"		=> "rgba(100,100,100,1)",
 //		"color"			=> "rgba(255,255,255,0.65)",
 		"font-weight"		=> "700",
+		"text-shadow"		=> "3px 3px 25px rgba(50,50,50,0.25)",
 		],
 	
 	"#body-content" => [
