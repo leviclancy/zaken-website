@@ -56,6 +56,7 @@ echo '<script async custom-element="amp-audio" src="https://cdn.ampproject.org/v
 // echo '<link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@1,500&family=Noto+Serif+JP&display=swap" rel="stylesheet">';
 echo '<link href="https://fonts.googleapis.com/css2?family=Assistant&display=swap" rel="stylesheet">';
 echo '<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">';
+echo '<link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap" rel="stylesheet">';
 
 echo "<title>". $title_temp ."</title>";
 
@@ -149,10 +150,16 @@ $style_array = [
 		"padding"		=> "100px 20xp",
 		],
 	
-	"#body-content p, #body-content ul, #body-content ol" => [
+	"#body-content h1, #body-content h2, #body-content p, #body-content ul, #body-content ol" => [
 		"display"		=> "block",
 		"margin"		=> "20px auto",
 		"max-width"		=> "800px",
+		],
+	
+	"h1, h2" => [
+		"font-family"		=> "Alegreya SC",
+		"font-style"		=> "700",
+		"text-align"		=> "center",
 		],
 	
 	"#contact-footer" => [
@@ -224,7 +231,7 @@ echo "<div id='body-content'>";
 if ([$pageview_request, $language_request] == ["home", "en"]):
 
 	echo "<h1>Dr. Mordechai Zaken</h1>";
-	echo 'ד"ר מרדכי זקן' . ' &nbsp; • &nbsp; ' . 'د. موردەخای زاکێن';
+	echo '<h2>' . 'ד"ר מרדכי זקן' . ' &nbsp; • &nbsp; ' . 'د. موردەخای زاکێن' . "</h2>';
 
 	echo "<p>Dr. Zaken invites the public to learn from his career, drawing on a variety of resources presented here. Dr. Zaken's career </p>";
 
