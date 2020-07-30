@@ -150,7 +150,7 @@ $style_array = [
 		"padding"		=> "100px 20px",
 		],
 	
-	"#body-content h1, #body-content h2, #body-content p, #body-content ul, #body-content ol" => [
+	"#body-content h1, #body-content h2, #body-content p, #body-content ul, #body-content ol, #body-content amp-img" => [
 		"display"		=> "block",
 		"margin"		=> "20px auto",
 		"max-width"		=> "800px",
@@ -235,7 +235,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 		echo "<amp-img src='_DSF4377.jpg' width='4' height='3' layout='responsive'></amp-img>";
 
 		echo "<h1>Dr. Mordechai Zaken</h1>";
-		echo '<h2>' . 'ד"ר מרדכי זקן' . ' &nbsp; • &nbsp; ' . 'د. موردەخای زاکێن' . '</h2>';
+		echo '<h2>' . 'ד"ר מרדכי זקן' . '<br>' . 'د. موردەخای زاکێن' . '</h2>';
 
 		echo "</div>";
 
