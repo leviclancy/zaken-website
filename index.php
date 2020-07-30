@@ -94,14 +94,14 @@ $style_array = [
 //		"column-gap"		=> "30px",
 		"font-family"		=> "Assistant",
 		"text-align"		=> "center",
-		"padding"		=> "0 0 20px",
+		"padding"		=> "5px 0 15px",
 		],
 	
 	".navigation-header-button" => [
 //		"background"		=> "rgba(255,255,255,1)",
 		"color"			=> "rgba(255,255,255,1)",
 		"display"		=> "inline-block",
-		"padding"		=> "20px 20px 0 20px",
+		"padding"		=> "20px 22px 0 22px",
 //		"border-radius"		=> "100px",
 		"margin"		=> "0",
 		"cursor"		=> "pointer",
