@@ -436,15 +436,26 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 	echo "<dl>";
 
 		echo "<dt>What is the role of representative?</dt>";
+		echo "<dd>The representative is responsible for advising on</dd>";
+
+		echo "<dt>How is the representative appointed?</dt>";
 		echo "<dd>The role of representtive is selected by the Nationnal Association, and awaiting confirmation by the Ministry of Endowments and Religious Affairs in the Krudistan Region.</dd>";
-		
+	
 		echo "<dt>What sparked Dr. Zaken's interest?</dt>";
 		echo "<dd>and was fascinated by meeting people who were the product of a disappearing oral and verbal culture; people who had so much life experience and knowledge about subjects that were hardly discussed in written literature. Some of these informants were natural story-tellers; some had encyclopedic knowledge; most of them were ordinary people who had to speak 2 or 3 languages from the languages spoken in and around Kurdistan (Kurdish, Arabic, Turkish, Farsi, Armenian etc.) in order to survive in their travels throughout the Kurdish mountains and plains and in their daily encounters with their members of the communities that lived around them, among them Kurdish masters (aghas), tribesmen, brigands and outlaws ('firars'). Some of the Jewish travellers developed the talent of being story tellers, because in the rigid and tribal setting of the Kurdish society, they were merchants or peddlers, who would roam through the Kurdish villages, sell their products and earn their living. During the evening leisure time, they would sit in the company of the tribal or village dignitaries, in the 'diwan-khane' (guest rooms or guest houses) of the tribal or village chieftains (aghas, drink tea or coffee and tell the updated tribal and local news to their tribal hosts and chieftains (aghas) under whose tribal jurisdiction they stayed.</dd>";
+
+		echo "<dt>What are some common misconceptions about the representative?</dt>";
+		echo "<dd>As an appointment made between the National Association of Jews from Kurdistan and the Ministry of Endowments of Religious Affairs in the Kurdistan Region, the representative is not involved in issues outside the scope of these two institutions. The role of represenative does not include bilateral relations between any two countries, nor is the role of representative devoted in any way to economic or other activities within or between countries. The role of represenative is stricly limited to Jewish affairs and Jewish sites in areas administered by the Kurdistan Region.</dd>";
+
+		echo "<dt>Are there Jews in Kurdistan now?</dt>";
+		echo "<dd>To be born Jewish, someone must have a Jewish mother. There is no longer anybody born anywhere in the Kurdistan Region who can show this to be true according to rabbinical requirements. For this reason, it is important to be clear that there are zero Jews remaining in the Kurdistan Region except for a small number of expatriates.</dd>";
+
+		echo "<dt>What about Kurdish Jews in Kurdistan in the news?</dt>";
+		echo "<dd>As stated above, there are zero Jews remaining who were born in the Kurdistan Region. Recently, some eccentric individuals from Muslim families have claimed to be Jewish. Although there are surely many people with distant Jewish ancestry, there is nobody whose claims were verified. Certain individuals have been found to be committing total fraud, such as ___ and ___.</dd>";
 
 		echo "<dt>What about the Friendship league?</td>";
 		echo "<dd>The founder was Mordechai Zaken[4][5] and the main activists who worked together were the late Moshe Zaken, a business man from Jerusalem, Meir Baruch, a retired military person, Michael Niebur who spent some time in NGOs helping the Kurds, and Mathew B. Hand an American who promoted activity of coexistence with Muslims. The response of Kurdish representatives and organizations both in Kurdistan and the diaspora was enthusiastic as can be judged from hundreds of letters, phone calls and also email received in Jerusalem within short time after the announcement of its founding in the world press and in The Voice of America in the Kurdish language, which conducted interviews with the founder, Mordechai Zaken. The League also published a newsletter called yedidut (heb., friendship) carrying the message of Israeli and Jewish friendship to Kurds worldwide.</dd>";
 		
-
 		echo "</dl>";
 		
  	echo "<p></p>";
