@@ -221,14 +221,14 @@ $style_array = [
 		"text-align"		=> "center",
 		],
 	
-	"#contact-footer" => [
+	"#Contact" => [
 		"display"		=> "block",
 		"color"			=> "rgba(220,220,220,1)",
 		"background"		=> "rgba(50,50,50,1)",
 		"padding"		=> "100px 0",
 		],
 	
-	"#contact-footer div" => [
+	"#Contact div" => [
 		"max-width"		=> "800px",
 		"display"		=> "block",
 		"text-align"		=> "left",
@@ -314,6 +314,10 @@ echo "<div id='navigation-header' amp-fx='parallax' data-parallax-factor='1.3'>"
 		echo "<div class='navigation-header-button'>". $translatable_elements[$pageview_request_allowed_temp][$language_request] ."</div>";
 		echo "</a>";
 		endforeach;
+
+	echo "<a href='#Contact'>";
+	echo "<div class='navigation-header-button'>". $translatable_elements['contact'][$language_request] ."</div>";
+	echo "</a>";
 
 	echo "</div>";
 
@@ -466,7 +470,7 @@ if ([$pageview_request, $language_request] == ["israeli-and-zionism", "en"]):
 echo "</div>";
 
 // Contact footer
-echo "<div id='contact-footer'>";
+echo "<div id='Contact'>";
 
 	echo "<div id='contact-footer-primary'>";
 		echo "To reach Dr. Zaken,<br>";
