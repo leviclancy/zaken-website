@@ -42,9 +42,9 @@
 		"ku"	=> "",
 		],
 
-	"arab-affairs" => [
+	"arab-and-minority-affairs" => [
 		"ar"	=> "",
-		"en"	=> "Israeli Arabs",
+		"en"	=> "Arab and Minority Affairs",
 		"he"	=> "",
 		"ku"	=> "",
 		],
