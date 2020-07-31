@@ -378,7 +378,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td>1993</td><td>Co-founder of The Israel-Kurdistan Friendship League, established in Jerusalem to faciliate friendship and dialogue between Israel and Kurdistan, as well as the Kurdish (mostly Muslim) world and the communities of Jews from Kurdistan as well as Jews interested in Kurdistan.</td></tr>";
 	echo "<tr><td>1992</td><td> When he returned to Israel, he taught at the Hebrew University of Jerusalem for several years.</td></tr>";
 	echo "<tr><td>1990</td><td>Published: Translation of the <i>Book of Ruth</i> into New-Aramaic, by Drs. Gideon Goldberg and Mordechai Zaken.</td></tr>";
-	echo "<tr><td>1989 Jan — 1991 Oct</td><td>He served as the National Director of the Institute of Students & Faculty on Israel, while living in New York City. s the last National Director of ISFI, or "The Institute of Students and Faculty on Israel," in New York, an organization under the auspices of the Israeli Foreign Ministry and the Israeli Consulate in New York City (1989–1991). ISFI provided political and cultural resources, ideas and tools, for Jewish and pro-Israel student activists throughout the US and Canada, through which Israeli oriented activities and the message of Israel could be promoted in US campuses.</td></tr>";
+	echo "<tr><td>1989 Jan — 1991 Oct</td><td>He served as the National Director of the Institute of Students & Faculty on Israel (ISFI), while living in New York City, an organization under the auspices of the Israeli Foreign Ministry and the Israeli Consulate in New York City.</td></tr>";
 	echo "<tr><td>1989 — 1990</td><td>He received a study grant from New York University.</td></tr>";
 	echo "<tr><td>1988</td><td>Completed his MA in Near Eastern and Islamic Studies at the Hebrew University of Jerusalem, with specialization in the minorities in the Middle East and in particular the Jews and the Assyrian Christians within Kurdish-majority areas.</td></tr>";
 	echo "<tr><td>1987 - 1988</td><td>He received a study grant from the State university of New York (SUNY) at Binghamton.</td></tr>";
@@ -458,7 +458,7 @@ if ([$pageview_request, $language_request] == ["arab-and-minority-affairs", "en"
 if ([$pageview_request, $language_request] == ["israeli-and-zionism", "en"]):
 
 	echo "<h2>Israel and Zionism</h2>";
-	echo "<p>To buy <a href='https://kurdishjews.com/'>The Jews of Kurdistan and their Tribal Chieftains</a>.</p>";
+	echo "<p>ISFI provided political and cultural resources, ideas and tools, for Jewish and pro-Israel student activists throughout the US and Canada, through which Israeli oriented activities and the message of Israel could be promoted in US campuses.</p>";
 	echo "<p></p>";
 
 	endif;
