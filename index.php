@@ -183,12 +183,13 @@ $style_array = [
 	"#body-content td" => [
 		"display"		=> "block",
 		"margin"		=> "0",
-		"padding"		=> "0",		
+		"padding"		=> "0 0 0 15px",		
 		],
 	
 	"#body-content td:first-child" => [
 		"margin"		=> "30px 0 10px",
 		"font-weight"		=> "700",
+		"padding"		=> "0",
 		],
 	
 	"#body-content h1, #body-content h2" => [
