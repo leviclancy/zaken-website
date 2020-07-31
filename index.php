@@ -20,7 +20,7 @@ mb_internal_encoding('UTF-8');
 mb_http_output('UTF-8');
 
 // The pageview is passed in the URL
-$pageview_request_allowed = [ "home", "bookstore", "jews-of-kurdistan", "arab-affairs", "israel-and-zionism", ];
+$pageview_request_allowed = [ "home", "bookstore", "jews-of-kurdistan", "arab-and-minority-affairs", "israel-and-zionism", ];
 $pageview_request = ( empty($_REQUEST['pageview']) ? "home" : $_REQUEST['pageview'] );
 if (!(in_array($pageview_request, $pageview_request_allowed))): $pageview_request = "home"; endif;
 
@@ -349,8 +349,12 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 
 	echo "<table><tbody>";
 	echo "<tr><td>2019</td><td>2019 Laureate, Prime Minister Prize for Research of the Jews of the Orient.</td></tr>";
+	echo "<tr><td>2016</td><td>In 2016, within the Public Security Ministry, he formed a new governmental forum for dialogue with local Arab leader</td></tr>";
 	echo "<tr><td>2015</td><td>Published: <i>Jewish Subjects</i> is translated into Sorani Kurdish, in Erbil.</td></tr>";
+	echo "<tr><td>2013 Oct</td><td>Presentation to the World Kurdish Forum at their convention in Stockholm.</td></tr>";
 	echo "<tr><td>2013</td><td>Published: <i>Jewish Subjects</i> is translated into Arabic, in Beirut.</td></tr>";
+	echo "<tr><td>2013</td><td>In 2013 he initiated with Christian leaders the Government – Christians Forum that addresses the concerns of the Evangelical Christian community vis a vis the government.[45][46][47][48][49] Two prominent Christian leaders in this forum have been Rev. Charles (Chuck) Kopp, of the Baptist Church and Rev. David Pillegi, Rector of the Christ Church in Jaffa Gate.</td></tr>";
+	echo "<tr><td>2012 Oct</td><td>Visit to the Kurdistan Region, at the invitation of the World Kurdish Forum.</td></tr>";
 	echo "<tr><td>2010 Sep — 2013 Aug</td><td>Lecturer, The Hebrew University of Jerusalem</td></tr>";
 	echo "<tr><td>2010</td><td>He recently spoke in the Parliament of Berlin, Germany (22 October 2010)</td></tr>";
 	echo "<tr><td>2007</td><td>Published: <i>Jewish Subjects and their Tribal Chieftains in Kurdistan: A Study in Survival</i>. This book was partly based on his doctorate dissertations.</td></tr>";
@@ -367,16 +371,14 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 
 	echo "<table><tbody>";
 	echo "<tr><td>2001 May — 2007 May</td><td>Advisor on Minorities Affairs at Israel's Ministry of Internal Security.</td></tr>";
+	echo "<tr><td>2001 — 2003</td><td>Dr. Zaken was the coordinator of the Ministerial Committee to resolve the dispute between Christans and Muslims at the Basilica of the Anunciation in Nazareth.</td></tr>";
 	echo "<tr><td>1999 Nov — 2001 Dec</td><td>Founder of East-Up Inc, which aimed to enhance medical services to the Arabic-speaking world in the Middle East, through the internet.</td></tr>";
 	echo "<tr><td>1997 May - 1999 Dec</td><td>He was asked to serve as the Prime Minister's Adviser on Arab Affairs (1997-1999)</td></tr>";
 	echo "<tr><td>1997</td><td>Published: <i>\"Inventors' Fate\", A Folk-Tale in the Neo-Aramaic of Zakho</i>.</td></tr>";
-	echo "<tr><td></td><td></td></tr>";
-	echo "<tr><td></td><td></td></tr>";
-	echo "<tr><td></td><td></td></tr>";
-	echo "<tr><td></td><td></td></tr>";
+	echo "<tr><td>1993</td><td>Co-founder of The Israel-Kurdistan Friendship League, established in Jerusalem to faciliate friendship and dialogue between Israel and Kurdistan, as well as the Kurdish (mostly Muslim) world and the communities of Jews from Kurdistan as well as Jews interested in Kurdistan.</td></tr>";
 	echo "<tr><td>1992</td><td> When he returned to Israel, he taught at the Hebrew University of Jerusalem for several years.</td></tr>";
 	echo "<tr><td>1990</td><td>Published: Translation of the <i>Book of Ruth</i> into New-Aramaic, by Drs. Gideon Goldberg and Mordechai Zaken.</td></tr>";
-	echo "<tr><td>1989 Jan — 1991 Oct</td><td>He served as the National Director of the Institute of Students & Faculty on Israel, while living in New York City.</td></tr>";
+	echo "<tr><td>1989 Jan — 1991 Oct</td><td>He served as the National Director of the Institute of Students & Faculty on Israel, while living in New York City. s the last National Director of ISFI, or "The Institute of Students and Faculty on Israel," in New York, an organization under the auspices of the Israeli Foreign Ministry and the Israeli Consulate in New York City (1989–1991). ISFI provided political and cultural resources, ideas and tools, for Jewish and pro-Israel student activists throughout the US and Canada, through which Israeli oriented activities and the message of Israel could be promoted in US campuses.</td></tr>";
 	echo "<tr><td>1989 — 1990</td><td>He received a study grant from New York University.</td></tr>";
 	echo "<tr><td>1988</td><td>Completed his MA in Near Eastern and Islamic Studies at the Hebrew University of Jerusalem, with specialization in the minorities in the Middle East and in particular the Jews and the Assyrian Christians within Kurdish-majority areas.</td></tr>";
 	echo "<tr><td>1987 - 1988</td><td>He received a study grant from the State university of New York (SUNY) at Binghamton.</td></tr>";
@@ -390,6 +392,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<figcaption>Rawanduz, near Erbil in the Kurdistan Region of Iraq.</figcaption></figure>";
 
 	echo "<table><tbody>";
+	echo "<tr><td>1990ish</td><td>Dr. Zaken is married to Riki, and the two continue to have three children: Tzah, Tahel, and Ohad.</td></tr>";
 	echo "<tr><td>1985 - 2002</td><td>He conducted hundreds of first-hand oral history accounts in Israel and abroad with more than 60 elderly Kurdish Jews, originally from Kurdistan, who shared their knowledge on the tribal Kurdish society and setting with him. From this, Dr. Zaken was able to reconstruct and tell the history of the Jews and the tribal Kurdish society.</td></tr>";
 	echo "<tr><td>1984 - 1985</td><td>As an MA student at Hebrew University, he wished to write a paper on the economy of Kurdistani Jews. To his astonishment, he discovered that there was hardly any written material on the Kurds and on the Jews of Kurdistan. Because of the lack of written material, he had to resort to oral-history and interviewed 12 elderly Kurdistani Jews for that paper alone.</td></tr>";
 	echo "<tr><td>1984</td><td>Completed his BA in Political Science and Near Eastern & Islamic Studies at the Hebrew University of Jerusalem.</td></tr>";
@@ -397,7 +400,6 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td>1982</td><td>Editor-in-Chief of 'Pi Ha-Aton' (פי-האתון), a student newspaper. On 26 April 1982, for a special Independence Day edition, Dr. Zaken published photos (and the story behind their uncovering) taken in 1948 by Arabs, which showed mutilated faces and bodies of Jewish soldiers who had been in an army unit which later became know as the 'Nabi Daniel Caravan' (שיירת נבי דניאל).</td></tr>";
 	echo "<tr><td>1980</td><td>Began his baccalaureate studies at the Hebrew University of Jerusalem.</td></tr>";
 	echo "<tr><td>1958</td><td>Moti is born in Jerusalem of Kurdistani and Iraqi background.</td></tr>";
-	echo "<tr><td></td><td>Moti's paternal village is completely depleted of its Jewish population.</td></tr>";
 	echo "<tr><td></td><td>Moti's father Saleh is born in Zakho in Iraqi Kurdistan.</td></tr>";
 	echo "<tr><td></td><td>Moti's mother Batyah is born in Elroi, in northern Israel, of ___ background.</td></tr>";
 	echo "<tr><td></td><td></td></tr>";
@@ -435,16 +437,20 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 		echo "<dt>What sparked Dr. Zaken's interest?</dt>";
 		echo "<dd>and was fascinated by meeting people who were the product of a disappearing oral and verbal culture; people who had so much life experience and knowledge about subjects that were hardly discussed in written literature. Some of these informants were natural story-tellers; some had encyclopedic knowledge; most of them were ordinary people who had to speak 2 or 3 languages from the languages spoken in and around Kurdistan (Kurdish, Arabic, Turkish, Farsi, Armenian etc.) in order to survive in their travels throughout the Kurdish mountains and plains and in their daily encounters with their members of the communities that lived around them, among them Kurdish masters (aghas), tribesmen, brigands and outlaws ('firars'). Some of the Jewish travellers developed the talent of being story tellers, because in the rigid and tribal setting of the Kurdish society, they were merchants or peddlers, who would roam through the Kurdish villages, sell their products and earn their living. During the evening leisure time, they would sit in the company of the tribal or village dignitaries, in the 'diwan-khane' (guest rooms or guest houses) of the tribal or village chieftains (aghas, drink tea or coffee and tell the updated tribal and local news to their tribal hosts and chieftains (aghas) under whose tribal jurisdiction they stayed.</dd>";
 
+		echo "<dt>What about the Friendship league?</td>";
+		echo "<dd>The founder was Mordechai Zaken[4][5] and the main activists who worked together were the late Moshe Zaken, a business man from Jerusalem, Meir Baruch, a retired military person, Michael Niebur who spent some time in NGOs helping the Kurds, and Mathew B. Hand an American who promoted activity of coexistence with Muslims. The response of Kurdish representatives and organizations both in Kurdistan and the diaspora was enthusiastic as can be judged from hundreds of letters, phone calls and also email received in Jerusalem within short time after the announcement of its founding in the world press and in The Voice of America in the Kurdish language, which conducted interviews with the founder, Mordechai Zaken. The League also published a newsletter called yedidut (heb., friendship) carrying the message of Israeli and Jewish friendship to Kurds worldwide.</dd>";
+		
+
 		echo "</dl>";
 		
  	echo "<p></p>";
 	
 	endif;
 	
-if ([$pageview_request, $language_request] == ["arab-affairs", "en"]):
+if ([$pageview_request, $language_request] == ["arab-and-minority-affairs", "en"]):
 
-	echo "<h2>Arab Affairs</h2>";
-	echo "<p>To buy <a href='https://kurdishjews.com/'>The Jews of Kurdistan and their Tribal Chieftains</a>.</p>";
+	echo "<h2>Arab and Minority Affairs</h2>";
+	echo "<p>.he has been standing up against hate crimes</a>.</p>";
 	echo "<p></p>";
 	
 	endif;
