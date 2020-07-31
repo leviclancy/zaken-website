@@ -56,6 +56,13 @@
 		"ku"	=> "",
 		],
 
+	"contact" => [
+		"ar"	=> "",
+		"en"	=> "Contact",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+
 	"to-contact-the-national-association" => [
 		"ar"	=> "",
 		"en"	=> "To contact the National Association,",
