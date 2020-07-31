@@ -324,12 +324,12 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<figure class='amp-img-fader' amp-fx='parallax' data-parallax-factor='1.14'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='_DSF4377-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>Rawanduz, near Erbil in the Kurdistan Region of Iraq.</figcaption></figure>";
+	echo "<amp-img src='_DSF9626-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
+	echo "<figcaption>Moti, during a meeting in Jerusalem.</figcaption></figure>";
 
 	echo "<h1 amp-fx='parallax' data-parallax-factor='1.1'>Career summary of Dr. Mordechai Zaken</h1>";
 
-	echo "<p amp-fx='parallax' data-parallax-factor='1.07'>Dr. Mordechai Zaken was born in 1958 in Jerusalem. His father immigrated to Israel from Iraqi Kurdistan, and his mother was born in El-Roi, a village in Jezreel Valley in northern Israel. His career highlights include,</p>";
+	echo "<p amp-fx='parallax' data-parallax-factor='1.07'>Dr. Mordechai Zaken, born in 1958 in Jerusalem of Kurdistani descent, has devoted his career to researching and documenting Jews and Assyrian Christians within Kurdish-majority areas, as well as Kurds and Kurdistan, and to serving as an activist and consultant for these communities as well as for coexistence between all communities.</p>";
 
 	echo "<ul>";
 	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Representative of the community of Jews from Kurdistan to the Kurdistan Region (2020 - now).</li>";
@@ -348,15 +348,14 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<h2>Condensed highlights</h2>";
 
 	echo "<table><tbody>";
-	echo "<tr><td>2019</td><td>2019 Laureate, Prime Minister Prize, Research of the Jews of the Orient.</td></tr>";
-	echo "<tr><td></td><td></td></tr>";
-	echo "<tr><td>2013-2015</td><td>Dr. Zaken's book is translated into Arabic, in Beirut (2013) and into Sorani Kurdish, in Arbil (2015).</td></tr>";
+	echo "<tr><td>2019</td><td>2019 Laureate, Prime Minister Prize for Research of the Jews of the Orient.</td></tr>";
+	echo "<tr><td>2015</td><td>Published: <i>Jewish Subjects</i> is translated into Sorani Kurdish, in Erbil.</td></tr>
+	echo "<tr><td>2013</td><td>Published: <i>Jewish Subjects</i> is translated into Arabic, in Beirut.</td></tr>
 	echo "<tr><td>2010 Sep — 2013 Aug</td><td>Lecturer, The Hebrew University of Jerusalem</td></tr>";
 	echo "<tr><td>2010</td><td>He recently spoke in the Parliament of Berlin, Germany (22 October 2010)</td></tr>";
-	echo "<tr><td>2007</td><td>Mordechai Zaken, 'Jewish Subjects and their Tribal Chieftains in Kurdistan: A Study in Survival,' Leiden and Boston: Brill, 2007).</td></tr>";
-	echo "<tr><td>2007 May - present</td><td>Head of Minority Affairs Desk at the Home Ministry, Israeli Ministry of Public Security.</td></tr>";
-	echo "<tr><td>2003</td><td>Thesis published on Jews of Kurdistan, through Hebrew University. He began working on this research project around 1985 and completed it around 2002/03 when he submitted his PhD dissertation to the Research Committee of the university. The Book, which was partly based on his PhD dissertation, was published at the end of 2007 by Brill Academic Publishers. The PhD Thesis unfolds the story of the Jews in Kurdistan in urban centers and villages and their relations with their tribal chieftains (aghas) from whom they received patronage and protection in the tribal Kurdish society, in return for their loyalty and other social and financial duties and obligations. The second part of the thesis deals with the history of the Assyrians in Kurdistan, during the 19th and 20th centuries.</td></tr>";
-	echo "<tr><td></td><td></td></tr>";
+	echo "<tr><td>2007</td><td>Published: <i>Jewish Subjects and their Tribal Chieftains in Kurdistan: A Study in Survival</i>. This book was partly based on his doctorate dissertations.</td></tr>";
+	echo "<tr><td>2007 May - present</td><td>Head of the Minority Affairs Desk at Israel's Ministry of Internal Security.</td></tr>";
+	echo "<tr><td>2003</td><td>Published: Thesis on Jews of Kurdistan, through Hebrew University. He began working on this research project around 1985, culminating in his dissertation which unfolds the story of the Jews in Kurdistan in urban centers and villages, and their relations with their tribal chieftains (aghas) from whom they received patronage and protection in the tribal Kurdish society, in return for their loyalty and other social and financial duties and obligations. The second part of the thesis deals with the history of the Assyrians in Kurdistan, during the 19th and 20th centuries.</td></tr>";
 	echo "<tr><td></td><td></td></tr>";
 	echo "</tbody></table>";
 
@@ -367,21 +366,40 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<figcaption>Akre, near Duhok in the Kurdistan Region of Iraq.</figcaption></figure>";
 
 	echo "<table><tbody>";
-	echo "<tr><td>2001 May — 2007 May</td><td>Advisor on Minorities Affairs to the Minister, Ministry of Internal Security.</td></tr>";
-	echo "<tr><td>1999 — 2002</td><td></td></tr>";
-	echo "<tr><td>1999 Nov — 2001 Dec</td><td>East-Up Inc, Founder. East-Up, Inc. aimed to enhance the medical services and treatment of the Arab speaking world in the Middle East, through the Internet.</td></tr>";
+	echo "<tr><td>2001 May — 2007 May</td><td>Advisor on Minorities Affairs at Israel's Ministry of Internal Security.</td></tr>";
+	echo "<tr><td>1999 Nov — 2001 Dec</td><td>Founder of East-Up Inc, which aimed to enhance medical services to the Arabic-speaking world in the Middle East, through the internet.</td></tr>";
 	echo "<tr><td>1997 May - 1999 Dec</td><td>He was asked to serve as the Prime Minister's Adviser on Arab Affairs (1997-1999)</td></tr>";
-	echo "<tr><td>1992</td><td> When he returned to Israel, in 1992, he taught at the Hebrew University for several years.</td></tr>";
-	echo "<tr><td>1989-1991</td><td>While living in New York City he also served as the National Director of ISFI (Inst. of Students & Faculty on Israel) between January 1989 and October 1991.</td></tr>";
-	echo "<tr><td>1989-1990</td><td>He received study grant from NYU or New York University (1989-1990).</td></tr>";
-	echo "<tr><td>1988</td><td>MA (1988) completed in Near Eastern & Islamic Studies and PhD (2003) with specialization in the minorities in the Middle East and in particular the Jews and the Assyrian Christians of Kurdistan].</td></tr>";
-	echo "<tr><td>1987-1988</td><td>He received study grants from the State university of New York (SUNY) at Binghamton (1987-1988</td></tr>";
+	echo "<tr><td>1997</td><td>Published: <i>\"Inventors' Fate\", A Folk-Tale in the Neo-Aramaic of Zakho</i>.</td></tr>";
 	echo "<tr><td></td><td></td></tr>";
-	echo "<tr><td>1985-2002</td><td>The book is based on hundreds of first-hand oral history accounts, conducted by the author, between 1985 and 2002 in Israel and abroad, with more than 60 elderly Kurdish Jews, originally from Kurdistan, who shared their rich and fascinating oral memoirs on the tribal Kurdish society and setting with the author, who was then able to reconstruct and tell the history of the Jews and the tribal Kurdish society. He continued interviewing elderly Kurdistani Jews, and was fascinated by meeting people who were the product of a disappearing oral and verbal culture; people who had so much life experience and knowledge about subjects that were hardly discussed in written literature. Some of these informants were natural story-tellers; some had encyclopedic knowledge; most of them were ordinary people who had to speak 2 or 3 languages from the languages spoken in and around Kurdistan (Kurdish, Arabic, Turkish, Farsi, Armenian etc.) in order to survive in their travels throughout the Kurdish mountains and plains and in their daily encounters with their members of the communities that lived around them, among them Kurdish masters (aghas), tribesmen, brigands and outlaws ('firars'). Some of the Jewish travellers developed the talent of being story tellers, because in the rigid and tribal setting of the Kurdish society, they were merchants or peddlers, who would roam through the Kurdish villages, sell their products and earn their living. During the evening leisure time, they would sit in the company of the tribal or village dignitaries, in the 'diwan-khane' (guest rooms or guest houses) of the tribal or village chieftains (aghas, drink tea or coffee and tell the updated tribal and local news to their tribal hosts and chieftains (aghas) under whose tribal jurisdiction they stayed.</td></tr>";
-	echo "<tr><td>1984-1985</td><td>As an MA student at the Hebrew U., he wished to write a paper on the economy of Kurdistani Jews. To his astonishment, he discovered that there was hardly any written material on the Kurds and on the Jews of Kurdistan. Because of the lack of written material he had to resort to oral-history and interviewed 12 elderly Kurdistani Jews for that paper alone (around 1984-85).</td></tr>";
-	echo "<tr><td>1984</td><td>Graduated from Hebrew University with his BA in Political Science and Near Eastern & Islamic Studies.</td></tr>";
-	echo "<tr><td>1958</td><td>Born in Jerusalem</td></tr>";
-	echo "<tr><td>1982</td><td>While studying at the University he was active in the student's body. Among other things he was the Editor-IN-Chief of the 'mythological' students newspaper 'Pi Ha-Aton' (פי-האתון), around 1982.</td></tr>";
+	echo "<tr><td></td><td></td></tr>";
+	echo "<tr><td></td><td></td></tr>";
+	echo "<tr><td></td><td></td></tr>";
+	echo "<tr><td>1992</td><td> When he returned to Israel, he taught at the Hebrew University of Jerusalem for several years.</td></tr>";
+	echo "<tr><td>1990</td><td>Published: Translation of the <i>Book of Ruth</i> into New-Aramaic, by Drs. Gideon Goldberg and Mordechai Zaken.</td></tr>";
+	echo "<tr><td>1989 Jan — 1991 Oct</td><td>He served as the National Director of the Institute of Students & Faculty on Israel, while living in New York City.</td></tr>";
+	echo "<tr><td>1989 — 1990</td><td>He received a study grant from New York University.</td></tr>";
+	echo "<tr><td>1988</td><td>Completed his MA in Near Eastern and Islamic Studies at the Hebrew University of Jerusalem, with specialization in the minorities in the Middle East and in particular the Jews and the Assyrian Christians within Kurdish-majority areas.</td></tr>";
+	echo "<tr><td>1987 - 1988</td><td>He received a study grant from the State university of New York (SUNY) at Binghamton.</td></tr>";
+	echo "<tr><td></td><td></td></tr>";
+	echo "</table>";
+
+	echo "<figure class='amp-img-fader'>";
+	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
+	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
+	echo "<amp-img src='_DSF4377-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
+	echo "<figcaption>Rawanduz, near Erbil in the Kurdistan Region of Iraq.</figcaption></figure>";
+
+	echo "<table><tbody>";
+	echo "<tr><td>1985 - 2002</td><td>He conducted hundreds of first-hand oral history accounts in Israel and abroad with more than 60 elderly Kurdish Jews, originally from Kurdistan, who shared their knowledge on the tribal Kurdish society and setting with him. From this, Dr. Zaken was able to reconstruct and tell the history of the Jews and the tribal Kurdish society.</td></tr>";
+	echo "<tr><td>1984 - 1985</td><td>As an MA student at Hebrew University, he wished to write a paper on the economy of Kurdistani Jews. To his astonishment, he discovered that there was hardly any written material on the Kurds and on the Jews of Kurdistan. Because of the lack of written material, he had to resort to oral-history and interviewed 12 elderly Kurdistani Jews for that paper alone.</td></tr>";
+	echo "<tr><td>1984</td><td>Completed his BA in Political Science and Near Eastern & Islamic Studies at the Hebrew University of Jerusalem.</td></tr>";
+	echo "<tr><td>1983</td><td>Co-Chief Editor of 'Tipul Shoresh', an annual about activism at the Hebrew Universe of the public activists' program at the Hebrew University, the circulation of which was stopped by the directors and university administration, due to its critical approach towards the university policy regarding social issues.</td></tr>";
+	echo "<tr><td>1982</td><td>Editor-in-Chief of 'Pi Ha-Aton' (פי-האתון), a student newspaper. On 26 April 1982, for a special Independence Day edition, Dr. Zaken published photos (and the story behind their uncovering) taken in 1948 by Arabs, which showed mutilated faces and bodies of Jewish soldiers who had been in an army unit which later became know as the 'Nabi Daniel Caravan' (שיירת נבי דניאל).</td></tr>";
+	echo "<tr><td>1980</td><td>Began his baccalaureate studies at the Hebrew University of Jerusalem.</td></tr>";
+	echo "<tr><td>1958</td><td>Moti is born in Jerusalem of Kurdistani and Iraqi background.</td></tr>";
+	echo "<tr><td></td><td>Moti's paternal village is completely depleted of its Jewish population.</td></tr>";
+	echo "<tr><td></td><td>Moti's father Saleh is born in Zakho in Iraqi Kurdistan.</td></tr>";
+	echo "<tr><td></td><td>Moti's mother Batyah is born in Elroi, in northern Israel, of ___ background.</td></tr>";
 	echo "<tr><td></td><td></td></tr>";
 	echo "</tbody></table>";
 
@@ -394,10 +412,6 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<h2>References</h2>";
 
 	echo "<p>His most favored and inspiring teachers have been Prof. Moshe Sharon (under whom he studied Islamic civilization and culture as well as Arabic and Farsi); Prof. B. Z. Kedar (general History and comparative history); Prof. Gideon Goldenberg (Neo-Aramaic of the Jews and Assyrians of the Kurdish regions); Prof. Michael Zand (Farsi); and the late Prof. Amnon Netzer (Farsi and Persian Jewish History).</p>";
-
-	echo "<hr>";
-
-	echo "";
 
 	endif;
 
@@ -418,6 +432,9 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 		echo "<dt>What is the role of representative?</dt>";
 		echo "<dd>The role of representtive is selected by the Nationnal Association, and awaiting confirmation by the Ministry of Endowments and Religious Affairs in the Krudistan Region.</dd>";
 		
+		echo "<dt>What sparked Dr. Zaken's interest?</dt>";
+		echo "<dd>and was fascinated by meeting people who were the product of a disappearing oral and verbal culture; people who had so much life experience and knowledge about subjects that were hardly discussed in written literature. Some of these informants were natural story-tellers; some had encyclopedic knowledge; most of them were ordinary people who had to speak 2 or 3 languages from the languages spoken in and around Kurdistan (Kurdish, Arabic, Turkish, Farsi, Armenian etc.) in order to survive in their travels throughout the Kurdish mountains and plains and in their daily encounters with their members of the communities that lived around them, among them Kurdish masters (aghas), tribesmen, brigands and outlaws ('firars'). Some of the Jewish travellers developed the talent of being story tellers, because in the rigid and tribal setting of the Kurdish society, they were merchants or peddlers, who would roam through the Kurdish villages, sell their products and earn their living. During the evening leisure time, they would sit in the company of the tribal or village dignitaries, in the 'diwan-khane' (guest rooms or guest houses) of the tribal or village chieftains (aghas, drink tea or coffee and tell the updated tribal and local news to their tribal hosts and chieftains (aghas) under whose tribal jurisdiction they stayed.</dd>";
+
 		echo "</dl>";
 		
  	echo "<p></p>";
