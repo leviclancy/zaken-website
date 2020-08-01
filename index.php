@@ -149,7 +149,10 @@ $style_array = [
 		"line-height"		=> "1.5em",
 		],
 	
-	"#body-content h1, #body-content h2, #body-content p, #body-content dl, #body-content ul, #body-content ol, #body-content figure, #body-content table, #body-content blockquote" => [
+	"#body-content h1, #body-content h2, #body-content p, 
+	#body-content dl, #body-content ul, #body-content ol, 
+	#body-content figure, #body-content table, 
+	#body-content blockquote, #body-content amp-youtube" => [
 		"display"		=> "block",
 		"margin"		=> "50px auto",
 		"max-width"		=> "800px",
@@ -182,7 +185,7 @@ $style_array = [
 		],
 	
 	"#body-content blockquote::before" => [
-		"content"		=> "\275D",
+		"content"		=> "'\275D'",
 		"font-size"		=> "140%",
 		"float"			=> "left",
 		"padding"		=> "5px",
