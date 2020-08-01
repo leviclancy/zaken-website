@@ -167,7 +167,7 @@ $style_array = [
 		"padding"		=> "0",
 		],
 	
-	"#body-content amp-img" => [
+	"#body-content amp-img, #body-content amp-youtube" => [
 		"border-radius"		=> "4px",
 		],
 	
