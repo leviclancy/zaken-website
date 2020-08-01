@@ -504,13 +504,18 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 		echo "<dt>What about Kurdish Jews in Kurdistan in the news?</dt>";
 		echo "<dd>As stated above, there are zero Jews remaining who were born in the Kurdistan Region. Recently, some eccentric individuals from Muslim families have claimed to be Jewish. Although there are surely many people with distant Jewish ancestry, there is nobody whose claims were verified. Certain individuals have been found to be committing total fraud, such as ___ and ___.</dd>";
 
+		echo "</dl>";
+
+	echo "<blockquote>My book, my research contains hundreds of stories. Some are about aghas who are not so nice, who exploited the jews, who took advantage of the Jews economically, physicially, and other ways. but I want to emphasize the good values, the good memroies the jewish had from Kurdistan. And I want to share it with you.</blockquote>";
+
+	echo "<dl>";
+
 		echo "<dt>What about the Friendship league?</td>";
 		echo "<dd>The founder was Mordechai Zaken[4][5] and the main activists who worked together were the late Moshe Zaken, a business man from Jerusalem, Meir Baruch, a retired military person, Michael Niebur who spent some time in NGOs helping the Kurds, and Mathew B. Hand an American who promoted activity of coexistence with Muslims. The response of Kurdish representatives and organizations both in Kurdistan and the diaspora was enthusiastic as can be judged from hundreds of letters, phone calls and also email received in Jerusalem within short time after the announcement of its founding in the world press and in The Voice of America in the Kurdish language, which conducted interviews with the founder, Mordechai Zaken. The League also published a newsletter called yedidut (heb., friendship) carrying the message of Israeli and Jewish friendship to Kurds worldwide.</dd>";
 		
 		echo "</dl>";
 		
 	echo "<blockquote>The Kurdish people often forgot their history because they were busy with their struggle, with being oppressed. They had so many economic, social, military problems — and the Assyrians also, were dispersed. So the only people who kept the memory of Kurdistan were the memory of Kurdish Jews from Kurdistan who immigrated to israel and continued wearing Kurdish clothes, eating Kurdish food, and listening to Kurdish music every day of their lives. They kept the tradition of Kurdistan alive./blockquote>";
-
 	echo "<p></p>";
 	
 	endif;
