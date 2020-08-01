@@ -433,6 +433,8 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<amp-img src='_DSF2224-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>The Arab neighborhood of the Old City in Jerusalem.</figcaption></figure>";
 
+	echo "<blockquote>Being born Israeli meant being born into a responsibility to stand up for human rights... .</blockquote>";
+
 	echo "<h2>References</h2>";
 
 	echo "<p>His most favored and inspiring teachers have been Prof. Moshe Sharon (under whom he studied Islamic civilization and culture as well as Arabic and Farsi); Prof. B. Z. Kedar (general History and comparative history); Prof. Gideon Goldenberg (Neo-Aramaic of the Jews and Assyrians of the Kurdish regions); Prof. Michael Zand (Farsi); and the late Prof. Amnon Netzer (Farsi and Persian Jewish History).</p>";
