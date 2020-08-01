@@ -182,7 +182,7 @@ $style_array = [
 		],
 	
 	"#body-content blockquote::before" => [
-		"content"		=> "\275D",
+		"content"		=> "\275D dsfgdg",
 		"font-size"		=> "140%",
 		"float"			=> "left",
 		"padding"		=> "5px",
@@ -469,6 +469,8 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 
 	echo "<h2>Jews of Kurdistan</h2>";
 
+	echo "<blockquote>The Kurds are proud people, and smart people. They are smart enough to draw their own conclusion from the political and historical situation.</blockquote>";
+
 	echo "<dl>";
 
 		echo "<dt>What is the role of representative?</dt>";
@@ -479,6 +481,12 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 	
 		echo "<dt>What sparked Dr. Zaken's interest?</dt>";
 		echo "<dd>and was fascinated by meeting people who were the product of a disappearing oral and verbal culture; people who had so much life experience and knowledge about subjects that were hardly discussed in written literature. Some of these informants were natural story-tellers; some had encyclopedic knowledge; most of them were ordinary people who had to speak 2 or 3 languages from the languages spoken in and around Kurdistan (Kurdish, Arabic, Turkish, Farsi, Armenian etc.) in order to survive in their travels throughout the Kurdish mountains and plains and in their daily encounters with their members of the communities that lived around them, among them Kurdish masters (aghas), tribesmen, brigands and outlaws ('firars'). Some of the Jewish travellers developed the talent of being story tellers, because in the rigid and tribal setting of the Kurdish society, they were merchants or peddlers, who would roam through the Kurdish villages, sell their products and earn their living. During the evening leisure time, they would sit in the company of the tribal or village dignitaries, in the 'diwan-khane' (guest rooms or guest houses) of the tribal or village chieftains (aghas, drink tea or coffee and tell the updated tribal and local news to their tribal hosts and chieftains (aghas) under whose tribal jurisdiction they stayed.</dd>";
+
+		echo "</dl>";
+
+	echo "<blockquote>I became invovled in Kurdistan in a very pecular way. I was a student at the Hebrwe Uni of Jerusalem when I wanted to write a paper about the economy of Kurdistan. My professor said <i>fine</i> but then I realized there were hardly any documents in Hebrew, in Arabic, nor other other languages. So I had to interview people for this apper. For this paper on ethe economy of Zakho, whre my father is from, I itnerviewe 12 people. This fantastic mechanism, this experience fo interviewing old Kurdish Jews really fascinated me and drew me into the subject. These Krudish people, these Jewish Kurds who lived in Israel, but they lived for fifty eyars,for sitxy years in Kurdistan, ahd grown up in an oral culture. They spoke four, five, six languages; tey knew the map by ehart because they traveld by donkey or mule; and they knew all the villages, all the aghas, all the histories of Kurdsitan becaue they lived it. </blockquote>";
+
+	echo "<dl>";
 
 		echo "<dt>What are some common misconceptions about the representative?</dt>";
 		echo "<dd>As an appointment made between the National Association of Jews from Kurdistan and the Ministry of Endowments of Religious Affairs in the Kurdistan Region, the representative is not involved in issues outside the scope of these two institutions. The role of represenative does not include bilateral relations between any two countries, nor is the role of representative devoted in any way to economic or other activities within or between countries. The role of represenative is stricly limited to Jewish affairs and Jewish sites in areas administered by the Kurdistan Region.</dd>";
