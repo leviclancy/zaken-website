@@ -181,8 +181,11 @@ $style_array = [
 		],
 	
 	"#body-content blockquote::before" => [
-		"content"		=> "&#10077;",
-		"font-size"		=> "130%",
+		"content"		=> "\275D",
+		"font-size"		=> "150%",
+		"line-height"		=> "1.4",
+		"float"			=> "left",
+		"padding"		=> "5px",
 		],
 	
 	"#body-content td" => [
