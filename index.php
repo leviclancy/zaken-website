@@ -188,9 +188,10 @@ $style_array = [
 		"content"		=> "'❝'",
 		"font-size"		=> "180%",
 		"float"			=> "left",
-		"padding"		=> "2px 20px 5px 2px",
-		"margin"		=> "0 0 0 -20px",
+		"padding"		=> "2px 20px 0 2px",
+		"margin"		=> "0 0 0 -25px",
 		"display"		=> "inline-block",
+		"line-height"		=> "1em",
 		],
 	
 	"#body-content td" => [
