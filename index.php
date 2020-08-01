@@ -149,7 +149,7 @@ $style_array = [
 		"line-height"		=> "1.5em",
 		],
 	
-	"#body-content h1, #body-content h2, #body-content p, #body-content ul, #body-content ol, #body-content figure, #body-content table" => [
+	"#body-content h1, #body-content h2, #body-content p, #body-content ul, #body-content ol, #body-content figure, #body-content table, #body-content blockquote" => [
 		"display"		=> "block",
 		"margin"		=> "50px auto",
 		"max-width"		=> "800px",
@@ -171,6 +171,11 @@ $style_array = [
 	"#body-content figcaption" => [
 		"font-size"		=> "80%",
 		"font-family"		=> "Assistant",
+		],
+	
+	"#body-content blockquote" => [
+		"font-size"		=> "110%",
+		"font-family"		=> "Noto Serif JP",
 		],
 	
 	"#body-content td" => [
@@ -413,7 +418,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 
 	echo "<p>His most favored and inspiring teachers have been Prof. Moshe Sharon (under whom he studied Islamic civilization and culture as well as Arabic and Farsi); Prof. B. Z. Kedar (general History and comparative history); Prof. Gideon Goldenberg (Neo-Aramaic of the Jews and Assyrians of the Kurdish regions); Prof. Michael Zand (Farsi); and the late Prof. Amnon Netzer (Farsi and Persian Jewish History).</p>";
 
-	echo "<h2>Articles summary</h2>
+	echo "<h2>Articles summary</h2>";
 
 	echo "<table><tbody>";
 	echo "<tr><td></td><td></td></tr>";	
