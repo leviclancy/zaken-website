@@ -180,9 +180,9 @@ $style_array = [
 		"max-width"		=> "650px",
 		],
 	
-	"#body-content blockquote::before, #body-content blockquote::after" => [
-		"content"		=> '"',
-		"font-size"		=> '130%',
+	"#body-content blockquote::before" => [
+		"content"		=> "&#10077;",
+		"font-size"		=> "130%",
 		],
 	
 	"#body-content td" => [
