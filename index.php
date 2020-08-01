@@ -176,6 +176,13 @@ $style_array = [
 	"#body-content blockquote" => [
 		"font-size"		=> "110%",
 		"font-family"		=> "Noto Serif JP",
+		"padding"		=> "0 30px",
+		"max-width"		=> "650px",
+		],
+	
+	"#body-content blockquote::before, #body-content blockquote::after" => [
+		"content"		=> '"',
+		"font-size"		=> '130%',
 		],
 	
 	"#body-content td" => [
