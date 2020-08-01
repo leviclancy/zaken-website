@@ -185,7 +185,7 @@ $style_array = [
 		],
 	
 	"#body-content blockquote::before" => [
-		"content"		=> "'\275D'",
+		"content"		=> "'❝'",
 		"font-size"		=> "140%",
 		"float"			=> "left",
 		"padding"		=> "5px",
