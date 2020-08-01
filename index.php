@@ -149,7 +149,7 @@ $style_array = [
 		"line-height"		=> "1.5em",
 		],
 	
-	"#body-content h1, #body-content h2, #body-content p, #body-content ul, #body-content ol, #body-content figure, #body-content table, #body-content blockquote" => [
+	"#body-content h1, #body-content h2, #body-content p, #body-content dl, #body-content ul, #body-content ol, #body-content figure, #body-content table, #body-content blockquote" => [
 		"display"		=> "block",
 		"margin"		=> "50px auto",
 		"max-width"		=> "800px",
@@ -175,14 +175,14 @@ $style_array = [
 	
 	"#body-content blockquote" => [
 		"font-size"		=> "120%",
-		"line-height"		=> "1.4",
+		"line-height"		=> "1.5",
 		"font-family"		=> "Noto Serif JP",
 		"padding"		=> "0 30px",
 		"max-width"		=> "650px",
 		],
 	
-	"blockquote::before" => [
-		"content"		=> "\275D dsfgdg",
+	"#body-content blockquote::before" => [
+		"content"		=> "\275D",
 		"font-size"		=> "140%",
 		"float"			=> "left",
 		"padding"		=> "5px",
@@ -413,6 +413,8 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<amp-img src='_DSF4377-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Rawanduz, near Erbil in the Kurdistan Region of Iraq.</figcaption></figure>";
 
+	echo "<blockquote>Being born Israeli meant being born into a responsibility to stand up for human rights... .</blockquote>";
+
 	echo "<table><tbody>";
 	echo "<tr><td>1990ish</td><td>Dr. Zaken is married to Riki, and the two continue to have three children: Tzah, Tahel, and Ohad.</td></tr>";
 	echo "<tr><td>1985 - 2002</td><td>He conducted hundreds of first-hand oral history accounts in Israel and abroad with more than 60 elderly Kurdish Jews, originally from Kurdistan, who shared their knowledge on the tribal Kurdish society and setting with him. From this, Dr. Zaken was able to reconstruct and tell the history of the Jews and the tribal Kurdish society.</td></tr>";
@@ -427,7 +429,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td></td><td></td></tr>";
 	echo "</tbody></table>";
 
-	echo "<blockquote>Being born Israeli meant being born into a responsibility to stand up for human rights... .</blockquote>";
+	echo "<blockquote>In the neighborhood where I grew up, we spoke, they spoke Aramaic and Kurdish together. These people left Kurdistan, but Kurdistan did not leave them.</blockquote>";
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
@@ -502,7 +504,9 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 		
 		echo "</dl>";
 		
- 	echo "<p></p>";
+	echo "<blockquote>The Kurdish people often forgot their history because they were busy with their struggle, with being oppressed. They had so many economic, social, military problems — and the Assyrians also, were dispersed. So the only people who kept the memory of Kurdistan were the memory of Kurdish Jews from Kurdistan who immigrated to israel and continued wearing Kurdish clothes, eating Kurdish food, and listening to Kurdish music every day of their lives. They kept the tradition of Kurdistan alive./blockquote>";
+
+	echo "<p></p>";
 	
 	endif;
 	
