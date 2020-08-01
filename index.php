@@ -181,7 +181,7 @@ $style_array = [
 		"max-width"		=> "650px",
 		],
 	
-	"#body-content blockquote::before" => [
+	"blockquote::before" => [
 		"content"		=> "\275D dsfgdg",
 		"font-size"		=> "140%",
 		"float"			=> "left",
