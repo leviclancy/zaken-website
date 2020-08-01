@@ -43,18 +43,11 @@ echo "<link rel='canonical' href='https://". $domain ."'>";
 
 echo "<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>";
 
-// echo '<script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>';
-// echo '<script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>';
 echo '<script async custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js"></script>';
-// echo '<script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>';
 echo '<script async custom-element="amp-fx-collection" src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js"></script>';
-// echo '<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>';
-// echo '<script async custom-element="amp-audio" src="https://cdn.ampproject.org/v0/amp-audio-0.1.js"></script>';
 echo '<script async custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"></script>';
+echo '<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>';
 
-// echo '<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">';
-// echo '<link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">';
-// echo '<link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@1,500&family=Noto+Serif+JP&display=swap" rel="stylesheet">';
 echo '<link href="https://fonts.googleapis.com/css2?family=Assistant&display=swap" rel="stylesheet">';
 echo '<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">';
 echo '<link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap" rel="stylesheet">';
@@ -420,6 +413,17 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 
 	echo "<p>His most favored and inspiring teachers have been Prof. Moshe Sharon (under whom he studied Islamic civilization and culture as well as Arabic and Farsi); Prof. B. Z. Kedar (general History and comparative history); Prof. Gideon Goldenberg (Neo-Aramaic of the Jews and Assyrians of the Kurdish regions); Prof. Michael Zand (Farsi); and the late Prof. Amnon Netzer (Farsi and Persian Jewish History).</p>";
 
+	echo "<h2>Articles summary</h2>
+
+	echo "<table><tbody>";
+	echo "<tr><td></td><td></td></tr>";	
+	echo "<tr><td>2017 Apr</td><td><a href='https://www.youtube.com/watch?v=i8yI-SLzSKg'>Interview on CBN about Israel-Christian relations.</a></td></tr>";	
+	echo "<tr><td></td><td></td></tr>";	
+	echo "<tr><td></td><td></td></tr>";	
+	echo "<tr><td></td><td></td></tr>";	
+	echo "<tr><td></td><td></td></tr>";	
+	echo "</tbody></table>";
+
 	endif;
 
 if ([$pageview_request, $language_request] == ["bookstore", "en"]):
@@ -465,9 +469,34 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 	
 if ([$pageview_request, $language_request] == ["arab-and-minority-affairs", "en"]):
 
-	echo "<h2>Arab and Minority Affairs</h2>";
-	echo "<p>.he has been standing up against hate crimes</a>.</p>";
-	echo "<p></p>";
+	echo "<h1>Arab and Minority Affairs</h1>";
+	
+	echo "<p>At the core of Dr. Zaken's work on Arab, Christian, and other minority affairs is attention to improving life for all Israelis, a committment to israeli democracy, and a dedication to eradicating hate crimes and extremism.</p>";
+	
+	echo "<h2>Arab affairs</h2>";
+	
+	echo "<h2>Christian affairs</h2>";
+	
+	echo "<blockquote>In my position, I understand the importance of having a strong, defended and prospering Christian community in Israel.</blockquote>"; 
+	
+	echo "<p>Interview about the importance of Chritians in the region and in Israel,</p>";
+	echo "<amp-youtube data-videoid='6fvQdbLJOBQ' layout='responsive' width='640' height='360'></amp-youtube>";
+	
+	echo "<blockquote>It is very important that we will be cooperating to solve problems, and to improve relations. We value the Christian groups and representatives. They are a very important asset for the Jewish state.</blockquote>";
+	
+	echo "<p>Interview about meetings organized by Dr. Zaken between Israeli officials and Christian leaders,</p>";
+	echo "<amp-youtube data-videoid='i8yI-SLzSKg' layout='responsive' width='640' height='360'></amp-youtube>";
+	
+	echo "<p>Interview about combatting anti-Christian hate,</p>";
+	echo "<amp-youtube data-videoid='B3tVz2kAv1k' layout='responsive' width='640' height='360'></amp-youtube>";
+	
+	echo "<blockquote>It's not enough to only show solidarity. We must continue to educate those who are responsible for hate. Also, we have to make sure that the police and other authorities will find those responsible for hate crimes. They must be caught and brought into trial.</blockquote>";
+	
+	echo "<p>Interview about combatting anti-Christian hate,</p>";
+	echo "<amp-youtube data-videoid='Mn88fWoYmYY' layout='responsive' width='640' height='360'></amp-youtube>";
+	
+	echo "<p>Meeting with the Greek Orthodox Patriarch,</p>";
+	echo "<amp-youtube data-videoid='KK2l8vaqrLo' layout='responsive' width='640' height='360'></amp-youtube>";
 	
 	endif;
 	
