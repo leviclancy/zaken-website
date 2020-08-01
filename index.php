@@ -361,6 +361,8 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 
 	echo "<h2>Condensed highlights</h2>";
 
+	echo "<blockquote>Being approached to represent hte community of Jews from Kurdistan is the fulfillment of ... From a childhood spent in awe of my father, who was himself born... To the years of seeing the Kurdistan Region one of the Middle East's rare success stories...</blockquote>";
+
 	echo "<table><tbody>";
 	echo "<tr><td>2019</td><td>2019 Laureate, Prime Minister Prize for Research of the Jews of the Orient.</td></tr>";
 	echo "<tr><td>2016</td><td>In 2016, within the Public Security Ministry, he formed a new governmental forum for dialogue with local Arab leader</td></tr>";
@@ -377,11 +379,15 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td></td><td></td></tr>";
 	echo "</tbody></table>";
 
+	echo "<blockquote>Where others have shut the door, the Kurdistan Region has emerged as a sort of training ground for what sort of development can occur... </blockquote>";
+
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='_DSF4565-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Akre, near Duhok in the Kurdistan Region of Iraq.</figcaption></figure>";
+
+	echo "<blockquote>By working on Assyrian... I learned the language fo Neo-Aramaic and found it to be...</blockquote>";
 
 	echo "<table><tbody>";
 	echo "<tr><td>2001 May — 2007 May</td><td>Advisor on Minorities Affairs at Israel's Ministry of Internal Security.</td></tr>";
@@ -398,6 +404,8 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td>1987 - 1988</td><td>He received a study grant from the State university of New York (SUNY) at Binghamton.</td></tr>";
 	echo "<tr><td></td><td></td></tr>";
 	echo "</table>";
+
+	echo "<blockquote>Since a young age, I have been committed to... My upbrining gave me a commitment to... Seeing the experience of the Jews of Kurdistan, I was raised with an....</blockquote>";
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
