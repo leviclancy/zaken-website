@@ -427,27 +427,32 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td></td><td></td></tr>";
 	echo "</tbody></table>";
 
+	echo "<blockquote>Being born Israeli meant being born into a responsibility to stand up for human rights... .</blockquote>";
+
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='_DSF2224-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>The Arab neighborhood of the Old City in Jerusalem.</figcaption></figure>";
 
-	echo "<blockquote>Being born Israeli meant being born into a responsibility to stand up for human rights... .</blockquote>";
-
 	echo "<h2>References</h2>";
+
+	echo "<blockquote>I am grateful to scholars such as... Who have accomplished... .</blockquote>";
 
 	echo "<p>His most favored and inspiring teachers have been Prof. Moshe Sharon (under whom he studied Islamic civilization and culture as well as Arabic and Farsi); Prof. B. Z. Kedar (general History and comparative history); Prof. Gideon Goldenberg (Neo-Aramaic of the Jews and Assyrians of the Kurdish regions); Prof. Michael Zand (Farsi); and the late Prof. Amnon Netzer (Farsi and Persian Jewish History).</p>";
 
-	echo "<h2>Articles summary</h2>";
+	echo "<h2>Media summary</h2>";
 
 	echo "<table><tbody>";
-	echo "<tr><td></td><td></td></tr>";	
-	echo "<tr><td>2017 Apr</td><td><a href='https://www.youtube.com/watch?v=i8yI-SLzSKg'>Interview on CBN about Israel-Christian relations.</a></td></tr>";	
-	echo "<tr><td></td><td></td></tr>";	
-	echo "<tr><td></td><td></td></tr>";	
-	echo "<tr><td></td><td></td></tr>";	
-	echo "<tr><td></td><td></td></tr>";	
+	echo "<tr><td>2017 Apr</td><td><a href='https://www.youtube.com/watch?v=i8yI-SLzSKg'>Interview on CBN about Israel-Christian relations</a></td></tr>";	
+	echo "<tr><td>2006 May 11</td><td>Meeting with Hamas: <a href='http://cbgonzo.blogspot.co.il/2006/05/10-more-questions.html'>Yahoo news</a></td></tr>";	
+	echo "<tr><td>1999 Apr 21</td><td>Likud Denies It Is Exploiting Conflict: <a href='http://articles.latimes.com/1999/apr/21/news/mn-29526/2'>LA Times</a></td></tr>";	
+	echo "<tr><td>1999 Apr 20</td><td>Compromise on Nazareth: <a href='http://www.nytimes.com/1999/04/20/world/israel-sets-forth-compromise-plan-on-nazareth-mosque-dispute.html'>NY Times</a></td></tr>";	
+	echo "<tr><td>1999 Apr 07</td><td>Protesting demolition of homes: <a href='http://articles.latimes.com/1998/apr/07/news/mn-36961'>LA Times</a></td></tr>";	
+	echo "<tr><td>1999 Apr 06</td><td>Demolition of homes: <a href='http://www.apnewsarchive.com/1998/Israeli-Arabs-Protest-Demolition/id-debabd28296ea20a9d9a26c5de57ad57'>AP</a></td></tr>";	
+	echo "<tr><td>1998 Apr 28</td><td>Unrecognized villages: <a href='http://edition.cnn.com/WORLD/meast/9804/28/israel.forty.villages/index.old.html'>CNN</a></td></tr>";	
+	echo "<tr><td></td><td></td></tr>";
+	echo "<tr><td></td><td></td></tr>";
 	echo "</tbody></table>";
 
 	endif;
