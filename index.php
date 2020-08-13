@@ -480,35 +480,56 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 
 	echo "<dl>";
 
-		echo "<dt>What is the role of representative?</dt>";
-		echo "<dd>The representative is responsible for advising on</dd>";
-
-		echo "<dt>How is the representative appointed?</dt>";
-		echo "<dd>The role of representtive is selected by the Nationnal Association, and awaiting confirmation by the Ministry of Endowments and Religious Affairs in the Krudistan Region.</dd>";
+		echo "<dt>Who is the represenative for Jewish affairs and Jewish sites in the Kurdistan Region?</dt>";
+		echo "<dd>Dr. Mordechai Zaken is the represenative for Jewish affairs and Jewish sites in the Kurdistan Region.</dd>";
 	
-		echo "<dt>What sparked Dr. Zaken's interest?</dt>";
-		echo "<dd>and was fascinated by meeting people who were the product of a disappearing oral and verbal culture; people who had so much life experience and knowledge about subjects that were hardly discussed in written literature. Some of these informants were natural story-tellers; some had encyclopedic knowledge; most of them were ordinary people who had to speak 2 or 3 languages from the languages spoken in and around Kurdistan (Kurdish, Arabic, Turkish, Farsi, Armenian etc.) in order to survive in their travels throughout the Kurdish mountains and plains and in their daily encounters with their members of the communities that lived around them, among them Kurdish masters (aghas), tribesmen, brigands and outlaws ('firars'). Some of the Jewish travellers developed the talent of being story tellers, because in the rigid and tribal setting of the Kurdish society, they were merchants or peddlers, who would roam through the Kurdish villages, sell their products and earn their living. During the evening leisure time, they would sit in the company of the tribal or village dignitaries, in the 'diwan-khane' (guest rooms or guest houses) of the tribal or village chieftains (aghas, drink tea or coffee and tell the updated tribal and local news to their tribal hosts and chieftains (aghas) under whose tribal jurisdiction they stayed.</dd>";
+		echo "<dt>What is the role of representative?</dt>";
+		echo "<dd>The representative is responsible for obtaining and disseminating authoritative information, guidance, and responsa regarding Jewish affairs and Jewish sites in areas administered by the Kurdistan Region of Iraq. Also, the represenative serves as a leader for reconciliation between communities in these areas, and Jewish communities.</dd>";
 
+		echo "<dt>What is the scope of the role of representative?</dt>";
+		echo "<dd>The role of represenative is stricly limited to Jewish affairs and Jewish sites in areas administered by the Kurdistan Region.</dd>";
+
+		echo "<dt>Who does the representative represent?</dt>";
+		echo "<dd>The representative represents the community of Jews from Kurdistan, with regards to issues within the jurisdiction of the Ministry of Endowments and Religious Affairs in the Kurdistan Region. Although there are no Jews in the Kurdistan Region except for some expatriates, there is heritage and goodwill in the Kurdistan Region which is of deep importance to the community of Jews from Kurdistan.</dd>";
+	
+		echo "<dt>How is the representative appointed?</dt>";
+		echo "<dd>The role of representtive is selected by the Nationnal Association of Jews from Kurdistan, and then confirmed by the Ministry of Endowments and Religious Affairs of the Kurdistan Region.</dd>";
+	
 		echo "</dl>";
 
 	echo "<blockquote>I became invovled in Kurdistan in a very pecular way. I was a student at the Hebrwe Uni of Jerusalem when I wanted to write a paper about the economy of Kurdistan. My professor said <i>fine</i> but then I realized there were hardly any documents in Hebrew, in Arabic, nor other other languages. So I had to interview people for this apper. For this paper on ethe economy of Zakho, whre my father is from, I itnerviewe 12 people. This fantastic mechanism, this experience fo interviewing old Kurdish Jews really fascinated me and drew me into the subject. These Krudish people, these Jewish Kurds who lived in Israel, but they lived for fifty eyars,for sitxy years in Kurdistan, ahd grown up in an oral culture. They spoke four, five, six languages; tey knew the map by ehart because they traveld by donkey or mule; and they knew all the villages, all the aghas, all the histories of Kurdsitan becaue they lived it. </blockquote>";
 
 	echo "<dl>";
 
-		echo "<dt>What are some common misconceptions about the representative?</dt>";
-		echo "<dd>As an appointment made between the National Association of Jews from Kurdistan and the Ministry of Endowments of Religious Affairs in the Kurdistan Region, the representative is not involved in issues outside the scope of these two institutions. The role of represenative does not include bilateral relations between any two countries, nor is the role of representative devoted in any way to economic or other activities within or between countries. The role of represenative is stricly limited to Jewish affairs and Jewish sites in areas administered by the Kurdistan Region.</dd>";
+		echo "<dt>What sparked Dr. Zaken's interest?</dt>";
+		echo "<dd>Dr. Zaken's family is from Zakho, in the Kurdistan Region. Over the course of his life, he was fascinated by supporting this heritage and has devoted his academic, political, and personal life to this cause.</dd>";
 
 		echo "<dt>Are there Jews in Kurdistan now?</dt>";
-		echo "<dd>To be born Jewish, someone must have a Jewish mother. There is no longer anybody born anywhere in the Kurdistan Region who can show this to be true according to rabbinical requirements. For this reason, it is important to be clear that there are zero Jews remaining in the Kurdistan Region except for a small number of expatriates.</dd>";
+		echo "<dd>To be born Jewish, someone must have a Jewish mother as recognized by a Rabbi. There are zero Jews remaining in the Kurdistan Region, except for a small number of expatriates.</dd>";
+
+		echo "<dt>Who does the representative <i>not</i> represent?</dt>";
+		echo "<dd>The representative is not representing the governments of Israel nor the Kurdistan Region in this role. It is an appointment made by the civil and religious leadership of the Jews of Kurdistan, and the community's desired leadership is respectfully recognized by the Ministry of Endowments and Religious Affairs in the Kurdistan Region.</dd>";
+		
+		echo "<dt>What issues does the representative <i>not</i> represent?</dt>";
+		echo "<dd>As an appointment made between the National Association of Jews from Kurdistan and the Ministry of Endowments of Religious Affairs in the Kurdistan Region, the representative is not involved in issues outside the area of overlap between these two institutions. The role of represenative does not include bilateral relations between any two countries, nor is the role of representative devoted in any way to broader issues such as finance, investment, infrastructure, or petroleum.</dd>";
 
 		echo "<dt>What about Kurdish Jews in Kurdistan in the news?</dt>";
-		echo "<dd>As stated above, there are zero Jews remaining who were born in the Kurdistan Region. Recently, some eccentric individuals from Muslim families have claimed to be Jewish. Although there are surely many people with distant Jewish ancestry, there is nobody whose claims were verified. Certain individuals have been found to be committing total fraud, such as ___ and ___.</dd>";
+		echo "<dd>As stated above, there are zero Jews remaining in the Kurdistan Region. Recently, some eccentric Muslims have claimed to be Jewish. This is a total fraud, and a deeply antisemitic betrayal of Judaism, Jewish people, and Jewish values.</dd>";
+
+		echo "<dt>Can I be part Jewish?</dt>";
+		echo "<dd>There are many people with distant Jewish relatives who converted to Islam and Christianity, and intermarried. They are not Jewish. However, well-intentioned interest in learning about their family history is a welcomed and personal basis for enhancing mutual respect between Jewish and non-Jewish communities.</dd>";
 
 		echo "</dl>";
 
 	echo "<blockquote>My book, my research contains hundreds of stories. Some are about aghas who are not so nice, who exploited the jews, who took advantage of the Jews economically, physicially, and other ways. but I want to emphasize the good values, the good memroies the jewish had from Kurdistan. And I want to share it with you.</blockquote>";
 
 	echo "<dl>";
+
+		echo "<dt>What was life like for Kurdish Jews in Kurdistan?</dt>";
+		echo "<dd>Like other places, there was antisemitism in the broader society that targeted Jews in unique, bitter, and harmful ways. However, the Kurdish world is overwhelmingly dynamic and this is not the defining feature of Jewish life in Kurdistan. The focus is on reconciliation, including acknowleding happy and painful parts of history, and learning from both for a positive future.</dd>";
+
+		echo "<dt>?</dt>";
+		echo "<dd>.</dd>";
 
 		echo "<dt>What about the Friendship league?</td>";
 		echo "<dd>The founder was Mordechai Zaken[4][5] and the main activists who worked together were the late Moshe Zaken, a business man from Jerusalem, Meir Baruch, a retired military person, Michael Niebur who spent some time in NGOs helping the Kurds, and Mathew B. Hand an American who promoted activity of coexistence with Muslims. The response of Kurdish representatives and organizations both in Kurdistan and the diaspora was enthusiastic as can be judged from hundreds of letters, phone calls and also email received in Jerusalem within short time after the announcement of its founding in the world press and in The Voice of America in the Kurdish language, which conducted interviews with the founder, Mordechai Zaken. The League also published a newsletter called yedidut (heb., friendship) carrying the message of Israeli and Jewish friendship to Kurds worldwide.</dd>";
