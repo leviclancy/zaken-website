@@ -480,20 +480,20 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 
 	echo "<dl>";
 
-		echo "<dt>Who is the represenative for Jewish affairs and Jewish sites in the Kurdistan Region?</dt>";
-		echo "<dd>Dr. Mordechai Zaken is the represenative for Jewish affairs and Jewish sites in the Kurdistan Region.</dd>";
-	
+		echo "<dt>Who is the representative for Jewish affairs and Jewish sites in the Kurdistan Region?</dt>";
+		echo "<dd>Dr. Mordechai Zaken is the representative appointed by the National Association of Jews of Kurdistan in Israel regarding Jewish affairs and Jewish sites in the Kurdistan Region, and he also serves as National Association's cultural and historical expert of the Jewish Kurdish history and heritage. He was nominated by the National Association, and the National Association has communicated twice with the Kurdistan Region President's bureau in the KRG through two letters that Dr. Zaken and the National Association's National Chair Ammon Ashkenazi sent expressing their concern regarding acts such as taking over or abusing the Tomb of Nahum by politicians and others. It was agreed that the Kurdistan Region would be glad to be advised by Dr. Zaken in such matters related to the Jewish community and heritage, pending officialization which is on hold due to the cornavirus pandemic.</dd>";
+
 		echo "<dt>What is the role of representative?</dt>";
-		echo "<dd>The representative is responsible for obtaining and disseminating authoritative information, guidance, and responsa regarding Jewish affairs and Jewish sites in areas administered by the Kurdistan Region of Iraq. Also, the represenative serves as a leader for reconciliation between communities in these areas, and Jewish communities.</dd>";
+		echo "<dd>The Jews of Kurdistan are happy to share hands with the Kurdistan Region's authorities, Muslim Kurdish leaders, and Assyrian and Chaldean communities in alQosh to protect and burnish religious and spiritual sites such as the Tomb of Nahum and others, in the name of guarding sites from damage and abuse. The representative supports reconciliation, coexistence, and positive mutuality for all.</dd>";
 
 		echo "<dt>What is the scope of the role of representative?</dt>";
-		echo "<dd>The role of represenative is stricly limited to Jewish affairs and Jewish sites in areas administered by the Kurdistan Region.</dd>";
+		echo "<dd>The scope of the role of representative is Jewish affairs and Jewish sites in areas administered by the Kurdistan Region.</dd>";
 
 		echo "<dt>Who does the representative represent?</dt>";
-		echo "<dd>The representative represents the community of Jews from Kurdistan, with regards to issues within the jurisdiction of the Ministry of Endowments and Religious Affairs in the Kurdistan Region. Although there are no Jews in the Kurdistan Region except for some expatriates, there is heritage and goodwill in the Kurdistan Region which is of deep importance to the community of Jews from Kurdistan.</dd>";
+		echo "<dd>The representative represents the community of Jews from Kurdistan, with regards to issues within the jurisdiction of the Ministry of Endowments and Religious Affairs in the Kurdistan Region. Although there are no Jews in the Kurdistan Region except for some expatriates, there is Jewish heritage and goodwill towards Jews in the Kurdistan Region which is of deep importance to the community of Jews from Kurdistan.</dd>";
 	
 		echo "<dt>How is the representative appointed?</dt>";
-		echo "<dd>The role of representtive is selected by the Nationnal Association of Jews from Kurdistan, and then confirmed by the Ministry of Endowments and Religious Affairs of the Kurdistan Region.</dd>";
+		echo "<dd>The role of representative is selected by the National Association of Jews from Kurdistan. Authority is vested in the representative by the National Association, and recognized by the Ministry of Endowments and Religious Affairs in the Kurdistan Region.</dd>";
 	
 		echo "</dl>";
 
@@ -501,8 +501,11 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 
 	echo "<dl>";
 
-		echo "<dt>What sparked Dr. Zaken's interest?</dt>";
-		echo "<dd>Dr. Zaken's family is from Zakho, in the Kurdistan Region. Over the course of his life, he was fascinated by supporting this heritage and has devoted his academic, political, and personal life to this cause.</dd>";
+		echo "<dt>What sparked Dr. Zaken's role?</dt>";
+		echo "<dd>Dr. Zaken's family is from Zakho, in the Kurdistan Region. Over the course of his life, he has supported his heritage and has devoted his academic, political, and personal life to this cause.</dd>";
+
+		echo "<dt>What is the population of Jews from Kurdistan?</dt>";
+		echo "<dd>There are approximately 200,000 Jews who are ancestrally from Kurdistan. The community of Jews from Kurdistan has maintained continuous rabbinical, social, and other institutions from the time they were in Kurdistan through today.</dd>";
 
 		echo "<dt>Are there Jews in Kurdistan now?</dt>";
 		echo "<dd>To be born Jewish, someone must have a Jewish mother as recognized by a Rabbi. There are zero Jews remaining in the Kurdistan Region, except for a small number of expatriates.</dd>";
@@ -511,13 +514,16 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 		echo "<dd>The representative is not representing the governments of Israel nor the Kurdistan Region in this role. It is an appointment made by the civil and religious leadership of the Jews of Kurdistan, and the community's desired leadership is respectfully recognized by the Ministry of Endowments and Religious Affairs in the Kurdistan Region.</dd>";
 		
 		echo "<dt>What issues does the representative <i>not</i> represent?</dt>";
-		echo "<dd>As an appointment made between the National Association of Jews from Kurdistan and the Ministry of Endowments of Religious Affairs in the Kurdistan Region, the representative is not involved in issues outside the area of overlap between these two institutions. The role of represenative does not include bilateral relations between any two countries, nor is the role of representative devoted in any way to broader issues such as finance, investment, infrastructure, or petroleum.</dd>";
+		echo "<dd>As an appointment made by the National Association of Jews from Kurdistan and recognized by the Ministry of Endowments of Religious Affairs in the Kurdistan Region, the representative is not involved in issues beyond the authority of these institutions. The role of represenative does not include bilateral relations between any two countries, nor is the role of representative devoted in any way to broader issues such as infrastructure.</dd>";
 
 		echo "<dt>What about Kurdish Jews in Kurdistan in the news?</dt>";
 		echo "<dd>As stated above, there are zero Jews remaining in the Kurdistan Region. Recently, some eccentric Muslims have claimed to be Jewish. This is a total fraud, and a deeply antisemitic betrayal of Judaism, Jewish people, and Jewish values.</dd>";
 
 		echo "<dt>Can I be part Jewish?</dt>";
 		echo "<dd>There are many people with distant Jewish relatives who converted to Islam and Christianity, and intermarried. They are not Jewish. However, well-intentioned interest in learning about their family history is a welcomed and personal basis for enhancing mutual respect between Jewish and non-Jewish communities.</dd>";
+
+		echo "<dt>What if I want to be Jewish or consider myself Jewish?</dt>";
+		echo "<dd>Jewish status is based on recognition by a Rabbi. There are no Jews remaining in the Kurdistan Region, except for expatriates. The community of Jews from Kurdistan is not at all interested in conversion.</dd>";
 
 		echo "</dl>";
 
