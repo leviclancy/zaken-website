@@ -516,8 +516,8 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 		echo "<dt>What issues does the representative <i>not</i> represent?</dt>";
 		echo "<dd>As an appointment made by the National Association of Jews from Kurdistan and recognized by the Ministry of Endowments of Religious Affairs in the Kurdistan Region, the representative is not involved in issues beyond the authority of these institutions. The role of represenative does not include bilateral relations between any two countries, nor is the role of representative devoted in any way to broader issues such as infrastructure.</dd>";
 
-		echo "<dt>What about Kurdish Jews in Kurdistan in the news?</dt>";
-		echo "<dd>As stated above, there are zero Jews remaining in the Kurdistan Region. Recently, some eccentric Muslims have claimed to be Jewish. This is a total fraud, and a deeply antisemitic betrayal of Judaism, Jewish people, and Jewish values.</dd>";
+		echo "<dt id='kurdish-jews-in-the-news-question'><a href='kurdish-jews-in-the-news'>What about Kurdish Jews in Kurdistan in the news?</a></dt>";
+		echo "<dd id='kurdish-jews-in-the-news-answer'>As stated above, there are zero Jews remaining in the Kurdistan Region. Recently, some eccentric Muslims have claimed to be Jewish. This is a total fraud, and a deeply antisemitic betrayal of Judaism, Jewish people, and Jewish values.</dd>";
 
 		echo "<dt>Can I be part Jewish?</dt>";
 		echo "<dd>There are many people with distant Jewish relatives who converted to Islam and Christianity, and intermarried. They are not Jewish. However, well-intentioned interest in learning about their family history is a welcomed and personal basis for enhancing mutual respect between Jewish and non-Jewish communities.</dd>";
