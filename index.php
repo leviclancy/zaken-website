@@ -525,7 +525,7 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 		echo "<dt>Can I visit Israel?</dt>";
 		echo "<dd>Iraq does not recognize Israel's existence. This makes it almost impossible for Israel to grant visas to Iraqi passport holders. However, Israel has remained committed to providing exceptions for international organizations that bring Iraqis to Israel for life-saving medical treatments.</dd>";
 
-		echo "<dt>I am an educator and want to see my students learn more.</dt>";
+		echo "<dt>How can educators arrange exchanges?</dt>";
 		echo "<dd>If you are interested in arranging exchanges online, we are happy to encourage projects that bring students in the Kurdistan Region together with Jewish students outside the Kurdistan Region.</dd>";
 
 		echo "<dt>What if I want to be Jewish or consider myself Jewish?</dt>";
