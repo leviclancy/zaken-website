@@ -522,6 +522,9 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 		echo "<dt>Can I be part Jewish?</dt>";
 		echo "<dd>There are many people with distant Jewish relatives who converted to Islam and Christianity, and intermarried. They are not Jewish. However, well-intentioned interest in learning about their family history is a welcomed and personal basis for enhancing mutual respect between Jewish and non-Jewish communities.</dd>";
 
+		echo "<dt>Can I visit Israel?</dt>";
+		echo "<dd>Iraqi passport holders are not granted visas, because Iraq does not recognize Israel's existence. However, Israel has remained committed to providing exceptions for international organizations that bring Iraqis to Israel for life-saving medical treatments.</dd>";
+
 		echo "<dt>What if I want to be Jewish or consider myself Jewish?</dt>";
 		echo "<dd>Jewish status is based on recognition by a Rabbi. There are no Jews remaining in the Kurdistan Region, except for expatriates. The community of Jews from Kurdistan is not at all interested in conversion.</dd>";
 
