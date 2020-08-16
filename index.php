@@ -369,6 +369,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<blockquote>Being approached to represent hte community of Jews from Kurdistan is the fulfillment of ... From a childhood spent in awe of my father, who was himself born... To the years of seeing the Kurdistan Region one of the Middle East's rare success stories...</blockquote>";
 
 	echo "<table><tbody>";
+	echo "<tr><td>2020</td><td>Appointed by the National Association of Jews from Kurdistan for contact with the Kurdistan Region.</td></tr>";
 	echo "<tr><td>2019</td><td>2019 Laureate, Prime Minister Prize for Research of the Jews of the Orient.</td></tr>";
 	echo "<tr><td>2016</td><td>Within the Public Security Ministry, Dr. Zaken formed a new governmental forum for dialogue with local Arab leaders.</td></tr>";
 	echo "<tr><td>2015</td><td>Published: <i>Jewish Subjects</i> is translated into Sorani Kurdish, in Erbil.</td></tr>";
