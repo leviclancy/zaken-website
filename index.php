@@ -378,7 +378,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td>2013</td><td>With Christian leaders, Dr. Zaken initiaited the Government-Christians Forum that addressed the Evangelical Christian community's concerns regarding the government. Two prominent Christian leaders in this forum have been Rev. Charles (Chuck) Kopp, of the Baptist Church and Rev. David Pillegi, Rector of the Christ Church in Jaffa Gate.</td></tr>";
 	echo "<tr><td>2012 Oct</td><td>Visit to the Kurdistan Region, at the invitation of the World Kurdish Forum.</td></tr>";
 	echo "<tr><td>2010 Sep — 2013 Aug</td><td>Lecturer, The Hebrew University of Jerusalem</td></tr>";
-	echo "<tr><td>2010</td><td>Sspoke in the Parliament of Berlin, Germany (22 October 2010)</td></tr>";
+	echo "<tr><td>2010</td><td>Spoke in the Parliament of Berlin, Germany (22 October 2010)</td></tr>";
 	echo "<tr><td>2007</td><td>Published: <i>Jewish Subjects and their Tribal Chieftains in Kurdistan: A Study in Survival</i>. This book was partly based on his doctorate dissertations.</td></tr>";
 	echo "<tr><td>2007 May - present</td><td>Head of the Minority Affairs Desk at Israel's Ministry of Internal Security.</td></tr>";
 	echo "<tr><td>2003</td><td>Published: Thesis on Jews of Kurdistan, through Hebrew University. He began working on this research project around 1985, culminating in his dissertation which unfolds the story of the Jews in Kurdistan in urban centers and villages, and their relations with their tribal chieftains (aghas) from whom they received patronage and protection in the tribal Kurdish society, in return for their loyalty and other social and financial duties and obligations. The second part of the thesis deals with the history of the Assyrians in Kurdistan, during the 19th and 20th centuries.</td></tr>";
@@ -399,7 +399,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td>2001 May — 2007 May</td><td>Advisor on Minorities Affairs at Israel's Ministry of Internal Security.</td></tr>";
 	echo "<tr><td>2001 — 2003</td><td>Dr. Zaken was the coordinator of the Ministerial Committee to resolve the dispute between Christans and Muslims at the Basilica of the Anunciation in Nazareth.</td></tr>";
 	echo "<tr><td>1999 Nov — 2001 Dec</td><td>Founder of East-Up Inc, which aimed to enhance medical services to the Arabic-speaking world in the Middle East, through the internet.</td></tr>";
-	echo "<tr><td>1997 May - 1999 Dec</td><td>He was asked to serve as the Prime Minister's Adviser on Arab Affairs (1997-1999)</td></tr>";
+	echo "<tr><td>1997 May - 1999 Dec</td><td>Prime Minister's Adviser on Arab Affairs.</td></tr>";
 	echo "<tr><td>1997</td><td>Published: <i>\"Inventors' Fate\", A Folk-Tale in the Neo-Aramaic of Zakho</i>.</td></tr>";
 	echo "<tr><td>1993</td><td>Co-founder of The Israel-Kurdistan Friendship League, established in Jerusalem to faciliate friendship and dialogue between Israel and Kurdistan, as well as the Kurdish (mostly Muslim) world and the communities of Jews from Kurdistan as well as Jews interested in Kurdistan.</td></tr>";
 	echo "<tr><td>1992</td><td> When he returned to Israel, he taught at the Hebrew University of Jerusalem for several years.</td></tr>";
