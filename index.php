@@ -396,7 +396,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<blockquote>By working on Assyrian... I learned the language fo Neo-Aramaic and found it to be...</blockquote>";
 
 	echo "<table><tbody>";
-	echo "<tr><td>2001 May — 2007 May</td><td>Advisor on Minorities Affairs at Israel's Ministry of Internal Security.</td></tr>";
+	echo "<tr><td>2001 May — 2007 May</td><td>Adviser on Minorities Affairs at Israel's Ministry of Internal Security.</td></tr>";
 	echo "<tr><td>2001 — 2003</td><td>Dr. Zaken was the coordinator of the Ministerial Committee to resolve the dispute between Christans and Muslims at the Basilica of the Anunciation in Nazareth.</td></tr>";
 	echo "<tr><td>1999 Nov — 2001 Dec</td><td>Founder of East-Up Inc, which aimed to enhance medical services to the Arabic-speaking world in the Middle East, through the internet.</td></tr>";
 	echo "<tr><td>1997 May - 1999 Dec</td><td>Prime Minister's Adviser on Arab Affairs.</td></tr>";
@@ -429,9 +429,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td>1983</td><td>Co-Chief Editor of 'Tipul Shoresh', an annual about activism at the Hebrew Universe of the public activists' program at the Hebrew University, the circulation of which was stopped by the directors and university administration, due to its critical approach towards the university policy regarding social issues.</td></tr>";
 	echo "<tr><td>1982</td><td>Editor-in-Chief of 'Pi Ha-Aton' (פי-האתון), a student newspaper. On 26 April 1982, for a special Independence Day edition, Dr. Zaken published photos (and the story behind their uncovering) taken in 1948 by Arabs, which showed mutilated faces and bodies of Jewish soldiers who had been in an army unit which later became know as the 'Nabi Daniel Caravan' (שיירת נבי דניאל).</td></tr>";
 	echo "<tr><td>1980</td><td>Began his baccalaureate studies at the Hebrew University of Jerusalem.</td></tr>";
-	echo "<tr><td>1958</td><td>Moti is born in Jerusalem of Kurdistani and Iraqi background.</td></tr>";
-	echo "<tr><td></td><td>Moti's father Saleh is born in Zakho in Iraqi Kurdistan.</td></tr>";
-	echo "<tr><td></td><td>Moti's mother Batyah is born in Elroi, in northern Israel, of ___ background.</td></tr>";
+	echo "<tr><td>1958</td><td>Moti is born in Jerusalem to his mother Batyah and his father Saleh; his mother was born in Israel, and his father was born in Zakho in the Kurdistan Region.</td></tr>";
 	echo "<tr><td></td><td></td></tr>";
 	echo "</tbody></table>";
 
