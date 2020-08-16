@@ -370,14 +370,14 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 
 	echo "<table><tbody>";
 	echo "<tr><td>2019</td><td>2019 Laureate, Prime Minister Prize for Research of the Jews of the Orient.</td></tr>";
-	echo "<tr><td>2016</td><td>In 2016, within the Public Security Ministry, he formed a new governmental forum for dialogue with local Arab leader</td></tr>";
+	echo "<tr><td>2016</td><td>Within the Public Security Ministry, Dr. Zaken formed a new governmental forum for dialogue with local Arab leaders.</td></tr>";
 	echo "<tr><td>2015</td><td>Published: <i>Jewish Subjects</i> is translated into Sorani Kurdish, in Erbil.</td></tr>";
 	echo "<tr><td>2013 Oct</td><td>Presentation to the World Kurdish Forum at their convention in Stockholm.</td></tr>";
 	echo "<tr><td>2013</td><td>Published: <i>Jewish Subjects</i> is translated into Arabic, in Beirut.</td></tr>";
-	echo "<tr><td>2013</td><td>In 2013 he initiated with Christian leaders the Government – Christians Forum that addresses the concerns of the Evangelical Christian community vis a vis the government.[45][46][47][48][49] Two prominent Christian leaders in this forum have been Rev. Charles (Chuck) Kopp, of the Baptist Church and Rev. David Pillegi, Rector of the Christ Church in Jaffa Gate.</td></tr>";
+	echo "<tr><td>2013</td><td>With Christian leaders, Dr. Zaken initiaited the Government-Christians Forum that addressed the Evangelical Christian community's concerns regarding the government. Two prominent Christian leaders in this forum have been Rev. Charles (Chuck) Kopp, of the Baptist Church and Rev. David Pillegi, Rector of the Christ Church in Jaffa Gate.</td></tr>";
 	echo "<tr><td>2012 Oct</td><td>Visit to the Kurdistan Region, at the invitation of the World Kurdish Forum.</td></tr>";
 	echo "<tr><td>2010 Sep — 2013 Aug</td><td>Lecturer, The Hebrew University of Jerusalem</td></tr>";
-	echo "<tr><td>2010</td><td>He recently spoke in the Parliament of Berlin, Germany (22 October 2010)</td></tr>";
+	echo "<tr><td>2010</td><td>Sspoke in the Parliament of Berlin, Germany (22 October 2010)</td></tr>";
 	echo "<tr><td>2007</td><td>Published: <i>Jewish Subjects and their Tribal Chieftains in Kurdistan: A Study in Survival</i>. This book was partly based on his doctorate dissertations.</td></tr>";
 	echo "<tr><td>2007 May - present</td><td>Head of the Minority Affairs Desk at Israel's Ministry of Internal Security.</td></tr>";
 	echo "<tr><td>2003</td><td>Published: Thesis on Jews of Kurdistan, through Hebrew University. He began working on this research project around 1985, culminating in his dissertation which unfolds the story of the Jews in Kurdistan in urban centers and villages, and their relations with their tribal chieftains (aghas) from whom they received patronage and protection in the tribal Kurdish society, in return for their loyalty and other social and financial duties and obligations. The second part of the thesis deals with the history of the Assyrians in Kurdistan, during the 19th and 20th centuries.</td></tr>";
