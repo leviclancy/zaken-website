@@ -518,6 +518,9 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 		echo "<dt id='kurdish-jews-in-the-news-question'><a href='kurdish-jews-in-the-news'>What about Kurdish Jews in Kurdistan in the news?</a></dt>";
 		echo "<dd id='kurdish-jews-in-the-news-answer'>As stated above, there are zero Jews remaining in the Kurdistan Region. Recently, some eccentric Muslims have claimed to be Jewish. This is a total fraud, and a deeply antisemitic betrayal of Judaism, Jewish people, and Jewish values.</dd>";
 
+		echo "<dt>Will the Jews from Kurdistan return?</dt>";
+		echo "<dd>Not really. Returning would mean leaving behind relatives, cherished institutions, and a present-day identity. However, it is good to expect pilgrims. If even three or four families were to return to the Kurdistan Region, find work, and buy homes that would be incredible.</dd>";
+
 		echo "<dt>Can I be part Jewish?</dt>";
 		echo "<dd>There are many people with distant Jewish relatives who converted to Islam and Christianity, and intermarried. They are not Jewish. However, well-intentioned interest in learning about their family history is a welcomed and personal basis for enhancing mutual respect between Jewish and non-Jewish communities.</dd>";
 
