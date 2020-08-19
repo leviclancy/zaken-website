@@ -375,7 +375,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td>2015</td><td>Published: <i>Jewish Subjects</i> is translated into Sorani Kurdish, in Erbil.</td></tr>";
 	echo "<tr><td>2013 Oct</td><td>Presentation to the World Kurdish Forum at their convention in Stockholm.</td></tr>";
 	echo "<tr><td>2013</td><td>Published: <i>Jewish Subjects</i> is translated into Arabic, in Beirut.</td></tr>";
-	echo "<tr><td>2013</td><td>With Christian leaders, Dr. Zaken initiaited the Government-Christians Forum that addressed the Evangelical Christian community's concerns regarding the government. Two prominent Christian leaders in this forum have been Rev. Charles (Chuck) Kopp, of the Baptist Church and Rev. David Pillegi, Rector of the Christ Church in Jaffa Gate.</td></tr>";
+	echo "<tr><td>2013 — 2018</td><td>With Christian leaders, Dr. Zaken initiaited the Government-Christians Forum that addressed the Evangelical Christian community's concerns regarding the government. Two prominent Christian leaders in this forum have been Rev. Charles (Chuck) Kopp, of the Baptist Church and Rev. David Pillegi, Rector of the Christ Church in Jaffa Gate. The Forum came to a conclusion in 2018, once the government concluded it was not part of government's scope.</td></tr>";
 	echo "<tr><td>2012 Oct</td><td>Visit to the Kurdistan Region, at the invitation of the World Kurdish Forum.</td></tr>";
 	echo "<tr><td>2010 Sep — 2013 Aug</td><td>Lecturer, The Hebrew University of Jerusalem</td></tr>";
 	echo "<tr><td>2010</td><td>Spoke in the Parliament of Berlin, Germany (22 October 2010)</td></tr>";
@@ -465,8 +465,8 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 
 if ([$pageview_request, $language_request] == ["bookstore", "en"]):
 
-	echo "<h2>Bookstore</h2>";
-	echo "<p>To buy <a href='https://kurdishjews.com/'>The Jews of Kurdistan and their Tribal Chieftains</a>.</p>";
+	echo "<h2>Buy The Jews of Kurdistan and their Tribal Chieftains at <a href='https://kurdishjews.com/'>kurdishjews.com</a></h2>";
+	echo "<p></p>";
 	echo "<p></p>";
 
 	endif;
@@ -475,18 +475,30 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 
 	echo "<h2>Jews of Kurdistan</h2>";
 
-	echo "<blockquote>The Kurds are proud people, and smart people. They are smart enough to draw their own conclusion from the political and historical situation.</blockquote>";
+//	echo "<blockquote>The Kurds are proud people, and smart people. They are smart enough to draw their own conclusion from the political and historical situation.</blockquote>";
+
+echo "<blockquote>In 1950 and 1951, the entire Kurdish Jewish community immigrated to Israel. Over the years, Israeli Kurds followed the struggle of their Muslim brothers with great interest.</blockquote>";
+
+	function output_faq($translatable_elements_id) {
+		echo "<dt id='" . $translatable_elements_id ."'><a href='#" . $translatable_elements_id .".'>". $translatable_elements[$translatable_elements_id.'-question'][$language_request] ."</a></dt>";
+		echo "<dd>". $translatable_elements[$translatable_elements_id.'-answer'][$language_request] ."</dd>";
+		return; }
 
 	echo "<dl>";
 
-		echo "<dt>Who is the representative for Jewish affairs and Jewish sites in the Kurdistan Region?</dt>";
-		echo "<dd>Dr. Mordechai Zaken is the representative appointed by the National Association of Jews of Kurdistan in Israel regarding Jewish affairs and Jewish sites in the Kurdistan Region, and he also serves as National Association's cultural and historical expert of the Jewish Kurdish history and heritage. He was nominated by the National Association, and the National Association has communicated twice with the Kurdistan Region President's bureau in the KRG through two letters that Dr. Zaken and the National Association's National Chair Ammon Ashkenazi sent expressing their concern regarding acts such as taking over or abusing the Tomb of Nahum by politicians and others. It was agreed that the Kurdistan Region would be glad to be advised by Dr. Zaken in such matters related to the Jewish community and heritage, pending officialization which is on hold due to the cornavirus pandemic.</dd>";
+		output_faq("who-is-the-representative");
 
 		echo "<dt>What is the role of representative?</dt>";
 		echo "<dd>The Jews of Kurdistan are happy to share hands with the Kurdistan Region's authorities, Muslim Kurdish leaders, and Assyrian and Chaldean communities in alQosh to protect and burnish religious and spiritual sites such as the Tomb of Nahum and others, in the name of guarding sites from damage and abuse. The representative supports reconciliation, coexistence, and positive mutuality for all.</dd>";
 
 		echo "<dt>What is the scope of the role of representative?</dt>";
 		echo "<dd>The scope of the role of representative is Jewish affairs and Jewish sites in areas administered by the Kurdistan Region.</dd>";
+
+		echo "</dl>";
+
+	echo "<blockquote>The late Kurdish leader Mula Mustafa Barzani secretly visited Israel twice to meet with Israeli authorities. He also saw his Kurdish Jewish friend, David Gabai. In the 1930s, Gabai's father, Eliyahu, the header of the Iraqi Jewish community of Aqara, Iraq, supplied food and aid to the Kurds who were revolting against the British. Some say that this special connection between the two families held increase Barzani's confidence I Israel.</bockquote>";
+
+	echo "<dl>";
 
 		echo "<dt>Who does the representative represent?</dt>";
 		echo "<dd>The representative represents the community of Jews from Kurdistan, with regards to issues within the jurisdiction of the Ministry of Endowments and Religious Affairs in the Kurdistan Region. Although there are no Jews in the Kurdistan Region except for some expatriates, there is Jewish heritage and goodwill towards Jews in the Kurdistan Region which is of deep importance to the community of Jews from Kurdistan.</dd>";
@@ -496,7 +508,9 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 	
 		echo "</dl>";
 
-	echo "<blockquote>I became invovled in Kurdistan in a very pecular way. I was a student at the Hebrwe Uni of Jerusalem when I wanted to write a paper about the economy of Kurdistan. My professor said <i>fine</i> but then I realized there were hardly any documents in Hebrew, in Arabic, nor other other languages. So I had to interview people for this apper. For this paper on ethe economy of Zakho, whre my father is from, I itnerviewe 12 people. This fantastic mechanism, this experience fo interviewing old Kurdish Jews really fascinated me and drew me into the subject. These Krudish people, these Jewish Kurds who lived in Israel, but they lived for fifty eyars,for sitxy years in Kurdistan, ahd grown up in an oral culture. They spoke four, five, six languages; tey knew the map by ehart because they traveld by donkey or mule; and they knew all the villages, all the aghas, all the histories of Kurdsitan becaue they lived it. </blockquote>";
+//	echo "<blockquote>I became invovled in Kurdistan in a very pecular way. I was a student at the Hebrwe University of Jerusalem when I wanted to write a paper about the economy of Kurdistan. My professor said <i>fine</i> but then I realized there were hardly any documents in Hebrew, in Arabic, nor other other languages. So I had to interview people for this apper. For this paper on ethe economy of Zakho, whre my father is from, I itnerviewe 12 people. This fantastic mechanism, this experience fo interviewing old Kurdish Jews really fascinated me and drew me into the subject. These Krudish people, these Jewish Kurds who lived in Israel, but they lived for fifty eyars,for sitxy years in Kurdistan, ahd grown up in an oral culture. They spoke four, five, six languages; tey knew the map by ehart because they traveld by donkey or mule; and they knew all the villages, all the aghas, all the histories of Kurdsitan becaue they lived it. </blockquote>";
+
+	echo "<blockquote>Israel has a moral obligation to help the Kurds. The Iraqi genocide against the Kurds should serve as a signal that sympathy is not enough for survival in the Middle East.</blockquote>";
 
 	echo "<dl>";
 
@@ -511,6 +525,12 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 
 		echo "<dt>Who does the representative <i>not</i> represent?</dt>";
 		echo "<dd>The representative is not representing the governments of Israel nor the Kurdistan Region in this role. It is an appointment made by the civil and religious leadership of the Jews of Kurdistan, and the community's desired leadership is respectfully recognized by the Ministry of Endowments and Religious Affairs in the Kurdistan Region.</dd>";
+
+		echo "</dl>";
+
+	echo "<blockquote>The Kurdish people often forgot their history because they were busy with their struggle, with being oppressed. They had so many economic, social, military problems — and the Assyrians also, were dispersed. So the only people who kept the memory of Kurdistan were Kurdish Jews from Kurdistan who immigrated to Israel and continued wearing Kurdish clothes, eating Kurdish food, and listening to Kurdish music every day of their lives. They kept the traditions of Kurdistan alive.</blockquote>";
+
+	echo "<dl>";
 		
 		echo "<dt>What issues does the representative <i>not</i> represent?</dt>";
 		echo "<dd>As an appointment made by the National Association of Jews from Kurdistan and recognized by the Ministry of Endowments of Religious Affairs in the Kurdistan Region, the representative is not involved in issues beyond the authority of these institutions. The role of represenative does not include bilateral relations between any two countries, nor is the role of representative devoted in any way to broader issues such as infrastructure.</dd>";
@@ -524,6 +544,14 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 		echo "<dt>Can I be part Jewish?</dt>";
 		echo "<dd>There are many people with distant Jewish relatives who converted to Islam and Christianity, and intermarried. They are not Jewish. However, well-intentioned interest in learning about their family history is a welcomed and personal basis for enhancing mutual respect between Jewish and non-Jewish communities.</dd>";
 
+		echo "</dl>";
+
+	echo "<blockquote>The Kurds are entitled to an independent Kurdish national home just like the Jews, and they will sooner or later be granted this statehood.</blockquote>";
+
+//	<blockquote>The Kurdish national issue started long before it had any connection to Israel and before the establishment of the Jewish state.</blockquote>
+
+	echo "<dl>";
+
 		echo "<dt>Can I visit Israel?</dt>";
 		echo "<dd>Iraq does not recognize Israel's existence. This makes it almost impossible for Israel to grant visas to Iraqi passport holders. However, Israel has remained committed to providing exceptions for international organizations that bring Iraqis to Israel for life-saving medical treatments.</dd>";
 
@@ -535,22 +563,18 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 
 		echo "</dl>";
 
-	echo "<blockquote>My book, my research contains hundreds of stories. Some are about aghas who are not so nice, who exploited the jews, who took advantage of the Jews economically, physicially, and other ways. but I want to emphasize the good values, the good memroies the jewish had from Kurdistan. And I want to share it with you.</blockquote>";
+	echo "<blockquote>Some aghas were men who were not so nice, who exploited the Jews, who took advantage of the Jews economically, physicially, and other ways. However, I want to emphasize the good values, the good memroies the Jews had from Kurdistan. And I want to share this with people.</blockquote>";
 
 	echo "<dl>";
 
 		echo "<dt>What was life like for Kurdish Jews in Kurdistan?</dt>";
 		echo "<dd>Like other places, there was antisemitism in the broader society that targeted Jews in unique, bitter, and harmful ways. However, the Kurdish world is overwhelmingly dynamic and this is not the defining feature of Jewish life in Kurdistan. The focus is on reconciliation, including acknowleding happy and painful parts of history, and learning from both for a positive future.</dd>";
 
-		echo "<dt>?</dt>";
-		echo "<dd>.</dd>";
-
 		echo "<dt>What about the Friendship league?</td>";
 		echo "<dd>The founder was Mordechai Zaken[4][5] and the main activists who worked together were the late Moshe Zaken, a business man from Jerusalem, Meir Baruch, a retired military person, Michael Niebur who spent some time in NGOs helping the Kurds, and Mathew B. Hand an American who promoted activity of coexistence with Muslims. The response of Kurdish representatives and organizations both in Kurdistan and the diaspora was enthusiastic as can be judged from hundreds of letters, phone calls and also email received in Jerusalem within short time after the announcement of its founding in the world press and in The Voice of America in the Kurdish language, which conducted interviews with the founder, Mordechai Zaken. The League also published a newsletter called yedidut (heb., friendship) carrying the message of Israeli and Jewish friendship to Kurds worldwide.</dd>";
 		
 		echo "</dl>";
 		
-	echo "<blockquote>The Kurdish people often forgot their history because they were busy with their struggle, with being oppressed. They had so many economic, social, military problems — and the Assyrians also, were dispersed. So the only people who kept the memory of Kurdistan were the memory of Kurdish Jews from Kurdistan who immigrated to israel and continued wearing Kurdish clothes, eating Kurdish food, and listening to Kurdish music every day of their lives. They kept the tradition of Kurdistan alive./blockquote>";
 	echo "<p></p>";
 	
 	endif;
@@ -559,18 +583,14 @@ if ([$pageview_request, $language_request] == ["arab-and-minority-affairs", "en"
 
 	echo "<h1>Arab and Minority Affairs</h1>";
 	
-	echo "<p>At the core of Dr. Zaken's work on Arab, Christian, and other minority affairs is attention to improving life for all Israelis, a committment to israeli democracy, and a dedication to eradicating hate crimes and extremism.</p>";
-	
-	echo "<h2>Arab affairs</h2>";
-	
-	echo "<h2>Christian affairs</h2>";
+	echo "<p>At the core of Dr. Zaken's work on Arab, Bedouin, Christian, and other minority affairs is attention to improving life for all Israelis, a committment to Israeli democracy, and a dedication to eradicating hate crimes and extremism.</p>";
 	
 	echo "<blockquote>In my position, I understand the importance of having a strong, defended and prospering Christian community in Israel.</blockquote>"; 
 	
-	echo "<p>Interview about the importance of Chritians in the region and in Israel,</p>";
+	echo "<p>Interview about the importance of Christians in the region and in Israel,</p>";
 	echo "<amp-youtube data-videoid='6fvQdbLJOBQ' layout='responsive' width='640' height='360'></amp-youtube>";
 	
-	echo "<blockquote>It is very important that we will be cooperating to solve problems, and to improve relations. We value the Christian groups and representatives. They are a very important asset for the Jewish state.</blockquote>";
+	echo "<blockquote>It is very important that we will cooperate to solve problems, and to improve relations. We value the Christian groups and representatives. They are a very important asset for the Jewish state.</blockquote>";
 	
 	echo "<p>Interview about meetings organized by Dr. Zaken between Israeli officials and Christian leaders,</p>";
 	echo "<amp-youtube data-videoid='i8yI-SLzSKg' layout='responsive' width='640' height='360'></amp-youtube>";
@@ -588,10 +608,14 @@ if ([$pageview_request, $language_request] == ["arab-and-minority-affairs", "en"
 	
 	endif;
 	
-if ([$pageview_request, $language_request] == ["israeli-and-zionism", "en"]):
+if ([$pageview_request, $language_request] == ["israel-and-zionism", "en"]):
 
-	echo "<h2>Israel and Zionism</h2>";
+	echo "<h1>Israel and Zionism</h1>";
+
+	echo "<blockquote>Israel is a safe haven in this region, in the Middle East, and in the cradle of mankind.</blockquote>";
+	
 	echo "<p>ISFI provided political and cultural resources, ideas and tools, for Jewish and pro-Israel student activists throughout the US and Canada, through which Israeli oriented activities and the message of Israel could be promoted in US campuses.</p>";
+
 	echo "<p></p>";
 
 	endif;
@@ -606,16 +630,16 @@ echo "<div id='Contact'>";
 		echo "E-mail, info@drmordechaizaken.com";
 		echo "</div>";
 
-	echo "<div class='contact-footer-secondary'>";
-		echo "<i>". $translatable_elements["to-contact-the-national-association"][$language_request] ."</i><br>";
-		echo "E-mail, info@kurdishjewry.org.il";
+//	echo "<div class='contact-footer-secondary'>";
+//		echo "<i>". $translatable_elements["to-contact-the-national-association"][$language_request] ."</i><br>";
+//		echo "E-mail, info@kurdishjewry.org.il";
 		echo "</div>";
 
-	echo "<div class='contact-footer-secondary'>";
-		echo "<i>". $translatable_elements["to-contact-foundation-of-ours"][$language_request] ."</i><br>";
-		echo "Telephone, +1 (207) 216-5608<br>";
-		echo "E-mail, info@ours.foundation";
-		echo "</div>";
+//	echo "<div class='contact-footer-secondary'>";
+//		echo "<i>". $translatable_elements["to-contact-foundation-of-ours"][$language_request] ."</i><br>";
+//		echo "Telephone, +1 (207) 216-5608<br>";
+//		echo "E-mail, info@ours.foundation";
+//		echo "</div>";
 
 	echo "<div class='contact-footer-secondary'>";
 		echo $translatable_elements["last-updated"][$language_request];
