@@ -73,6 +73,7 @@ $style_array = [
 		"font-family" 		=> "inherit",
 		"color"			=> "inherit",
 		"font-size"		=> "inherit",
+		"text-decoration"	=> "inherit",
 		],
 
 		
