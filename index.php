@@ -438,7 +438,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<blockquote>The relationship between Israel and the Jews, and the Kurds, should be strengthened and encouraged because these two people have a lot of common. I welcome all Kurds to establish contact with Jews.</blockquote>";
 
 	echo "<table><tbody>";
-	echo "<tr><td>1990ish</td><td>Dr. Zaken is married to Riki, and the two continue to have three children: Tzah, Tahel, and Ohad.</td></tr>";
+	echo "<tr><td>1999 Jun</td><td>Married in Jerusalem, in Monunt Scopus, with a wedding attended by Prime Minister (and First Lady) Netanyahu, whom Zaken advised at the time on local Arab Affairs, as well as other leaders. Dr. Zaken and Riki continue to live in Jerusalem and have three children: Tzah, Tahel, and Ohad.</td></tr>";
 	echo "<tr><td>1985 - 2002</td><td>He conducted hundreds of first-hand oral history accounts in Israel and abroad with more than 60 elderly Kurdish Jews, originally from Kurdistan, who shared their knowledge on the tribal Kurdish society and setting with him. From this, Dr. Zaken was able to reconstruct and tell the history of the Jews and the tribal Kurdish society.</td></tr>";
 	echo "<tr><td>1984 - 1985</td><td>As an MA student at Hebrew University, he wished to write a paper on the economy of Kurdistani Jews. To his astonishment, he discovered that there was hardly any written material on the Kurds and on the Jews of Kurdistan. Because of the lack of written material, he had to resort to oral-history and interviewed 12 elderly Kurdistani Jews for that paper alone.</td></tr>";
 	echo "<tr><td>1984</td><td>Completed his BA in Political Science and Near Eastern & Islamic Studies at the Hebrew University of Jerusalem.</td></tr>";
