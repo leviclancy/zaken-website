@@ -69,6 +69,13 @@ $style_array = [
 		"padding"		=> "0",
 		],
 	
+	"a" => [
+		"font-family" 		=> "inherit",
+		"color"			=> "inherit",
+		"font-size"		=> "inherit",
+		],
+
+		
 	"input, textarea" => [
 		"font-size" 		=> "15px",
 		"font-family" 		=> "Verdana",
@@ -175,7 +182,7 @@ $style_array = [
 		"font-size"		=> "80%",
 		"font-family"		=> "Assistant",
 		],
-	
+		
 	"#body-content blockquote" => [
 		"font-size"		=> "120%",
 		"line-height"		=> "1.5",
@@ -490,7 +497,7 @@ echo "<blockquote>In 1950 and 1951, the entire Kurdish Jewish community immigrat
 	function output_faq($translatable_elements_id) {
 		global $translatable_elements;
 		global $language_request;
-		echo "<dt id='" . $translatable_elements_id ."'><a href='#" . $translatable_elements_id .".'>". $translatable_elements[$translatable_elements_id.'-question'][$language_request] ."</a></dt>";
+		echo "<dt id='" . $translatable_elements_id ."'><a href='#" . $translatable_elements_id ."'>". $translatable_elements[$translatable_elements_id.'-question'][$language_request] ."</a></dt>";
 		echo "<dd>". $translatable_elements[$translatable_elements_id.'-answer'][$language_request] ."</dd>";
 		return; }
 
