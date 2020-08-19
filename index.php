@@ -495,9 +495,9 @@ if ([$pageview_request, $language_request] == ["bookstore", "en"]):
 
 	echo "<p><i>The Jews of Kurdistan</i> tells the stories of Jewish subjects that had lived and survived under the patronage of their tribal chieftains (or “aghas,” i.e., masters) during the 19th and 20th centuries, in towns as well as in distant villages.</p>";
 
-	echo "<blockquote>This is an original, comprehensive study on the Jewish community in Kurdistan in the last stages of its existence, during the first half of the 20th century. The scope of this study is far wider than its name. <i>(Moshe Sharon, Hebrew University)</i></blockquote>";
+	echo "<p><b>Buy <i>The Jews of Kurdistan: A Study in Survival</i> for $15 at <a href='https://kurdishjews.com/'>kurdishjews.com</a>.</b></p>";
 
-	echo "<p>Buy <i>The Jews of Kurdistan: A Study in Survival</i> for $15 at <a href='https://kurdishjews.com/'>kurdishjews.com</a>.</p>";
+	echo "<blockquote>This is an original, comprehensive study on the Jewish community in Kurdistan in the last stages of its existence, during the first half of the 20th century. The scope of this study is far wider than its name. <i>(Moshe Sharon, Hebrew University)</i></blockquote>";
 
 	endif;
 
