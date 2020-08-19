@@ -566,7 +566,7 @@ echo "<blockquote>In 1950 and 1951, the entire Kurdish Jewish community immigrat
 
 		echo "</dl>";
 
-	echo "<blockquote>Some aghas were men who were not so nice, who exploited the Jews, who took advantage of the Jews economically, physicially, and other ways. However, I want to emphasize the good values, the good memroies the Jews had from Kurdistan. And I want to share this with people.</blockquote>";
+	echo "<blockquote>Some aghas were not so nice, exploited the Jews, and took advantage of the Jews economically, physicially, and other ways. However, I want to emphasize the good values, the good memories the Jews had from Kurdistan. And I want to share this with people.</blockquote>";
 
 	echo "<dl>";
 
