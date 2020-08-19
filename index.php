@@ -493,7 +493,9 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 
 //	echo "<blockquote>The Kurds are proud people, and smart people. They are smart enough to draw their own conclusion from the political and historical situation.</blockquote>";
 
-echo "<blockquote>In 1950 and 1951, the entire Kurdish Jewish community immigrated to Israel. Over the years, Israeli Kurds followed the struggle of their Muslim brothers with great interest.</blockquote>";
+	echo "<p>Dr. Zaken is an eminent scholar on Jews from Kurdistan, as well as on Assyrians, and is fluent in the Neo-Aramaic that the Jews from Kurdistan spoke, as well as English and his native Hebrew. His book <i>The Jews of Kurdistan</i> is the world's primary scholarly resource on the topic, and was compiled from decades of interviews with Jews who were born in Kurdistan and immigrated to Israel. For his bacccalaureate, master's, and doctorate degrees he has pushed the field of Kurdish Jewish studies forward in Israel and internationally. As a Kurdish Jew himself on both sides of his family, he has been an outspoken advocate not just on Kurdish Jewish issues but also on broader Kurdish issues and the Kurdistan Region.</p>";
+
+	echo "<blockquote>In 1950 and 1951, the entire Kurdish Jewish community immigrated to Israel. Over the years, Israeli Kurds followed the struggle of their Muslim brothers with great interest.</blockquote>";
 
 	function output_faq($translatable_elements_id) {
 		global $translatable_elements;
