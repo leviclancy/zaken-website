@@ -16,7 +16,7 @@
 	
 	"last-updated" => [
 		"ar"	=> "",
-		"en"	=> "Last updated July 29th, 2020",
+		"en"	=> "Last updated August 19th, 2020",
 		"he"	=> "",
 		"ku"	=> "",
 		],
@@ -100,7 +100,7 @@
 	
 	"what-is-the-role-answer" => [
 		"ar"	=> "",
-		"en"	=> "The Jews of Kurdistan are happy to share hands with the Kurdistan Region's authorities, Muslim Kurdish leaders, and Assyrian and Chaldean communities in alQosh to protect and burnish religious and spiritual sites such as the Tomb of Nahum and others, in the name of guarding sites from damage and abuse. The representative supports reconciliation, coexistence, and positive mutuality for all.",
+		"en"	=> "The Jews of Kurdistan are happy to share hands with the Kurdistan Region's authorities, Muslim Kurdish leaders, and Assyrian and Chaldean communities in alQosh to protect and burnish religious and spiritual sites such as the Tomb of Nahum and others, in the name of guarding sites from damage and abuse. The representative supports reconciliation, coexistence, and mutual positivity for all.",
 		"he"	=> "",
 		"ku"	=> "",
 		],
@@ -114,7 +114,7 @@
 	
 	"what-is-the-scope-answer" => [
 		"ar"	=> "",
-		"en"	=> "The scope of the role of representative is Jewish affairs and Jewish sites in areas administered by the Kurdistan Region.",
+		"en"	=> "The scope of the role of representative is regarding Jewish heritage in areas administered by the Kurdistan Region.",
 		"he"	=> "",
 		"ku"	=> "",
 		],
@@ -184,7 +184,7 @@
 	
 	"are-there-jews-in-kurdistan-answer" => [
 		"ar"	=> "",
-		"en"	=> "To be born Jewish, someone must have a Jewish mother as recognized by a Rabbi. There are zero Jews remaining in the Kurdistan Region, except for a small number of expatriates.",
+		"en"	=> "To be born Jewish, someone must have a Jewish mother as recognized by a Rabbi. There are zero Jews remaining in the Kurdistan Region, except for a small number of expatriates. There is no Jewish community in Kurdistan – no synagogues, no Jewish activity whatsoever. There are hundreds of Kurds with Israeli passports in Kurdistan, and even some who know Hebrew, but these are Muslim Kurds – most of whom came to Israel for several years during the immigration fiasco of the 1990s. But when things improved in Kurdistan, they returned with their Israeli passports or moved to Europe. One Jewish grandparent bringing an extended family to Israel could mean as many as 30 Kurdish Muslims per grandparent. These people had no intention of becoming Jews. They attended mosques while in Israel. A tiny number expressed interest in converting to Judaism, but completely failed to do so without any exceptions.",
 		"he"	=> "",
 		"ku"	=> "",
 		],
