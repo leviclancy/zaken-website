@@ -91,6 +91,132 @@
 		"ku"	=> "",
 		],
 	
+	"what-is-the-role-question" => [
+		"ar"	=> "",
+		"en"	=> "What is the role of representative?",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"what-is-the-role-answer" => [
+		"ar"	=> "",
+		"en"	=> "The Jews of Kurdistan are happy to share hands with the Kurdistan Region's authorities, Muslim Kurdish leaders, and Assyrian and Chaldean communities in alQosh to protect and burnish religious and spiritual sites such as the Tomb of Nahum and others, in the name of guarding sites from damage and abuse. The representative supports reconciliation, coexistence, and positive mutuality for all.",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+
+	"what-is-the-scope-question" => [
+		"ar"	=> "What is the scope of the role of representative?",
+		"en"	=> "",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"what-is-the-scope-answer" => [
+		"ar"	=> "",
+		"en"	=> "The scope of the role of representative is Jewish affairs and Jewish sites in areas administered by the Kurdistan Region.",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+
+	"who-does-the-representative-represent-question" => [
+		"ar"	=> "",
+		"en"	=> "Who does the representative represent?",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"who-does-the-representative-represent-answer" => [
+		"ar"	=> "",
+		"en"	=> "The representative represents the community of Jews from Kurdistan, with regards to issues within the jurisdiction of the Ministry of Endowments and Religious Affairs in the Kurdistan Region. Although there are no Jews in the Kurdistan Region except for some expatriates, there is Jewish heritage and goodwill towards Jews in the Kurdistan Region which is of deep importance to the community of Jews from Kurdistan.",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"how-is-the-representative-appointed-question" => [
+		"ar"	=> "",
+		"en"	=> "How is the representative appointed?",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"how-is-the-representative-appointed-answer" => [
+		"ar"	=> "",
+		"en"	=> "The role of representative is selected by the National Association of Jews from Kurdistan. Authority is vested in the representative by the National Association, and recognized by the Ministry of Endowments and Religious Affairs in the Kurdistan Region.",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"-question" => [
+		"ar"	=> "",
+		"en"	=> "",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"-answer" => [
+		"ar"	=> "",
+		"en"	=> "",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"-question" => [
+		"ar"	=> "",
+		"en"	=> "",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"-answer" => [
+		"ar"	=> "",
+		"en"	=> "",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"-question" => [
+		"ar"	=> "",
+		"en"	=> "",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"-answer" => [
+		"ar"	=> "",
+		"en"	=> "",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"-question" => [
+		"ar"	=> "",
+		"en"	=> "",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"-answer" => [
+		"ar"	=> "",
+		"en"	=> "",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"-question" => [
+		"ar"	=> "",
+		"en"	=> "",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"-answer" => [
+		"ar"	=> "",
+		"en"	=> "",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
 	
 	
 
