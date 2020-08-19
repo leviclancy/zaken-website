@@ -636,7 +636,7 @@ echo "<div id='Contact'>";
 //	echo "<div class='contact-footer-secondary'>";
 //		echo "<i>". $translatable_elements["to-contact-the-national-association"][$language_request] ."</i><br>";
 //		echo "E-mail, info@kurdishjewry.org.il";
-		echo "</div>";
+//		echo "</div>";
 
 //	echo "<div class='contact-footer-secondary'>";
 //		echo "<i>". $translatable_elements["to-contact-foundation-of-ours"][$language_request] ."</i><br>";
