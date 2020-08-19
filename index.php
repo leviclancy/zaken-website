@@ -388,14 +388,14 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td>2020</td><td>Appointed by the National Association of Jews from Kurdistan to oversee Jewish affairs and Jewish sites in the Kurdistan Region.</td></tr>";
 	echo "<tr><td>2019</td><td>2019 Laureate, Prime Minister Prize for Research of the Jews of the Orient.</td></tr>";
 	echo "<tr><td>2016</td><td>Within the Public Security Ministry, Dr. Zaken formed a new governmental forum for dialogue with local Arab leaders.</td></tr>";
-	echo "<tr><td>2015</td><td>Published: <i>Jewish Subjects</i> is translated into Sorani Kurdish, in Erbil.</td></tr>";
+//	echo "<tr><td>2015</td><td>Published: <i>Jewish Subjects</i> is translated into Sorani Kurdish, in Erbil.</td></tr>";
 	echo "<tr><td>2013 Oct</td><td>Presentation to the World Kurdish Forum at their convention in Stockholm.</td></tr>";
-	echo "<tr><td>2013</td><td>Published: <i>Jewish Subjects</i> is translated into Arabic, in Beirut.</td></tr>";
+//	echo "<tr><td>2013</td><td>Published: <i>Jewish Subjects</i> is translated into Arabic, in Beirut.</td></tr>";
 	echo "<tr><td>2013 — 2018</td><td>With Christian leaders, Dr. Zaken initiaited the Government-Christians Forum that addressed the Evangelical Christian community's concerns regarding the government. Two prominent Christian leaders in this forum have been Rev. Charles (Chuck) Kopp, of the Baptist Church and Rev. David Pillegi, Rector of the Christ Church in Jaffa Gate. The Forum came to a conclusion in 2018, once the government concluded it was not part of government's scope.</td></tr>";
 	echo "<tr><td>2012 Oct</td><td>Visit to the Kurdistan Region, at the invitation of the World Kurdish Forum.</td></tr>";
 	echo "<tr><td>2010 Sep — 2013 Aug</td><td>Lecturer, The Hebrew University of Jerusalem</td></tr>";
 	echo "<tr><td>2010</td><td>Spoke in the Parliament of Berlin, Germany (22 October 2010)</td></tr>";
-	echo "<tr><td>2007</td><td>Published: <i>Jewish Subjects and their Tribal Chieftains in Kurdistan: A Study in Survival</i>. This book was partly based on his doctorate dissertations.</td></tr>";
+	echo "<tr><td>2007</td><td>Published: <i>Jewish Subjects and their Tribal Chieftains in Kurdistan: A Study in Survival</i>. This book was partly based on his doctorate dissertation.</td></tr>";
 	echo "<tr><td>2007 May - present</td><td>Head of the Minority Affairs Desk at Israel's Ministry of Internal Security.</td></tr>";
 	echo "<tr><td>2003</td><td>Published: Thesis on Jews of Kurdistan, through Hebrew University. He began working on this research project around 1985, culminating in his dissertation which unfolds the story of the Jews in Kurdistan in urban centers and villages, and their relations with their tribal chieftains (aghas) from whom they received patronage and protection in the tribal Kurdish society, in return for their loyalty and other social and financial duties and obligations. The second part of the thesis deals with the history of the Assyrians in Kurdistan, during the 19th and 20th centuries.</td></tr>";
 	echo "<tr><td></td><td></td></tr>";
@@ -481,9 +481,15 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 
 if ([$pageview_request, $language_request] == ["bookstore", "en"]):
 
-	echo "<h2>Buy The Jews of Kurdistan and their Tribal Chieftains at <a href='https://kurdishjews.com/'>kurdishjews.com</a></h2>";
-	echo "<p></p>";
-	echo "<p></p>";
+	echo "<h2>Bookstore</h2>";
+
+	echo "<blockquote>The book of Dr. Mordechai Zaken is the most important book written on the Jews of Kurdistan. <i>(Lora Galichco, scholar and descendant of Kurdish Jews)</i></blockquote>";
+
+	echo "<p><i>The Jews of Kurdistan</i> tells the stories of Jewish subjects that had lived and survived under the patronage of their tribal chieftains (or “aghas,” i.e., masters) during the 19th and 20th centuries, in towns as well as in distant villages.</p>";
+
+	echo "<blockquote>This is an original, comprehensive study on the Jewish community in Kurdistan in the last stages of its existence, during the first half of the 20th century. The scope of this study is far wider than its name. <i>(Moshe Sharon, Hebrew University)</i></blockquote>";
+
+	echo "<p>Buy <i>The Jews of Kurdistan: A Study in Survival</i> for $15 at <a href='https://kurdishjews.com/'>kurdishjews.com</a>.</p>";
 
 	endif;
 
