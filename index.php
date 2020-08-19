@@ -512,51 +512,41 @@ echo "<blockquote>In 1950 and 1951, the entire Kurdish Jewish community immigrat
 
 		echo "</dl>";
 
-	echo "<blockquote>The late Kurdish leader Mula Mustafa Barzani secretly visited Israel twice to meet with Israeli authorities. He also saw his Kurdish Jewish friend, David Gabai. In the 1930s, Gabai's father, Eliyahu, the header of the Iraqi Jewish community of Aqara, Iraq, supplied food and aid to the Kurds who were revolting against the British. Some say that this special connection between the two families held increase Barzani's confidence I Israel.</blockquote>";
+	echo "<blockquote>The late Kurdish leader Mula Mustafa Barzani secretly visited Israel twice to meet with Israeli authorities. He also saw his Kurdish Jewish friend, David Gabai. In the 1930s, Gabai's father, Eliyahu, the leader of the Iraqi Jewish community of Aqara, Iraq, supplied food and aid to the Kurds who were revolting against the British. Some say that this special connection between the two families held increase Barzani's confidence in Israel.</blockquote>";
 
 	echo "<dl>";
 
 		output_faq("who-does-the-representative-represent");
 	
 		output_faq("how-is-the-representative-appointed");
+
+		output_faq("how-was-dr-zaken-appointed");
 		
 		echo "</dl>";
 
 //	echo "<blockquote>I became invovled in Kurdistan in a very pecular way. I was a student at the Hebrwe University of Jerusalem when I wanted to write a paper about the economy of Kurdistan. My professor said <i>fine</i> but then I realized there were hardly any documents in Hebrew, in Arabic, nor other other languages. So I had to interview people for this apper. For this paper on ethe economy of Zakho, whre my father is from, I itnerviewe 12 people. This fantastic mechanism, this experience fo interviewing old Kurdish Jews really fascinated me and drew me into the subject. These Krudish people, these Jewish Kurds who lived in Israel, but they lived for fifty eyars,for sitxy years in Kurdistan, ahd grown up in an oral culture. They spoke four, five, six languages; tey knew the map by ehart because they traveld by donkey or mule; and they knew all the villages, all the aghas, all the histories of Kurdsitan becaue they lived it. </blockquote>";
 
-	echo "<blockquote>Israel has a moral obligation to help the Kurds. The Iraqi genocide against the Kurds should serve as a signal that sympathy is not enough for survival in the Middle East.</blockquote>";
+	echo "<blockquote>Israel has a moral obligation to help the Kurds. The Iraqi genocide against the Kurds is a signal that sympathy is not enough for survival in the Middle East.</blockquote>";
 
 	echo "<dl>";
 
-		echo "<dt>What sparked Dr. Zaken's role?</dt>";
-		echo "<dd>Dr. Zaken's family is from Zakho, in the Kurdistan Region. Over the course of his life, he has supported his heritage and has devoted his academic, political, and personal life to this cause.</dd>";
-
-		echo "<dt>What is the population of Jews from Kurdistan?</dt>";
-		echo "<dd>There are approximately 200,000 Jews who are ancestrally from Kurdistan. The community of Jews from Kurdistan has maintained continuous rabbinical, social, and other institutions from the time they were in Kurdistan through today.</dd>";
-
-		echo "<dt>Are there Jews in Kurdistan now?</dt>";
-		echo "<dd>To be born Jewish, someone must have a Jewish mother as recognized by a Rabbi. There are zero Jews remaining in the Kurdistan Region, except for a small number of expatriates.</dd>";
-
-		echo "<dt>Who does the representative <i>not</i> represent?</dt>";
-		echo "<dd>The representative is not representing the governments of Israel nor the Kurdistan Region in this role. It is an appointment made by the civil and religious leadership of the Jews of Kurdistan, and the community's desired leadership is respectfully recognized by the Ministry of Endowments and Religious Affairs in the Kurdistan Region.</dd>";
-
+		output_faq("what-is-the-population");
+	
+		output_faq("are-there-jews-in-kurdistan");
+	
+		output_faq("what-about-the-impostors");
+	
 		echo "</dl>";
 
 	echo "<blockquote>The Kurdish people often forgot their history because they were busy with their struggle, with being oppressed. They had so many economic, social, military problems — and the Assyrians also, were dispersed. So the only people who kept the memory of Kurdistan were Kurdish Jews from Kurdistan who immigrated to Israel and continued wearing Kurdish clothes, eating Kurdish food, and listening to Kurdish music every day of their lives. They kept the traditions of Kurdistan alive.</blockquote>";
 
 	echo "<dl>";
 		
-		echo "<dt>What issues does the representative <i>not</i> represent?</dt>";
-		echo "<dd>As an appointment made by the National Association of Jews from Kurdistan and recognized by the Ministry of Endowments of Religious Affairs in the Kurdistan Region, the representative is not involved in issues beyond the authority of these institutions. The role of represenative does not include bilateral relations between any two countries, nor is the role of representative devoted in any way to broader issues such as infrastructure.</dd>";
+		output_faq("who-does-the-representative-not-represent");
 
-		echo "<dt id='kurdish-jews-in-the-news-question'><a href='kurdish-jews-in-the-news'>What about Kurdish Jews in Kurdistan in the news?</a></dt>";
-		echo "<dd id='kurdish-jews-in-the-news-answer'>As stated above, there are zero Jews remaining in the Kurdistan Region. Recently, some eccentric Muslims have claimed to be Jewish. This is a total fraud, and a deeply antisemitic betrayal of Judaism, Jewish people, and Jewish values.</dd>";
+		output_faq("what-does-the-representative-not-represent");
 
-		echo "<dt>Will the Jews from Kurdistan return?</dt>";
-		echo "<dd>Not really. Returning would mean leaving behind relatives, cherished institutions, and a present-day identity. However, it is good to expect pilgrims. If even three or four families were to return to the Kurdistan Region, find work, and buy homes that would be incredible.</dd>";
-
-		echo "<dt>Can I be part Jewish?</dt>";
-		echo "<dd>There are many people with distant Jewish relatives who converted to Islam and Christianity, and intermarried. They are not Jewish. However, well-intentioned interest in learning about their family history is a welcomed and personal basis for enhancing mutual respect between Jewish and non-Jewish communities.</dd>";
+		output_faq("will-the-jews-from-kurdistan-return");
 
 		echo "</dl>";
 
@@ -566,14 +556,13 @@ echo "<blockquote>In 1950 and 1951, the entire Kurdish Jewish community immigrat
 
 	echo "<dl>";
 
-		echo "<dt>Can I visit Israel?</dt>";
-		echo "<dd>Iraq does not recognize Israel's existence. This makes it almost impossible for Israel to grant visas to Iraqi passport holders. However, Israel has remained committed to providing exceptions for international organizations that bring Iraqis to Israel for life-saving medical treatments.</dd>";
+		output_faq("can-i-be-part-jewish");
 
-		echo "<dt>How can educators arrange exchanges?</dt>";
-		echo "<dd>If you are interested in arranging exchanges online, we are happy to encourage projects that bring students in the Kurdistan Region together with Jewish students outside the Kurdistan Region.</dd>";
+		output_faq("what-if-i-want-to-be-jewish");
 
-		echo "<dt>What if I want to be Jewish or consider myself Jewish?</dt>";
-		echo "<dd>Jewish status is based on recognition by a Rabbi. There are no Jews remaining in the Kurdistan Region, except for expatriates. The community of Jews from Kurdistan is not at all interested in conversion.</dd>";
+		output_faq("can-i-visit-israel");
+
+		output_faq("are-there-exchanges");
 
 		echo "</dl>";
 
