@@ -489,6 +489,7 @@ echo "<blockquote>In 1950 and 1951, the entire Kurdish Jewish community immigrat
 
 	function output_faq($translatable_elements_id) {
 		global $translatable_elements;
+		global $language_request;
 		echo "<dt id='" . $translatable_elements_id ."'><a href='#" . $translatable_elements_id .".'>". $translatable_elements[$translatable_elements_id.'-question'][$language_request] ."</a></dt>";
 		echo "<dd>". $translatable_elements[$translatable_elements_id.'-answer'][$language_request] ."</dd>";
 		return; }
@@ -503,7 +504,7 @@ echo "<blockquote>In 1950 and 1951, the entire Kurdish Jewish community immigrat
 
 		echo "</dl>";
 
-	echo "<blockquote>The late Kurdish leader Mula Mustafa Barzani secretly visited Israel twice to meet with Israeli authorities. He also saw his Kurdish Jewish friend, David Gabai. In the 1930s, Gabai's father, Eliyahu, the header of the Iraqi Jewish community of Aqara, Iraq, supplied food and aid to the Kurds who were revolting against the British. Some say that this special connection between the two families held increase Barzani's confidence I Israel.</bockquote>";
+	echo "<blockquote>The late Kurdish leader Mula Mustafa Barzani secretly visited Israel twice to meet with Israeli authorities. He also saw his Kurdish Jewish friend, David Gabai. In the 1930s, Gabai's father, Eliyahu, the header of the Iraqi Jewish community of Aqara, Iraq, supplied food and aid to the Kurds who were revolting against the British. Some say that this special connection between the two families held increase Barzani's confidence I Israel.</blockquote>";
 
 	echo "<dl>";
 
