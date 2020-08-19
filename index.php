@@ -382,7 +382,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 
 	echo "<h2>Condensed highlights</h2>";
 
-	echo "<blockquote>Being approached to represent hte community of Jews from Kurdistan is the fulfillment of ... From a childhood spent in awe of my father, who was himself born... To the years of seeing the Kurdistan Region one of the Middle East's rare success stories...</blockquote>";
+	echo "<blockquote>Coexistence and mutual traditions are the foundation of the relationship between Jews and Kurds.</blockquote>";
 
 	echo "<table><tbody>";
 	echo "<tr><td>2020</td><td>Appointed by the National Association of Jews from Kurdistan to oversee Jewish affairs and Jewish sites in the Kurdistan Region.</td></tr>";
@@ -401,7 +401,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td></td><td></td></tr>";
 	echo "</tbody></table>";
 
-	echo "<blockquote>Where others have shut the door, the Kurdistan Region has emerged as a sort of training ground for what sort of development can occur... </blockquote>";
+	echo "<blockquote>The Kurdish national issue started long before the establishment of the Jewish state, and like the establishment of the Jewish state it is a moral cause.</blockquote>";
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
@@ -409,7 +409,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<amp-img src='_DSF4565-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Akre, near Duhok in the Kurdistan Region of Iraq.</figcaption></figure>";
 
-	echo "<blockquote>By working on Assyrian... I learned the language fo Neo-Aramaic and found it to be...</blockquote>";
+	echo "<blockquote>within the scope of my jurisdiction as the head of minorities affairs at the Ministry of Public Security, and as a consultant to the National Assocation, I continue to work and cooperate with leaders in Israel and abroad to foster Israeli-Christian, Israeli-Kurdish, and Israeli-Assyrian friendship</blockquote>";
 
 	echo "<table><tbody>";
 	echo "<tr><td>2001 May — 2007 May</td><td>Adviser on Minorities Affairs at Israel's Ministry of Internal Security.</td></tr>";
@@ -420,14 +420,14 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td>1993</td><td>Co-founder of The Israel-Kurdistan Friendship League, established in Jerusalem to faciliate friendship and dialogue between Israel and Kurdistan, as well as the Kurdish (mostly Muslim) world and the communities of Jews from Kurdistan as well as Jews interested in Kurdistan.</td></tr>";
 	echo "<tr><td>1992</td><td> When he returned to Israel, he taught at the Hebrew University of Jerusalem for several years.</td></tr>";
 	echo "<tr><td>1990</td><td>Published: Translation of the <i>Book of Ruth</i> into New-Aramaic, by Drs. Gideon Goldberg and Mordechai Zaken.</td></tr>";
-	echo "<tr><td>1989 Jan — 1991 Oct</td><td>National Director of the Institute of Students & Faculty on Israel (ISFI), an organization under the auspices of the Israeli Foreign Ministry and the Israeli Consulate in New York City, while living there.</td></tr>";
+	echo "<tr><td>1989 Jan — 1991 Oct</td><td>National Director of the Institute of Students and Faculty on Israel (ISFI), an organization under the auspices of the Israeli Foreign Ministry and the Israeli Consulate in New York City, while living there.</td></tr>";
 	echo "<tr><td>1989 — 1990</td><td>He received a study grant from New York University.</td></tr>";
 	echo "<tr><td>1988</td><td>Completed his MA in Near Eastern and Islamic Studies at the Hebrew University of Jerusalem, with specialization in the minorities in the Middle East and in particular the Jews and the Assyrian Christians within Kurdish-majority areas.</td></tr>";
 	echo "<tr><td>1987 - 1988</td><td>He received a study grant from the State university of New York (SUNY) at Binghamton.</td></tr>";
 	echo "<tr><td></td><td></td></tr>";
 	echo "</table>";
 
-	echo "<blockquote>Since a young age, I have been committed to... My upbrining gave me a commitment to... Seeing the experience of the Jews of Kurdistan, I was raised with an....</blockquote>";
+	echo "<blockquote>The Kurdistan Region is a place where Jews can feel safe. Unlike Iraq and other countries, it does not operate as an enemy state, and Israel should acknowledge this special status.</blockquote>";
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
@@ -435,7 +435,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<amp-img src='_DSF4377-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Rawanduz, near Erbil in the Kurdistan Region of Iraq.</figcaption></figure>";
 
-	echo "<blockquote>Being born Israeli meant being born into a responsibility to stand up for human rights... .</blockquote>";
+	echo "<blockquote>The relationship between Israel and the Jews, and the Kurds, should be strengthened and encouraged because these two people have a lot of common. I welcome all Kurds to establish contact with Jews.</blockquote>";
 
 	echo "<table><tbody>";
 	echo "<tr><td>1990ish</td><td>Dr. Zaken is married to Riki, and the two continue to have three children: Tzah, Tahel, and Ohad.</td></tr>";
@@ -449,7 +449,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td></td><td></td></tr>";
 	echo "</tbody></table>";
 
-	echo "<blockquote>In the neighborhood where I grew up, we spoke, they spoke Aramaic and Kurdish together. These people left Kurdistan, but Kurdistan did not leave them.</blockquote>";
+	echo "<blockquote>In the neighborhood where I grew up, we spoke Aramaic and Kurdish together. These people left Kurdistan, but Kurdistan did not leave them.</blockquote>";
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
@@ -459,20 +459,28 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 
 	echo "<h2>References</h2>";
 
-	echo "<blockquote>I am grateful to scholars such as... Who have accomplished... .</blockquote>";
+// 	echo "<blockquote>I am grateful to scholars such as... Who have accomplished... .</blockquote>";
 
-	echo "<p>His most favored and inspiring teachers have been Prof. Moshe Sharon (under whom he studied Islamic civilization and culture as well as Arabic and Farsi); Prof. B. Z. Kedar (general History and comparative history); Prof. Gideon Goldenberg (Neo-Aramaic of the Jews and Assyrians of the Kurdish regions); Prof. Michael Zand (Farsi); and the late Prof. Amnon Netzer (Farsi and Persian Jewish History).</p>";
+// 	echo "<p>His most favored and inspiring teachers have been Professor Moshe Sharon (under whom he studied Islamic civilization and culture as well as Arabic and Farsi); Professor B. Z. Kedar (general History and comparative history); Professor Gideon Goldenberg (Neo-Aramaic of the Jews and Assyrians of the Kurdish regions); Professor Michael Zand (Farsi); and the late Prof. Amnon Netzer (Farsi and Persian Jewish History).</p>";
 
 	echo "<h2>Media summary</h2>";
 
 	echo "<table><tbody>";
+	echo "<tr><td>2019 Mar</td><td><a href='https://www.hudson.org/research/14847-lending-a-helping-hand-to-strangers-and-sojourners'>Hudson Institute</a></td></tr>";	
+	echo "<tr><td>2018 Nov</td><td><a href='https://www.tabletmag.com/sections/israel-middle-east/articles/kurdistan-and-israel'>Interview with Tablet Mag about the Kurdistan Region</a></td></tr>";	
+	echo "<tr><td>2017 Oct</td><td><a href='https://www.thejewishstar.com/stories/kurd-foes-use-israeli-stance-to-rally-allies,14560'>The Jewish Star</a></td></tr>";
 	echo "<tr><td>2017 Apr</td><td><a href='https://www.youtube.com/watch?v=i8yI-SLzSKg'>Interview on CBN about Israel-Christian relations</a></td></tr>";	
+	echo "<tr><td>2017 Jan</td><td><a href='https://nypost.com/2017/01/27/israelis-eager-to-welcome-us-embassy-to-jerusalem/'>NY Post</a></td></tr>";	
+	echo "<tr><td>2015 Dec</td><td><a href='https://www.jpost.com/middle-east/use-of-jewish-issue-by-krg-official-may-cause-confusion-and-damage-436499'>Interview on impostors in the Kurdistan Region</a></td></tr>";	
+	echo "<tr><td>2015 Nov</td><td><a href='https://www.jpost.com/middle-east/so-are-there-jews-in-kurdistan-432756'>Interview on impostors in the Kurdistan Region</a></td></tr>";	
+	echo "<tr><td>2015 Aug</td><td><a href='https://www.sbs.com.au/language/english/audio/how-did-the-kurdish-jews-migrate-to-israel'>Interview with SBS</a></td></tr>";	
 	echo "<tr><td>2006 May 11</td><td>Meeting with Hamas: <a href='http://cbgonzo.blogspot.co.il/2006/05/10-more-questions.html'>Yahoo news</a></td></tr>";	
 	echo "<tr><td>1999 Apr 21</td><td>Likud Denies It Is Exploiting Conflict: <a href='http://articles.latimes.com/1999/apr/21/news/mn-29526/2'>LA Times</a></td></tr>";	
 	echo "<tr><td>1999 Apr 20</td><td>Compromise on Nazareth: <a href='http://www.nytimes.com/1999/04/20/world/israel-sets-forth-compromise-plan-on-nazareth-mosque-dispute.html'>NY Times</a></td></tr>";	
 	echo "<tr><td>1999 Apr 07</td><td>Protesting demolition of homes: <a href='http://articles.latimes.com/1998/apr/07/news/mn-36961'>LA Times</a></td></tr>";	
 	echo "<tr><td>1999 Apr 06</td><td>Demolition of homes: <a href='http://www.apnewsarchive.com/1998/Israeli-Arabs-Protest-Demolition/id-debabd28296ea20a9d9a26c5de57ad57'>AP</a></td></tr>";	
 	echo "<tr><td>1998 Apr 28</td><td>Unrecognized villages: <a href='http://edition.cnn.com/WORLD/meast/9804/28/israel.forty.villages/index.old.html'>CNN</a></td></tr>";	
+	echo "<tr><td></td><td></td></tr>";
 	echo "<tr><td></td><td></td></tr>";
 	echo "<tr><td></td><td></td></tr>";
 	echo "</tbody></table>";
@@ -560,8 +568,6 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 
 	echo "<blockquote>The Kurds are entitled to an independent Kurdish national home just like the Jews, and they will sooner or later be granted this statehood.</blockquote>";
 
-//	<blockquote>The Kurdish national issue started long before it had any connection to Israel and before the establishment of the Jewish state.</blockquote>
-
 	echo "<dl>";
 
 		output_faq("can-i-be-part-jewish");
@@ -625,9 +631,9 @@ if ([$pageview_request, $language_request] == ["israel-and-zionism", "en"]):
 
 	echo "<blockquote>Israel is a safe haven in this region, in the Middle East, and in the cradle of mankind.</blockquote>";
 	
-	echo "<p>ISFI provided political and cultural resources, ideas and tools, for Jewish and pro-Israel student activists throughout the US and Canada, through which Israeli oriented activities and the message of Israel could be promoted in US campuses.</p>";
+	echo "<p>Dr. Zaken served as National Director of the Institute of Students and Faculty on Israel (ISF), and has also served both the Ministry of Public Security and the Prime Minister of Israel. ISFI provided political and cultural resources, ideas and tools, for Jewish and pro-Israel student activists throughout the US and Canada, through which Israeli-oriented activities and the message of Israel could be promoted in US campuses.</p>";
 
-	echo "<p></p>";
+// Check about IDF service?
 
 	endif;
 
