@@ -236,6 +236,14 @@ $style_array = [
 		"text-align"		=> "center",
 		],
 	
+	"#body-content dt" => [
+		"font-size"		=> "110%",
+		],
+	
+	"#body-content dd" => [
+		"margin-bottom"		=> "30px",
+		],
+	
 	"#Contact" => [
 		"display"		=> "block",
 		"color"			=> "rgba(220,220,220,1)",
@@ -480,6 +488,7 @@ if ([$pageview_request, $language_request] == ["jews-of-kurdistan", "en"]):
 echo "<blockquote>In 1950 and 1951, the entire Kurdish Jewish community immigrated to Israel. Over the years, Israeli Kurds followed the struggle of their Muslim brothers with great interest.</blockquote>";
 
 	function output_faq($translatable_elements_id) {
+		global $translatable_elements;
 		echo "<dt id='" . $translatable_elements_id ."'><a href='#" . $translatable_elements_id .".'>". $translatable_elements[$translatable_elements_id.'-question'][$language_request] ."</a></dt>";
 		echo "<dd>". $translatable_elements[$translatable_elements_id.'-answer'][$language_request] ."</dd>";
 		return; }
@@ -488,11 +497,9 @@ echo "<blockquote>In 1950 and 1951, the entire Kurdish Jewish community immigrat
 
 		output_faq("who-is-the-representative");
 
-		echo "<dt>What is the role of representative?</dt>";
-		echo "<dd>The Jews of Kurdistan are happy to share hands with the Kurdistan Region's authorities, Muslim Kurdish leaders, and Assyrian and Chaldean communities in alQosh to protect and burnish religious and spiritual sites such as the Tomb of Nahum and others, in the name of guarding sites from damage and abuse. The representative supports reconciliation, coexistence, and positive mutuality for all.</dd>";
+		output_faq("what-is-the-role");
 
-		echo "<dt>What is the scope of the role of representative?</dt>";
-		echo "<dd>The scope of the role of representative is Jewish affairs and Jewish sites in areas administered by the Kurdistan Region.</dd>";
+		output_faq("what-is-the-scope");
 
 		echo "</dl>";
 
@@ -500,12 +507,10 @@ echo "<blockquote>In 1950 and 1951, the entire Kurdish Jewish community immigrat
 
 	echo "<dl>";
 
-		echo "<dt>Who does the representative represent?</dt>";
-		echo "<dd>The representative represents the community of Jews from Kurdistan, with regards to issues within the jurisdiction of the Ministry of Endowments and Religious Affairs in the Kurdistan Region. Although there are no Jews in the Kurdistan Region except for some expatriates, there is Jewish heritage and goodwill towards Jews in the Kurdistan Region which is of deep importance to the community of Jews from Kurdistan.</dd>";
+		output_faq("who-does-the-representative-represent");
 	
-		echo "<dt>How is the representative appointed?</dt>";
-		echo "<dd>The role of representative is selected by the National Association of Jews from Kurdistan. Authority is vested in the representative by the National Association, and recognized by the Ministry of Endowments and Religious Affairs in the Kurdistan Region.</dd>";
-	
+		output_faq("how-is-the-representative-appointed");
+		
 		echo "</dl>";
 
 //	echo "<blockquote>I became invovled in Kurdistan in a very pecular way. I was a student at the Hebrwe University of Jerusalem when I wanted to write a paper about the economy of Kurdistan. My professor said <i>fine</i> but then I realized there were hardly any documents in Hebrew, in Arabic, nor other other languages. So I had to interview people for this apper. For this paper on ethe economy of Zakho, whre my father is from, I itnerviewe 12 people. This fantastic mechanism, this experience fo interviewing old Kurdish Jews really fascinated me and drew me into the subject. These Krudish people, these Jewish Kurds who lived in Israel, but they lived for fifty eyars,for sitxy years in Kurdistan, ahd grown up in an oral culture. They spoke four, five, six languages; tey knew the map by ehart because they traveld by donkey or mule; and they knew all the villages, all the aghas, all the histories of Kurdsitan becaue they lived it. </blockquote>";
