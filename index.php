@@ -581,8 +581,8 @@ echo "<div id='Contact'>";
 	echo "<div class='contact-footer-secondary'>";
 		echo "<i>". $translatable_elements["this-website-has-been-developed"][$language_request] ."</i><br>";
 		echo "Website: &nbsp; <a href='https://ours.foundation'>ours.foundation</a><br>";
-		echo "WhatsApp: &nbsp; <a href='https://wa.me/12072165608'>+1 (207) 216-5608</a><br>";
 		echo "Email: &nbsp; <a href='mailto:info@ours.foundation'>info@ours.foundation</a>";
+		echo "WhatsApp: &nbsp; <a href='https://wa.me/12072165608'>+1 (207) 216-5608</a><br>";
 		echo "</div>";
 
 	echo "<div class='contact-footer-secondary'>";
