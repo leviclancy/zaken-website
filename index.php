@@ -358,7 +358,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 
 	echo "<p amp-fx='parallax' data-parallax-factor='1.09'>Moti has served the National Association of Jews from Kurdistan for years in a leadership role, and is proud to communicate the wishes and support of the community of Jews from Kurdistan <i>vis-à-vis</i> the Kurdistan Region's government and society, including Assyrians and others. As a Kurdish Jew himself on both sides of his family, and whose father was born in Zakho, he has been an outspoken advocate not just on Kurdish Jewish issues but also on broader Kurdish issues and the Kurdistan Region. Moti was born in 1958 in Jerusalem, where he lives with his wife and their three children.</p>";
 
-	echo "<p amp-fx='parallax' data-parallax-factor='1.08'>This website has been developed and maintained by <a href='https://ours.foundation'>Foundation of Ours</a> in Erbil.</p>";
+	echo "<p amp-fx='parallax' data-parallax-factor='1.08'>This website has been developed and maintained by <a href='https://ours.foundation'>Foundation of Ours</a>, which supports Jewish expression in the Kurdistan Region.</p>";
 
 	echo "<h1 amp-fx='parallax' data-parallax-factor='1.07'>Career summary of Dr. Mordechai Zaken</h1>";
 
