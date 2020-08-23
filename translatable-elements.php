@@ -14,6 +14,13 @@
 		"ku"	=> "",
 		],
 	
+	"prepared-by-foundation-of-ours" => [
+		"ar"	=> "",
+		"en"	=> "Prepared by Foundation of Ours",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+
 	"last-updated" => [
 		"ar"	=> "",
 		"en"	=> "Last updated August 19th, 2020",
