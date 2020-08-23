@@ -7,9 +7,9 @@
 		"ku"	=> "",
 		],
 		
-	"dr-mordechai-zaken" => [
+	"dr-mordechai-moti-zaken" => [
 		"ar"	=> "",
-		"en"	=> "Dr. Mordechai Zaken",
+		"en"	=> "Dr. Mordechai \"Moti\" Zaken",
 		"he"	=> "",
 		"ku"	=> "",
 		],
@@ -65,7 +65,7 @@
 
 	"this-website-has-been-developed" => [
 		"ar"	=> "",
-		"en"	=> "This website has been developed and managed by Foundation of Ours. To contact the Foundation,",
+		"en"	=> "To contact Foundation of Ours,",
 		"he"	=> "",
 		"ku"	=> "",
 		],	
