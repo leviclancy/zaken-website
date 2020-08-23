@@ -1,13 +1,5 @@
 <?
 
-/// Home page
-/// Bookstore
-/// Resources about Kurdistan
-/// Resources about Israeli Arabs
-/// Resources about Israel and Zionism
-/// Booking
-/// Contact
-
 include_once('translatable-elements.php');
 
 // Kurdistan
@@ -507,6 +499,9 @@ if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 
 //	echo "<blockquote>The Kurds are proud people, and smart people. They are smart enough to draw their own conclusion from the political and historical situation.</blockquote>";
 
+(WE shall get there soon 2-3 important projects, one which is very sensitive... ) Put there the Tomb of Nahum  of course with all the credit for ARCH and the KRG. Discuss our membership in the board the joint statement the rehabilitation of the tomb etc.
+From there we shall continue on any other way that connects israel with the Kurds.
+
 	echo "<p>Dr. Zaken is an eminent scholar on Jews of Kurdistan, as well as on Assyrians, and is fluent in the Neo-Aramaic that the Jews of Kurdistan spoke, as well as English and his native Hebrew. His book <i>The Jews of Kurdistan</i> is the world's primary scholarly resource on the topic, and was compiled from decades of interviews with Jews who were born in Kurdistan and immigrated to Israel. For his bacccalaureate, master's, and doctorate degrees he has pushed the field of Kurdish Jewish studies forward in Israel and internationally. As a Kurdish Jew himself on both sides of his family, and whose father was born in Zakho, he has been an outspoken advocate not just on Kurdish Jewish issues but also on broader Kurdish issues and the Kurdistan Region. He has served the National Association of Jews from Kurdistan for years in a leadership role, and is proud to communicate the wishes and support of the community of Jews from Kurdistan <i>vis-à-vis</i> the Kurdistan Region's government and society, including Assyrians and others.</p>";
 
 	echo "<blockquote>In 1950 and 1951, the entire Kurdish Jewish community immigrated to Israel. Over the years, Israeli Kurds followed the struggle of their Muslim brothers with great interest.</blockquote>";
@@ -565,19 +560,18 @@ echo "<div id='Contact'>";
 
 	echo "<div id='contact-footer-primary'>";
 		echo "To reach Dr. Zaken,<br>";
-		echo "E-mail, info@drmordechaizaken.com";
+		echo "<a href='mailto:info@drmordechaizaken.com'>info@drmordechaizaken.com</a>";
 		echo "</div>";
 
-//	echo "<div class='contact-footer-secondary'>";
-//		echo "<i>". $translatable_elements["to-contact-the-national-association"][$language_request] ."</i><br>";
-//		echo "E-mail, info@kurdishjewry.org.il";
-//		echo "</div>";
+	echo "<div class='contact-footer-secondary'>";
+		echo "<i>". $translatable_elements["to-contact-the-national-association"][$language_request] ."</i><br>";
+		echo "<a href='https://kurdishjewry.org.il'>https://kurdishjewry.org.il</a> • <a href='mailto:info@kurdishjewry.org.il'>info@kurdishjewry.org.il</a>";
+		echo "</div>";
 
-//	echo "<div class='contact-footer-secondary'>";
-//		echo "<i>". $translatable_elements["to-contact-foundation-of-ours"][$language_request] ."</i><br>";
-//		echo "Telephone, +1 (207) 216-5608<br>";
-//		echo "E-mail, info@ours.foundation";
-//		echo "</div>";
+	echo "<div class='contact-footer-secondary'>";
+		echo "<i>". $translatable_elements["this-website-has-been-developed"][$language_request] ."</i><br>";
+		echo "<a href='https://ours.foundation'>https://ours.foundation</a> • <a href='https://wa.me/12072165608'>+1 (207) 216-5608 (Phone, WhatsApp)</a> • <a href='mailto:info@ours.foundation'>info@ours.foundation</a>";
+		echo "</div>";
 
 	echo "<div class='contact-footer-secondary'>";
 		echo $translatable_elements["last-updated"][$language_request];
