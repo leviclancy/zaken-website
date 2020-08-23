@@ -485,6 +485,8 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<tr><td></td><td></td></tr>";
 	echo "</tbody></table>";
 
+//	http://israeli-kurdish-friendship-league.blogspot.com/
+
 	endif;
 
 if ([$pageview_request, $language_request] == ["bookstore", "en"]):
