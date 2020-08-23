@@ -326,6 +326,7 @@ echo "<div id='navigation-header' amp-fx='parallax' data-parallax-factor='1.3'>"
 
 	echo "<span id='navigation-header-topline' amp-fx='parallax' data-parallax-factor='1.1'>". $translatable_elements["the-official-website-of"][$language_request] ."</span>";
 	echo "<span id='navigation-header-name' amp-fx='parallax' data-parallax-factor='1.1'>". $translatable_elements["dr-mordechai-moti-zaken"][$language_request] ."</span>";
+	echo "<span id='navigation-header-topline' amp-fx='parallax' data-parallax-factor='1.1'>". $translatable_elements["prepared-by-foundation-of-ours"][$language_request] ."</span>";
 
 	echo "<hr>";
 
