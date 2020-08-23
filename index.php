@@ -354,9 +354,9 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<amp-img src='_DSF9626-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Moti, during a meeting in Jerusalem.</figcaption></figure>";
 
-	echo "<h1 amp-fx='parallax' data-parallax-factor='1.1'>Career summary of Dr. Mordechai Zaken</h1>";
+	echo "<p amp-fx='parallax' data-parallax-factor='1.1'>Dr. Mordechai Zaken is an eminent scholar on Jews of Kurdistan, as well as on Assyrians, and is fluent in the Neo-Aramaic that the Jews of Kurdistan spoke, as well as English and his native Hebrew. His book <i>The Jews of Kurdistan</i> is a leading resource on the topic, and was compiled from decades of interviews with Jews who were born in Kurdistan and immigrated to Israel. For his bacccalaureate, master's, and doctorate degrees he has pushed the field of Kurdish Jewish studies forward in Israel and internationally. As a Kurdish Jew himself on both sides of his family, and whose father was born in Zakho, he has been an outspoken advocate not just on Kurdish Jewish issues but also on broader Kurdish issues and the Kurdistan Region. He has served the National Association of Jews from Kurdistan for years in a leadership role, and is proud to communicate the wishes and support of the community of Jews from Kurdistan <i>vis-à-vis</i> the Kurdistan Region's government and society, including Assyrians and others. Dr. Zaken was born in 1958 in Jerusalem, where he lives with his wife and their three children. This website has been developed and maintained by <a href='https://ours.foundation'>Foundation of Ours</a> in Erbil.</p>";
 
-	echo "<p amp-fx='parallax' data-parallax-factor='1.07'>Dr. Mordechai Zaken, born in 1958 in Jerusalem of Kurdistani descent, has devoted his career to researching and documenting Jews and Assyrian Christians within Kurdish-majority areas, as well as Kurds and Kurdistan, and to serving as an activist and consultant for these communities as well as for coexistence between all communities.</p>";
+	echo "<h1 amp-fx='parallax' data-parallax-factor='1.07'>Career summary of Dr. Mordechai Zaken</h1>";
 
 	echo "<ul>";
 	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Representative of the community of Jews from Kurdistan to the Kurdistan Region (2020 - now).</li>";
@@ -499,7 +499,7 @@ if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 
 //	echo "<blockquote>The Kurds are proud people, and smart people. They are smart enough to draw their own conclusion from the political and historical situation.</blockquote>";
 
-	echo "<p>Dr. Zaken is an eminent scholar on Jews of Kurdistan, as well as on Assyrians, and is fluent in the Neo-Aramaic that the Jews of Kurdistan spoke, as well as English and his native Hebrew. His book <i>The Jews of Kurdistan</i> is the world's primary scholarly resource on the topic, and was compiled from decades of interviews with Jews who were born in Kurdistan and immigrated to Israel. For his bacccalaureate, master's, and doctorate degrees he has pushed the field of Kurdish Jewish studies forward in Israel and internationally. As a Kurdish Jew himself on both sides of his family, and whose father was born in Zakho, he has been an outspoken advocate not just on Kurdish Jewish issues but also on broader Kurdish issues and the Kurdistan Region. He has served the National Association of Jews from Kurdistan for years in a leadership role, and is proud to communicate the wishes and support of the community of Jews from Kurdistan <i>vis-à-vis</i> the Kurdistan Region's government and society, including Assyrians and others.</p>";
+	echo "<p>Dr. Zaken's role with the National Association </p>";
 
 	echo "<h2>Shrine of Nahum</h2>";
 
