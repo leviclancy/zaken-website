@@ -58,14 +58,14 @@
 
 	"to-contact-the-national-association" => [
 		"ar"	=> "",
-		"en"	=> "To contact the National Association,",
+		"en"	=> "To contact the National Association of Jews from Kurdistan in Israel,",
 		"he"	=> "",
 		"ku"	=> "",
 		],
 
 	"this-website-has-been-developed" => [
 		"ar"	=> "",
-		"en"	=> "This website has been developed and managed by Foundation of Ours.",
+		"en"	=> "This website has been developed and managed by Foundation of Ours. To contact the Foundation,",
 		"he"	=> "",
 		"ku"	=> "",
 		],	
