@@ -529,7 +529,7 @@ if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 	
 	endif;
 	
-if ([$pageview_request, $language_request] == ["arab-and-minority-affairs", "en"]):
+if ([$pageview_request, $language_request] == ["israel", "en"]):
 
 	echo "<h1>Israel, Zionism, and Minorities Affairs</h1>";
 
