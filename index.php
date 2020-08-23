@@ -499,24 +499,33 @@ if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 
 //	echo "<blockquote>The Kurds are proud people, and smart people. They are smart enough to draw their own conclusion from the political and historical situation.</blockquote>";
 
-(WE shall get there soon 2-3 important projects, one which is very sensitive... ) Put there the Tomb of Nahum  of course with all the credit for ARCH and the KRG. Discuss our membership in the board the joint statement the rehabilitation of the tomb etc.
-From there we shall continue on any other way that connects israel with the Kurds.
-
 	echo "<p>Dr. Zaken is an eminent scholar on Jews of Kurdistan, as well as on Assyrians, and is fluent in the Neo-Aramaic that the Jews of Kurdistan spoke, as well as English and his native Hebrew. His book <i>The Jews of Kurdistan</i> is the world's primary scholarly resource on the topic, and was compiled from decades of interviews with Jews who were born in Kurdistan and immigrated to Israel. For his bacccalaureate, master's, and doctorate degrees he has pushed the field of Kurdish Jewish studies forward in Israel and internationally. As a Kurdish Jew himself on both sides of his family, and whose father was born in Zakho, he has been an outspoken advocate not just on Kurdish Jewish issues but also on broader Kurdish issues and the Kurdistan Region. He has served the National Association of Jews from Kurdistan for years in a leadership role, and is proud to communicate the wishes and support of the community of Jews from Kurdistan <i>vis-à-vis</i> the Kurdistan Region's government and society, including Assyrians and others.</p>";
+
+	echo "<h2>Shrine of Nahum</h2>";
+
+	echo "<p>Credit to ARCH and the KRG. Dr. Zaken is a member in the Board, the joint statement, the rehabilitation of the tomb, etc.</p>";
+
+	echo "<h2>Historical information</h2>";
 
 	echo "<blockquote>In 1950 and 1951, the entire Kurdish Jewish community immigrated to Israel. Over the years, Israeli Kurds followed the struggle of their Muslim brothers with great interest.</blockquote>";
 
+	echo "<p>There are at present in Israel...</p>";
+
 	echo "<blockquote>The late Kurdish leader Mula Mustafa Barzani secretly visited Israel twice to meet with Israeli authorities. He also saw his Kurdish Jewish friend, David Gabai. In the 1930s, Gabai's father, Eliyahu, the leader of the Iraqi Jewish community of Aqara, Iraq, supplied food and aid to the Kurds who were revolting against the British. Some say that this special connection between the two families held increase Barzani's confidence in Israel.</blockquote>";
+
+	echo "<p>During the referendum on independence...</p>";
 
 //	echo "<blockquote>I became invovled in Kurdistan in a very pecular way. I was a student at the Hebrwe University of Jerusalem when I wanted to write a paper about the economy of Kurdistan. My professor said <i>fine</i> but then I realized there were hardly any documents in Hebrew, in Arabic, nor other other languages. So I had to interview people for this apper. For this paper on ethe economy of Zakho, whre my father is from, I itnerviewe 12 people. This fantastic mechanism, this experience fo interviewing old Kurdish Jews really fascinated me and drew me into the subject. These Krudish people, these Jewish Kurds who lived in Israel, but they lived for fifty eyars,for sitxy years in Kurdistan, ahd grown up in an oral culture. They spoke four, five, six languages; tey knew the map by ehart because they traveld by donkey or mule; and they knew all the villages, all the aghas, all the histories of Kurdsitan becaue they lived it. </blockquote>";
 
 	echo "<blockquote>Israel has a moral obligation to help the Kurds. The Iraqi genocide against the Kurds is a signal that sympathy is not enough for survival in the Middle East.</blockquote>";
 
-	echo "<blockquote>The Kurdish people often forgot their history because they were busy with their struggle, with being oppressed. They had so many economic, social, military problems — and the Assyrians also, were dispersed. So the only people who kept the memory of Kurdistan were Kurdish Jews from Kurdistan who immigrated to Israel and continued wearing Kurdish clothes, eating Kurdish food, and listening to Kurdish music every day of their lives. They kept the traditions of Kurdistan alive.</blockquote>";
+	echo "<p>Attitudes toward...</p>";
+
+//	echo "<blockquote>The Kurdish people often forgot their history because they were busy with their struggle, with being oppressed. They had so many economic, social, military problems — and the Assyrians also, were dispersed. So the only people who kept the memory of Kurdistan were Kurdish Jews from Kurdistan who immigrated to Israel and continued wearing Kurdish clothes, eating Kurdish food, and listening to Kurdish music every day of their lives. They kept the traditions of Kurdistan alive.</blockquote>";
 
 	echo "<blockquote>The Kurds are entitled to an independent Kurdish national home just like the Jews, and they will sooner or later be granted this statehood.</blockquote>";
 
-	echo "<blockquote>Some aghas were not so nice, exploited the Jews, and took advantage of the Jews economically, physicially, and other ways. However, I want to emphasize the good values, the good memories the Jews had from Kurdistan. And I want to share this with people.</blockquote>";
+//	echo "<blockquote>Some aghas were not so nice, exploited the Jews, and took advantage of the Jews economically, physicially, and other ways. However, I want to emphasize the good values, the good memories the Jews had from Kurdistan. And I want to share this with people.</blockquote>";
 		
 	echo "<p></p>";
 	
