@@ -363,10 +363,11 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<h1 amp-fx='parallax' data-parallax-factor='1.07'>Career summary of Dr. Mordechai Zaken</h1>";
 
 	echo "<ul>";
-	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Representative of the community of Jews from Kurdistan to the Kurdistan Region (2020 - now).</li>";
-	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Author of <i>The Jews of Kurdistan</i>, the authoritative volume on the topic (2007).</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Representative on Jewish Affairs to the Kurdistan Regional Government.</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Author of <i>The Jews of Kurdistan</i>.</li>";
 //	echo "<li>Founder of the Israel-Kurdistan Friendship League.</li>";
-	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Adviser to the Prime Minister of Israel on Arab affairs, and Head of Minority Affairs Desk at the Home Ministry, Israeli Ministry of Public Security.</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Adviseron Arab Affairs to the Prime Minister of Israel.</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Head of Minority Affairs Desk at Israel's Ministry of Public Security.</li>";
 //	echo "<li>Director of the Institute of Students and Faculty on Israel, in New York.</li>";
 	echo "</ul>";
 
