@@ -325,7 +325,7 @@ echo '<amp-animation id="fadeTransition"
 echo "<div id='navigation-header' amp-fx='parallax' data-parallax-factor='1.3'>";
 
 	echo "<span id='navigation-header-topline' amp-fx='parallax' data-parallax-factor='1.1'>". $translatable_elements["the-official-website-of"][$language_request] ."</span>";
-	echo "<span id='navigation-header-name' amp-fx='parallax' data-parallax-factor='1.1'>". $translatable_elements["dr-mordechai-zaken"][$language_request] ."</span>";
+	echo "<span id='navigation-header-name' amp-fx='parallax' data-parallax-factor='1.1'>". $translatable_elements["dr-mordechai-moti-zaken"][$language_request] ."</span>";
 
 	echo "<hr>";
 
@@ -354,9 +354,11 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<amp-img src='_DSF9626-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Moti, during a meeting in Jerusalem.</figcaption></figure>";
 
-	echo "<p amp-fx='parallax' data-parallax-factor='1.1'>Dr. Mordechai Zaken is an eminent scholar on Jews of Kurdistan, as well as on Assyrians, and is fluent in the Neo-Aramaic that the Jews of Kurdistan spoke, as well as English and his native Hebrew. His book <i>The Jews of Kurdistan</i> is a leading resource on the topic, and was compiled from decades of interviews with Jews who were born in Kurdistan and immigrated to Israel. In his academic career, he has pushed the field of Kurdish and Assyrian studies forward in Israel and internationally.</p>";
+	echo "<p amp-fx='parallax' data-parallax-factor='1.1'>Dr. Mordechai \"Moti\" Zaken is an eminent scholar on Jews of Kurdistan, as well as on Assyrians, and is fluent in the Neo-Aramaic that the Jews of Kurdistan spoke, as well as English and his native Hebrew. His book <i>The Jews of Kurdistan</i> is a leading resource on the topic, and was compiled from decades of interviews with Jews who were born in Kurdistan and immigrated to Israel. In his academic career, he has pushed the field of Kurdish and Assyrian studies forward in Israel and internationally.</p>";
 
-	echo "<p amp-fx='parallax' data-parallax-factor='1.09'>He has served the National Association of Jews from Kurdistan for years in a leadership role, and is proud to communicate the wishes and support of the community of Jews from Kurdistan <i>vis-à-vis</i> the Kurdistan Region's government and society, including Assyrians and others. As a Kurdish Jew himself on both sides of his family, and whose father was born in Zakho, he has been an outspoken advocate not just on Kurdish Jewish issues but also on broader Kurdish issues and the Kurdistan Region. Dr. Zaken was born in 1958 in Jerusalem, where he lives with his wife and their three children. This website has been developed and maintained by <a href='https://ours.foundation'>Foundation of Ours</a> in Erbil.</p>";
+	echo "<p amp-fx='parallax' data-parallax-factor='1.09'>Moti has served the National Association of Jews from Kurdistan for years in a leadership role, and is proud to communicate the wishes and support of the community of Jews from Kurdistan <i>vis-à-vis</i> the Kurdistan Region's government and society, including Assyrians and others. As a Kurdish Jew himself on both sides of his family, and whose father was born in Zakho, he has been an outspoken advocate not just on Kurdish Jewish issues but also on broader Kurdish issues and the Kurdistan Region. Moti was born in 1958 in Jerusalem, where he lives with his wife and their three children.</p>";
+
+	echo "<p amp-fx='parallax' data-parallax-factor='1.08'>This website has been developed and maintained by <a href='https://ours.foundation'>Foundation of Ours</a> in Erbil.</p>";
 
 	echo "<h1 amp-fx='parallax' data-parallax-factor='1.07'>Career summary of Dr. Mordechai Zaken</h1>";
 
