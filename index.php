@@ -356,17 +356,17 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 
 	echo "<p amp-fx='parallax' data-parallax-factor='1.1'>Dr. Mordechai \"Moti\" Zaken is an eminent scholar on Jews of Kurdistan, as well as on Assyrians, and is fluent in the Neo-Aramaic that the Jews of Kurdistan spoke, as well as English and his native Hebrew. His book <i>The Jews of Kurdistan</i> is a leading resource on the topic, and was compiled from decades of interviews with Jews who were born in Kurdistan and immigrated to Israel. In his academic career, he has pushed the field of Kurdish and Assyrian studies forward in Israel and internationally.</p>";
 
-	echo "<p amp-fx='parallax' data-parallax-factor='1.1'>Moti has served the National Association of Jews from Kurdistan for years in a leadership role, and is proud to communicate the wishes and support of the community of Jews from Kurdistan <i>vis-à-vis</i> the Kurdistan Region's government and society, including Assyrians and others. As both sides of his family are from Kurdistan, and his father was born in Zakho, he has been an outspoken advocate not just on Kurdish Jewish issues but also on broader Kurdish issues and the Kurdistan Region. Moti was born in 1958 in Jerusalem, where he lives with his wife and their three children.</p>";
 
 	echo "<p amp-fx='parallax' data-parallax-factor='1.1'>This website has been developed and maintained by <a href='https://ours.foundation'>Foundation of Ours</a>, which supports Jewish expression in the Kurdistan Region.</p>";
 
 	echo "<h1 amp-fx='parallax' data-parallax-factor='1.07'>Career summary of Dr. Mordechai Zaken</h1>";
 
 	echo "<ul>";
-	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Representative on Jewish Affairs to the Kurdistan Regional Government.</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Authoritative expert on the history and heritage of the Jews of Kurdistan.</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Representative of the community of Jews from Kurdistan to the Kurdistan Region (2020 - now).</li>";
 	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Author of <i>The Jews of Kurdistan</i>.</li>";
 //	echo "<li>Founder of the Israel-Kurdistan Friendship League.</li>";
-	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Adviseron Arab Affairs to the Prime Minister of Israel.</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Adviser on Arab Affairs to the Prime Minister of Israel.</li>";
 	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Head of Minority Affairs Desk at Israel's Ministry of Public Security.</li>";
 //	echo "<li>Director of the Institute of Students and Faculty on Israel, in New York.</li>";
 	echo "</ul>";
