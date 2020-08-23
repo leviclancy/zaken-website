@@ -569,20 +569,20 @@ echo "<div id='Contact'>";
 
 	echo "<div id='contact-footer-primary'>";
 		echo "To reach Dr. Zaken,<br>";
-		echo "Email, <a href='mailto:info@drmordechaizaken.com'>info@drmordechaizaken.com</a>";
+		echo "Email: &nbsp; <a href='mailto:info@drmordechaizaken.com'>info@drmordechaizaken.com</a>";
 		echo "</div>";
 
 	echo "<div class='contact-footer-secondary'>";
 		echo "<i>". $translatable_elements["to-contact-the-national-association"][$language_request] ."</i><br>";
-		echo "Website, <a href='https://kurdishjewry.org.il'>https://kurdishjewry.org.il</a><br>";
-		echo "Email, <a href='mailto:info@kurdishjewry.org.il'>info@kurdishjewry.org.il</a>";
+		echo "Website: &nbsp; <a href='https://kurdishjewry.org.il'>https://kurdishjewry.org.il</a><br>";
+		echo "Email: &nbsp; <a href='mailto:info@kurdishjewry.org.il'>info@kurdishjewry.org.il</a>";
 		echo "</div>";
 
 	echo "<div class='contact-footer-secondary'>";
 		echo "<i>". $translatable_elements["this-website-has-been-developed"][$language_request] ."</i><br>";
-		echo "Website, <a href='https://ours.foundation'>https://ours.foundation</a><br>";
-		echo "WhatsApp, <a href='https://wa.me/12072165608'>+1 (207) 216-5608</a><br>";
-		echo "Email, <a href='mailto:info@ours.foundation'>info@ours.foundation</a>";
+		echo "Website: &nbsp; <a href='https://ours.foundation'>https://ours.foundation</a><br>";
+		echo "WhatsApp: &nbsp; <a href='https://wa.me/12072165608'>+1 (207) 216-5608</a><br>";
+		echo "Email: &nbsp; <a href='mailto:info@ours.foundation'>info@ours.foundation</a>";
 		echo "</div>";
 
 	echo "<div class='contact-footer-secondary'>";
