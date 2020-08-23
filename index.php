@@ -457,10 +457,8 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<amp-img src='_DSF2224-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>The Arab neighborhood of the Old City in Jerusalem.</figcaption></figure>";
 
-	echo "<h2>References</h2>";
-
+//	echo "<h2>References</h2>";
 // 	echo "<blockquote>I am grateful to scholars such as... Who have accomplished... .</blockquote>";
-
 // 	echo "<p>His most favored and inspiring teachers have been Professor Moshe Sharon (under whom he studied Islamic civilization and culture as well as Arabic and Farsi); Professor B. Z. Kedar (general History and comparative history); Professor Gideon Goldenberg (Neo-Aramaic of the Jews and Assyrians of the Kurdish regions); Professor Michael Zand (Farsi); and the late Prof. Amnon Netzer (Farsi and Persian Jewish History).</p>";
 
 	echo "<h2>Media summary</h2>";
@@ -491,7 +489,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 
 if ([$pageview_request, $language_request] == ["bookstore", "en"]):
 
-	echo "<h2>Bookstore</h2>";
+	echo "<h1>Bookstore</h1>";
 
 	echo "<blockquote>The book of Dr. Mordechai Zaken is the most important book written on the Jews of Kurdistan. <i>(Lora Galichco, scholar and descendant of Kurdish Jews)</i></blockquote>";
 
@@ -505,7 +503,7 @@ if ([$pageview_request, $language_request] == ["bookstore", "en"]):
 
 if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 
-	echo "<h2>The Kurdistan Region</h2>";
+	echo "<h1>The Kurdistan Region</h1>";
 
 //	echo "<blockquote>The Kurds are proud people, and smart people. They are smart enough to draw their own conclusion from the political and historical situation.</blockquote>";
 
