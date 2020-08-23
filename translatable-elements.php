@@ -63,12 +63,11 @@
 		"ku"	=> "",
 		],
 
-	"to-contact-foundation-of-ours" => [
+	"this-website-has-been-developed" => [
 		"ar"	=> "",
-		"en"	=> "To contact Foundation of Ours,",
+		"en"	=> "This website has been developed and managed by Foundation of Ours.",
 		"he"	=> "",
 		"ku"	=> "",
-		],
-	
+		],	
 
 	]; ?>
