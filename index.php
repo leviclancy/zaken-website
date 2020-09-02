@@ -148,7 +148,7 @@ $style_array = [
 		"font-family"		=> "'Alegreya SC'",
 		],
 		
-	".navigation-sitemap" => [
+	"#navigation-sitemap" => [
 		"background"		=> "rgba(100,100,100,1)",
 		"color"			=> "rgba(250,250,250,1)",
 		"display"		=> "block",
@@ -156,6 +156,14 @@ $style_array = [
 		"margin"		=> "0",
 		"font-size"		=> "90%",
 		"text-align"		=> "center",
+		],
+	
+	"#navigation-sitemap > ul" => [
+		"display"		=> "inline-block",
+		"margin"		=> "0 auto",
+		"padding"		=> "20px",
+		"text-align"		=> "left",
+		"list-style-type"	=> "none",
 		],
 		
 	"#body-content" => [
@@ -364,9 +372,9 @@ echo "<div id='navigation-header' amp-fx='parallax' data-parallax-factor='1.3'>"
 
 echo "<div id='navigation-sitemap' amp-fx='parallax' data-parallax-factor='1.25'><ul>";
 	foreach ($sitemap_array as $pageview_allowed => $subpageview_allowed_array):
-		echo "<li><a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a><ul>";
+		echo "<li>&sect; &nbsp; <a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a><ul>";
 		foreach ($subpageview_allowed_array as $subpageview_allowed):
-			echo "<li><a href='/?pageview=".$subpageview_allowed."&language=".$language_request."'>" . translatable_elements($subpageview_allowed) . "</a></li>";
+			echo "<li>• &nbsp; <a href='/?pageview=".$subpageview_allowed."&language=".$language_request."'>" . translatable_elements($subpageview_allowed) . "</a></li>";
 			endforeach;
 		echo "</ul></li>";
 		endforeach;
