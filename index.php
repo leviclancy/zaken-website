@@ -256,6 +256,7 @@ $style_array = [
 	"h1" => [
 		"margin"		=> "50px auto",
 		"font-size"		=> "240%",
+		"text-align"		=> "center",
 		"text-shadow"		=> "2px 2px 20px -10px rgba(50,50,50,0.25)",
 		],
 
