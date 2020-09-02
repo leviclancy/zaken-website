@@ -386,7 +386,7 @@ echo "<div id='navigation-header' amp-fx='parallax' data-parallax-factor='1.3'>"
 
 echo "<div id='navigation-sitemap' amp-fx='parallax' data-parallax-factor='1.17'><ul>";
 	foreach ($sitemap_array as $pageview_allowed => $subpageview_allowed_array):
-		echo "<div>• &nbsp; <a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a>";
+		echo "<div>&#709; &nbsp; <a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a>";
 		foreach ($subpageview_allowed_array as $subpageview_allowed):
 			echo "<div>• &nbsp; <a href='/?pageview=".$subpageview_allowed."&language=".$language_request."'>" . translatable_elements($subpageview_allowed) . "</a></div>";
 			endforeach;
