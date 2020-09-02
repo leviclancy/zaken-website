@@ -636,7 +636,11 @@ if ([$pageview_request, $language_request] == ["media", "en"]):
 
 	echo media_report_output("2019-10-27", "Israel and the Kurds Strive to Maintain Post-US Relationship", "https://themedialine.org/by-region/whats-next-for-israel-and-the-kurds/", "themedialine.org");
 
-	echo "<tr><td colspan='3'><blockquote>This affection between our nations is mutual. Not only are the Kurds very popular in Israel, but Israel and the Jews enjoy a good deal of respect and sympathy among the Kurds.</blockquote></td></tr>";
+	echo "</tbody></table>";
+
+	echo "<blockquote>This affection between our nations is mutual. Not only are the Kurds very popular in Israel, but Israel and the Jews enjoy a good deal of respect and sympathy among the Kurds.</blockquote>";
+
+	echo "<table><tbody>";
 
 	echo media_report_output("2019-03-05", "Lending a Helping Hand to Strangers and Sojourners", "https://www.hudson.org/research/14847-lending-a-helping-hand-to-strangers-and-sojourners", "hudson.org");
 
@@ -650,9 +654,11 @@ if ([$pageview_request, $language_request] == ["media", "en"]):
 
 	echo media_report_output("2017-08", "Home Office report on blood feuds in Iraq", "https://www.justice.gov/eoir/page/file/995226/download", "justice.gov");
 
-	echo "<tr><td colspan='3'>";
+	echo "</tbody></table>";
+
 	echo "<amp-youtube data-videoid='6fvQdbLJOBQ' layout='responsive' width='640' height='360'></amp-youtube>";
-	echo "</td></tr>";
+
+	echo "<table><tbody>";
 
 	echo media_report_output("2017-01-27", "Israelis eager to welcome US Embassy to Jerusalem", "https://nypost.com/2017/01/27/israelis-eager-to-welcome-us-embassy-to-jerusalem/", "nypost.com");
 
@@ -672,7 +678,11 @@ if ([$pageview_request, $language_request] == ["media", "en"]):
 
 	echo media_report_output("1999-04-28", "Unrecognized villages", "http://edition.cnn.com/WORLD/meast/9804/28/israel.forty.villages/index.old.html", "cnn.com");
 
-	echo "<tr><td colspan='3'><blockquote>There is a desire to work to promote equal rights and opportunities in Israel.</blockquote></td></tr>";
+	echo "<table><tbody>";
+
+	echo "<blockquote>There is a desire to work to promote equal rights and opportunities in Israel.</blockquote>";
+
+	echo "<table><tbody>";
 
 	echo media_report_output("1998-01-02", "Excerpts from Report of the Government Ministries' Activities in the Non-Jewish Sector in 1997", "https://mfa.gov.il/mfa/mfa-archive/1998/pages/report%20of%20the%20government%20ministries-%20activities%20in.aspx", "mfa.gov.il");
 
