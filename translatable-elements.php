@@ -37,7 +37,7 @@
 
 	"scholarly-achievement" => [
 		"ar"	=> "",
-		"en"	=> "Schoarly Achievement",
+		"en"	=> "Scholarly Achievement",
 		"he"	=> "",
 		"ku"	=> "",
 		],
