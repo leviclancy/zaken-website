@@ -149,6 +149,7 @@ $style_array = [
 		],
 		
 	"#navigation-sitemap" => [
+		"font-family"		=> "Assistant",
 		"background"		=> "rgba(100,100,100,1)",
 		"color"			=> "rgba(250,250,250,1)",
 		"display"		=> "block",
@@ -161,8 +162,12 @@ $style_array = [
 	"#navigation-sitemap > ul" => [
 		"display"		=> "inline-block",
 		"margin"		=> "0 auto",
-		"padding"		=> "20px",
+		"padding"		=> "20px 20px 40px",
 		"text-align"		=> "left",
+		],
+	
+	"#navigation-sitemap li" => [
+		"padding"		=> "3px 0 0 0",
 		"list-style-type"	=> "none",
 		],
 		
