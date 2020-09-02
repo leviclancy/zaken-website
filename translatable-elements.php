@@ -35,9 +35,9 @@
 		"ku"	=> "",
 		],
 
-	"bookstore" => [
+	"publications" => [
 		"ar"	=> "",
-		"en"	=> "Bookstore",
+		"en"	=> "Publications",
 		"he"	=> "",
 		"ku"	=> "",
 		],
