@@ -171,7 +171,7 @@ $style_array = [
 	"#navigation-sitemap ul, #navigation-sitemap ul ul" => [
 		"margin"		=> "0",
 		"padding"		=> "0",
-		"display"		=> "table",
+		"display"		=> "inline-block",
 		"text-align"		=> "left",
 		],
 
@@ -394,7 +394,7 @@ echo "<div id='navigation-header' amp-fx='parallax' data-parallax-factor='1.3'>"
 
 echo "<div id='navigation-sitemap' amp-fx='parallax' data-parallax-factor='1.17'><ul>";
 	foreach ($sitemap_array as $pageview_allowed => $subpageview_allowed_array):
-		echo "<li>&sect; &nbsp; <a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a>";
+		echo "<li>• &nbsp; <a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a>";
 		if (empty($subpageview_allowed_array)): echo "</li>"; continue; endif;
 		echo "<ul>";
 		foreach ($subpageview_allowed_array as $subpageview_allowed):
