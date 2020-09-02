@@ -11,26 +11,22 @@ session_start();
 mb_internal_encoding('UTF-8');
 mb_http_output('UTF-8');
 
-// Set up redirect array
-$redirect_array = [];
-
 // The pageview is passed in the URL
 $pageview_request_allowed = [ "about", "publications", "kurdistan-region", "israel", "media" ];
 $pageview_request = ( empty($_REQUEST['pageview']) ? null : $_REQUEST['pageview'] );
-if (!(in_array($pageview_request, $pageview_request_allowed))):
-	$redirect_array[] = "pageview=about";
-	endif;
 
 // The language is also passed in the URL
 $language_request_allowed = [ "ar"=>"عربي", "en"=>"English", "he"=>"עברית", "ku"=>"کوردی", ];
 $language_request = ( empty($_REQUEST['language']) ? null : $_REQUEST['language'] );
-if (!(isset($language_request_allowed[$language_request]))):
-	$redirect_array[] = "language=en";
-	endif;
 
-if (!(empty($redirect_array))):
+// Set up redirect array
+$redirect_array_default = $redirect_array_validated = [ "pageview" => "pageview=".$pageview_request, "language" => "language=".$language_request, ];
+if (!(in_array($pageview_request, $pageview_request_allowed))): $redirect_array_validated['pageview'] = "pageview=about"; endif;
+if (!(isset($language_request_allowed[$language_request]))): $redirect_array_validated['language'] = "language=en"; endif;
+
+if ($redirect_array_default !== $redirect_array_validated):
 	header("HTTP/1.1 301 Moved Permanently");
-	header("Location: https://".$_SERVER['HTTP_HOST']."?".implode("&", $redirect_array));
+	header("Location: https://".$_SERVER['HTTP_HOST']."?".implode("&", $redirect_array_validated));
 	exit;
 	endif;
 
