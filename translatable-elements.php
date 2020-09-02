@@ -118,14 +118,7 @@
 		"he"	=> "",
 		"ku"	=> "",
 		],
-		
-	"supporting-israel" => [
-		"ar"	=> "",
-		"en"	=> "Supporting Israel",
-		"he"	=> "",
-		"ku"	=> "",
-		],
-		
+
 	"minorities-affairs" => [
 		"ar"	=> "",
 		"en"	=> "Minorities Affairs",
