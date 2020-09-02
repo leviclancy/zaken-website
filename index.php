@@ -166,8 +166,11 @@ $style_array = [
 	
 
 	"#body-content figure, #body-content amp-img" => [
-		"max-height"		=> "600px",
 		"padding"		=> "0",
+		],
+	
+	"#body-content amp-img" => [
+		"max-height"		=> "600px",
 		],
 	
 	"#body-content amp-img, #body-content amp-youtube" => [
