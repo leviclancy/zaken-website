@@ -374,7 +374,7 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 
 	echo "<h2>Scholarly Achievement</h2>";
 
-	echo "<p><b>Oral Historian and Comparative historian.</b> When he began to be curious about the possibility of writing on the Jews of Kurdistan, during the early 1980s, Mordechai Zaken was puzzled to see that there was hardly any written material — and what was written, was certainly insufficient to enable research of the subject. He had to resort to documenting oral history by finding elderly Kurdish Jews who were capable informants able to share with him their life experience: they had to have been born in and lived in towns and villages in Kurdistan, and then immigrated to Israel.</p>";
+	echo "<p><b>Oral and comparative historian.</b> When he began to be curious about the possibility of writing on the Jews of Kurdistan, during the early 1980s, Mordechai Zaken was puzzled to see that there was hardly any written material — and what was written, was certainly insufficient to enable research of the subject. He had to resort to documenting oral history by finding elderly Kurdish Jews who were capable informants able to share with him their life experience: they had to have been born in and lived in towns and villages in Kurdistan, and then immigrated to Israel.</p>";
 
 	echo "<p>Thus, thanks to the fieldwork and hundreds of interviews which he conducted, he became an expert in oral history. Later on, he became an expert in comparative history as well. As a comparative historian, he made an analytical comparison between the Assyrians (also known as Nestorians in the previous century) of the Nineveh Plains, Hakkarו and Kurdish-majority areas, and the Jews of Kurdistan.</p>";
 
