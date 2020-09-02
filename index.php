@@ -28,7 +28,7 @@ $sitemap_array = [
 		"world-kurdish-forum",
 		],
 	"israel" => [
-		"supporting-israel",
+		"israel-advocacy",
 		"minorities-affairs",
 		],
 	"press" => [
