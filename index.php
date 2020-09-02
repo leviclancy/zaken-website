@@ -166,7 +166,7 @@ $style_array = [
 		"column-rule"		=> "2px solid #fff",
 		],
 	
-	"#navigation-sitemap > div" => [
+	"#navigation-sitemap div, #navigation-sitemap div div" => [
 		"padding"		=> "3px 0 0 0",
 		"margin"		=> "0",
 		"padding"		=> "0",
@@ -176,12 +176,7 @@ $style_array = [
 		"page-break-inside"		=> "avoid",
 		"break-inside"			=> "avoid",
 		],
-	
-	"#navigation-sitemap > div > div" => [
-		"padding"		=> "3px 0 0 0",
-		"margin"		=> "0",
-		],
-			
+				
 	"#body-content" => [
 		"display"		=> "block",
 		"color"			=> "#333",
