@@ -365,11 +365,11 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 	echo "<p amp-fx='parallax' data-parallax-factor='1.1'>Dr. Mordechai (Moti) Zaken, born in 1958 in Jerusalem of Kurdistani descent, is an authoritative historian on the Jews of Kurdistan, as well as the native Assyrians. He has devoted his career to researching, salvaging, and documenting the oral history of the Jews of Kurdistan. His book on the Jews of Kurdistan is a leading resource on the topic, which was compiled from hundreds of interviews with native Kurdish who immigrated to Israel. </p>";
 
 	echo "<ul>";
-	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Authority on the history and heritage of the Jews of Kurdistan, the Assyrians, and the tribal Kurdish society.</li>";
-	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Representative of the community of Jews from Kurdistan to the Kurdistan Region (2020 - now).</li>";
-	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Author of <i>The Jews of Kurdistan.</i></li>";
-	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Adviser on Arab Affairs to the Prime Minister of Israel.</li>";
-	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Head of Minority Affairs Desk at Israel's Ministry of Public Security.</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Authority on the history and heritage of the Jews of Kurdistan, the Assyrians, and the tribal Kurdish society</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Representative of the community of Jews from Kurdistan to the Kurdistan Region (2020 - ongoing)</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Author of 'The Jews of Kurdistan'</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Adviser on Arab Affairs to the Prime Minister of Israel</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Head of Minority Affairs Desk at Israel's Ministry of Public Security</li>";
 	echo "</ul>";
 
 	echo "<h2>Scholarly Achievement</h2>";
@@ -434,7 +434,7 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 
 	echo timeline_output("2007", null, "Published: Jewish Subjects and their Tribal Chieftains in Kurdistan: A Study in Survival. This book was partly based on his doctorate dissertation.");
 
-	echo timeline_output("2007-05", "present", "Head of the Minority Affairs Desk at Israel's Ministry of Internal Security.");
+	echo timeline_output("2007-05", "ongoing", "Head of the Minority Affairs Desk at Israel's Ministry of Internal Security.");
 
 	echo timeline_output("2003", null, "Published: Thesis on Jews of Kurdistan, through Hebrew University. He began working on this research project around 1985, culminating in his dissertation which unfolds the story of the Jews in Kurdistan in urban centers and villages, and their relations with their tribal chieftains (aghas) from whom they received patronage and protection in the tribal Kurdish society, in return for their loyalty and other social and financial duties and obligations. The second part of the thesis deals with the history of the Assyrians in Kurdistan, during the 19th and 20th centuries.");
 
