@@ -167,7 +167,7 @@ $style_array = [
 		],
 		
 	".navigation-sitemap-item" => [
-		"display"		=> "inline-block",
+		"display"		=> "block",
 		"max-width"		=> "300px",
 		"margin"		=> "10px",
 		"padding"		=> "0",
