@@ -121,7 +121,7 @@
 		
 	"supporting-israel" => [
 		"ar"	=> "",
-		"en"	=> "supporting-israel",
+		"en"	=> "Supporting Israel",
 		"he"	=> "",
 		"ku"	=> "",
 		],
