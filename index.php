@@ -410,7 +410,7 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 
 	echo "<blockquote>Coexistence and mutual traditions are the foundation of the relationship between Jews and Kurds.</blockquote>";
 
-	fuction timeline_output ($date_begin, $date_end, $description) {
+	function timeline_output ($date_begin, $date_end, $description) {
 		$timeline = "<tr><td>" . $date_begin;
 		if (!(empty($date_end))):  $timeline .= " — ". $date_end; endif;
 		$timeline .= "</td><td>" . $description . "</td></tr>";
@@ -419,8 +419,18 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 	echo "<table><tbody>";
 
 	echo timeline_output("2020", null, "Appointed by the National Association of Jews from Kurdistan to oversee Jewish affairs and Jewish sites in the Kurdistan Region.";
-			     
-	echo "<tr><td>2019</td><td>2019 Laureate, Prime Minister Prize for Research of the Jews of the Orient.</td></tr>";
+
+	echo timeline_output("2019", null, "2019 Laureate, Prime Minister Prize for Research of the Jews of the Orient.");
+
+	echo timeline_output("", null, "");
+
+	echo timeline_output("", null, "");
+
+	echo timeline_output("", null, "");
+
+//	echo timeline_output("", null, "");
+
+  
 	echo "<tr><td>2013 Oct</td><td>Presentation to the World Kurdish Forum at their convention in Stockholm — watch on <a href='https://www.youtube.com/watch?v=UkSRVefP1Qw'>YouTube</a>.</td></tr>";
 	echo "<tr><td>2013 — 2018</td><td>With Christian leaders, Dr. Zaken initiated the Government-Christians Forum that addressed the Evangelical Christian community's concerns regarding the government. Two prominent Christian leaders in this forum have been Rev. Charles (Chuck) Kopp, of the Baptist Church and Rev. David Pillegi, Rector of the Christ Church in Jaffa Gate. The Forum came to a conclusion in 2018, once the government concluded it was not part of the government's scope.</td></tr>";
 	echo "<tr><td>2012 Oct</td><td>Visit to the Kurdistan Region, at the invitation of the World Kurdish Forum.</td></tr>";
