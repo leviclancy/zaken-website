@@ -163,9 +163,10 @@ $style_array = [
 		"column-count"		=> "2",
 		"column-gap"		=> "30px",
 		"column-width"		=> "300px",
+		"column-rule"		=> "2px solid #fff",
 		],
 	
-	"#navigation-sitemap ul, #navigation-sitemap ul ul" => [
+	"#navigation-sitemap ul" => [
 		"display"		=> "inline-block",
 		"margin"		=> "0 auto",
 		"padding"		=> "0",
