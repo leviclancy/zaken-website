@@ -12,9 +12,12 @@ mb_internal_encoding('UTF-8');
 mb_http_output('UTF-8');
 
 // The pageview is passed in the URL
-$pageview_request_allowed = [ "home", "bookstore", "kurdistan-region", "israel", ];
-$pageview_request = ( empty($_REQUEST['pageview']) ? "home" : $_REQUEST['pageview'] );
-if (!(in_array($pageview_request, $pageview_request_allowed))): $pageview_request = "home"; endif;
+$pageview_request_allowed = [ "about", "bookstore", "kurdistan-region", "israel", ];
+$pageview_request = ( empty($_REQUEST['pageview']) ? null : $_REQUEST['pageview'] );
+if (!(in_array($pageview_request, $pageview_request_allowed))):
+	header("HTTP/1.1 301 Moved Permanently");
+	header("Location: https://".$_SERVER['HTTP_HOST']."?pageview=about");
+	endif;
 
 // The language is also passed in the URL
 $language_request_allowed = [ "ar"=>"عربي", "en"=>"English", "he"=>"עברית", "ku"=>"کوردی", ];
@@ -347,7 +350,9 @@ echo "<div id='navigation-header' amp-fx='parallax' data-parallax-factor='1.3'>"
 
 echo "<div id='body-content'>";
 
-if ([$pageview_request, $language_request] == ["home", "en"]):
+if ([$pageview_request, $language_request] == ["about", "en"]):
+
+	echo "<h1 amp-fx='parallax' data-parallax-factor='1.17'>Dr. Mordechai (Moti) Zaken, Historian and Author</h1>";
 
 	echo "<figure class='amp-img-fader' amp-fx='parallax' data-parallax-factor='1.14'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
@@ -355,45 +360,65 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<amp-img src='_DSF9626-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Moti, during a meeting in Jerusalem.</figcaption></figure>";
 
-	echo "<p amp-fx='parallax' data-parallax-factor='1.1'>Dr. Mordechai \"Moti\" Zaken is an eminent scholar on Jews of Kurdistan, as well as on Assyrians, and is fluent in the Neo-Aramaic that the Jews of Kurdistan spoke, as well as English and his native Hebrew. His book <i>The Jews of Kurdistan</i> is a leading resource on the topic, and was compiled from decades of interviews with Jews who were born in Kurdistan and immigrated to Israel. In his academic career, he has pushed the field of Kurdish and Assyrian studies forward in Israel and internationally.</p>";
+	echo "<h2 amp-fx='parallax' data-parallax-factor='1.1'>Biographical notes</h2>";
 
-
-	echo "<p amp-fx='parallax' data-parallax-factor='1.1'>This website has been developed and maintained by <a href='https://ours.foundation'>Foundation of Ours</a>, which supports Jewish expression in the Kurdistan Region.</p>";
-
-	echo "<h1 amp-fx='parallax' data-parallax-factor='1.07'>Career summary of Dr. Mordechai Zaken</h1>";
+	echo "<p amp-fx='parallax' data-parallax-factor='1.1'>Dr. Mordechai (Moti) Zaken, born in 1958 in Jerusalem of Kurdistani descent, is an authoritative historian on the Jews of Kurdistan, as well as the native Assyrians. He has devoted his career to researching, salvaging, and documenting the oral history of the Jews of Kurdistan. His book on the Jews of Kurdistan is a leading resource on the topic, which was compiled from hundreds of interviews with native Kurdish who immigrated to Israel. </p>";
 
 	echo "<ul>";
-	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Authoritative expert on the history and heritage of the Jews of Kurdistan.</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Authority on the history and heritage of the Jews of Kurdistan, the Assyrians, and the tribal Kurdish society.</li>";
 	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Representative of the community of Jews from Kurdistan to the Kurdistan Region (2020 - now).</li>";
-	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Author of <i>The Jews of Kurdistan</i>.</li>";
-//	echo "<li>Founder of the Israel-Kurdistan Friendship League.</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Author of <i>The Jews of Kurdistan.</i></li>";
 	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Adviser on Arab Affairs to the Prime Minister of Israel.</li>";
 	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Head of Minority Affairs Desk at Israel's Ministry of Public Security.</li>";
-//	echo "<li>Director of the Institute of Students and Faculty on Israel, in New York.</li>";
 	echo "</ul>";
 
-	echo "<figure class='amp-img-fader' amp-fx='parallax' data-parallax-factor='1.03'>";
+	echo "<h2>Scholarly Achievement</h2>";
+
+	echo "<p><b>Oral Historian and Comparative historian.</b> When he began to be curious about the possibility of writing on the Jews of Kurdistan, during the early 1980s, Mordechai Zaken was puzzled to see that there was hardly any written material — and what was written, was certainly insufficient to enable research of the subject. He had to resort to documenting oral history by finding elderly Kurdish Jews who were capable informants able to share with him their life experience: they had to have been born in and lived in towns and villages in Kurdistan, and then immigrated to Israel.</p>";
+
+	echo "<p>Thus, thanks to the fieldwork and hundreds of interviews which he conducted, he became an expert in oral history. Later on, he became an expert in comparative history as well. As a comparative historian, he made an analytical comparison between the Assyrians (also known as Nestorians in the previous century) of the Nineveh Plains, Hakkarו and Kurdish-majority areas, and the Jews of Kurdistan.</p>";
+
+	echo "<p>Most of the Jewish Informants (62 in total) for his research were people who were products, so to speak, of a sophisticated oral and verbal culture. The informants knew names, events, topographic maps, and human genealogies almost by heart. They knew several languages intimately. They were able to speak of events or incidents with great detail, including the prices and weights of certain goods at specific times and places.</p>";
+
+	echo "<blockquote>What fascinated me was the process of interviewing elderly yet smart people who were not just knowledgeable, but true fountainheads of information.</blockquote>";
+
+	echo "<p>Over time, Dr. Zaken interviewed a total of 62 informants from Kurdistan. Most of them he met once or twice. Others he met three or four times. And there were some informants who were like rising springs, whom he met with six, seven, and eight times.</p>";
+
+	echo "<blockquote>During my last meeting with the late Michael Michaeli, I asked him when we would meet again. Micheali, in a theatrical act, pulled his trouser pockets inside out, as if to show that nothing has left for him to give. He said, \"I shared with you everything I know. There is nothing left.\"</blockquote>";
+
+	echo "<p><b>Contribution to broader Kurdish history.</b> This research, which was acclaimed, illuminated many topics that written documents have either totally or partially ignored. Documenting the oral history of the Jews of Kurdistan has in fact saved the memories of many Jewish informants from being lost forever, and saved details on the Jewish communities, the Jewish families, and the tribal Kurdish figures with whom the Jews had been in contact. Furthermore, it provided much-needed information and observational insight into the relationship between the Jews and their Kurdish neighbors and masters.</p>";
+
+	echo "<h2>Kurdish Advocacy</h2>";
+
+	echo "<p>Dr. Zaken is an expert on the tribal Kurdish society. As a pro-Kurdish activist, he established the Israeli-Kurdish Friendship League (IKFL) in 1992 in Jerusalem, probably the first friendship league between Jews and Muslims. Today, he serves as the Counselor of the \"National Association of Jews from Kurdistan\" regarding Jewish history and heritage in Kurdistan. Recently, he was named by the Association as the Counselor to the Kurdistan Regional Government, serving as a representative on the interests of the Jewish community and supervising the important Jewish heritage sites including the tomb of the Prophet Nahum in alQosh and other projects.</p>";
+
+	echo "<h2>Personal Life</h2>";
+
+	echo "<p>Moti — Dr. Zaken — is fluent in the Neo-Aramaic that the Jews of Kurdistan spoke and which Assyrians still speak today, as well as in English, Arabic, and his native Hebrew. He has practical knowledge of various levels in Farsi, Kurmanji and French. He lives in Jerusalem with his wife and their three children.</p>";
+
+	echo "<p>With Moti’s permission and support, this website has been developed and maintained by Foundation of Ours as part of the Foundation’s mission to support Jewish expression in the Kurdistan Region. The Foundation embraces the decision of the National Association of Jews from Kurdistan in Israel to appoint Moti in supervising Jewish affairs and Jewish sites in the Kurdistan Region.</p>";
+
+	echo "<h2>Condensed Highlights</h2>";
+
+	echo "<blockquote>Coexistence and mutual traditions are the foundation of the relationship between Jews and Kurds.</blockquote>";
+
+	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='_DSF5567-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Flags of Israel and Jerusalem, overlooking the ramparts.</figcaption></figure>";
-
-	echo "<h2>Condensed highlights</h2>";
 
 	echo "<blockquote>Coexistence and mutual traditions are the foundation of the relationship between Jews and Kurds.</blockquote>";
 
 	echo "<table><tbody>";
 	echo "<tr><td>2020</td><td>Appointed by the National Association of Jews from Kurdistan to oversee Jewish affairs and Jewish sites in the Kurdistan Region.</td></tr>";
 	echo "<tr><td>2019</td><td>2019 Laureate, Prime Minister Prize for Research of the Jews of the Orient.</td></tr>";
-	echo "<tr><td>2016</td><td>Within the Public Security Ministry, Dr. Zaken formed a new governmental forum for dialogue with local Arab leaders.</td></tr>";
-//	echo "<tr><td>2015</td><td>Published: <i>Jewish Subjects</i> is translated into Sorani Kurdish, in Erbil.</td></tr>";
-	echo "<tr><td>2013 Oct</td><td>Presentation to the World Kurdish Forum at their convention in Stockholm.</td></tr>";
-//	echo "<tr><td>2013</td><td>Published: <i>Jewish Subjects</i> is translated into Arabic, in Beirut.</td></tr>";
-	echo "<tr><td>2013 — 2018</td><td>With Christian leaders, Dr. Zaken initiaited the Government-Christians Forum that addressed the Evangelical Christian community's concerns regarding the government. Two prominent Christian leaders in this forum have been Rev. Charles (Chuck) Kopp, of the Baptist Church and Rev. David Pillegi, Rector of the Christ Church in Jaffa Gate. The Forum came to a conclusion in 2018, once the government concluded it was not part of government's scope.</td></tr>";
+	echo "<tr><td>2013 Oct</td><td>Presentation to the World Kurdish Forum at their convention in Stockholm — watch on <a href='https://www.youtube.com/watch?v=UkSRVefP1Qw'>YouTube</a>.</td></tr>";
+	echo "<tr><td>2013 — 2018</td><td>With Christian leaders, Dr. Zaken initiated the Government-Christians Forum that addressed the Evangelical Christian community's concerns regarding the government. Two prominent Christian leaders in this forum have been Rev. Charles (Chuck) Kopp, of the Baptist Church and Rev. David Pillegi, Rector of the Christ Church in Jaffa Gate. The Forum came to a conclusion in 2018, once the government concluded it was not part of the government's scope.</td></tr>";
 	echo "<tr><td>2012 Oct</td><td>Visit to the Kurdistan Region, at the invitation of the World Kurdish Forum.</td></tr>";
-	echo "<tr><td>2010 Sep — 2013 Aug</td><td>Lecturer, The Hebrew University of Jerusalem</td></tr>";
-	echo "<tr><td>2010</td><td>Spoke in the Parliament of Berlin, Germany (22 October 2010)</td></tr>";
-	echo "<tr><td>2007</td><td>Published: <i>Jewish Subjects and their Tribal Chieftains in Kurdistan: A Study in Survival</i>. This book was partly based on his doctorate dissertation.</td></tr>";
+	echo "<tr><td>2010 Sep — 2013 Aug</td><td>Lecturer, The Hebrew University of Jerusalem.</td></tr>";
+	echo "<tr><td>2010</td><td>Spoke in the Parliament of Berlin, Germany (22 October 2010).</td></tr>";
+	echo "<tr><td>2007</td><td>Published: Jewish Subjects and their Tribal Chieftains in Kurdistan: A Study in Survival. This book was partly based on his doctorate dissertation.</td></tr>";
 	echo "<tr><td>2007 May - present</td><td>Head of the Minority Affairs Desk at Israel's Ministry of Internal Security.</td></tr>";
 	echo "<tr><td>2003</td><td>Published: Thesis on Jews of Kurdistan, through Hebrew University. He began working on this research project around 1985, culminating in his dissertation which unfolds the story of the Jews in Kurdistan in urban centers and villages, and their relations with their tribal chieftains (aghas) from whom they received patronage and protection in the tribal Kurdish society, in return for their loyalty and other social and financial duties and obligations. The second part of the thesis deals with the history of the Assyrians in Kurdistan, during the 19th and 20th centuries.</td></tr>";
 	echo "<tr><td></td><td></td></tr>";
@@ -407,21 +432,20 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<amp-img src='_DSF4565-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Akre, near Duhok in the Kurdistan Region of Iraq.</figcaption></figure>";
 
-	echo "<blockquote>within the scope of my jurisdiction as the head of minorities affairs at the Ministry of Public Security, and as a consultant to the National Assocation, I continue to work and cooperate with leaders in Israel and abroad to foster Israeli-Christian, Israeli-Kurdish, and Israeli-Assyrian friendship</blockquote>";
+	echo "<blockquote>Within the scope of my jurisdiction as the head of minorities affairs at the Ministry of Public Security, and as a consultant to the National Association, I continue to work and cooperate with leaders in Israel and abroad to foster Israeli-Christian, Israeli-Kurdish, and Israeli-Assyrian friendship.</blockquote>";
 
 	echo "<table><tbody>";
 	echo "<tr><td>2001 May — 2007 May</td><td>Adviser on Minorities Affairs at Israel's Ministry of Internal Security.</td></tr>";
-	echo "<tr><td>2001 — 2003</td><td>Dr. Zaken was the coordinator of the Ministerial Committee to resolve the dispute between Christans and Muslims at the Basilica of the Anunciation in Nazareth.</td></tr>";
+	echo "<tr><td>2001 — 2003</td><td>Dr. Zaken was the coordinator of the (3rd) Ministerial Committee to resolve the dispute between Christans and Muslims at the Basilica of the Annunciation in Nazareth.</td></tr>";
 	echo "<tr><td>1999 Nov — 2001 Dec</td><td>Founder of East-Up Inc, which aimed to enhance medical services to the Arabic-speaking world in the Middle East, through the internet.</td></tr>";
 	echo "<tr><td>1997 May - 1999 Dec</td><td>Prime Minister's Adviser on Arab Affairs.</td></tr>";
-	echo "<tr><td>1997</td><td>Published: <i>\"Inventors' Fate\", A Folk-Tale in the Neo-Aramaic of Zakho</i>.</td></tr>";
+	echo "<tr><td>1997</td><td>Published: \"Inventors' Fate\", A Folk-Tale in the Neo-Aramaic of Zakho.</td></tr>";
 	echo "<tr><td>1993</td><td>Co-founder of The Israel-Kurdistan Friendship League, established in Jerusalem to faciliate friendship and dialogue between Israel and Kurdistan, as well as the Kurdish (mostly Muslim) world and the communities of Jews from Kurdistan as well as Jews interested in Kurdistan.</td></tr>";
-	echo "<tr><td>1992</td><td> When he returned to Israel, he taught at the Hebrew University of Jerusalem for several years.</td></tr>";
-	echo "<tr><td>1990</td><td>Published: Translation of the <i>Book of Ruth</i> into New-Aramaic, by Drs. Gideon Goldberg and Mordechai Zaken.</td></tr>";
+	echo "<tr><td>1992</td><td>Upon returning to Israel in 1992, Dr. Zaken taught at the Hebrew University of Jerusalem for several years.</td></tr>";
+	echo "<tr><td>1990</td><td>Published: The Book of Ruth. The entire Book of Ruth was translated into New-Aramaic by the great Semitic scholar Gideon Goldberg, and Dr. Zaken.</td></tr>";
 	echo "<tr><td>1989 Jan — 1991 Oct</td><td>National Director of the Institute of Students and Faculty on Israel (ISFI), an organization under the auspices of the Israeli Foreign Ministry and the Israeli Consulate in New York City, while living there.</td></tr>";
-	echo "<tr><td>1989 — 1990</td><td>He received a study grant from New York University.</td></tr>";
+	echo "<tr><td>1987 — 1991</td><td>Studied in the United States on Grants at SUNY Binghamton’s history department (1987-1989) and at NYU, in the Kevorkian Middle East Center (1990-1991).</td></tr>";
 	echo "<tr><td>1988</td><td>Completed his MA in Near Eastern and Islamic Studies at the Hebrew University of Jerusalem, with specialization in the minorities in the Middle East and in particular the Jews and the Assyrian Christians within Kurdish-majority areas.</td></tr>";
-	echo "<tr><td>1987 - 1988</td><td>He received a study grant from the State university of New York (SUNY) at Binghamton.</td></tr>";
 	echo "<tr><td></td><td></td></tr>";
 	echo "</table>";
 
@@ -433,7 +457,7 @@ if ([$pageview_request, $language_request] == ["home", "en"]):
 	echo "<amp-img src='_DSF4377-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Rawanduz, near Erbil in the Kurdistan Region of Iraq.</figcaption></figure>";
 
-	echo "<blockquote>The relationship between Israel and the Jews, and the Kurds, should be strengthened and encouraged because these two people have a lot of common. I welcome all Kurds to establish contact with Jews.</blockquote>";
+	echo "<blockquote>The relationship between Israel and the Jews, and the Kurds, should be strengthened and encouraged because these two people have a lot in common. I welcome all Kurds to establish contact with Jews.</blockquote>";
 
 	echo "<table><tbody>";
 	echo "<tr><td>1999 Jun</td><td>Married in Jerusalem, in Monunt Scopus, with a wedding attended by Prime Minister (and First Lady) Netanyahu, whom Zaken advised at the time on local Arab Affairs, as well as other leaders. Dr. Zaken and Riki continue to live in Jerusalem and have three children: Tzah, Tahel, and Ohad.</td></tr>";
