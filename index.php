@@ -160,10 +160,10 @@ $style_array = [
 		"margin"		=> "0",
 		"font-size"		=> "90%",
 		"text-align"		=> "center",
-		"column-count"		=> "2",
-		"column-gap"		=> "30px",
-		"column-width"		=> "300px",
-		"column-rule"		=> "2px solid #fff",
+//		"column-count"		=> "2",
+//		"column-gap"		=> "30px",
+//		"column-width"		=> "300px",
+//		"column-rule"		=> "2px solid #fff",
 		],
 		
 	".navigation-sitemap-item" => [
