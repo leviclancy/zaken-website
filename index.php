@@ -172,6 +172,7 @@ $style_array = [
 		"margin"		=> "0",
 		"padding"		=> "0",
 		"text-align"		=> "left",
+		"max-width"		=> "300px",
 		],
 
 	"#navigation-sitemap > ul" => [
