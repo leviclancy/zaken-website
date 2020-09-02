@@ -29,7 +29,7 @@ $sitemap_array = [
 		"world-kurdish-forum",
 		],
 	"israel" => [
-		"israels-success",
+		"supporting-israel",
 		"minorities-affairs",
 		],
 	"press" => [
@@ -53,7 +53,7 @@ foreach ($sitemap_array as $pageview_allowed => $subpageview_allowed_array):
 	if ($pageview_request == $pageview_allowed): $pageview_valid = 1; break; endif;
 	if (in_array($pageview_request, $subpageview_allowed_array)): $pageview_valid = 1; break; endif;
 	endforeach;
-if ($pageview_valid !== 1): $redirect_array_validated['pageview'] = "pageview=about"; endif;
+if ($pageview_valid !== 1): $redirect_array_validated['pageview'] = "pageview=biographical-notes"; endif;
 if (!(isset($language_request_allowed[$language_request]))): $redirect_array_validated['language'] = "language=en"; endif;
 
 if ($redirect_array_default !== $redirect_array_validated):
@@ -699,15 +699,21 @@ if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 	
 if ([$pageview_request, $language_request] == ["israel", "en"]):
 
-	echo "<h1>Israel</h1>";
-
 	echo "<blockquote>Israel is a safe haven in this region, in the Middle East, and in the cradle of mankind.</blockquote>";
 	
+	endif;
+
+if ([$pageview_request, $language_request] == ["supporting-israel", "en"]):
+
 	echo "<p>Dr. Zaken served as the National Director of the Institute of Students and Faculty on Israel (ISFI) in New York (1988-1991), and when returning to Israel, he continued his academic career, studying Islamic and Middle Eastern studies at the Hebrew university of Jerusalem. In 1997, he was asked to serve as the adviser on Arab Affairs to Prime Minister Benjamin Netanyahu (1997-1999), focusing on the Israeli Arab minority. He later served as the advisor on Arab Affairs at the Ministry of Public Security (2001-until now).</p>";
 	
 	echo "<blockquote>In my humble opinion, it is incumbent upon the Jewish people, as a people that has lived as a minority for thousands of years, to be sensitive to, and have a high degree of consciousness vis-a-vis the minorities living in their midst. I seek to operate in my position in accordance with this belief, to bring hearts together, and to widen the circles of co-existence between Arabs and Jews.</blockquote>"; 
 	
 	echo "<p>While at ISFI, he provided cultural resources, ideas, and tools for pro-Israel student activists throughout the US and Canada, through which Israeli-oriented activities and the message of Israel could be promoted on US campuses.</p>";
+
+	endif;
+
+if ([$pageview_request, $language_request] == ["minorities-affairs", "en"]):
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
@@ -743,6 +749,12 @@ if ([$pageview_request, $language_request] == ["israel", "en"]):
 
 if ([$pageview_request, $language_request] == ["press", "en"]):
 
+	echo "<p>To contact...</p>";
+
+	endif;
+
+if ([$pageview_request, $language_request] == ["press-history", "en"]):
+
 	function press_report_output($date, $article_name, $link_url, $link_name=null) {
 		if (empty($link_name)): $link_name = $article_name; endif;
 		$press_report = "<tr><td>" . $date . "</td>";
@@ -754,8 +766,6 @@ if ([$pageview_request, $language_request] == ["press", "en"]):
 			endif;
 
 		return $press_report; }
-
-	echo "<h2>Press summary</h2>";
 
 	echo "<table><tbody>";
 
