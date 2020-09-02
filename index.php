@@ -169,7 +169,9 @@ $style_array = [
 		],
 	
 	"#navigation-sitemap li" => [
-		"display"		=> "block",
+		"-webkit-column-break-inside"	=> "avoid",
+		"page-break-inside"		=> "avoid",
+		"break-inside"			=> "avoid",
 		"padding"		=> "3px 0 0 0",
 		"list-style-type"	=> "none",
 		],
