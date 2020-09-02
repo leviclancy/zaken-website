@@ -617,9 +617,9 @@ if ([$pageview_request, $language_request] == ["israel", "en"]):
 
 if ([$pageview_request, $language_request] == ["media", "en"]):
 
-	function media_report_output($date, $article_name, $link_url, $link_name=null) {
+	function media_report_output($date, $article_name, $link_url, $link_name="") {
 		if ($empty($link_name)): $link_name = $article_name ; endif;
-		$media_report .= "<tr><td>" . $date . "</td>";
+		$media_report = "<tr><td>" . $date . "</td>";
 		$media_report .= "<td><a href='" . $link_url . "'>" . $link_name . "</a></td>";
 		$media_report .= "<td>" . $article_name . "</td></tr>";
 		return $media_report; }
