@@ -422,24 +422,22 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 
 	echo timeline_output("2019", null, "2019 Laureate, Prime Minister Prize for Research of the Jews of the Orient.");
 
-	echo timeline_output("", null, "");
+	echo timeline_output("2013-10", null, "Presentation to the World Kurdish Forum at their convention in Stockholm — watch on <a href='https://www.youtube.com/watch?v=UkSRVefP1Qw'>YouTube</a>.");
 
-	echo timeline_output("", null, "");
+	echo timeline_output("2013", "2018", "With Christian leaders, Dr. Zaken initiated the Government-Christians Forum that addressed the Evangelical Christian community's concerns regarding the government. Two prominent Christian leaders in this forum have been Rev. Charles (Chuck) Kopp, of the Baptist Church and Rev. David Pillegi, Rector of the Christ Church in Jaffa Gate. The Forum came to a conclusion in 2018, once the government concluded it was not part of the government's scope.");
 
-	echo timeline_output("", null, "");
+	echo timeline_output("2012-10", null, "Visit to the Kurdistan Region, at the invitation of the World Kurdish Forum.");
 
-//	echo timeline_output("", null, "");
+	echo timeline_output("2010-09", "2013-08", "Lecturer, The Hebrew University of Jerusalem.");
 
-  
-	echo "<tr><td>2013 Oct</td><td>Presentation to the World Kurdish Forum at their convention in Stockholm — watch on <a href='https://www.youtube.com/watch?v=UkSRVefP1Qw'>YouTube</a>.</td></tr>";
-	echo "<tr><td>2013 — 2018</td><td>With Christian leaders, Dr. Zaken initiated the Government-Christians Forum that addressed the Evangelical Christian community's concerns regarding the government. Two prominent Christian leaders in this forum have been Rev. Charles (Chuck) Kopp, of the Baptist Church and Rev. David Pillegi, Rector of the Christ Church in Jaffa Gate. The Forum came to a conclusion in 2018, once the government concluded it was not part of the government's scope.</td></tr>";
-	echo "<tr><td>2012 Oct</td><td>Visit to the Kurdistan Region, at the invitation of the World Kurdish Forum.</td></tr>";
-	echo "<tr><td>2010 Sep — 2013 Aug</td><td>Lecturer, The Hebrew University of Jerusalem.</td></tr>";
-	echo "<tr><td>2010</td><td>Spoke in the Parliament of Berlin, Germany (22 October 2010).</td></tr>";
-	echo "<tr><td>2007</td><td>Published: Jewish Subjects and their Tribal Chieftains in Kurdistan: A Study in Survival. This book was partly based on his doctorate dissertation.</td></tr>";
-	echo "<tr><td>2007 May - present</td><td>Head of the Minority Affairs Desk at Israel's Ministry of Internal Security.</td></tr>";
-	echo "<tr><td>2003</td><td>Published: Thesis on Jews of Kurdistan, through Hebrew University. He began working on this research project around 1985, culminating in his dissertation which unfolds the story of the Jews in Kurdistan in urban centers and villages, and their relations with their tribal chieftains (aghas) from whom they received patronage and protection in the tribal Kurdish society, in return for their loyalty and other social and financial duties and obligations. The second part of the thesis deals with the history of the Assyrians in Kurdistan, during the 19th and 20th centuries.</td></tr>";
-	echo "<tr><td></td><td></td></tr>";
+	echo timeline_output("2010-10-22", null, "Spoke in the Parliament of Berlin, Germany.");
+
+	echo timeline_output("2007", null, "Published: Jewish Subjects and their Tribal Chieftains in Kurdistan: A Study in Survival. This book was partly based on his doctorate dissertation.");
+
+	echo timeline_output("2007-05", "present", "Head of the Minority Affairs Desk at Israel's Ministry of Internal Security.");
+
+	echo timeline_output("2003", null, "Published: Thesis on Jews of Kurdistan, through Hebrew University. He began working on this research project around 1985, culminating in his dissertation which unfolds the story of the Jews in Kurdistan in urban centers and villages, and their relations with their tribal chieftains (aghas) from whom they received patronage and protection in the tribal Kurdish society, in return for their loyalty and other social and financial duties and obligations. The second part of the thesis deals with the history of the Assyrians in Kurdistan, during the 19th and 20th centuries.");
+
 	echo "</tbody></table>";
 
 	echo "<blockquote>The Kurdish national issue started long before the establishment of the Jewish state, and like the establishment of the Jewish state it is a moral cause.</blockquote>";
@@ -453,19 +451,31 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 	echo "<blockquote>Within the scope of my jurisdiction as the head of minorities affairs at the Ministry of Public Security, and as a consultant to the National Association, I continue to work and cooperate with leaders in Israel and abroad to foster Israeli-Christian, Israeli-Kurdish, and Israeli-Assyrian friendship.</blockquote>";
 
 	echo "<table><tbody>";
-	echo "<tr><td>2001 May — 2007 May</td><td>Adviser on Minorities Affairs at Israel's Ministry of Internal Security.</td></tr>";
-	echo "<tr><td>2001 — 2003</td><td>Dr. Zaken was the coordinator of the (3rd) Ministerial Committee to resolve the dispute between Christans and Muslims at the Basilica of the Annunciation in Nazareth.</td></tr>";
-	echo "<tr><td>1999 Nov — 2001 Dec</td><td>Founder of East-Up Inc, which aimed to enhance medical services to the Arabic-speaking world in the Middle East, through the internet.</td></tr>";
-	echo "<tr><td>1999 Jun</td><td>Married in Jerusalem, on Mount Scopus, with a wedding attended by Prime Minister (and First Lady) Netanyahu, whom Zaken advised at the time on local Arab Affairs, as well as other leaders. Dr. Zaken and Riki continue to live in Jerusalem and have three children: Tzah, Tahel, and Ohad.</td></tr>";
-	echo "<tr><td>1997 May - 1999 Dec</td><td>Prime Minister's Adviser on Arab Affairs.</td></tr>";
-	echo "<tr><td>1997</td><td>Published: Inventors' Fate, A Folk-Tale in the Neo-Aramaic of Zakho.</td></tr>";
-	echo "<tr><td>1993</td><td>Co-founder of The Israel-Kurdistan Friendship League, established in Jerusalem to faciliate friendship and dialogue between Israel and Kurdistan, as well as the Kurdish (mostly Muslim) world and the communities of Jews from Kurdistan as well as Jews interested in Kurdistan.</td></tr>";
-	echo "<tr><td>1992</td><td>Upon returning to Israel in 1992, Dr. Zaken taught at the Hebrew University of Jerusalem for several years.</td></tr>";
-	echo "<tr><td>1990</td><td>Published: The Book of Ruth. The entire Book of Ruth was translated into New-Aramaic by the great Semitic scholar Gideon Goldberg, and Dr. Zaken.</td></tr>";
-	echo "<tr><td>1989 Jan — 1991 Oct</td><td>National Director of the Institute of Students and Faculty on Israel (ISFI), an organization under the auspices of the Israeli Foreign Ministry and the Israeli Consulate in New York City, while living there.</td></tr>";
-	echo "<tr><td>1987 — 1991</td><td>Studied in the United States on Grants at SUNY Binghamton’s history department (1987-1989) and at NYU, in the Kevorkian Middle East Center (1990-1991).</td></tr>";
-	echo "<tr><td>1988</td><td>Completed his MA in Near Eastern and Islamic Studies at the Hebrew University of Jerusalem, with specialization in the minorities in the Middle East and in particular the Jews and the Assyrian Christians within Kurdish-majority areas.</td></tr>";
-	echo "<tr><td></td><td></td></tr>";
+
+	echo timeline_output("2001-05", "2007-05", "Adviser on Minorities Affairs at Israel's Ministry of Internal Security.");
+
+	echo timeline_output("2001", "2003", "Dr. Zaken was the coordinator of the (3rd) Ministerial Committee to resolve the dispute between Christans and Muslims at the Basilica of the Annunciation in Nazareth.");
+
+	echo timeline_output("1999-11", "2001-12", "Founder of East-Up Inc, which aimed to enhance medical services to the Arabic-speaking world in the Middle East, through the internet.");
+
+	echo timeline_output("1999-06", null, "Married in Jerusalem, on Mount Scopus, with a wedding attended by Prime Minister (and First Lady) Netanyahu, whom Zaken advised at the time on local Arab Affairs, as well as other leaders. Dr. Zaken and Riki continue to live in Jerusalem and have three children: Tzah, Tahel, and Ohad.");
+
+	echo timeline_output("1997-05", "1999-12", "Prime Minister's Adviser on Arab Affairs.");
+
+	echo timeline_output("1997", null, "Published: Inventors' Fate, A Folk-Tale in the Neo-Aramaic of Zakho.");
+
+	echo timeline_output("1993", null, "Co-founder of The Israel-Kurdistan Friendship League, established in Jerusalem to faciliate friendship and dialogue between Israel and Kurdistan, as well as the Kurdish (mostly Muslim) world and the communities of Jews from Kurdistan as well as Jews interested in Kurdistan.");
+
+	echo timeline_output("1992", null, "Upon returning to Israel in 1992, Dr. Zaken taught at the Hebrew University of Jerusalem for several years.");
+
+	echo timeline_output("1990", null, "Published: The Book of Ruth. The entire Book of Ruth was translated into New-Aramaic by the great Semitic scholar Gideon Goldberg, and Dr. Zaken.");
+
+	echo timeline_output("1989-01", "1991-10", "National Director of the Institute of Students and Faculty on Israel (ISFI), an organization under the auspices of the Israeli Foreign Ministry and the Israeli Consulate in New York City, while living there.");
+
+	echo timeline_output("1987", "1991", "Studied in the United States on Grants at SUNY Binghamton’s history department (1987-1989) and at NYU, in the Kevorkian Middle East Center (1990-1991).");
+
+	echo timeline_output("1988", null, "Completed his MA in Near Eastern and Islamic Studies at the Hebrew University of Jerusalem, with specialization in the minorities in the Middle East and in particular the Jews and the Assyrian Christians within Kurdish-majority areas.");
+
 	echo "</table>";
 
 	echo "<blockquote>The Kurdistan Region is a place where Jews can feel safe. Unlike Iraq and other countries, it does not operate as an enemy state, and Israel should acknowledge this special status.</blockquote>";
@@ -479,14 +489,23 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 	echo "<blockquote>The relationship between Israel and the Jews, and the Kurds, should be strengthened and encouraged because these two people have a lot in common. I welcome all Kurds to establish contact with Jews.</blockquote>";
 
 	echo "<table><tbody>";
-	echo "<tr><td>1985 - 2002</td><td>He conducted hundreds of first-hand oral history accounts in Israel and abroad with more than 60 elderly Kurdish Jews, originally from Kurdistan, who shared their knowledge on the tribal Kurdish society and setting with him. From this, Dr. Zaken was able to reconstruct and tell the history of the Jews and the tribal Kurdish society.</td></tr>";
-	echo "<tr><td>1984 - 1985</td><td>As an MA student at Hebrew University, he wished to write a paper on the economy of Kurdistani Jews. To his astonishment, he discovered that there was hardly any written material on the Kurds and on the Jews of Kurdistan. Because of the lack of written material, he had to resort to oral-history and interviewed 12 elderly Kurdistani Jews for that paper alone.</td></tr>";
-	echo "<tr><td>1984</td><td>Completed his BA in Political Science and Near Eastern & Islamic Studies at the Hebrew University of Jerusalem.</td></tr>";
-	echo "<tr><td>1983</td><td>Co-Chief Editor of 'Tipul Shoresh', part of the public activists' program at the Hebrew University, the circulation of which was stopped by the directors and university administration due to its critical approach towards the university policy regarding social issues.</td></tr>";
-	echo "<tr><td>1982</td><td>Editor-in-Chief of ‘Pi Ha-Aton’ (פי-האתון), a student newspaper. On 1982 Apr 26, for a special Independence Day edition, Dr. Zaken published photos taken in 1948 by Arabs (and the story behind the photos’ uncovering). The photos showed mutilated faces and bodies of Jewish soldiers who had been in an army unit which later became known as the ‘Nabi Daniel Caravan' (שיירת נבי דניאל).</td></tr>";
-	echo "<tr><td>1980</td><td>Began his baccalaureate studies at the Hebrew University of Jerusalem.</td></tr>";
-	echo "<tr><td>1958</td><td>Moti is born in Jerusalem to his mother Batyah and his father Saleh; his mother was born in Israel of Kurdish descent, and his father was born in Zakho in the Kurdistan Region.</td></tr>";
-	echo "<tr><td></td><td></td></tr>";
+
+	echo timeline_output("1985", "2002", "He conducted hundreds of first-hand oral history accounts in Israel and abroad with more than 60 elderly Kurdish Jews, originally from Kurdistan, who shared their knowledge on the tribal Kurdish society and setting with him. From this, Dr. Zaken was able to reconstruct and tell the history of the Jews and the tribal Kurdish society.");
+
+	echo timeline_output("1984", "1985", "As an MA student at Hebrew University, he wished to write a paper on the economy of Kurdistani Jews. To his astonishment, he discovered that there was hardly any written material on the Kurds and on the Jews of Kurdistan. Because of the lack of written material, he had to resort to oral-history and interviewed 12 elderly Kurdistani Jews for that paper alone.");
+
+	echo timeline_output("1984", null, "Completed his BA in Political Science and Near Eastern & Islamic Studies at the Hebrew University of Jerusalem.");
+
+	echo timeline_output("1983", null, "Co-Chief Editor of 'Tipul Shoresh', part of the public activists' program at the Hebrew University, the circulation of which was stopped by the directors and university administration due to its critical approach towards the university policy regarding social issues.");
+
+	echo timeline_output("1982", null, "Editor-in-Chief of ‘Pi Ha-Aton’ (פי-האתון), a student newspaper. On 1982 Apr 26, for a special Independence Day edition, Dr. Zaken published photos taken in 1948 by Arabs (and the story behind the photos’ uncovering). The photos showed mutilated faces and bodies of Jewish soldiers who had been in an army unit which later became known as the ‘Nabi Daniel Caravan' (שיירת נבי דניאל).");
+
+	echo timeline_output("1980", null, "Began his baccalaureate studies at the Hebrew University of Jerusalem.");
+
+	echo timeline_output("1958", null, "Moti is born in Jerusalem to his mother Batyah and his father Saleh; his mother was born in Israel of Kurdish descent, and his father was born in Zakho in the Kurdistan Region.");
+
+//	echo timeline_output("", null, "");
+
 	echo "</tbody></table>";
 
 	echo "<blockquote>In the neighborhood where I grew up, we spoke Aramaic mixed with some Kurdish. The people left Kurdistan, but Kurdistan did not leave them.</blockquote>";
@@ -496,10 +515,6 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='_DSF2224-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>The Arab neighborhood of the Old City in Jerusalem.</figcaption></figure>";
-
-//	echo "<h2>References</h2>";
-// 	echo "<blockquote>I am grateful to scholars such as... Who have accomplished... .</blockquote>";
-// 	echo "<p>His most favored and inspiring teachers have been Professor Moshe Sharon (under whom he studied Islamic civilization and culture as well as Arabic and Farsi); Professor B. Z. Kedar (general History and comparative history); Professor Gideon Goldenberg (Neo-Aramaic of the Jews and Assyrians of the Kurdish regions); Professor Michael Zand (Farsi); and the late Prof. Amnon Netzer (Farsi and Persian Jewish History).</p>";
 
 	endif;
 
@@ -617,11 +632,16 @@ if ([$pageview_request, $language_request] == ["israel", "en"]):
 
 if ([$pageview_request, $language_request] == ["media", "en"]):
 
-	function media_report_output($date, $article_name, $link_url, $link_name="") {
-		if ($empty($link_name)): $link_name = $article_name ; endif;
+	function media_report_output($date, $article_name, $link_url, $link_name=null) {
+		if (empty($link_name)): $link_name = $article_name; endif;
 		$media_report = "<tr><td>" . $date . "</td>";
-		$media_report .= "<td><a href='" . $link_url . "'>" . $link_name . "</a></td>";
-		$media_report .= "<td>" . $article_name . "</td></tr>";
+		if (empty($link_name)):
+			$media_report .= "<td><a href='" . $link_url . "'>" . $article_name . "</td></tr>";		
+		else:
+			$media_report .= "<td><a href='" . $link_url . "'>" . $link_name . "</a></td>";
+			$media_report .= "<td>" . $article_name . "</td></tr>";
+			endif;
+
 		return $media_report; }
 
 	echo "<h2>Media summary</h2>";
