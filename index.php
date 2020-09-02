@@ -636,7 +636,7 @@ if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 	echo "<figcaption>Moti (right) with Brigadier General (Reserve) Uzi Dayan, a staunch supporter of the Kurds, in the Old City of Jerusalem.</figcaption></figure>";
 
 	echo "<figure>";
-	echo "<amp-img src='/media/sharansky-compressed.jpg' width='.75' height='1' layout='responsive'></amp-img>";
+	echo "<amp-img src='/media/sharansky-compressed.jpg' width='3' height='4' layout='responsive'></amp-img>";
 	echo "<figcaption>Moti (right) with Natan Sharansky, decorated Israeli political scientist and politician.</figcaption></figure>";
 
 	echo "<h2 id='world-kurdish-forum'>World Kurdish Forum</h2>";
