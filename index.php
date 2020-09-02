@@ -167,7 +167,7 @@ $style_array = [
 		],
 	
 	"#navigation-sitemap div, #navigation-sitemap div div" => [
-		"padding"		=> "3px 0 0 10px",
+		"padding"		=> "5px 0 0 15px",
 		"margin"		=> "0",
 		"padding"		=> "0",
 		"text-align"		=> "left",
@@ -177,7 +177,7 @@ $style_array = [
 		],
 	
 	"#navigation-sitemap div div" => [
-		"padding"		=> "0 0 3px 10px",
+		"padding"		=> "0 0 5px 15px",
 		],
 	
 	"#body-content" => [
