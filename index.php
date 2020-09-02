@@ -774,7 +774,9 @@ if ([$pageview_request, $language_request] == ["media", "en"]):
 
 	echo media_report_output("2017-10-10", "Kurd foes use Israeli stance to rally allies", "https://www.thejewishstar.com/stories/kurd-foes-use-israeli-stance-to-rally-allies,14560", "thejewishstar.com");
 
-	echo media_report_output("2017-08", "Home Office report on blood feuds in Iraq", "https://www.justice.gov/eoir/page/file/995226/download", "justice.gov");
+	echo media_report_output("2017-10-05", "Au Kurdistan irakien, la difficile renaissance du judaïsme (2/2), par Ines Gil", "https://www.tribunejuive.info/2017/10/05/au-kurdistan-irakien-la-difficile-renaissance-du-judaisme-22-par-ines-gil/", "tribubejuive.info");
+
+	echo media_report_output("2017-07-18", "Temple Mount terror attack highlights sharp dichotomy between Israeli minorities", "https://www.jns.org/temple-mount-terror-attack-highlights-sharp-dichotomy-between-israeli-minorities/", "jns.org");
 
 	echo "</tbody></table>";
 
@@ -789,6 +791,8 @@ if ([$pageview_request, $language_request] == ["media", "en"]):
 	echo media_report_output("2015-11-12", "So are there Jews in Kurdistan? Israeli expert says media reports of 430 families in region incorrect.", "https://www.jpost.com/middle-east/so-are-there-jews-in-kurdistan-432756", "jpost.com");
 
 	echo media_report_output("2015-08-25", "How did the Kurdish Jews migrate to Israel?", "https://www.sbs.com.au/language/english/audio/how-did-the-kurdish-jews-migrate-to-israel", "sbs.com.au");
+
+	echo media_report_output("2013", "Michael R. Fischbach, Jewish property claims against Arab countries, Columbia University Press, 2013, p. 205", "http://cup.columbia.edu/book/jewish-property-claims-against-arab-countries/9780231135382", "columbia.edu");
 
 	echo media_report_output("1999-04-21", "Likud Denies It Is Exploiting Conflict", "http://articles.latimes.com/1999/apr/21/news/mn-29526/2", "latimes.com");
 
