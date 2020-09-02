@@ -174,6 +174,7 @@ $style_array = [
 		"page-break-inside"		=> "avoid",
 		"break-inside"			=> "avoid",
 		"padding"		=> "3px 0 0 0",
+		"margin"		=> "0 0 0 15px",
 		"list-style-type"	=> "none",
 		],
 		
@@ -185,7 +186,7 @@ $style_array = [
 		"line-height"		=> "1.5em",
 		],
 	
-	"#body-content h1, #body-content h2, #body-content p, 
+	"h1, #body-content h2, #body-content p, 
 	#body-content dl, #body-content ul, #body-content ol, 
 	#body-content figure, #body-content table, 
 	#body-content blockquote, #body-content amp-youtube" => [
@@ -245,14 +246,14 @@ $style_array = [
 		"padding"		=> "0 0 0 0",
 		],
 	
-	"#body-content h1, #body-content h2" => [
+	"h1, #body-content h2" => [
 		"padding"		=> "0 100px 0 20px",
 		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
 		"font-weight"		=> "700",
 		"line-height"		=> "1.4em",
 		],
 	
-	"#body-content h1" => [
+	"h1" => [
 		"margin"		=> "50px auto",
 		"font-size"		=> "240%",
 		"text-shadow"		=> "2px 2px 20px -10px rgba(50,50,50,0.25)",
