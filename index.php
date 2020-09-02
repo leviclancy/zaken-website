@@ -169,6 +169,7 @@ $style_array = [
 		],
 	
 	"#navigation-sitemap li" => [
+		"display"		=> "block",
 		"padding"		=> "3px 0 0 0",
 		"list-style-type"	=> "none",
 		],
