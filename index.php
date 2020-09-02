@@ -12,7 +12,32 @@ mb_internal_encoding('UTF-8');
 mb_http_output('UTF-8');
 
 // The pageview is passed in the URL
-$pageview_request_allowed = [ "about", "publications", "kurdistan-region", "israel", "press" ];
+$sitemap_array = [
+	"biographical-notes" => [
+		"scholarly-achievement",
+		"kurdish-advocacy",
+		"condensed-highlights",
+		],
+	"publications" => [
+		"the-jews-of-kurdistan",
+		"full-bibliography",
+		],
+	"kurdistan-region" => [
+		"counseling-and-supervision",
+		"tomb-of-the-prophet-nahum",
+		"historical-information",
+		"world-kurdish-forum",
+		],
+	"israel" => [
+		"israels-success",
+		"minorities-affairs",
+		],
+	"press" => [
+		"inquiries",
+		"summary",
+		],
+	];
+		
 $pageview_request = ( empty($_REQUEST['pageview']) ? null : $_REQUEST['pageview'] );
 
 // The language is also passed in the URL
@@ -21,7 +46,14 @@ $language_request = ( empty($_REQUEST['language']) ? null : $_REQUEST['language'
 
 // Set up redirect array
 $redirect_array_default = $redirect_array_validated = [ "pageview" => "pageview=".$pageview_request, "language" => "language=".$language_request, ];
-if (!(in_array($pageview_request, $pageview_request_allowed))): $redirect_array_validated['pageview'] = "pageview=about"; endif;
+
+// Check if pageview is valid
+$pageview_valid = 0;
+foreach ($sitemap_array as $pageview_allowed => $subpageview_allowed_array):
+	if ($pageview_request == $pageview_allowed): $pageview_valid = 1; break; endif;
+	if (in_array($pageview_request, $subpageview_allowed_array)): $pageview_valid = 1; break; endif;
+	endforeach;
+if ($pageview_valid !== 1): $redirect_array_validated['pageview'] = "pageview=about"; endif;
 if (!(isset($language_request_allowed[$language_request]))): $redirect_array_validated['language'] = "language=en"; endif;
 
 if ($redirect_array_default !== $redirect_array_validated):
@@ -353,36 +385,29 @@ echo "<div id='navigation-header' amp-fx='parallax' data-parallax-factor='1.3'>"
 	echo "<span id='navigation-header-name' amp-fx='parallax' data-parallax-factor='1.1'>". translatable_elements("dr-mordechai-moti-zaken") ."</span>";
 	echo "<span id='navigation-header-topline' amp-fx='parallax' data-parallax-factor='1.1'>". translatable_elements("prepared-by-foundation-of-ours") ."</span>";
 
-	echo "<hr>";
-
-	foreach ($pageview_request_allowed as $pageview_request_allowed_temp):
-		if ($pageview_request_allowed_temp == $pageview_request):
-			echo "<div class='navigation-header-button navigation-header-button-selected'>". translatable_elements($pageview_request_allowed_temp) ."</div>";
-			continue; endif;
-		echo "<a href='/?pageview=".$pageview_request_allowed_temp."&language=".$language_request."'>";
-		echo "<div class='navigation-header-button'>". translatable_elements($pageview_request_allowed_temp) ."</div>";
-		echo "</a>";
-		endforeach;
-
-	echo "<a href='#Contact'>";
-	echo "<div class='navigation-header-button'>". translatable_elements("contact") ."</div>";
-	echo "</a>";
-
 	echo "</div>";
+
+echo "<div id='navigation-sitemap' amp-fx='parallax' data-parallax-factor='1.25'><ul>";
+	foreach ($sitemap_array as $pageview_allowed => $subpageview_allowed_array):
+		echo "<li><a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a><ul>";
+		foreach ($subpageview_allowed_array as $subpageview_allowed):
+			echo "<li><a href='/?pageview=".$subpageview_allowed."&language=".$language_request."'>" . translatable_elements($subpageview_allowed) . "</a></li>";
+			endforeach;
+		echo "</ul></li>";
+		endforeach;
+	echo "</ul></div>";
 
 echo "<div id='body-content'>";
 
-if ([$pageview_request, $language_request] == ["about", "en"]):
+echo "<h1 amp-fx='parallax' data-parallax-factor='1.17'>" . translatable_elements($pageview_request) ."</h1>";
 
-	echo "<h1 amp-fx='parallax' data-parallax-factor='1.17'>Dr. Mordechai (Moti) Zaken, Historian and Author</h1>";
+if ([$pageview_request, $language_request] == ["biographical-notes", "en"]):
 
 	echo "<figure class='amp-img-fader' amp-fx='parallax' data-parallax-factor='1.14'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='/media/uzi-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Moti (right) with Brigadier General (Reserve) Uzi Dayan, a staunch supporter of the Kurds, in the Old City of Jerusalem.</figcaption></figure>";
-
-	echo "<h2 amp-fx='parallax' data-parallax-factor='1.1'>Biographical notes</h2>";
 
 	echo "<p amp-fx='parallax' data-parallax-factor='1.1'>Dr. Mordechai (Moti) Zaken, born in 1958 in Jerusalem of Kurdistani descent, is an authoritative historian on the Jews of Kurdistan, as well as the native Assyrians. He has devoted his career to researching, salvaging, and documenting the oral history of the Jews of Kurdistan. His book on the Jews of Kurdistan is a leading resource on the topic, which was compiled from hundreds of interviews with native Kurdish who immigrated to Israel. </p>";
 
@@ -394,7 +419,9 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Head of Minority Affairs Desk at Israel's Ministry of Public Security</li>";
 	echo "</ul>";
 
-	echo "<h2>Scholarly Achievement</h2>";
+	endif;
+
+if ([$pageview_request, $language_request] == ["scholarly-achievement", "en"]):
 
 	echo "<p><b>Oral and comparative historian.</b> When he began to be curious about the possibility of writing on the Jews of Kurdistan, during the early 1980s, Mordechai Zaken was puzzled to see that there was hardly any written material — and what was written, was certainly insufficient to enable research of the subject. He had to resort to documenting oral history by finding elderly Kurdish Jews who were capable informants able to share with him their life experience: they had to have been born in and lived in towns and villages in Kurdistan, and then immigrated to Israel.</p>";
 
@@ -422,17 +449,15 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 
 	echo "<p><b>Contribution to broader Kurdish history.</b> This research, which was acclaimed, illuminated many topics that written documents have either totally or partially ignored. Documenting the oral history of the Jews of Kurdistan has in fact saved the memories of many Jewish informants from being lost forever, and saved details on the Jewish communities, the Jewish families, and the tribal Kurdish figures with whom the Jews had been in contact. Furthermore, it provided much-needed information and observational insight into the relationship between the Jews and their Kurdish neighbors and masters.</p>";
 
-	echo "<h2>Kurdish Advocacy</h2>";
+	endif;
+
+if ([$pageview_request, $language_request] == ["kurdish-advocacy", "en"]):
 
 	echo "<p>Dr. Zaken is an expert on the tribal Kurdish society. As a pro-Kurdish activist, he established the Israeli-Kurdish Friendship League (IKFL) in 1992 in Jerusalem, probably the first friendship league between Jews and Muslims. Today, he serves as the Counselor of the 'National Association of Jews from Kurdistan' regarding Jewish history and heritage in Kurdistan. Recently, he was named by the Association as the Counselor to the Kurdistan Regional Government, serving as a representative on the interests of the Jewish community and supervising the important Jewish heritage sites including the tomb of the Prophet Nahum in alQosh and other projects.</p>";
 
-	echo "<h2>Personal Life</h2>";
+	endif;
 
-	echo "<p>Moti — Dr. Zaken — is fluent in the Neo-Aramaic that the Jews of Kurdistan spoke and which Assyrians still speak today, as well as in English, Arabic, and his native Hebrew. He has practical knowledge of various levels in Farsi, Kurmanji and French. He lives in Jerusalem with his wife and their three children.</p>";
-
-	echo "<p>With Moti’s permission and support, this website has been developed and maintained by Foundation of Ours as part of the Foundation’s mission to support Jewish expression in the Kurdistan Region. The Foundation embraces the decision of the National Association of Jews from Kurdistan in Israel to appoint Moti in supervising Jewish affairs and Jewish sites in the Kurdistan Region.</p>";
-
-	echo "<h2>Condensed Highlights</h2>";
+if ([$pageview_request, $language_request] == ["condensed-highlights", "en"]):
 
 	echo "<blockquote>Coexistence and mutual traditions are the foundation of the relationship between Jews and Kurds.</blockquote>";
 
@@ -552,9 +577,11 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 
 if ([$pageview_request, $language_request] == ["publications", "en"]):
 
-	echo "<h1>Publications</h1>";
-
 	echo "<blockquote>The book of Dr. Mordechai Zaken is the most important book written on the Jews of Kurdistan. <i>(Lora Galichco, scholar and descendant of Kurdish Jews)</i></blockquote>";
+
+	endif;
+
+if ([$pageview_request, $language_request] == ["the-jews-of-kurdistan", "en"]):
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
@@ -581,6 +608,10 @@ if ([$pageview_request, $language_request] == ["publications", "en"]):
 	echo "</figure>";
 
 	echo "<p>Interestingly, the cover is the famous 1878 artwork 'Jews Praying in the Synagogue on Yom Kippur', by Jewish painter Mauryey Gottlieb (1856-1879). He was a Polish Jewish realist painter who made significant contributions towards creating the genre of Jewish Art. The editors of the book in Arabic needed a picture for its cover, and when looking for a picture of Jews or some sort of symbol of Judaism, someone must have pulled this painting from the internet. Imagery and symbolism about Yom Kippur (the holiest day of the year for Jews) is prominent in the piece, which exemplifies many artistic values that are significant to Eastern European Jews at the time. It also contains many deeper allusions about Gottlieb’s short life. However, it has nothing to do with the Jews of the East and the Jews of Kurdistan.</p>";
+
+	endif;
+
+if ([$pageview_request, $language_request] == ["full-bibliography", "en"]):
 
 	endif;
 
@@ -837,7 +868,7 @@ echo "<div id='Contact'>";
 		echo "</div>";
 
 	echo "<div class='contact-footer-secondary'>";
-		echo "<i>". $translatable_elements["this-website-has-been-developed"][$language_request] ."</i><br>";
+		echo "<i>With Moti’s permission and support, this website has been developed and maintained by Foundation of Ours as part of the Foundation’s mission to support Jewish expression in the Kurdistan Region.</i>";
 		echo "&nbsp;&nbsp; <a href='https://ours.foundation'>ours.foundation</a><br>";
 		echo "&nbsp;&nbsp; <a href='mailto:info@ours.foundation'>info@ours.foundation</a><br>";
 		echo "&nbsp;&nbsp; <a href='https://wa.me/12072165608'>+1 (207) 216-5608</a> (WhatsApp)";
