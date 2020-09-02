@@ -128,9 +128,6 @@ $style_array = [
 	"#navigation-header" => [
 		"display"		=> "block",
 		"color"			=> "#333",
-//		"column-width"		=> "300px",
-//		"column-count"		=> "2",
-//		"column-gap"		=> "30px",
 		"font-family"		=> "Molengo",
 		"text-align"		=> "center",
 		"padding"		=> "50px 0 40px",
@@ -169,14 +166,10 @@ $style_array = [
 		],
 	
 	"#navigation-sitemap ul, #navigation-sitemap ul ul" => [
-		"margin"		=> "0",
+		"margin"		=> "0 auto",
 		"padding"		=> "0",
 		"text-align"		=> "left",
 		"max-width"		=> "300px",
-		],
-
-	"#navigation-sitemap > ul" => [
-		"margin"		=> "0 auto",
 		],
 	
 	"#navigation-sitemap li, #navigation-sitemap li li" => [
