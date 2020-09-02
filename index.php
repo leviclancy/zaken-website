@@ -167,7 +167,7 @@ $style_array = [
 		],
 		
 	".navigation-sitemap-item" => [
-		"display"		=> "block",
+//		"display"		=> "block",
 		"margin"		=> "10px auto",
 		"padding"		=> "0",
 		"text-align"		=> "left",
