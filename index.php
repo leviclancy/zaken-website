@@ -175,6 +175,7 @@ $style_array = [
 		"webkit-column-break-inside"	=> "avoid",
 		"page-break-inside"		=> "avoid",
 		"break-inside"			=> "avoid",
+		"vertical-align"		=> "top",
 		],
 		
 	".navigation-sitemap-subitem" => [
