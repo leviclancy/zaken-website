@@ -180,12 +180,15 @@ $style_array = [
 		],
 	
 	"#navigation-sitemap li, #navigation-sitemap li li" => [
-		"-webkit-column-break-inside"	=> "avoid",
-		"page-break-inside"		=> "avoid",
-		"break-inside"			=> "avoid",
 		"padding"		=> "3px 0 0 0",
 		"margin"		=> "0",
 		"list-style-type"	=> "none",
+		],
+	
+	"#navigation-sitemap li li" => [	
+		"-webkit-column-break-inside"	=> "avoid",
+		"page-break-inside"		=> "avoid",
+		"break-inside"			=> "avoid",
 		],
 		
 	"#body-content" => [
