@@ -698,7 +698,7 @@ if ([$pageview_request, $language_request] == ["media", "en"]):
 
 	echo media_report_output("1999-04-28", "Unrecognized villages", "http://edition.cnn.com/WORLD/meast/9804/28/israel.forty.villages/index.old.html", "cnn.com");
 
-	echo "<table><tbody>";
+	echo "</tbody></table>";
 
 	echo "<blockquote>There is a desire to work to promote equal rights and opportunities in Israel.</blockquote>";
 
