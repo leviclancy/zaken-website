@@ -410,8 +410,16 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 
 	echo "<blockquote>Coexistence and mutual traditions are the foundation of the relationship between Jews and Kurds.</blockquote>";
 
+	fuction timeline_output ($date_begin, $date_end, $description) {
+		$timeline = "<tr><td>" . $date_begin;
+		if (!(empty($date_end))):  $timeline .= " — ". $date_end; endif;
+		$timeline .= "</td><td>" . $description . "</td></tr>";
+		return $timeline; }
+
 	echo "<table><tbody>";
-	echo "<tr><td>2020</td><td>Appointed by the National Association of Jews from Kurdistan to oversee Jewish affairs and Jewish sites in the Kurdistan Region.</td></tr>";
+
+	echo timeline_output("2020", null, "Appointed by the National Association of Jews from Kurdistan to oversee Jewish affairs and Jewish sites in the Kurdistan Region.";
+			     
 	echo "<tr><td>2019</td><td>2019 Laureate, Prime Minister Prize for Research of the Jews of the Orient.</td></tr>";
 	echo "<tr><td>2013 Oct</td><td>Presentation to the World Kurdish Forum at their convention in Stockholm — watch on <a href='https://www.youtube.com/watch?v=UkSRVefP1Qw'>YouTube</a>.</td></tr>";
 	echo "<tr><td>2013 — 2018</td><td>With Christian leaders, Dr. Zaken initiated the Government-Christians Forum that addressed the Evangelical Christian community's concerns regarding the government. Two prominent Christian leaders in this forum have been Rev. Charles (Chuck) Kopp, of the Baptist Church and Rev. David Pillegi, Rector of the Christ Church in Jaffa Gate. The Forum came to a conclusion in 2018, once the government concluded it was not part of the government's scope.</td></tr>";
@@ -599,66 +607,66 @@ if ([$pageview_request, $language_request] == ["israel", "en"]):
 
 if ([$pageview_request, $language_request] == ["media", "en"]):
 
-	function format_media_report($date, $article_name, $link_url, $link_name=null) {
+	function media_report_output($date, $article_name, $link_url, $link_name=null) {
 		if ($empty($link_name)): $link_name = $article_name ; endif;
-		echo "<tr><td>" . $date . "</td>";
-		echo "<td><a href='" . $link_url . "'>" . $link_name . "</a></td>";
-		echo "<td>" . $article_name . "</td></tr>";
-		return; }
+		$media_report .= "<tr><td>" . $date . "</td>";
+		$media_report .= "<td><a href='" . $link_url . "'>" . $link_name . "</a></td>";
+		$media_report .= "<td>" . $article_name . "</td></tr>";
+		return $media_report; }
 
 	echo "<h2>Media summary</h2>";
 
 	echo "<table><tbody>";
 
-	format_media_report("2020-08-29", "The Miracle of the Tomb of Prophet Nahum", "https://en.davar1.co.il/244830/", "davar1.co.il");
+	echo media_report_output("2020-08-29", "The Miracle of the Tomb of Prophet Nahum", "https://en.davar1.co.il/244830/", "davar1.co.il");
 
-	format_media_report("2020-08-21", "הנס של קבר הנביא נחום", "https://www.davar1.co.il/242934/", "davar1.co.il");
+	echo media_report_output("2020-08-21", "הנס של קבר הנביא נחום", "https://www.davar1.co.il/242934/", "davar1.co.il");
 
-	format_media_report("2020-07-14", "From Iraq to exodus: the flight of a country’s Jewish community", "https://www.rudaw.net/english/middleeast/iraq/140720202", "rudaw.net");
+	echo media_report_output("2020-07-14", "From Iraq to exodus: the flight of a country’s Jewish community", "https://www.rudaw.net/english/middleeast/iraq/140720202", "rudaw.net");
 
-	format_media_report("2019-10-27", "Israel and the Kurds Strive to Maintain Post-US Relationship", "https://themedialine.org/by-region/whats-next-for-israel-and-the-kurds/", "themedialine.org");
+	echo media_report_output("2019-10-27", "Israel and the Kurds Strive to Maintain Post-US Relationship", "https://themedialine.org/by-region/whats-next-for-israel-and-the-kurds/", "themedialine.org");
 
 	echo "<tr><td colspan='3'><blockquote>This affection between our nations is mutual. Not only are the Kurds very popular in Israel, but Israel and the Jews enjoy a good deal of respect and sympathy among the Kurds.</blockquote></td></tr>";
 
-	format_media_report("2019-03-05", "Lending a Helping Hand to Strangers and Sojourners", "https://www.hudson.org/research/14847-lending-a-helping-hand-to-strangers-and-sojourners", "hudson.org");
+	echo media_report_output("2019-03-05", "Lending a Helping Hand to Strangers and Sojourners", "https://www.hudson.org/research/14847-lending-a-helping-hand-to-strangers-and-sojourners", "hudson.org");
 
-	format_media_report("2019-02-26", "Christian Leaders Disappointed After Israel Shuts Down Government Christian Forum", "https://www1.cbn.com/cbnnews/israel/2019/february/christian-leaders-disappointed-after-israel-shuts-down-government-christian-forum", "cbn.com");
+	echo media_report_output("2019-02-26", "Christian Leaders Disappointed After Israel Shuts Down Government Christian Forum", "https://www1.cbn.com/cbnnews/israel/2019/february/christian-leaders-disappointed-after-israel-shuts-down-government-christian-forum", "cbn.com");
 
-	format_media_report("2018-11-14", "Kurdistani Jews are caught between the Jewish state and the ethnonationalist ambitions of its Middle Eastern neighbors", "https://www.tabletmag.com/sections/israel-middle-east/articles/kurdistan-and-israel", "tabletmag.com");
+	echo media_report_output("2018-11-14", "Kurdistani Jews are caught between the Jewish state and the ethnonationalist ambitions of its Middle Eastern neighbors", "https://www.tabletmag.com/sections/israel-middle-east/articles/kurdistan-and-israel", "tabletmag.com");
 
-	format_media_report("2017-11-29", "MKs unite to support Kurdish people at Knesset", "https://www.jpost.com/israel-news/mks-unite-to-support-kurdish-people-at-knesset-515613", "jpost.com");
+	echo media_report_output("2017-11-29", "MKs unite to support Kurdish people at Knesset", "https://www.jpost.com/israel-news/mks-unite-to-support-kurdish-people-at-knesset-515613", "jpost.com");
 
-	format_media_report("2017-10-10", "Kurd foes use Israeli stance to rally allies", "https://www.thejewishstar.com/stories/kurd-foes-use-israeli-stance-to-rally-allies,14560", "thejewishstar.com");
+	echo media_report_output("2017-10-10", "Kurd foes use Israeli stance to rally allies", "https://www.thejewishstar.com/stories/kurd-foes-use-israeli-stance-to-rally-allies,14560", "thejewishstar.com");
 
-	format_media_report("2017-08", "Home Office report on blood feuds in Iraq", "https://www.justice.gov/eoir/page/file/995226/download", "justice.gov");
+	echo media_report_output("2017-08", "Home Office report on blood feuds in Iraq", "https://www.justice.gov/eoir/page/file/995226/download", "justice.gov");
 
 	echo "<tr><td colspan='3'>";
 	echo "<amp-youtube data-videoid='6fvQdbLJOBQ' layout='responsive' width='640' height='360'></amp-youtube>";
 	echo "</td></tr>";
 
-	format_media_report("2017-01-27", "Israelis eager to welcome US Embassy to Jerusalem", "https://nypost.com/2017/01/27/israelis-eager-to-welcome-us-embassy-to-jerusalem/", "nypost.com");
+	echo media_report_output("2017-01-27", "Israelis eager to welcome US Embassy to Jerusalem", "https://nypost.com/2017/01/27/israelis-eager-to-welcome-us-embassy-to-jerusalem/", "nypost.com");
 
-	format_media_report("2015-12-07", "Publicity seeking Kurdish official [Sherzad Mamsani] brings back memories of Jewish Kurd aliya fiasco", "https://www.jpost.com/middle-east/use-of-jewish-issue-by-krg-official-may-cause-confusion-and-damage-436499", "jpost.com");
+	echo media_report_output("2015-12-07", "Publicity seeking Kurdish official [Sherzad Mamsani] brings back memories of Jewish Kurd aliya fiasco", "https://www.jpost.com/middle-east/use-of-jewish-issue-by-krg-official-may-cause-confusion-and-damage-436499", "jpost.com");
 
-	format_media_report("2015-11-12", "So are there Jews in Kurdistan? Israeli expert says media reports of 430 families in region incorrect.", "https://www.jpost.com/middle-east/so-are-there-jews-in-kurdistan-432756", "jpost.com");
+	echo media_report_output("2015-11-12", "So are there Jews in Kurdistan? Israeli expert says media reports of 430 families in region incorrect.", "https://www.jpost.com/middle-east/so-are-there-jews-in-kurdistan-432756", "jpost.com");
 
-	format_media_report("2015-08-25", "How did the Kurdish Jews migrate to Israel?", "https://www.sbs.com.au/language/english/audio/how-did-the-kurdish-jews-migrate-to-israel", "sbs.com.au");
+	echo media_report_output("2015-08-25", "How did the Kurdish Jews migrate to Israel?", "https://www.sbs.com.au/language/english/audio/how-did-the-kurdish-jews-migrate-to-israel", "sbs.com.au");
 
-	format_media_report("1999-04-21", "Likud Denies It Is Exploiting Conflict", "http://articles.latimes.com/1999/apr/21/news/mn-29526/2", "latimes.com");
+	echo media_report_output("1999-04-21", "Likud Denies It Is Exploiting Conflict", "http://articles.latimes.com/1999/apr/21/news/mn-29526/2", "latimes.com");
 
-	format_media_report("1999-04-20", "Compromise on Nazareth", "http://www.nytimes.com/1999/04/20/world/israel-sets-forth-compromise-plan-on-nazareth-mosque-dispute.html", "nytimes.com");
+	echo media_report_output("1999-04-20", "Compromise on Nazareth", "http://www.nytimes.com/1999/04/20/world/israel-sets-forth-compromise-plan-on-nazareth-mosque-dispute.html", "nytimes.com");
 
-	format_media_report("1999-04-07", "Protesting demolition of homes", "http://articles.latimes.com/1998/apr/07/news/mn-36961", "latimes.com");
+	echo media_report_output("1999-04-07", "Protesting demolition of homes", "http://articles.latimes.com/1998/apr/07/news/mn-36961", "latimes.com");
 
-	format_media_report("1999-04-06", "Demolition of homes", "http://www.apnewsarchive.com/1998/Israeli-Arabs-Protest-Demolition/id-debabd28296ea20a9d9a26c5de57ad57", "apnewsarchive.com");
+	echo media_report_output("1999-04-06", "Demolition of homes", "http://www.apnewsarchive.com/1998/Israeli-Arabs-Protest-Demolition/id-debabd28296ea20a9d9a26c5de57ad57", "apnewsarchive.com");
 
-	format_media_report("1999-04-28", "Unrecognized villages", "http://edition.cnn.com/WORLD/meast/9804/28/israel.forty.villages/index.old.html", "cnn.com");
+	echo media_report_output("1999-04-28", "Unrecognized villages", "http://edition.cnn.com/WORLD/meast/9804/28/israel.forty.villages/index.old.html", "cnn.com");
 
 	echo "<tr><td colspan='3'><blockquote>There is a desire to work to promote equal rights and opportunities in Israel.</blockquote></td></tr>";
 
-	format_media_report("1998-01-02", "Excerpts from Report of the Government Ministries' Activities in the Non-Jewish Sector in 1997", "https://mfa.gov.il/mfa/mfa-archive/1998/pages/report%20of%20the%20government%20ministries-%20activities%20in.aspx", "mfa.gov.il");
+	echo media_report_output("1998-01-02", "Excerpts from Report of the Government Ministries' Activities in the Non-Jewish Sector in 1997", "https://mfa.gov.il/mfa/mfa-archive/1998/pages/report%20of%20the%20government%20ministries-%20activities%20in.aspx", "mfa.gov.il");
 
-//	format_media_report("", "", "", "");
+//	echo media_report_output("", "", "", "");
 
 	echo "</tbody></table>";
 
