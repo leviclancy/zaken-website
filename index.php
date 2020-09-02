@@ -166,8 +166,7 @@ $style_array = [
 	
 
 	"#body-content figure, #body-content amp-img" => [
-		"max-height"		=> "700px",
-		"max-width"		=> "950px",
+		"max-height"		=> "600px",
 		"padding"		=> "0",
 		],
 	
@@ -559,7 +558,7 @@ if ([$pageview_request, $language_request] == ["publications", "en"]):
 	echo "<amp-img src='/media/jews-praying-compressed.jpg' width='1' height='1.3' layout='responsive'></amp-img>";
 	echo "</figure>";
 
-	echo "<p>Interestingly, the cover is the famous 1878 artwork Jews Praying in the Synagogue on Yom Kippur, by Jewish painter Mauryey Gottlieb (1856-1879). He was a Polish Jewish realist painter who made significant contributions towards creating the genre of Jewish Art. The editors of the book in Arabic needed a picture for its cover, and when looking for a picture of Jews or some sort of symbol of Judaism, someone must have pulled this painting from the internet. Imagery and symbolism about Yom Kippur (the holiest day of the year for Jews) is prominent in the piece, which exemplifies many artistic values that are significant to Eastern European Jews at the time. It also contains many deeper allusions about Gottlieb’s short life. However, it has nothing to do with the Jews of the East and the Jews of Kurdistan.</p>";
+	echo "<p>Interestingly, the cover is the famous 1878 artwork 'Jews Praying in the Synagogue on Yom Kippur', by Jewish painter Mauryey Gottlieb (1856-1879). He was a Polish Jewish realist painter who made significant contributions towards creating the genre of Jewish Art. The editors of the book in Arabic needed a picture for its cover, and when looking for a picture of Jews or some sort of symbol of Judaism, someone must have pulled this painting from the internet. Imagery and symbolism about Yom Kippur (the holiest day of the year for Jews) is prominent in the piece, which exemplifies many artistic values that are significant to Eastern European Jews at the time. It also contains many deeper allusions about Gottlieb’s short life. However, it has nothing to do with the Jews of the East and the Jews of Kurdistan.</p>";
 
 	endif;
 
