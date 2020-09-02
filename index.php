@@ -165,21 +165,19 @@ $style_array = [
 //		"column-width"		=> "300px",
 //		"column-rule"		=> "2px solid #fff",
 		],
-	
-	"#navigation-sitemap div, #navigation-sitemap div div" => [
-		"text-align"		=> "left",
-		],
-	
-	"#navigation-sitemap > div" => [
+		
+	".navigation-sitemap-item" => [
 		"margin"		=> "10px auto",
 		"padding"		=> "0",
+		"text-align"		=> "left",
 		],
 		
-	"#navigation-sitemap  > div div" => [
+	".navigation-sitemap-subitem" => [
 		"padding"		=> "7px 0 0 15px",
+		"text-align"		=> "left",
 		],
 
-	"#navigation-sitemap > div div span" => [
+	".navigation-sitemap-subitem span" => [
 		"opacity"		=> "0.5",
 		"font-size"		=> "70%",
 		"vertical-align"	=> "middle",
@@ -389,15 +387,15 @@ echo "<div id='navigation-header' amp-fx='parallax' data-parallax-factor='1.3'>"
 
 	echo "</div>";
 
-echo "<div id='navigation-sitemap' amp-fx='parallax' data-parallax-factor='1.17'><ul>";
+echo "<div id='navigation-sitemap' amp-fx='parallax' data-parallax-factor='1.17'>";
 	foreach ($sitemap_array as $pageview_allowed => $subpageview_allowed_array):
-		echo "<div><a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a>";
+		echo "<div class='navigation-sitemap-item'><a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a>";
 		foreach ($subpageview_allowed_array as $subpageview_allowed):
-			echo "<div><span>&#9658;</span> &nbsp; <a href='/?pageview=".$subpageview_allowed."&language=".$language_request."'>" . translatable_elements($subpageview_allowed) . "</a></div>";
+			echo "<div class='navigation-sitemap-subitem'><span>&#9658;</span> &nbsp; <a href='/?pageview=".$subpageview_allowed."&language=".$language_request."'>" . translatable_elements($subpageview_allowed) . "</a></div>";
 			endforeach;
 		echo "</div>";
 		endforeach;
-	echo "</ul></div>";
+	echo "</div>";
 
 echo "<h1 amp-fx='parallax' data-parallax-factor='1.25'>" . translatable_elements($pageview_request) ."</h1>";
 
