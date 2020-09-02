@@ -153,25 +153,24 @@ $style_array = [
 		"background"		=> "rgba(100,100,100,1)",
 		"color"			=> "rgba(250,250,250,1)",
 		"display"		=> "block",
-		"padding"		=> "20px 22px 0 22px",
+		"padding"		=> "20px",
 		"margin"		=> "0",
 		"font-size"		=> "90%",
 		"text-align"		=> "center",
 		],
 	
+	"#navigation-sitemap ul" => [
+		"margin"		=> "0",
+		"padding"		=> "0",
+		],
+
 	"#navigation-sitemap > ul" => [
 		"display"		=> "inline-block",
 		"margin"		=> "0 auto",
-		"padding"		=> "20px 20px 40px",
 		"text-align"		=> "left",
 		"column-count"		=> "2",
 		"column-gap"		=> "30px",
 		"column-width"		=> "300px",
-		],
-
-	"#navigation-sitemap ul ul" => [
-		"margin"		=> "0",
-		"padding"		=> "0",
 		],
 	
 	"#navigation-sitemap li" => [
