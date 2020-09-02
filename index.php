@@ -172,6 +172,7 @@ $style_array = [
 		"margin"		=> "0 auto",
 		"padding"		=> "10px",
 		"text-align"		=> "left",
+		"display"		=> "inline-block",
 		"webkit-column-break-inside"	=> "avoid",
 		"page-break-inside"		=> "avoid",
 		"break-inside"			=> "avoid",
