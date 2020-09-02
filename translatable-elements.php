@@ -16,7 +16,7 @@
 	
 	"prepared-by-foundation-of-ours" => [
 		"ar"	=> "",
-		"en"	=> "Prepared by Foundation of Ours",
+		"en"	=> "Official site, by Foundation of Ours",
 		"he"	=> "",
 		"ku"	=> "",
 		],
