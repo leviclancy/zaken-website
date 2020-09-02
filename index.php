@@ -125,7 +125,7 @@ $style_array = [
 		],
 	
 	"#navigation-header hr" => [
-		"margin"		=> "15px auto 0",
+		"margin"		=> "30px auto 0",
 		"display"		=> "block",
 		"width"			=> "100%",
 		"height"		=> "1px",
