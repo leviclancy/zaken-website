@@ -172,6 +172,9 @@ $style_array = [
 		"margin"		=> "10px",
 		"padding"		=> "0",
 		"text-align"		=> "left",
+		"webkit-column-break-inside"	=> "avoid",
+		"page-break-inside"		=> "avoid",
+		"break-inside"			=> "avoid",
 		],
 		
 	".navigation-sitemap-subitem" => [
