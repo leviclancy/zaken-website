@@ -621,6 +621,8 @@ if ([$pageview_request, $language_request] == ["tomb-of-the-prophet-nahum", "en"
 //	echo "<amp-img src='/media/t53whxjai2ijosfm-compressed.jpg' width='1.67' height='1' layout='responsive'></amp-img>";
 //	echo "<figcaption>Early 20th century postcard of Erbil.</figcaption></figure>";
 
+	endif;
+
 if ([$pageview_request, $language_request] == ["historical-information", "en"]):
 
 	echo "<blockquote>In 1950 and 1951, the entire Kurdish Jewish community immigrated to Israel. Over the years, Israeli Kurds followed the struggle of their Muslim brothers with great interest.</blockquote>";
