@@ -418,7 +418,7 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 
 	echo "<table><tbody>";
 
-	echo timeline_output("2020", null, "Appointed by the National Association of Jews from Kurdistan to oversee Jewish affairs and Jewish sites in the Kurdistan Region.";
+	echo timeline_output("2020", null, "Appointed by the National Association of Jews from Kurdistan to oversee Jewish affairs and Jewish sites in the Kurdistan Region.");
 
 	echo timeline_output("2019", null, "2019 Laureate, Prime Minister Prize for Research of the Jews of the Orient.");
 
