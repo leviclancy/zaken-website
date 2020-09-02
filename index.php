@@ -130,7 +130,7 @@ $style_array = [
 		"color"			=> "#333",
 		"font-family"		=> "Molengo",
 		"text-align"		=> "center",
-		"padding"		=> "50px 0 40px",
+		"padding"		=> "50px 30px 40px",
 		],
 	
 	"#navigation-header-name" => [
@@ -161,14 +161,14 @@ $style_array = [
 		"font-size"		=> "90%",
 		"text-align"		=> "center",
 //		"column-count"		=> "2",
-		"column-gap"		=> "30px",
+		"column-gap"		=> "50px",
 		"column-width"		=> "300px",
-		"column-rule"		=> "2px solid #fff",
+		"column-rule"		=> "1px solid #ddd",
 		],
 		
 	".navigation-sitemap-item" => [
-		"display"		=> "block",
-		"max-width"		=> "300px",
+//		"display"		=> "block",
+//		"max-width"		=> "300px",
 		"margin"		=> "10px",
 		"padding"		=> "0",
 		"text-align"		=> "left",
