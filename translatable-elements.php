@@ -28,9 +28,30 @@
 		"ku"	=> "",
 		],
 		
-	"about" => [
+	"biographical-notes" => [
 		"ar"	=> "",
-		"en"	=> "About",
+		"en"	=> "Biographical Notes",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+
+	"scholarly-achievement" => [
+		"ar"	=> "",
+		"en"	=> "Schoarly Achievement",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+
+	"kurdish-advocacy" => [
+		"ar"	=> "",
+		"en"	=> "Kurdish Advocacy",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"condensed-highlights" => [
+		"ar"	=> "",
+		"en"	=> "Condensed Highlights",
 		"he"	=> "",
 		"ku"	=> "",
 		],
@@ -42,13 +63,62 @@
 		"ku"	=> "",
 		],
 
+	"publications" => [
+		"ar"	=> "",
+		"en"	=> "Publications",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+
+	"the-jews-of-kurdistan" => [
+		"ar"	=> "",
+		"en"	=> "The Jews of Kurdistan",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"full-bibliography" => [
+		"ar"	=> "",
+		"en"	=> "Full Bibliography",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+
 	"kurdistan-region" => [
 		"ar"	=> "",
 		"en"	=> "Kurdistan Region",
 		"he"	=> "",
 		"ku"	=> "",
 		],
+	
+	"counseling-and-supervision" => [
+		"ar"	=> "",
+		"en"	=> "Counseling and Supervision",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"tomb-of-the-prophet-nahum" => [
+		"ar"	=> "",
+		"en"	=> "Tomb of the Prophet Nahum",
+		"he"	=> "",
+		"ku"	=> "",
+		],
 
+	"historical-information" => [
+		"ar"	=> "",
+		"en"	=> "Historical Information",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"world-kurdish-forum" => [
+		"ar"	=> "",
+		"en"	=> "World Kurdish Forum",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
 	"israel" => [
 		"ar"	=> "",
 		"en"	=> "Israel",
@@ -56,9 +126,30 @@
 		"ku"	=> "",
 		],
 		
+	"israels-success" => [
+		"ar"	=> "",
+		"en"	=> "Israel's Success",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+		
+	"minorities-affairs" => [
+		"ar"	=> "",
+		"en"	=> "Minorities Affairs",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+		
 	"press" => [
 		"ar"	=> "",
 		"en"	=> "Press",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"press-history" => [
+		"ar"	=> "",
+		"en"	=> "Press History",
 		"he"	=> "",
 		"ku"	=> "",
 		],
