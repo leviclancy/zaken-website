@@ -78,11 +78,15 @@ echo '<script async custom-element="amp-fx-collection" src="https://cdn.ampproje
 echo '<script async custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"></script>';
 echo '<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>';
 
-echo '<link href="https://fonts.googleapis.com/css2?family=Assistant&display=swap" rel="stylesheet">';
+// Latin Sans Serif
+echo '<link href="https://fonts.googleapis.com/css2?family=Molengo&display=swap" rel="stylesheet">';
+
+// Latin Serif
 echo '<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">';
 echo '<link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap" rel="stylesheet">';
+
+// Hebrew
 echo '<link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">';
-echo '<link href="https://fonts.googleapis.com/css2?family=Molengo&display=swap" rel="stylesheet">';
 
 echo "<title>". $title_temp ."</title>";
 
@@ -127,7 +131,7 @@ $style_array = [
 //		"column-width"		=> "300px",
 //		"column-count"		=> "2",
 //		"column-gap"		=> "30px",
-		"font-family"		=> "Assistant",
+		"font-family"		=> "Molengo",
 		"text-align"		=> "center",
 		"padding"		=> "50px 0 40px",
 		],
@@ -136,8 +140,9 @@ $style_array = [
 		"margin"		=> "20px auto 25px",
 		"display"		=> "block",
 		"font-size"		=> "150%",
-		"font-weight"		=> "700",
-		"font-family"		=> "'Alegreya SC'",
+		"font-weight"		=> "400",
+//		"font-family"		=> "'Alegreya SC'",
+		"font-family"		=> "Molengo",
 		],
 	
 	"#navigation-header-topline" => [
@@ -149,7 +154,7 @@ $style_array = [
 		],
 		
 	"#navigation-sitemap" => [
-		"font-family"		=> "Assistant",
+		"font-family"		=> "Molengo",
 		"background"		=> "rgba(100,100,100,1)",
 		"color"			=> "rgba(250,250,250,1)",
 		"display"		=> "block",
@@ -217,7 +222,7 @@ $style_array = [
 	
 	"#body-content figcaption" => [
 		"font-size"		=> "80%",
-		"font-family"		=> "Assistant",
+		"font-family"		=> "Molengo",
 		],
 		
 	"#body-content blockquote" => [
