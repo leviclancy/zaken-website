@@ -168,23 +168,21 @@ $style_array = [
 	
 	"#navigation-sitemap div, #navigation-sitemap div div" => [
 		"text-align"		=> "left",
-		"-webkit-column-break-inside"	=> "avoid",
-		"page-break-inside"		=> "avoid",
-		"break-inside"			=> "avoid",
 		],
 	
-	"#navigation-sitemap div" => [
+	"#navigation-sitemap > div" => [
 		"margin"		=> "10px auto",
 		"padding"		=> "0",
 		],
 		
-	"#navigation-sitemap div div" => [
-		"padding"		=> "5px 0 0 15px",
+	"#navigation-sitemap  > div > div" => [
+		"padding"		=> "3px 0 0 15px",
 		],
 
-	"#navigation-sitemap div div span" => [
+	"#navigation-sitemap > div > div > span" => [
 		"opacity"		=> "0.5",
 		"font-size"		=> "70%",
+		"vertical-align"	=> "middle",
 		],
 	
 	"#body-content" => [
