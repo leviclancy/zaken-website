@@ -493,11 +493,9 @@ if ([$pageview_request, $language_request] == ["publications", "en"]):
 
 	echo "<blockquote>[This] is highly original and makes a significant contribution … His documentation is based on firsthand information, and is of the highest value. <i>(Dr. Joyce Blau, scholar)</i></blockquote>";
 
-	echo "<p>The Jews of Kurdistan tells the stories of Jewish subjects that had lived and survived under the patronage of their tribal chieftains (or ‘aghas,’ i.e., masters) during the 19th and 20th centuries, in towns as well as in distant villages.</p>";
+	echo "<p>The Jews of Kurdistan tells the stories of Jewish subjects that had lived and survived under the patronage of their tribal chieftains (or ‘aghas,’ i.e., masters) during the 19th and 20th centuries, in towns as well as in distant villages. It so happened that  the Jews of Kurdistan were able to preserve their own history and the history of their neighbours. Kurdish Jews from Kurdistan who immigrated to Israel and continued wearing Kurdish clothes, eating Kurdish food, and listening to Kurdish music every day of their lives. They kept the traditions of Kurdistan alive, and their stories are recorded in this authoritative book.</p>";
 
-	echo "<blockquote>It so happened that  the Jews of Kurdistan were able to preserve their own history and the history of their neighbours. Kurdish Jews from Kurdistan who immigrated to Israel and continued wearing Kurdish clothes, eating Kurdish food, and listening to Kurdish music every day of their lives. They kept the traditions of Kurdistan alive.</blockquote>";
-
-	echo "<p><b>Buy <i>The Jews of Kurdistan: A Study in Survival for $15 at <a href='https://kurdishjews.com/'>kurdishjews.com</a>.</b></p>";
+	echo "<p><b>Buy 'The Jews of Kurdistan: A Study in Survival' for $15 at <a href='https://kurdishjews.com/'>kurdishjews.com</a>.</b></p>";
 
 	echo "<blockquote>This is an original, comprehensive study on the Jewish community in Kurdistan in the last stages of its existence, during the first half of the 20th century. The scope of this study is far wider than its name. <i>(Moshe Sharon, Hebrew University)</i></blockquote>";
 
