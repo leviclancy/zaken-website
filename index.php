@@ -126,7 +126,6 @@ $style_array = [
 	
 	"#navigation-header" => [
 		"display"		=> "block",
-		"background-image"	=> "linear-gradient(0deg, rgba(200,200,200,0.35), rgba(255,255,255,1))",
 		"color"			=> "#333",
 //		"column-width"		=> "300px",
 //		"column-count"		=> "2",
@@ -138,7 +137,7 @@ $style_array = [
 	
 	"#navigation-header-topline" => [
 		"display"		=> "block",
-		"font-size"		=> "65%",
+		"font-size"		=> "70%",
 		"font-family"		=> "'Noto Serif JP'",
 		"text-transform"	=> "uppercase",
 		"letter-spacing"	=> "1px",
@@ -147,42 +146,21 @@ $style_array = [
 	"#navigation-header-name" => [
 		"margin"		=> "15px auto 20px",
 		"display"		=> "block",
-		"font-size"		=> "140%",
+		"font-size"		=> "150%",
 		"font-weight"		=> "700",
 		"font-family"		=> "'Alegreya SC'",
 		],
-	
-	"#navigation-header hr" => [
-		"margin"		=> "30px auto 0",
+		
+	".navigation-sitemap" => [
+		"background"		=> "rgba(100,100,100,1)",
+		"color"			=> "rgba(250,250,250,1)",
 		"display"		=> "block",
-		"width"			=> "100%",
-		"height"		=> "1px",
-		"border"		=> "none",
-		"background"		=> "rgba(150,150,150,0.8)",
-		],
-	
-	".navigation-header-button" => [
-//		"background"		=> "rgba(255,255,255,1)",
-		"color"			=> "rgba(100,100,100,1)",
-		"display"		=> "inline-block",
 		"padding"		=> "20px 22px 0 22px",
-//		"border-radius"		=> "100px",
 		"margin"		=> "0",
-		"cursor"		=> "pointer",
 		"font-size"		=> "90%",
 		"text-align"		=> "center",
-		"letter-spacing"	=> "1px",
-		"text-transform"	=> "uppercase",
-//		"border"		=> "2px solid #777",
 		],
-	
-	".navigation-header-button-selected" => [
-//		"background"		=> "rgba(100,100,100,1)",
-//		"color"			=> "rgba(255,255,255,0.65)",
-		"font-weight"		=> "700",
-		"text-shadow"		=> "3px 3px 12px rgba(50,50,50,0.2)",
-		],
-	
+		
 	"#body-content" => [
 		"display"		=> "block",
 		"color"			=> "#333",
