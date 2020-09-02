@@ -28,7 +28,6 @@ $sitemap_array = [
 		"world-kurdish-forum",
 		],
 	"israel" => [
-		"supporting-israel",
 		"minorities-affairs",
 		],
 	"press" => [
@@ -699,10 +698,6 @@ if ([$pageview_request, $language_request] == ["israel", "en"]):
 
 	echo "<blockquote>Israel is a safe haven in this region, in the Middle East, and in the cradle of mankind.</blockquote>";
 	
-	endif;
-
-if ([$pageview_request, $language_request] == ["supporting-israel", "en"]):
-
 	echo "<p>Dr. Zaken served as the National Director of the Institute of Students and Faculty on Israel (ISFI) in New York (1988-1991), and when returning to Israel, he continued his academic career, studying Islamic and Middle Eastern studies at the Hebrew university of Jerusalem. In 1997, he was asked to serve as the adviser on Arab Affairs to Prime Minister Benjamin Netanyahu (1997-1999), focusing on the Israeli Arab minority. He later served as the advisor on Arab Affairs at the Ministry of Public Security (2001-until now).</p>";
 	
 	echo "<blockquote>In my humble opinion, it is incumbent upon the Jewish people, as a people that has lived as a minority for thousands of years, to be sensitive to, and have a high degree of consciousness vis-a-vis the minorities living in their midst. I seek to operate in my position in accordance with this belief, to bring hearts together, and to widen the circles of co-existence between Arabs and Jews.</blockquote>"; 
