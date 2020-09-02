@@ -91,13 +91,6 @@
 		"ku"	=> "",
 		],
 	
-	"counseling-and-supervision" => [
-		"ar"	=> "",
-		"en"	=> "Counseling and Supervision",
-		"he"	=> "",
-		"ku"	=> "",
-		],
-	
 	"tomb-of-the-prophet-nahum" => [
 		"ar"	=> "",
 		"en"	=> "Tomb of the Prophet Nahum",
@@ -128,7 +121,7 @@
 		
 	"supporting-israel" => [
 		"ar"	=> "",
-		"en"	=> "Israel's Success",
+		"en"	=> "Israel Advocacy",
 		"he"	=> "",
 		"ku"	=> "",
 		],
