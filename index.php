@@ -166,25 +166,22 @@ $style_array = [
 		"column-rule"		=> "2px solid #fff",
 		],
 	
-	"#navigation-sitemap ul" => [
+	"#navigation-sitemap > div" => [
+		"padding"		=> "3px 0 0 0",
 		"margin"		=> "0",
 		"padding"		=> "0",
 		"text-align"		=> "left",
 		"max-width"		=> "300px",
-		],
-	
-	"#navigation-sitemap li, #navigation-sitemap li li" => [
-		"padding"		=> "3px 0 0 0",
-		"margin"		=> "0",
-		"list-style-type"	=> "none",
-		],
-	
-	"#navigation-sitemap li li" => [	
 		"-webkit-column-break-inside"	=> "avoid",
 		"page-break-inside"		=> "avoid",
 		"break-inside"			=> "avoid",
 		],
-		
+	
+	"#navigation-sitemap > div > div" => [
+		"padding"		=> "3px 0 0 0",
+		"margin"		=> "0",
+		],
+			
 	"#body-content" => [
 		"display"		=> "block",
 		"color"			=> "#333",
@@ -391,13 +388,11 @@ echo "<div id='navigation-header' amp-fx='parallax' data-parallax-factor='1.3'>"
 
 echo "<div id='navigation-sitemap' amp-fx='parallax' data-parallax-factor='1.17'><ul>";
 	foreach ($sitemap_array as $pageview_allowed => $subpageview_allowed_array):
-		echo "<li>• &nbsp; <a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a>";
-		if (empty($subpageview_allowed_array)): echo "</li>"; continue; endif;
-		echo "<ul>";
+		echo "<div>• &nbsp; <a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a>";
 		foreach ($subpageview_allowed_array as $subpageview_allowed):
-			echo "<li>• &nbsp; <a href='/?pageview=".$subpageview_allowed."&language=".$language_request."'>" . translatable_elements($subpageview_allowed) . "</a></li>";
+			echo "<div>• &nbsp; <a href='/?pageview=".$subpageview_allowed."&language=".$language_request."'>" . translatable_elements($subpageview_allowed) . "</a></div>";
 			endforeach;
-		echo "</ul></li>";
+		echo "</div>";
 		endforeach;
 	echo "</ul></div>";
 
