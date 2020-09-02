@@ -170,7 +170,7 @@ $style_array = [
 		],
 	
 	"#body-content amp-img" => [
-//		"max-height"		=> "600px",
+		"max-height"		=> "600px",
 		],
 	
 	"#body-content amp-img, #body-content amp-youtube" => [
