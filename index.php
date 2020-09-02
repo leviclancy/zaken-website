@@ -334,26 +334,38 @@ echo '<amp-animation id="fadeTransition"
   </script>
 </amp-animation>';
 
+function translatable_elements($string_id, $language_temp=null) {
+	global $translatable_elements;
+	global $language_request;
+	if (empty($language_temp)): $language_temp = $language_request; endif;
+	if (empty($translatable_elements[$string_id])): return; endif;
+	if (empty($translatable_elements[$string_id][$language_request])):
+		foreach ($translatable_elements[$string_id] as $language_temp => $content_temp):
+			if (!(empty($content_temp))): return $contentt_temp; endif;
+			endforeach;
+		endif;
+	return $translatable_elements[$string_id][$language_request]; }
+
 // Navigation buttons
 echo "<div id='navigation-header' amp-fx='parallax' data-parallax-factor='1.3'>";
 
-	echo "<span id='navigation-header-topline' amp-fx='parallax' data-parallax-factor='1.1'>". $translatable_elements["the-official-website-of"][$language_request] ."</span>";
-	echo "<span id='navigation-header-name' amp-fx='parallax' data-parallax-factor='1.1'>". $translatable_elements["dr-mordechai-moti-zaken"][$language_request] ."</span>";
-	echo "<span id='navigation-header-topline' amp-fx='parallax' data-parallax-factor='1.1'>". $translatable_elements["prepared-by-foundation-of-ours"][$language_request] ."</span>";
+	echo "<span id='navigation-header-topline' amp-fx='parallax' data-parallax-factor='1.1'>". translatable_elements("the-official-website-of") ."</span>";
+	echo "<span id='navigation-header-name' amp-fx='parallax' data-parallax-factor='1.1'>". translatable_elements("dr-mordechai-moti-zaken") ."</span>";
+	echo "<span id='navigation-header-topline' amp-fx='parallax' data-parallax-factor='1.1'>". translatable_elements("prepared-by-foundation-of-ours") ."</span>";
 
 	echo "<hr>";
 
 	foreach ($pageview_request_allowed as $pageview_request_allowed_temp):
 		if ($pageview_request_allowed_temp == $pageview_request):
-			echo "<div class='navigation-header-button navigation-header-button-selected'>". $translatable_elements[$pageview_request_allowed_temp][$language_request] ."</div>";
+			echo "<div class='navigation-header-button navigation-header-button-selected'>". translatable_elements($pageview_request_allowed_temp) ."</div>";
 			continue; endif;
 		echo "<a href='/?pageview=".$pageview_request_allowed_temp."&language=".$language_request."'>";
-		echo "<div class='navigation-header-button'>". $translatable_elements[$pageview_request_allowed_temp][$language_request] ."</div>";
+		echo "<div class='navigation-header-button'>". translatable_elements($pageview_request_allowed_temp) ."</div>";
 		echo "</a>";
 		endforeach;
 
 	echo "<a href='#Contact'>";
-	echo "<div class='navigation-header-button'>". $translatable_elements['contact'][$language_request] ."</div>";
+	echo "<div class='navigation-header-button'>". translatable_elements("contact") ."</div>";
 	echo "</a>";
 
 	echo "</div>";
