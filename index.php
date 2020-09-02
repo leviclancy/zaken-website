@@ -585,11 +585,11 @@ if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 
 	echo "<p>Please check back soon for more announcements on additional projects.</p>";
 
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='/media/t53whxjai2ijosfm-compressed.jpg' width='1.67' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>Early 20th century postcard of Erbil.</figcaption></figure>";
+//	echo "<figure class='amp-img-fader'>";
+//	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
+//	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
+//	echo "<amp-img src='/media/t53whxjai2ijosfm-compressed.jpg' width='1.67' height='1' layout='responsive'></amp-img>";
+//	echo "<figcaption>Early 20th century postcard of Erbil.</figcaption></figure>";
 
 	echo "<h2>Historical information</h2>";
 
@@ -609,11 +609,11 @@ if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 
 	echo "<blockquote>Israel has a moral obligation to help the Kurds. The Iraqi genocide against the Kurds is a signal that sympathy is not enough for survival in the Middle East.</blockquote>";
 
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='/media/3277-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>Details from a mosque in Erbil.</figcaption></figure>";
+//	echo "<figure class='amp-img-fader'>";
+//	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
+//	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
+//	echo "<amp-img src='/media/3277-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
+//	echo "<figcaption>Details from a mosque in Erbil.</figcaption></figure>";
 
 	echo "<p>Despite historical antisemitism by Kurdish chieftains, including attacks and abuses against the Jews under their authority, the Kurdish society has expressed an interest in the survival of Jews and Israel that reflects their own quest for self-determination.</p>";
 
@@ -631,15 +631,11 @@ if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 
 	echo "<h2>Israeli Leadership’s Support of the Kurds</h2>";
 
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
+	echo "<figure>";
 	echo "<amp-img src='/media/uzi-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Moti (right) with Brigadier General (Reserve) Uzi Dayan, a staunch supporter of the Kurds, in the Old City of Jerusalem.</figcaption></figure>";
 
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
+	echo "<figure>";
 	echo "<amp-img src='/media/sharansky-compressed.jpg' width='.75' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Moti (right) with Natan Sharansky, decorated Israeli political scientist and politician.</figcaption></figure>";
 
