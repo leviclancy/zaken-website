@@ -148,7 +148,8 @@ $style_array = [
 	"#navigation-header-topline" => [
 		"display"		=> "block",
 		"font-size"		=> "65%",
-		"font-family"		=> "'Noto Serif JP'",
+		"font-family"		=> "Molengo",
+//		"font-family"		=> "'Noto Serif JP'",
 //		"text-transform"	=> "uppercase",
 //		"letter-spacing"	=> "1px",
 		],
@@ -162,20 +163,20 @@ $style_array = [
 		"margin"		=> "0",
 		"font-size"		=> "90%",
 		"text-align"		=> "center",
-		],
-	
-	"#navigation-sitemap ul" => [
-		"margin"		=> "0",
-		"padding"		=> "0",
-		],
-
-	"#navigation-sitemap > ul" => [
-		"display"		=> "inline-block",
-		"margin"		=> "0 auto",
-		"text-align"		=> "left",
 		"column-count"		=> "2",
 		"column-gap"		=> "30px",
 		"column-width"		=> "300px",
+		],
+	
+	"#navigation-sitemap ul, #navigation-sitemap ul ul" => [
+		"margin"		=> "0",
+		"padding"		=> "0",
+		"display"		=> "inline-block",
+		"text-align"		=> "left",
+		],
+
+	"#navigation-sitemap > ul" => [
+		"margin"		=> "0 auto",
 		],
 	
 	"#navigation-sitemap li, #navigation-sitemap li li" => [
