@@ -643,13 +643,9 @@ if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 
 	echo "<p>In early October 2012, Moti was invited by Prof. Alan Dilani, founder of the World Kurdish Forum, to attend the Forum’s conference in Erbil, the capital of the autonomous Kurdistan Region.</p>";
 
-	echo "<amp-youtube data-videoid='UkSRVefP1Qw' layout='responsive' width='640' height='360'></amp-youtube>";
-
 	echo "<blockquote>During the days of the conference, I met many people and was able to see Kurdistan for myself, after more than two decades of research from afar.</blockquote>";
 
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
+	echo "<figure>";
 	echo "<amp-img src='/media/citadel-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Moti (left) and Yona Sabar (right) at the doorway of a former Jewish residence in Erbil.</figcaption></figure>";
 
@@ -663,13 +659,13 @@ if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 
 	echo "<blockquote>I visited the large mosque of the Citadel, located in a structure that had been previously a Jewish synagogue, as could be judged from its Jewish characteristics including the many symbols painted on its walls, and the purification bath adjacent to it.</blockquote>";
 
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
+	echo "<figure>";
 	echo "<amp-img src='/media/zakho-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Moti in Zakho.</figcaption></figure>";
 
 	echo "<blockquote>Thanks to the office of the Kurdistan Region’s Presidency, I was driven to the city of Zakho, where my father was born and which was previously home to a large Jewish community. I visited the Jewish neighborhood and the Jewish market, and I visited the remains of the small synagogue in Zakho. I also spoke with elderly local Kurds.</blockquote>";
+
+	echo "<amp-youtube data-videoid='UkSRVefP1Qw' layout='responsive' width='640' height='360'></amp-youtube>";
 
 	endif;
 	
