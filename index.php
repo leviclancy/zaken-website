@@ -456,7 +456,7 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='/media/5567-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
+	echo "<amp-img src='/media/4565-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Akre, near Duhok in the Kurdistan Region of Iraq.</figcaption></figure>";
 
 	echo "<blockquote>Within the scope of my jurisdiction as the head of minorities affairs at the Ministry of Public Security, and as a consultant to the National Association, I continue to work and cooperate with leaders in Israel and abroad to foster Israeli-Christian, Israeli-Kurdish, and Israeli-Assyrian friendship.</blockquote>";
