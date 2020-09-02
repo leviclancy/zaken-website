@@ -163,7 +163,7 @@ $style_array = [
 		"column-count"		=> "2",
 		"column-gap"		=> "30px",
 		"column-width"		=> "300px",
-		"column-rule"		=> "2px solid #fff",
+//		"column-rule"		=> "2px solid #fff",
 		],
 	
 	"#navigation-sitemap div, #navigation-sitemap div div" => [
@@ -171,7 +171,6 @@ $style_array = [
 		"margin"		=> "0",
 		"padding"		=> "0",
 		"text-align"		=> "left",
-		"max-width"		=> "300px",
 		"-webkit-column-break-inside"	=> "avoid",
 		"page-break-inside"		=> "avoid",
 		"break-inside"			=> "avoid",
