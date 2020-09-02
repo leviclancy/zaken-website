@@ -9,7 +9,7 @@
 		
 	"dr-mordechai-moti-zaken" => [
 		"ar"	=> "",
-		"en"	=> "Dr. Mordechai \"Moti\" Zaken",
+		"en"	=> "Dr. Mordechai (Moti) Zaken",
 		"he"	=> "",
 		"ku"	=> "",
 		],
