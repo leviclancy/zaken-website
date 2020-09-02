@@ -168,11 +168,11 @@ $style_array = [
 		
 	".navigation-sitemap-item" => [
 //		"display"		=> "block",
-//		"max-width"		=> "300px",
+		"max-width"		=> "300px",
 		"margin"		=> "0 auto",
 		"padding"		=> "10px 10px 0 10px",
 		"text-align"		=> "left",
-		"display"		=> "inline-table",
+		"display"		=> "block",
 		"webkit-column-break-inside"	=> "avoid",
 		"page-break-inside"		=> "avoid",
 		"break-inside"			=> "avoid",
