@@ -168,13 +168,18 @@ $style_array = [
 		"column-gap"		=> "30px",
 		"column-width"		=> "300px",
 		],
+
+	"#navigation-sitemap ul ul" => [
+		"margin"		=> "0",
+		"padding"		=> "0",
+		],
 	
 	"#navigation-sitemap li" => [
 		"-webkit-column-break-inside"	=> "avoid",
 		"page-break-inside"		=> "avoid",
 		"break-inside"			=> "avoid",
 		"padding"		=> "3px 0 0 0",
-		"margin"		=> "0 0 0 15px",
+		"margin"		=> "0 0 0 5px",
 		"list-style-type"	=> "none",
 		],
 		
