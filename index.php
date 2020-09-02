@@ -179,7 +179,7 @@ $style_array = [
 		"page-break-inside"		=> "avoid",
 		"break-inside"			=> "avoid",
 		"padding"		=> "3px 0 0 0",
-		"margin"		=> "0 0 0 5px",
+		"margin"		=> "0",
 		"list-style-type"	=> "none",
 		],
 		
