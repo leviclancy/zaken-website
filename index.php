@@ -381,7 +381,9 @@ echo "<div id='navigation-header' amp-fx='parallax' data-parallax-factor='1.3'>"
 
 	echo "</div>";
 
-echo "<div id='navigation-sitemap' amp-fx='parallax' data-parallax-factor='1.25'><ul>";
+echo "<h1 amp-fx='parallax' data-parallax-factor='1.25'>" . translatable_elements($pageview_request) ."</h1>";
+
+echo "<div id='navigation-sitemap' amp-fx='parallax' data-parallax-factor='1.17'><ul>";
 	foreach ($sitemap_array as $pageview_allowed => $subpageview_allowed_array):
 		echo "<li><b>&sect; &nbsp; <a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a></b>";
 		if (empty($subpageview_allowed_array)): echo "</li>"; continue; endif;
@@ -394,8 +396,6 @@ echo "<div id='navigation-sitemap' amp-fx='parallax' data-parallax-factor='1.25'
 	echo "</ul></div>";
 
 echo "<div id='body-content'>";
-
-echo "<h1 amp-fx='parallax' data-parallax-factor='1.17'>" . translatable_elements($pageview_request) ."</h1>";
 
 if ([$pageview_request, $language_request] == ["biographical-notes", "en"]):
 
