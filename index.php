@@ -577,7 +577,7 @@ if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
+	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='/media/5271-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Renovation work on the Shrine of the Prophet Nahum.</figcaption></figure>";
 
@@ -587,7 +587,7 @@ if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
+	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='/media/t53whxjai2ijosfm-compressed.jpg' width='1.67' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Early 20th century postcard of Erbil.</figcaption></figure>";
 
@@ -601,7 +601,7 @@ if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 	
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
+	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='/media/1853-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Newroz celebrations at the Peshmerga frontline.</figcaption></figure>";
 
@@ -611,7 +611,7 @@ if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
+	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='/media/3277-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Details from a mosque in Erbil.</figcaption></figure>";
 
@@ -621,7 +621,7 @@ if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
+	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='/media/6916-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Kurdish Jews near Jerusalem.</figcaption></figure>";
 
@@ -633,13 +633,13 @@ if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
+	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='/media/uzi-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Moti (right) with Brigadier General (Reserve) Uzi Dayan, a staunch supporter of the Kurds, in the Old City of Jerusalem.</figcaption></figure>";
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
+	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='/media/sharansky-compressed.jpg' width='.75' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Moti (right) with Natan Sharansky, decorated Israeli political scientist and politician.</figcaption></figure>";
 
@@ -653,7 +653,7 @@ if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
+	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='/media/citadel-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Moti (left) and Yona Sabar (right) at the doorway of a former Jewish residence in Erbil.</figcaption></figure>";
 
