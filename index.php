@@ -12,7 +12,7 @@ mb_internal_encoding('UTF-8');
 mb_http_output('UTF-8');
 
 // The pageview is passed in the URL
-$pageview_request_allowed = [ "about", "bookstore", "kurdistan-region", "israel", ];
+$pageview_request_allowed = [ "about", "publications", "kurdistan-region", "israel", "media" ];
 $pageview_request = ( empty($_REQUEST['pageview']) ? null : $_REQUEST['pageview'] );
 if (!(in_array($pageview_request, $pageview_request_allowed))):
 	header("HTTP/1.1 301 Moved Permanently");
@@ -384,13 +384,13 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 
 	echo "<p>Over time, Dr. Zaken interviewed a total of 62 informants from Kurdistan. Most of them he met once or twice. Others he met three or four times. And there were some informants who were like rising springs, whom he met with six, seven, and eight times.</p>";
 
-	echo "<blockquote>During my last meeting with the late Michael Michaeli, I asked him when we would meet again. Micheali, in a theatrical act, pulled his trouser pockets inside out, as if to show that nothing has left for him to give. He said, \"I shared with you everything I know. There is nothing left.\"</blockquote>";
+	echo "<blockquote>During my last meeting with the late Michael Michaeli, I asked him when we would meet again. Micheali, in a theatrical act, pulled his trouser pockets inside out, as if to show that nothing has left for him to give. He said, 'I shared with you everything I know. There is nothing left.'</blockquote>";
 
 	echo "<p><b>Contribution to broader Kurdish history.</b> This research, which was acclaimed, illuminated many topics that written documents have either totally or partially ignored. Documenting the oral history of the Jews of Kurdistan has in fact saved the memories of many Jewish informants from being lost forever, and saved details on the Jewish communities, the Jewish families, and the tribal Kurdish figures with whom the Jews had been in contact. Furthermore, it provided much-needed information and observational insight into the relationship between the Jews and their Kurdish neighbors and masters.</p>";
 
 	echo "<h2>Kurdish Advocacy</h2>";
 
-	echo "<p>Dr. Zaken is an expert on the tribal Kurdish society. As a pro-Kurdish activist, he established the Israeli-Kurdish Friendship League (IKFL) in 1992 in Jerusalem, probably the first friendship league between Jews and Muslims. Today, he serves as the Counselor of the \"National Association of Jews from Kurdistan\" regarding Jewish history and heritage in Kurdistan. Recently, he was named by the Association as the Counselor to the Kurdistan Regional Government, serving as a representative on the interests of the Jewish community and supervising the important Jewish heritage sites including the tomb of the Prophet Nahum in alQosh and other projects.</p>";
+	echo "<p>Dr. Zaken is an expert on the tribal Kurdish society. As a pro-Kurdish activist, he established the Israeli-Kurdish Friendship League (IKFL) in 1992 in Jerusalem, probably the first friendship league between Jews and Muslims. Today, he serves as the Counselor of the 'National Association of Jews from Kurdistan' regarding Jewish history and heritage in Kurdistan. Recently, he was named by the Association as the Counselor to the Kurdistan Regional Government, serving as a representative on the interests of the Jewish community and supervising the important Jewish heritage sites including the tomb of the Prophet Nahum in alQosh and other projects.</p>";
 
 	echo "<h2>Personal Life</h2>";
 
@@ -438,8 +438,9 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 	echo "<tr><td>2001 May — 2007 May</td><td>Adviser on Minorities Affairs at Israel's Ministry of Internal Security.</td></tr>";
 	echo "<tr><td>2001 — 2003</td><td>Dr. Zaken was the coordinator of the (3rd) Ministerial Committee to resolve the dispute between Christans and Muslims at the Basilica of the Annunciation in Nazareth.</td></tr>";
 	echo "<tr><td>1999 Nov — 2001 Dec</td><td>Founder of East-Up Inc, which aimed to enhance medical services to the Arabic-speaking world in the Middle East, through the internet.</td></tr>";
+	echo "<tr><td>1999 Jun</td><td>Married in Jerusalem, on Mount Scopus, with a wedding attended by Prime Minister (and First Lady) Netanyahu, whom Zaken advised at the time on local Arab Affairs, as well as other leaders. Dr. Zaken and Riki continue to live in Jerusalem and have three children: Tzah, Tahel, and Ohad.</td></tr>";
 	echo "<tr><td>1997 May - 1999 Dec</td><td>Prime Minister's Adviser on Arab Affairs.</td></tr>";
-	echo "<tr><td>1997</td><td>Published: \"Inventors' Fate\", A Folk-Tale in the Neo-Aramaic of Zakho.</td></tr>";
+	echo "<tr><td>1997</td><td>Published: Inventors' Fate, A Folk-Tale in the Neo-Aramaic of Zakho.</td></tr>";
 	echo "<tr><td>1993</td><td>Co-founder of The Israel-Kurdistan Friendship League, established in Jerusalem to faciliate friendship and dialogue between Israel and Kurdistan, as well as the Kurdish (mostly Muslim) world and the communities of Jews from Kurdistan as well as Jews interested in Kurdistan.</td></tr>";
 	echo "<tr><td>1992</td><td>Upon returning to Israel in 1992, Dr. Zaken taught at the Hebrew University of Jerusalem for several years.</td></tr>";
 	echo "<tr><td>1990</td><td>Published: The Book of Ruth. The entire Book of Ruth was translated into New-Aramaic by the great Semitic scholar Gideon Goldberg, and Dr. Zaken.</td></tr>";
@@ -460,18 +461,17 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 	echo "<blockquote>The relationship between Israel and the Jews, and the Kurds, should be strengthened and encouraged because these two people have a lot in common. I welcome all Kurds to establish contact with Jews.</blockquote>";
 
 	echo "<table><tbody>";
-	echo "<tr><td>1999 Jun</td><td>Married in Jerusalem, in Monunt Scopus, with a wedding attended by Prime Minister (and First Lady) Netanyahu, whom Zaken advised at the time on local Arab Affairs, as well as other leaders. Dr. Zaken and Riki continue to live in Jerusalem and have three children: Tzah, Tahel, and Ohad.</td></tr>";
 	echo "<tr><td>1985 - 2002</td><td>He conducted hundreds of first-hand oral history accounts in Israel and abroad with more than 60 elderly Kurdish Jews, originally from Kurdistan, who shared their knowledge on the tribal Kurdish society and setting with him. From this, Dr. Zaken was able to reconstruct and tell the history of the Jews and the tribal Kurdish society.</td></tr>";
 	echo "<tr><td>1984 - 1985</td><td>As an MA student at Hebrew University, he wished to write a paper on the economy of Kurdistani Jews. To his astonishment, he discovered that there was hardly any written material on the Kurds and on the Jews of Kurdistan. Because of the lack of written material, he had to resort to oral-history and interviewed 12 elderly Kurdistani Jews for that paper alone.</td></tr>";
 	echo "<tr><td>1984</td><td>Completed his BA in Political Science and Near Eastern & Islamic Studies at the Hebrew University of Jerusalem.</td></tr>";
-	echo "<tr><td>1983</td><td>Co-Chief Editor of 'Tipul Shoresh', an annual about activism at the Hebrew Universe of the public activists' program at the Hebrew University, the circulation of which was stopped by the directors and university administration, due to its critical approach towards the university policy regarding social issues.</td></tr>";
-	echo "<tr><td>1982</td><td>Editor-in-Chief of 'Pi Ha-Aton' (פי-האתון), a student newspaper. On 26 April 1982, for a special Independence Day edition, Dr. Zaken published photos (and the story behind their uncovering) taken in 1948 by Arabs, which showed mutilated faces and bodies of Jewish soldiers who had been in an army unit which later became know as the 'Nabi Daniel Caravan' (שיירת נבי דניאל).</td></tr>";
+	echo "<tr><td>1983</td><td>Co-Chief Editor of 'Tipul Shoresh', part of the public activists' program at the Hebrew University, the circulation of which was stopped by the directors and university administration due to its critical approach towards the university policy regarding social issues.</td></tr>";
+	echo "<tr><td>1982</td><td>Editor-in-Chief of ‘Pi Ha-Aton’ (פי-האתון), a student newspaper. On 1982 Apr 26, for a special Independence Day edition, Dr. Zaken published photos taken in 1948 by Arabs (and the story behind the photos’ uncovering). The photos showed mutilated faces and bodies of Jewish soldiers who had been in an army unit which later became known as the ‘Nabi Daniel Caravan' (שיירת נבי דניאל).</td></tr>";
 	echo "<tr><td>1980</td><td>Began his baccalaureate studies at the Hebrew University of Jerusalem.</td></tr>";
-	echo "<tr><td>1958</td><td>Moti is born in Jerusalem to his mother Batyah and his father Saleh; his mother was born in Israel, and his father was born in Zakho in the Kurdistan Region.</td></tr>";
+	echo "<tr><td>1958</td><td>Moti is born in Jerusalem to his mother Batyah and his father Saleh; his mother was born in Israel of Kurdish descent, and his father was born in Zakho in the Kurdistan Region.</td></tr>";
 	echo "<tr><td></td><td></td></tr>";
 	echo "</tbody></table>";
 
-	echo "<blockquote>In the neighborhood where I grew up, we spoke Aramaic and Kurdish together. These people left Kurdistan, but Kurdistan did not leave them.</blockquote>";
+	echo "<blockquote>In the neighborhood where I grew up, we spoke Aramaic mixed with some Kurdish. The people left Kurdistan, but Kurdistan did not leave them.</blockquote>";
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
@@ -483,82 +483,70 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 // 	echo "<blockquote>I am grateful to scholars such as... Who have accomplished... .</blockquote>";
 // 	echo "<p>His most favored and inspiring teachers have been Professor Moshe Sharon (under whom he studied Islamic civilization and culture as well as Arabic and Farsi); Professor B. Z. Kedar (general History and comparative history); Professor Gideon Goldenberg (Neo-Aramaic of the Jews and Assyrians of the Kurdish regions); Professor Michael Zand (Farsi); and the late Prof. Amnon Netzer (Farsi and Persian Jewish History).</p>";
 
-	echo "<h2>Media summary</h2>";
-
-	echo "<table><tbody>";
-	echo "<tr><td>2019 Mar</td><td><a href='https://www.hudson.org/research/14847-lending-a-helping-hand-to-strangers-and-sojourners'>Hudson Institute</a></td></tr>";	
-	echo "<tr><td>2018 Nov</td><td><a href='https://www.tabletmag.com/sections/israel-middle-east/articles/kurdistan-and-israel'>Interview with Tablet Mag about the Kurdistan Region</a></td></tr>";	
-	echo "<tr><td>2017 Oct</td><td><a href='https://www.thejewishstar.com/stories/kurd-foes-use-israeli-stance-to-rally-allies,14560'>The Jewish Star</a></td></tr>";
-	echo "<tr><td>2017 Apr</td><td><a href='https://www.youtube.com/watch?v=i8yI-SLzSKg'>Interview on CBN about Israel-Christian relations</a></td></tr>";	
-	echo "<tr><td>2017 Jan</td><td><a href='https://nypost.com/2017/01/27/israelis-eager-to-welcome-us-embassy-to-jerusalem/'>NY Post</a></td></tr>";	
-	echo "<tr><td>2015 Dec</td><td><a href='https://www.jpost.com/middle-east/use-of-jewish-issue-by-krg-official-may-cause-confusion-and-damage-436499'>Interview on impostors in the Kurdistan Region</a></td></tr>";	
-	echo "<tr><td>2015 Nov</td><td><a href='https://www.jpost.com/middle-east/so-are-there-jews-in-kurdistan-432756'>Interview on impostors in the Kurdistan Region</a></td></tr>";	
-	echo "<tr><td>2015 Aug</td><td><a href='https://www.sbs.com.au/language/english/audio/how-did-the-kurdish-jews-migrate-to-israel'>Interview with SBS</a></td></tr>";	
-	echo "<tr><td>2006 May 11</td><td>Meeting with Hamas: <a href='http://cbgonzo.blogspot.co.il/2006/05/10-more-questions.html'>Yahoo news</a></td></tr>";	
-	echo "<tr><td>1999 Apr 21</td><td>Likud Denies It Is Exploiting Conflict: <a href='http://articles.latimes.com/1999/apr/21/news/mn-29526/2'>LA Times</a></td></tr>";	
-	echo "<tr><td>1999 Apr 20</td><td>Compromise on Nazareth: <a href='http://www.nytimes.com/1999/04/20/world/israel-sets-forth-compromise-plan-on-nazareth-mosque-dispute.html'>NY Times</a></td></tr>";	
-	echo "<tr><td>1999 Apr 07</td><td>Protesting demolition of homes: <a href='http://articles.latimes.com/1998/apr/07/news/mn-36961'>LA Times</a></td></tr>";	
-	echo "<tr><td>1999 Apr 06</td><td>Demolition of homes: <a href='http://www.apnewsarchive.com/1998/Israeli-Arabs-Protest-Demolition/id-debabd28296ea20a9d9a26c5de57ad57'>AP</a></td></tr>";	
-	echo "<tr><td>1998 Apr 28</td><td>Unrecognized villages: <a href='http://edition.cnn.com/WORLD/meast/9804/28/israel.forty.villages/index.old.html'>CNN</a></td></tr>";	
-	echo "<tr><td></td><td></td></tr>";
-	echo "<tr><td></td><td></td></tr>";
-	echo "<tr><td></td><td></td></tr>";
-	echo "</tbody></table>";
-
-//	http://israeli-kurdish-friendship-league.blogspot.com/
-
 	endif;
 
-if ([$pageview_request, $language_request] == ["bookstore", "en"]):
+if ([$pageview_request, $language_request] == ["publications", "en"]):
 
-	echo "<h1>Bookstore</h1>";
+	echo "<h1>Publications</h1>";
 
 	echo "<blockquote>The book of Dr. Mordechai Zaken is the most important book written on the Jews of Kurdistan. <i>(Lora Galichco, scholar and descendant of Kurdish Jews)</i></blockquote>";
 
-	echo "<p><i>The Jews of Kurdistan</i> tells the stories of Jewish subjects that had lived and survived under the patronage of their tribal chieftains (or “aghas,” i.e., masters) during the 19th and 20th centuries, in towns as well as in distant villages.</p>";
+	echo "<blockquote>[This] is highly original and makes a significant contribution … His documentation is based on firsthand information, and is of the highest value. <i>(Dr. Joyce Blau, scholar)</i></blockquote>";
 
-	echo "<p><b>Buy <i>The Jews of Kurdistan: A Study in Survival</i> for $15 at <a href='https://kurdishjews.com/'>kurdishjews.com</a>.</b></p>";
+	echo "<p>The Jews of Kurdistan tells the stories of Jewish subjects that had lived and survived under the patronage of their tribal chieftains (or ‘aghas,’ i.e., masters) during the 19th and 20th centuries, in towns as well as in distant villages.</p>";
+
+	echo "<blockquote>It so happened that  the Jews of Kurdistan were able to preserve their own history and the history of their neighbours. Kurdish Jews from Kurdistan who immigrated to Israel and continued wearing Kurdish clothes, eating Kurdish food, and listening to Kurdish music every day of their lives. They kept the traditions of Kurdistan alive.</blockquote>";
+
+	echo "<p><b>Buy <i>The Jews of Kurdistan: A Study in Survival for $15 at <a href='https://kurdishjews.com/'>kurdishjews.com</a>.</b></p>";
 
 	echo "<blockquote>This is an original, comprehensive study on the Jewish community in Kurdistan in the last stages of its existence, during the first half of the 20th century. The scope of this study is far wider than its name. <i>(Moshe Sharon, Hebrew University)</i></blockquote>";
+
+	echo "<h2>Translations</h2>";
+
+	echo "<p>The Jews of Kurdistan has been translated into multiple languages, including an Arabic translation published in Beirut without the  previous knowledge or consent of the author.  The fact that he is an Israeli was removed from the biography printed on the book cover in Arabic. The author is indeed highly praised, but he is introduced as an American Jewish scholar from NYU.</p>";
+
+	echo "<p>Interestingly, the cover is the famous 1878 artwork Jews Praying in the Synagogue on Yom Kippur, by Jewish painter Mauryey Gottlieb (1856-1879). He was a Polish Jewish realist painter who made significant contributions towards creating the genre of Jewish Art. The editors of the book in Arabic needed a picture for its cover, and when looking for a picture of Jews or some sort of symbol of Judaism, someone must have pulled this painting from the internet. Imagery and symbolism about Yom Kippur (the holiest day of the year for Jews) is prominent in the piece, which exemplifies many artistic values that are significant to Eastern European Jews at the time. It also contains many deeper allusions about Gottlieb’s short life. However, it has nothing to do with the Jews of the East and the Jews of Kurdistan.</p>";
 
 	endif;
 
 if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 
-	echo "<h1>The Kurdistan Region</h1>";
+	echo "<h1>Kurdistan Region</h1>";
 
-//	echo "<blockquote>The Kurds are proud people, and smart people. They are smart enough to draw their own conclusion from the political and historical situation.</blockquote>";
+	echo "<p>Dr. Zaken was named as the Counselor to the Kurdistan Region regarding Jewish concerns, religious sites, heritage sites, and culture, on behalf of the community of Jews from Kurdistan by the authority of the National Association of Jews from Kurdistan in Israel.</p>";
 
-	echo "<p>Dr. Zaken's role with the National Association </p>";
+	echo "<h2>The Tomb of the Prophet Nahum</h2>";
 
-	echo "<h2>Shrine of Nahum</h2>";
+	echo "<p>The tomb of the Prophet Nahum, located in alQosh, is being renovated under the management of the Alliance for the Restoration of Cultural Heritage (ARCH) and the Kurdistan Regional Government. Dr. Zaken serves as a member of the board which is entrusted with monitoring the site, and has been instrumental in providing the blessing of the community of Jews from Kurdistan for whom the tomb complex served as a beating heart for thousands of years.</p>";
 
-	echo "<p>Credit to ARCH and the KRG. Dr. Zaken is a member in the Board, the joint statement, the rehabilitation of the tomb, etc.</p>";
+	echo "<h2>Additional Projects</h2>";
+
+	echo "<p>Please check back soon for more announcements on additional projects.</p>";
 
 	echo "<h2>Historical information</h2>";
 
 	echo "<blockquote>In 1950 and 1951, the entire Kurdish Jewish community immigrated to Israel. Over the years, Israeli Kurds followed the struggle of their Muslim brothers with great interest.</blockquote>";
 
-	echo "<p>There are at present in Israel...</p>";
+	echo "<p>The initial immigrants have established in Israel a community of hundreds of thousands of Jews from Kurdistan, through their children, grandchildren, and further descendants.</p>";
 
-	echo "<blockquote>The late Kurdish leader Mula Mustafa Barzani secretly visited Israel twice to meet with Israeli authorities. He also saw his Kurdish Jewish friend, David Gabai. In the 1930s, Gabai's father, Eliyahu, the leader of the Iraqi Jewish community of Aqara, Iraq, supplied food and aid to the Kurds who were revolting against the British. Some say that this special connection between the two families held increase Barzani's confidence in Israel.</blockquote>";
-
-	echo "<p>During the referendum on independence...</p>";
-
-//	echo "<blockquote>I became invovled in Kurdistan in a very pecular way. I was a student at the Hebrwe University of Jerusalem when I wanted to write a paper about the economy of Kurdistan. My professor said <i>fine</i> but then I realized there were hardly any documents in Hebrew, in Arabic, nor other other languages. So I had to interview people for this apper. For this paper on ethe economy of Zakho, whre my father is from, I itnerviewe 12 people. This fantastic mechanism, this experience fo interviewing old Kurdish Jews really fascinated me and drew me into the subject. These Krudish people, these Jewish Kurds who lived in Israel, but they lived for fifty eyars,for sitxy years in Kurdistan, ahd grown up in an oral culture. They spoke four, five, six languages; tey knew the map by ehart because they traveld by donkey or mule; and they knew all the villages, all the aghas, all the histories of Kurdsitan becaue they lived it. </blockquote>";
+	echo "<blockquote>The late Kurdish leader Mala Mustafa Barzani secretly visited Israel twice to meet with Israeli authorities. He also saw his Kurdish Jewish friend, David Gabai. In the 1930s, Gabai's father, Eliyahu, the leader of the Iraqi Jewish community of Aqra, Iraq, supplied food and aid to the Kurds who were revolting against the British. Some say that this special connection between the two families helped to increase Barzani's confidence in Israel.</blockquote>";
+	
+	echo "<p>Since the referendum on independence, there has emerged a renewed solidarity between Jews in Israel and Kurds in Kurdistan. Israeli flags waved at rallies in the Kurdistan Region, while Kurdish flags waved at rallies in Israel.</p>";
 
 	echo "<blockquote>Israel has a moral obligation to help the Kurds. The Iraqi genocide against the Kurds is a signal that sympathy is not enough for survival in the Middle East.</blockquote>";
 
-	echo "<p>Attitudes toward...</p>";
+	echo "<p>Despite historical antisemitism by Kurdish chieftains, including attacks and abuses against the Jews under their authority, the Kurdish society has expressed an interest in the survival of Jews and Israel that reflects their own quest for self-determination.</p>";
 
-//	echo "<blockquote>The Kurdish people often forgot their history because they were busy with their struggle, with being oppressed. They had so many economic, social, military problems — and the Assyrians also, were dispersed. So the only people who kept the memory of Kurdistan were Kurdish Jews from Kurdistan who immigrated to Israel and continued wearing Kurdish clothes, eating Kurdish food, and listening to Kurdish music every day of their lives. They kept the traditions of Kurdistan alive.</blockquote>";
+	echo "<blockquote>Some aghas were not so nice, exploited the Jews, and took advantage of the Jews economically, physically, and other ways. However, I want to emphasize the good values, the good memories the Jews had from Kurdistan. And I want to share this with people.</blockquote>";
+
+	echo "<p>Today, there is an inextricable relationship between Jewish people and Kurdish people in terms of culture, heritage, and existence in the Arab-majority Middle East.</p>";
 
 	echo "<blockquote>The Kurds are entitled to an independent Kurdish national home just like the Jews, and they will sooner or later be granted this statehood.</blockquote>";
 
-//	echo "<blockquote>Some aghas were not so nice, exploited the Jews, and took advantage of the Jews economically, physicially, and other ways. However, I want to emphasize the good values, the good memories the Jews had from Kurdistan. And I want to share this with people.</blockquote>";
-		
-	echo "<p></p>";
+	echo "<h2>Israeli Leadership’s Support of the Kurds</h2>";
+
 	
+
 	endif;
 	
 if ([$pageview_request, $language_request] == ["israel", "en"]):
@@ -590,6 +578,34 @@ if ([$pageview_request, $language_request] == ["israel", "en"]):
 	echo "<p>Meeting with the Greek Orthodox Patriarch,</p>";
 	echo "<amp-youtube data-videoid='KK2l8vaqrLo' layout='responsive' width='640' height='360'></amp-youtube>";
 	
+	endif;
+
+if ([$pageview_request, $language_request] == ["media", "en"]):
+
+	echo "<h2>Media summary</h2>";
+
+	echo "<table><tbody>";
+	echo "<tr><td>2019 Mar</td><td><a href='https://www.hudson.org/research/14847-lending-a-helping-hand-to-strangers-and-sojourners'>Hudson Institute</a></td></tr>";	
+	echo "<tr><td>2018 Nov</td><td><a href='https://www.tabletmag.com/sections/israel-middle-east/articles/kurdistan-and-israel'>Interview with Tablet Mag about the Kurdistan Region</a></td></tr>";	
+	echo "<tr><td>2017 Oct</td><td><a href='https://www.thejewishstar.com/stories/kurd-foes-use-israeli-stance-to-rally-allies,14560'>The Jewish Star</a></td></tr>";
+	echo "<tr><td>2017 Apr</td><td><a href='https://www.youtube.com/watch?v=i8yI-SLzSKg'>Interview on CBN about Israel-Christian relations</a></td></tr>";	
+	echo "<tr><td>2017 Jan</td><td><a href='https://nypost.com/2017/01/27/israelis-eager-to-welcome-us-embassy-to-jerusalem/'>NY Post</a></td></tr>";	
+	echo "<tr><td>2015 Dec</td><td><a href='https://www.jpost.com/middle-east/use-of-jewish-issue-by-krg-official-may-cause-confusion-and-damage-436499'>Interview on impostors in the Kurdistan Region</a></td></tr>";	
+	echo "<tr><td>2015 Nov</td><td><a href='https://www.jpost.com/middle-east/so-are-there-jews-in-kurdistan-432756'>Interview on impostors in the Kurdistan Region</a></td></tr>";	
+	echo "<tr><td>2015 Aug</td><td><a href='https://www.sbs.com.au/language/english/audio/how-did-the-kurdish-jews-migrate-to-israel'>Interview with SBS</a></td></tr>";	
+	echo "<tr><td>2006 May 11</td><td>Meeting with Hamas: <a href='http://cbgonzo.blogspot.co.il/2006/05/10-more-questions.html'>Yahoo news</a></td></tr>";	
+	echo "<tr><td>1999 Apr 21</td><td>Likud Denies It Is Exploiting Conflict: <a href='http://articles.latimes.com/1999/apr/21/news/mn-29526/2'>LA Times</a></td></tr>";	
+	echo "<tr><td>1999 Apr 20</td><td>Compromise on Nazareth: <a href='http://www.nytimes.com/1999/04/20/world/israel-sets-forth-compromise-plan-on-nazareth-mosque-dispute.html'>NY Times</a></td></tr>";	
+	echo "<tr><td>1999 Apr 07</td><td>Protesting demolition of homes: <a href='http://articles.latimes.com/1998/apr/07/news/mn-36961'>LA Times</a></td></tr>";	
+	echo "<tr><td>1999 Apr 06</td><td>Demolition of homes: <a href='http://www.apnewsarchive.com/1998/Israeli-Arabs-Protest-Demolition/id-debabd28296ea20a9d9a26c5de57ad57'>AP</a></td></tr>";	
+	echo "<tr><td>1998 Apr 28</td><td>Unrecognized villages: <a href='http://edition.cnn.com/WORLD/meast/9804/28/israel.forty.villages/index.old.html'>CNN</a></td></tr>";	
+	echo "<tr><td></td><td></td></tr>";
+	echo "<tr><td></td><td></td></tr>";
+	echo "<tr><td></td><td></td></tr>";
+	echo "</tbody></table>";
+
+//	http://israeli-kurdish-friendship-league.blogspot.com/
+
 	endif;
 	
 echo "</div>";
