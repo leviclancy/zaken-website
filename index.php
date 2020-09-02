@@ -132,20 +132,20 @@ $style_array = [
 		"padding"		=> "50px 0 40px",
 		],
 	
-	"#navigation-header-topline" => [
-		"display"		=> "block",
-		"font-size"		=> "70%",
-		"font-family"		=> "'Noto Serif JP'",
-		"text-transform"	=> "uppercase",
-		"letter-spacing"	=> "1px",
-		],
-	
 	"#navigation-header-name" => [
-		"margin"		=> "15px auto 20px",
+		"margin"		=> "20px auto 25px",
 		"display"		=> "block",
 		"font-size"		=> "150%",
 		"font-weight"		=> "700",
 		"font-family"		=> "'Alegreya SC'",
+		],
+	
+	"#navigation-header-topline" => [
+		"display"		=> "block",
+		"font-size"		=> "65%",
+		"font-family"		=> "'Noto Serif JP'",
+//		"text-transform"	=> "uppercase",
+//		"letter-spacing"	=> "1px",
 		],
 		
 	"#navigation-sitemap" => [
@@ -377,7 +377,6 @@ function translatable_elements($string_id, $language_temp=null) {
 // Navigation buttons
 echo "<div id='navigation-header' amp-fx='parallax' data-parallax-factor='1.3'>";
 
-//	echo "<span id='navigation-header-topline' amp-fx='parallax' data-parallax-factor='1.1'>". translatable_elements("the-official-website-of") ."</span>";
 	echo "<span id='navigation-header-name' amp-fx='parallax' data-parallax-factor='1.1'>". translatable_elements("dr-mordechai-moti-zaken") ."</span>";
 	echo "<span id='navigation-header-topline' amp-fx='parallax' data-parallax-factor='1.1'>". translatable_elements("prepared-by-foundation-of-ours") ."</span>";
 
