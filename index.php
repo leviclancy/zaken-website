@@ -166,6 +166,7 @@ $style_array = [
 	
 
 	"#body-content figure, #body-content amp-img" => [
+		"max-height"		=> "700px",
 		"max-width"		=> "950px",
 		"padding"		=> "0",
 		],
@@ -357,8 +358,8 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 	echo "<figure class='amp-img-fader' amp-fx='parallax' data-parallax-factor='1.14'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='_DSF9626-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>Moti, during a meeting in Jerusalem.</figcaption></figure>";
+	echo "<amp-img src='/media/uzi-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
+	echo "<figcaption>Moti (right) with Brigadier General (Reserve) Uzi Dayan, a staunch supporter of the Kurds, in the Old City of Jerusalem.</figcaption></figure>";
 
 	echo "<h2 amp-fx='parallax' data-parallax-factor='1.1'>Biographical notes</h2>";
 
@@ -382,9 +383,21 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 
 	echo "<blockquote>What fascinated me was the process of interviewing elderly yet smart people who were not just knowledgeable, but true fountainheads of information.</blockquote>";
 
+	echo "<figure class='amp-img-fader'>";
+	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
+	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
+	echo "<amp-img src='/media/3666-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
+	echo "<figcaption>View of Shaqlawa, near Erbil.</figcaption></figure>";
+
 	echo "<p>Over time, Dr. Zaken interviewed a total of 62 informants from Kurdistan. Most of them he met once or twice. Others he met three or four times. And there were some informants who were like rising springs, whom he met with six, seven, and eight times.</p>";
 
 	echo "<blockquote>During my last meeting with the late Michael Michaeli, I asked him when we would meet again. Micheali, in a theatrical act, pulled his trouser pockets inside out, as if to show that nothing has left for him to give. He said, 'I shared with you everything I know. There is nothing left.'</blockquote>";
+
+	echo "<figure class='amp-img-fader'>";
+	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
+	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
+	echo "<amp-img src='/media/7258-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
+	echo "<figcaption>Renovation work underway at the Shrine of the Prophet Nahum.</figcaption></figure>";
 
 	echo "<p><b>Contribution to broader Kurdish history.</b> This research, which was acclaimed, illuminated many topics that written documents have either totally or partially ignored. Documenting the oral history of the Jews of Kurdistan has in fact saved the memories of many Jewish informants from being lost forever, and saved details on the Jewish communities, the Jewish families, and the tribal Kurdish figures with whom the Jews had been in contact. Furthermore, it provided much-needed information and observational insight into the relationship between the Jews and their Kurdish neighbors and masters.</p>";
 
@@ -405,10 +418,8 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='_DSF5567-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
+	echo "<amp-img src='/media/5567-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Flags of Israel and Jerusalem, overlooking the ramparts.</figcaption></figure>";
-
-	echo "<blockquote>Coexistence and mutual traditions are the foundation of the relationship between Jews and Kurds.</blockquote>";
 
 	function timeline_output ($date_begin, $date_end, $description) {
 		$timeline = "<tr><td>" . $date_begin;
@@ -445,7 +456,7 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='_DSF4565-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
+	echo "<amp-img src='/media/5567-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Akre, near Duhok in the Kurdistan Region of Iraq.</figcaption></figure>";
 
 	echo "<blockquote>Within the scope of my jurisdiction as the head of minorities affairs at the Ministry of Public Security, and as a consultant to the National Association, I continue to work and cooperate with leaders in Israel and abroad to foster Israeli-Christian, Israeli-Kurdish, and Israeli-Assyrian friendship.</blockquote>";
@@ -483,7 +494,7 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='_DSF4377-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
+	echo "<amp-img src='/media/4377-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Rawanduz, near Erbil in the Kurdistan Region of Iraq.</figcaption></figure>";
 
 	echo "<blockquote>The relationship between Israel and the Jews, and the Kurds, should be strengthened and encouraged because these two people have a lot in common. I welcome all Kurds to establish contact with Jews.</blockquote>";
@@ -513,8 +524,8 @@ if ([$pageview_request, $language_request] == ["about", "en"]):
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='_DSF2224-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>The Arab neighborhood of the Old City in Jerusalem.</figcaption></figure>";
+	echo "<amp-img src='/media/8510-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
+	echo "<figcaption>The road to the Monastery of Raban Hormizd in alQosh.</figcaption></figure>";
 
 	endif;
 
