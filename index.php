@@ -166,6 +166,7 @@ $style_array = [
 		],
 	
 	"#navigation-sitemap ul, #navigation-sitemap ul ul" => [
+		"display"		=> "inline-block",
 		"margin"		=> "0 auto",
 		"padding"		=> "0",
 		"text-align"		=> "left",
