@@ -164,6 +164,8 @@ $style_array = [
 		"margin"		=> "0 auto",
 		"padding"		=> "20px 20px 40px",
 		"text-align"		=> "left",
+		"column-count"		=> "2",
+		"column-gap"		=> "30px",
 		],
 	
 	"#navigation-sitemap li" => [
