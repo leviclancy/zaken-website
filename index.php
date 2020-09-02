@@ -31,7 +31,7 @@ $sitemap_array = [
 		"minorities-affairs",
 		],
 	"press" => [
-		"press-history",
+//		"press-history",
 		],
 	];
 		
@@ -762,12 +762,6 @@ if ([$pageview_request, $language_request] == ["minorities-affairs", "en"]):
 	endif;
 
 if ([$pageview_request, $language_request] == ["press", "en"]):
-
-	echo "<p>To contact...</p>";
-
-	endif;
-
-if ([$pageview_request, $language_request] == ["press-history", "en"]):
 
 	function press_report_output($date, $article_name, $link_url, $link_name=null) {
 		if (empty($link_name)): $link_name = $article_name; endif;
