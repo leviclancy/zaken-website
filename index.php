@@ -173,7 +173,7 @@ $style_array = [
 		"column-width"		=> "300px",
 		],
 	
-	"#navigation-sitemap li" => [
+	"#navigation-sitemap li, #navigation-sitemap li li" => [
 		"-webkit-column-break-inside"	=> "avoid",
 		"page-break-inside"		=> "avoid",
 		"break-inside"			=> "avoid",
