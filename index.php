@@ -545,20 +545,38 @@ if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 
 	echo "<h2>Israeli Leadership’s Support of the Kurds</h2>";
 
-	
+	echo "<h2 id='world-kurdish-forum'>World Kurdish Forum</h2>";
+
+	echo "<p>In early October 2012, Moti was invited by Prof. Alan Dilani, founder of the World Kurdish Forum, to attend the Forum’s conference in Erbil, the capital of the autonomous Kurdistan Region.</p>";
+
+	echo "<amp-youtube data-videoid='UkSRVefP1Qw' layout='responsive' width='640' height='360'></amp-youtube>";
+
+	echo "<blockquote>During the days of the conference, I met many people and was able to see Kurdistan for myself, after more than two decades of research from afar.</blockquote>";
+
+	echo "<p>At the Citadel, I came across several houses whose doorways had a small socket for a mezuzah, the case for a Hebrew scroll containing passages from the Torah, indicating of course that it had been a residence of a Jewish family.</p>";
+
+	echo "<blockquote>I visited the large mosque of the Citadel, located in a structure that had been previously a Jewish synagogue, as could be judged from its Jewish characteristics including the many symbols painted on its walls, and the purification bath adjacent to it.</blockquote>";
+
+	echo "<blockquote>Thanks to the office of the Kurdistan Region’s Presidency, I was driven to the city of Zakho, where my father was born and which was previously home to a large Jewish community. I visited the Jewish neighborhood and the Jewish market, and I visited the remains of the small synagogue in Zakho. I also spoke with elderly local Kurds.</blockquote>";
 
 	endif;
 	
 if ([$pageview_request, $language_request] == ["israel", "en"]):
 
-	echo "<h1>Israel, Zionism, and Minorities Affairs</h1>";
+	echo "<h1>Israel</h1>";
 
 	echo "<blockquote>Israel is a safe haven in this region, in the Middle East, and in the cradle of mankind.</blockquote>";
 	
-	echo "<p>Dr. Zaken served as National Director of the Institute of Students and Faculty on Israel (ISF), and has also served both the Ministry of Public Security and the Prime Minister of Israel. ISFI provided political and cultural resources, ideas and tools, for Jewish and pro-Israel student activists throughout the US and Canada, through which Israeli-oriented activities and the message of Israel could be promoted in US campuses. At the core of Dr. Zaken's work on Arab, Bedouin, Christian, and other minority affairs is attention to improving life for all Israelis, a committment to Israeli democracy, and a dedication to eradicating hate crimes and extremism.</p>";
+	echo "<p>Dr. Zaken served as the National Director of the Institute of Students and Faculty on Israel (ISFI) in New York (1988-1991), and when returning to Israel, he continued his academic career, studying Islamic and Middle Eastern studies at the Hebrew university of Jerusalem. In 1997, he was asked to serve as the adviser on Arab Affairs to Prime Minister Benjamin Netanyahu (1997-1999), focusing on the Israeli Arab minority. He later served as the advisor on Arab Affairs at the Ministry of Public Security (2001-until now).</p>";
 	
-	echo "<blockquote>In my position, I understand the importance of having a strong, defended and prospering Christian community in Israel.</blockquote>"; 
+	echo "<blockquote>In my humble opinion, it is incumbent upon the Jewish people, as a people that has lived as a minority for thousands of years, to be sensitive to, and have a high degree of consciousness vis-a-vis the minorities living in their midst. I seek to operate in my position in accordance with this belief, to bring hearts together, and to widen the circles of co-existence between Arabs and Jews.</blockquote>"; 
 	
+	echo "<p>While at ISFI, he provided cultural resources, ideas, and tools for pro-Israel student activists throughout the US and Canada, through which Israeli-oriented activities and the message of Israel could be promoted on US campuses.</p>";
+
+	echo "<p>In Israel, he founded the Government - Christians Forum (2015) which was devoted to the needs of Christians of Western denominations (mostly evangelical) in Israel. At the core of Dr. Zaken's work on Arab, Bedouin, Christian, and other minority affairs is attention to improving life for all Israelis, a commitment to Israeli democracy, and a dedication to eradicating hate crimes and extremism.</p>";
+
+	echo "<blockquote>In my position, I understand the importance of having a strong, defended and prospering Christian community in Israel.</blockquote>";
+
 	echo "<p>Interview about the importance of Christians in the region and in Israel,</p>";
 	echo "<amp-youtube data-videoid='6fvQdbLJOBQ' layout='responsive' width='640' height='360'></amp-youtube>";
 	
@@ -585,23 +603,85 @@ if ([$pageview_request, $language_request] == ["media", "en"]):
 	echo "<h2>Media summary</h2>";
 
 	echo "<table><tbody>";
-	echo "<tr><td>2019 Mar</td><td><a href='https://www.hudson.org/research/14847-lending-a-helping-hand-to-strangers-and-sojourners'>Hudson Institute</a></td></tr>";	
-	echo "<tr><td>2018 Nov</td><td><a href='https://www.tabletmag.com/sections/israel-middle-east/articles/kurdistan-and-israel'>Interview with Tablet Mag about the Kurdistan Region</a></td></tr>";	
-	echo "<tr><td>2017 Oct</td><td><a href='https://www.thejewishstar.com/stories/kurd-foes-use-israeli-stance-to-rally-allies,14560'>The Jewish Star</a></td></tr>";
-	echo "<tr><td>2017 Apr</td><td><a href='https://www.youtube.com/watch?v=i8yI-SLzSKg'>Interview on CBN about Israel-Christian relations</a></td></tr>";	
-	echo "<tr><td>2017 Jan</td><td><a href='https://nypost.com/2017/01/27/israelis-eager-to-welcome-us-embassy-to-jerusalem/'>NY Post</a></td></tr>";	
-	echo "<tr><td>2015 Dec</td><td><a href='https://www.jpost.com/middle-east/use-of-jewish-issue-by-krg-official-may-cause-confusion-and-damage-436499'>Interview on impostors in the Kurdistan Region</a></td></tr>";	
-	echo "<tr><td>2015 Nov</td><td><a href='https://www.jpost.com/middle-east/so-are-there-jews-in-kurdistan-432756'>Interview on impostors in the Kurdistan Region</a></td></tr>";	
-	echo "<tr><td>2015 Aug</td><td><a href='https://www.sbs.com.au/language/english/audio/how-did-the-kurdish-jews-migrate-to-israel'>Interview with SBS</a></td></tr>";	
-	echo "<tr><td>2006 May 11</td><td>Meeting with Hamas: <a href='http://cbgonzo.blogspot.co.il/2006/05/10-more-questions.html'>Yahoo news</a></td></tr>";	
-	echo "<tr><td>1999 Apr 21</td><td>Likud Denies It Is Exploiting Conflict: <a href='http://articles.latimes.com/1999/apr/21/news/mn-29526/2'>LA Times</a></td></tr>";	
-	echo "<tr><td>1999 Apr 20</td><td>Compromise on Nazareth: <a href='http://www.nytimes.com/1999/04/20/world/israel-sets-forth-compromise-plan-on-nazareth-mosque-dispute.html'>NY Times</a></td></tr>";	
-	echo "<tr><td>1999 Apr 07</td><td>Protesting demolition of homes: <a href='http://articles.latimes.com/1998/apr/07/news/mn-36961'>LA Times</a></td></tr>";	
-	echo "<tr><td>1999 Apr 06</td><td>Demolition of homes: <a href='http://www.apnewsarchive.com/1998/Israeli-Arabs-Protest-Demolition/id-debabd28296ea20a9d9a26c5de57ad57'>AP</a></td></tr>";	
-	echo "<tr><td>1998 Apr 28</td><td>Unrecognized villages: <a href='http://edition.cnn.com/WORLD/meast/9804/28/israel.forty.villages/index.old.html'>CNN</a></td></tr>";	
-	echo "<tr><td></td><td></td></tr>";
-	echo "<tr><td></td><td></td></tr>";
-	echo "<tr><td></td><td></td></tr>";
+
+	echo "<tr><td>2020 Aug 29</td>";
+	echo "<td><a href='https://en.davar1.co.il/244830/'>davar1.co.il</a></td>";
+	echo "<td>The Miracle of the Tomb of Prophet Nahum</td></tr>";
+
+	echo "<tr><td>2020 Aug 21</td>";
+	echo "<td><a href='https://www.davar1.co.il/242934/'>davar1.co.il</a></td>";
+	echo "<td>הנס של קבר הנביא נחום</td></tr>";
+
+	echo "<tr><td>2020 Jul 14</td>";
+	echo "<td><a href='https://www.rudaw.net/english/middleeast/iraq/140720202'>rudaw.net</a></td>";
+	echo "<td>From Iraq to exodus: the flight of a country’s Jewish community</td></tr>";
+
+	echo "<tr><td>2019 Oct 27</td>";
+	echo "<td><a href='https://themedialine.org/by-region/whats-next-for-israel-and-the-kurds/'>themedialine.org</a></td>";
+	echo "<td>Israel and the Kurds Strive to Maintain Post-US Relationship</td></tr>";
+
+	echo "<tr><td colspan='3'><blockquote>This affection between our nations is mutual. Not only are the Kurds very popular in Israel, but Israel and the Jews enjoy a good deal of respect and sympathy among the Kurds.</blockquote></td></tr>";
+
+	echo "<tr><td>2019 Mar 05</td>";
+	echo "<td><a href='https://www.hudson.org/research/14847-lending-a-helping-hand-to-strangers-and-sojourners'>hudson.org</a></td>";
+	echo "<td>Lending a Helping Hand to Strangers and Sojourners</td></tr>";
+
+	echo "<tr><td>2019 Feb 26</td>";
+	echo "<td><a href='https://www1.cbn.com/cbnnews/israel/2019/february/christian-leaders-disappointed-after-israel-shuts-down-government-christian-forum'>cbn.com</a></td>";
+	echo "<td>Christian Leaders Disappointed After Israel Shuts Down Government Christian Forum</td></tr>";
+
+	echo "<tr><td>2018 Nov 14</td>";
+	echo "<td><a href='https://www.tabletmag.com/sections/israel-middle-east/articles/kurdistan-and-israel'>tabletmag.com</a></td>";
+	echo "<td>Kurdistani Jews are caught between the Jewish state and the ethnonationalist ambitions of its Middle Eastern neighbors</td></tr>";
+
+	echo "<tr><td>2017 Nov 29</td>";
+	echo "<td><a href='https://www.jpost.com/israel-news/mks-unite-to-support-kurdish-people-at-knesset-515613'>jpost.com</a></td>";
+	echo "<td></td></tr>";
+
+	echo "<tr><td>2017 Oct 10</td>";
+	echo "<td><a href='https://www.thejewishstar.com/stories/kurd-foes-use-israeli-stance-to-rally-allies,14560 '>thejewishstar.com</a></td>";
+	echo "<td>Kurd foes use Israeli stance to rally allies</td></tr>";
+
+	echo "<tr><td></td>";
+	echo "<td></td>";
+	echo "<td></td></tr>";
+
+	echo "<tr><td></td>";
+	echo "<td></td>";
+	echo "<td></td></tr>";
+
+	echo "<tr><td></td>";
+	echo "<td></td>";
+	echo "<td></td></tr>";
+
+	echo "<tr><td></td>";
+	echo "<td></td>";
+	echo "<td></td></tr>";
+
+	echo "<tr><td></td>";
+	echo "<td></td>";
+	echo "<td></td></tr>";
+
+	echo "<tr><td></td>";
+	echo "<td></td>";
+	echo "<td></td></tr>";
+
+	echo "<tr><td></td>";
+	echo "<td></td>";
+	echo "<td></td></tr>";
+
+	echo "<tr><td></td>";
+	echo "<td></td>";
+	echo "<td></td></tr>";
+
+	echo "<tr><td></td>";
+	echo "<td></td>";
+	echo "<td></td></tr>";
+
+	echo "<tr><td></td>";
+	echo "<td></td>";
+	echo "<td></td></tr>";
+
 	echo "</tbody></table>";
 
 //	http://israeli-kurdish-friendship-league.blogspot.com/
