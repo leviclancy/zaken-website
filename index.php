@@ -275,7 +275,7 @@ $style_array = [
 		],
 	
 	"h1" => [
-		"margin"		=> "50px auto",
+		"margin"		=> "70px auto 10px",
 		"font-size"		=> "220%",
 		"text-align"		=> "center",
 		"text-shadow"		=> "2px 2px 20px -10px rgba(50,50,50,0.25)",
@@ -413,7 +413,7 @@ echo "<div id='navigation-sitemap' amp-fx='parallax' data-parallax-factor='1.25'
 		endforeach;
 	echo "</div></div>";
 
-echo "<h1 amp-fx='parallax' data-parallax-factor='1.17'>" . translatable_elements($pageview_request) ."</h1>";
+echo "<h1>" . translatable_elements($pageview_request) ."</h1>";
 
 echo "<div id='body-content'>";
 
