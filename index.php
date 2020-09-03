@@ -409,9 +409,9 @@ echo "<div id='navigation-sitemap' amp-fx='parallax' data-parallax-factor='1.25'
 		foreach ($subpageview_allowed_array as $subpageview_allowed):
 			echo "<div class='navigation-sitemap-subitem'><span>&#9658;</span> &nbsp; <a href='/?pageview=".$subpageview_allowed."&language=".$language_request."'>" . translatable_elements($subpageview_allowed) . "</a></div>";
 			endforeach;
-		echo "</div></div>";
+		echo "</div>";
 		endforeach;
-	echo "</div>";
+	echo "</div></div>";
 
 echo "<h1 amp-fx='parallax' data-parallax-factor='1.17'>" . translatable_elements($pageview_request) ."</h1>";
 
