@@ -153,8 +153,11 @@ $style_array = [
 		
 	"#navigation-sitemap" => [
 		"font-family"		=> "Molengo",
-		"background"		=> "rgba(100,100,100,1)",
-		"color"			=> "rgba(250,250,250,1)",
+//		"background"		=> "rgba(100,100,100,1)",
+//		"color"			=> "rgba(250,250,250,1)",
+		"border-width"		=> "2px 0 2px 0",
+		"border-style"		=> "solid",
+		"border-color"		=> "#333",
 		"display"		=> "block",
 		"padding"		=> "20px",
 		"margin"		=> "0",
@@ -393,7 +396,7 @@ echo "<div id='navigation-header' amp-fx='parallax' data-parallax-factor='1.3'>"
 
 	echo "</div>";
 
-echo "<div id='navigation-sitemap' amp-fx='parallax' data-parallax-factor='1.17'>";
+echo "<div id='navigation-sitemap' amp-fx='parallax' data-parallax-factor='1.25'>";
 	foreach ($sitemap_array as $pageview_allowed => $subpageview_allowed_array):
 		echo "<div class='navigation-sitemap-item'><a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a>";
 		foreach ($subpageview_allowed_array as $subpageview_allowed):
@@ -403,7 +406,7 @@ echo "<div id='navigation-sitemap' amp-fx='parallax' data-parallax-factor='1.17'
 		endforeach;
 	echo "</div>";
 
-echo "<h1 amp-fx='parallax' data-parallax-factor='1.25'>" . translatable_elements($pageview_request) ."</h1>";
+echo "<h1 amp-fx='parallax' data-parallax-factor='1.17'>" . translatable_elements($pageview_request) ."</h1>";
 
 echo "<div id='body-content'>";
 
