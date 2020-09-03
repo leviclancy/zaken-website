@@ -163,18 +163,18 @@ $style_array = [
 		"margin"		=> "0",
 		"font-size"		=> "90%",
 		"text-align"		=> "center",
-//		"column-count"		=> "2",
+		"column-count"		=> "2",
 //		"column-gap"		=> "50px",
 //		"column-width"		=> "300px",
 //		"column-rule"		=> "1px solid #ccc",
 		],
-		
+			
 	".navigation-sitemap-item" => [
-		"max-width"		=> "300px",
 		"margin"		=> "0 auto",
 		"padding"		=> "7px 10px 0 10px",
 		"text-align"		=> "left",
-		"display"		=> "block",
+		"display"		=> "inline-block",
+		"max-width"		=> "300px",
 //		"webkit-column-break-inside"	=> "avoid",
 //		"page-break-inside"		=> "avoid",
 //		"break-inside"			=> "avoid",
