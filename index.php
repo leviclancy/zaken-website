@@ -165,7 +165,7 @@ $style_array = [
 		"text-align"		=> "center",
 //		"column-count"		=> "2",
 //		"column-gap"		=> "50px",
-//		"column-width"		=> "300px",
+		"column-width"		=> "300px",
 //		"column-rule"		=> "1px solid #ccc",
 		],
 			
