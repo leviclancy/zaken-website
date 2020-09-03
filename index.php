@@ -172,7 +172,7 @@ $style_array = [
 //		"column-rule"		=> "1px solid #ccc",
 		"display"		=> "block",
 		"margin"		=> "0 auto",
-		"max-width"		=> "600px",
+		"max-width"		=> "650px",
 		],
 	
 	".navigation-sitemap-item" => [
@@ -181,7 +181,7 @@ $style_array = [
 		"text-align"		=> "left",
 		"display"		=> "inline-block",
 		"width"			=> "300px",
-		"box-sizing"		=> "border-box",
+//		"box-sizing"		=> "border-box",
 //		"webkit-column-break-inside"	=> "avoid",
 //		"page-break-inside"		=> "avoid",
 //		"break-inside"			=> "avoid",
