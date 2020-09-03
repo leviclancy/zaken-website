@@ -158,16 +158,15 @@ $style_array = [
 		"border-width"		=> "1px 0 1px 0",
 		"border-style"		=> "solid",
 		"border-color"		=> "#111",
-//		"display"		=> "block",
+		"display"		=> "block",
 		"padding"		=> "20px 20px 27px",
 		"margin"		=> "0",
 		"font-size"		=> "90%",
 		"text-align"		=> "center",
-		"align-content"		=> "center",
 		],
 			
 	"#navigation-sitemap-wrapper" => [
-//		"column-count"		=> "2",
+		"column-count"		=> "2",
 //		"column-gap"		=> "50px",
 		"column-width"		=> "300px",
 //		"column-rule"		=> "1px solid #ccc",
