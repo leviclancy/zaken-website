@@ -164,18 +164,25 @@ $style_array = [
 		"font-size"		=> "90%",
 		"text-align"		=> "center",
 		"align-content"		=> "center",
+		],
+			
+	"#navigation-sitemap-wrapper" => [
 //		"column-count"		=> "2",
 //		"column-gap"		=> "50px",
 		"column-width"		=> "300px",
 //		"column-rule"		=> "1px solid #ccc",
+		"display"		=> "block",
+		"margin"		=> "0 auto",
+		"max-width"		=> "600px",
 		],
-			
+	
 	".navigation-sitemap-item" => [
 		"margin"		=> "0 auto",
 		"padding"		=> "7px 10px 0 10px",
 		"text-align"		=> "left",
 		"display"		=> "inline-block",
 		"width"			=> "300px",
+		"box-sizing"		=> "border-box",
 //		"webkit-column-break-inside"	=> "avoid",
 //		"page-break-inside"		=> "avoid",
 //		"break-inside"			=> "avoid",
