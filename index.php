@@ -168,11 +168,11 @@ $style_array = [
 	"#navigation-sitemap-wrapper" => [
 		"column-count"		=> "2",
 //		"column-gap"		=> "50px",
-		"column-width"		=> "300px",
+		"column-width"		=> "260px",
 //		"column-rule"		=> "1px solid #ccc",
 		"display"		=> "block",
 		"margin"		=> "0 auto",
-		"max-width"		=> "650px",
+		"max-width"		=> "600px",
 		],
 	
 	".navigation-sitemap-item" => [
@@ -180,7 +180,7 @@ $style_array = [
 		"padding"		=> "7px 10px 0 10px",
 		"text-align"		=> "left",
 		"display"		=> "inline-block",
-		"width"			=> "300px",
+		"width"			=> "260px",
 //		"box-sizing"		=> "border-box",
 //		"webkit-column-break-inside"	=> "avoid",
 //		"page-break-inside"		=> "avoid",
