@@ -128,7 +128,7 @@
 		
 	"press" => [
 		"ar"	=> "",
-		"en"	=> "Press and Interviews",
+		"en"	=> "Press and Bookings",
 		"he"	=> "",
 		"ku"	=> "",
 		],
