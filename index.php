@@ -413,19 +413,19 @@ echo "<div id='navigation-sitemap' amp-fx='parallax' data-parallax-factor='1.25'
 		endforeach;
 	echo "</div></div>";
 
-echo "<h1>" . translatable_elements($pageview_request) ."</h1>";
+echo "<h1 amp-fx='parallax' data-parallax-factor='1.07'>" . translatable_elements($pageview_request) ."</h1>";
 
 echo "<div id='body-content'>";
 
 if ([$pageview_request, $language_request] == ["biographical-notes", "en"]):
 
-	echo "<figure class='amp-img-fader' amp-fx='parallax' data-parallax-factor='1.14'>";
+	echo "<figure class='amp-img-fader' amp-fx='parallax' data-parallax-factor='1.07'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='/media/uzi-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Moti (right) with Brigadier General (Reserve) Uzi Dayan, a staunch supporter of the Kurds, in the Old City of Jerusalem.</figcaption></figure>";
 
-	echo "<p amp-fx='parallax' data-parallax-factor='1.1'>Dr. Mordechai (Moti) Zaken, born in 1958 in Jerusalem of Kurdistani descent, is an authoritative historian on the Jews of Kurdistan, as well as the native Assyrians. He has devoted his career to researching, salvaging, and documenting the oral history of the Jews of Kurdistan. His book on the Jews of Kurdistan is a leading resource on the topic, which was compiled from hundreds of interviews with native Kurdish who immigrated to Israel. </p>";
+	echo "<p amp-fx='parallax' data-parallax-factor='1.05'>Dr. Mordechai (Moti) Zaken, born in 1958 in Jerusalem of Kurdistani descent, is an authoritative historian on the Jews of Kurdistan, as well as the native Assyrians. He has devoted his career to researching, salvaging, and documenting the oral history of the Jews of Kurdistan. His book on the Jews of Kurdistan is a leading resource on the topic, which was compiled from hundreds of interviews with native Kurdish who immigrated to Israel. </p>";
 
 	echo "<ul>";
 	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Authority on the history and heritage of the Jews of Kurdistan, the Assyrians, and the tribal Kurdish society</li>";
