@@ -140,6 +140,9 @@ $style_array = [
 		"position"		=> "absolute",
 		"top"			=> "0",
 		"left"			=> "0",
+		"display"		=> "block",
+		"width"			=> "100%",
+		"height"		=> "100%",
 		"background-image"	=> "url('/media/5567-compressed.jpg')",
 		"filter"		=> "blur(15px)",
 		"opacity"		=> "0.4",
@@ -154,14 +157,14 @@ $style_array = [
 		],
 	
 	".website-header-languages-item" => [
-		"padding"		=> "7px 5px",
+		"padding"		=> "5px",
 		"display"		=> "inine-block",
 		],
 
 		
 	"#website-header-title" => [
 		"margin"		=> "0 auto 0",
-		"padding"		=> "20px 10px 10px",
+		"padding"		=> "30px 10px 10px",
 		"display"		=> "block",
 		"font-size"		=> "110%",
 		"font-weight"		=> "700",
