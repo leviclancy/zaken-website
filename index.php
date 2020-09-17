@@ -187,23 +187,29 @@ $style_array = [
 		"column-width"		=> "260px",
 		],
 	
-	".website-header-sitemap-item" => [
+	".website-header-sitemap-block" => [
 		"margin"		=> "0 auto",
-		"padding"		=> "20px 10px 0 10px",
+		"padding"		=> "0",
 		"text-align"		=> "left",
 		"display"		=> "inline-block",
 		"width"			=> "260px",
-		"font-weight"		=> "700",
 		"box-sizing"		=> "border-box",
 		"webkit-column-break-inside"	=> "avoid",
 		"page-break-inside"		=> "avoid",
 		"break-inside"			=> "avoid",
 		"vertical-align"		=> "top",
+		],	
+	".website-header-sitemap-block-item" => [
+		"margin"		=> "0",
+		"padding"		=> "10px",
+		"display"		=> "block",
+		"font-weight"		=> "700",
 		],
 		
-	".website-header-sitemap-subitem" => [
-		"padding"		=> "7px 0 0 25px",
-		"text-align"		=> "left",
+	".website-header-sitemap-block-subitem" => [
+		"margin"		=> "0",
+		"display"		=> "block",
+		"padding"		=> "10px 10px 10px 25px",
 		],
 
 	".website-header-sitemap-subitem span" => [
@@ -424,9 +430,10 @@ echo "<div id='website-header'>";
 
 	echo "<div id='website-header-sitemap' amp-fx='parallax' data-parallax-factor='1.25'>";
 		foreach ($sitemap_array as $pageview_allowed => $subpageview_allowed_array):
-			echo "<div class='website-header-sitemap-item'><a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a>";
+			echo "<div class='website-header-sitemap-block'>"
+			echo "<div class='website-header-sitemap-block-item'><a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a></div>";
 			foreach ($subpageview_allowed_array as $subpageview_allowed):
-				echo "<div class='website-header-sitemap-subitem'><a href='/?pageview=".$subpageview_allowed."&language=".$language_request."'>" . translatable_elements($subpageview_allowed) . "</a></div>";
+				echo "<div class='website-header-sitemap-block-subitem'><a href='/?pageview=".$subpageview_allowed."&language=".$language_request."'>" . translatable_elements($subpageview_allowed) . "</a></div>";
 				endforeach;
 			echo "</div>";
 			endforeach;
