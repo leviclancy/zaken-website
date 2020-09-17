@@ -38,7 +38,8 @@ $sitemap_array = [
 $pageview_request = ( empty($_REQUEST['pageview']) ? null : $_REQUEST['pageview'] );
 
 // The language is also passed in the URL
-$language_request_allowed = [ "ar"=>"عربي", "en"=>"English", "he"=>"עברית", "ku"=>"کوردی", ];
+// $language_request_allowed = [ "ar"=>"عربي", "en"=>"English", "he"=>"עברית", "ku"=>"کوردی", ];
+$language_request_allowed = [ "en"=>"English", "ku"=>"کوردی", "ar"=>"عربي", ];
 $language_request = ( empty($_REQUEST['language']) ? null : $_REQUEST['language'] );
 
 // Set up redirect array
@@ -134,7 +135,7 @@ $style_array = [
 		"font-family"		=> "Arial",
 		"padding"		=> "20px 30px 40px",
 		"position"		=> "relative",
-		"background"		=> "rgba(100,100,100,0.4)",
+//		"background"		=> "rgba(100,100,100,0.4)",
 		],
 	
 	"#website-header-background" => [
@@ -144,11 +145,11 @@ $style_array = [
 		"display"		=> "block",
 		"width"			=> "120%",
 		"height"		=> "120%",
-		"background-image"	=> "linear-gradient(to right, rgba(255,255,255,0.3), rgba(255,255,255,0)), url('/media/5567-compressed.jpg')",
+		"background-image"	=> "url('/media/5567-compressed.jpg'), linear-gradient(to right, rgba(255,255,255,0.3), rgba(255,255,255,0))",
 		"background-repeat"	=> "no-repeat",
 		"background-size"	=> "cover",
-		"filter"		=> "blur(8px)",
-		"opacity"		=> "0.4",
+		"filter"		=> "blur(5px)",
+		"opacity"		=> "0.3",
 		],
 	
 	"#website-header-languages" => [
@@ -217,7 +218,7 @@ $style_array = [
 		],	
 	".website-header-sitemap-block-item" => [
 		"margin"		=> "0",
-		"padding"		=> "5px 0",
+		"padding"		=> "4px 0",
 		"display"		=> "block",
 		"font-weight"		=> "700",
 		],
@@ -225,7 +226,7 @@ $style_array = [
 	".website-header-sitemap-block-subitem" => [
 		"margin"		=> "0",
 		"display"		=> "block",
-		"padding"		=> "5px 0 5px 20px",
+		"padding"		=> "4px 0 4px 17px",
 		],
 
 	".website-header-sitemap-subitem span" => [
@@ -436,10 +437,9 @@ echo "<div id='website-header'>";
 	echo "<div id='website-header-background'></div>";
 
 	echo "<span id='website-header-languages' amp-fx='parallax' data-parallax-factor='1.4'>";
-		echo "<span class='website-header-languages-item'>עִברִית</span>";
-		echo "<span class='website-header-languages-item'>كوردي</span>";
-		echo "<span class='website-header-languages-item'>English</span>";
-		echo "<span class='website-header-languages-item'>عربى</span>";
+		foreach ($language_request_allowed as $language_request_temp => $language_name_temp):
+			echo "<a href='/?pageview=".$pageview_request."&language_request=".$language_request."'><span class='website-header-languages-item'>". $language_name_temp ."</span></a>";
+			endforeach;
 		echo "</span>";
 
 	echo "<span id='website-header-title' amp-fx='parallax' data-parallax-factor='1.3'>". translatable_elements("dr-mordechai-zaken") ."</span>";
