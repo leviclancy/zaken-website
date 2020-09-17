@@ -132,7 +132,7 @@ $style_array = [
 		"display"		=> "block",
 		"color"			=> "#333",
 		"font-family"		=> "Arial",
-		"padding"		=> "50px 30px 40px",
+		"padding"		=> "20px 30px 40px",
 		],
 	
 	"#website-header-languages" => [
@@ -144,7 +144,7 @@ $style_array = [
 		],
 	
 	".website-header-languages-item" => [
-		"padding"		=> "10px 5px",
+		"padding"		=> "10px",
 		"display"		=> "inine-block",
 		],
 
@@ -169,6 +169,7 @@ $style_array = [
 	
 	"#website-header-byline" => [
 		"display"		=> "block",
+		"padding"		=> "10px",
 		"font-size"		=> "80%",
 		"font-family"		=> "Molengo",
 //		"font-family"		=> "'Noto Serif JP'",
@@ -183,6 +184,7 @@ $style_array = [
 		"margin"		=> "0",
 		"font-size"		=> "100%",
 		"text-align"		=> "left",
+		"column-width"		=> "260px",
 		],
 	
 	".website-header-sitemap-item" => [
@@ -192,10 +194,10 @@ $style_array = [
 		"display"		=> "inline-block",
 		"width"			=> "260px",
 		"font-weight"		=> "700",
-//		"box-sizing"		=> "border-box",
-//		"webkit-column-break-inside"	=> "avoid",
-//		"page-break-inside"		=> "avoid",
-//		"break-inside"			=> "avoid",
+		"box-sizing"		=> "border-box",
+		"webkit-column-break-inside"	=> "avoid",
+		"page-break-inside"		=> "avoid",
+		"break-inside"			=> "avoid",
 		"vertical-align"		=> "top",
 		],
 		
@@ -422,10 +424,11 @@ echo "<div id='website-header'>";
 
 	echo "<div id='website-header-sitemap' amp-fx='parallax' data-parallax-factor='1.25'>";
 		foreach ($sitemap_array as $pageview_allowed => $subpageview_allowed_array):
-			echo "<div class='website-header-sitemap-item'><a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a></div>";
+			echo "<div class='website-header-sitemap-item'><a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a>";
 			foreach ($subpageview_allowed_array as $subpageview_allowed):
 				echo "<div class='website-header-sitemap-subitem'><a href='/?pageview=".$subpageview_allowed."&language=".$language_request."'>" . translatable_elements($subpageview_allowed) . "</a></div>";
 				endforeach;
+			echo "</div>";
 			endforeach;
 		echo "</div>";
 
