@@ -156,7 +156,7 @@ $style_array = [
 		"margin"		=> "0 auto 0",
 		"padding"		=> "30px 10px 7px",
 		"display"		=> "block",
-		"font-size"		=> "110%",
+		"font-size"		=> "105%",
 		"font-weight"		=> "700",
 		"text-align"		=> "left",
 		],
@@ -164,7 +164,7 @@ $style_array = [
 	"#website-header-caption" => [
 		"display"		=> "block",
 		"padding"		=> "0 10px 10px",
-		"font-size"		=> "100%",
+		"font-size"		=> "105%",
 //		"font-family"		=> "'Noto Serif JP'",
 //		"text-transform"	=> "uppercase",
 //		"letter-spacing"	=> "1px",
@@ -173,11 +173,7 @@ $style_array = [
 	"#website-header-byline" => [
 		"display"		=> "block",
 		"padding"		=> "0 10px 15px",
-		"font-size"		=> "85%",
-		"font-family"		=> "Molengo",
-//		"font-family"		=> "'Noto Serif JP'",
-//		"text-transform"	=> "uppercase",
-//		"letter-spacing"	=> "1px",
+		"font-size"		=> "80%",
 		],
 	
 	"#website-header-sitemap" => [
