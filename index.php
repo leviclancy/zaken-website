@@ -189,7 +189,7 @@ $style_array = [
 	
 	".website-header-sitemap-block" => [
 		"margin"		=> "0",
-		"padding"		=> "10px",
+		"padding"		=> "0",
 		"text-align"		=> "left",
 		"display"		=> "inline-block",
 		"width"			=> "270px",
@@ -201,7 +201,7 @@ $style_array = [
 		],	
 	".website-header-sitemap-block-item" => [
 		"margin"		=> "0",
-		"padding"		=> "10px 0",
+		"padding"		=> "5px 0",
 		"display"		=> "block",
 		"font-weight"		=> "700",
 		],
@@ -209,7 +209,7 @@ $style_array = [
 	".website-header-sitemap-block-subitem" => [
 		"margin"		=> "0",
 		"display"		=> "block",
-		"padding"		=> "10px 0 10px 25px",
+		"padding"		=> "5px 0 5px 20px",
 		],
 
 	".website-header-sitemap-subitem span" => [
