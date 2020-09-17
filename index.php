@@ -403,12 +403,12 @@ function translatable_elements($string_id, $language_temp=null) {
 	global $language_request;
 	if (empty($language_temp)): $language_temp = $language_request; endif;
 	if (empty($translatable_elements[$string_id])): return; endif;
-	if (empty($translatable_elements[$string_id][$language_request])):
+	if (empty($translatable_elements[$string_id][$language_temp])):
 		foreach ($translatable_elements[$string_id] as $language_temp => $content_temp):
-			if (!(empty($content_temp))): return $contentt_temp; endif;
+			if (!(empty($content_temp))): return $content_temp; endif;
 			endforeach;
 		endif;
-	return $translatable_elements[$string_id][$language_request]; }
+	return $translatable_elements[$string_id][$language_temp]; }
 
 // Navigation buttons
 echo "<div id='website-header'>";
