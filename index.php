@@ -180,7 +180,7 @@ $style_array = [
 		],
 	
 	"#website-header-sitemap" => [
-		"font-family"		=> "Molengo",
+		"font-family"		=> "Arial",
 //		"background"		=> "rgba(100,100,100,1)",
 //		"color"			=> "rgba(250,250,250,1)",
 //		"border-width"		=> "1px 0 1px 0",
@@ -189,26 +189,17 @@ $style_array = [
 		"display"		=> "block",
 		"padding"		=> "20px 20px 27px",
 		"margin"		=> "0",
-		"font-size"		=> "90%",
+		"font-size"		=> "100%",
 		"text-align"		=> "left",
 		],
 	
-	"#website-header-sitemap-wrapper" => [
-		"column-count"		=> "2",
-//		"column-gap"		=> "50px",
-		"column-width"		=> "260px",
-//		"column-rule"		=> "1px solid #ccc",
-		"display"		=> "block",
-		"margin"		=> "0 auto",
-		"max-width"		=> "600px",
-		],
-
 	".website-header-sitemap-item" => [
 		"margin"		=> "0 auto",
-		"padding"		=> "7px 10px 0 10px",
+		"padding"		=> "20px 10px 0 10px",
 		"text-align"		=> "left",
 		"display"		=> "inline-block",
 		"width"			=> "260px",
+		"font-weight"		=> "700",
 //		"box-sizing"		=> "border-box",
 //		"webkit-column-break-inside"	=> "avoid",
 //		"page-break-inside"		=> "avoid",
@@ -217,7 +208,7 @@ $style_array = [
 		],
 		
 	".website-header-sitemap-subitem" => [
-		"padding"		=> "7px 0 0 15px",
+		"padding"		=> "7px 0 0 25px",
 		"text-align"		=> "left",
 		],
 
@@ -437,15 +428,14 @@ echo "<div id='website-header'>";
 	echo "<span id='website-header-caption' amp-fx='parallax' data-parallax-factor='1.3'>". translatable_elements("historian-expert-and-author") ."</span>";
 	echo "<span id='website-header-byline' amp-fx='parallax' data-parallax-factor='1.3'>". translatable_elements("prepared-by-foundation-of-ours") ."</span>";
 
-	echo "<div id='website-header-sitemap' amp-fx='parallax' data-parallax-factor='1.25'><div id='website-header-sitemap-wrapper'>";
+	echo "<div id='website-header-sitemap' amp-fx='parallax' data-parallax-factor='1.25'>";
 		foreach ($sitemap_array as $pageview_allowed => $subpageview_allowed_array):
-			echo "<div class='website-header-sitemap-item'><a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a>";
+			echo "<div class='website-header-sitemap-item'><a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a></div>";
 			foreach ($subpageview_allowed_array as $subpageview_allowed):
-				echo "<div class='website-header-sitemap-subitem'><span>•</span> &nbsp; <a href='/?pageview=".$subpageview_allowed."&language=".$language_request."'>" . translatable_elements($subpageview_allowed) . "</a></div>";
+				echo "<div class='website-header-sitemap-subitem'><a href='/?pageview=".$subpageview_allowed."&language=".$language_request."'>" . translatable_elements($subpageview_allowed) . "</a></div>";
 				endforeach;
-			echo "</div>";
 			endforeach;
-		echo "</div></div>";
+		echo "</div>";
 
 	echo "<span class='material-icons'>drag_handle</span>";
 
