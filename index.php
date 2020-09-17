@@ -188,11 +188,11 @@ $style_array = [
 		],
 	
 	".website-header-sitemap-block" => [
-		"margin"		=> "0 auto",
-		"padding"		=> "0",
+		"margin"		=> "0",
+		"padding"		=> "10px",
 		"text-align"		=> "left",
 		"display"		=> "inline-block",
-		"width"			=> "260px",
+		"width"			=> "270px",
 		"box-sizing"		=> "border-box",
 		"webkit-column-break-inside"	=> "avoid",
 		"page-break-inside"		=> "avoid",
@@ -201,7 +201,7 @@ $style_array = [
 		],	
 	".website-header-sitemap-block-item" => [
 		"margin"		=> "0",
-		"padding"		=> "10px",
+		"padding"		=> "10px 0",
 		"display"		=> "block",
 		"font-weight"		=> "700",
 		],
@@ -209,7 +209,7 @@ $style_array = [
 	".website-header-sitemap-block-subitem" => [
 		"margin"		=> "0",
 		"display"		=> "block",
-		"padding"		=> "10px 10px 10px 25px",
+		"padding"		=> "10px 0 10px 25px",
 		],
 
 	".website-header-sitemap-subitem span" => [
