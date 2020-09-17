@@ -133,6 +133,7 @@ $style_array = [
 		"color"			=> "#333",
 		"font-family"		=> "Arial",
 		"padding"		=> "20px 30px 40px",
+		"background-image"	=> "url('/media/5567-compressed.jpg')",
 		],
 	
 	"#website-header-languages" => [
@@ -144,14 +145,14 @@ $style_array = [
 		],
 	
 	".website-header-languages-item" => [
-		"padding"		=> "10px",
+		"padding"		=> "7px 5px",
 		"display"		=> "inine-block",
 		],
 
 		
 	"#website-header-title" => [
 		"margin"		=> "0 auto 0",
-		"padding"		=> "10px",
+		"padding"		=> "20px 10px 10px",
 		"display"		=> "block",
 		"font-size"		=> "110%",
 		"font-weight"		=> "700",
@@ -182,7 +183,7 @@ $style_array = [
 		"display"		=> "block",
 		"padding"		=> "10px",
 		"margin"		=> "0",
-		"font-size"		=> "100%",
+		"font-size"		=> "90%",
 		"text-align"		=> "left",
 		"column-width"		=> "260px",
 		],
