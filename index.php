@@ -130,10 +130,11 @@ $style_array = [
 	
 	"#website-header" => [
 		"display"		=> "block",
-		"color"			=> "#333",
+		"color"			=> "#fff",
 		"font-family"		=> "Arial",
 		"padding"		=> "20px 30px 40px",
 		"position"		=> "relative",
+		"background"		=> "rgba(100,100,100,0.4)",
 		],
 	
 	"#website-header-background" => [
@@ -143,7 +144,7 @@ $style_array = [
 		"display"		=> "block",
 		"width"			=> "120%",
 		"height"		=> "120%",
-		"background-image"	=> "url('/media/5567-compressed.jpg')",
+		"background-image"	=> "linear-gradient(to right, rgba(255,255,255,0.3), rgba(255,255,255,0)), url('/media/5567-compressed.jpg')",
 		"background-repeat"	=> "no-repeat",
 		"background-size"	=> "cover",
 		"filter"		=> "blur(8px)",
