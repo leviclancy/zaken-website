@@ -415,7 +415,7 @@ echo "<div id='website-header'>";
 
 	echo "<span id='website-header-languages' amp-fx='parallax' data-parallax-factor='1.4'>";
 		foreach ($language_request_allowed as $language_request_temp => $language_name_temp):
-			echo "<a href='/?pageview=".$pageview_request."&language_request=".$language_request."'><span class='website-header-languages-item'>". $language_name_temp ."</span></a>";
+			echo "<a href='/?pageview=".$pageview_request."&language_request=".$language_request_temp."'><span class='website-header-languages-item'>". $language_name_temp ."</span></a>";
 			endforeach;
 		echo "</span>";
 
