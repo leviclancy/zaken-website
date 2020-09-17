@@ -134,10 +134,12 @@ $style_array = [
 	
 	"#website-header-languages" => [
 		"display"		=> "block",
-		"color"			=> "#888",
+		"color"			=> "#000",
 		"font-size"		=> "80%",
+		"font-weight"		=> "700",
 		"text-align"		=> "right",
 		"padding"		=> "0",
+		"opacity"		=> "0.45",
 		],
 	
 	".website-header-languages-item" => [
@@ -158,7 +160,7 @@ $style_array = [
 	"#website-header-caption" => [
 		"display"		=> "block",
 		"padding"		=> "0 10px 10px",
-		"font-size"		=> "105%",
+		"font-size"		=> "100%",
 //		"font-family"		=> "'Noto Serif JP'",
 //		"text-transform"	=> "uppercase",
 //		"letter-spacing"	=> "1px",
@@ -214,7 +216,7 @@ $style_array = [
 	"#body-content" => [
 		"display"		=> "block",
 		"color"			=> "#333",
-		"padding"		=> "30px 0 100px",
+		"padding"		=> "10px 0 100px",
 		"font-family"		=> "Molengo",
 		"line-height"		=> "1.5em",
 		],
@@ -281,7 +283,8 @@ $style_array = [
 	
 	"h1, #body-content h2" => [
 		"padding"		=> "0 50px",
-		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
+//		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
+		"font-family"		=> "Verdana",
 		"font-weight"		=> "700",
 		"line-height"		=> "1.4em",
 		],
