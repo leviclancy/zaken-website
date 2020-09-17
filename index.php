@@ -88,6 +88,9 @@ echo '<link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&display=s
 // Hebrew
 echo '<link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">';
 
+// Material icons
+echo '<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">';
+
 echo "<title>". $title_temp ."</title>";
 
 echo "<meta name='theme-color' content='#2878b4'>";
@@ -125,47 +128,72 @@ $style_array = [
 		"display"		=> "none",
 		],
 	
-	"#navigation-header" => [
+	"#website-header" => [
 		"display"		=> "block",
 		"color"			=> "#333",
 		"font-family"		=> "Molengo",
-		"text-align"		=> "center",
 		"padding"		=> "50px 30px 40px",
 		],
 	
-	"#navigation-header-name" => [
-		"margin"		=> "20px auto 25px",
+	"#website-header-languages" => [
 		"display"		=> "block",
-		"font-size"		=> "150%",
-		"font-weight"		=> "400",
-//		"font-family"		=> "'Alegreya SC'",
+		"color"			=> "#888",
 		"font-family"		=> "Molengo",
+		"font-size"		=> "70%",
+		"text-align"		=> "right",
+		"padding"		=> "0",
 		],
 	
-	"#navigation-header-topline" => [
+	".website-header-languages-item" => [
+		"padding"		=> "10px 10px 0 0",
 		"display"		=> "block",
-		"font-size"		=> "65%",
+		],
+
+		
+	"#website-header-title" => [
+		"margin"		=> "0 auto 0",
+		"padding"		=> "20px 10px 30px",
+		"display"		=> "block",
+		"font-size"		=> "120%",
+		"font-weight"		=> "700",
+//		"font-family"		=> "'Alegreya SC'",
+		"font-family"		=> "Arial",
+		"text-align"		=> "left",
+		],
+	
+	"#website-header-caption" => [
+		"display"		=> "block",
+		"font-size"		=> "120%",
 		"font-family"		=> "Molengo",
 //		"font-family"		=> "'Noto Serif JP'",
 //		"text-transform"	=> "uppercase",
 //		"letter-spacing"	=> "1px",
 		],
-		
-	"#navigation-sitemap" => [
+	
+	"#website-header-byline" => [
+		"display"		=> "block",
+		"font-size"		=> "70%",
+		"font-family"		=> "Molengo",
+//		"font-family"		=> "'Noto Serif JP'",
+//		"text-transform"	=> "uppercase",
+//		"letter-spacing"	=> "1px",
+		],
+	
+	"#website-header-sitemap" => [
 		"font-family"		=> "Molengo",
 //		"background"		=> "rgba(100,100,100,1)",
 //		"color"			=> "rgba(250,250,250,1)",
-		"border-width"		=> "1px 0 1px 0",
-		"border-style"		=> "solid",
-		"border-color"		=> "#111",
+//		"border-width"		=> "1px 0 1px 0",
+//		"border-style"		=> "solid",
+//		"border-color"		=> "#111",
 		"display"		=> "block",
 		"padding"		=> "20px 20px 27px",
 		"margin"		=> "0",
 		"font-size"		=> "90%",
-		"text-align"		=> "center",
+		"text-align"		=> "left",
 		],
-			
-	"#navigation-sitemap-wrapper" => [
+	
+	"#website-header-sitemap-wrapper" => [
 		"column-count"		=> "2",
 //		"column-gap"		=> "50px",
 		"column-width"		=> "260px",
@@ -174,8 +202,8 @@ $style_array = [
 		"margin"		=> "0 auto",
 		"max-width"		=> "600px",
 		],
-	
-	".navigation-sitemap-item" => [
+
+	".website-header-sitemap-item" => [
 		"margin"		=> "0 auto",
 		"padding"		=> "7px 10px 0 10px",
 		"text-align"		=> "left",
@@ -188,12 +216,12 @@ $style_array = [
 		"vertical-align"		=> "top",
 		],
 		
-	".navigation-sitemap-subitem" => [
+	".website-header-sitemap-subitem" => [
 		"padding"		=> "7px 0 0 15px",
 		"text-align"		=> "left",
 		],
 
-	".navigation-sitemap-subitem span" => [
+	".website-header-sitemap-subitem span" => [
 		"opacity"		=> "0.5",
 		"font-size"		=> "70%",
 		"vertical-align"	=> "middle",
@@ -396,22 +424,32 @@ function translatable_elements($string_id, $language_temp=null) {
 	return $translatable_elements[$string_id][$language_request]; }
 
 // Navigation buttons
-echo "<div id='navigation-header' amp-fx='parallax' data-parallax-factor='1.3'>";
+echo "<div id='website-header'>";
 
-	echo "<span id='navigation-header-name' amp-fx='parallax' data-parallax-factor='1.1'>". translatable_elements("dr-mordechai-moti-zaken") ."</span>";
-	echo "<span id='navigation-header-topline' amp-fx='parallax' data-parallax-factor='1.1'>". translatable_elements("prepared-by-foundation-of-ours") ."</span>";
+	echo "<span id='website-header-languages' amp-fx='parallax' data-parallax-factor='1.4'>";
+		echo "<span class='website-header-languages-item'>עִברִית</span>";
+		echo "<span class='website-header-languages-item'>كوردي</span>";
+		echo "<span class='website-header-languages-item'>English</span>";
+		echo "<span class='website-header-languages-item'>عربى</span>";
+		echo "</span>";
+
+	echo "<span id='website-header-title' amp-fx='parallax' data-parallax-factor='1.3'>". translatable_elements("dr-mordechai-zaken") ."</span>";
+	echo "<span id='website-header-caption' amp-fx='parallax' data-parallax-factor='1.3'>". translatable_elements("historian-expert-and-author") ."</span>";
+	echo "<span id='website-header-byline' amp-fx='parallax' data-parallax-factor='1.3'>". translatable_elements("prepared-by-foundation-of-ours") ."</span>";
+
+	echo "<div id='website-header-sitemap' amp-fx='parallax' data-parallax-factor='1.25'><div id='website-header-sitemap-wrapper'>";
+		foreach ($sitemap_array as $pageview_allowed => $subpageview_allowed_array):
+			echo "<div class='website-header-sitemap-item'><a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a>";
+			foreach ($subpageview_allowed_array as $subpageview_allowed):
+				echo "<div class='website-header-sitemap-subitem'><span>•</span> &nbsp; <a href='/?pageview=".$subpageview_allowed."&language=".$language_request."'>" . translatable_elements($subpageview_allowed) . "</a></div>";
+				endforeach;
+			echo "</div>";
+			endforeach;
+		echo "</div></div>";
+
+	echo "<span class='material-icons'>drag_handle</span>";
 
 	echo "</div>";
-
-echo "<div id='navigation-sitemap' amp-fx='parallax' data-parallax-factor='1.25'><div id='navigation-sitemap-wrapper'>";
-	foreach ($sitemap_array as $pageview_allowed => $subpageview_allowed_array):
-		echo "<div class='navigation-sitemap-item'><a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a>";
-		foreach ($subpageview_allowed_array as $subpageview_allowed):
-			echo "<div class='navigation-sitemap-subitem'><span>&#9658;</span> &nbsp; <a href='/?pageview=".$subpageview_allowed."&language=".$language_request."'>" . translatable_elements($subpageview_allowed) . "</a></div>";
-			endforeach;
-		echo "</div>";
-		endforeach;
-	echo "</div></div>";
 
 echo "<h1 amp-fx='parallax' data-parallax-factor='1.07'>" . translatable_elements($pageview_request) ."</h1>";
 
