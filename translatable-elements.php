@@ -1,163 +1,163 @@
 <? $translatable_elements = [
 		
 	"dr-mordechai-zaken" => [
-		"ar"	=> "",
 		"en"	=> "Dr. Mordechai Zaken",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 	
 	"historian-expert-and-author" => [
-		"ar"	=> "",
 		"en"	=> "Historian, expert, and author on the Jewish and Assyrian minorities and the Kurdish society",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 	
 	"prepared-by-foundation-of-ours" => [
-		"ar"	=> "",
 		"en"	=> "Official site. Prepared by Foundation of Ours.",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 
 	"last-updated" => [
-		"ar"	=> "",
 		"en"	=> "Last updated August 19th, 2020",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 		
 	"biographical-notes" => [
-		"ar"	=> "",
 		"en"	=> "Biographical Notes",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 
 	"scholarly-achievement" => [
-		"ar"	=> "",
 		"en"	=> "Scholarly Achievement",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 
 	"kurdish-advocacy" => [
-		"ar"	=> "",
 		"en"	=> "Kurdish Advocacy",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 	
 	"condensed-highlights" => [
-		"ar"	=> "",
 		"en"	=> "Condensed Highlights",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 
 	"publications" => [
-		"ar"	=> "",
 		"en"	=> "Publications",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 
 	"publications" => [
-		"ar"	=> "",
 		"en"	=> "Publications",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 
 	"the-jews-of-kurdistan" => [
-		"ar"	=> "",
 		"en"	=> "The Jews of Kurdistan",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 	
 	"full-bibliography" => [
-		"ar"	=> "",
 		"en"	=> "Full Bibliography",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 
 	"kurdistan-region" => [
-		"ar"	=> "",
 		"en"	=> "Kurdistan Region",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 	
 	"tomb-of-the-prophet-nahum" => [
-		"ar"	=> "",
 		"en"	=> "Tomb of the Prophet Nahum",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 
 	"historical-information" => [
-		"ar"	=> "",
 		"en"	=> "Historical Information",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 	
 	"world-kurdish-forum" => [
-		"ar"	=> "",
 		"en"	=> "World Kurdish Forum",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 	
 	"israel" => [
-		"ar"	=> "",
 		"en"	=> "Israel",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 
 	"minorities-affairs" => [
-		"ar"	=> "",
 		"en"	=> "Minorities Affairs",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 		
 	"press" => [
-		"ar"	=> "",
 		"en"	=> "Press and Bookings",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 	
 	"press-history" => [
-		"ar"	=> "",
 		"en"	=> "Press History",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 		
 	"contact" => [
-		"ar"	=> "",
 		"en"	=> "Contact",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 
 	"to-contact-the-national-association" => [
-		"ar"	=> "",
 		"en"	=> "To contact the National Association of Jews from Kurdistan in Israel,",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],
 
 	"this-website-has-been-developed" => [
-		"ar"	=> "",
 		"en"	=> "To contact Foundation of Ours,",
 		"he"	=> "",
+		"ar"	=> "",
 		"ku"	=> "",
 		],	
 
