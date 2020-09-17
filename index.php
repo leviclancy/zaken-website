@@ -133,7 +133,16 @@ $style_array = [
 		"color"			=> "#333",
 		"font-family"		=> "Arial",
 		"padding"		=> "20px 30px 40px",
+		"position"		=> "relative",
+		],
+	
+	"#website-header-background" => [
+		"position"		=> "absolute",
+		"top"			=> "0",
+		"left"			=> "0",
 		"background-image"	=> "url('/media/5567-compressed.jpg')",
+		"filter"		=> "blur(15px)",
+		"opacity"		=> "0.4",
 		],
 	
 	"#website-header-languages" => [
@@ -417,6 +426,8 @@ function translatable_elements($string_id, $language_temp=null) {
 
 // Navigation buttons
 echo "<div id='website-header'>";
+
+	echo "<div id='website-header-background'></div>";
 
 	echo "<span id='website-header-languages' amp-fx='parallax' data-parallax-factor='1.4'>";
 		echo "<span class='website-header-languages-item'>עִברִית</span>";
