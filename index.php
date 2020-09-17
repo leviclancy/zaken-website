@@ -164,7 +164,7 @@ $style_array = [
 	"#website-header-caption" => [
 		"display"		=> "block",
 		"padding"		=> "0 10px 10px",
-		"font-size"		=> "85%",
+		"font-size"		=> "100%",
 //		"font-family"		=> "'Noto Serif JP'",
 //		"text-transform"	=> "uppercase",
 //		"letter-spacing"	=> "1px",
@@ -204,7 +204,7 @@ $style_array = [
 		],	
 	".website-header-sitemap-block-item" => [
 		"margin"		=> "0",
-		"padding"		=> "3px 0",
+		"padding"		=> "4px 0",
 		"display"		=> "block",
 		"font-weight"		=> "700",
 		],
@@ -212,7 +212,7 @@ $style_array = [
 	".website-header-sitemap-block-subitem" => [
 		"margin"		=> "0",
 		"display"		=> "block",
-		"padding"		=> "3px 0 3px 17px",
+		"padding"		=> "4px 0 4px 15px",
 		],
 
 	".website-header-sitemap-subitem span" => [
