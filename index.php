@@ -131,7 +131,7 @@ $style_array = [
 	
 	"#website-header" => [
 		"display"		=> "block",
-		"color"			=> "#fff",
+		"color"			=> "#333",
 		"font-family"		=> "Arial",
 		"padding"		=> "20px 30px 40px",
 		"position"		=> "relative",
@@ -148,8 +148,8 @@ $style_array = [
 		"background-image"	=> "url('/media/5567-compressed.jpg'), linear-gradient(to right, rgba(255,255,255,0.3), rgba(255,255,255,0))",
 		"background-repeat"	=> "no-repeat",
 		"background-size"	=> "cover",
-		"filter"		=> "blur(5px)",
-		"opacity"		=> "0.3",
+		"filter"		=> "blur(2px)",
+		"opacity"		=> "0.4",
 		],
 	
 	"#website-header-languages" => [
@@ -161,7 +161,7 @@ $style_array = [
 		],
 	
 	".website-header-languages-item" => [
-		"padding"		=> "5px",
+		"padding"		=> "5px 0 5px 13px",
 		"display"		=> "inine-block",
 		],
 
