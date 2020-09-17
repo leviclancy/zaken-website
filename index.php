@@ -160,8 +160,8 @@ $style_array = [
 	
 	"#website-header-caption" => [
 		"display"		=> "block",
-		"padding"		=> "10px",
-		"font-size"		=> "110%",
+		"padding"		=> "0 10px 10px",
+		"font-size"		=> "100%",
 //		"font-family"		=> "'Noto Serif JP'",
 //		"text-transform"	=> "uppercase",
 //		"letter-spacing"	=> "1px",
@@ -169,7 +169,7 @@ $style_array = [
 	
 	"#website-header-byline" => [
 		"display"		=> "block",
-		"padding"		=> "10px",
+		"padding"		=> "0 10px 15px",
 		"font-size"		=> "80%",
 		"font-family"		=> "Molengo",
 //		"font-family"		=> "'Noto Serif JP'",
@@ -438,8 +438,6 @@ echo "<div id='website-header'>";
 			echo "</div>";
 			endforeach;
 		echo "</div>";
-
-	echo "<span class='material-icons'>drag_handle</span>";
 
 	echo "</div>";
 
