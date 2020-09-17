@@ -440,7 +440,7 @@ echo "<h1 amp-fx='parallax' data-parallax-factor='1.07'>" . translatable_element
 
 echo "<div id='body-content'>";
 
-if ([$pageview_request, $language_request] == ["biographical-notes", "en"]):
+if ($pageview_request == "biographical-notes"):
 
 	echo "<figure class='amp-img-fader' amp-fx='parallax' data-parallax-factor='1.07'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
@@ -460,7 +460,7 @@ if ([$pageview_request, $language_request] == ["biographical-notes", "en"]):
 
 	endif;
 
-if ([$pageview_request, $language_request] == ["scholarly-achievement", "en"]):
+if ($pageview_request == "scholarly-achievement"):
 
 	echo "<p><b>Oral and comparative historian.</b> When he began to be curious about the possibility of writing on the Jews of Kurdistan, during the early 1980s, Mordechai Zaken was puzzled to see that there was hardly any written material — and what was written, was certainly insufficient to enable research of the subject. He had to resort to documenting oral history by finding elderly Kurdish Jews who were capable informants able to share with him their life experience: they had to have been born in and lived in towns and villages in Kurdistan, and then immigrated to Israel.</p>";
 
@@ -490,13 +490,13 @@ if ([$pageview_request, $language_request] == ["scholarly-achievement", "en"]):
 
 	endif;
 
-if ([$pageview_request, $language_request] == ["kurdish-advocacy", "en"]):
+if ($pageview_request == "kurdish-advocacy")L
 
 	echo "<p>Dr. Zaken is an expert on the tribal Kurdish society. As a pro-Kurdish activist, he established the Israeli-Kurdish Friendship League (IKFL) in 1992 in Jerusalem, probably the first friendship league between Jews and Muslims. Today, he serves as the Counselor of the 'National Association of Jews from Kurdistan' regarding Jewish history and heritage in Kurdistan. Recently, he was named by the Association as the Counselor to the Kurdistan Regional Government, serving as a representative on the interests of the Jewish community and supervising the important Jewish heritage sites including the tomb of the Prophet Nahum in alQosh and other projects.</p>";
 
 	endif;
 
-if ([$pageview_request, $language_request] == ["condensed-highlights", "en"]):
+if ($pageview_request == "condensed-highlights"):
 
 	echo "<blockquote>Coexistence and mutual traditions are the foundation of the relationship between Jews and Kurds.</blockquote>";
 
@@ -614,13 +614,13 @@ if ([$pageview_request, $language_request] == ["condensed-highlights", "en"]):
 
 	endif;
 
-if ([$pageview_request, $language_request] == ["publications", "en"]):
+if ($pageview_request == "publications"):
 
 	echo "<blockquote>The book of Dr. Mordechai Zaken is the most important book written on the Jews of Kurdistan. <i>(Lora Galichco, scholar and descendant of Kurdish Jews)</i></blockquote>";
 
 	endif;
 
-if ([$pageview_request, $language_request] == ["the-jews-of-kurdistan", "en"]):
+if ($pageview_request == "the-jews-of-kurdistan"):
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
@@ -650,11 +650,11 @@ if ([$pageview_request, $language_request] == ["the-jews-of-kurdistan", "en"]):
 
 	endif;
 
-if ([$pageview_request, $language_request] == ["full-bibliography", "en"]):
+if ($pageview_request == "full-bibliography"):
 
 	endif;
 
-if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
+if ($pageview_request == "kurdistan-region"):
 
 	echo "<p>Dr. Zaken was named as the Counselor to the Kurdistan Region regarding Jewish concerns, religious sites, heritage sites, and culture, on behalf of the community of Jews from Kurdistan by the authority of the National Association of Jews from Kurdistan in Israel.</p>";
 
@@ -668,7 +668,7 @@ if ([$pageview_request, $language_request] == ["kurdistan-region", "en"]):
 
 	endif;
 
-if ([$pageview_request, $language_request] == ["tomb-of-the-prophet-nahum", "en"]):
+if ($pageview_request == "tomb-of-the-prophet-nahum"):
 
 	echo "<p>The tomb of the Prophet Nahum, located in alQosh, is being renovated under the management of the Alliance for the Restoration of Cultural Heritage (ARCH) and the Kurdistan Regional Government. Dr. Zaken serves as a member of the board which is entrusted with monitoring the site, and has been instrumental in providing the blessing of the community of Jews from Kurdistan for whom the tomb complex served as a beating heart for thousands of years.</p>";
 
@@ -686,7 +686,7 @@ if ([$pageview_request, $language_request] == ["tomb-of-the-prophet-nahum", "en"
 
 	endif;
 
-if ([$pageview_request, $language_request] == ["historical-information", "en"]):
+if ($pageview_request == "historical-information"):
 
 	echo "<blockquote>In 1950 and 1951, the entire Kurdish Jewish community immigrated to Israel. Over the years, Israeli Kurds followed the struggle of their Muslim brothers with great interest.</blockquote>";
 
@@ -728,7 +728,7 @@ if ([$pageview_request, $language_request] == ["historical-information", "en"]):
 
 	endif;
 
-if ([$pageview_request, $language_request] == ["world-kurdish-forum", "en"]):
+if ($pageview_request == "world-kurdish-forum"):
 
 	echo "<p>In early October 2012, Moti was invited by Prof. Alan Dilani, founder of the World Kurdish Forum, to attend the Forum’s conference in Erbil, the capital of the autonomous Kurdistan Region.</p>";
 
@@ -758,7 +758,7 @@ if ([$pageview_request, $language_request] == ["world-kurdish-forum", "en"]):
 
 	endif;
 	
-if ([$pageview_request, $language_request] == ["israel", "en"]):
+if ($pageview_request == "israel"):
 
 	echo "<blockquote>Israel is a safe haven in this region, in the Middle East, and in the cradle of mankind.</blockquote>";
 	
@@ -770,7 +770,7 @@ if ([$pageview_request, $language_request] == ["israel", "en"]):
 
 	endif;
 
-if ([$pageview_request, $language_request] == ["minorities-affairs", "en"]):
+if ($pageview_request == "minorities-affairs"):
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
@@ -804,7 +804,7 @@ if ([$pageview_request, $language_request] == ["minorities-affairs", "en"]):
 	
 	endif;
 
-if ([$pageview_request, $language_request] == ["press", "en"]):
+if ($pageview_request == "press"):
 
 	function press_report_output($date, $article_name, $link_url, $link_name=null) {
 		if (empty($link_name)): $link_name = $article_name; endif;
