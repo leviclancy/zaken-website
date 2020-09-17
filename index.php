@@ -113,12 +113,6 @@ $style_array = [
 		"font-size"		=> "inherit",
 		"text-decoration"	=> "inherit",
 		],
-
-		
-	"input, textarea" => [
-		"font-size" 		=> "15px",
-		"font-family" 		=> "Verdana",
-		],
 		
 	"*:focus" => [
 		"outline"		=> "none",
@@ -141,20 +135,20 @@ $style_array = [
 	"#website-header-languages" => [
 		"display"		=> "block",
 		"color"			=> "#888",
-		"font-size"		=> "70%",
+		"font-size"		=> "80%",
 		"text-align"		=> "right",
 		"padding"		=> "0",
 		],
 	
 	".website-header-languages-item" => [
-		"padding"		=> "5px 0 5px 13px",
+		"padding"		=> "5px 0 5px 15px",
 		"display"		=> "inine-block",
 		],
 
 		
 	"#website-header-title" => [
 		"margin"		=> "0 auto 0",
-		"padding"		=> "30px 10px 7px",
+		"padding"		=> "30px 10px 3px",
 		"display"		=> "block",
 		"font-size"		=> "105%",
 		"font-weight"		=> "700",
