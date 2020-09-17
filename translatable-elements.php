@@ -1,11 +1,4 @@
 <? $translatable_elements = [
-	
-	"the-official-website-of" => [
-		"ar"	=> "",
-		"en"	=> "The official website of",
-		"he"	=> "",
-		"ku"	=> "",
-		],
 		
 	"dr-mordechai-zaken" => [
 		"ar"	=> "",
@@ -23,7 +16,7 @@
 	
 	"prepared-by-foundation-of-ours" => [
 		"ar"	=> "",
-		"en"	=> "Official site, by Foundation of Ours",
+		"en"	=> "Official site. Prepared by by Foundation of Ours.",
 		"he"	=> "",
 		"ku"	=> "",
 		],
