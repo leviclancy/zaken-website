@@ -490,7 +490,7 @@ if ($pageview_request == "scholarly-achievement"):
 
 	endif;
 
-if ($pageview_request == "kurdish-advocacy")L
+if ($pageview_request == "kurdish-advocacy"):
 
 	echo "<p>Dr. Zaken is an expert on the tribal Kurdish society. As a pro-Kurdish activist, he established the Israeli-Kurdish Friendship League (IKFL) in 1992 in Jerusalem, probably the first friendship league between Jews and Muslims. Today, he serves as the Counselor of the 'National Association of Jews from Kurdistan' regarding Jewish history and heritage in Kurdistan. Recently, he was named by the Association as the Counselor to the Kurdistan Regional Government, serving as a representative on the interests of the Jewish community and supervising the important Jewish heritage sites including the tomb of the Prophet Nahum in alQosh and other projects.</p>";
 
