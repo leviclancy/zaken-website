@@ -430,7 +430,7 @@ echo "<div id='website-header'>";
 
 	echo "<div id='website-header-sitemap' amp-fx='parallax' data-parallax-factor='1.25'>";
 		foreach ($sitemap_array as $pageview_allowed => $subpageview_allowed_array):
-			echo "<div class='website-header-sitemap-block'>"
+			echo "<div class='website-header-sitemap-block'>";
 			echo "<div class='website-header-sitemap-block-item'><a href='/?pageview=".$pageview_allowed."&language=".$language_request."'>" . translatable_elements($pageview_allowed) . "</a></div>";
 			foreach ($subpageview_allowed_array as $subpageview_allowed):
 				echo "<div class='website-header-sitemap-block-subitem'><a href='/?pageview=".$subpageview_allowed."&language=".$language_request."'>" . translatable_elements($subpageview_allowed) . "</a></div>";
