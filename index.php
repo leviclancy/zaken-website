@@ -133,23 +133,9 @@ $style_array = [
 		"display"		=> "block",
 		"color"			=> "#333",
 		"font-family"		=> "Arial",
-		"padding"		=> "20px 30px 40px",
+		"padding"		=> "20px 30px 30px",
 		"position"		=> "relative",
 //		"background"		=> "rgba(100,100,100,0.4)",
-		],
-	
-	"#website-header-background" => [
-		"position"		=> "absolute",
-		"top"			=> "-30px",
-		"left"			=> "-30px",
-		"display"		=> "block",
-		"width"			=> "120%",
-		"height"		=> "120%",
-		"background-image"	=> "linear-gradient(to right, url('/media/5567-compressed.jpg'), rgba(255,255,255,0.3), rgba(255,255,255,0))",
-		"background-repeat"	=> "no-repeat",
-		"background-size"	=> "cover",
-		"filter"		=> "blur(2px)",
-		"opacity"		=> "0.4",
 		],
 	
 	"#website-header-languages" => [
@@ -168,7 +154,7 @@ $style_array = [
 		
 	"#website-header-title" => [
 		"margin"		=> "0 auto 0",
-		"padding"		=> "30px 10px 10px",
+		"padding"		=> "30px 10px 7px",
 		"display"		=> "block",
 		"font-size"		=> "110%",
 		"font-weight"		=> "700",
@@ -178,7 +164,7 @@ $style_array = [
 	"#website-header-caption" => [
 		"display"		=> "block",
 		"padding"		=> "0 10px 10px",
-		"font-size"		=> "100%",
+		"font-size"		=> "85%",
 //		"font-family"		=> "'Noto Serif JP'",
 //		"text-transform"	=> "uppercase",
 //		"letter-spacing"	=> "1px",
@@ -187,7 +173,7 @@ $style_array = [
 	"#website-header-byline" => [
 		"display"		=> "block",
 		"padding"		=> "0 10px 15px",
-		"font-size"		=> "80%",
+		"font-size"		=> "85%",
 		"font-family"		=> "Molengo",
 //		"font-family"		=> "'Noto Serif JP'",
 //		"text-transform"	=> "uppercase",
@@ -218,7 +204,7 @@ $style_array = [
 		],	
 	".website-header-sitemap-block-item" => [
 		"margin"		=> "0",
-		"padding"		=> "4px 0",
+		"padding"		=> "3px 0",
 		"display"		=> "block",
 		"font-weight"		=> "700",
 		],
@@ -226,7 +212,7 @@ $style_array = [
 	".website-header-sitemap-block-subitem" => [
 		"margin"		=> "0",
 		"display"		=> "block",
-		"padding"		=> "4px 0 4px 17px",
+		"padding"		=> "3px 0 3px 17px",
 		],
 
 	".website-header-sitemap-subitem span" => [
@@ -433,8 +419,6 @@ function translatable_elements($string_id, $language_temp=null) {
 
 // Navigation buttons
 echo "<div id='website-header'>";
-
-	echo "<div id='website-header-background'></div>";
 
 	echo "<span id='website-header-languages' amp-fx='parallax' data-parallax-factor='1.4'>";
 		foreach ($language_request_allowed as $language_request_temp => $language_name_temp):
