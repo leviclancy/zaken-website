@@ -7,9 +7,16 @@
 		"ku"	=> "",
 		],
 		
-	"dr-mordechai-moti-zaken" => [
+	"dr-mordechai-zaken" => [
 		"ar"	=> "",
-		"en"	=> "Dr. Mordechai (Moti) Zaken, Historian and Author",
+		"en"	=> "Dr. Mordechai Zaken",
+		"he"	=> "",
+		"ku"	=> "",
+		],
+	
+	"historian-expert-and-author" => [
+		"ar"	=> "",
+		"en"	=> "Historian, expert, and author on the Jewish and Assyrian minorities and the Kurdish society",
 		"he"	=> "",
 		"ku"	=> "",
 		],
