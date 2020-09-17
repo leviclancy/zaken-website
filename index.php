@@ -138,13 +138,15 @@ $style_array = [
 	
 	"#website-header-background" => [
 		"position"		=> "absolute",
-		"top"			=> "0",
-		"left"			=> "0",
+		"top"			=> "-30px",
+		"left"			=> "-30px",
 		"display"		=> "block",
-		"width"			=> "100%",
-		"height"		=> "100%",
+		"width"			=> "120%",
+		"height"		=> "120%",
 		"background-image"	=> "url('/media/5567-compressed.jpg')",
-		"filter"		=> "blur(15px)",
+		"background-repeat"	=> "no-repeat",
+		"background-size"	=> "cover",
+		"filter"		=> "blur(8px)",
 		"opacity"		=> "0.4",
 		],
 	
