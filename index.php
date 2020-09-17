@@ -131,40 +131,37 @@ $style_array = [
 	"#website-header" => [
 		"display"		=> "block",
 		"color"			=> "#333",
-		"font-family"		=> "Molengo",
+		"font-family"		=> "Arial",
 		"padding"		=> "50px 30px 40px",
 		],
 	
 	"#website-header-languages" => [
 		"display"		=> "block",
 		"color"			=> "#888",
-		"font-family"		=> "Molengo",
 		"font-size"		=> "70%",
 		"text-align"		=> "right",
 		"padding"		=> "0",
 		],
 	
 	".website-header-languages-item" => [
-		"padding"		=> "10px 10px 0 0",
-		"display"		=> "block",
+		"padding"		=> "10px 5px",
+		"display"		=> "inine-block",
 		],
 
 		
 	"#website-header-title" => [
 		"margin"		=> "0 auto 0",
-		"padding"		=> "20px 10px 30px",
+		"padding"		=> "10px",
 		"display"		=> "block",
-		"font-size"		=> "120%",
+		"font-size"		=> "110%",
 		"font-weight"		=> "700",
-//		"font-family"		=> "'Alegreya SC'",
-		"font-family"		=> "Arial",
 		"text-align"		=> "left",
 		],
 	
 	"#website-header-caption" => [
 		"display"		=> "block",
-		"font-size"		=> "120%",
-		"font-family"		=> "Molengo",
+		"padding"		=> "10px",
+		"font-size"		=> "110%",
 //		"font-family"		=> "'Noto Serif JP'",
 //		"text-transform"	=> "uppercase",
 //		"letter-spacing"	=> "1px",
@@ -172,7 +169,7 @@ $style_array = [
 	
 	"#website-header-byline" => [
 		"display"		=> "block",
-		"font-size"		=> "70%",
+		"font-size"		=> "80%",
 		"font-family"		=> "Molengo",
 //		"font-family"		=> "'Noto Serif JP'",
 //		"text-transform"	=> "uppercase",
@@ -181,13 +178,8 @@ $style_array = [
 	
 	"#website-header-sitemap" => [
 		"font-family"		=> "Arial",
-//		"background"		=> "rgba(100,100,100,1)",
-//		"color"			=> "rgba(250,250,250,1)",
-//		"border-width"		=> "1px 0 1px 0",
-//		"border-style"		=> "solid",
-//		"border-color"		=> "#111",
 		"display"		=> "block",
-		"padding"		=> "20px 20px 27px",
+		"padding"		=> "10px",
 		"margin"		=> "0",
 		"font-size"		=> "100%",
 		"text-align"		=> "left",
