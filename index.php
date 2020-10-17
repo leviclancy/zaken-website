@@ -18,19 +18,19 @@ $sitemap_array = [
 		"kurdish-advocacy",
 		"condensed-highlights",
 		],
-	"publications" => [
+	"publications-and-lectures" => [
+		"lectures",
 		"the-jews-of-kurdistan",
-		"full-bibliography",
 		],
 	"kurdistan-region" => [
 		"tomb-of-the-prophet-nahum",
-		"historical-information",
+		"kurdistan-region-and-israel",
 		"world-kurdish-forum",
 		],
 	"israel" => [
 		"minorities-affairs",
 		],
-	"press" => [
+	"press-and-bookings" => [
 //		"press-history",
 		],
 	];
@@ -446,29 +446,43 @@ if ($pageview_request == "biographical-notes"):
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='/media/uzi-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>Moti (right) with Brigadier General (Reserve) Uzi Dayan, a staunch supporter of the Kurds, in the Old City of Jerusalem.</figcaption></figure>";
+	echo "<figcaption>". translatable_elements('biographical-notes-in-erbil') ."</figcaption></figure>";
 
-	echo "<p amp-fx='parallax' data-parallax-factor='1.05'>Dr. Mordechai (Moti) Zaken, born in 1958 in Jerusalem of Kurdistani descent, is an authoritative historian on the Jews of Kurdistan, as well as the native Assyrians. He has devoted his career to researching, salvaging, and documenting the oral history of the Jews of Kurdistan. His book on the Jews of Kurdistan is a leading resource on the topic, which was compiled from hundreds of interviews with native Kurdish who immigrated to Israel. </p>";
+	echo "<p amp-fx='parallax' data-parallax-factor='1.05'>". translatable_elements('biographical-notes-dr-mordechai-zaken-born') ."</p>";
 
 	echo "<ul>";
-	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Authority on the history and heritage of the Jews of Kurdistan, the Assyrians, and the tribal Kurdish society</li>";
-	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Representative of the community of Jews from Kurdistan to the Kurdistan Region (2020 - ongoing)</li>";
-	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Author of 'The Jews of Kurdistan'</li>";
-	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Adviser on Arab Affairs to the Prime Minister of Israel</li>";
-	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>Head of Minority Affairs Desk at Israel's Ministry of Public Security</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-authority') ."</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-representative') ."</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-author') ."</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-adviser') ."</li>";
+	echo "<li amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-head') ."</li>";
 	echo "</ul>";
+
+	echo "<p>". translatable_elements('biographical-notes-video-screened') ."</p>";
+
+	echo "<p>". translatable_elements('biographical-notes-uzi-dayan') ."</p>";
+
+	echo "<p>". translatable_elements('biographical-notes-doctoral-thesis') ."</p>";
+
+	echo "<p>". translatable_elements('biographical-notes-also-expresses') ."</p>";
+
+	echo "<p>". translatable_elements('biographical-notes-bedouin-communities') ."</p>";
+
+	echo "<p>". translatable_elements('biographical-notes-speaks-fluently') ."</p>";
+
+	echo "<h2>". translatable_elements('biographical-notes-website-administration') ."</h2>";
+
+	echo "<p>". translatable_elements('biographical-notes-this-website') ."</p>";
+
+	echo "<p>". translatable_elements('biographical-notes-thanks') ."</p>";
 
 	endif;
 
 if ($pageview_request == "scholarly-achievement"):
 
-	echo "<p><b>Oral and comparative historian.</b> When he began to be curious about the possibility of writing on the Jews of Kurdistan, during the early 1980s, Mordechai Zaken was puzzled to see that there was hardly any written material — and what was written, was certainly insufficient to enable research of the subject. He had to resort to documenting oral history by finding elderly Kurdish Jews who were capable informants able to share with him their life experience: they had to have been born in and lived in towns and villages in Kurdistan, and then immigrated to Israel.</p>";
+	echo "<p>". translatable_elements('scholarly-achievement-usually') ."</p>";
 
-	echo "<p>Thus, thanks to the fieldwork and hundreds of interviews which he conducted, he became an expert in oral history. Later on, he became an expert in comparative history as well. As a comparative historian, he made an analytical comparison between the Assyrians (also known as Nestorians in the previous century) of the Nineveh Plains, Hakkarו and Kurdish-majority areas, and the Jews of Kurdistan.</p>";
-
-	echo "<p>Most of the Jewish Informants (62 in total) for his research were people who were products, so to speak, of a sophisticated oral and verbal culture. The informants knew names, events, topographic maps, and human genealogies almost by heart. They knew several languages intimately. They were able to speak of events or incidents with great detail, including the prices and weights of certain goods at specific times and places.</p>";
-
-	echo "<blockquote>What fascinated me was the process of interviewing elderly yet smart people who were not just knowledgeable, but true fountainheads of information.</blockquote>";
+	echo "<blockquote>". translatable_elements('scholarly-achievement-became-curious') ."</blockquote>";
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
@@ -476,17 +490,11 @@ if ($pageview_request == "scholarly-achievement"):
 	echo "<amp-img src='/media/3666-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>View of Shaqlawa, near Erbil.</figcaption></figure>";
 
-	echo "<p>Over time, Dr. Zaken interviewed a total of 62 informants from Kurdistan. Most of them he met once or twice. Others he met three or four times. And there were some informants who were like rising springs, whom he met with six, seven, and eight times.</p>";
-
-	echo "<blockquote>During my last meeting with the late Michael Michaeli, I asked him when we would meet again. Micheali, in a theatrical act, pulled his trouser pockets inside out, as if to show that nothing has left for him to give. He said, 'I shared with you everything I know. There is nothing left.'</blockquote>";
-
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='/media/7258-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Renovation work underway at the Shrine of the Prophet Nahum.</figcaption></figure>";
-
-	echo "<p><b>Contribution to broader Kurdish history.</b> This research, which was acclaimed, illuminated many topics that written documents have either totally or partially ignored. Documenting the oral history of the Jews of Kurdistan has in fact saved the memories of many Jewish informants from being lost forever, and saved details on the Jewish communities, the Jewish families, and the tribal Kurdish figures with whom the Jews had been in contact. Furthermore, it provided much-needed information and observational insight into the relationship between the Jews and their Kurdish neighbors and masters.</p>";
 
 	endif;
 
