@@ -343,6 +343,19 @@ $style_array = [
 	".contact-footer-secondary" => [
 		"margin"		=> "0 auto 30px",
 		],
+	
+	".timeline-output-time" => [
+		"display"		=> "block",
+		"font-weight"		=> "700",
+		"margin"		=> "30px 0 30px",
+		],
+
+	".timeline-output-content" => [
+		"display"		=> "block",
+		"font-weight"		=> "400",
+		"margin"		=> "0 0 100px 30px",
+		"white-space"		=> "pre",
+		],
 
 	];
 
@@ -409,6 +422,13 @@ function translatable_elements($string_id, $language_temp=null) {
 			endforeach;
 		endif;
 	return $translatable_elements[$string_id][$language_temp]; }
+
+function blockquote($content, $attribution=null) {
+	if (empty($content)): return; endif;
+	$string_temp = "<blockquote>\"". translatable_elements($content_string_id) ."\";
+	if (!(empty($attribution))): $string_temp .= "<i>". translatable_elements($attribution_string_id) ."</i>"; endif;
+	$string_temp .= "</blockquote>";
+	return $string_temp; }
 
 // Navigation buttons
 echo "<div id='website-header'>";
@@ -482,7 +502,37 @@ if ($pageview_request == "scholarly-achievement"):
 
 	echo "<p>". translatable_elements('scholarly-achievement-usually') ."</p>";
 
-	echo "<blockquote>". translatable_elements('scholarly-achievement-became-curious') ."</blockquote>";
+	echo blockquote("scholarly-achievement-became-curious");
+
+	echo "<p>". translatable_elements('scholarly-achievement-as-a-student') ."</p>";
+
+	echo "<p>". translatable_elements('scholarly-achievement-he-had-to-resort') ."</p>";
+
+	echo blockquote("scholarly-achievement-he-embarked");
+
+	echo "<p>". translatable_elements('scholarly-achievement-he-devoted') ."</p>";
+
+	echo "<p>". translatable_elements('scholarly-achievement-he-was-lucky-enough') ."</p>";
+
+	echo "<p>". translatable_elements('scholarly-achievement-his-tireless-fieldwork') ."</p>";
+
+	echo "<p>". translatable_elements('scholarly-achievement-dr-zaken-speaking') ."</p>";
+
+	echo "<p>". translatable_elements('scholarly-achievement-main-scholarly-achievement') ."</p>";
+
+	echo blockquote("scholarly-achievement-what-fascinated-me");
+
+	echo "<p>". translatable_elements('scholarly-achievement-bapir-agha') ."</p>";
+
+	echo "<p>". translatable_elements('scholarly-achievement-two-and-four-times') ."</p>";
+
+	echo blockquote("scholarly-achievement-during-my-last-meeting");
+
+	echo "<p>". translatable_elements('scholarly-achievement-jubilee') ."</p>";
+
+	echo "<p><b>". translatable_elements('scholarly-achievement-important-contribution') ."</b></p>";
+
+	echo "<p>". translatable_elements('scholarly-achievement-oral-history-fieldwork') ."</p>";
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
@@ -500,14 +550,16 @@ if ($pageview_request == "scholarly-achievement"):
 
 if ($pageview_request == "kurdish-advocacy"):
 
-	echo "<p>Dr. Zaken is an expert on the tribal Kurdish society. As a pro-Kurdish activist, he established the Israeli-Kurdish Friendship League (IKFL) in 1992 in Jerusalem, probably the first friendship league between Jews and Muslims. Today, he serves as the Counselor of the 'National Association of Jews from Kurdistan' regarding Jewish history and heritage in Kurdistan. Recently, he was named by the Association as the Counselor to the Kurdistan Regional Government, serving as a representative on the interests of the Jewish community and supervising the important Jewish heritage sites including the tomb of the Prophet Nahum in alQosh and other projects.</p>";
+	echo "<p>". translatable_elements('kurdish-advocacy-expert-on-tribal-kurdish-society') ."</p>";
+
+	echo "<p>". translatable_elements('kurdish-advocacy-named-by-the-association') ."</p>";
 
 	endif;
 
 if ($pageview_request == "condensed-highlights"):
 
-	echo "<blockquote>Coexistence and mutual traditions are the foundation of the relationship between Jews and Kurds.</blockquote>";
-
+	echo blockquote("condensed-highlights-coexistence-and-mutual-traditions");
+	
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
@@ -515,116 +567,138 @@ if ($pageview_request == "condensed-highlights"):
 	echo "<figcaption>Flags of Israel and Jerusalem, overlooking the ramparts.</figcaption></figure>";
 
 	function timeline_output ($date_begin, $date_end, $description) {
-		$timeline = "<tr><td>" . $date_begin;
+		$timeline = "<div class='timeline-output-time'>";
+		$timeline .= $date_begin;
 		if (!(empty($date_end))):  $timeline .= " — ". $date_end; endif;
-		$timeline .= "</td><td>" . $description . "</td></tr>";
+		$timeline .= "</div><div class='timeline-output-content'>" . $description . "</div>";
 		return $timeline; }
 
-	echo "<table><tbody>";
+	echo timeline_output("2020", null, translatable_elements('condensed-highlights-timeline-2020-appointed'));
 
-	echo timeline_output("2020", null, "Appointed by the National Association of Jews from Kurdistan to oversee Jewish affairs and Jewish sites in the Kurdistan Region.");
+	echo timeline_output("2019", null, translatable_elements('condensed-highlights-timeline-2019-laureate'));
 
-	echo timeline_output("2019", null, "2019 Laureate, Prime Minister Prize for Research of the Jews of the Orient.");
+	echo timeline_output("2013-10", null, translatable_elements('condensed-highlights-timeline-2013-presentation'));
 
-	echo timeline_output("2013-10", null, "Presentation to the World Kurdish Forum at their convention in Stockholm — watch on <a href='https://www.youtube.com/watch?v=UkSRVefP1Qw'>YouTube</a>.");
+	echo timeline_output("2013", "2018", translatable_elements('condensed-highlights-timeline-2013-with-christian-leaders'));
 
-	echo timeline_output("2013", "2018", "With Christian leaders, Dr. Zaken initiated the Government-Christians Forum that addressed the Evangelical Christian community's concerns regarding the government. Two prominent Christian leaders in this forum have been Rev. Charles (Chuck) Kopp, of the Baptist Church and Rev. David Pillegi, Rector of the Christ Church in Jaffa Gate. The Forum came to a conclusion in 2018, once the government concluded it was not part of the government's scope.");
+	echo timeline_output("2012-10", null, translatable_elements('condensed-highlights-timeline-2012-visit'));
 
-	echo timeline_output("2012-10", null, "Visit to the Kurdistan Region, at the invitation of the World Kurdish Forum.");
+	echo timeline_output("2010-09", "2013-08", translatable_elements('condensed-highlights-timeline-2010-lecturer'));
 
-	echo timeline_output("2010-09", "2013-08", "Lecturer, The Hebrew University of Jerusalem.");
+	echo timeline_output("2010-10-22", null, translatable_elements('condensed-highlights-timeline-2010-speaker'));
 
-	echo timeline_output("2010-10-22", null, "Spoke in the Parliament of Berlin, Germany.");
+	echo timeline_output("2007", null, translatable_elements('condensed-highlights-timeline-2007-published'));
 
-	echo timeline_output("2007", null, "Published: Jewish Subjects and their Tribal Chieftains in Kurdistan: A Study in Survival. This book was partly based on his doctorate dissertation.");
+	echo timeline_output("2007-05", "ongoing", translatable_elements('condensed-highlights-timeline-2007-head'));
 
-	echo timeline_output("2007-05", "ongoing", "Head of the Minority Affairs Desk at Israel's Ministry of Internal Security.");
+	echo timeline_output("2003", null, translatable_elements('condensed-highlights-timeline-2003-published'));
 
-	echo timeline_output("2003", null, "Published: Thesis on Jews of Kurdistan, through Hebrew University. He began working on this research project around 1985, culminating in his dissertation which unfolds the story of the Jews in Kurdistan in urban centers and villages, and their relations with their tribal chieftains (aghas) from whom they received patronage and protection in the tribal Kurdish society, in return for their loyalty and other social and financial duties and obligations. The second part of the thesis deals with the history of the Assyrians in Kurdistan, during the 19th and 20th centuries.");
-
-	echo "</tbody></table>";
-
-	echo "<blockquote>The Kurdish national issue started long before the establishment of the Jewish state, and like the establishment of the Jewish state it is a moral cause.</blockquote>";
-
+	echo blockquote("condensed-highlights-kurdish-national-issue");
+	
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='/media/4565-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>Akre, near Duhok in the Kurdistan Region of Iraq.</figcaption></figure>";
+	echo "<figcaption>". translatable_elements('condensed-highlights-akre-near-duhok') ."</figcaption></figure>";
 
-	echo "<blockquote>Within the scope of my jurisdiction as the head of minorities affairs at the Ministry of Public Security, and as a consultant to the National Association, I continue to work and cooperate with leaders in Israel and abroad to foster Israeli-Christian, Israeli-Kurdish, and Israeli-Assyrian friendship.</blockquote>";
+	echo blockquote("condensed-highlights-within-the-scope");
+	
+	echo timeline_output("2001-05", "2007-05", translatable_elements('condensed-highlights-timeline-2001-adviser'));
 
-	echo "<table><tbody>";
+	echo timeline_output("2001", "2003", translatable_elements('condensed-highlights-timeline-2001-coordinator'));
 
-	echo timeline_output("2001-05", "2007-05", "Adviser on Minorities Affairs at Israel's Ministry of Internal Security.");
+	echo timeline_output("1999-11", "2001-12", translatable_elements('condensed-highlights-timeline-1999-founder'));
 
-	echo timeline_output("2001", "2003", "Dr. Zaken was the coordinator of the (3rd) Ministerial Committee to resolve the dispute between Christans and Muslims at the Basilica of the Annunciation in Nazareth.");
+	echo timeline_output("1999-06", null, translatable_elements('condensed-highlights-timeline-1999-married'));
 
-	echo timeline_output("1999-11", "2001-12", "Founder of East-Up Inc, which aimed to enhance medical services to the Arabic-speaking world in the Middle East, through the internet.");
+	echo timeline_output("1997-05", "1999-12", translatable_elements('condensed-highlights-timeline-1997-adviser'));
 
-	echo timeline_output("1999-06", null, "Married in Jerusalem, on Mount Scopus, with a wedding attended by Prime Minister (and First Lady) Netanyahu, whom Zaken advised at the time on local Arab Affairs, as well as other leaders. Dr. Zaken and Riki continue to live in Jerusalem and have three children: Tzah, Tahel, and Ohad.");
+	echo timeline_output("1997", null, translatable_elements('condensed-highlights-timeline-1997-published'));
 
-	echo timeline_output("1997-05", "1999-12", "Prime Minister's Adviser on Arab Affairs.");
+	echo blockquote("condensed-highlights-kurdish-national-issue");
+	
+	echo "<figure class='amp-img-fader'>";
+	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
+	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
+	echo "<amp-img src='/media/4565-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
+	echo "<figcaption>". translatable_elements('condensed-highlights-with-the-prime-minister') ."</figcaption></figure>";
 
-	echo timeline_output("1997", null, "Published: Inventors' Fate, A Folk-Tale in the Neo-Aramaic of Zakho.");
+	echo blockquote("condensed-highlights-within-the-scope");
 
-	echo timeline_output("1993", null, "Co-founder of The Israel-Kurdistan Friendship League, established in Jerusalem to faciliate friendship and dialogue between Israel and Kurdistan, as well as the Kurdish (mostly Muslim) world and the communities of Jews from Kurdistan as well as Jews interested in Kurdistan.");
+	echo timeline_output("1993", null, translatable_elements('condensed-highlights-timeline-1993-cofounder'));
 
-	echo timeline_output("1992", null, "Upon returning to Israel in 1992, Dr. Zaken taught at the Hebrew University of Jerusalem for several years.");
+	echo timeline_output("1992", null, translatable_elements('condensed-highlights-timeline-1992-taught'));
 
-	echo timeline_output("1990", null, "Published: The Book of Ruth. The entire Book of Ruth was translated into New-Aramaic by the great Semitic scholar Gideon Goldberg, and Dr. Zaken.");
+	echo timeline_output("1990", null, translatable_elements('condensed-highlights-timeline-1990-published'));
 
-	echo timeline_output("1989-01", "1991-10", "National Director of the Institute of Students and Faculty on Israel (ISFI), an organization under the auspices of the Israeli Foreign Ministry and the Israeli Consulate in New York City, while living there.");
+	echo timeline_output("1989-01", "1991-10", translatable_elements('condensed-highlights-timeline-1989-director'));
 
-	echo timeline_output("1987", "1991", "Studied in the United States on Grants at SUNY Binghamton’s history department (1987-1989) and at NYU, in the Kevorkian Middle East Center (1990-1991).");
+	echo timeline_output("1987", "1991", translatable_elements('condensed-highlights-timeline-1987-suny'));
 
-	echo timeline_output("1988", null, "Completed his MA in Near Eastern and Islamic Studies at the Hebrew University of Jerusalem, with specialization in the minorities in the Middle East and in particular the Jews and the Assyrian Christians within Kurdish-majority areas.");
+	echo timeline_output("1988", null, translatable_elements('condensed-highlights-timeline-1988-ma'));
 
-	echo "</table>";
-
-	echo "<blockquote>The Kurdistan Region is a place where Jews can feel safe. Unlike Iraq and other countries, it does not operate as an enemy state, and Israel should acknowledge this special status.</blockquote>";
-
+	echo blockquote("condensed-highlights-feel-safe");
+	
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='/media/4377-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>Rawanduz, near Erbil in the Kurdistan Region of Iraq.</figcaption></figure>";
+	echo "<figcaption>". translatable_elements('condensed-highlights-mala-mustafa') ."</figcaption></figure>";
 
-	echo "<blockquote>The relationship between Israel and the Jews, and the Kurds, should be strengthened and encouraged because these two people have a lot in common. I welcome all Kurds to establish contact with Jews.</blockquote>";
+	echo blockquote("condensed-highlights-the-relationship");
+	
+	echo timeline_output("1985", "2002", translatable_elements('condensed-highlights-timeline-1985-he-conducted'));
 
-	echo "<table><tbody>";
+	echo timeline_output("1984", "1985", translatable_elements('condensed-highlights-timeline-1984-ma-student'));
 
-	echo timeline_output("1985", "2002", "He conducted hundreds of first-hand oral history accounts in Israel and abroad with more than 60 elderly Kurdish Jews, originally from Kurdistan, who shared their knowledge on the tribal Kurdish society and setting with him. From this, Dr. Zaken was able to reconstruct and tell the history of the Jews and the tribal Kurdish society.");
+	echo timeline_output("1983", null, translatable_elements('condensed-highlights-timeline-1983-co-chief-editor'));
 
-	echo timeline_output("1984", "1985", "As an MA student at Hebrew University, he wished to write a paper on the economy of Kurdistani Jews. To his astonishment, he discovered that there was hardly any written material on the Kurds and on the Jews of Kurdistan. Because of the lack of written material, he had to resort to oral-history and interviewed 12 elderly Kurdistani Jews for that paper alone.");
+	echo timeline_output("1982", null, translatable_elements('condensed-highlights-timeline-1982-editor-in-chief'));
 
-	echo timeline_output("1984", null, "Completed his BA in Political Science and Near Eastern & Islamic Studies at the Hebrew University of Jerusalem.");
+	echo timeline_output("1980", "1984", translatable_elements('condensed-highlights-timeline-1980-baccalaureate-studies'));
 
-	echo timeline_output("1983", null, "Co-Chief Editor of 'Tipul Shoresh', part of the public activists' program at the Hebrew University, the circulation of which was stopped by the directors and university administration due to its critical approach towards the university policy regarding social issues.");
-
-	echo timeline_output("1982", null, "Editor-in-Chief of ‘Pi Ha-Aton’ (פי-האתון), a student newspaper. On 1982 Apr 26, for a special Independence Day edition, Dr. Zaken published photos taken in 1948 by Arabs (and the story behind the photos’ uncovering). The photos showed mutilated faces and bodies of Jewish soldiers who had been in an army unit which later became known as the ‘Nabi Daniel Caravan' (שיירת נבי דניאל).");
-
-	echo timeline_output("1980", null, "Began his baccalaureate studies at the Hebrew University of Jerusalem.");
-
-	echo timeline_output("1958", null, "Moti is born in Jerusalem to his mother Batyah and his father Saleh; his mother was born in Israel of Kurdish descent, and his father was born in Zakho in the Kurdistan Region.");
+	echo timeline_output("1958", null, translatable_elements('condensed-highlights-timeline-1958-born'));
 
 //	echo timeline_output("", null, "");
 
-	echo "</tbody></table>";
-
-	echo "<blockquote>In the neighborhood where I grew up, we spoke Aramaic mixed with some Kurdish. The people left Kurdistan, but Kurdistan did not leave them.</blockquote>";
+	echo blockquote("condensed-highlights-many-kurdish-jews");
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='/media/8510-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>The road to the Monastery of Raban Hormizd in alQosh.</figcaption></figure>";
+	echo "<figcaption>". translatable_elements('condensed-highlights-the-road-to-the-monastery') ."</figcaption></figure>";
 
 	endif;
 
-if ($pageview_request == "publications"):
+if ($pageview_request == "publications-and-lectures"):
 
-	echo "<blockquote>The book of Dr. Mordechai Zaken is the most important book written on the Jews of Kurdistan. <i>(Lora Galichco, scholar and descendant of Kurdish Jews)</i></blockquote>";
+	function publications_output($date, $title, $description) {
+	
+		function timeline_output ($date_begin, $date_end, $description) {
+		$timeline = "<div class='timeline-output-time'>";
+		$timeline .= $date_begin;
+		if (!(empty($date_end))):  $timeline .= " — ". $date_end; endif;
+		$timeline .= "</div><div class='timeline-output-content'>" . $description . "</div>";
+		return $timeline; }
+
+	echo blockquote("publications-and-lectures-the-book-of", "publications-and-lectures-lora-galichco");
+
+	echo "<p>". translatable_elements('publications-and-lectures-below-is-an-abridged-list') ."</p>";
+
+	echo publications_output("2018", translatable_elements('publications-and-lectures'), translatable_elements('publications-and-lectures'));
+
+	echo publications_output("2018", translatable_elements('publications-and-lectures'), translatable_elements('publications-and-lectures'));
+
+	echo publications_output("2018", translatable_elements('publications-and-lectures'), translatable_elements('publications-and-lectures'));
+
+	echo publications_output("2018", translatable_elements('publications-and-lectures'), translatable_elements('publications-and-lectures'));
+
+	echo publications_output("2018", translatable_elements('publications-and-lectures'), translatable_elements('publications-and-lectures'));
+
+	echo publications_output("2018", translatable_elements('publications-and-lectures'), translatable_elements('publications-and-lectures'));
+
+	echo publications_output("2018", translatable_elements('publications-and-lectures'), translatable_elements('publications-and-lectures'));
 
 	endif;
 
