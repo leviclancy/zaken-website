@@ -31,15 +31,15 @@
 	"biographical-notes" => [
 		"en"	=> "Biographical Notes",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "مذاكرات عن السيرة الذاتية",
+		"ku"	=> "تێبینیەکانی ژیاننامەیی",
 		],
 
 	"scholarly-achievement" => [
 		"en"	=> "Scholarly Achievement",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "الإنجاز العلمي",
+		"ku"	=> "دەستکەوتێکی زانستی",
 		],
 
 	"kurdish-advocacy" => [
@@ -372,7 +372,7 @@
 		],
 
 	"kurdish-advocacy-named-by-the-association" => [
-		"en"	=> "kurdish-advocacy-expert-on-tribal-kurdish-society",
+		"en"	=> "Recently, he was named by the Association as the Counselor to the Kurdistan Regional Government, serving as a representative on the interests of the Jewish community and supervising the important Jewish heritage sites including the tomb of the Prophet Nahum in alQosh and other projects.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -910,71 +910,71 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-2011-jews-and-christians" => [
+		"en"	=> "\"Jews and Christians in the tribal Kurdish society\" at Haifa University.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-2011-the-tribal-kurdish-society" => [
+		"en"	=> "\"The tribal Kurdish society and the Jews of Kurdistan and Israel\" in Giessen, Germany.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-2010-the-jews-and-the-tribal-kurdish-society" => [
+		"en"	=> "\"The Jews and the tribal Kurdish society\" at the Dayan Center, Tel Aviv University.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-2010-on-the-jews-kurds-and-palestinians" => [
+		"en"	=> "\"On the Jews, Kurds and Palestinians\" at the Parliament in Berlin.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-2010-jews-and-the-christians-in-kurdistan" => [
+		"en"	=> "\"Jews and the Christians in Kurdistan and Lutheran missionaries in the 19th and 20th century\" at the Lutheran Church, the Old City of Jerusalem.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-2008-some-aspects" => [
+		"en"	=> "\"Some Aspects about the Christian Minorities in Israel and the Middle East\" at the Ecumenical Theological Research Fraternity in Israel.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-2005-the-case-of-the-kurds" => [
+		"en"	=> "\"The Case of the Kurds\" at the conference on the Politics of Forced Migration, at the Lawyers' Chamber, Jerusalem.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-2004-research-of-the-jews-and-minorities-of-kurdistan" => [
+		"en"	=> "\"Research of the Jews and minorities of Kurdistan\" at the conference entitled \"We were Zionists: The community of Zakho in Kurdistan\" at the Yad Ben Zvi Institute, Jerusalem.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-2003-remarks-on-kurdistani-jews" => [
+		"en"	=> "\"Remarks on Kurdistani Jews\" at the 3rd International Congress of the Babylonian Jewry Heritage Center.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-2000-notes-on-the-history" => [
+		"en"	=> "\"Notes on the History of the Kurdistani Jews\" at the conference Between Kurdistan and the Jews of Bavel, at the Babylonian Jewry Heritage Center.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
