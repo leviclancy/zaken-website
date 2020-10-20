@@ -718,7 +718,9 @@ if ($pageview_request == "publications-and-lectures"):
 
 	echo publications_output("1985", translatable_elements('publications-and-lectures-1985-social-and-economic-institutions'));
 
-	echo "<h2>" . translatable_elements('publications-and-lectures-lectures') . "</h2>";
+	endif;
+
+if ($pageview_request == "lectures"):
 
 	echo publications_output("2015-01-04", translatable_elements('publications-and-lectures-2015-the-jews-of-kurdistan'));
 
