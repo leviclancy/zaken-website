@@ -425,7 +425,7 @@ function translatable_elements($string_id, $language_temp=null) {
 
 function blockquote($content, $attribution=null) {
 	if (empty($content)): return; endif;
-	$string_temp = "<blockquote>\"". translatable_elements($content_string_id) ."\";
+	$string_temp = "<blockquote>\"". translatable_elements($content_string_id) ."\"";
 	if (!(empty($attribution))): $string_temp .= "<i>". translatable_elements($attribution_string_id) ."</i>"; endif;
 	$string_temp .= "</blockquote>";
 	return $string_temp; }
