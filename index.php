@@ -423,10 +423,12 @@ function translatable_elements($string_id, $language_temp=null) {
 		endif;
 	return $translatable_elements[$string_id][$language_temp]; }
 
-function blockquote($content, $attribution=null) {
-	if (empty($content)): return; endif;
-	$string_temp = "<blockquote>\"". $content ."\"";
-	if (!(empty($attribution))): $string_temp .= "<i>". $attribution ."</i>"; endif;
+function blockquote($content_id, $attribution_id=null) {
+	global $translatable_elements;
+	global $language_request;
+	if (empty($content_id)): return; endif;
+	$string_temp = "<blockquote>\"". translatable_elements($content_id) ."\"";
+	if (!(empty($attribution_id))): $string_temp .= "<i>". translatable_elements($attribution_id) ."</i>"; endif;
 	$string_temp .= "</blockquote>";
 	return $string_temp; }
 
