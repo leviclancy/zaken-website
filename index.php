@@ -700,17 +700,35 @@ if ($pageview_request == "publications-and-lectures"):
 
 	echo publications_output("2001", translatable_elements('publications-and-lectures-2001-the-lost-from-the-land-of-ashur'));
 
-	echo publications_output("1999", translatable_elements('publications-and-lectures-1999-on-the-anfal'));
+	echo publications_output("1999-03-29", translatable_elements('publications-and-lectures-1999-on-the-anfal'));
 
 	echo publications_output("1997", translatable_elements('publications-and-lectures-1997-inventors-fate'));
 
-	echo publications_output("2018", translatable_elements('publications-and-lectures-2018-the-jewish-communities'));
+	echo publications_output("1994", translatable_elements('publications-and-lectures-1994-the-kurdish-jews-in-transition'));
 
-	echo publications_output("2018", translatable_elements('publications-and-lectures-2018-the-jewish-communities'));
+	echo publications_output("1991", translatable_elements('publications-and-lectures-1991-naysayers'));
 
-	echo publications_output("2018", translatable_elements('publications-and-lectures-2018-the-jewish-communities'));
+	echo publications_output("1991", translatable_elements('publications-and-lectures-1991-kurdish-unity'));
 
-	echo publications_output("2018", translatable_elements('publications-and-lectures-2018-the-jewish-communities'));
+	echo publications_output("1991", translatable_elements('publications-and-lectures-1991-israel-should-assist'));
+
+	echo publications_output("1990", translatable_elements('publications-and-lectures-1990-the-book-of-ruth'));
+
+	echo publications_output("1988", translatable_elements('publications-and-lectures-1988-the-kurdish-jews'));
+
+	echo publications_output("1985", translatable_elements('publications-and-lectures-1985-social-and-economic-institutions'));
+
+	echo "<h2>" . translatable_elements('publications-and-lectures-lectures') . "</h2>";
+
+	echo publications_output("2015-01-04", translatable_elements('publications-and-lectures-2015-the-jews-of-kurdistan'));
+
+	echo publications_output("2013-10-13", translatable_elements('publications-and-lectures-2013-world-kurdish-congress'));
+
+	echo publications_output("2015-01-04", translatable_elements('publications-and-lectures-2015-the-jews-of-kurdistan'));
+
+	echo publications_output("2015-01-04", translatable_elements('publications-and-lectures-2015-the-jews-of-kurdistan'));
+
+	echo publications_output("2015-01-04", translatable_elements('publications-and-lectures-2015-the-jews-of-kurdistan'));
 
 	endif;
 
