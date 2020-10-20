@@ -673,32 +673,44 @@ if ($pageview_request == "condensed-highlights"):
 
 if ($pageview_request == "publications-and-lectures"):
 
-	function publications_output($date, $title, $description) {
-	
-		function timeline_output ($date_begin, $date_end, $description) {
-		$timeline = "<div class='timeline-output-time'>";
-		$timeline .= $date_begin;
-		if (!(empty($date_end))):  $timeline .= " — ". $date_end; endif;
-		$timeline .= "</div><div class='timeline-output-content'>" . $description . "</div>";
+	function publications_output($date, $description) {
+		$timeline = "<div class='timeline-output-time'>" . $date . "</div>";
+		$description = ("\n", $description);
+		$description[0] = "<b>" . $description[0] . "</b>";
+		$timeline .= "<div class='timeline-output-content'>" . implode("\n", $description) . "</div>";
 		return $timeline; }
 
 	echo blockquote("publications-and-lectures-the-book-of", "publications-and-lectures-lora-galichco");
 
 	echo "<p>". translatable_elements('publications-and-lectures-below-is-an-abridged-list') ."</p>";
 
-	echo publications_output("2018", translatable_elements('publications-and-lectures'), translatable_elements('publications-and-lectures'));
+	echo publications_output("2018", translatable_elements('publications-and-lectures-2018-the-jewish-communities'));
 
-	echo publications_output("2018", translatable_elements('publications-and-lectures'), translatable_elements('publications-and-lectures'));
+	echo publications_output("2016", translatable_elements('publications-and-lectures-2016-minderheiten'));
 
-	echo publications_output("2018", translatable_elements('publications-and-lectures'), translatable_elements('publications-and-lectures'));
+	echo publications_output("2015", translatable_elements('publications-and-lectures-2015-the-jews-of-kurdistan'));
 
-	echo publications_output("2018", translatable_elements('publications-and-lectures'), translatable_elements('publications-and-lectures'));
+	echo publications_output("2007", translatable_elements('publications-and-lectures-2007-the-jews-of-kurdistan'));
 
-	echo publications_output("2018", translatable_elements('publications-and-lectures'), translatable_elements('publications-and-lectures'));
+	echo publications_output("2005", translatable_elements('publications-and-lectures-2005-juifs-kurdes-et-arabes'));
 
-	echo publications_output("2018", translatable_elements('publications-and-lectures'), translatable_elements('publications-and-lectures'));
+	echo publications_output("2003", translatable_elements('publications-and-lectures-2003-tribal-chieftains'));
 
-	echo publications_output("2018", translatable_elements('publications-and-lectures'), translatable_elements('publications-and-lectures'));
+	echo publications_output("2003", translatable_elements('publications-and-lectures-2003-kurdistan'));
+
+	echo publications_output("2001", translatable_elements('publications-and-lectures-2001-the-lost-from-the-land-of-ashur'));
+
+	echo publications_output("1999", translatable_elements('publications-and-lectures-1999-on-the-anfal'));
+
+	echo publications_output("1997", translatable_elements('publications-and-lectures-1997-inventors-fate'));
+
+	echo publications_output("2018", translatable_elements('publications-and-lectures-2018-the-jewish-communities'));
+
+	echo publications_output("2018", translatable_elements('publications-and-lectures-2018-the-jewish-communities'));
+
+	echo publications_output("2018", translatable_elements('publications-and-lectures-2018-the-jewish-communities'));
+
+	echo publications_output("2018", translatable_elements('publications-and-lectures-2018-the-jewish-communities'));
 
 	endif;
 
