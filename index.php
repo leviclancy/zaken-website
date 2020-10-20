@@ -425,8 +425,8 @@ function translatable_elements($string_id, $language_temp=null) {
 
 function blockquote($content, $attribution=null) {
 	if (empty($content)): return; endif;
-	$string_temp = "<blockquote>\"". translatable_elements($content_string_id) ."\"";
-	if (!(empty($attribution))): $string_temp .= "<i>". translatable_elements($attribution_string_id) ."</i>"; endif;
+	$string_temp = "<blockquote>\"". $content) ."\"";
+	if (!(empty($attribution))): $string_temp .= "<i>". $attribution ."</i>"; endif;
 	$string_temp .= "</blockquote>";
 	return $string_temp; }
 
@@ -726,9 +726,25 @@ if ($pageview_request == "lectures"):
 
 	echo publications_output("2013-10-13", translatable_elements('publications-and-lectures-2013-world-kurdish-congress'));
 
-	echo publications_output("2015-01-04", translatable_elements('publications-and-lectures-2015-the-jews-of-kurdistan'));
+	echo publications_output("2011-05-17", translatable_elements('publications-and-lectures-2011-jews-and-christians'));
 
-	echo publications_output("2015-01-04", translatable_elements('publications-and-lectures-2015-the-jews-of-kurdistan'));
+	echo publications_output("2011-04-08", translatable_elements('publications-and-lectures-2011-the-tribal-kurdish-society'));
+
+	echo publications_output("2010-12-27", translatable_elements('publications-and-lectures-2010-the-jews-and-the-tribal-kurdish-society'));
+
+	echo publications_output("2010-10-22", translatable_elements('publications-and-lectures-2010-on-the-jews-kurds-and-palestinians'));
+
+	echo publications_output("2010-04-27", translatable_elements('publications-and-lectures-2010-jews-and-the-christians-in-kurdistan'));
+
+	echo publications_output("2008-12-18", translatable_elements('publications-and-lectures-2008-some-aspects'));
+
+	echo publications_output("2005-04-12", translatable_elements('publications-and-lectures-2005-the-case-of-the-kurds'));
+
+	echo publications_output("2004-11-30", translatable_elements('publications-and-lectures-2004-research-of-the-jews-and-minorities-of-kurdistan'));
+
+	echo publications_output("2003-11-14", translatable_elements('publications-and-lectures-2003-remarks-on-kurdistani-jews'));
+
+	echo publications_output("2000-06-19", translatable_elements('publications-and-lectures-2000-notes-on-the-history'));
 
 	echo publications_output("2015-01-04", translatable_elements('publications-and-lectures-2015-the-jews-of-kurdistan'));
 
