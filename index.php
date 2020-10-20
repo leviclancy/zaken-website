@@ -675,7 +675,7 @@ if ($pageview_request == "publications-and-lectures"):
 
 	function publications_output($date, $description) {
 		$timeline = "<div class='timeline-output-time'>" . $date . "</div>";
-		$description = ("\n", $description);
+		$description = explode("\n", $description);
 		$description[0] = "<b>" . $description[0] . "</b>";
 		$timeline .= "<div class='timeline-output-content'>" . implode("\n", $description) . "</div>";
 		return $timeline; }
