@@ -797,71 +797,114 @@ Published in Massorot: Studies in Language Traditions and Jewish Languages, in v
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-1994-the-kurdish-jews-in-transition" => [
+		"en"	=> "The Kurdish Jews in Transition: From Kurdistan to Israel
+
+Published in Mamostaye Kurd, volume 22 (1994), in Sorani.
+
+<a href='https://www.academia.edu/7162548/_The_Kurdish_Jews_in_Transition_From_Kurdistan_to_Israel_Mamostaye_Kurd_Stockholm_Vol_22_1994_59_68_Sorani_uploaded_its_English_version_'>academia.edu</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-1991-naysayers" => [
+		"en"	=> "Naysayers should have weighed words carefully
+
+Published in The American Israelite.
+
+<a href='https://drive.google.com/file/d/1Rsxhl9tjKYhIUTLfiuQbrNIatvrf3Wq6/view?usp=sharing'>drive.google.com</a>
+
+<a href='https://docs.google.com/document/d/1IDuT8DhRHjpMAWkPh9XIPKgJYXo8KZ-SIkBsyMRuNvU/edit?usp=sharing'>docs.google.com</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-1991-kurdish-unity" => [
+		"en"	=> "Kurdish unity and Saddam’s smile
+
+Published in The Chicago Tribune.
+
+<a href='https://drive.google.com/file/d/1cQmGnd6gFqwRmJX8wGqBZXIXQG8TOkL1/view?usp=sharing'>drive.google.com</a>
+
+<a href='https://docs.google.com/document/d/1nXhWVZdmdFZZF_p5BI-WqX4QJJPP-eUs1qrrUxUOEWg/edit?usp=sharing'>docs.google.com</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-1991-israel-should-assist" => [
+		"en"	=> "Israel should assist Kurds in fighting Iraq
+
+Published in The Wisconsin Jewish Chronicle.
+
+<a href='https://drive.google.com/file/d/16gauZcc-8xPwtdk_VYMWSXpjpB4XeH47/view?usp=sharing'>drive.google.com</a>
+
+<a href='https://docs.google.com/document/d/1QSgpY__Ub5BSyR0R-udA_7AX8HjW--szxhh7I_GMTfQ/edit?usp=sharing'>docs.google.com</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-1990-the-book-of-ruth" => [
+		"en"	=> "The Book of Ruth in Neo-Aramaic
+
+Written by B. Goldberg and M. Zaken. Published in Studies in Neo-Aramaic, by Cambridge in it’s Harvard Semitic Studies Series, edited by W. Heinrichs (1990).
+
+The translation was recorded from Gurgo Nahum (also known as Ze'ev Arieli, his Hebrew name) and was prepared for publication together with Gideon Goldenberg.
+
+<a href='https://docs.google.com/document/d/1a8aQ9rjwOL90L2ycLMxjE9t8xpYuHQkRwYofqykb7A8/edit?usp=sharing'>docs.google.com</a>
+
+<a href='https://www.academia.edu/7162561/_The_Book_of_Ruth_in_Neo_Aramaic_By_G_Goldenberg_and_M_Zaken_in_W_Heinrichs_Ed_Studies_in_Neo_Aramaic_Cambridge_Harvard_Semitic_Studies_Series_1990_151_157'>academia.edu</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-1988-the-kurdish-jews" => [
+		"en"	=> "The Kurdish Jews in Transition: From Kurdistan to Israel
+
+<a href='https://drive.google.com/file/d/1V9z2dw_ZGHxBCGb4nTKPYOJhgwT6CCo_/view?usp=sharing'>drive.google.com</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-1985-social-and-economic-institutions" => [
+		"en"	=> "Social and Economic Institutions Among the Jews of Kurdistan.
+
+Published in Hebrew in Hithadhoo, volume 5 (1985).
+
+<a href='https://www.academia.edu/7162569/_Social_and_economic_institutions_among_the_Jews_of_Kurdistan_Hithadshut_5_1985_11_22_Heb_'>academia.edu</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-lectures" => [
+		"en"	=> "Lectures",
+		"he"	=> "",
+		"ar"	=> "محاضرات",
+		"ku"	=> "وانەکان",
+		],
+
+	"publications-and-lectures-2015-the-jews-of-kurdistan" => [
+		"en"	=> "\"The Jews of Kurdistan: Identity and Heritage\" at Bar-Ilan University in Tel Aviv.
+
+<a href='https://www.youtube.com/watch?v=8xh9hY1q0kE'>youtube.com</a>
+
+// https://www1.biu.ac.il/File/news/file_biu_14_12_31_10_26.pdf
+<a href='https://drive.google.com/file/d/1YfWiAZBuq_s1n5OqASg_qtEhggWTRlGh/view?usp=sharing'>drive.google.com</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
-		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
-		],
+	"publications-and-lectures-2013-world-kurdish-congress" => [
+		"en"	=> "\"The Jews of Kurdistan\" at the World Kurdish Congress (WKC) in Stockholm, Sweden.
 
-	"" => [
-		"en"	=> "",
+<a href='https://www.youtube.com/watch?v=9FODj66nvkk'>youtube.com</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
