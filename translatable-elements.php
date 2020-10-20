@@ -3,22 +3,22 @@
 	"dr-mordechai-zaken" => [
 		"en"	=> "Dr. Mordechai Zaken",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "د. مردخاي زاكين",
+		"ku"	=> "د. مۆردەخای زاکین",
 		],
 	
 	"historian-expert-and-author" => [
 		"en"	=> "Historian and Expert on the Jews of Kurdistan, the Assyrian minorities, and the tribal Kurdish society",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "مؤرخ وخبير في شؤون يهود كوردستان والأقليات الآشورية والمجتمع الكردي القبلي",
+		"ku"	=> "مێژووناس و پسپۆری جولەکانی کوردستان، کەمینەکانی ئاشووریەکان و هۆزەکانی کۆمەڵگای کوردی",
 		],
 	
 	"prepared-by-foundation-of-ours" => [
 		"en"	=> "Official site. Prepared by Foundation of Ours.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "موقع رسمي. من إعداد مؤسسة ئاورس.",
+		"ku"	=> "وێبسایتی فەرمی. ئامەدەکراوە لە لایەن رێکخراوەی ئاوەرس.",
 		],
 
 	"last-updated" => [
