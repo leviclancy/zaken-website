@@ -66,8 +66,8 @@
 	"lectures" => [
 		"en"	=> "Lectures",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "محاضرات",
+		"ku"	=> "وانەکان",
 		],
 
 	"the-jews-of-kurdistan" => [
@@ -882,14 +882,7 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		"ku"	=> "",
 		],
 
-	"publications-and-lectures-lectures" => [
-		"en"	=> "Lectures",
-		"he"	=> "",
-		"ar"	=> "محاضرات",
-		"ku"	=> "وانەکان",
-		],
-
-	"publications-and-lectures-2015-the-jews-of-kurdistan" => [
+	"lectures-2015-the-jews-of-kurdistan" => [
 		"en"	=> "\"The Jews of Kurdistan: Identity and Heritage\" at Bar-Ilan University in Tel Aviv.
 
 <a href='https://www.youtube.com/watch?v=8xh9hY1q0kE'>youtube.com</a>
@@ -901,7 +894,7 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		"ku"	=> "",
 		],
 
-	"publications-and-lectures-2013-world-kurdish-congress" => [
+	"lectures-2013-world-kurdish-congress" => [
 		"en"	=> "\"The Jews of Kurdistan\" at the World Kurdish Congress (WKC) in Stockholm, Sweden.
 
 <a href='https://www.youtube.com/watch?v=9FODj66nvkk'>youtube.com</a>",
@@ -910,92 +903,92 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		"ku"	=> "",
 		],
 
-	"publications-and-lectures-2011-jews-and-christians" => [
+	"lectures-2011-jews-and-christians" => [
 		"en"	=> "\"Jews and Christians in the tribal Kurdish society\" at Haifa University.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"publications-and-lectures-2011-the-tribal-kurdish-society" => [
+	"lectures-2011-the-tribal-kurdish-society" => [
 		"en"	=> "\"The tribal Kurdish society and the Jews of Kurdistan and Israel\" in Giessen, Germany.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"publications-and-lectures-2010-the-jews-and-the-tribal-kurdish-society" => [
+	"lectures-2010-the-jews-and-the-tribal-kurdish-society" => [
 		"en"	=> "\"The Jews and the tribal Kurdish society\" at the Dayan Center, Tel Aviv University.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"publications-and-lectures-2010-on-the-jews-kurds-and-palestinians" => [
+	"lectures-2010-on-the-jews-kurds-and-palestinians" => [
 		"en"	=> "\"On the Jews, Kurds and Palestinians\" at the Parliament in Berlin.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"publications-and-lectures-2010-jews-and-the-christians-in-kurdistan" => [
+	"lectures-2010-jews-and-the-christians-in-kurdistan" => [
 		"en"	=> "\"Jews and the Christians in Kurdistan and Lutheran missionaries in the 19th and 20th century\" at the Lutheran Church, the Old City of Jerusalem.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"publications-and-lectures-2008-some-aspects" => [
+	"lectures-2008-some-aspects" => [
 		"en"	=> "\"Some Aspects about the Christian Minorities in Israel and the Middle East\" at the Ecumenical Theological Research Fraternity in Israel.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"publications-and-lectures-2005-the-case-of-the-kurds" => [
+	"lectures-2005-the-case-of-the-kurds" => [
 		"en"	=> "\"The Case of the Kurds\" at the conference on the Politics of Forced Migration, at the Lawyers' Chamber, Jerusalem.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"publications-and-lectures-2004-research-of-the-jews-and-minorities-of-kurdistan" => [
+	"lectures-2004-research-of-the-jews-and-minorities-of-kurdistan" => [
 		"en"	=> "\"Research of the Jews and minorities of Kurdistan\" at the conference entitled \"We were Zionists: The community of Zakho in Kurdistan\" at the Yad Ben Zvi Institute, Jerusalem.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"publications-and-lectures-2003-remarks-on-kurdistani-jews" => [
+	"lectures-2003-remarks-on-kurdistani-jews" => [
 		"en"	=> "\"Remarks on Kurdistani Jews\" at the 3rd International Congress of the Babylonian Jewry Heritage Center.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"publications-and-lectures-2000-notes-on-the-history" => [
+	"lectures-2000-notes-on-the-history" => [
 		"en"	=> "\"Notes on the History of the Kurdistani Jews\" at the conference Between Kurdistan and the Jews of Bavel, at the Babylonian Jewry Heritage Center.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"lectures-1998-minorities-in-israel" => [
+		"en"	=> "\"Minorities in Israel and the Middle East\" a presentation on behalf the Israeli delegation at the \"International Convention on the Elimination of all Forms of Racial Discrimination\" (CERD), at the Palais des Nations, Geneva.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"lectures-1997-the-kurdish-minority" => [
+		"en"	=> "\"The Kurdish minority\" at the Conference on \"Minorities, Strangers and Others\" at the Van Leer Institute, Jerusalem.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"lectures-1994-the-suffering-of-the-kurdish-people" => [
+		"en"	=> "\"The suffering of the Kurdish people\" presented to the parliamentary committee on xenophobia and hatred of strangers, at the Knesset.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
