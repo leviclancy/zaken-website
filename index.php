@@ -432,6 +432,20 @@ function blockquote($content_id, $attribution_id=null) {
 	$string_temp .= "</blockquote>";
 	return $string_temp; }
 
+function timeline_output ($date_begin, $date_end, $description) {
+	$timeline = "<div class='timeline-output-time'>";
+	$timeline .= $date_begin;
+	if (!(empty($date_end))):  $timeline .= " — ". $date_end; endif;
+	$timeline .= "</div><div class='timeline-output-content'>" . $description . "</div>";
+	return $timeline; }
+
+function publications_output($date, $description) {
+	$timeline = "<div class='timeline-output-time'>" . $date . "</div>";
+	$description = explode("\n", $description);
+	$description[0] = "<b>" . $description[0] . "</b>";
+	$timeline .= "<div class='timeline-output-content'>" . implode("\n", $description) . "</div>";
+	return $timeline; }
+
 // Navigation buttons
 echo "<div id='website-header'>";
 
@@ -568,13 +582,6 @@ if ($pageview_request == "condensed-highlights"):
 	echo "<amp-img src='/media/5567-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Flags of Israel and Jerusalem, overlooking the ramparts.</figcaption></figure>";
 
-	function timeline_output ($date_begin, $date_end, $description) {
-		$timeline = "<div class='timeline-output-time'>";
-		$timeline .= $date_begin;
-		if (!(empty($date_end))):  $timeline .= " — ". $date_end; endif;
-		$timeline .= "</div><div class='timeline-output-content'>" . $description . "</div>";
-		return $timeline; }
-
 	echo timeline_output("2020", null, translatable_elements('condensed-highlights-timeline-2020-appointed'));
 
 	echo timeline_output("2019", null, translatable_elements('condensed-highlights-timeline-2019-laureate'));
@@ -674,13 +681,6 @@ if ($pageview_request == "condensed-highlights"):
 	endif;
 
 if ($pageview_request == "publications-and-lectures"):
-
-	function publications_output($date, $description) {
-		$timeline = "<div class='timeline-output-time'>" . $date . "</div>";
-		$description = explode("\n", $description);
-		$description[0] = "<b>" . $description[0] . "</b>";
-		$timeline .= "<div class='timeline-output-content'>" . implode("\n", $description) . "</div>";
-		return $timeline; }
 
 	echo blockquote("publications-and-lectures-the-book-of", "publications-and-lectures-lora-galichco");
 
