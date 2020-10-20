@@ -428,7 +428,7 @@ function blockquote($content_id, $attribution_id=null) {
 	global $language_request;
 	if (empty($content_id)): return; endif;
 	$string_temp = "<blockquote>". translatable_elements($content_id) ."";
-	if (!(empty($attribution_id))): $string_temp .= " &nsbp;&nsbp;&nsbp; <i>". translatable_elements($attribution_id) ."</i>"; endif;
+	if (!(empty($attribution_id))): $string_temp .= " &nbsp;&nbsp;&nbsp; <i>". translatable_elements($attribution_id) ."</i>"; endif;
 	$string_temp .= "</blockquote>";
 	return $string_temp; }
 
