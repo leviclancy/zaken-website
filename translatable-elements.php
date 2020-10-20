@@ -665,71 +665,133 @@
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-2018-the-jewish-communities" => [
+		"en"	=> "The Jewish communities in Kurdistan within the tribal Kurdish Society
+
+Published in Routledge’s Handbook on the Kurds, edited by Michael Gunter and published in 2018.
+
+<a href='https://drive.google.com/file/d/15wqMazPL65Tb4jQSDlKGhxskzvflN_GA/view?usp=sharing'>drive.google.com</a>
+
+<a href='https://www.academia.edu/37279884/routledgezaken_corrections_September_8_2017_pdf'>academia.edu</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-2016-minderheiten" => [
+		"en"	=> "Minderheiten in Israel: Zwischen staatlicher Fürsorge und langsamer Assimilierung
+
+A short translation into German of an article of Dr. Zaken’s on the minorities in Israel.
+
+<a href='https://www.academia.edu/37290239/I_Die_Minderheiten_und_der_Krieg'>academia.edu</a>
+
+<a href='https://docs.google.com/document/d/1ZD-qa_P5LPv3k5rxczD5zVM9Ahe3-zJkDrlkuH_hQok/edit?usp=sharing'>docs.google.com</a>
+
+<a href='http://www.gfbv.it/3dossier/isr-pal/isr-min.html'>gfbv.it</a>
+
+<a href='https://www.gfbv.de/de/zeitschriftfuervielfalt/295-minderheiten-im-heiligen-land/'>gfbv.de</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-2015-the-jews-of-kurdistan" => [
+		"en"	=> "The Jews of Kurdistan
+
+Second edition, including an eBook.
+
+eBook available for sale: <a href='https://kurdishjews.com'>kurdishjews.com</a>
+
+Kurdish translation available for free:
+<a href='https://drive.google.com/file/d/1BZcX6TJaIk6HVMbPiZ65nbVOnsQdgdKF/view?usp=sharing'>drive.google.com</a>
+
+Arabic translation available for free:
+<a href='https://drive.google.com/file/d/1pnjiz4KBex5sW6V6nFCOOF0NNYNgKAbw/view?usp=sharing'>drive.google.com</a> ",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-2007-the-jews-of-kurdistan" => [
+		"en"	=> "Dr. Zaken’s book was first published by Brill, based on his PhD thesis. The second edition is available for sale at <a href='https://kurdishjews.com'>kurdishjews.com</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-2005-juifs-kurdes-et-arabes" => [
+		"en"	=> "Juifs, Kurdes et Arabes, entre 1941 et 1952
+
+A French translation of one part of the book was published in French in Etudes Kurdes (Kurdish Studies) on 7th of May, 2005.
+
+Download the French version: <a href='https://drive.google.com/file/d/14hGPx31iLGlEpklrudwQm3dqfass7-J6/view?usp=sharing'>drive.google.com</a>
+
+Download the Kurdish version: <a href='https://drive.google.com/file/d/1zTVaG9RO03ZOKiNvNTzF_r5TaZxYP-zs/view?usp=sharing'>drive.google.com</a>
+
+View the French version on academia.edu:
+<a href='https://www.academia.edu/7162475/_Juifs_Kurdes_et_Arabes_entre_1941_et_1952_Etudes_Kurdes_7_May_2005_7_43_'>academia.edu</a>
+
+View the Kurdish version on academia.edu:
+<a href='https://www.academia.edu/7913952/Jews_Kurds_and_Arabs_in_Iraqi_Kurdistan_1941_1952_in_Kurmanji'>academia.edu</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-2003-tribal-chieftains" => [
+		"en"	=> "Tribal Chieftains and Their Jewish Subjects in Kurdistan: A Comparative Study in Survival
+
+PhD thesis.
+
+Evaluation from Dr. Joyce Blau: <a href='https://drive.google.com/file/d/1xmY13QpqpykNv1HirC8m-NJdbAa-Bd5x/view?usp=sharing'>drive.google.com</a>
+
+Evaluation from Dr. Moshe Sharon: <a href='https://drive.google.com/file/d/1__J6XEeHGa5zxXPV6B_uPNiI01q7XJ5d/view?usp=sharing'>drive.google.com</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-2003-kurdistan" => [
+		"en"	=> "Kurdistan – a Historical View
+
+Article published in Hebrew in Teva’ ha-Dvarim, on the 19th of May, 2003.
+
+View on academia.edu: <a href='https://www.academia.edu/7162488/_Kurdistan_a_Historical_View_Teva_ha_Dvarim_91_May_2003_88_91_Heb_'>academia.edu</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-2001-the-lost-from-the-land-of-ashur" => [
+		"en"	=> "\"The Lost from the Land of Ashur\" - the migrations from Kurdistan and the settlement in Eretz-Israel
+
+Published in \"The Tribes - Evidence of Israel, Exile, Immigrations, Absorption, Contribution and Integration\" edited by A. Mizrahi and A. Ben-David (2001).
+
+<a href='https://drive.google.com/file/d/1lwIt0OBPNmMtYmVg2HERr8n_oezbsQW3/view?usp=sharing'>drive.google.com</a>
+
+<a href='https://www.academia.edu/7162495/_The_Lost_from_the_Land_of_Ashur_the_migrations_from_Kurdistan_and_the_settlement_in_Eretz_Israel_in_A_Mizrahi_and_A_Ben_David_eds_The_Tribes_Evidence_of_Israel_Exile_Immigrations_Absorption_Contribution_and_Integration_2001_340_373_Heb_uploaded_a_PDF_of_its_WORD_version_'>academia.edu</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-1999-on-the-anfal" => [
+		"en"	=> "On the Anfal
+
+Download here: <a href='https://drive.google.com/file/d/1yfryMvZKhJ5JNuXMV55VrNaEKDEK3eFO/view?usp=sharing'>drive.google.com</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"publications-and-lectures-1997-inventors-fate" => [
+		"en"	=> "\"Inventors’ Fate\": A Folk-Tale in the Neo-Aramaic of Zakho
+
+Published in Massorot: Studies in Language Traditions and Jewish Languages, in volumes 9, 10, and 11 (1997). Edited by M. Bar-Asher.
+
+<a href='https://docs.google.com/document/d/12tY8ZvbF2YkFkQVzx8SKLacS2EUQzw1jGCzocmpNZOc/edit?usp=sharing'>docs.google.com</a>
+
+<a href='https://www.academia.edu/7162534/_Inventors_Fate_A_Folk_Tale_in_the_Neo_Aramaic_of_Zakho_in_M_Bar_Asher_ed_Massorot_Studies_in_Language_Traditions_and_Jewish_Languages_vols_9_10_11_1997_383_395_Heb_'>academia.edu</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
