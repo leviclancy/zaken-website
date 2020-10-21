@@ -1201,6 +1201,300 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		"ku"	=> "",
 		],
 
+	"tomb-of-the-prophet-nahum-the-tomb-of-the-prophet" => [
+		"en"	=> "The tomb of the Prophet Nahum, located in alQosh, is being renovated under the management of the Alliance for the Restoration of Cultural Heritage (ARCH) and the Kurdistan Regional Government.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"tomb-of-the-prophet-nahum-renovation-work" => [
+		"en"	=> "Renovation work at the tomb of the Prophet Nahum.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"tomb-of-the-prophet-nahum-dr-zaken-serves" => [
+		"en"	=> "Dr. Zaken serves as a member of the board which is entrusted with monitoring the site, and has been instrumental in providing the blessing of the community of Jews from Kurdistan for whom the tomb complex served as a beating heart for thousands of years.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+	
+	"kurdistan-region-and-israel-senior-israeli-officials" => [
+		"en"	=> "Senior Israeli officials and agents with Mala Mustafa in Kurdistan.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"kurdistan-region-and-israel-in-1950-and-1951" => [
+		"en"	=> "In 1950 and 1951, the entire Kurdish Jewish community immigrated to Israel. Over the years, Israeli Kurds followed the struggle of their Muslim brothers with great interest.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"kurdistan-region-and-israel-the-initial-immigrants" => [
+		"en"	=> "The initial immigrants have established in Israel a community of hundreds of thousands of Jews from Kurdistan, through their children, grandchildren, and further descendants.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"kurdistan-region-and-israel-dancing-at-the-sahrane" => [
+		"en"	=> "Dancing at the Sahrane festival for Kurdish Jews, in Israel.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"kurdistan-region-and-israel-mala-mustafa-at-an-israeli-air-force-base" => [
+		"en"	=> "Mala Mustafa at an Israeli Air Force base.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"kurdistan-region-and-israel-eliyahu-gabai-was-the-leader" => [
+		"en"	=> "Eliyahu Gabai was the leader of the Iraqi Jewish community of Aqra in the 1930s, and at that time supplied food and aid to the Kurds who were revolting against the British. Some say that this special connection between the two families helped to increase Barzani's confidence in Israel decades later.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"kurdistan-region-and-israel-the-late-kurdish-leader-mala-mustafa" => [
+		"en"	=> "The late Kurdish leader Mala Mustafa Barzani secretly visited Israel twice to meet with Israeli authorities. Mala Mustafa also saw David Gabai (Dawud Khawaja Khinno), his Jewish friend whose father Eliyahu Gabai had sponsored the Kurdish rebels. The special relations and bond between the Barzani family and Gabai family ultimately led to the strengthening of the relationship between Barzani and the Israel establishment. This is the ethical and historical background for the Barzani-Israel relations.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"kurdistan-region-and-israel-moti-right-with-natan-sharansky" => [
+		"en"	=> "Moti (right) with Natan Sharansky, the decorated Israeli politician and a prisoner of Zion. Mr. Sharansky and Dr. Zaken jointly attended the World Kurdish Forum, held in October 2013 in Stockholm, to address the Kurdish audience.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"kurdistan-region-and-israel-israel-has-a-moral-obligation" => [
+		"en"	=> "Israel has a moral obligation to help the Kurds. The Iraqi genocide against the Kurds is a signal that sympathy is not enough for survival in the Middle East.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"kurdistan-region-and-israel-since-the-referendum" => [
+		"en"	=> "Since the referendum on independence, there has emerged a renewed solidarity between Jews in Israel and Kurds in Kurdistan. Israeli flags waved at rallies in the Kurdistan Region, while Kurdish flags waved at rallies in Israel.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"kurdistan-region-and-israel-israeli-agent-haimke-levakov" => [
+		"en"	=> "Israeli agent Haimke Levakov (left) with Mala Mustafa in Kurdistan.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"kurdistan-region-and-israel-some-aghas-were-not-so-nice" => [
+		"en"	=> "Some aghas were not so nice, exploited the Jews, and took advantage of the Jews economically, physically, and other ways. However, I want to emphasize the good values, the good memories the Jews had from Kurdistan. And I want to share this with people.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"kurdistan-region-and-israel-despite-historical-antisemitism" => [
+		"en"	=> "Despite historical antisemitism by Kurdish chieftains, including attacks and abuses against the Jews under their authority, the Kurdish society has expressed an interest in the survival of Jews and Israel that reflects their own quest for self-determination.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"kurdistan-region-and-israel-mala-mustafa-on-a-visit-to-israel" => [
+		"en"	=> "Mala Mustafa on a visit to Israel.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"kurdistan-region-and-israel-today-there-is-an-inextricable-relationship" => [
+		"en"	=> "Today, there is an inextricable relationship between Jewish people and Kurdish people in terms of culture, heritage, and existence in the Arab-majority Middle East.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+// 	"kurdistan-region-and-israel-the-kurds-are-entitled" => [
+		"en"	=> "The Kurds are entitled to an independent Kurdish national home just like the Jews, and they will sooner or later be granted this statehood.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"kurdistan-region-and-israel-on-january-4th-2015" => [
+		"en"	=> "On January 4th 2015, Dr. Zaken gave a lecture (in Hebrew) at Bar-Ilan University on his October 2012 trip to Kurdistan, with some remarks on the Israeli-Kurdish relations,",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"" => [
+		"en"	=> "",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
 	"" => [
 		"en"	=> "",
 		"he"	=> "",
