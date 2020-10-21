@@ -294,7 +294,7 @@ $style_array = [
 	"#body-content blockquote cite" => [
 		"display"		=> "block",
 		"font-style"		=> "italic",
-		"font-size"		=> "80%",
+		"font-size"		=> "70%",
 		"text-transform"	=> "uppercase",
 		],
 	
