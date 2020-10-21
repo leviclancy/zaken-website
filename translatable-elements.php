@@ -1000,7 +1000,7 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		"ku"	=> "",
 		],
 
-	"the-jews-of-kurdistan-joyce-blau" => [
+	"joyce-blau" => [
 		"en"	=> "Prof. Joyce Blau, scholar",
 		"he"	=> "",
 		"ar"	=> "",
@@ -1014,7 +1014,7 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		"ku"	=> "",
 		],
 
-	"the-jews-of-kurdistan-moshe-sharon" => [
+	"moshe-sharon" => [
 		"en"	=> "Prof. Moshe Sharon, Hebrew University",
 		"he"	=> "",
 		"ar"	=> "",
@@ -1341,57 +1341,57 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"world-kurdish-forum-in-early-october-2012" => [
+		"en"	=> "In early October 2012, Moti was invited by Prof. Alan Dilani, founder of the World Kurdish Forum, to attend the Forum’s conference in Erbil, the capital of the autonomous Kurdistan Region.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"world-kurdish-forum-during-the-days" => [
+		"en"	=> "During the days of the conference, I met many people and was able to see Kurdistan for myself, after more than two decades of research from afar.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"world-kurdish-forum-moti-left-and-yona-sabar-right" => [
+		"en"	=> "Moti (left) and Yona Sabar (right) at the doorway of a former Jewish residence in Erbil Citadel, Oct. 2012",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"world-kurdish-forum-at-the-citadel" => [
+		"en"	=> "At the Citadel, I came across several houses whose doorways had a small socket for a mezuzah, the case for a Hebrew scroll containing passages from the Torah, indicating of course that it had been a residence of a Jewish family.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"world-kurdish-forum-families-atop-the-citadel" => [
+		"en"	=> "Families atop the Citadel.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"world-kurdish-forum-i-visited-the-large-mosque" => [
+		"en"	=> "I visited the large mosque of the Citadel, located in a structure that had been previously a Jewish synagogue, as could be judged from its Jewish characteristics including the many symbols painted on its walls, and the purification bath adjacent to it.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"world-kurdish-forum-moti-in-the-old-jewish-neighborhood" => [
+		"en"	=> "Moti in the old Jewish neighborhood of Zakho, during his visit in Oct. 2012.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"world-kurdish-forum-thanks-to-the-office-of-the-kurdistan-regions-presidency" => [
+		"en"	=> "Thanks to the office of the Kurdistan Region’s Presidency, I was driven to the city of Zakho, where my father was born and which was previously home to a large Jewish community. I visited the Jewish neighborhood and the Jewish market, and I visited the remains of the small synagogue in Zakho. I also spoke with elderly local Kurds.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
