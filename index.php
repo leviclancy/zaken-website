@@ -922,19 +922,17 @@ if ($pageview_request == "world-kurdish-forum"):
 	
 if ($pageview_request == "israel"):
 
-	echo "<p>". translatable_elements("") ."</p>";
+	echo "<p>". translatable_elements("israel-jaffa-street-in-jerusalem") ."</p>";
 
-	echo "<p>". translatable_elements("") ."</p>";
+	echo blockquote("israel-israel-is-a-safe-haven", "dr-mordechai-zaken");
 
-	echo "<p>". translatable_elements("") ."</p>";
+	echo "<p>". translatable_elements("israel-dr-zaken-served") ."</p>";
 
-	echo blockquote("", "");
+	echo "<p>". translatable_elements("israel-in-1997") ."</p>";
 
-	echo blockquote("", "");
+	echo blockquote("israel-in-my-humble-opinion", "dr-mordechai-zaken");
 
-	echo blockquote("", "");
-
-	echo blockquote("", "");
+	echo "<p>". translatable_elements("israel-dr-zaken-right-with-prime-minister-netanyahu") ."</p>";
 
 	endif;
 
@@ -946,11 +944,31 @@ if ($pageview_request == "minorities-affairs"):
 	echo "<amp-img src='/media/6541-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
 	echo "<figcaption>Clergy and pilgrims in Jerusalem.</figcaption></figure>";
 
-	echo "<p>In Israel, he founded the Government - Christians Forum (2015) which was devoted to the needs of Christians of Western denominations (mostly evangelical) in Israel. At the core of Dr. Zaken's work on Arab, Bedouin, Christian, and other minority affairs is attention to improving life for all Israelis, a commitment to Israeli democracy, and a dedication to eradicating hate crimes and extremism.</p>";
+	echo "<p>". translatable_elements("") ."</p>";
 
-	echo "<blockquote>In my position, I understand the importance of having a strong, defended and prospering Christian community in Israel.</blockquote>";
+	echo "<p>". translatable_elements("") ."</p>";
 
-	echo "<p>Interview about the importance of Christians in the region and in Israel,</p>";
+	echo "<p>". translatable_elements("") ."</p>";
+
+	echo "<p>". translatable_elements("") ."</p>";
+
+	echo "<p>". translatable_elements("") ."</p>";
+
+	echo "<p>". translatable_elements("") ."</p>";
+
+	echo blockquote("", "");
+
+	echo blockquote("", "");
+
+	echo blockquote("", "");
+
+	echo blockquote("", "");
+
+	echo blockquote("", "");
+
+	echo blockquote("", "");
+
+	echo blockquote("", "");
 
 	echo "<amp-youtube data-videoid='6fvQdbLJOBQ' layout='responsive' width='640' height='360'></amp-youtube>";
 	
