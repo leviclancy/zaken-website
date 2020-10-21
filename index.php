@@ -253,7 +253,7 @@ $style_array = [
 	
 	"#body-content .p-em" => [
 		"display"		=> "inline-block",
-		"max-width"		=> "400px",
+		"max-width"		=> "450px",
 		"padding"		=> "0 50px",
 		"font-size"		=> "130%",
 		"line-height"		=> "1.6em",
