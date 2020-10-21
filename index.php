@@ -235,15 +235,16 @@ $style_array = [
 	
 	"#body-content p, #body-content dt, #body-content dd" => [
 		"white-space"		=> "pre",
+		"overflow-wrap"		=> "normal",
 		],
 
 	"#body-content dt" => [
 		"font-size"		=> "110%",
-		"margin"		=> "50px auto 0",
+		"margin"		=> "50px auto 20px",
 		],
 
 	"#body-content dd" => [
-		"padding"		=> "0 40px",
+		"padding"		=> "0 50px",
 		"margin"		=> "0 auto 50px",
 		],
 
