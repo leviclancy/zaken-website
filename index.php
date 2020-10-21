@@ -296,6 +296,7 @@ $style_array = [
 		"font-style"		=> "italic",
 		"font-size"		=> "70%",
 		"text-transform"	=> "uppercase",
+		"text-align"		=> "right",
 		],
 	
 	"h1, #body-content h2" => [
