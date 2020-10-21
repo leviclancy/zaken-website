@@ -1397,43 +1397,43 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"israel-jaffa-street-in-jerusalem" => [
+		"en"	=> "Jaffa Street in Jerusalem.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"israel-israel-is-a-safe-haven" => [
+		"en"	=> "Israel is a safe haven in this region, in the Middle East, and in the cradle of mankind.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"israel-dr-zaken-served" => [
+		"en"	=> "Dr. Zaken served as the National Director of the Institute of Students and Faculty on Israel (ISFI) in New York (1988-1991), and when returning to Israel, he continued his academic career, studying Islamic and Middle Eastern studies at The Hebrew University of Jerusalem. While at ISFI, he provided cultural resources, ideas, and tools for pro-Israel student activists throughout the US and Canada to promote the message of Israel and hold pro-Israel activities on their campuses.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"israel-in-1997" => [
+		"en"	=> "In 1997, he was asked to serve as the adviser on Arab Affairs to Prime Minister Benjamin Netanyahu (1997-1999), focusing on the Israeli Arab minority. He later served as the advisor on Arab Affairs at the Ministry of Public Security (2001-until now).",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"israel-in-my-humble-opinion" => [
+		"en"	=> "In my humble opinion, it is incumbent upon the Jewish people, as a people that has lived as a minority for thousands of years, to be sensitive to, and have a high degree of consciousness vis-a-vis the minorities living in their midst. I seek to operate in my position in accordance with this belief, to bring hearts together, and to widen the circles of co-existence between Arabs and Jews.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"israel-dr-zaken-right-with-prime-minister-netanyahu" => [
+		"en"	=> "Dr. Zaken (right) with Prime Minister Netanyahu and Reuven Rivlim (the current President) while visiting the Bedouin in the Negev, during Dr. Zaken’s service as an adviser on Arab Affairs. Circa 1998.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
