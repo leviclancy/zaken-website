@@ -766,17 +766,33 @@ if ($pageview_request == "the-jews-of-kurdistan"):
 	echo "<amp-img src='/media/book-compressed.jpg' width='1.8' height='1' layout='responsive'></amp-img>";
 	echo "</figure>";
 
-	echo "<blockquote>[This] is highly original and makes a significant contribution … His documentation is based on firsthand information, and is of the highest value. <i>(Dr. Joyce Blau, scholar)</i></blockquote>";
+	echo blockquote("the-jews-of-kurdistan-this-is-highly-original", "the-jews-of-kurdistan-joyce-blau");
 
-	echo "<p>The Jews of Kurdistan tells the stories of Jewish subjects that had lived and survived under the patronage of their tribal chieftains (or ‘aghas,’ i.e., masters) during the 19th and 20th centuries, in towns as well as in distant villages. It so happened that  the Jews of Kurdistan were able to preserve their own history and the history of their neighbours. Kurdish Jews from Kurdistan who immigrated to Israel and continued wearing Kurdish clothes, eating Kurdish food, and listening to Kurdish music every day of their lives. They kept the traditions of Kurdistan alive, and their stories are recorded in this authoritative book.</p>";
+	echo blockquote("the-jews-of-kurdistan-this-is-an-original", "the-jews-of-kurdistan-moshe-sharon");
 
-	echo "<p><b>Buy 'The Jews of Kurdistan: A Study in Survival' for $15 at <a href='https://kurdishjews.com/'>kurdishjews.com</a>.</b></p>";
+	echo "<p>". translatable_elements("the-jews-of-kurdistan-tells-the-stories") ."</p>";
 
-	echo "<blockquote>This is an original, comprehensive study on the Jewish community in Kurdistan in the last stages of its existence, during the first half of the 20th century. The scope of this study is far wider than its name. <i>(Moshe Sharon, Hebrew University)</i></blockquote>";
+	echo blockquote("the-jews-of-kurdistan-the-aim-of-the-author", "the-jews-of-kurdistan-joyce-blau");
 
-	echo "<h2>Translations</h2>";
+	echo "<p>". translatable_elements("the-jews-of-kurdistan-it-so-happened") ."</p>";
 
-	echo "<p>The Jews of Kurdistan has been translated into multiple languages, including an Arabic translation published in Beirut without the  previous knowledge or consent of the author.  The fact that he is an Israeli was removed from the biography printed on the book cover in Arabic. The author is indeed highly praised, but he is introduced as an American Jewish scholar from NYU.</p>";
+	echo blockquote("the-jews-of-kurdistan-the-task-of-gathering", "the-jews-of-kurdistan-joyce-blau");
+
+	echo "<p>". translatable_elements("the-jews-of-kurdistan-kurdish-jews-from-kurdistan") ."</p>";
+
+	echo blockquote("the-jews-of-kurdistan-many-years-were-needed", "the-jews-of-kurdistan-moshe-sharon");
+
+	echo "<p><b>". translatable_elements("the-jews-of-kurdistan-buy") ."</b></p>";
+
+	echo blockquote("the-jews-of-kurdistan-the-study-portrays", "the-jews-of-kurdistan-moshe-sharon");
+
+	echo "<p>". translatable_elements("the-jews-of-kurdistan-dr-moshe-sharons-full-review") ."</p>";
+
+	echo "<p>". translatable_elements("the-jews-of-kurdistan-dr-joyce-blaus-full-review") ."</p>";
+
+	echo "<h2>". translatable_elements("the-jews-of-kurdistan-translations") ."</h2>";
+
+	echo "<p>". translatable_elements("") ."</p>";
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
@@ -784,11 +800,13 @@ if ($pageview_request == "the-jews-of-kurdistan"):
 	echo "<amp-img src='/media/jews-praying-compressed.jpg' width='465' height='600' layout='responsive'></amp-img>";
 	echo "</figure>";
 
-	echo "<p>Interestingly, the cover is the famous 1878 artwork 'Jews Praying in the Synagogue on Yom Kippur', by Jewish painter Mauryey Gottlieb (1856-1879). He was a Polish Jewish realist painter who made significant contributions towards creating the genre of Jewish Art. The editors of the book in Arabic needed a picture for its cover, and when looking for a picture of Jews or some sort of symbol of Judaism, someone must have pulled this painting from the internet. Imagery and symbolism about Yom Kippur (the holiest day of the year for Jews) is prominent in the piece, which exemplifies many artistic values that are significant to Eastern European Jews at the time. It also contains many deeper allusions about Gottlieb’s short life. However, it has nothing to do with the Jews of the East and the Jews of Kurdistan.</p>";
+	echo "<p>". translatable_elements("") ."</p>";
 
-	endif;
+	echo "<h2>". translatable_elements("") ."</h2>";
 
-if ($pageview_request == "full-bibliography"):
+	echo "<p>". translatable_elements("") ."</p>";
+
+	echo "<p>". translatable_elements("") ."</p>";
 
 	endif;
 
