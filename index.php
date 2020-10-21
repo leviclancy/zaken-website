@@ -234,7 +234,7 @@ $style_array = [
 		],
 	
 	"#body-content p, #body-content dt, #body-content dd" => [
-		"white-space"		=> "pre",
+		"white-space"		=> "pre-wrap",
 		"overflow-wrap"		=> "normal",
 		],
 
