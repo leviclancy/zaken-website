@@ -1327,7 +1327,7 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		"ku"	=> "",
 		],
 
-// 	"kurdistan-region-and-israel-the-kurds-are-entitled" => [
+ 	"kurdistan-region-and-israel-the-kurds-are-entitled" => [
 		"en"	=> "The Kurds are entitled to an independent Kurdish national home just like the Jews, and they will sooner or later be granted this statehood.",
 		"he"	=> "",
 		"ar"	=> "",
