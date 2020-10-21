@@ -826,79 +826,87 @@ if ($pageview_request == "kurdistan-region"):
 
 if ($pageview_request == "tomb-of-the-prophet-nahum"):
 
-	echo "<p>". translatable_elements("") ."</p>";
-
-	echo "<p>". translatable_elements("") ."</p>";
-
-	echo "<p>". translatable_elements("") ."</p>";
-
-	echo blockquote("", "");
-
-	echo blockquote("", "");
-
-	echo blockquote("", "");
-
-	echo blockquote("", "");
-
-	echo blockquote("", "");
+	echo "<p>". translatable_elements("tomb-of-the-prophet-nahum-the-tomb-of-the-prophet") ."</p>";
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='/media/5271-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>Renovation work on the Shrine of the Prophet Nahum.</figcaption></figure>";
+	echo "<figcaption>". translatable_elements("tomb-of-the-prophet-nahum-renovation-work") ."</figcaption></figure>";
 
-//	echo "<figure class='amp-img-fader'>";
-//	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-//	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
-//	echo "<amp-img src='/media/t53whxjai2ijosfm-compressed.jpg' width='1.67' height='1' layout='responsive'></amp-img>";
-//	echo "<figcaption>Early 20th century postcard of Erbil.</figcaption></figure>";
+	echo "<p>". translatable_elements("tomb-of-the-prophet-nahum-dr-zaken-serves") ."</p>";
+
+	echo "<figure class='amp-img-fader'>";
+	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
+	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
+	echo "<amp-img src='/media/5271-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
+	echo "<figcaption>". translatable_elements("tomb-of-the-prophet-nahum-renovation-work") ."</figcaption></figure>";
 
 	endif;
 
-if ($pageview_request == "historical-information"):
+if ($pageview_request == "kurdistan-region-and-israel"):
 
-	echo "<blockquote>In 1950 and 1951, the entire Kurdish Jewish community immigrated to Israel. Over the years, Israeli Kurds followed the struggle of their Muslim brothers with great interest.</blockquote>";
+	echo "<p>". translatable_elements("kurdistan-region-and-israel-senior-israeli-officials") ."</p>";
 
-	echo "<p>The initial immigrants have established in Israel a community of hundreds of thousands of Jews from Kurdistan, through their children, grandchildren, and further descendants.</p>";
+	echo blockquote("kurdistan-region-and-israel-in-1950-and-1951");
 
-	echo "<blockquote>The late Kurdish leader Mala Mustafa Barzani secretly visited Israel twice to meet with Israeli authorities. He also saw his Kurdish Jewish friend, David Gabai. In the 1930s, Gabai's father, Eliyahu, the leader of the Iraqi Jewish community of Aqra, Iraq, supplied food and aid to the Kurds who were revolting against the British. Some say that this special connection between the two families helped to increase Barzani's confidence in Israel.</blockquote>";
-	
+	echo "<p>". translatable_elements("kurdistan-region-and-israel-the-initial-immigrants") ."</p>";
+
+	echo "<p>". translatable_elements("kurdistan-region-and-israel-dancing-at-the-sahrane") ."</p>";
+
+	echo "<p>". translatable_elements("kurdistan-region-and-israel-mala-mustafa-at-an-israeli-air-force-base") ."</p>";
+
+	echo blockquote("kurdistan-region-and-israel-eliyahu-gabai-was-the-leader");
+
+	echo "<p>". translatable_elements("kurdistan-region-and-israel-the-late-kurdish-leader-mala-mustafa") ."</p>";
+
 	echo "<figure>";
 	echo "<amp-img src='/media/sharansky-compressed.jpg' width='3' height='4' layout='responsive'></amp-img>";
-	echo "<figcaption>Moti (right) with Natan Sharansky, decorated Israeli political scientist and politician.</figcaption></figure>";
+	echo "<figcaption>". translatable_elements("kurdistan-region-and-israel-moti-right-with-natan-sharansky") ."</figcaption></figure>";
 
-	echo "<p>Since the referendum on independence, there has emerged a renewed solidarity between Jews in Israel and Kurds in Kurdistan. Israeli flags waved at rallies in the Kurdistan Region, while Kurdish flags waved at rallies in Israel.</p>";
+	echo blockquote("kurdistan-region-and-israel-israel-has-a-moral-obligation");
 
-	echo "<blockquote>Israel has a moral obligation to help the Kurds. The Iraqi genocide against the Kurds is a signal that sympathy is not enough for survival in the Middle East.</blockquote>";
+	echo "<p>". translatable_elements("kurdistan-region-and-israel-since-the-referendum") ."</p>";
 
-//	echo "<figure class='amp-img-fader'>";
-//	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-//	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
-//	echo "<amp-img src='/media/3277-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
-//	echo "<figcaption>Details from a mosque in Erbil.</figcaption></figure>";
+	echo "<p>". translatable_elements("kurdistan-region-and-israel-israeli-agent-haimke-levakov") ."</p>";
 
-	echo "<p>Despite historical antisemitism by Kurdish chieftains, including attacks and abuses against the Jews under their authority, the Kurdish society has expressed an interest in the survival of Jews and Israel that reflects their own quest for self-determination.</p>";
+	echo blockquote("kurdistan-region-and-israel-some-aghas-were-not-so-nice");
 
-	echo "<blockquote>Some aghas were not so nice, exploited the Jews, and took advantage of the Jews economically, physically, and other ways. However, I want to emphasize the good values, the good memories the Jews had from Kurdistan. And I want to share this with people.</blockquote>";
+	echo "<p>". translatable_elements("kurdistan-region-and-israel-despite-historical-antisemitism") ."</p>";
 
-//	echo "<figure class='amp-img-fader'>";
-//	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-//	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
-//	echo "<amp-img src='/media/6916-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
-//	echo "<figcaption>Kurdish Jews near Jerusalem.</figcaption></figure>";
+	echo "<p>". translatable_elements("kurdistan-region-and-israel-mala-mustafa-on-a-visit-to-israel") ."</p>";
 
-	echo "<figure>";
-	echo "<amp-img src='/media/uzi-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>Moti (right) with Brigadier General (Reserve) Uzi Dayan, a staunch supporter of the Kurds, in the Old City of Jerusalem.</figcaption></figure>";
+	echo "<p>". translatable_elements("kurdistan-region-and-israel-today-there-is-an-inextricable-relationship") ."</p>";
 
-	echo "<p>Today, there is an inextricable relationship between Jewish people and Kurdish people in terms of culture, heritage, and existence in the Arab-majority Middle East.</p>";
+	echo blockquote("kurdistan-region-and-israel-the-kurds-are-entitled");
 
-	echo "<blockquote>The Kurds are entitled to an independent Kurdish national home just like the Jews, and they will sooner or later be granted this statehood.</blockquote>";
+	echo "<p>". translatable_elements("kurdistan-region-and-israel-on-january-4th-2015") ."</p>";
+
+	echo "<amp-youtube data-videoid='8xh9hY1q0kE' layout='responsive' width='640' height='360'></amp-youtube>";
+
+//	echo "<figure>";
+//	echo "<amp-img src='/media/uzi-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
+//	echo "<figcaption>Moti (right) with Brigadier General (Reserve) Uzi Dayan, a staunch supporter of the Kurds, in the Old City of Jerusalem.</figcaption></figure>";
 
 	endif;
 
 if ($pageview_request == "world-kurdish-forum"):
+
+	echo "<p>". translatable_elements("") ."</p>";
+
+	echo "<p>". translatable_elements("") ."</p>";
+
+	echo "<p>". translatable_elements("") ."</p>";
+
+	echo "<p>". translatable_elements("") ."</p>";
+
+	echo blockquote("", "");
+
+	echo blockquote("", "");
+
+	echo blockquote("", "");
+
+	echo blockquote("", "");
 
 	echo "<p>In early October 2012, Moti was invited by Prof. Alan Dilani, founder of the World Kurdish Forum, to attend the Forum’s conference in Erbil, the capital of the autonomous Kurdistan Region.</p>";
 
