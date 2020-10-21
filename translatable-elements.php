@@ -73,8 +73,8 @@
 	"the-jews-of-kurdistan" => [
 		"en"	=> "The Jews of Kurdistan",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "یهود کردستان",
+		"ku"	=> "جولەکانی کوردستان",
 		],
 	
 	"kurdistan-region" => [
@@ -994,108 +994,108 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"the-jews-of-kurdistan-this-is-highly-original" => [
+		"en"	=> "[This] is highly original and makes a significant contribution … His documentation is based on firsthand information, and is of the highest value.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"the-jews-of-kurdistan-joyce-blau" => [
+		"en"	=> "Prof. Joyce Blau, scholar",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"the-jews-of-kurdistan-this-is-an-original" => [
+		"en"	=> "This is an original, comprehensive study on the Jewish community in Kurdistan in the last stages of its existence, during the first half of the 20th century. The scope of this study is far wider than its name.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"the-jews-of-kurdistan-moshe-sharon" => [
+		"en"	=> "Prof. Moshe Sharon, Hebrew University",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"the-jews-of-kurdistan-tells-the-stories" => [
+		"en"	=> "The Jews of Kurdistan tells the stories of Jewish subjects that had lived and survived under the patronage of their tribal chieftains (or ‘aghas,’ i.e., masters) during the 19th and 20th centuries, in towns as well as in distant villages.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"the-jews-of-kurdistan-the-aim-of-the-author" => [
+		"en"	=> "The aim of the author of the thesis was exhaustively to describe the relations between the Kurdish chiefs and their Jewish subjects during the first part of the 20th century in northwestern Iraqi Kurdistan.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"the-jews-of-kurdistan-it-so-happened" => [
+		"en"	=> "It so happened that  the Jews of Kurdistan were able to preserve their own history and the history of their neighbours.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"the-jews-of-kurdistan-the-task-of-gathering" => [
+		"en"	=> "The task of gathering and ordering all this fieldwork was immense, and the candidate is to be congratulated on the methodology that he chose. This part of Mr. Zaken’s thesis, concerning Jewish life in Bahdinan, well complements the impressive work of the pioneer ethologist Erich Brauer.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"the-jews-of-kurdistan-kurdish-jews-from-kurdistan" => [
+		"en"	=> "Kurdish Jews from Kurdistan immigrated to Israel and continued wearing Kurdish clothes, eating Kurdish food, and listening to Kurdish music every day of their lives. They kept the traditions of Kurdistan alive, and their stories are recorded in this authoritative book.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"the-jews-of-kurdistan-many-years-were-needed" => [
+		"en"	=> "Many years were needed to accomplish this study, for two main reasons: First, the quality of the documents gathered and researched. … The second was the decision to widen the scope of the research beyond its original plan, and include in it the comparative study of the Assyrian Christians.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"the-jews-of-kurdistan-buy" => [
+		"en"	=> "Buy The Jews of Kurdistan: A Study in Survival for $15 at <a href='https://kurdishjews.com'>kurdishjews.com</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"the-jews-of-kurdistan-the-study-portrays" => [
+		"en"	=> "The study portrays the life of individuals and communities and of their relationships with the government, and its judicial system, as well as with the Kurdish tribal law. Of great significance are the chapters in the research dedicated to the methods adopted by Jews in order to survive in conditions of complete inferiority, submissiveness and dependence, and with no measures of self-defense or safety outside the tribal framework.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"the-jews-of-kurdistan-dr-moshe-sharons-full-review" => [
+		"en"	=> "Dr. Moshe Sharon’s full review: <a href='https://drive.google.com/file/d/1__J6XEeHGa5zxXPV6B_uPNiI01q7XJ5d/view?usp=sharing'>drive.google.com</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"the-jews-of-kurdistan-dr-joyce-blaus-full-review" => [
+		"en"	=> "Dr. Joyce Blau’s full review: <a href='https://drive.google.com/file/d/1xmY13QpqpykNv1HirC8m-NJdbAa-Bd5x/view?usp=sharing'>drive.google.com</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"the-jews-of-kurdistan-translations" => [
+		"en"	=> "Translations",
 		"he"	=> "",
-		"ar"	=> "",
+		"ar"	=> "الترجمات",
 		"ku"	=> "",
 		],
 
