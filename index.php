@@ -255,10 +255,11 @@ $style_array = [
 		"display"		=> "inline-block",
 		"max-width"		=> "450px",
 		"padding"		=> "0 50px",
-		"font-size"		=> "130%",
+		"font-size"		=> "120%",
 		"line-height"		=> "1.6em",
 		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
 		"text-align"		=> "center",
+		"text-transform"	=> "uppercase",
 		],
 
 	"#body-content figure, #body-content amp-img" => [
