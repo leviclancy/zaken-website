@@ -250,6 +250,7 @@ $style_array = [
 		],
 	
 	"#body-content .p-em" => [
+		"max-width"		=> "400px",
 		"padding"		=> "0 50px",
 		"font-size"		=> "130%",
 		"line-height"		=> "1.6em",
