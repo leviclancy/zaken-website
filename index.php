@@ -218,7 +218,7 @@ $style_array = [
 		"color"			=> "#333",
 		"padding"		=> "10px 0 100px",
 		"font-family"		=> "Molengo",
-		"line-height"		=> "1.5em",
+		"line-height"		=> "1.2em",
 		],
 	
 	"h1, #body-content h2, #body-content p, 
@@ -235,6 +235,15 @@ $style_array = [
 	
 	"#body-content p, #body-content dt, #body-content dd" => [
 		"white-space"		=> "pre",
+		],
+
+	"#body-content dt" => [
+		"margin"		=> "50px auto 20px",
+		],
+
+	"#body-content dd" => [
+		"padding"		=> "0 40px",
+		"margin"		=> "0 auto 50px",
 		],
 
 	"#body-content figure, #body-content amp-img" => [
@@ -394,17 +403,17 @@ function blockquote($content_id, $attribution_id=null) {
 	return $string_temp; }
 
 function timeline_output ($date_begin, $date_end, $description) {
-	$timeline = "<dt>";
+	$timeline = "<dl><dt>";
 	$timeline .= $date_begin;
 	if (!(empty($date_end))):  $timeline .= " — ". $date_end; endif;
-	$timeline .= "</dt><dd>" . $description . "</dd>";
+	$timeline .= "</dt><dd>" . $description . "</dd></dl>";
 	return $timeline; }
 
 function publications_output($date, $description) {
-	$timeline = "<dt>" . $date . "</dt>";
+	$timeline = "<dl><dt>" . $date . "</dt>";
 	$description = explode("\n", $description);
 	$description[0] = "<b>" . $description[0] . "</b>";
-	$timeline .= "<dd>" . implode("\n", $description) . "</dd>";
+	$timeline .= "<dd>" . implode("\n", $description) . "</dd></dl>";
 	return $timeline; }
 
 // Navigation buttons
