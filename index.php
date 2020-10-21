@@ -30,7 +30,7 @@ $sitemap_array = [
 	"israel" => [
 		"minorities-affairs",
 		],
-	"press-and-bookings" => [
+	"press-coverage" => [
 //		"press-history",
 		],
 	];
@@ -223,6 +223,7 @@ $style_array = [
 	
 	"h1, #body-content h2, #body-content p, 
 	#body-content dt, #body-content dd,
+	#Contact dt, #Contact dd,
 	#body-content figure, #body-content .p-em,
 	#body-content blockquote, #body-content amp-youtube" => [
 		"display"		=> "block",
@@ -233,17 +234,19 @@ $style_array = [
 		"box-sizing"		=> "border-box",
 		],
 	
-	"#body-content p, #body-content dt, #body-content dd" => [
+	"#body-content p,
+	#body-content dt, #body-content dd,
+	#Contact dt, #Contact dd" => [
 		"white-space"		=> "pre-wrap",
 		"overflow-wrap"		=> "normal",
 		],
 
-	"#body-content dt" => [
+	"#body-content dt, #Contact dt" => [
 		"font-size"		=> "110%",
 		"margin"		=> "50px auto 20px",
 		],
 
-	"#body-content dd" => [
+	"#body-content dd, #Contact dd" => [
 		"padding"		=> "0 50px",
 		"margin"		=> "0 auto 50px",
 		],
@@ -334,13 +337,8 @@ $style_array = [
 	
 	"#contact-footer-primary" => [
 		"font-size"		=> "120%",
-		"margin"		=> "20px auto 50px",
 		],
 	
-	".contact-footer-secondary" => [
-		"margin"		=> "0 auto 30px",
-		],
-
 	];
 
 function css_output($style_array=[]) {
@@ -429,6 +427,18 @@ function publications_output($date, $description) {
 	$description[0] = "<b>" . $description[0] . "</b>";
 	$timeline .= "<dd>" . implode("\n", $description) . "</dd></dl>";
 	return $timeline; }
+
+function press_report_output($date, $article_name, $link_url, $link_name=null) {
+	if (empty($link_name)): $link_name = $article_name; endif;
+	$press_report = "<dl><dt>" . $date . "</dt>";
+	if (empty($link_name)):
+		$press_report .= "<dd><a href='" . $link_url . "'>" . $article_name . "</dd></dl>";		
+	else:
+		$press_report .= "<dd><a href='" . $link_url . "'>" . $link_name . "</a><br>";
+		$press_report .= $article_name . "</dd></dl>";
+		endif;
+
+	return $press_report; }
 
 // Navigation buttons
 echo "<div id='website-header'>";
@@ -938,73 +948,51 @@ if ($pageview_request == "israel"):
 
 if ($pageview_request == "minorities-affairs"):
 
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='/media/6541-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>Clergy and pilgrims in Jerusalem.</figcaption></figure>";
+//	echo "<figure class='amp-img-fader'>";
+//	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
+//	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
+//	echo "<amp-img src='/media/6541-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
+//	echo "<figcaption>Clergy and pilgrims in Jerusalem.</figcaption></figure>";
 
-	echo "<p>". translatable_elements("") ."</p>";
+	echo "<p>". translatable_elements("minorities-affairs-in-israel-he-founded") ."</p>";
 
-	echo "<p>". translatable_elements("") ."</p>";
+	echo blockquote("minorities-affairs-in-my-position", "dr-mordechai-zaken");
 
-	echo "<p>". translatable_elements("") ."</p>";
+	echo "<p>". translatable_elements("minorities-affairs-during-the-second-lebanon-war") ."</p>";
 
-	echo "<p>". translatable_elements("") ."</p>";
-
-	echo "<p>". translatable_elements("") ."</p>";
-
-	echo "<p>". translatable_elements("") ."</p>";
-
-	echo blockquote("", "");
-
-	echo blockquote("", "");
-
-	echo blockquote("", "");
-
-	echo blockquote("", "");
-
-	echo blockquote("", "");
-
-	echo blockquote("", "");
-
-	echo blockquote("", "");
+	echo "<p>". translatable_elements("minorities-affairs-interview-about-the-importance") ."</p>";
 
 	echo "<amp-youtube data-videoid='6fvQdbLJOBQ' layout='responsive' width='640' height='360'></amp-youtube>";
 	
-	echo "<blockquote>It is very important that we will cooperate to solve problems, and to improve relations. We value the Christian groups and representatives. They are a very important asset for the Jewish state.</blockquote>";
-	
-	echo "<p>Interview about meetings organized by Dr. Zaken between Israeli officials and Christian leaders,</p>";
+	echo blockquote("minorities-affairs-it-is-very-important-that-we-will", "dr-mordechai-zaken");
+
+	echo "<p>". translatable_elements("minorities-affairs-interview-about-meetings-organized") ."</p>";
+
 	echo "<amp-youtube data-videoid='i8yI-SLzSKg' layout='responsive' width='640' height='360'></amp-youtube>";
 	
-	echo "<p>Interview about combatting anti-Christian hate,</p>";
+	echo "<p>". translatable_elements("minorities-affairs-interview-about-combating") ."</p>";
+
 	echo "<amp-youtube data-videoid='B3tVz2kAv1k' layout='responsive' width='640' height='360'></amp-youtube>";
 	
-	echo "<blockquote>It's not enough to only show solidarity. We must continue to educate those who are responsible for hate. Also, we have to make sure that the police and other authorities will find those responsible for hate crimes. They must be caught and brought into trial.</blockquote>";
-	
-	echo "<p>Interview about combatting anti-Christian hate,</p>";
+	echo blockquote("minorities-affairs-its-not-enough-to-only-show-solidarity", "dr-mordechai-zaken");
+
+	echo "<p>". translatable_elements("minorities-affairs-interview-about-combating") ."</p>";
+
 	echo "<amp-youtube data-videoid='Mn88fWoYmYY' layout='responsive' width='640' height='360'></amp-youtube>";
 	
-	echo "<p>Meeting with the Greek Orthodox Patriarch,</p>";
+	echo "<p>". translatable_elements("minorities-affairs-meeting-with-the-greek-orthodox-patriarch") ."</p>";
+
 	echo "<amp-youtube data-videoid='KK2l8vaqrLo' layout='responsive' width='640' height='360'></amp-youtube>";
 	
 	endif;
 
-if ($pageview_request == "press"):
+if ($pageview_request == "press-coverage"):
 
-	function press_report_output($date, $article_name, $link_url, $link_name=null) {
-		if (empty($link_name)): $link_name = $article_name; endif;
-		$press_report = "<tr><td>" . $date . "</td>";
-		if (empty($link_name)):
-			$press_report .= "<td><a href='" . $link_url . "'>" . $article_name . "</td></tr>";		
-		else:
-			$press_report .= "<td><a href='" . $link_url . "'>" . $link_name . "</a></td>";
-			$press_report .= "<td>" . $article_name . "</td></tr>";
-			endif;
+//	echo "<p>". translatable_elements("") ."</p>";
 
-		return $press_report; }
+//	echo blockquote("", "");
 
-	echo "<table><tbody>";
+	echo "<amp-youtube data-videoid='dq0R5bZpOF0' layout='responsive' width='640' height='360'></amp-youtube>";
 
 	echo press_report_output("2020-08-29", "The Miracle of the Tomb of Prophet Nahum", "https://en.davar1.co.il/244830/", "davar1.co.il");
 
@@ -1014,11 +1002,7 @@ if ($pageview_request == "press"):
 
 	echo press_report_output("2019-10-27", "Israel and the Kurds Strive to Maintain Post-US Relationship", "https://themedialine.org/by-region/whats-next-for-israel-and-the-kurds/", "themedialine.org");
 
-	echo "</tbody></table>";
-
-	echo "<blockquote>This affection between our nations is mutual. Not only are the Kurds very popular in Israel, but Israel and the Jews enjoy a good deal of respect and sympathy among the Kurds.</blockquote>";
-
-	echo "<table><tbody>";
+	echo blockquote("press-coverage-this-affection-between-our-nations", "dr-mordechai-zaken");
 
 	echo press_report_output("2019-03-05", "Lending a Helping Hand to Strangers and Sojourners", "https://www.hudson.org/research/14847-lending-a-helping-hand-to-strangers-and-sojourners", "hudson.org");
 
@@ -1034,11 +1018,7 @@ if ($pageview_request == "press"):
 
 	echo press_report_output("2017-07-18", "Temple Mount terror attack highlights sharp dichotomy between Israeli minorities", "https://www.jns.org/temple-mount-terror-attack-highlights-sharp-dichotomy-between-israeli-minorities/", "jns.org");
 
-	echo "</tbody></table>";
-
 	echo "<amp-youtube data-videoid='6fvQdbLJOBQ' layout='responsive' width='640' height='360'></amp-youtube>";
-
-	echo "<table><tbody>";
 
 	echo press_report_output("2017-01-27", "Israelis eager to welcome US Embassy to Jerusalem", "https://nypost.com/2017/01/27/israelis-eager-to-welcome-us-embassy-to-jerusalem/", "nypost.com");
 
@@ -1060,17 +1040,13 @@ if ($pageview_request == "press"):
 
 	echo press_report_output("1999-04-28", "Unrecognized villages", "http://edition.cnn.com/WORLD/meast/9804/28/israel.forty.villages/index.old.html", "cnn.com");
 
-	echo "</tbody></table>";
-
-	echo "<blockquote>There is a desire to work to promote equal rights and opportunities in Israel.</blockquote>";
-
-	echo "<table><tbody>";
+	echo blockquote("press-coverage-there-is-a-desire", "dr-mordechai-zaken");
 
 	echo press_report_output("1998-01-02", "Excerpts from Report of the Government Ministries' Activities in the Non-Jewish Sector in 1997", "https://mfa.gov.il/mfa/mfa-archive/1998/pages/report%20of%20the%20government%20ministries-%20activities%20in.aspx", "mfa.gov.il");
 
-//	echo press_report_output("", "", "", "");
+	echo press_report_output("1990", "With the Lubavitcher Rebbe, in 1990.", "https://www.youtube.com/watch?v=F6XMTZ_YANY ", "youtube.com");
 
-	echo "</tbody></table>";
+//	echo press_report_output("", "", "", "");
 
 //	http://israeli-kurdish-friendship-league.blogspot.com/
 
@@ -1081,28 +1057,24 @@ echo "</div>";
 // Contact footer
 echo "<div id='Contact'>";
 
-	echo "<div id='contact-footer-primary'>";
-		echo "To reach Dr. Zaken,<br>";
-		echo "<a href='mailto:info@drmordechaizaken.com'>info@drmordechaizaken.com</a>";
-		echo "</div>";
+	echo "<dl id='contact-footer-primary'>";
+		echo "<dt>". translatable_elements("footer-to-reach-dr-zaken") ."</dt>";
+		echo "<dd><a href='mailto:info@drmordechaizaken.com'>info@drmordechaizaken.com</a></dd>";
+		echo "</dl>";
 
-	echo "<div class='contact-footer-secondary'>";
-		echo "<i>". $translatable_elements["to-contact-the-national-association"][$language_request] ."</i><br>";
-		echo "&nbsp;&nbsp; <a href='https://kurdishjewry.org.il'>kurdishjewry.org.il</a><br>";
-		echo "&nbsp;&nbsp; <a href='mailto:info@kurdishjewry.org.il'>info@kurdishjewry.org.il</a>";
-		echo "</div>";
+	echo "<dl>";
+		echo "<dt>". translatable_elements("footer-to-contact-the-national-association") ."</dt>";
+		echo "<dd><a href='https://kurdishjewry.org.il'>kurdishjewry.org.il</a><br>";
+		echo "<a href='mailto:info@kurdishjewry.org.il'>info@kurdishjewry.org.il</a></dd>";
+		echo "</dl>";
 
-	echo "<div class='contact-footer-secondary'>";
-		echo "<i>With Moti’s permission and support, this website has been developed and maintained by Foundation of Ours as part of the Foundation’s mission to support Jewish expression in the Kurdistan Region.</i>";
-		echo "&nbsp;&nbsp; <a href='https://ours.foundation'>ours.foundation</a><br>";
-		echo "&nbsp;&nbsp; <a href='mailto:info@ours.foundation'>info@ours.foundation</a><br>";
-		echo "&nbsp;&nbsp; <a href='https://wa.me/12072165608'>+1 (207) 216-5608</a> (WhatsApp)";
-		echo "</div>";
+	echo "<dl>";
+		echo "<dt>". translatable_elements("footer-with-motis-permission-and-support") ."</dt>";
+		echo "<dd><a href='https://ours.foundation'>ours.foundation</a><br>";
+		echo "<a href='mailto:info@ours.foundation'>info@ours.foundation</a><br>";
+		echo "<a href='https://wa.me/12072165608'>+1 (207) 216-5608</a> (WhatsApp)</dd>";
+		echo "</dl>";
 
-	echo "<div class='contact-footer-secondary'>";
-		echo $translatable_elements["last-updated"][$language_request];
-		echo "</div>";
+	echo "<p>". translatable_elements("footer-last-updated") ."</p>";
 
-	echo "</div>";
-
-?>
+	echo "</div>"; ?>
