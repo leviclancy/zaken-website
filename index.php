@@ -292,17 +292,16 @@ $style_array = [
 		],
 	
 	"h1, #body-content h2" => [
-		"padding"		=> "0 50px",
 //		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
 		"font-family"		=> "Verdana",
 		"font-weight"		=> "700",
 		"line-height"		=> "1.4em",
+		"text-align"		=> "center",
 		],
 	
 	"h1" => [
 		"margin"		=> "70px auto 10px",
 		"font-size"		=> "220%",
-		"text-align"		=> "center",
 		"text-shadow"		=> "2px 2px 20px -10px rgba(50,50,50,0.25)",
 		],
 	
