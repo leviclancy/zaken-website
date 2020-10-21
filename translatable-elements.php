@@ -887,7 +887,6 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 
 <a href='https://www.youtube.com/watch?v=8xh9hY1q0kE'>youtube.com</a>
 
-// https://www1.biu.ac.il/File/news/file_biu_14_12_31_10_26.pdf
 <a href='https://drive.google.com/file/d/1YfWiAZBuq_s1n5OqASg_qtEhggWTRlGh/view?usp=sharing'>drive.google.com</a>",
 		"he"	=> "",
 		"ar"	=> "",
@@ -1099,15 +1098,20 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"the-jews-of-kurdistan-the-book-the-jews-of-kurdistan" => [
+		"en"	=> "The book \"The Jews of Kurdistan\" has been translated into multiple languages, including an Arabic version, which was published in Beirut. The in the inner flap of the book describes Professor Mordechai Zaken as follows,",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"the-jews-of-kurdistan-descended-from" => [
+		"en"	=> "• Descended from the Jews of Iraqi Kurdistan.
+• Holds his PhD from New York University, USA.
+• He wrote his doctoral thesis from 1985 - 2002.
+• An expert historian on the Jews of Kurdistan and the tribal Kurdish community.
+• An expert in oral history.
+• Fluent in Farsi, Kurdish, Hebrew, and Arabic, as well as English.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
