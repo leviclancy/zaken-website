@@ -223,7 +223,7 @@ $style_array = [
 	
 	"h1, #body-content h2, #body-content p, 
 	#body-content dt, #body-content dd,
-	#body-content figure, #body-content .p-em
+	#body-content figure, #body-content .p-em,
 	#body-content blockquote, #body-content amp-youtube" => [
 		"display"		=> "block",
 		"margin"		=> "50px auto",
@@ -289,6 +289,13 @@ $style_array = [
 		"margin"		=> "0 0 0 -20px",
 		"display"		=> "inline-block",
 		"line-height"		=> "1em",
+		],
+	
+	"#body-content blockquote cite" => [
+		"display"		=> "block",
+		"font-style"		=> "italic",
+		"font-size"		=> "80%",
+		"text-transform"	=> "uppercase",
 		],
 	
 	"h1, #body-content h2" => [
@@ -399,7 +406,7 @@ function blockquote($content_id, $attribution_id=null) {
 	global $language_request;
 	if (empty($content_id)): return; endif;
 	$string_temp = "<blockquote>". translatable_elements($content_id) ."";
-	if (!(empty($attribution_id))): $string_temp .= " &nbsp;&nbsp;&nbsp; <i>". translatable_elements($attribution_id) ."</i>"; endif;
+	if (!(empty($attribution_id))): $string_temp .= "<cite>". translatable_elements($attribution_id) ."</cite>"; endif;
 	$string_temp .= "</blockquote>";
 	return $string_temp; }
 
