@@ -222,8 +222,8 @@ $style_array = [
 		],
 	
 	"h1, #body-content h2, #body-content p, 
-	#body-content dl, #body-content ul, #body-content ol, 
-	#body-content figure, #body-content table, 
+	#body-content dt, #body-content dd,
+	#body-content figure,
 	#body-content blockquote, #body-content amp-youtube" => [
 		"display"		=> "block",
 		"margin"		=> "50px auto",
@@ -233,6 +233,9 @@ $style_array = [
 		"box-sizing"		=> "border-box",
 		],
 	
+	"#body-content p, #body-content dt, #body-content dd" => [
+		"white-space"		=> "pre",
+		],
 
 	"#body-content figure, #body-content amp-img" => [
 		"padding"		=> "0",
@@ -269,18 +272,6 @@ $style_array = [
 		"line-height"		=> "1em",
 		],
 	
-	"#body-content td" => [
-		"display"		=> "block",
-		"margin"		=> "0",
-		"padding"		=> "0 0 0 15px",		
-		],
-	
-	"#body-content td:first-child" => [
-		"margin"		=> "30px 0 10px",
-		"font-weight"		=> "700",
-		"padding"		=> "0 0 0 0",
-		],
-	
 	"h1, #body-content h2" => [
 		"padding"		=> "0 50px",
 //		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
@@ -294,23 +285,6 @@ $style_array = [
 		"font-size"		=> "220%",
 		"text-align"		=> "center",
 		"text-shadow"		=> "2px 2px 20px -10px rgba(50,50,50,0.25)",
-		],
-
-	"#body-content ul" => [	
-//		"column-width"		=> "300px",
-//		"column-count"		=> "3",
-//		"column-gap"		=> "30px",
-		"list-style-type"	=> "none",
-		],
-
-	"#body-content li" => [
-		"max-width"		=> "500px",
-		"display"		=> "block",
-		"margin"		=> "20px auto 30px",
-		"font-size"		=> "120%",
-		"line-height"		=> "1.6em",
-		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
-		"text-align"		=> "center",
 		],
 	
 	"#body-content dt" => [
@@ -342,19 +316,6 @@ $style_array = [
 	
 	".contact-footer-secondary" => [
 		"margin"		=> "0 auto 30px",
-		],
-	
-	".timeline-output-time" => [
-		"display"		=> "block",
-		"font-weight"		=> "700",
-		"margin"		=> "30px 0 30px",
-		],
-
-	".timeline-output-content" => [
-		"display"		=> "block",
-		"font-weight"		=> "400",
-		"margin"		=> "0 0 100px 30px",
-		"white-space"		=> "pre",
 		],
 
 	];
@@ -433,17 +394,17 @@ function blockquote($content_id, $attribution_id=null) {
 	return $string_temp; }
 
 function timeline_output ($date_begin, $date_end, $description) {
-	$timeline = "<div class='timeline-output-time'>";
+	$timeline = "<dt>";
 	$timeline .= $date_begin;
 	if (!(empty($date_end))):  $timeline .= " — ". $date_end; endif;
-	$timeline .= "</div><div class='timeline-output-content'>" . $description . "</div>";
+	$timeline .= "</dt><dd>" . $description . "</dd>";
 	return $timeline; }
 
 function publications_output($date, $description) {
-	$timeline = "<div class='timeline-output-time'>" . $date . "</div>";
+	$timeline = "<dt>" . $date . "</dt>";
 	$description = explode("\n", $description);
 	$description[0] = "<b>" . $description[0] . "</b>";
-	$timeline .= "<div class='timeline-output-content'>" . implode("\n", $description) . "</div>";
+	$timeline .= "<dd>" . implode("\n", $description) . "</dd>";
 	return $timeline; }
 
 // Navigation buttons
@@ -792,15 +753,15 @@ if ($pageview_request == "the-jews-of-kurdistan"):
 
 	echo "<h2>". translatable_elements("the-jews-of-kurdistan-translations") ."</h2>";
 
-	echo "<p>". translatable_elements("") ."</p>";
+	echo "<p>". translatable_elements("the-jews-of-kurdistan-the-book-the-jews-of-kurdistan") ."</p>";
+
+	echo "<p>". translatable_elements("the-jews-of-kurdistan-descended-from") ."</p>";
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='/media/jews-praying-compressed.jpg' width='465' height='600' layout='responsive'></amp-img>";
 	echo "</figure>";
-
-	echo "<p>". translatable_elements("") ."</p>";
 
 	echo "<h2>". translatable_elements("") ."</h2>";
 
