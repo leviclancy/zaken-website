@@ -1117,22 +1117,85 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"the-jews-of-kurdistan-the-fact-that" => [
+		"en"	=> "The fact that he is an Israeli was removed from the biography printed on the book cover in Arabic. The author is indeed highly praised, but he is introduced as an American (Jewish) scholar from NYU.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"the-jews-of-kurdistan-interestingly-the-cover" => [
+		"en"	=> "Interestingly, the cover is the famous 1878 artwork ‘Jews Praying in the Synagogue on Yom Kippur’, by Jewish painter Mauryey Gottlieb (1856-1879). He was a Polish Jewish realist painter who made significant contributions towards creating the genre of Jewish Art. The editors of the book in Arabic needed a picture for its cover, and when looking for a picture of Jews or some sort of symbol of Judaism, someone must have pulled this painting from the internet. Imagery and symbolism about Yom Kippur (the holiest day of the year for Jews) is prominent in the piece, which exemplifies many artistic values that are significant to Eastern European Jews at the time. It also contains many deeper allusions about Gottlieb’s short life. However, it has nothing to do with the Jews of the East and the Jews of Kurdistan.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"" => [
-		"en"	=> "",
+	"the-jews-of-kurdistan-download-the-arabic" => [
+		"en"	=> "Download the Arabic translation: <a href='https://www.academia.edu/37290014/jewish_subjects_in_Kurdistan_in_Arabic_PDF'>academia.edu</a>",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"the-jews-of-kurdistan-download-the-sorani" => [
+		"en"	=> "Download the Sorani translation: <a href='https://www.academia.edu/37290157/Kurdistan_Jews_IN_SORANI_pdf'>academia.edu</a>",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"the-jews-of-kurdistan-naze-a-voice-from-the-past" => [
+		"en"	=> "Naze: A voice from the past",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"the-jews-of-kurdistan-the-publication" => [
+		"en"	=> "The publication of The Jews of Kurdistan has not been the final fruit of the informants’ oral histories. Memories from the past have kept returning even across multiple generations, such as when a family in Turkey read about in Dr. Zaken’s book about an Akreyi Jew named Khawaja Khinno. It became clear that this must be the same gentleman who had raised their grandmother Naze, who they knew had been born in Akre but had been raised under the protection of her uncle named Khawaja after her father died when she was still an infant.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"the-jews-of-kurdistan-her-grandchildren" => [
+		"en"	=> "Her grandchildren Hamza and Irfan Iktan produced both a documentary film and also a book on the topic, and reached out to Dr. Zaken about the project. Interestingly, information about Naze’s life corroborated the book perfectly, including verbatim quotes.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"the-jews-of-kurdistan-naze-was-coerced" => [
+		"en"	=> "Naze was coerced into leaving Akre in the early 20th century and was married to a Muslim youth named Khaled/Halit who was from Gevar village (Yuksekova in Turkish) in the Hakkar region. He had seduced her, and Naze lived all her life as a sort of undesirable or unwanted Jew in-law in the eyes of her mother-in-law. Her incredible life story would have been completely hidden had it not been for her skillful grandchildren, who felt it is important to tell her story in spite of the difficulties. Irfan Iktan published “Nazê, a story of migration” in 2005 in Turkish. Now, through multiple generations and in multiple formats, her story has been conserved with the dignity it deserves and integrated into the broader stories of the Jews of Kurdistan.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"kurdistan-region-dr-zaken-left-with-yona-sabar-right" => [
+		"en"	=> "Dr. Zaken (left) with Yona Sabar (right) at the Citadel in Erbil, in front of a house whose doorway had a place for a mezuzah, the Jewish relic that almost every Jewish family had on their door.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"kurdistan-region-dr-zaken-is-the-counselor" => [
+		"en"	=> "Dr. Zaken is the Counselor to the Kurdistan Region regarding Jewish concerns, religious sites, heritage sites, and culture, on behalf of the community of Jews from Kurdistan by the authority of the National Association of Jews from Kurdistan in Israel.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"kurdistan-region-newroz-celebrations" => [
+		"en"	=> "Newroz celebrations at the Peshmerga frontline.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"kurdistan-region-please-check-back-soon" => [
+		"en"	=> "Please check back soon for more announcements on additional projects.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
