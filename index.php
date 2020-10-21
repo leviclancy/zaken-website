@@ -337,9 +337,6 @@ $style_array = [
 		"padding"		=> "0 20px",
 		"text-align"		=> "left",
 		"box-sizing"		=> "border-box",
-		],
-
-	"#Contact dt, #Contact dd" => [
 		"white-space"		=> "pre-wrap",
 		"overflow-wrap"		=> "normal",
 		],
