@@ -223,7 +223,6 @@ $style_array = [
 	
 	"h1, #body-content h2, #body-content p, 
 	#body-content dt, #body-content dd,
-	#Contact dt, #Contact dd,
 	#body-content figure, #body-content .p-em,
 	#body-content blockquote, #body-content amp-youtube" => [
 		"display"		=> "block",
@@ -235,18 +234,17 @@ $style_array = [
 		],
 	
 	"#body-content p,
-	#body-content dt, #body-content dd,
-	#Contact dt, #Contact dd" => [
+	#body-content dt, #body-content dd" => [
 		"white-space"		=> "pre-wrap",
 		"overflow-wrap"		=> "normal",
 		],
 
-	"#body-content dt, #Contact dt" => [
+	"#body-content dt" => [
 		"font-size"		=> "110%",
 		"margin"		=> "50px auto 20px",
 		],
 
-	"#body-content dd, #Contact dd" => [
+	"#body-content dd" => [
 		"padding"		=> "0 50px",
 		"margin"		=> "0 auto 50px",
 		],
@@ -339,6 +337,28 @@ $style_array = [
 		"font-size"		=> "120%",
 		],
 	
+	"#Contact dt, #Contact dd" => [
+		"display"		=> "block",
+		"margin"		=> "50px auto",
+		"max-width"		=> "800px",
+		"padding"		=> "0 20px",
+		"text-align"		=> "left",
+		"box-sizing"		=> "border-box",
+		],
+
+	"#Contact dt, #Contact dd" => [
+		"white-space"		=> "pre-wrap",
+		"overflow-wrap"		=> "normal",
+		],
+
+	"#Contact dt" => [
+		"font-style"		=> "italic",
+		"margin"		=> "50px auto 20px",
+		],
+
+	"#Contact dd" => [
+		"padding"		=> "0 50px",
+		"margin"		=> "0 auto 50px",	
 	];
 
 function css_output($style_array=[]) {
