@@ -250,7 +250,7 @@ $style_array = [
 	
 	"#body-content .p-em" => [
 		"padding"		=> "0 50px",
-		"font-size"		=> "120%",
+		"font-size"		=> "130%",
 		"line-height"		=> "1.6em",
 		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
 		"text-align"		=> "center",
@@ -458,11 +458,11 @@ if ($pageview_request == "biographical-notes"):
 
 	echo "<p amp-fx='parallax' data-parallax-factor='1.05'>". translatable_elements('biographical-notes-dr-mordechai-zaken-born') ."</p>";
 
-	echo "<p class='p-em'>". translatable_elements('biographical-notes-authority') ."</p>";
-	echo "<p class='p-em'>". translatable_elements('biographical-notes-representative') ."</p>";
-	echo "<p class='p-em'>". translatable_elements('biographical-notes-author') ."</p>";
-	echo "<p class='p-em'>". translatable_elements('biographical-notes-adviser') ."</p>";
-	echo "<p class='p-em'>". translatable_elements('biographical-notes-head') ."</p>";
+	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-authority') ."</p>";
+	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-representative') ."</p>";
+	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-author') ."</p>";
+	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-adviser') ."</p>";
+	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-head') ."</p>";
 
 	echo "<p>". translatable_elements('biographical-notes-video-screened') ."</p>";
 
