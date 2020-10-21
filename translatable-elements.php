@@ -1,5 +1,12 @@
 <? $translatable_elements = [
 		
+	"last-updated" => [
+		"en"	=> "Last updated October 21st, 2020",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+	
 	"dr-mordechai-zaken" => [
 		"en"	=> "Dr. Mordechai Zaken",
 		"he"	=> "",
@@ -19,13 +26,6 @@
 		"he"	=> "",
 		"ar"	=> "موقع رسمي. من إعداد مؤسسة ئاورس.",
 		"ku"	=> "وێبسایتی فەرمی. ئامەدەکراوە لە لایەن رێکخراوەی ئاوەرس.",
-		],
-
-	"last-updated" => [
-		"en"	=> "Last updated August 19th, 2020",
-		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
 		],
 		
 	"biographical-notes" => [
@@ -1439,6 +1439,83 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		"ku"	=> "",
 		],
 
+	"minorities-affairs-in-israel-he-founded" => [
+		"en"	=> "In Israel, he founded the Government - Christians Forum (2015) which was devoted to the needs of Christians of Western denominations (mostly evangelical) in Israel. At the core of Dr. Zaken's work on Arab, Bedouin, Christian, and other minority affairs is attention to improving life for all Israelis, a commitment to Israeli democracy, and a dedication to eradicating hate crimes and extremism.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"minorities-affairs-in-my-position" => [
+		"en"	=> "In my position, I understand the importance of having a strong, defended and prospering Christian community in Israel.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"minorities-affairs-during-the-second-lebanon-war" => [
+		"en"	=> "During the Second Lebanon War in 2006, many shells and bombs fell in the north of Israel. One such shell fell in Nazareth, in a courtyard of a garage. The photo shows Dr. Zaken visiting this courtyard along with Deputy Mayor of Nazareth Ali Salam (today the Mayor), as well as an Anglican Archbishop and the police chief.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"minorities-affairs-interview-about-the-importance" => [
+		"en"	=> "Interview about the importance of Christians in the region and in Israel,",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"minorities-affairs-it-is-very-important-that-we-will" => [
+		"en"	=> "It is very important that we will cooperate to solve problems, and to improve relations. We value the Christian groups and representatives. They are a very important asset for the Jewish state.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"minorities-affairs-interview-about-meetings-organized" => [
+		"en"	=> "Interview about meetings organized by Dr. Zaken between Israeli officials and Christian leaders,",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"minorities-affairs-interview-about-combating" => [
+		"en"	=> "Interview about combating anti-Christian hate,",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"minorities-affairs-its-not-enough-to-only-show-solidarity" => [
+		"en"	=> "It's not enough to only show solidarity. We must continue to educate those who are responsible for hate. Also, we have to make sure that the police and other authorities will find those responsible for hate crimes. They must be caught and brought into trial.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"minorities-affairs-meeting-with-the-greek-orthodox-patriarch" => [
+		"en"	=> "Meeting with the Greek Orthodox Patriarch,",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"press-coverage-this-affection-between-our-nations" => [
+		"en"	=> "This affection between our nations is mutual. Not only are the Kurds very popular in Israel, but Israel and the Jews enjoy a good deal of respect and sympathy among the Kurds.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
+	"press-coverage-there-is-a-desire" => [
+		"en"	=> "There is a desire to work to promote equal rights and opportunities in Israel.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+
 	"" => [
 		"en"	=> "",
 		"he"	=> "",
@@ -1516,18 +1593,24 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		"ku"	=> "",
 		],
 
-	"to-contact-the-national-association" => [
+	"footer-to-reach-dr-zaken" => [
+		"en"	=> "To reach Dr. Zaken,",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+	"footer-to-contact-the-national-association" => [
 		"en"	=> "To contact the National Association of Jews from Kurdistan in Israel,",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"this-website-has-been-developed" => [
-		"en"	=> "To contact Foundation of Ours,",
+	"footer-with-motis-permission-and-support" => [
+		"en"	=> "With Moti’s permission and support, this website has been developed and maintained by Foundation of Ours as part of the Foundation’s mission to support Jewish expression in the Kurdistan Region. ",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
-		],	
+		],
 
 	]; ?>
