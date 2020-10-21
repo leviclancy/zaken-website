@@ -326,13 +326,6 @@ $style_array = [
 		"padding"		=> "100px 0",
 		],
 	
-	"#Contact div" => [
-		"max-width"		=> "800px",
-		"display"		=> "block",
-		"text-align"		=> "left",
-		"padding"		=> "0 20px",
-		],
-	
 	"#contact-footer-primary" => [
 		"font-size"		=> "120%",
 		],
