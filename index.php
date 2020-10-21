@@ -313,6 +313,11 @@ $style_array = [
 		"text-shadow"		=> "2px 2px 20px -10px rgba(50,50,50,0.25)",
 		],
 	
+	"#body-content a" => [
+		"font-weight"		=> "700",
+		"color"			=> "rgba(104, 179, 217, 1)",
+		],
+	
 	"#Contact" => [
 		"display"		=> "block",
 		"color"			=> "rgba(220,220,220,1)",
