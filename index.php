@@ -1025,6 +1025,8 @@ if ($pageview_request == "press-coverage"):
 
 	echo press_report_output("2019-02-26", "Christian Leaders Disappointed After Israel Shuts Down Government Christian Forum", "https://www1.cbn.com/cbnnews/israel/2019/february/christian-leaders-disappointed-after-israel-shuts-down-government-christian-forum", "cbn.com");
 
+	echo press_report_output("2018-12-04", "Government-Christian Forum promotes the Airport Trustee program", "https://www.gov.il/en/departments/news/gov_christian_forum_041218", "gov.il");
+
 	echo press_report_output("2018-11-14", "Kurdistani Jews are caught between the Jewish state and the ethnonationalist ambitions of its Middle Eastern neighbors", "https://www.tabletmag.com/sections/israel-middle-east/articles/kurdistan-and-israel", "tabletmag.com");
 
 	echo press_report_output("2017-11-29", "MKs unite to support Kurdish people at Knesset", "https://www.jpost.com/israel-news/mks-unite-to-support-kurdish-people-at-knesset-515613", "jpost.com");
