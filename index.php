@@ -748,25 +748,25 @@ if ($pageview_request == "the-jews-of-kurdistan"):
 	echo "<amp-img src='/media/book-compressed.jpg' width='1.8' height='1' layout='responsive'></amp-img>";
 	echo "</figure>";
 
-	echo blockquote("the-jews-of-kurdistan-this-is-highly-original", "the-jews-of-kurdistan-joyce-blau");
+	echo blockquote("the-jews-of-kurdistan-this-is-highly-original", "joyce-blau");
 
-	echo blockquote("the-jews-of-kurdistan-this-is-an-original", "the-jews-of-kurdistan-moshe-sharon");
+	echo blockquote("the-jews-of-kurdistan-this-is-an-original", "moshe-sharon");
 
 	echo "<p>". translatable_elements("the-jews-of-kurdistan-tells-the-stories") ."</p>";
 
-	echo blockquote("the-jews-of-kurdistan-the-aim-of-the-author", "the-jews-of-kurdistan-joyce-blau");
+	echo blockquote("the-jews-of-kurdistan-the-aim-of-the-author", "joyce-blau");
 
 	echo "<p>". translatable_elements("the-jews-of-kurdistan-it-so-happened") ."</p>";
 
-	echo blockquote("the-jews-of-kurdistan-the-task-of-gathering", "the-jews-of-kurdistan-joyce-blau");
+	echo blockquote("the-jews-of-kurdistan-the-task-of-gathering", "joyce-blau");
 
 	echo "<p>". translatable_elements("the-jews-of-kurdistan-kurdish-jews-from-kurdistan") ."</p>";
 
-	echo blockquote("the-jews-of-kurdistan-many-years-were-needed", "the-jews-of-kurdistan-moshe-sharon");
+	echo blockquote("the-jews-of-kurdistan-many-years-were-needed", "moshe-sharon");
 
 	echo "<p><b>". translatable_elements("the-jews-of-kurdistan-buy") ."</b></p>";
 
-	echo blockquote("the-jews-of-kurdistan-the-study-portrays", "the-jews-of-kurdistan-moshe-sharon");
+	echo blockquote("the-jews-of-kurdistan-the-study-portrays", "moshe-sharon");
 
 	echo "<p>". translatable_elements("the-jews-of-kurdistan-dr-moshe-sharons-full-review") ."</p>";
 
@@ -892,59 +892,49 @@ if ($pageview_request == "kurdistan-region-and-israel"):
 
 if ($pageview_request == "world-kurdish-forum"):
 
-	echo "<p>". translatable_elements("") ."</p>";
+	echo "<p>". translatable_elements("world-kurdish-forum-in-early-october-2012") ."</p>";
 
-	echo "<p>". translatable_elements("") ."</p>";
+	echo "<amp-youtube data-videoid='UkSRVefP1Qw' layout='responsive' width='640' height='360'></amp-youtube>";
 
-	echo "<p>". translatable_elements("") ."</p>";
-
-	echo "<p>". translatable_elements("") ."</p>";
-
-	echo blockquote("", "");
-
-	echo blockquote("", "");
-
-	echo blockquote("", "");
-
-	echo blockquote("", "");
-
-	echo "<p>In early October 2012, Moti was invited by Prof. Alan Dilani, founder of the World Kurdish Forum, to attend the Forum’s conference in Erbil, the capital of the autonomous Kurdistan Region.</p>";
-
-	echo "<blockquote>During the days of the conference, I met many people and was able to see Kurdistan for myself, after more than two decades of research from afar.</blockquote>";
+	echo blockquote("world-kurdish-forum-during-the-days", "dr-mordechai-zaken");
 
 	echo "<figure>";
 	echo "<amp-img src='/media/citadel-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>Moti (left) and Yona Sabar (right) at the doorway of a former Jewish residence in Erbil.</figcaption></figure>";
+	echo "<figcaption>". translatable_elements("world-kurdish-forum-moti-left-and-yona-sabar-right") ."</figcaption></figure>";
 
-	echo "<blockquote>At the Citadel, I came across several houses whose doorways had a small socket for a mezuzah, the case for a Hebrew scroll containing passages from the Torah, indicating of course that it had been a residence of a Jewish family.</blockquote>";
+	echo blockquote("world-kurdish-forum-at-the-citadel", "dr-mordechai-zaken");
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='/media/7987-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>Families atop the Citadel.</figcaption></figure>";
+	echo "<figcaption>". translatable_elements("world-kurdish-forum-families-atop-the-citadel") ."</figcaption></figure>";
 
-	echo "<blockquote>I visited the large mosque of the Citadel, located in a structure that had been previously a Jewish synagogue, as could be judged from its Jewish characteristics including the many symbols painted on its walls, and the purification bath adjacent to it.</blockquote>";
+	echo blockquote("world-kurdish-forum-i-visited-the-large-mosque", "dr-mordechai-zaken");
 
 	echo "<figure>";
 	echo "<amp-img src='/media/zakho-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>Moti in Zakho.</figcaption></figure>";
+	echo "<figcaption>". translatable_elements("world-kurdish-forum-moti-in-the-old-jewish-neighborhood") . "</figcaption></figure>";
 
-	echo "<blockquote>Thanks to the office of the Kurdistan Region’s Presidency, I was driven to the city of Zakho, where my father was born and which was previously home to a large Jewish community. I visited the Jewish neighborhood and the Jewish market, and I visited the remains of the small synagogue in Zakho. I also spoke with elderly local Kurds.</blockquote>";
-
-	echo "<amp-youtube data-videoid='UkSRVefP1Qw' layout='responsive' width='640' height='360'></amp-youtube>";
+	echo blockquote("world-kurdish-forum-thanks-to-the-office-of-the-kurdistan-regions-presidency", "dr-mordechai-zaken");
 
 	endif;
 	
 if ($pageview_request == "israel"):
 
-	echo "<blockquote>Israel is a safe haven in this region, in the Middle East, and in the cradle of mankind.</blockquote>";
-	
-	echo "<p>Dr. Zaken served as the National Director of the Institute of Students and Faculty on Israel (ISFI) in New York (1988-1991), and when returning to Israel, he continued his academic career, studying Islamic and Middle Eastern studies at the Hebrew university of Jerusalem. In 1997, he was asked to serve as the adviser on Arab Affairs to Prime Minister Benjamin Netanyahu (1997-1999), focusing on the Israeli Arab minority. He later served as the advisor on Arab Affairs at the Ministry of Public Security (2001-until now).</p>";
-	
-	echo "<blockquote>In my humble opinion, it is incumbent upon the Jewish people, as a people that has lived as a minority for thousands of years, to be sensitive to, and have a high degree of consciousness vis-a-vis the minorities living in their midst. I seek to operate in my position in accordance with this belief, to bring hearts together, and to widen the circles of co-existence between Arabs and Jews.</blockquote>"; 
-	
-	echo "<p>While at ISFI, he provided cultural resources, ideas, and tools for pro-Israel student activists throughout the US and Canada, through which Israeli-oriented activities and the message of Israel could be promoted on US campuses.</p>";
+	echo "<p>". translatable_elements("") ."</p>";
+
+	echo "<p>". translatable_elements("") ."</p>";
+
+	echo "<p>". translatable_elements("") ."</p>";
+
+	echo blockquote("", "");
+
+	echo blockquote("", "");
+
+	echo blockquote("", "");
+
+	echo blockquote("", "");
 
 	endif;
 
