@@ -358,7 +358,9 @@ $style_array = [
 
 	"#Contact dd" => [
 		"padding"		=> "0 50px",
-		"margin"		=> "0 auto 50px",	
+		"margin"		=> "0 auto 50px",
+		],
+	
 	];
 
 function css_output($style_array=[]) {
