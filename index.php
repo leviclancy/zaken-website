@@ -238,7 +238,8 @@ $style_array = [
 		],
 
 	"#body-content dt" => [
-		"margin"		=> "50px auto 20px",
+		"font-size"		=> "110%",
+		"margin"		=> "50px auto 0",
 		],
 
 	"#body-content dd" => [
@@ -294,14 +295,6 @@ $style_array = [
 		"font-size"		=> "220%",
 		"text-align"		=> "center",
 		"text-shadow"		=> "2px 2px 20px -10px rgba(50,50,50,0.25)",
-		],
-	
-	"#body-content dt" => [
-		"font-size"		=> "110%",
-		],
-	
-	"#body-content dd" => [
-		"margin-bottom"		=> "30px",
 		],
 	
 	"#Contact" => [
