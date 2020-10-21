@@ -219,6 +219,7 @@ $style_array = [
 		"padding"		=> "10px 0 100px",
 		"font-family"		=> "Molengo",
 		"line-height"		=> "1.2em",
+		"text-align"		=> "center",
 		],
 	
 	"h1, #body-content h2, #body-content p, 
@@ -231,6 +232,7 @@ $style_array = [
 		"padding"		=> "0 20px",
 		"text-align"		=> "left",
 		"box-sizing"		=> "border-box",
+		"vertical-align"	=> "top",
 		],
 	
 	"#body-content p,
