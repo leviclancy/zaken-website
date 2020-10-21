@@ -778,37 +778,69 @@ if ($pageview_request == "the-jews-of-kurdistan"):
 
 	echo "<p>". translatable_elements("the-jews-of-kurdistan-descended-from") ."</p>";
 
+	echo "<p>". translatable_elements("the-jews-of-kurdistan-the-fact-that") ."</p>";
+
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='/media/jews-praying-compressed.jpg' width='465' height='600' layout='responsive'></amp-img>";
 	echo "</figure>";
 
-	echo "<h2>". translatable_elements("") ."</h2>";
+	echo "<p>". translatable_elements("the-jews-of-kurdistan-interestingly-the-cover") ."</p>";
 
-	echo "<p>". translatable_elements("") ."</p>";
+	echo "<p>". translatable_elements("the-jews-of-kurdistan-download-the-arabic") ."</p>";
 
-	echo "<p>". translatable_elements("") ."</p>";
+	echo "<p>". translatable_elements("the-jews-of-kurdistan-download-the-sorani") ."</p>";
+
+	echo "<h2>". translatable_elements("the-jews-of-kurdistan-naze-a-voice-from-the-past") ."</h2>";
+
+	echo "<p>". translatable_elements("the-jews-of-kurdistan-the-publication") ."</p>";
+
+	echo "<p>". translatable_elements("the-jews-of-kurdistan-her-grandchildren") ."</p>";
+
+	echo "<p>". translatable_elements("the-jews-of-kurdistan-naze-was-coerced") ."</p>";
+
+//	echo "<p>". translatable_elements("") ."</p>";
 
 	endif;
 
 if ($pageview_request == "kurdistan-region"):
 
-	echo "<p>Dr. Zaken was named as the Counselor to the Kurdistan Region regarding Jewish concerns, religious sites, heritage sites, and culture, on behalf of the community of Jews from Kurdistan by the authority of the National Association of Jews from Kurdistan in Israel.</p>";
+	echo "<figure class='amp-img-fader'>";
+	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
+	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
+	echo "<amp-img src='/media/4377-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
+	echo "<figcaption>". translatable_elements('kurdistan-region-dr-zaken-left-with-yona-sabar-right') ."</figcaption></figure>";
+
+	echo "<p>". translatable_elements("kurdistan-region-dr-zaken-is-the-counselor") ."</p>";
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
 	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
 	echo "<amp-img src='/media/1853-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>Newroz celebrations at the Peshmerga frontline.</figcaption></figure>";
+	echo "<figcaption>". translatable_elements('kurdistan-region-newroz-celebrations') ."</figcaption></figure>";
 
-	echo "<p>Please check back soon for more announcements on additional projects.</p>";
+	echo "<p>". translatable_elements("kurdistan-region-please-check-back-soon") ."</p>";
 
 	endif;
 
 if ($pageview_request == "tomb-of-the-prophet-nahum"):
 
-	echo "<p>The tomb of the Prophet Nahum, located in alQosh, is being renovated under the management of the Alliance for the Restoration of Cultural Heritage (ARCH) and the Kurdistan Regional Government. Dr. Zaken serves as a member of the board which is entrusted with monitoring the site, and has been instrumental in providing the blessing of the community of Jews from Kurdistan for whom the tomb complex served as a beating heart for thousands of years.</p>";
+	echo "<p>". translatable_elements("") ."</p>";
+
+	echo "<p>". translatable_elements("") ."</p>";
+
+	echo "<p>". translatable_elements("") ."</p>";
+
+	echo blockquote("", "");
+
+	echo blockquote("", "");
+
+	echo blockquote("", "");
+
+	echo blockquote("", "");
+
+	echo blockquote("", "");
 
 	echo "<figure class='amp-img-fader'>";
 	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
