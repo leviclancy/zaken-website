@@ -1251,7 +1251,7 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		],
 
 	"kurdistan-region-and-israel-mala-mustafa-at-an-israeli-air-force-base" => [
-		"en"	=> "Mala Mustafa at an Israeli Air Force base.",
+		"en"	=> "Mala Mustafa at an Israeli Air Force base, around 1969.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
