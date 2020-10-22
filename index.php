@@ -428,7 +428,7 @@ function image_output ($media_url, $media_width, $media_height, $media_caption=n
 	global $translatable_elements;
 	global $language_request;
 	
-	$parallax_temp = null
+	$parallax_temp = null;
 	if (!(empty($parallax_speed))): $parallax_temp =  "amp-fx='parallax' data-parallax-factor='". $parallax_speed ."'"; endif;
 	
 	$string_temp = "<figure class='amp-img-fader' ". $parallax_temp .">";
