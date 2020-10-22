@@ -268,9 +268,6 @@ $style_array = [
 		
 	"#body-content amp-img, #body-content amp-youtube" => [
 		"margin"		=> "0 auto",
-		],
-		
-	"#body-content amp-img, #body-content amp-youtube" => [
 		"border-radius"		=> "4px",
 		],
 	
@@ -867,9 +864,9 @@ if ($pageview_request == "kurdistan-region-and-israel"):
 
 	echo blockquote("kurdistan-region-and-israel-the-kurds-are-entitled");
 
-	echo "<p>". translatable_elements("kurdistan-region-and-israel-on-january-4th-2015") ."</p>";
-
+	echo "<figure>";
 	echo "<amp-youtube data-videoid='8xh9hY1q0kE' layout='responsive' width='640' height='360'></amp-youtube>";
+	echo "<figcaption>". translatable_elements("kurdistan-region-and-israel-on-january-4th-2015") ."</figcaption></figure>";
 
 	endif;
 
@@ -877,7 +874,9 @@ if ($pageview_request == "world-kurdish-forum"):
 
 	echo "<p>". translatable_elements("world-kurdish-forum-in-early-october-2012") ."</p>";
 
+	echo "<figure>";
 	echo "<amp-youtube data-videoid='UkSRVefP1Qw' layout='responsive' width='640' height='360'></amp-youtube>";
+	echo "</figure>";
 
 	echo blockquote("world-kurdish-forum-during-the-days", "dr-mordechai-zaken");
 
@@ -919,29 +918,29 @@ if ($pageview_request == "minorities-affairs"):
 
 	echo image_output("/media/website-29.jpg", "1.5", "1", "minorities-affairs-during-the-second-lebanon-war");
 
-	echo "<p>". translatable_elements("minorities-affairs-interview-about-the-importance") ."</p>";
-
+	echo "<figure>";
 	echo "<amp-youtube data-videoid='6fvQdbLJOBQ' layout='responsive' width='640' height='360'></amp-youtube>";
+	echo "<figcaption>". translatable_elements("minorities-affairs-interview-about-the-importance") ."</figcaption></figure>";
 	
 	echo blockquote("minorities-affairs-it-is-very-important-that-we-will", "dr-mordechai-zaken");
 
-	echo "<p>". translatable_elements("minorities-affairs-interview-about-meetings-organized") ."</p>";
-
+	echo "<figure>";
 	echo "<amp-youtube data-videoid='i8yI-SLzSKg' layout='responsive' width='640' height='360'></amp-youtube>";
+	echo "<figcaption>". translatable_elements("minorities-affairs-interview-about-meetings-organized") ."</figcaption></figure>";
 	
-	echo "<p>". translatable_elements("minorities-affairs-interview-about-combating") ."</p>";
-
+	echo "<figure>";
 	echo "<amp-youtube data-videoid='B3tVz2kAv1k' layout='responsive' width='640' height='360'></amp-youtube>";
+	echo "<figcaption>". translatable_elements("minorities-affairs-interview-about-combating") ."</figcaption></figure>";
 	
 	echo blockquote("minorities-affairs-its-not-enough-to-only-show-solidarity", "dr-mordechai-zaken");
 
-	echo "<p>". translatable_elements("minorities-affairs-interview-about-combating") ."</p>";
-
+	echo "<figure>";
 	echo "<amp-youtube data-videoid='Mn88fWoYmYY' layout='responsive' width='640' height='360'></amp-youtube>";
+	echo "<figcaption>". translatable_elements("minorities-affairs-interview-about-combating") ."</figcaption></figure>";
 	
-	echo "<p>". translatable_elements("minorities-affairs-meeting-with-the-greek-orthodox-patriarch") ."</p>";
-
+	echo "<figure>";
 	echo "<amp-youtube data-videoid='KK2l8vaqrLo' layout='responsive' width='640' height='360'></amp-youtube>";
+	echo "<figcaption>". translatable_elements("minorities-affairs-meeting-with-the-greek-orthodox-patriarch") ."</figcaption></figure>";
 	
 	endif;
 
@@ -951,7 +950,9 @@ if ($pageview_request == "press-coverage"):
 
 //	echo blockquote("", "");
 
+	echo "<figure>";
 	echo "<amp-youtube data-videoid='dq0R5bZpOF0' layout='responsive' width='640' height='360'></amp-youtube>";
+	echo "</figure>";
 
 	echo press_report_output("2020-08-29", "The Miracle of the Tomb of Prophet Nahum", "https://en.davar1.co.il/244830/", "davar1.co.il");
 
@@ -979,7 +980,9 @@ if ($pageview_request == "press-coverage"):
 
 	echo press_report_output("2017-07-18", "Temple Mount terror attack highlights sharp dichotomy between Israeli minorities", "https://www.jns.org/temple-mount-terror-attack-highlights-sharp-dichotomy-between-israeli-minorities/", "jns.org");
 
+	echo "<figure>";
 	echo "<amp-youtube data-videoid='6fvQdbLJOBQ' layout='responsive' width='640' height='360'></amp-youtube>";
+	echo "</figure>";
 
 	echo press_report_output("2017-01-27", "Israelis eager to welcome US Embassy to Jerusalem", "https://nypost.com/2017/01/27/israelis-eager-to-welcome-us-embassy-to-jerusalem/", "nypost.com");
 
