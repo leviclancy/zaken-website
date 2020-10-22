@@ -265,11 +265,11 @@ $style_array = [
 	"#body-content figure, #body-content amp-img, #body-content amp-youtube" => [
 		"padding"		=> "0",
 		],
-	
-	"#body-content amp-img" => [
-//		"max-height"		=> "600px",
+		
+	"#body-content amp-img, #body-content amp-youtube" => [
+		"margin"		=> "0 auto",
 		],
-	
+		
 	"#body-content amp-img, #body-content amp-youtube" => [
 		"border-radius"		=> "4px",
 		],
