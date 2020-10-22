@@ -262,7 +262,7 @@ $style_array = [
 		"text-transform"	=> "uppercase",
 		],
 
-	"#body-content figure, #body-content amp-img" => [
+	"#body-content figure, #body-content amp-img, #body-content amp-youtube" => [
 		"padding"		=> "0",
 		],
 	
