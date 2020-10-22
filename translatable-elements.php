@@ -177,7 +177,7 @@
 
 
 	"biographical-notes-vidoe-screened" => [
-		"en"	=> "Video screened at the official ceremony in Jerusalem, in March 2019, when Dr. Zaken’s was awarded the Prime Minister’s Prize for research on the Jews of the Middle East and Iran. Transcript here: <a href='https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing'>doc.google.com</a>",
+		"en"	=> "Video screened at the official ceremony in Jerusalem, in March 2019, when Dr. Zaken was awarded the Prime Minister’s Prize for research on the Jews of the Middle East and Iran. Transcript here: <a href='https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing'>doc.google.com</a>",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
