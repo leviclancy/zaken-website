@@ -277,6 +277,8 @@ $style_array = [
 	"#body-content figcaption" => [
 		"font-size"		=> "80%",
 		"font-family"		=> "Molengo",
+		"padding"		=> "0",
+		"margin"		=> "0",
 		],
 		
 	"#body-content blockquote" => [
@@ -422,6 +424,22 @@ function translatable_elements($string_id, $language_temp=null) {
 		endif;
 	return $translatable_elements[$string_id][$language_temp]; }
 
+function image_output ($media_url, $media_width, $media_height, $media_caption=null, $parallax_speed=null) {
+	global $translatable_elements;
+	global $language_request;
+	
+	$parallax_temp = null
+	if (!(empty($parallax_speed))): $parallax_temp =  "amp-fx='parallax' data-parallax-factor='". $parallax_speed ."'"; endif;
+	
+	$string_temp = "<figure class='amp-img-fader' ". $parallax_temp .">";
+	$string_temp .= '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
+	$string_temp .= '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
+	$string_temp .= "<amp-img src='" . $media_url ."' width='" . $media_width ."' height='". $media_height ."' layout='responsive'></amp-img>";
+	if (!(empty($media_caption))): $string_temp .= "<figcaption>". translatable_elements($media_caption) ."</figcaption>"; endif;
+	$string_temp .= "</figure>";
+	return $string_temp;
+	}
+
 function blockquote($content_id, $attribution_id=null) {
 	global $translatable_elements;
 	global $language_request;
@@ -489,11 +507,7 @@ echo "<div id='body-content'>";
 
 if ($pageview_request == "biographical-notes"):
 
-	echo "<figure class='amp-img-fader' amp-fx='parallax' data-parallax-factor='1.07'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='/media/uzi-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>". translatable_elements('biographical-notes-in-erbil') ."</figcaption></figure>";
+	echo image_output("/media/website-01.jpg", "1.5", "1", "biographical-notes-in-erbil", "1.07");
 
 	echo "<p amp-fx='parallax' data-parallax-factor='1.05'>". translatable_elements('biographical-notes-dr-mordechai-zaken-born') ."</p>";
 
@@ -507,13 +521,13 @@ if ($pageview_request == "biographical-notes"):
 	echo "<amp-youtube data-videoid='kHz0rjXVwkg' layout='responsive' width='640' height='360'></amp-youtube>";
 	echo "<figcaption>". translatable_elements('biographical-notes-video-screened') ."</figcaption></figure>";
 
-	echo "<p>". translatable_elements('biographical-notes-uzi-dayan') ."</p>";
+	echo image_output("/media/website-02.jpg", "1.5", "1", "biographical-notes-uzi-dayan");
 
 	echo "<p>". translatable_elements('biographical-notes-doctoral-thesis') ."</p>";
 
 	echo "<p>". translatable_elements('biographical-notes-also-expresses') ."</p>";
 
-	echo "<p>". translatable_elements('biographical-notes-bedouin-communities') ."</p>";
+	echo image_output("/media/website-03.jpg", "1.5", "1", "biographical-notes-bedouin-communities");
 
 	echo "<p>". translatable_elements('biographical-notes-speaks-fluently') ."</p>";
 
@@ -527,7 +541,7 @@ if ($pageview_request == "biographical-notes"):
 
 if ($pageview_request == "scholarly-achievement"):
 
-	echo "<p>". translatable_elements('scholarly-achievement-usually') ."</p>";
+	echo image_output("/media/website-04.jpg", "1.5", "1", "scholarly-achievement-usually");
 
 	echo blockquote("scholarly-achievement-became-curious");
 
@@ -543,35 +557,23 @@ if ($pageview_request == "scholarly-achievement"):
 
 	echo "<p>". translatable_elements('scholarly-achievement-his-tireless-fieldwork') ."</p>";
 
-	echo "<p>". translatable_elements('scholarly-achievement-dr-zaken-speaking') ."</p>";
+	echo image_output("/media/website-05.jpg", "1.5", "1", "scholarly-achievement-dr-zaken-speaking");
 
 	echo "<p>". translatable_elements('scholarly-achievement-main-scholarly-achievement') ."</p>";
 
 	echo blockquote("scholarly-achievement-what-fascinated-me");
 
-	echo "<p>". translatable_elements('scholarly-achievement-bapir-agha') ."</p>";
+	echo image_output("/media/website-06.jpg", "1.5", "1", "scholarly-achievement-bapir-agha");
 
 	echo "<p>". translatable_elements('scholarly-achievement-two-and-four-times') ."</p>";
 
 	echo blockquote("scholarly-achievement-during-my-last-meeting");
 
-	echo "<p>". translatable_elements('scholarly-achievement-jubilee') ."</p>";
+	echo image_output("/media/website-07.jpg", "1.5", "1", "scholarly-achievement-jubilee");
 
 	echo "<p><b>". translatable_elements('scholarly-achievement-important-contribution') ."</b></p>";
 
 	echo "<p>". translatable_elements('scholarly-achievement-oral-history-fieldwork') ."</p>";
-
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='/media/3666-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>View of Shaqlawa, near Erbil.</figcaption></figure>";
-
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='/media/7258-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>Renovation work underway at the Shrine of the Prophet Nahum.</figcaption></figure>";
 
 	endif;
 
@@ -587,11 +589,7 @@ if ($pageview_request == "condensed-highlights"):
 
 	echo blockquote("condensed-highlights-coexistence-and-mutual-traditions");
 	
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='/media/5567-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>Flags of Israel and Jerusalem, overlooking the ramparts.</figcaption></figure>";
+	echo image_output("/media/website-08.jpg", "1.5", "1", "condensed-highlights-flags-of-israel-and-jerusalem");
 
 	echo timeline_output("2020", null, translatable_elements('condensed-highlights-timeline-2020-appointed'));
 
@@ -615,11 +613,7 @@ if ($pageview_request == "condensed-highlights"):
 
 	echo blockquote("condensed-highlights-kurdish-national-issue");
 	
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='/media/4565-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>". translatable_elements('condensed-highlights-akre-near-duhok') ."</figcaption></figure>";
+	echo image_output("/media/website-09.jpg", "1.5", "1", "condensed-highlights-akre-near-duhok");
 
 	echo blockquote("condensed-highlights-within-the-scope");
 	
@@ -637,11 +631,7 @@ if ($pageview_request == "condensed-highlights"):
 
 	echo blockquote("condensed-highlights-kurdish-national-issue");
 	
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='/media/4565-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>". translatable_elements('condensed-highlights-with-the-prime-minister') ."</figcaption></figure>";
+	echo image_output("/media/website-10.jpg", "1.5", "1", "condensed-highlights-with-the-prime-minister");
 
 	echo blockquote("condensed-highlights-within-the-scope");
 
@@ -659,11 +649,7 @@ if ($pageview_request == "condensed-highlights"):
 
 	echo blockquote("condensed-highlights-feel-safe");
 	
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='/media/4377-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>". translatable_elements('condensed-highlights-mala-mustafa') ."</figcaption></figure>";
+	echo image_output("/media/website-11.jpg", "1.5", "1", "condensed-highlights-mala-mustafa");
 
 	echo blockquote("condensed-highlights-the-relationship");
 	
@@ -683,11 +669,7 @@ if ($pageview_request == "condensed-highlights"):
 
 	echo blockquote("condensed-highlights-many-kurdish-jews");
 
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='/media/8510-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>". translatable_elements('condensed-highlights-the-road-to-the-monastery') ."</figcaption></figure>";
+	echo image_output("/media/website-12.jpg", "1.5", "1", "condensed-highlights-the-road-to-the-monastery");
 
 	endif;
 
@@ -771,11 +753,7 @@ if ($pageview_request == "lectures"):
 
 if ($pageview_request == "the-jews-of-kurdistan"):
 
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='/media/book-compressed.jpg' width='1.8' height='1' layout='responsive'></amp-img>";
-	echo "</figure>";
+	echo image_output("/media/website-13.jpg", "3", "4");
 
 	echo blockquote("the-jews-of-kurdistan-this-is-highly-original", "joyce-blau");
 
@@ -807,13 +785,11 @@ if ($pageview_request == "the-jews-of-kurdistan"):
 
 	echo "<p>". translatable_elements("the-jews-of-kurdistan-descended-from") ."</p>";
 
+	echo image_output("/media/website-14.jpg", "1", "2");
+
 	echo "<p>". translatable_elements("the-jews-of-kurdistan-the-fact-that") ."</p>";
 
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='/media/jews-praying-compressed.jpg' width='465' height='600' layout='responsive'></amp-img>";
-	echo "</figure>";
+	echo image_output("/media/website-15.jpg", "465", "600");
 
 	echo "<p>". translatable_elements("the-jews-of-kurdistan-interestingly-the-cover") ."</p>";
 
@@ -835,19 +811,11 @@ if ($pageview_request == "the-jews-of-kurdistan"):
 
 if ($pageview_request == "kurdistan-region"):
 
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='/media/4377-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>". translatable_elements('kurdistan-region-dr-zaken-left-with-yona-sabar-right') ."</figcaption></figure>";
+	echo image_output("/media/website-16.jpg", "1.5", "1", "kurdistan-region-dr-zaken-left-with-yona-sabar-right");
 
 	echo "<p>". translatable_elements("kurdistan-region-dr-zaken-is-the-counselor") ."</p>";
 
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='/media/1853-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>". translatable_elements('kurdistan-region-newroz-celebrations') ."</figcaption></figure>";
+	echo image_output("/media/website-17.jpg", "1.5", "1", "kurdistan-region-newroz-celebrations");
 
 	echo "<p>". translatable_elements("kurdistan-region-please-check-back-soon") ."</p>";
 
@@ -857,53 +825,43 @@ if ($pageview_request == "tomb-of-the-prophet-nahum"):
 
 	echo "<p>". translatable_elements("tomb-of-the-prophet-nahum-the-tomb-of-the-prophet") ."</p>";
 
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='/media/5271-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>". translatable_elements("tomb-of-the-prophet-nahum-renovation-work") ."</figcaption></figure>";
+	echo image_output("/media/website-18.jpg", "1.5", "1", "tomb-of-the-prophet-nahum-renovation-work");
 
 	echo "<p>". translatable_elements("tomb-of-the-prophet-nahum-dr-zaken-serves") ."</p>";
 
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='/media/5271-compressed.jpg' width='1.6' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>". translatable_elements("tomb-of-the-prophet-nahum-renovation-work") ."</figcaption></figure>";
+	echo image_output("/media/website-19.jpg", "1.5", "1", "tomb-of-the-prophet-nahum-renovation-work");
 
 	endif;
 
 if ($pageview_request == "kurdistan-region-and-israel"):
 
-	echo "<p>". translatable_elements("kurdistan-region-and-israel-senior-israeli-officials") ."</p>";
+	echo image_output("/media/website-20.jpg", "1.5", "1", "kurdistan-region-and-israel-senior-israeli-officials");
 
 	echo blockquote("kurdistan-region-and-israel-in-1950-and-1951");
 
 	echo "<p>". translatable_elements("kurdistan-region-and-israel-the-initial-immigrants") ."</p>";
 
-	echo "<p>". translatable_elements("kurdistan-region-and-israel-dancing-at-the-sahrane") ."</p>";
+	echo image_output("/media/website-21.jpg", "1.5", "1", "kurdistan-region-and-israel-dancing-at-the-sahrane");
 
-	echo "<p>". translatable_elements("kurdistan-region-and-israel-mala-mustafa-at-an-israeli-air-force-base") ."</p>";
+	echo image_output("/media/website-11.jpg", "1.5", "1", "kurdistan-region-and-israel-mala-mustafa-at-an-israeli-air-force-base");
 
 	echo blockquote("kurdistan-region-and-israel-eliyahu-gabai-was-the-leader");
 
 	echo "<p>". translatable_elements("kurdistan-region-and-israel-the-late-kurdish-leader-mala-mustafa") ."</p>";
 
-	echo "<figure>";
-	echo "<amp-img src='/media/sharansky-compressed.jpg' width='3' height='4' layout='responsive'></amp-img>";
-	echo "<figcaption>". translatable_elements("kurdistan-region-and-israel-moti-right-with-natan-sharansky") ."</figcaption></figure>";
+	echo image_output("/media/website-22.jpg", "3", "4", "kurdistan-region-and-israel-moti-right-with-natan-sharansky");
 
 	echo blockquote("kurdistan-region-and-israel-israel-has-a-moral-obligation");
 
 	echo "<p>". translatable_elements("kurdistan-region-and-israel-since-the-referendum") ."</p>";
 
-	echo "<p>". translatable_elements("kurdistan-region-and-israel-israeli-agent-haimke-levakov") ."</p>";
+	echo image_output("/media/website-23.jpg", "1.5", "1", "kurdistan-region-and-israel-israeli-agent-haimke-levakov");
 
 	echo blockquote("kurdistan-region-and-israel-some-aghas-were-not-so-nice");
 
 	echo "<p>". translatable_elements("kurdistan-region-and-israel-despite-historical-antisemitism") ."</p>";
 
-	echo "<p>". translatable_elements("kurdistan-region-and-israel-mala-mustafa-on-a-visit-to-israel") ."</p>";
+	echo image_output("/media/website-24.jpg", "1.5", "1", "kurdistan-region-and-israel-mala-mustafa-on-a-visit-to-israel");
 
 	echo "<p>". translatable_elements("kurdistan-region-and-israel-today-there-is-an-inextricable-relationship") ."</p>";
 
@@ -912,10 +870,6 @@ if ($pageview_request == "kurdistan-region-and-israel"):
 	echo "<p>". translatable_elements("kurdistan-region-and-israel-on-january-4th-2015") ."</p>";
 
 	echo "<amp-youtube data-videoid='8xh9hY1q0kE' layout='responsive' width='640' height='360'></amp-youtube>";
-
-//	echo "<figure>";
-//	echo "<amp-img src='/media/uzi-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
-//	echo "<figcaption>Moti (right) with Brigadier General (Reserve) Uzi Dayan, a staunch supporter of the Kurds, in the Old City of Jerusalem.</figcaption></figure>";
 
 	endif;
 
@@ -927,23 +881,15 @@ if ($pageview_request == "world-kurdish-forum"):
 
 	echo blockquote("world-kurdish-forum-during-the-days", "dr-mordechai-zaken");
 
-	echo "<figure>";
-	echo "<amp-img src='/media/citadel-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>". translatable_elements("world-kurdish-forum-moti-left-and-yona-sabar-right") ."</figcaption></figure>";
+	echo image_output("/media/website-16.jpg", "1.5", "1", "world-kurdish-forum-moti-left-and-yona-sabar-right");
 
 	echo blockquote("world-kurdish-forum-at-the-citadel", "dr-mordechai-zaken");
 
-	echo "<figure class='amp-img-fader'>";
-	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-	echo "<amp-img src='/media/7987-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>". translatable_elements("world-kurdish-forum-families-atop-the-citadel") ."</figcaption></figure>";
+	echo image_output("/media/website-25.jpg", "1.5", "1", "world-kurdish-forum-families-atop-the-citadel");
 
 	echo blockquote("world-kurdish-forum-i-visited-the-large-mosque", "dr-mordechai-zaken");
 
-	echo "<figure>";
-	echo "<amp-img src='/media/zakho-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
-	echo "<figcaption>". translatable_elements("world-kurdish-forum-moti-in-the-old-jewish-neighborhood") . "</figcaption></figure>";
+	echo image_output("/media/website-26.jpg", "1.5", "1", "world-kurdish-forum-moti-in-the-old-jewish-neighborhood");
 
 	echo blockquote("world-kurdish-forum-thanks-to-the-office-of-the-kurdistan-regions-presidency", "dr-mordechai-zaken");
 
@@ -951,7 +897,7 @@ if ($pageview_request == "world-kurdish-forum"):
 	
 if ($pageview_request == "israel"):
 
-	echo "<p>". translatable_elements("israel-jaffa-street-in-jerusalem") ."</p>";
+	echo image_output("/media/website-27.jpg", "1.5", "1", "israel-jaffa-street-in-jerusalem");
 
 	echo blockquote("israel-israel-is-a-safe-haven", "dr-mordechai-zaken");
 
@@ -961,23 +907,17 @@ if ($pageview_request == "israel"):
 
 	echo blockquote("israel-in-my-humble-opinion", "dr-mordechai-zaken");
 
-	echo "<p>". translatable_elements("israel-dr-zaken-right-with-prime-minister-netanyahu") ."</p>";
+	echo image_output("/media/website-28.jpg", "1.5", "1", "israel-dr-zaken-right-with-prime-minister-netanyahu");
 
 	endif;
 
 if ($pageview_request == "minorities-affairs"):
 
-//	echo "<figure class='amp-img-fader'>";
-//	echo '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-//	echo '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.8" layout="nodisplay"></amp-position-observer>';
-//	echo "<amp-img src='/media/6541-compressed.jpg' width='1.5' height='1' layout='responsive'></amp-img>";
-//	echo "<figcaption>Clergy and pilgrims in Jerusalem.</figcaption></figure>";
-
 	echo "<p>". translatable_elements("minorities-affairs-in-israel-he-founded") ."</p>";
 
 	echo blockquote("minorities-affairs-in-my-position", "dr-mordechai-zaken");
 
-	echo "<p>". translatable_elements("minorities-affairs-during-the-second-lebanon-war") ."</p>";
+	echo image_output("/media/website-29.jpg", "1.5", "1", "minorities-affairs-during-the-second-lebanon-war");
 
 	echo "<p>". translatable_elements("minorities-affairs-interview-about-the-importance") ."</p>";
 
