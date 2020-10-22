@@ -503,7 +503,9 @@ if ($pageview_request == "biographical-notes"):
 	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-adviser') ."</p>";
 	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-head') ."</p>";
 
-	echo "<p>". translatable_elements('biographical-notes-video-screened') ."</p>";
+	echo "<figure class='amp-img-fader' amp-fx='parallax' data-parallax-factor='1.07'>";
+	echo "<amp-youtube data-videoid='kHz0rjXVwkg' layout='responsive' width='640' height='360'></amp-youtube>";
+	echo "<figcaption>". translatable_elements('biographical-notes-video-screened') ."</figcaption></figure>";
 
 	echo "<p>". translatable_elements('biographical-notes-uzi-dayan') ."</p>";
 
