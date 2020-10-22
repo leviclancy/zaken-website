@@ -1342,7 +1342,7 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		],
 
 	"kurdistan-region-and-israel-on-january-4th-2015" => [
-		"en"	=> "On January 4th 2015, Dr. Zaken gave a lecture (in Hebrew) at Bar-Ilan University on his October 2012 trip to Kurdistan, with some remarks on the Israeli-Kurdish relations,",
+		"en"	=> "On January 4th 2015, Dr. Zaken gave a lecture (in Hebrew) at Bar-Ilan University on his October 2012 trip to Kurdistan, with some remarks on the Israeli-Kurdish relations.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -1468,7 +1468,7 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		],
 
 	"minorities-affairs-interview-about-the-importance" => [
-		"en"	=> "Interview about the importance of Christians in the region and in Israel,",
+		"en"	=> "Interview about the importance of Christians in the region and in Israel.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -1482,14 +1482,14 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		],
 
 	"minorities-affairs-interview-about-meetings-organized" => [
-		"en"	=> "Interview about meetings organized by Dr. Zaken between Israeli officials and Christian leaders,",
+		"en"	=> "Interview about meetings organized by Dr. Zaken between Israeli officials and Christian leaders.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
 	"minorities-affairs-interview-about-combating" => [
-		"en"	=> "Interview about combating anti-Christian hate,",
+		"en"	=> "Interview about combating anti-Christian hate.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -1503,7 +1503,7 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		],
 
 	"minorities-affairs-meeting-with-the-greek-orthodox-patriarch" => [
-		"en"	=> "Meeting with the Greek Orthodox Patriarch,",
+		"en"	=> "Meeting with the Greek Orthodox Patriarch.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
