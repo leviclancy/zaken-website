@@ -494,6 +494,10 @@ echo "<div id='website-header'>";
 				endforeach;
 			echo "</div>";
 			endforeach;
+
+		echo "<div class='website-header-sitemap-block'>";
+		echo "<div class='website-header-sitemap-block-item'><a href='#Contact'>" . translatable_elements("contact") . "</a></div></div>";
+
 		echo "</div>";
 
 	echo "</div>";
