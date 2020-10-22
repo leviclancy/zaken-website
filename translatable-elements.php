@@ -384,6 +384,13 @@
 		"ar"	=> "",
 		"ku"	=> "",
 		],
+	
+	"condensed-highlights-flags-of-israel-and-jerusalem" => [
+		"en"	=> "Flags of Israel and Jerusalem, overlooking the ramparts.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
 
 	"condensed-highlights-timeline-2020-appointed" => [
 		"en"	=> "Appointed by the National Association of Jews from Kurdistan to oversee Jewish affairs and Jewish sites in the Kurdistan Region.",
