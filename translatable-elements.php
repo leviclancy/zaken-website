@@ -119,8 +119,8 @@
 		"ku"	=> "",
 		],
 		
-	"press-and-bookings" => [
-		"en"	=> "Press and Bookings",
+	"press-coverage" => [
+		"en"	=> "Press Coverage",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
