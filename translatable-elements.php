@@ -176,7 +176,7 @@
 		],
 
 
-	"biographical-notes-vidoe-screened" => [
+	"biographical-notes-video-screened" => [
 		"en"	=> "Video screened at the official ceremony in Jerusalem, in March 2019, when Dr. Zaken was awarded the Prime Minister’s Prize for research on the Jews of the Middle East and Iran. Transcript here: <a href='https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing'>doc.google.com</a>",
 		"he"	=> "",
 		"ar"	=> "",
@@ -185,7 +185,7 @@
 
 
 	"biographical-notes-uzi-dayan" => [
-		"en"	=> "Moti Zaken (right) with his friend, the decorated General (Reserve) Uzi Dayan, a staunch supporter of the Kurds, at the courtyard Cafe of the Christ-Church in East Jerusalem.",
+		"en"	=> "Moti Zaken (right) with his friend, the decorated General (Reserve) Uzi Dayan, a staunch supporter of the Kurds, at the courtyard cafe of the Christ Church in East Jerusalem.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -193,7 +193,7 @@
 
 
 	"biographical-notes-doctoral-thesis" => [
-		"en"	=> "Dr. Zaken’s doctoral thesis, and the books which resulted from it, were praised by remarkable scholars such as Joyce Blau of Paris’ INALCO and Moshe Sharon of Jerusalem’s Hebrew University for skillfully using careful oral history documentation of the Jews of Kurdistan and for saving the oral history of the Jews of Kurdistan from being lost forever. His thesis and the books that followed became a leading resource on the topic, because it was compiled from hundreds of interviews with native Kurdish Jews who immigrated to Israel, and because Dr. Zaken’s research was widely spread and translated into several languages including Arabic, Kurdish, and French.",
+		"en"	=> "Dr. Zaken’s doctoral thesis, and the books which resulted from it, were praised by eminent scholars such as Dr. Joyce Blau (INALCO in Paris) and Dr. Moshe Sharon (The Hebrew University of Jerusalem) for skillfully documenting and thereby saving the oral history of the Jews of Kurdistan. Dr. Zaken’s research prevented a large part of history from being lost forever, and his book became the leading resource on the Jews of Kurdistan because of its depth and accessibility. It was compiled from hundreds of interviews with native Kurdish Jews who immigrated to Israel, and was made widely available in multiple languages including English, Arabic, Kurdish, and French.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
