@@ -522,11 +522,13 @@ if ($pageview_request == "biographical-notes"):
 
 	echo "<p>". translatable_elements('biographical-notes-doctoral-thesis') ."</p>";
 
-	echo "<p>". translatable_elements('biographical-notes-also-expresses') ."</p>";
+	echo "<p>". translatable_elements('biographical-notes-expresses') ."</p>";
 
 	echo image_output("/media/website-03.jpg", "1.5", "1", "biographical-notes-bedouin-communities");
 
 	echo "<p>". translatable_elements('biographical-notes-speaks-fluently') ."</p>";
+
+	echo image_output("/media/website-30.jpg", "1.5", "1", "biographical-notes-dr-zaken-at-the-synagogue");
 
 	echo "<h2>". translatable_elements('biographical-notes-website-administration') ."</h2>";
 
