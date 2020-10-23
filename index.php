@@ -1028,11 +1028,11 @@ echo "<div id='Contact'>";
 		echo "<dd><a href='mailto:info@drmordechaizaken.com'>info@drmordechaizaken.com</a></dd>";
 		echo "</dl>";
 
-	echo "<dl>";
-		echo "<dt>". translatable_elements("footer-to-contact-the-national-association") ."</dt>";
-		echo "<dd><a href='https://kurdishjewry.org.il'>kurdishjewry.org.il</a><br>";
-		echo "<a href='mailto:info@kurdishjewry.org.il'>info@kurdishjewry.org.il</a></dd>";
-		echo "</dl>";
+//	echo "<dl>";
+//		echo "<dt>". translatable_elements("footer-to-contact-the-national-association") ."</dt>";
+//		echo "<dd><a href='https://kurdishjewry.org.il'>kurdishjewry.org.il</a><br>";
+//		echo "<a href='mailto:info@kurdishjewry.org.il'>info@kurdishjewry.org.il</a></dd>";
+//		echo "</dl>";
 
 	echo "<dl>";
 		echo "<dt>". translatable_elements("footer-with-motis-permission-and-support") ."</dt>";
