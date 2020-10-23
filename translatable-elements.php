@@ -200,8 +200,13 @@
 		],
 
 
-	"biographical-notes-also-expresses" => [
-		"en"	=> "Dr. Zaken also expresses gratitude to teachers and scholars who inspired him such as the late Gideon Goldenberg and Amnon Netzer, and Benjamin Z. Kedar, Martin van Bruinessen, and Michael Chyet.",
+	"biographical-notes-expresses" => [
+		"en"	=> "Dr. Zaken expresses gratitude to the teachers and scholars who inspired him and who supported him in his research,
+• the late linguist Gideon Goldenberg
+• the late historian and journalist Amnon Netzer
+• historian Benjamin Z. Kedar
+• anthropologist Martin van Bruinessen
+• linguist Michael Chyet",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
