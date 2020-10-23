@@ -202,6 +202,7 @@
 
 	"biographical-notes-expresses" => [
 		"en"	=> "Dr. Zaken expresses gratitude to the scholars who inspired him and guided him in his research,
+
 • the late linguist Gideon Goldenberg
 • the late historian and journalist Amnon Netzer
 • the historian Benjamin Z. Kedar
