@@ -201,12 +201,12 @@
 
 
 	"biographical-notes-expresses" => [
-		"en"	=> "Dr. Zaken expresses gratitude to the scholars who inspired him and supported him in his research,
+		"en"	=> "Dr. Zaken expresses gratitude to the scholars who inspired him and guided him in his research,
 • the late linguist Gideon Goldenberg
 • the late historian and journalist Amnon Netzer
-• historian Benjamin Z. Kedar
-• anthropologist Martin van Bruinessen
-• linguist Michael Chyet",
+• the historian Benjamin Z. Kedar
+• the anthropologist Martin van Bruinessen
+• the linguist Michael Chyet",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
