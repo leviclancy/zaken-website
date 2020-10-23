@@ -208,7 +208,7 @@
 • the historian Benjamin Z. Kedar
 • the historian Martin van Bruinessen
 • the Kurdish linguist Michael Chyet
-• the Islamic scholar Moshe Sharon
+• the scholar of Islamic history, Moshe Sharon
 • the Kurdish linguist Joyce Blau",
 		"he"	=> "",
 		"ar"	=> "",
