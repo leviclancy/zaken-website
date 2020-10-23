@@ -481,7 +481,7 @@ echo "<div id='website-header'>";
 			endforeach;
 		echo "</span>";
 
-	echo "<span id='website-header-title' amp-fx='parallax' data-parallax-factor='1.3'><a href='/'>". translatable_elements("dr-mordechai-zaken") ."</a></span>";
+	echo "<span id='website-header-title' amp-fx='parallax' data-parallax-factor='1.3'><a href='/?language=".$language_request."'>". translatable_elements("dr-mordechai-zaken") ."</a></span>";
 	echo "<span id='website-header-caption' amp-fx='parallax' data-parallax-factor='1.3'>". translatable_elements("historian-expert-and-author") ."</span>";
 	echo "<span id='website-header-byline' amp-fx='parallax' data-parallax-factor='1.3'>". translatable_elements("prepared-by-foundation-of-ours") ."</span>";
 
