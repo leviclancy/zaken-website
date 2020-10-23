@@ -203,11 +203,13 @@
 	"biographical-notes-expresses" => [
 		"en"	=> "Dr. Zaken expresses gratitude to the scholars who inspired him and guided him in his research,
 
-• the late linguist Gideon Goldenberg
-• the late historian and journalist Amnon Netzer
+• the late Semitic linguist Gideon Goldenberg
+• the late historian of the Iranian Jews, Amnon Netzer
 • the historian Benjamin Z. Kedar
-• the anthropologist Martin van Bruinessen
-• the linguist Michael Chyet",
+• the historian Martin van Bruinessen
+• the Kurdish linguist Michael Chyet
+• the Islamic scholar Moshe Sharon
+• the Kurdish linguist Joyce Blau",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
