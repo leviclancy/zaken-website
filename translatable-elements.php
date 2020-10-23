@@ -223,7 +223,13 @@
 		"ku"	=> "",
 		],
 
-
+	"biographical-notes-dr-zaken-at-the-synagogue" => [
+		"en"	=> "Dr. Zaken at the ruined synagogue in Zakho, in October 2012.",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
+	
 	"biographical-notes-website-administration" => [
 		"en"	=> "Website administration",
 		"he"	=> "",
@@ -491,7 +497,7 @@
 		],
 
 	"condensed-highlights-timeline-2001-coordinator" => [
-		"en"	=> "Dr. Zaken was the coordinator of the ministerial committee which managed to solve the international religious dispute between Christans and Muslims at the Basilica of the Annunciation in Nazareth.",
+		"en"	=> "Dr. Zaken was the coordinator of the ministerial committee which managed to solve the international religious dispute between Christans and Muslims at the Basilica of the Annunciation in Nazareth in northern Israel.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -505,7 +511,7 @@
 		],
 
 	"condensed-highlights-timeline-1999-married" => [
-		"en"	=> "Married in Jerusalem, on Mount Scopus, with a wedding attended by Prime Minister (and First Lady) Netanyahu, whom Zaken advised at the time on local Arab Affairs, as well as other leaders. Dr. Zaken and Riki continue to live in Jerusalem and have three children: Tzah, Tahel, and Ohad.",
+		"en"	=> "Married in Jerusalem, on Mount Scopus, with a wedding attended by Prime Minister Netanyahu (and First Lady Netanyahu), whom Zaken advised at the time on local Arab Affairs, as well as other leaders. Dr. Zaken and Riki continue to live in Jerusalem and have three children: Tzah, Tahel, and Ohad.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
