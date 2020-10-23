@@ -520,13 +520,13 @@ if ($pageview_request == "biographical-notes"):
 
 	echo "<p>". translatable_elements('biographical-notes-doctoral-thesis') ."</p>";
 
-	echo image_output("/media/website-02.jpg", "1.5", "1", "biographical-notes-uzi-dayan");
+	echo "<p>". translatable_elements('biographical-notes-speaks-fluently') ."</p>";
 
 	echo "<p>". translatable_elements('biographical-notes-expresses') ."</p>";
 
-	echo image_output("/media/website-03.jpg", "1.5", "1", "biographical-notes-bedouin-communities");
+	echo image_output("/media/website-02.jpg", "1.5", "1", "biographical-notes-uzi-dayan");
 
-	echo "<p>". translatable_elements('biographical-notes-speaks-fluently') ."</p>";
+	echo image_output("/media/website-03.jpg", "1.5", "1", "biographical-notes-bedouin-communities");
 
 	echo image_output("/media/website-30.jpg", "1.5", "1", "biographical-notes-dr-zaken-at-the-synagogue");
 
