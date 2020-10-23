@@ -518,9 +518,9 @@ if ($pageview_request == "biographical-notes"):
 	echo "<amp-youtube data-videoid='kHz0rjXVwkg' layout='responsive' width='640' height='360'></amp-youtube>";
 	echo "<figcaption>". translatable_elements('biographical-notes-video-screened') ."</figcaption></figure>";
 
-	echo image_output("/media/website-02.jpg", "1.5", "1", "biographical-notes-uzi-dayan");
-
 	echo "<p>". translatable_elements('biographical-notes-doctoral-thesis') ."</p>";
+
+	echo image_output("/media/website-02.jpg", "1.5", "1", "biographical-notes-uzi-dayan");
 
 	echo "<p>". translatable_elements('biographical-notes-expresses') ."</p>";
 
