@@ -39,7 +39,8 @@ $pageview_request = ( empty($_REQUEST['pageview']) ? null : $_REQUEST['pageview'
 
 // The language is also passed in the URL
 // $language_request_allowed = [ "ar"=>"عربي", "en"=>"English", "he"=>"עברית", "ku"=>"کوردی", ];
-$language_request_allowed = [ "en"=>"English", "ku"=>"کوردی", "ar"=>"عربي", ];
+// $language_request_allowed = [ "en"=>"English", "ku"=>"کوردی", "ar"=>"عربي", ];
+$language_request_allowed = [ "en"=>"En", "ku"=>"کو", "ar"=>"عر", ];
 $language_request = ( empty($_REQUEST['language']) ? null : $_REQUEST['language'] );
 
 // Set up redirect array
@@ -133,6 +134,7 @@ $style_array = [
 		],
 	
 	"#website-header-languages" => [
+		"position"		=> "fixed",
 		"display"		=> "block",
 		"color"			=> "#000",
 		"font-size"		=> "80%",
@@ -148,6 +150,7 @@ $style_array = [
 		"background"		=> "#fff",
 		"border-radius"		=> "100px",
 		"margin"		=> "10px 10px",
+		"box-shadow"		=> "5px 5px 15px -3px rgba(100,100,100,0.3)",
 		],
 
 		
