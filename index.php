@@ -135,6 +135,9 @@ $style_array = [
 	
 	"#website-header-languages" => [
 		"position"		=> "fixed",
+		"top"			=> "0",
+		"right"			=> "0",
+		"z-index"		=> "10000",
 		"display"		=> "block",
 		"color"			=> "#000",
 		"font-size"		=> "80%",
