@@ -135,7 +135,7 @@ $style_array = [
 		"font-weight"		=> "700",
 		"text-align"		=> "right",
 		"padding"		=> "0",
-		"opacity"		=> "0.45",
+		"opacity"		=> "1",
 		],
 	
 	".website-toggle-languages-item" => [
@@ -151,7 +151,7 @@ $style_array = [
 		"display"		=> "block",
 		"color"			=> "#333",
 		"font-family"		=> "Arial",
-		"padding"		=> "20px 30px 30px",
+		"padding"		=> "60px 30px 30px",
 		"position"		=> "relative",
 //		"background"		=> "rgba(100,100,100,0.4)",
 		],
