@@ -133,7 +133,7 @@
 		"ku"	=> "",
 		],
 	"biographical-notes-dr-mordechai-zaken-born" => [
-		"en"	=> "Dr. Mordechai Zaken, born in Jerusalem of Kurdistani Jewish descent, is an eminent and authoritative historian of the Jews of Kurdistan, as well as the native Assyrians and the tribal Kurdish society. In 2019, he received the Prime Minister’s Prize for his research and leadership.",
+		"en"	=> "Dr. Mordechai Zaken, born in Jerusalem of Kurdistani Jewish descent, is an eminent and authoritative historian of the Jews of Kurdistan, as well as the native Assyrians and the tribal Kurdish society.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -167,7 +167,6 @@
 		"ku"	=> "",
 		],
 
-
 	"biographical-notes-head" => [
 		"en"	=> "Head of Minority Affairs Desk at Israel's Ministry of Public Security",
 		"he"	=> "",
@@ -175,6 +174,13 @@
 		"ku"	=> "",
 		],
 
+	
+	"biographical-notes-in-2019-he-received" => [
+		"en"	=> "In 2019, he received the Prime Minister’s Prize for his research and leadership. The video screened at his acceptance is shown below,",
+		"he"	=> "",
+		"ar"	=> "",
+		"ku"	=> "",
+		],
 
 	"biographical-notes-video-screened" => [
 		"en"	=> "Video screened at the official ceremony in Jerusalem, in March 2019, when Dr. Zaken was awarded the Prime Minister’s Prize for research on the Jews of the Middle East and Iran. Transcript here: <a href='https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing'>doc.google.com</a>",
@@ -246,7 +252,7 @@
 		],
 
 	"biographical-notes-this-website" => [
-		"en"	=> "This website has been developed by Foundation of Ours and has been brought to the public in multiple languages in alignment with the Foundation's mission to support Jewish expression in the Kurdistan Region.",
+		"en"	=> "This website has been developed by Foundation of Ours and has been brought to the public in Kurdish, English, and Arabic in alignment with the Foundation's mission to support Jewish expression in the Kurdistan Region.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
