@@ -80,7 +80,7 @@ echo '<script async custom-element="amp-animation" src="https://cdn.ampproject.o
 echo '<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>';
 
 // Latin Sans Serif
-echo '<link href="https://fonts.googleapis.com/css2?family=Molengo&display=swap" rel="stylesheet">';
+echo '<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">';
 
 // Latin Serif
 echo '<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">';
@@ -102,7 +102,7 @@ $style_array = [
 	"body" => [
 		"font-family" 		=> "Times",
 		"background"		=> "#fff",
-		"font-size"		=> "18px",
+		"font-size"		=> "19px",
 		"margin"		=> "0",
 		"padding"		=> "0",
 		],
@@ -217,8 +217,8 @@ $style_array = [
 		"display"		=> "block",
 		"color"			=> "#333",
 		"padding"		=> "10px 0 100px",
-		"font-family"		=> "Molengo",
-		"line-height"		=> "1.2em",
+		"font-family"		=> "Roboto",
+		"line-height"		=> "1.3em",
 		"text-align"		=> "center",
 		],
 	
@@ -273,7 +273,7 @@ $style_array = [
 	
 	"#body-content figcaption" => [
 		"font-size"		=> "80%",
-		"font-family"		=> "Molengo",
+		"font-family"		=> "Roboto",
 		"padding"		=> "0",
 		"margin"		=> "0",
 		],
