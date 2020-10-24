@@ -124,16 +124,7 @@ $style_array = [
 		"display"		=> "none",
 		],
 	
-	"#website-header" => [
-		"display"		=> "block",
-		"color"			=> "#333",
-		"font-family"		=> "Arial",
-		"padding"		=> "20px 30px 30px",
-		"position"		=> "relative",
-//		"background"		=> "rgba(100,100,100,0.4)",
-		],
-	
-	"#website-header-languages" => [
+	"#website-toggle-languages" => [
 		"position"		=> "fixed",
 		"top"			=> "0",
 		"right"			=> "0",
@@ -147,7 +138,7 @@ $style_array = [
 		"opacity"		=> "0.45",
 		],
 	
-	".website-header-languages-item" => [
+	".website-toggle-languages-item" => [
 		"padding"		=> "5px 10px",
 		"display"		=> "inine-block",
 		"background"		=> "#fff",
@@ -155,7 +146,15 @@ $style_array = [
 		"margin"		=> "10px 10px",
 		"box-shadow"		=> "5px 5px 15px -3px rgba(100,100,100,0.3)",
 		],
-
+	
+	"#website-header" => [
+		"display"		=> "block",
+		"color"			=> "#333",
+		"font-family"		=> "Arial",
+		"padding"		=> "20px 30px 30px",
+		"position"		=> "relative",
+//		"background"		=> "rgba(100,100,100,0.4)",
+		],
 		
 	"#website-header-title" => [
 		"margin"		=> "0 auto 0",
@@ -481,14 +480,15 @@ function press_report_output($date, $article_name, $link_url, $link_name=null) {
 
 	return $press_report; }
 
+// echo "<span id='website-toggle-languages' amp-fx='parallax' data-parallax-factor='1.4'>";
+echo "<span id='website-toggle-languages'>";
+	foreach ($language_request_allowed as $language_request_temp => $language_name_temp):
+		echo "<a href='/?pageview=".$pageview_request."&language=".$language_request_temp."'><span class='website-toggle-languages-item'>". $language_name_temp ."</span></a>";
+		endforeach;
+	echo "</span>";
+
 // Navigation buttons
 echo "<div id='website-header'>";
-
-	echo "<span id='website-header-languages' amp-fx='parallax' data-parallax-factor='1.4'>";
-		foreach ($language_request_allowed as $language_request_temp => $language_name_temp):
-			echo "<a href='/?pageview=".$pageview_request."&language=".$language_request_temp."'><span class='website-header-languages-item'>". $language_name_temp ."</span></a>";
-			endforeach;
-		echo "</span>";
 
 	echo "<span id='website-header-title' amp-fx='parallax' data-parallax-factor='1.3'><a href='/?language=".$language_request."'>". translatable_elements("dr-mordechai-zaken") ."</a></span>";
 	echo "<span id='website-header-caption' amp-fx='parallax' data-parallax-factor='1.3'>". translatable_elements("historian-expert-and-author") ."</span>";
