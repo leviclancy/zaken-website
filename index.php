@@ -143,8 +143,11 @@ $style_array = [
 		],
 	
 	".website-header-languages-item" => [
-		"padding"		=> "5px 0 5px 15px",
+		"padding"		=> "5px 10px",
 		"display"		=> "inine-block",
+		"background"		=> "#fff",
+		"border-radius"		=> "100px",
+		"margin"		=> "10px 10px",
 		],
 
 		
