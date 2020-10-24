@@ -147,6 +147,7 @@ $style_array = [
 		"margin"		=> "10px 10px",
 		"box-shadow"		=> "5px 5px 15px -3px rgba(100,100,100,0.3)",
 		"font-family"		=> "Arial",
+		"text-align"		=> "center",
 		],
 	
 	"#website-header" => [
