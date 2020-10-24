@@ -126,7 +126,7 @@ $style_array = [
 	
 	"#website-toggle-languages" => [
 		"position"		=> "fixed",
-		"top"			=> "10px",
+		"top"			=> "5px",
 		"right"			=> "10px",
 		"z-index"		=> "10000",
 //		"display"		=> "block",
@@ -136,12 +136,12 @@ $style_array = [
 		],
 	
 	".website-toggle-languages-item" => [
-		"padding"		=> "5px 10px",
+		"padding"		=> "8px",
 		"display"		=> "inline-block",
 		"background"		=> "#fff",
 		"color"			=> "#999",
-		"font-size"		=> "80%",
-		"font-weight"		=> "400",
+		"font-size"		=> "70%",
+		"font-weight"		=> "700",
 		"border-radius"		=> "100px",
 		"margin"		=> "10px 10px",
 		"box-shadow"		=> "5px 5px 15px -3px rgba(100,100,100,0.3)",
