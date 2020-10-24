@@ -126,13 +126,10 @@ $style_array = [
 	
 	"#website-toggle-languages" => [
 		"position"		=> "fixed",
-		"top"			=> "0",
-		"right"			=> "0",
+		"top"			=> "20px",
+		"right"			=> "10px",
 		"z-index"		=> "10000",
-		"display"		=> "block",
-		"color"			=> "#000",
-		"font-size"		=> "80%",
-		"font-weight"		=> "700",
+//		"display"		=> "block",
 		"text-align"		=> "right",
 		"padding"		=> "0",
 		"opacity"		=> "1",
@@ -140,11 +137,15 @@ $style_array = [
 	
 	".website-toggle-languages-item" => [
 		"padding"		=> "5px 10px",
-		"display"		=> "inine-block",
+		"display"		=> "inline-block",
 		"background"		=> "#fff",
+		"color"			=> "#999",
+		"font-size"		=> "80%",
+		"font-weight"		=> "700",
 		"border-radius"		=> "100px",
 		"margin"		=> "10px 10px",
 		"box-shadow"		=> "5px 5px 15px -3px rgba(100,100,100,0.3)",
+		"font-family"		=> "Arial",
 		],
 	
 	"#website-header" => [
