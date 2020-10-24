@@ -137,7 +137,7 @@ $style_array = [
 	
 	".website-toggle-languages-item" => [
 		"padding"		=> "8px",
-		"min-width"		=> "10px",
+		"min-width"		=> "15px",
 		"display"		=> "inline-block",
 		"background"		=> "#fff",
 		"color"			=> "#999",
