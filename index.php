@@ -126,7 +126,7 @@ $style_array = [
 	
 	"#website-toggle-languages" => [
 		"position"		=> "fixed",
-		"top"			=> "20px",
+		"top"			=> "10px",
 		"right"			=> "10px",
 		"z-index"		=> "10000",
 //		"display"		=> "block",
@@ -141,7 +141,7 @@ $style_array = [
 		"background"		=> "#fff",
 		"color"			=> "#999",
 		"font-size"		=> "80%",
-		"font-weight"		=> "700",
+		"font-weight"		=> "400",
 		"border-radius"		=> "100px",
 		"margin"		=> "10px 10px",
 		"box-shadow"		=> "5px 5px 15px -3px rgba(100,100,100,0.3)",
