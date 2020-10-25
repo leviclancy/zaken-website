@@ -147,14 +147,14 @@
 		],
 
 	"biographical-notes-representative" => [
-		"en"	=> "Representative assigned by the community of Jews from Kurdistan to supervise Jewish affairs and Jewish sites in the Kurdistan Region (2020 - ongoing).",
+		"en"	=> "Representative assigned by the community of Jews from Kurdistan to supervise Jewish concerns in the Kurdistan Region (2020 - ongoing).",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 	
 	"biographical-notes-author" => [
-		"en"	=> "Author of ‘The Jews of Kurdistan’, and 2019 recipient of the Prime Minister’s Prize for his lifetime of research and dedication on this topic.",
+		"en"	=> "Author of ‘The Jews of Kurdistan’, and 2019 recipient of the Prime Minister’s Prize for his research and dedication on Kurdish Jews.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
