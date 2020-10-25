@@ -154,7 +154,7 @@
 		],
 	
 	"biographical-notes-author" => [
-		"en"	=> "Author of ‘The Jews of Kurdistan’, and 2019 recipient of the Prime Minister’s Prize for his research on Kurdish Jews.",
+		"en"	=> "Author of ‘The Jews of Kurdistan’, and 2019 recipient of the Prime Minister’s Prize for his research on this topic.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
