@@ -103,7 +103,7 @@ $style_array = [
 	"body" => [
 		"font-family" 		=> "Times",
 		"background"		=> "#fff",
-		"font-size"		=> "19px",
+		"font-size"		=> "18px",
 		"margin"		=> "0",
 		"padding"		=> "0",
 		],
@@ -229,7 +229,7 @@ $style_array = [
 		"color"			=> "#333",
 		"padding"		=> "10px 0 100px",
 		"font-family"		=> "Roboto",
-		"line-height"		=> "1.3em",
+		"line-height"		=> "1.45em",
 		"text-align"		=> "center",
 		],
 	
