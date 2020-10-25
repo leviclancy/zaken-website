@@ -147,7 +147,7 @@
 		],
 
 	"biographical-notes-representative" => [
-		"en"	=> "Representative assigned by the community of Jews from Kurdistan to supervise and consult on Jewish concerns in the Kurdistan Region (2020 - ongoing).",
+		"en"	=> "Representative assigned by the community of Jews from Kurdistan to supervise and consult on Jewish concerns in the Kurdistan Region.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
