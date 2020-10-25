@@ -154,14 +154,14 @@
 		],
 	
 	"biographical-notes-author" => [
-		"en"	=> "Author of ‘The Jews of Kurdistan’",
+		"en"	=> "Author of ‘The Jews of Kurdistan’, and 2019 recipient of the Prime Minister’s Prize for his research on Kurdish Jews.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
 	"biographical-notes-adviser" => [
-		"en"	=> "Adviser on Arab Affairs to the Prime Minister of Israel",
+		"en"	=> "Adviser on Arab Affairs to the Prime Minister of Israel, and current head of Minority Affairs at the Ministry of Public Security.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
