@@ -522,9 +522,9 @@ if ($pageview_request == "biographical-notes"):
 
 	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-authority') ."</p>";
 	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-representative') ."</p>";
-	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-author') ."</p>";
 	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-adviser') ."</p>";
-	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-head') ."</p>";
+	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-author') ."</p>";
+//	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-head') ."</p>";
 
 	echo "<p>". translatable_elements('biographical-notes-in-2019-he-received') ."</p>";
 
