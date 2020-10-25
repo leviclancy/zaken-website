@@ -161,7 +161,7 @@
 		],
 
 	"biographical-notes-adviser" => [
-		"en"	=> "Current head of Minority Affairs at the Ministry of Public Security. Former adviser on Arab Affairs to Israel's Prime Minister.",
+		"en"	=> "Current head of Minority Affairs at the Ministry of Public Security. Former adviser on Arab Affairs to the Prime Minister of Israel.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
