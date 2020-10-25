@@ -264,10 +264,10 @@ $style_array = [
 	
 	"#body-content .p-em" => [
 		"display"		=> "inline-block",
-		"max-width"		=> "500px",
+		"max-width"		=> "550px",
 		"padding"		=> "0 50px",
-		"font-size"		=> "120%",
-		"line-height"		=> "1.6em",
+		"font-size"		=> "115%",
+		"line-height"		=> "1.8em",
 		"font-family"		=> "'Alegreya SC', 'Suez One', Serif",
 		"text-align"		=> "center",
 		"text-transform"	=> "uppercase",
