@@ -140,14 +140,14 @@
 		],
 
 	"biographical-notes-authority" => [
-		"en"	=> "Authority on the history and heritage of the Jews of Kurdistan, the Assyrians, and the tribal Kurdish society",
+		"en"	=> "Authority on the history and heritage of the Jews of Kurdistan, the Assyrians, and the tribal Kurdish society.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
 	"biographical-notes-representative" => [
-		"en"	=> "Representative of the community of Jews from Kurdistan to the Kurdistan Region (2020 - ongoing)",
+		"en"	=> "Representative assigned by the community of Jews from Kurdistan to supervise Jewish affairs and Jewish sites in the Kurdistan Region (2020 - ongoing).",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -161,7 +161,7 @@
 		],
 
 	"biographical-notes-adviser" => [
-		"en"	=> "Current head of Minority Affairs at the Ministry of Public Security. Former adviser on Arab Affairs to the Prime Minister of Israel.",
+		"en"	=> "Current head of Minority Affairs at the Ministry of Public Security. (Former adviser on Arab Affairs to the Prime Minister of Israel.)",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
