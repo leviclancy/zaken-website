@@ -520,11 +520,10 @@ if ($pageview_request == "biographical-notes"):
 
 	echo "<p amp-fx='parallax' data-parallax-factor='1.05'>". translatable_elements('biographical-notes-dr-mordechai-zaken-born') ."</p>";
 
-	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-authority') ."</p>";
-	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-representative') ."</p>";
-	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-adviser') ."</p>";
-	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-author') ."</p>";
-//	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-head') ."</p>";
+	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-authority-on') ."</p>";
+	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-representative-assigned') ."</p>";
+	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-current-head') ."</p>";
+	echo "<p class='p-em' amp-fx='parallax' data-parallax-factor='1.04'>". translatable_elements('biographical-notes-author-of-the-jews-of-kurdistan') ."</p>";
 
 	echo "<p>". translatable_elements('biographical-notes-in-2019-he-received') ."</p>";
 
