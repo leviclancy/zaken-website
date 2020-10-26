@@ -139,42 +139,34 @@
 		"ku"	=> "",
 		],
 
-	"biographical-notes-authority" => [
+	"biographical-notes-authority-on" => [
 		"en"	=> "Authority on the history and heritage of the Jews of Kurdistan, the Assyrians, and the tribal Kurdish society.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"biographical-notes-representative" => [
+	"biographical-notes-representative-assigned" => [
 		"en"	=> "Representative assigned by the community of Jews from Kurdistan to supervise and consult on Jewish concerns in the autonomous Kurdistan Region.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 	
-	"biographical-notes-author" => [
-		"en"	=> "Author of ‘The Jews of Kurdistan’, and 2019 recipient of the Prime Minister’s Prize for his lifetime of research and dedication regarding the Kurdish Jewish community.",
-		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
-		],
-
-	"biographical-notes-adviser" => [
+	"biographical-notes-current-head" => [
 		"en"	=> "Current head of Minority Affairs at the Ministry of Public Security. (Former adviser on Arab Affairs to the Prime Minister of Israel.)",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	"biographical-notes-head" => [
-		"en"	=> "Head of Minority Affairs Desk at Israel's Ministry of Public Security",
+	"biographical-notes-author-of-the-jews-of-kurdistan" => [
+		"en"	=> "Author of ‘The Jews of Kurdistan’, and 2019 recipient of the Prime Minister’s Prize for his lifetime of research and dedication regarding the Kurdish Jewish community.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
-	
 	"biographical-notes-in-2019-he-received" => [
 		"en"	=> "In 2019, he received the Prime Minister’s Prize for his research and leadership. The video screened at his acceptance is shown below,",
 		"he"	=> "",
