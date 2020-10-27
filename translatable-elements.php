@@ -488,8 +488,8 @@
 		"ku"	=> "",
 		],
 
-	"condensed-highlights-within-the-scope-" => [
-		"en"	=> "Within the scope of my jurisdiction as the head of minorities affairs at the Ministry of Public Security, and as a consultant to the National Association, I continue to work and cooperate with leaders in Israel and abroad to foster Israeli-Christian, Israeli-Kurdish, and Israeli-Assyrian friendship.",
+	"condensed-highlights-within-my-jurisdiction" => [
+		"en"	=> "Within my jurisdiction as the head of the Minority Affairs desk at the Ministry of Public Security, and as a consultant to the National Association, I continue to work and cooperate with leaders in Israel and abroad to foster friendship between Israel and Christians, Israel and Kurds, and Israel and Assyrians.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
