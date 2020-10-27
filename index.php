@@ -627,7 +627,7 @@ if ($pageview_request == "condensed-highlights"):
 	
 	echo image_output("/media/website-09.jpg", "1.5", "1", "condensed-highlights-akre-near-duhok");
 
-	echo blockquote("condensed-highlights-within-the-scope");
+	echo blockquote("condensed-highlights-within-my-jurisdiction");
 	
 	echo timeline_output("2001-05", "2007-05", translatable_elements('condensed-highlights-timeline-2001-adviser'));
 
