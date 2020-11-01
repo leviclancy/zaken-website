@@ -149,15 +149,15 @@
 	"biographical-notes-representative-assigned" => [
 		"en"	=> "Representative assigned by the community of Jews from Kurdistan to supervise and consult on Jewish concerns in the autonomous Kurdistan Region.",
 		"he"	=> "",
-		"ar"	=> "",
+		"ar"	=> "ممثل معين من قبل الجالية اليهودية في كردستان للإشراف والتشاور بشأن الشئون اليهودية في إقليم كردستان المتمتع بالحكم الذاتي.",
 		"ku"	=> "لە لایەن ڕەوەندی جووەکانی کوردستانەوە دامەزرێنراوە  بۆ سەرپەرشتیکردن و ڕاوێژکاریکردن لەسەر کاروباری جووەکان لە هەرێمی کوردستانی خۆبەڕێوبەر.",
 		],
 	
 	"biographical-notes-current-head" => [
 		"en"	=> "Current head of Minority Affairs at the Ministry of Public Security. (Former adviser on Arab Affairs to the Prime Minister of Israel.)",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "مدیر الحالي لشئون الأقليات بوزارة الأمن العام. (مستشار سابق لرئيس وزراء إسرائيل للشؤون العربية.)",
+		"ku"	=> "رێڤەبەری ئێستای کاروباری کەمینەکانە لە وەزارەتی ئاساییشی گشتی. (ڕاوێژکاری پێشووی سەرۆک وەزیرانی ئیسرائیل بوو لەسەر کاروباری عەرەبەکان.)",
 		],
 
 	"biographical-notes-author-of-the-jews-of-kurdistan" => [
