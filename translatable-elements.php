@@ -11,14 +11,14 @@
 		"en"	=> "Dr. Mordechai Zaken",
 		"he"	=> "",
 		"ar"	=> "د. مردخاي زاكين",
-		"ku"	=> "د. مۆردەخای زاکین",
+		"ku"	=> "د. مۆردیخای زاکین",
 		],
 	
 	"historian-expert-and-author" => [
 		"en"	=> "Historian and Expert on the Jews of Kurdistan, the Assyrian minorities, and the tribal Kurdish society",
 		"he"	=> "",
 		"ar"	=> "مؤرخ وخبير في شؤون يهود كوردستان والأقليات الآشورية والمجتمع الكردي القبلي",
-		"ku"	=> "مێژووناس و پسپۆری جولەکانی کوردستان، کەمینەکانی ئاشووریەکان و هۆزەکانی کۆمەڵگای کوردی",
+		"ku"	=> "مێژووناس و پسپۆری جووەکانی کوردستان، کەمینەکانی ئاشووریەکان و هۆزە کوردیەکان",
 		],
 	
 	"prepared-by-foundation-of-ours" => [
@@ -31,36 +31,36 @@
 	"biographical-notes" => [
 		"en"	=> "Biographical Notes",
 		"he"	=> "",
-		"ar"	=> "مذاكرات عن السيرة الذاتية",
-		"ku"	=> "تێبینیەکانی ژیاننامەیی",
+		"ar"	=> "مذكرات عن السيرة الذاتية",
+		"ku"	=> "ژیاننامە",
 		],
 
 	"scholarly-achievement" => [
 		"en"	=> "Scholarly Achievement",
 		"he"	=> "",
 		"ar"	=> "الإنجاز العلمي",
-		"ku"	=> "دەستکەوتێکی زانستی",
+		"ku"	=> "دەستکەوتی زانستی",
 		],
 
 	"kurdish-advocacy" => [
 		"en"	=> "Kurdish Advocacy",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "المناصرة الكردية",
+		"ku"	=> "لایەنگری کوردی",
 		],
 	
 	"condensed-highlights" => [
 		"en"	=> "Condensed Highlights",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "تمييزات مكثفة",
+		"ku"	=> "خاڵە سەرەکیەکان",
 		],
 
 	"publications-and-lectures" => [
 		"en"	=> "Publications and Lectures",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "چاپکراوەکان و وانەکان",
+		"ku"	=> "چاپکراوەکان و وانەکان",
 		],
 
 	"lectures" => [
@@ -74,42 +74,42 @@
 		"en"	=> "The Jews of Kurdistan",
 		"he"	=> "",
 		"ar"	=> "یهود کردستان",
-		"ku"	=> "جولەکانی کوردستان",
+		"ku"	=> "جووەکانی کوردستان",
 		],
 	
 	"kurdistan-region" => [
 		"en"	=> "Kurdistan Region",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "إقليم كوردستان",
+		"ku"	=> "وەرگێرانەکان",
 		],
 	
 	"tomb-of-the-prophet-nahum" => [
 		"en"	=> "Tomb of the Prophet Nahum",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "مرقد النبي ناحوم",
+		"ku"	=> "گۆڕی  نەبی ناحوم",
 		],
 
 	"kurdistan-region-and-israel" => [
 		"en"	=> "Kurdistan Region and Israel",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "إقليم كوردستان وإسرائيل",
+		"ku"	=> "هەرێمی کوردستان و ئیسرائیل",
 		],
 	
 	"world-kurdish-forum" => [
 		"en"	=> "World Kurdish Forum",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "المنتدى الكردي العالمي",
+		"ku"	=> "کۆڕبەندی کوردی جیهانی",
 		],
 	
 	"israel" => [
 		"en"	=> "Israel",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "إسرائيل",
+		"ku"	=> "ئیسرائیل",
 		],
 
 	"minorities-affairs" => [
