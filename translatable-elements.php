@@ -175,18 +175,18 @@
 		],
 
 	"biographical-notes-video-screened" => [
-		"en"	=> "Video screened at the official ceremony in Jerusalem, in March 2019, when Dr. Zaken was awarded the Prime Minister’s Prize for research on the Jews of the Middle East and Iran. Transcript here: <a href='https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing'>doc.google.com</a>",
+		"en"	=> "Video screened at the official ceremony in Jerusalem, in March 2019, when Dr. Zaken was awarded the Prime Minister’s Prize for research on the Jews of the Middle East and Iran. Transcript here: <a href='https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing'>docs.google.com</a>",
 		"he"	=> "",
 		"ar"	=> "",
-		"ku"	=> "ڤیدیۆیەکە لە ئاهەنگێکی فەرمی دا لە ئۆرشەلیم  نمایشکرا، لە ئاداری ٢٠١٩، کاتێک د. زاکین خەڵاتکرا لە لایەن سەرۆک وەزیرانەوە لەبەر لێکۆلینەکەی لەسەر جووەکانی رۆژهەڵاتی ناوەراست و ئێران. بڕوانامەکە لێرەیە: <a href='https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing'>doc.google.com</a>",
+		"ku"	=> "ڤیدیۆیەکە لە ئاهەنگێکی فەرمی دا لە ئۆرشەلیم  نمایشکرا، لە ئاداری ٢٠١٩، کاتێک د. زاکین خەڵاتکرا لە لایەن سەرۆک وەزیرانەوە لەبەر لێکۆلینەکەی لەسەر جووەکانی رۆژهەڵاتی ناوەراست و ئێران. بڕوانامەکە لێرەیە: <a href='https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing'>docs.google.com</a>",
 		],
 
 
 	"biographical-notes-uzi-dayan" => [
 		"en"	=> "Moti Zaken (right) with his friend, the decorated General (Reserve) Uzi Dayan, a staunch supporter of the Kurds, at the courtyard cafe of the Christ Church in East Jerusalem.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "موتي زاكين (على اليمين) مع صديقه الجنرال (الاحتياطي) عوزي ديان ، وهو من أشد المؤيدين للأكراد ، في ساحة مقهى كنيسة المسيح في القدس الشرقية.",
+		"ku"	=> "نامەکانی دکتۆرای د.زاکین و هەروها ئەو پەرتووکانەی کە لەوان دورستکراون، لە لایەن چەندین زانای بە تواناوە پەسنکراون وەکو جۆیس بلاو (INALCO in Paris) و هەروەها مۆشی شارۆن مامۆستای زانکۆی ئۆرشەلیم ی عیبری،بۆ بە دۆکیومێنتکردنی زانستیانەی مێژووی زارەکی جووەکانی کوردستان بەمەش پاراستنی لە لەناوچوون. نامەکانی و هەروها پەرتووکەکانی بوون بە سەرەکیترین و گرنکترین ژێدەر بۆ بابەتەکە، چونکە تێیدا بە سەدان چاوپێکەوتن لەگەل جووەکانی کورد ئەوانەی کۆچیان کردبوو بۆ ئیسرائیل کۆکرابوونەوە،وە لێکۆڵینەوەکەش بەشێوەیەکی فراوان بڵاببووەوە بەهۆی وەرگێڕانی بۆ سەر چەندین زمان لەوانە ئینگلیزی، عەرەبی، کوردی وە فەڕەنسی.",
 		],
 
 
