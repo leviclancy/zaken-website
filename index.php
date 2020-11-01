@@ -484,11 +484,11 @@ function press_report_output($date, $article_name, $link_url, $link_name=null) {
 	return $press_report; }
 
 // echo "<span id='website-toggle-languages' amp-fx='parallax' data-parallax-factor='1.4'>";
-echo "<span id='website-toggle-languages'>";
-	foreach ($language_request_allowed as $language_request_temp => $language_name_temp):
-		echo "<a href='/?pageview=".$pageview_request."&language=".$language_request_temp."'><span class='website-toggle-languages-item'>". $language_name_temp ."</span></a>";
-		endforeach;
-	echo "</span>";
+// echo "<span id='website-toggle-languages'>";
+//	foreach ($language_request_allowed as $language_request_temp => $language_name_temp):
+//		echo "<a href='/?pageview=".$pageview_request."&language=".$language_request_temp."'><span class='website-toggle-languages-item'>". $language_name_temp ."</span></a>";
+//		endforeach;
+//	echo "</span>";
 
 // Navigation buttons
 echo "<div id='website-header'>";
