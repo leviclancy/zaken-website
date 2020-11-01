@@ -154,14 +154,14 @@ $style_array = [
 		"display"		=> "block",
 		"color"			=> "#333",
 		"font-family"		=> "Arial",
-		"padding"		=> "30px 30px 30px",
+		"padding"		=> "50px 20px 30px",
 		"position"		=> "relative",
 //		"background"		=> "rgba(100,100,100,0.4)",
 		],
 		
 	"#website-header-title" => [
 		"margin"		=> "0 auto 0",
-		"padding"		=> "30px 10px 3px",
+		"padding"		=> "30px 0 3px",
 		"display"		=> "block",
 		"font-size"		=> "105%",
 		"font-weight"		=> "700",
@@ -169,7 +169,7 @@ $style_array = [
 	
 	"#website-header-caption" => [
 		"display"		=> "block",
-		"padding"		=> "0 10px 10px",
+		"padding"		=> "0 0 10px",
 		"font-size"		=> "100%",
 //		"font-family"		=> "'Noto Serif JP'",
 //		"text-transform"	=> "uppercase",
@@ -178,7 +178,7 @@ $style_array = [
 	
 	"#website-header-byline" => [
 		"display"		=> "block",
-		"padding"		=> "0 10px 15px",
+		"padding"		=> "0 0 15px",
 		"font-size"		=> "80%",
 		],
 	
@@ -189,6 +189,7 @@ $style_array = [
 		"margin"		=> "0",
 		"font-size"		=> "90%",
 		"column-width"		=> "260px",
+		"line-height"		=> "1em",
 		],
 	
 	".website-header-sitemap-block" => [
