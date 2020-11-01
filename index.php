@@ -154,7 +154,7 @@ $style_array = [
 		"display"		=> "block",
 		"color"			=> "#333",
 		"font-family"		=> "Arial",
-		"padding"		=> "50px 20px 30px",
+		"padding"		=> "50px 20px 10px",
 		"position"		=> "relative",
 //		"background"		=> "rgba(100,100,100,0.4)",
 		],
@@ -189,7 +189,7 @@ $style_array = [
 		"margin"		=> "0",
 		"font-size"		=> "90%",
 		"column-width"		=> "260px",
-		"line-height"		=> "1em",
+		"line-height"		=> "1.15em",
 		],
 	
 	".website-header-sitemap-block" => [
