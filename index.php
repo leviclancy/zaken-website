@@ -212,7 +212,7 @@ $style_array = [
 	".website-header-sitemap-block-subitem" => [
 		"margin"		=> "0",
 		"display"		=> "block",
-		"padding"		=> "4px 0 4px 15px",
+		"padding"		=> "4px 15px 4px",
 		],
 
 	".website-header-sitemap-subitem span" => [
