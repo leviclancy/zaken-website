@@ -404,22 +404,22 @@
 	"condensed-highlights-coexistence-and-mutual-traditions" => [
 		"en"	=> "Coexistence and mutual traditions are the foundation of the relationship between Jews and Kurds.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "التعايش والتقاليد المتبادلة هي أساس العلاقة بين اليهود والأكراد.",
+		"ku"	=> "پێکەوەژیان و نەریتە هاوبەشەکان بنچینەی پەیوەندین لەنیوان کورد و جووەکان  دا.",
 		],
 	
 	"condensed-highlights-flags-of-israel-and-jerusalem" => [
 		"en"	=> "Flags of Israel and Jerusalem, overlooking the ramparts.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "أعلام إسرائيل والقدس مطلة على الأسوار.",
+		"ku"	=> "ئاڵای ئیسرائیل و ئۆرشەلیم ، لەسەرشورەکانەوە دەبینریت. ",
 		],
 
 	"condensed-highlights-timeline-2020-appointed" => [
 		"en"	=> "Appointed by the National Association of Jews from Kurdistan to oversee Jewish affairs and Jewish sites in the Kurdistan Region.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "عينته الجمعية الوطنية ليهود كردستان للإشراف على الشؤون اليهودية والمواقع اليهودية في إقليم كوردستان.",
+		"ku"	=> "لە لایەن کۆمەڵەی نیشتیمانی جووەکانی کورستانەوە دەستنیشانکرا بۆ چاودێریکردنی کاروبار و شوێنی  جووەکان لە هەرێمی کوردستان.",
 		],
 
 	"condensed-highlights-timeline-2019-laureate" => [
