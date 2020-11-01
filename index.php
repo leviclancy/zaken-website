@@ -368,6 +368,13 @@ $style_array = [
 	
 	];
 
+if ($language_request == "en"):
+	$style_array['body']['direction'] = "ltr";
+else:
+	$style_array['body']['direction'] = "rtl";
+	endif;
+
+
 function css_output($style_array=[]) {
 	$css_string = null;
 	foreach ($style_array as $selector_temp => $properties_array_temp):
