@@ -163,22 +163,22 @@
 	"biographical-notes-author-of-the-jews-of-kurdistan" => [
 		"en"	=> "Author of ‘The Jews of Kurdistan’, and 2019 recipient of the Prime Minister’s Prize for his lifetime of research and dedication regarding the Kurdish Jewish community.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> 'مؤلف كتاب "يهود كردستان" ، وحصل على جائزة رئيس الوزراء لعام 2019 عن حياته في البحث والتفاني فيما يتعلق بالجالية اليهودية الكردية.',
+		"ku"	=> 'مدیر الحالي لشئون الأقليات بوزارة الأمن العام. (مستشار سابق لرئيس وزراء إسرائيل للشؤون العربية.)',
 		],
 
 	"biographical-notes-in-2019-he-received" => [
-		"en"	=> "In 2019, he received the Prime Minister’s Prize for his research and leadership. The video screened at his acceptance is shown below,",
+		"en"	=> "In 2019, he received the Prime Minister’s Prize for his research and leadership. The video screened at his acceptance is shown below.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "في عام 2019 ، حصل على جائزة رئيس الوزراء لأبحاثه وقيادته. يظهر الفيديو الذي تم فحصه عند قبوله أدناه.",
+		"ku"	=> "لە ساڵی ٢٠١٩، خەڵاتی سەرۆک وەزیرانی وەرگرت بۆ لێکۆڵینەوە و پێشەنگی. لە ڤیدیۆی خوارە دا دیارە.",
 		],
 
 	"biographical-notes-video-screened" => [
 		"en"	=> "Video screened at the official ceremony in Jerusalem, in March 2019, when Dr. Zaken was awarded the Prime Minister’s Prize for research on the Jews of the Middle East and Iran. Transcript here: <a href='https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing'>doc.google.com</a>",
 		"he"	=> "",
 		"ar"	=> "",
-		"ku"	=> "",
+		"ku"	=> "ڤیدیۆیەکە لە ئاهەنگێکی فەرمی دا لە ئۆرشەلیم  نمایشکرا، لە ئاداری ٢٠١٩، کاتێک د. زاکین خەڵاتکرا لە لایەن سەرۆک وەزیرانەوە لەبەر لێکۆلینەکەی لەسەر جووەکانی رۆژهەڵاتی ناوەراست و ئێران. بڕوانامەکە لێرەیە: <a href='https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing'>doc.google.com</a>",
 		],
 
 
