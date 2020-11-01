@@ -348,22 +348,22 @@
 	"scholarly-achievement-bapir-agha" => [
 		"en"	=> "The author with Bapir Agha, a Kurdish informant of Jewish ancestry, in London, 1992. The meeting was arranged by Dr. Kamal Mirawdali.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "الكاتب مع بابير آغا ، وهو مخبر كردي من أصل يهودي ، في لندن ، 1992. اللقاء نظمه د. كمال ميراودلي.",
+		"ku"	=> "نووسەرەکە لەگەڵ باپیر ئاغا، کوردێکی زانیاری بەخشی بە ڕەگەز جووە، لە لەندەن، ١٩٩٢. چاوپێکەوتنەکە لە لایەن د. کەمال میرئاودلیەوە ڕێکخرابوو. ",
 		],
 
 	"scholarly-achievemnt-two-and-four-times" => [
 		"en"	=> "Dr. Zaken interviewed most of his informants between two and four times. However, there were some informants who were like rising springs, and whom he met with five, six, seven, and eight times.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "أجرى الدكتور زاكين مقابلات مع معظم المخبرين بين مرتين وأربع مرات. ومع ذلك ، كان هناك بعض المخبرين مثل الينابيع الصاعدة ، والذين التقى بهم خمس ، وست ، وسبع ، وثماني مرات.",
+		"ku"	=> "د. زاکین زۆربەی چاوپێکەوتنەکانی لەگەڵ کەسە زانیاری بەخشەکانیدا لەبەینی دوو تا چوار جار دا ئەنجام دەدان. هەرچۆنێک بێت، جاران هەندێک کەسی زانیاری بەخشی ئەوها هەبوون وەکو کانیەک بوون و، ئەو کەسە بوون کە پێنچ، شەش، حەوت، و هەشت جار چاوپێکەوتن لەگەڵایان دا ئەنجامدەدا. ",
 		],
 
 	"scholarly-achievement-during-my-last-meeting" => [
 		"en"	=> "During my last meeting with the late Michael Michaeli, I asked him when we would meet again. Micheali, in a theatrical act, pulled his trouser pockets inside out, as if to show that nothing has left for him to give. He said, ‘I shared with you everything I know. There is nothing left.'",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> 'خلال اجتماعي الأخير مع الراحل مايكل ميخائيلي ، سألته متى سنلتقي مرة أخرى. قام ميشالي ، في عرض مسرحي ، بسحب جيوب بنطاله من الداخل للخارج ، كما لو كان ليُظهر أنه لم يبق له شيء ليعطيه. قال ، "لقد شاركت معك كل ما أعرفه. لم يتبقى شيء.',
+		"ku"	=> "لە کاتی دوایین دیداری من لەگەڵ خوالێخۆشبوو مایکل میخائیلی دا، پسیارم لێی کرد کەی دووبارە یەکتر ببینین. میخائیل، بە ڕەفتارێکی شانۆییەوە، هەردوو گیرفانی پانتۆڵەکەی لە ژورەوە هێنانە دەرەوە، وا دەردەکەت کە هیچی پێ نەماوە تاکو بیدات. ئەو وتی، 'باسی هەموو شتێکم بۆ کردی کە ئەیزانم. هیچ شتێک نماوە.'",
 		],
 
 	"scholarly-achivement-jubilee" => [
