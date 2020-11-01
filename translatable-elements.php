@@ -271,15 +271,15 @@
 	"scholarly-achievement-usually" => [
 		"en"	=> "Usually Dr. Zaken interviewed his Jewish informants at their homes. At times, he met them at the synagogue, or at a community center. He interviewed some of his informants on a bench near their synagogue, where they used to hang out during the afternoon, before the evening prayer. In the photo above, Dr. Zaken (right) interviews Muallem Levi (center) of Zakho, a frequent visitor to his parents’ home. To the left is Dr. Zaken’s father, Saleh, who was also born in Zakho. Circa 1987.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "عادة ما أجرى الدكتور زاكين مقابلات مع مخبريه اليهود في منازلهم. في بعض الأحيان كان يقابلهم في الكنيس أو في مركز مجتمعي. أجرى مقابلة مع بعض مخبريه على مقعد بالقرب من كنيسهم ، حيث اعتادوا قضاء فترة ما بعد الظهر ، قبل صلاة العشاء. في الصورة أعلاه ، الدكتور زاكين (على اليمين) يقابل المعلم ليفي (وسط) زاخو ، وهو زائر دائم لمنزل والديه. إلى اليسار ، والد الدكتور زاكين ، صالح ، من مواليد زاخو. حوالي 1987.",
+		"ku"	=> "د. زاکین لە زۆربەی کاتەکانی خۆی چاوپێکەوتنەکانی لەگەڵ جووەکانی زانیاری بەخش دا لە ماڵی ئەوان دا ئەنجام دەدان. هەندێک جار لە کەنیشتە یان سەنتەرێکی جڤاکی چاوپێکەوتن لەگەڵ ئەوان دا ئەکرد. لەگەڵ هەندێک کەسە زانیاری بەخشەکانی دا چاوپێکەوتنەکانی لەسەر کورسیێک ئەنجام دەدان کە نێزیک بوو لە کەنیشتەکەیان، ئەو شوێنەی ئەوان ڕاهاتبون لەوێ لەگەڵ یەکتر کات بەسەر ببەن دوای نیوەرۆ، بەر لە سەڵاتی ئێوارە. لێرە وەک، لەم وێنەی سەرەوە دا دیارە، ئەو چاوپێکەوتن لەگەڵ موعەلم لیڤیی (ناوەراست) زاخۆ دەکات، کە ئەویش زیارەتکارێکی بەردەوامە بۆ ماڵی دایک و باوکی. هەروەها ئەوەی دانیشتوو لەگەڵ ئەوان، باوکی د. زاکینە،سالح(لە لای چەپەوە)، کە لە زاخۆ دایک بووە. نێزیکی ١٩٨٧.  ",
 		],
 
 	"scholarly-achievement-became-curious" => [
 		"en"	=> "When Mordechai Zaken became curious about the Jews of Kurdistan, during the early 1980s, he was puzzled to see that there was hardly any written material.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "عندما أصبح مردخاي زاكين فضوليًا بشأن يهود كردستان ، في أوائل الثمانينيات ، كان في حيرة من عدم وجود أي مصادر مكتوبة.",
+		"ku"	=> "کاتێک مۆردیخای زاکین زانینخواز  بوو و ئەیەویست  لەسەر جووەکانی کوردستان بزانێت، لە سەرەتاکانی ١٩٨٠ەوە،  سەرسورمان بوو کە زۆر بە زەحمەت ژێدەری نوسڕاو بەردەست هەن. ",
 		],
 
 	"scholarly-achievement-as-a-student" => [
