@@ -115,22 +115,22 @@
 	"minorities-affairs" => [
 		"en"	=> "Minorities Affairs",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "شؤون الأقليات",
+		"ku"	=> "کاروباری کەمینەکان",
 		],
 		
 	"press-coverage" => [
 		"en"	=> "Press Coverage",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "تغطية صحفية",
+		"ku"	=> "داپۆشینی لاپەرەکە",
 		],
 	
 	"biographical-notes-in-erbil" => [
 		"en"	=> "Dr. Zaken in Erbil, Kurdistan, Oct. 2012.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "د. زاكين في أربيل ، كردستان ، أكتوبر 2012.",
+		"ku"	=> "د. زاکین لە هەولێر، کوردستان ، ئۆکتۆبەری ٢٠١٢.",
 		],
 	"biographical-notes-dr-mordechai-zaken-born" => [
 		"en"	=> "Dr. Mordechai Zaken, born in Jerusalem of Kurdistani Jewish descent, is an eminent and authoritative historian of the Jews of Kurdistan, as well as the native Assyrians and the tribal Kurdish society.",
