@@ -285,8 +285,8 @@
 	"scholarly-achievement-as-a-student" => [
 		"en"	=> "As a student in Middle Eastern and Islamic studies at The Hebrew University of Jerusalem in the early 1980s, he was working on a term paper when he came across the lack of sufficient written material on the Jews of Kurdistan. Of what had been written, part of it was indeed good (such as the pioneer research of Erich Brauer, on the Jews of Kurdistan) but the overall written material was certainly insufficient to enable research of the subject.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "كطالب في دراسات الشرق الأوسط والدراسات الإسلامية في الجامعة العبرية في القدس في أوائل الثمانينيات ، كان يعمل على ورقة بحثية عندما وجد نقصًا في المواد المكتوبة الكافية عن يهود كردستان. من بين ما كتب ، كان جزءًا منه جيدًا بالفعل (مثل البحث الرائد الذي أجراه إريك براور حول يهود كردستان) ولكن المواد المكتوبة الإجمالية كانت بالتأكيد غير كافية لتمكين البحث في الموضوع.",
+		"ku"	=> "وەکو قوتابیێک لە خوێندنەکانی رۆژهەلاتی ناوەراست و خوێندنەکانی ئیسلامی لە زانکۆی عیبری ئۆرشەلیم  لە سەرەتاکانی ١٩٨٠ەوە، کاتێک ئەو خەریکی لێکۆڵینەوەیێکی زانکۆ بوو ئەو ڕوبەروی کەمی بەرهەمەکانی نووسراوی پێویست بوو  لەسەر جووەکانی کوردستان.ئەو بەرهەمانەشی کە نووسراو بوون، بەشێکیان لە راستی دا باش بوون( وەکو لێکۆڵینەوەی پێشەنگەکەی ئیریک براور، لەسەر جووەکانی کوردستان) بەڵام تێکڕای بەرهەمە نووسراوەکان بە دڵنیاییەوە بەشی ئەوەیان نەدەکرد  تاکو بۆ لێکۆلینەوەی بابەتەکە بەکاربێن.",
 		],
 
 	"scholarly-achievement-he-had-to-resort" => [
@@ -313,36 +313,36 @@
 	"scholarly-achievement-he-was-lucky-enough" => [
 		"en"	=> "He was lucky enough to meet many informants who were the unique products of an oral society and oral culture, who were highly verbal and who could eloquently narrate the histories of their communities, their families, and their own individual lives. It should be noted that for many of these Jewish informants, their memories and communicativeness had been essential to their survival in Kurdistan. Many knew more than three languages, and were accustomed to noting and remembering personal and communal events in tremendous details.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "لقد كان محظوظًا بما يكفي لمقابلة العديد من المخبرين الذين كانوا نتاجًا فريدًا لمجتمع شفهي وثقافة شفهية ، والذين كانوا شفهيًا للغاية ويمكنهم سرد تاريخ مجتمعاتهم وعائلاتهم وحياتهم الفردية ببلاغة. وتجدر الإشارة إلى أنه بالنسبة للعديد من هؤلاء المخبرين اليهود ، كانت ذكرياتهم وقدراتهم التواصلية ضرورية لبقائهم في كردستان. عرف الكثيرون أكثر من ثلاث لغات ، واعتادوا على ملاحظة وتذكر الأحداث الشخصية والمجتمعية بتفاصيل هائلة.",
+		"ku"	=> "ئەو زۆر خۆشبەخت بوو کە توانی چاوپێکەوتن لەگەڵ زۆربەی ئەو کەسانە دا بکات کە هەموویان بەرهەمی ناوازەی کۆمەڵگا و شارستانیەتێکی زارەکی بوون، ئەوانە بوون کە زۆر قسەخۆش بوون و لە توانایان دا بوو باسی مێژووی کۆمەڵگا، خێزان، و ژیانی تاکە کەسی خۆیان بکەن بە شێوەیێکی زۆر ڕەوان و جوان. دەبێت تێبینی بکرێت کە بۆ زۆربەی کەسانی جووی  زانیاری بەخش، تونای گواستنەوەی زانیاری و بیرەوەریەکانیان سەرەکی بوون بۆ مانەوەیان لە كوردستان. زۆربەیان زیاتر لە سێ زمانیان دەزانی و،  ڕاهاتبوون لەسەر تێبینیکردن و یادکردنەوەی ڕووداوە کەسی و جڤاکیەکان بە وردەکاری زۆر گەورەوە. ",
 		],
 
 	"scholarly-achievemnt-his-tireless-fieldwork" => [
 		"en"	=> "Thus, through his tireless fieldwork and hundreds of interviews, he became an expert in oral history. Later on, he mastered comparative history as well, when he made an analytical comparison between the Jews of Kurdistan, and the Assyrians (also sometimes known as Nestorians) of the Nineveh Plains and Hakkar.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "وهكذا ، من خلال عمله الميداني الدؤوب ومئات المقابلات ، أصبح خبيرًا في التاريخ الشفوي. لاحقًا ، أتقن التاريخ المقارن أيضًا ، عندما أجرى مقارنة تحليلية بين يهود كردستان والآشوريين (المعروفين أحيانًا بالنساطرة) في سهل نينوى هکار.",
+		"ku"	=> "بەم شێوەیە، بە هۆیکارە مەیدانیە ماندوو نەناسەکەی و سەدان چاوپێکەوتنی، بووە پسپۆڕێکی شارەزا لە بواری مێژووی زارەکی دا. دواتر، شارەزایی لە مێژووی بەراوردکاری دا دا بەدەست خست،  کاتێک ئەو بەراوردێکی شیکاری ئەنجامدا لە نێوان جووەکانی کوردستان و ئاشوریەکان(ئەوانش جاران بەرنیاسن بە نەستوری)ی دەشتی نەینەوا و هەکاری دا.",
 		],
 
 	"scholarly-achievement-dr-zaken-speaking" => [
 		"en"	=> "Dr. Zaken speaking in Jerusalem. 1993.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "الدكتور زاكين يتحدث في القدس عام 1993.",
+		"ku"	=> "د. زاکین لە ئۆرشەلیم  قسە دەکات، ١٩٩٣.",
 		],
 
 	"scholarly-achievement-main-scholarly-achievement" => [
 		"en"	=> "Dr. Zaken's main scholarly achievement stems from the fact that his research of the Jews of Kurdistan harnessed the craft of oral history and oral interviews, as soon as it became clear to him that there was insufficient written material on this unique community. Most of the 62 total Jewish Informants for his research carried the lifeblood of a sophisticated oral and verbal culture and knew names, events, topographic maps, and human genealogies almost by heart. They were able to speak of events or incidents with great detail, including the prices and weights of certain goods at specific times and places. Ultimately, he emerged as an oral historian who succeeded to save the memories stored by Kurdish Jewish informants from being lost forever.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "ينبع الإنجاز العلمي الرئيسي للدكتور زاكين من حقيقة أن بحثه عن يهود كردستان سخر حرفة التاريخ الشفوي والمقابلات الشفوية ، بمجرد أن اتضح له أنه لا توجد مواد مكتوبة كافية عن هذا المجتمع الفريد. حمل معظم المخبرين اليهود البالغ عددهم 62 في بحثه شريان الحياة لثقافة شفهية وشفوية متطورة وعرفوا الأسماء والأحداث والخرائط الطبوغرافية وأنساب الإنسان عن ظهر قلب تقريبًا. كانوا قادرين على التحدث عن الأحداث أو الحوادث بتفاصيل كبيرة ، بما في ذلك أسعار وأوزان سلع معينة في أوقات وأماكن محددة. في النهاية ، ظهر كمؤرخ شفهي نجح في إنقاذ الذكريات التي خزنها المخبرون اليهود الأكراد من الضياع إلى الأبد. ",
+		"ku"	=> "دەستکەوتی زانستی هەرە سەرەکی د. زاکین لەو راستییەوە هاتووە کە لێکۆلینەکەی لەسەر جووەکانی کوردستان پیشەی مێژووی زارەکی و چاوپێکەوتنی زارەکی دامەزراند، هەر زوو بۆی دیاربوو کە بەرهەمی نوسراوی بەردەست زۆر کەمن لەسەر ئەم کۆمەڵگا ناوازەیە. زۆربەی ئەو ٦٢ جووانەی زانیاری بەخش بۆ لێکۆلینەوەکەی دەستنیشانکرابوون  هەڵگری خوێنی ژیانەوەیی و شارستانیێکی زارەکی ودەمۆکی پێشکەوتوو بوون و ناوەکان، روداوەکان، نەخشەکانی تۆپۆگرافی، و بۆماوەزانی مرۆڤ  بە نیزیکی هەر لە خۆیانەوە دەزانی . لە توانایان دابوو باسی بویەر و روداوەکان بکەن بە وردەکاری زۆر باشەوە، لە نێوانیاندا باسی نرخەکان و کێشی چەندین جۆری کەلوپەلەکانیان ئەکرد  لە شوێن و کاتی دیاریکراو دا. لە کۆتاییدا، ئەو وەکو مێژووناسێکی زارەکی دەردەکەوێت کە سەرکەوتوبوو لە پاراستنی یادەوەریەکانی کوردانی جوو لە ونبوون. ",
 		],
 
 	"scholarly-achievement-what-fascinated-me" => [
 		"en"	=> "What fascinated me was the process of interviewing elderly yet smart people who were not just knowledgeable, but true fountainheads of information.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "ما أدهشني هو عملية إجراء مقابلات مع كبار السن ولكن الأشخاص الأذكياء الذين لم يكونوا فقط على دراية ، ولكنهم منبع حقيقي للمعلومات.",
+		"ku"	=> "ئەوەی کە سەرەنجی ڕاکێشام پڕۆسەی چاوپێکەوتنی کەسانی بەتەمەنی زیرەک بوو، ئەو کەسانە بوون کە نەک تەنها زانا بوون، بەڵکو سەرچاوەی ڕاستەقینەی زانیاریەکان بوون.",
 		],
 
 	"scholarly-achievement-bapir-agha" => [
