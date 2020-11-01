@@ -135,22 +135,22 @@
 	"biographical-notes-dr-mordechai-zaken-born" => [
 		"en"	=> "Dr. Mordechai Zaken, born in Jerusalem of Kurdistani Jewish descent, is an eminent and authoritative historian of the Jews of Kurdistan, as well as the native Assyrians and the tribal Kurdish society.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "ولد الدكتور مردخاي زاكين في القدس من أصل يهودي كردستاني ، وهو مؤرخ بارز وموثوق ليهود كردستان ، وكذلك للآشوريين الأصليين والمجتمع الكردي القبلي.",
+		"ku"	=> "د. مۆردیخای زاکین لە ئۆرشەلیم  دایک بووە و بە رەچەڵەک کوردی جووە، مێژووناسێکی بە توانا  و باوەرپێکراوە بۆ جووەکانی کوردستان، و هەروەها بۆ ئاشوریەکان و هۆزەکانی کۆمەڵگای کوردی.",
 		],
 
 	"biographical-notes-authority-on" => [
 		"en"	=> "Authority on the history and heritage of the Jews of Kurdistan, the Assyrians, and the tribal Kurdish society.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "سلطة على تاريخ وتراث يهود كوردستان والآشوريين والمجتمع الكردي القبلي.",
+		"ku"	=> "لەسەر مێژوو و کەلەپوری جووەکانی کوردستان، ئاشوریەکان و هەروەها هۆزەکانی کۆمەڵگای کوردی.",
 		],
 
 	"biographical-notes-representative-assigned" => [
 		"en"	=> "Representative assigned by the community of Jews from Kurdistan to supervise and consult on Jewish concerns in the autonomous Kurdistan Region.",
 		"he"	=> "",
 		"ar"	=> "",
-		"ku"	=> "",
+		"ku"	=> "لە لایەن ڕەوەندی جووەکانی کوردستانەوە دامەزرێنراوە  بۆ سەرپەرشتیکردن و ڕاوێژکاریکردن لەسەر کاروباری جووەکان لە هەرێمی کوردستانی خۆبەڕێوبەر.",
 		],
 	
 	"biographical-notes-current-head" => [
