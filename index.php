@@ -165,7 +165,6 @@ $style_array = [
 		"display"		=> "block",
 		"font-size"		=> "105%",
 		"font-weight"		=> "700",
-		"text-align"		=> "left",
 		],
 	
 	"#website-header-caption" => [
@@ -189,14 +188,12 @@ $style_array = [
 		"padding"		=> "10px",
 		"margin"		=> "0",
 		"font-size"		=> "90%",
-		"text-align"		=> "left",
 		"column-width"		=> "260px",
 		],
 	
 	".website-header-sitemap-block" => [
 		"margin"		=> "0",
 		"padding"		=> "0",
-		"text-align"		=> "left",
 		"display"		=> "inline-block",
 		"width"			=> "270px",
 		"box-sizing"		=> "border-box",
@@ -241,7 +238,6 @@ $style_array = [
 		"margin"		=> "50px auto",
 		"max-width"		=> "800px",
 		"padding"		=> "0 20px",
-		"text-align"		=> "left",
 		"box-sizing"		=> "border-box",
 		"vertical-align"	=> "top",
 		],
@@ -350,7 +346,6 @@ $style_array = [
 		"margin"		=> "50px auto",
 		"max-width"		=> "800px",
 		"padding"		=> "0 20px",
-		"text-align"		=> "left",
 		"box-sizing"		=> "border-box",
 		"white-space"		=> "pre-wrap",
 		"overflow-wrap"		=> "normal",
@@ -370,8 +365,10 @@ $style_array = [
 
 if ($language_request == "en"):
 	$style_array['body']['direction'] = "ltr";
+	$style_array['body']['text-align'] = "left";
 else:
 	$style_array['body']['direction'] = "rtl";
+	$style_array['body']['text-align'] = "right";
 	endif;
 
 
