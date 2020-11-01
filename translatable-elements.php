@@ -366,39 +366,39 @@
 		"ku"	=> "لە کاتی دوایین دیداری من لەگەڵ خوالێخۆشبوو مایکل میخائیلی دا، پسیارم لێی کرد کەی دووبارە یەکتر ببینین. میخائیل، بە ڕەفتارێکی شانۆییەوە، هەردوو گیرفانی پانتۆڵەکەی لە ژورەوە هێنانە دەرەوە، وا دەردەکەت کە هیچی پێ نەماوە تاکو بیدات. ئەو وتی، 'باسی هەموو شتێکم بۆ کردی کە ئەیزانم. هیچ شتێک نماوە.'",
 		],
 
-	"scholarly-achivement-jubilee" => [
+	"scholarly-achievement-jubilee" => [
 		"en"	=> "Dr. Zaken during the jubilee celebration of Rahat, the largest Bedouin city in the Negev, in 1998.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "د. زاكين خلال الاحتفال بيوبيل رهط ، أكبر مدينة بدوية في النقب ، 1998.",
+		"ku"	=> "د. زاکین لەکاتی ئاهەنگی یوبێل لە شاری رەهت، گەورەترین شاری بەدووەکانە لە نەقەب، ١٩٩٨.",
 		],
 
-	"scholarly-achivement-important-contribution" => [
+	"scholarly-achievement-important-contribution" => [
 		"en"	=> "An important contribution to Jewish history, Assyrian history, and to the history of Kurdish tribes and society.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "مساهمة مهمة في التاريخ اليهودي والتاريخ الآشوري وتاريخ القبائل والمجتمع الكردي.",
+		"ku"	=> "بەشداریکردنێکی گرنک لە مێژووی جووەکان، مێژووی ئاشوریەکان، و هەروەها لە مێژووی هۆزەکانی ناو کۆمەڵگای کوردیدا.",
 		],
 
 	"scholarly-achievement-oral-history-fieldwork" => [
 		"en"	=> "Dr. Zaken's oral history fieldwork conducted amongst elderely Jews born in Kurdistan developed into a tremendous salvaging of otherwise unrecorded information and has been acclaimed by scholars, by illuminating topics that written materials had failed to deal with. Documenting the oral history of the Jews of Kurdistan saved the histories of many Jewish communities from being lost forever, including the histories of the tribal Kurdish communities, and the relationship between the Jews and their Kurdish neighbors and masters.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "تطور العمل الميداني للتاريخ الشفوي للدكتور زاكين والذي تم إجراؤه بين اليهود المسنين المولودين في كردستان إلى إنقاذ هائل للمعلومات غير المسجلة بخلاف ذلك ، وقد نال استحسان العلماء من خلال إلقاء الضوء على الموضوعات التي فشلت المواد المكتوبة في التعامل معها. لقد أنقذ توثيق التاريخ الشفوي ليهود كردستان تاريخ العديد من الجاليات اليهودية من الضياع إلى الأبد ، بما في ذلك تاريخ المجتمعات الكردية القبلية ، والعلاقة بين اليهود وجيرانهم وأسيادهم الأكراد. ",
+		"ku"	=> "کاری مەیدانی مێژووی زارەکی د. زاکین کە لەناو کوردە جووە بە تەمەنەکان دا ئەنجامی دا بوو بووە هۆکاری ڕزگارکردنی بڕێکی زۆری زانیاریە تۆمارنەکراوەکان و لە لایەن زاناکانەوە ستایشکرا، بە رێگای ڕووناکی ختسنە سەر ئەو بابەتانە کە بەرهەمە نووسراوەکان نەیانتوانیبوو مامەڵەی لەگەڵدا بکەن. دۆکیۆمێنتکردنی مێژووی زارەکی جووەکانی کوردستان مێژووی چەندین ڕەوەندی جووی بۆ هەمیشە لە لەناوچوون پاراست، لەوانەش مێژووی هۆزە کوردیەکان و، هەروەها پەیوەندی لەنێوان جووەکان  و دراوسێ کوردەکانیان و گەورەکانیان. ",
 		],
 
 	"kurdish-advocacy-expert-on-tribal-kurdish-society" => [
 		"en"	=> "Dr. Zaken is an expert on the tribal Kurdish society. As a pro-Kurdish activist, he established the Israeli-Kurdish Friendship League (IKFL) in 1992 in Jerusalem, probably the first friendship league between Jews and Muslims. Today, he serves as the Counselor of the National Association of Jews from Kurdistan regarding Jewish history and heritage in Kurdistan.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "الدكتور زاكين خبير في المجتمع الكردي القبلي. بصفته ناشطًا مؤيدًا للأكراد ، أسس رابطة الصداقة الإسرائيلية الكردية (IKFL) في عام 1992 في القدس ، وربما كانت أول رابطة صداقة بين اليهود والمسلمين. يشغل اليوم منصب مستشار الجمعية الوطنية لليهود من كردستان فيما يتعلق بالتاريخ والتراث اليهودي في كردستان.",
+		"ku"	=> "د. زاکین شارەزای کۆمەڵگای هۆزەکانی کوردی. وەکو چاڵاکوانێک و لەیەنگرێکی کورد، دەستەی دۆستایەتی کوردی-ئیسرائیلی (IKFL) دامەزراند لە سالی ١٩٩٢ لە ئیسرائیل، ڕەنگە یەکەم دەستەی دۆستایەتی بێت لەنێوان جووەکان و موسلمانەکان دا. ئەمرۆ ئەو وەکو راوێژکاری کۆمەڵی نیشتیمانی جووەکانی خەلکی کوردستان کارئەکات ئەوەی پەیوەندی بە مێژوو و کەلەپووری جووەکانەوە هەیە لە کوردستان.",
 		],
 
 	"kurdish-advocacy-named-by-the-association" => [
 		"en"	=> "Recently, he was named by the Association as the Counselor to the Kurdistan Regional Government, serving as a representative on the interests of the Jewish community and supervising the important Jewish heritage sites including the tomb of the Prophet Nahum in alQosh and other projects.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "في الآونة الأخيرة ، عينته الجمعية مستشارًا لحكومة إقليم كردستان ، حيث عمل كممثل لمصالح الجالية اليهودية وأشرف على مواقع التراث اليهودي المهمة بما في ذلك قبر النبي ناحوم في القوش ومشاريع أخرى.",
+		"ku"	=> "لەم دواییەدا، کۆمەلەکە ئەوی وەکو راوێژکاری حکومەتی هەرێمی کوردستان دەستنیشانکرد، ئەو وەکو نوێنەر کاردەکات لەسەر بەرژەوەندیەکانی رەوەندی جووەکان و هەروەها سەرپەرشتی چەندین شوێنەکانی پاشماوەی جووەکان دەکات وەکو گۆڕی نەبی ناحوم لە ئەلقوش و پڕۆژەی دیکە.  ",
 		],
 
 	"condensed-highlights-coexistence-and-mutual-traditions" => [
