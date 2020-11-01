@@ -154,7 +154,7 @@ $style_array = [
 		"display"		=> "block",
 		"color"			=> "#333",
 		"font-family"		=> "Arial",
-		"padding"		=> "60px 30px 30px",
+		"padding"		=> "30px 30px 30px",
 		"position"		=> "relative",
 //		"background"		=> "rgba(100,100,100,0.4)",
 		],
@@ -204,7 +204,7 @@ $style_array = [
 		],	
 	".website-header-sitemap-block-item" => [
 		"margin"		=> "0",
-		"padding"		=> "4px 0",
+		"padding"		=> "3px 0",
 		"display"		=> "block",
 		"font-weight"		=> "700",
 		],
@@ -212,7 +212,7 @@ $style_array = [
 	".website-header-sitemap-block-subitem" => [
 		"margin"		=> "0",
 		"display"		=> "block",
-		"padding"		=> "4px 15px 4px",
+		"padding"		=> "3px 15px 3px",
 		],
 
 	".website-header-sitemap-subitem span" => [
@@ -250,8 +250,8 @@ $style_array = [
 		],
 
 	"#body-content dt" => [
-		"font-size"		=> "110%",
-		"margin"		=> "50px auto 20px",
+//		"font-size"		=> "110%",
+		"margin"		=> "50px auto 5px",
 		],
 
 	"#body-content dd" => [
