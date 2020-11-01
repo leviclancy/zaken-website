@@ -181,20 +181,18 @@
 		"ku"	=> "ڤیدیۆیەکە لە ئاهەنگێکی فەرمی دا لە ئۆرشەلیم  نمایشکرا، لە ئاداری ٢٠١٩، کاتێک د. زاکین خەڵاتکرا لە لایەن سەرۆک وەزیرانەوە لەبەر لێکۆلینەکەی لەسەر جووەکانی رۆژهەڵاتی ناوەراست و ئێران. بڕوانامەکە لێرەیە: <a href='https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing'>docs.google.com</a>",
 		],
 
-
-	"biographical-notes-uzi-dayan" => [
-		"en"	=> "Moti Zaken (right) with his friend, the decorated General (Reserve) Uzi Dayan, a staunch supporter of the Kurds, at the courtyard cafe of the Christ Church in East Jerusalem.",
-		"he"	=> "",
-		"ar"	=> "موتي زاكين (على اليمين) مع صديقه الجنرال (الاحتياطي) عوزي ديان ، وهو من أشد المؤيدين للأكراد ، في ساحة مقهى كنيسة المسيح في القدس الشرقية.",
-		"ku"	=> "نامەکانی دکتۆرای د.زاکین و هەروها ئەو پەرتووکانەی کە لەوان دورستکراون، لە لایەن چەندین زانای بە تواناوە پەسنکراون وەکو جۆیس بلاو (INALCO in Paris) و هەروەها مۆشی شارۆن مامۆستای زانکۆی ئۆرشەلیم ی عیبری،بۆ بە دۆکیومێنتکردنی زانستیانەی مێژووی زارەکی جووەکانی کوردستان بەمەش پاراستنی لە لەناوچوون. نامەکانی و هەروها پەرتووکەکانی بوون بە سەرەکیترین و گرنکترین ژێدەر بۆ بابەتەکە، چونکە تێیدا بە سەدان چاوپێکەوتن لەگەل جووەکانی کورد ئەوانەی کۆچیان کردبوو بۆ ئیسرائیل کۆکرابوونەوە،وە لێکۆڵینەوەکەش بەشێوەیەکی فراوان بڵاببووەوە بەهۆی وەرگێڕانی بۆ سەر چەندین زمان لەوانە ئینگلیزی، عەرەبی، کوردی وە فەڕەنسی.",
-		],
-
-
 	"biographical-notes-doctoral-thesis" => [
 		"en"	=> "Dr. Zaken’s doctoral thesis, and the books which resulted from it, were praised by eminent scholars such as Dr. Joyce Blau (INALCO in Paris) and Dr. Moshe Sharon (The Hebrew University of Jerusalem) for skillfully documenting and thereby saving the oral history of the Jews of Kurdistan. Dr. Zaken’s research prevented a large part of history from being lost forever, and his book became the leading resource on the Jews of Kurdistan because of its depth and accessibility. It was compiled from hundreds of interviews with native Kurdish Jews who immigrated to Israel, and was made widely available in multiple languages including English, Arabic, Kurdish, and French.",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
+		],
+
+	"biographical-notes-speaks-fluently" => [
+		"en"	=> "Dr. Mordechai Zaken (also called by his nickname, Moti) speaks fluently the Eastern Neo-Aramaic dialects spoken by the Jews of Kurdistan, which resembles the dialects spoken by the native Assyrian Christians today. He also speaks Arabic, English, and his mother tongue, Hebrew. In addition, he has practical knowledge of Farsi, Kurmanji, and French. He lives in Jerusalem with his wife and their three children.",
+		"he"	=> "",
+		"ar"	=> "يتحدث الدكتور مردخاي زاكين (الملقب أيضًا باسمه المستعار موتي) بطلاقة اللهجات الآرامية الجديدة الشرقية التي يتحدث بها يهود كردستان ، والتي تشبه اللهجات التي يتحدث بها المسيحيون الآشوريون الأصليون اليوم. كما يتحدث العربية والإنجليزية ولغته الأم العبرية. بالإضافة إلى ذلك ، لديه معرفة عملية بالفارسية و الكرمانجية والفرنسية. يعيش في القدس مع زوجته وأطفالهما الثلاثة.",
+		"ku"	=> "د. مۆردەخای زاکین (هەروەها بە نازناوی مۆتی بانگدەکرێت) دەتوانێت زۆر بە باشی بە دیالێکتەکانی ئارامی نوێی رۆژهەڵاتی قسە بکات کە دیالێکتی جووەکانی کوردستانە، کە لەو دیالێکتانە دەچێت ئەوانەی کە مەسیحیەکانی ئاشووری ئەمرۆ قسە پێی دەکەن. هەروەها ئەو بە زمانی عەرەبی، ئنگلیزی، و زمانی عیبری کە زمانی دایکیە قسە دەکات. سەرەڕای ئەمەش ئەو زانینێکی کردەیی لە زمانی فارسی، کرمانجی، و فەرەنسی دا هەیە. ئەو لە ئۆرشەلیم  دەژیت لە گەڵ هاوسەرەکەی و سێ منداڵەکەی. ",
 		],
 
 
@@ -209,52 +207,65 @@
 • the scholar of Islamic history, Moshe Sharon
 • the Kurdish linguist Joyce Blau",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "يعبر الدكتور زاكين عن امتنانه للعلماء الذين ألهموه ووجهوه في بحثه،
+• اللغوي السامي الراحل جدعون غولدنبرغ
+• مؤرخ يهود إيران الراحل أمنون نيتزر
+• المؤرخ بنيامين ز. قيدار
+• المؤرخ مارتن فان بروينسن
+• اللغوي الكردي مايكل شيت
+• عالم التاريخ الإسلامي موشيه شارون
+• اللغوية الكردية جويس بلاو",
+		"ku"	=> "د. زاکین سپاسی خۆی دەردەبڕێت بۆ هەموو ئەو مامۆستا و توێژەرانەی ژێدەری ئیلهام بوون بۆی وەکو:
+• زمانزانی سامی کۆچکردوو جەدعون گۆلدنبرگ
+• مێژووناسی جووەکانی ئیران، ئامون نیتزر
+• مێژووناس بنیامین ز. قیدار
+• مێژووناس مارتن ڤان برۆینسن
+• زمانزانی کورد مایکل شیت
+• زانای مێژووی ئیسلامی، مۆشیە شارۆن
+• زمانزانی کوردی جۆیس بلاو",
+		],
+
+	"biographical-notes-uzi-dayan" => [
+		"en"	=> "Moti Zaken (right) with his friend, the decorated General (Reserve) Uzi Dayan, a staunch supporter of the Kurds, at the courtyard cafe of the Christ Church in East Jerusalem.",
+		"he"	=> "",
+		"ar"	=> "موتي زاكين (على اليمين) مع صديقه الجنرال (الاحتياطي) عوزي ديان ، وهو من أشد المؤيدين للأكراد ، في ساحة مقهى كنيسة المسيح في القدس الشرقية.",
+		"ku"	=> "مۆتی زاکین ( لە لای راستەوە) لە گەڵ هاورێکەی، جەنەراڵی (یەدەک) عوزی دیان، کە پشتیوانێکی بەهیزی کوردە، لە حەوشی قاوەخانەی کڵێسەی مەسیح لە رۆژهەلاتی ئۆرشەلیم.",
 		],
 
 
 	"biographical-notes-bedouin-communities" => [
 		"en"	=> "Dr. Zaken, as the Prime Minister’s adviser on Arab affairs, with Prime Minister Benjamin Netanyahu, during a tour in the Negev to cities and un-sedentary encampments of Bedouin communities (1998).",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
-		],
-
-
-	"biographical-notes-speaks-fluently" => [
-		"en"	=> "Dr. Mordechai Zaken (also called by his nickname, Moti) speaks fluently the Eastern Neo-Aramaic dialects spoken by the Jews of Kurdistan, which resembles the dialects spoken by the native Assyrian Christians today. He also speaks Arabic, English, and his mother tongue, Hebrew. In addition, he has practical knowledge of Farsi, Kurmanji, and French. He lives in Jerusalem with his wife and their three children.",
-		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "د. زاكين ، مستشار رئيس الوزراء للشؤون العربية ، مع رئيس الوزراء بنيامين نتنياهو ، خلال جولة في النقب إلى المدن والمخيمات غير المستقرة للمجتمعات البدوية ، في عام 1998.",
+		"ku"	=> "د. زاکین، راویژکاری سەرۆک وەزیران بۆ کاروباری عەرەب، لەگەڵ سەرۆک وەزیران بنيامين نتنياهو، لە گەشتێکدا بۆ ناوچەی نێگێڤ بۆ شارەکان و خیوەتگاکانی کۆمەڵگەی بەدەوی. (١٩٩٨).",
 		],
 
 	"biographical-notes-dr-zaken-at-the-synagogue" => [
 		"en"	=> "Dr. Zaken at the ruined synagogue in Zakho, in October 2012.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "د. زاكين في الكنيس المدمر في زاخو ، أكتوبر 2012.",
+		"ku"	=> "د. زاکین لە کەنیشتەی ڕووخاوی جووەکان لە زاخۆ، ئۆکتۆبەری ٢٠١٢. ",
 		],
 	
 	"biographical-notes-website-administration" => [
 		"en"	=> "Website administration",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "إدارة الموقع",
+		"ku"	=> "بەرێوبەرایەتی وێبسایتەکە",
 		],
 
 	"biographical-notes-this-website" => [
 		"en"	=> "This website has been developed by Foundation of Ours and has been brought to the public in Kurdish, English, and Arabic in alignment with the Foundation's mission to support Jewish expression in the Kurdistan Region.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "تم تطوير هذا الموقع بواسطة Foundation of Ours وتم عرضه للجمهور بلغات الكردية والإنجليزية والعربية بما يتماشى مع مهمة المؤسسة لدعم التعبير اليهودي في إقليم كردستان.",
+		"ku"	=> "وێبسایەتەکە لەلایەن ڕێکخراوی ئاوەرسەوە دروستکراوەو، بە زمانەکانی کوردی و عەرەبی و ئینگلیزی بۆ میوانان بەردەستکراوە، بەشێوەیەکی گونجاو لەگەڵ پەیامی ڕێکخراوەکە کە پشتگیریکردنە لە گوزارشتکردنی جووەکان لە هەرێمی کوردستان.",
 		],
 
 	"biographical-notes-thanks" => [
 		"en"	=> "The Foundation thanks Dr. Zaken for his cooperation and supervision, and the freedom to choose and select material and photos, as part of a mutual hope of supporting reconciliation between Jews and Muslims of Kurdish origin.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "تشكر المؤسسة الدكتور زاكين على تعاونه وإشرافه ، وحرية اختيار المواد والصور ، كجزء من الأمل المتبادل في دعم المصالحة بين اليهود والمسلمين من أصل كردي.",
+		"ku"	=> "رێکخراوەکە سوپاسی د. زاکین کرد بۆ هاوکاری و سەرپەرشتیکردنی، و ئازادی دەستنیشانکردن و هەڵبژاردنی بابەت و وێنەکان لە چوارچێوەی  هیوایەکی هاوبەش بۆ پشتگیریکردنی ئاشتەوایی لە نێوان جووەکان و موسڵمانان لە هەرێمی کوردستان دا. ",
 		],
 
 	"scholarly-achievement-usually" => [
