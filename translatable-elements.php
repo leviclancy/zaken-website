@@ -429,7 +429,7 @@
 		"ku"	=> "خەڵاتی سەرۆک وەزیرانی بەدەستهێناوە بەهۆی لێکۆلینەوەکانی لەسەر جووەکانی رۆژهەلات. ",
 		],
 
-	"condensed-highlights-timeline-timeline-2013-presentation" => [
+	"condensed-highlights-timeline-2013-presentation" => [
 		"en"	=> "Presentation to the World Kurdish Forum at their convention in Stockholm. Watch here: <a href='https://www.youtube.com/watch?v=UkSRVefP1Qw'>youtube.com</a>",
 		"he"	=> "",
 		"ar"	=> "عرض للمنتدى الكردي العالمي في مؤتمرهم في ستوكهولم. مشاهدة هنا: <a href='https://www.youtube.com/watch?v=UkSRVefP1Qw'>youtube.com</a>",
@@ -495,71 +495,71 @@
 	"condensed-highlights-akre-near-duhok" => [
 		"en"	=> "Akre, near Duhok in the Kurdistan Region of Iraq.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "عقرة ، قرب دهوك في إقليم كردستان العراق.",
+		"ku"	=> "ئاکرێ، نێزیکی پارێزاگی دهۆکی هەرێمی کوردستانی عێراق.",
 		],
 
 	"condensed-highlights-within-my-jurisdiction" => [
 		"en"	=> "Within my jurisdiction as the head of the Minority Affairs desk at the Ministry of Public Security, and as a consultant to the National Association, I continue to work and cooperate with leaders in Israel and abroad to foster friendship between Israel and Christians, Israel and Kurds, and Israel and Assyrians.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "ضمن نطاق اختصاصي بصفتي رئيس شؤون الأقليات في وزارة الأمن العام ، وكمستشار للجمعية الوطنية ، أواصل العمل والتعاون مع القادة في إسرائيل وخارجها لتعزيز الإسرائيليين المسيحيين والأكراد الإسرائيليين والصداقة الإسرائيلية الآشورية",
+		"ku"	=> "لە چوارچێوەی بوارەکەم دا من وەکو سەرۆکی کاروباری کەمینەکان لە وەزارەتی ئاسایشی گشتی، و هەروەها وەکو ڕاوێژکاری کۆمەڵی نەتەوەیی، بەردەوام دەبم لە کارکردن و هاوکاریکردن دا لەگەڵ سەرکردەکان لەناو ئیسرائیل و لەدەرەوی ئیسرائیل دا بۆ پێشخستنی دۆستایەتی ئیسرائیلیەکان لەگەڵ مەسیحی و کورد و ئاشووریەکاندا.",
 		],
 
 	"condensed-highlights-timeline-2001-adviser" => [
 		"en"	=> "Adviser on Minorities Affairs at Israel's Ministry of Internal Security.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "مستشار شؤون الأقليات في وزارة الأمن الداخلي الإسرائيلية.",
+		"ku"	=> "ڕاوێژکاری کاروباری کەمینەکان لە وەزارەتی ئەمنی داخلی ئیسرائیلی.",
 		],
 
 	"condensed-highlights-timeline-2001-coordinator" => [
 		"en"	=> "Dr. Zaken was the coordinator of the ministerial committee which managed to solve the international religious dispute between Christans and Muslims at the Basilica of the Annunciation in Nazareth in northern Israel.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "كان الدكتور زاكين منسق اللجنة الوزارية التي تمكنت من حل الخلاف الديني الدولي بين المسيحيين والمسلمين في بازيليك البشارة في الناصرة في شمال إسرائيل.",
+		"ku"	=> "د. زاکین بەڕێوبەری ئەو لیژنەی وەزارەتی بوو کە سەرکەوتوو بوو لە چارەسەرکردنی ناکۆکیەکانی ئاینی نیودەوڵەتی لە بەینی مەسیحیەکان و موسڵمانەکان دا لە باسیلیکا( کڵێسەیێکی کرستیانەکانی کاثۆلۆکیە) لە نازەریثی باکوری ئیسرائیل.  ",
 		],
 
 	"condensed-highlights-timeline-1999-founder" => [
 		"en"	=> "Founder of East-Up Inc, which aimed to enhance medical services to the Arabic-speaking world in the Middle East, through the internet.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "مؤسس شركة East-Up Inc، التي تهدف إلى تعزيز الخدمات الطبية للعالم العربي في الشرق الأوسط ، من خلال الإنترنت.",
+		"ku"	=> "دامەزرێنەری کۆمپانیای East-Up Inc ە، کە ئامانجەکەی باشترکردنی خزمەتگۆزاریەکانی پزیشکی یە لە جیهانی عەرەبی لە رۆژهەڵاتی ناوەراست دا، بە رێگای ئینتەرنێت.",
 		],
 
 	"condensed-highlights-timeline-1999-married" => [
 		"en"	=> "Married in Jerusalem, on Mount Scopus, with a wedding attended by Prime Minister Netanyahu (and First Lady Netanyahu), whom Zaken advised at the time on local Arab Affairs, as well as other leaders. Dr. Zaken and Riki continue to live in Jerusalem and have three children: Tzah, Tahel, and Ohad.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "متزوج في القدس ، على جبل المشارف ، وحضر حفل زفاف رئيس الوزراء (والسيدة) نتنياهو ، الذي نصحه زاكين في ذلك الوقت بشأن الشؤون العربية المحلية ، بالإضافة إلى قادة آخرين. يواصل الدكتور زاكين وريكي العيش في القدس ولديهما ثلاثة أطفال: تساح وتاهيل وأحد. ",
+		"ku"	=> "لە ئۆرشەلیم هاوسەرگیری کردووە، لەسەر گردی سکۆپۆس، ئاهەگێک سازکرا بۆ رۆژی هاوسەرگیریەکەی و تێیدا سەرۆک وەزیران و خانمەکەی نەتەنیاهۆ ئامەدە بوون، ئەوەی کە زاکین بۆی ڕاوێژکاری کردبوو لەسەر کاروباری عەرەبەکانی ناوچەکە، و هەروەها چەندین سەرکردەکانی دیکە. د. زاکین و ریکی بەردەوام بوون لە ژیان لە ئۆرشەلیم  و سێ مناڵیان هەیە: تتزا، تاهیل، و ئوهاد. ",
 		],
 
 	"condensed-highlights-timeline-1997-adviser" => [
-		"en"	=> "Prime Minister's Adviser on Arab Affairs.",
+		"en"	=> "Prime Minister's adviser on Arab Affairs.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "مستشار رئيس الوزراء للشؤون العربية.",
+		"ku"	=> "راوێژکاری سەرۆک وەزیران لەسەر کاروباری عەرەبەکان.",
 		],
 
 	"condensed-highlights-timeline-1997-published" => [
 		"en"	=> "Published: Inventors' Fate, A Folk-Tale in the Neo-Aramaic of Zakho.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "نُشر: مصير المخترعين ، حكاية شعبية في الآرامية الجديدة في زاخو.",
+		"ku"	=> "چاپکراو: چارەنوسی داهێنەرەکان، چیرۆکی گەڵێک لە ئارامی نوێ لە زاخۆ.",
 		],
 
 	"condensed-highlights-with-the-prime-minister" => [
 		"en"	=> "Dr. Zaken with the Prime Minister, while Dr. Zaken was serving as an adviser on Arab affairs from 1996 to 1999.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "د. زاكين مع رئيس الوزراء ، بينما كان الدكتور زاكين مستشاراً للشؤون العربية من 1996 إلى 1999.",
+		"ku"	=> "د. زاکین لەگەڵ سەرۆک وەزیرانی، لە ماوەی کارکردنی دا وەکو ڕاوێژکار لەسەر کاروباری عەرەبەکان لە ١٩٩٦ەوە تاکو ١٩٩٩.",
 		],
 
 	"condensed-highlights-timeline-1993-cofounder" => [
 		"en"	=> "Co-founder of The Israel-Kurdistan Friendship League, established in Jerusalem to faciliate friendship and dialogue between Israel and Kurdistan, as well as the Kurdish (mostly Muslim) world and the communities of Jews from Kurdistan as well as Jews interested in Kurdistan.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "مؤسس مشارك لرابطة الصداقة الإسرائيلية الكردستانية ، التي تأسست في القدس لتسهيل الصداقة والحوار بين إسرائيل وكردستان ، وكذلك العالم الكردي (المسلم في الغالب) ومجتمعات اليهود من كردستان وكذلك اليهود المهتمين بكردستان.",
+		"ku"	=> "یەکێک لە دامەزرێنەرانی یەکیتی دۆستایەتی ئیسرائیل و کوردستانە، لە ئۆرشەلیم  دامەزراوە ئەرکەکەی ئاسانکردنی دۆستایەتی و گفتوگۆکردنە لە نیوان ئیسرائیل و کوردستان دا، و هەروەها لە بەینی  جیهانی کوردی(زۆربەیان موسڵمانن) و کۆمەڵگاکانی جووەکانی خەلکی کوردستان و هەروەها لە نیوان کوردستان و جووەکانی ئارەزوو و حەزیان هەیە لەسەر کوردستان. ",
 		],
 
 	"condensed-highlights-timeline-1992-taught" => [
