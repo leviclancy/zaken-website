@@ -425,71 +425,71 @@
 	"condensed-highlights-timeline-2019-laureate" => [
 		"en"	=> "2019 Laureate, Prime Minister Prize for Research of the Jews of the Orient.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "الحائز على جائزة رئيس الوزراء للبحث عن يهود الشرق.",
+		"ku"	=> "خەڵاتی سەرۆک وەزیرانی بەدەستهێناوە بەهۆی لێکۆلینەوەکانی لەسەر جووەکانی رۆژهەلات. ",
 		],
 
 	"condensed-highlights-timeline-timeline-2013-presentation" => [
 		"en"	=> "Presentation to the World Kurdish Forum at their convention in Stockholm. Watch here: <a href='https://www.youtube.com/watch?v=UkSRVefP1Qw'>youtube.com</a>",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "عرض للمنتدى الكردي العالمي في مؤتمرهم في ستوكهولم. مشاهدة هنا: <a href='https://www.youtube.com/watch?v=UkSRVefP1Qw'>youtube.com</a>",
+		"ku"	=> "بەستنی کۆربەندی جیهانی کوردی لە ستۆکهۆڵم. لێرە بینەر بە: <a href='https://www.youtube.com/watch?v=UkSRVefP1Qw'>youtube.com</a>",
 		],
 
 	"condensed-highlights-timeline-2013-with-christian-leaders" => [
 		"en"	=> "With Christian leaders, Dr. Zaken initiated the Government-Christians Forum that addressed the Evangelical Christian community's concerns regarding the government. Two prominent Christian leaders in this forum have been Rev. Charles (Chuck) Kopp, of the Baptist Church and Rev. David Pillegi, Rector of the Christ Church in Jaffa Gate. The Forum came to a conclusion in 2018, once the government concluded it was not part of the government's scope.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "مع القادة المسيحيين ، أطلق الدكتور زاكين منتدى الحكومة المسيحية الذي تناول مخاوف المجتمع المسيحي الإنجيلي فيما يتعلق بالحكومة. اثنان من القادة المسيحيين البارزين في هذا المنتدى هما القس تشارلز (تشاك) كوب ، من الكنيسة المعمدانية ، والقس ديفيد بيلجي ، رئيس كنيسة المسيح في يافا جيت. انتهى المنتدى في عام 2018 ، بمجرد أن خلصت الحكومة إلى أنه ليس جزءًا من نطاق الحكومة.",
+		"ku"	=> "لەگەڵ سەرکردە کرستیانەکان، د. زاکین دەست بە کۆنگرەی حکومەتی کرستیانی کرد و باسی مەترسیەکانی کۆمەڵگای کریستیانی ئینجیلی کرد ئەوانەی پەیوەندیان بە حکومەتەوە هەیە. دوو لە سەرکردە لێهاتووەکانی کرستیانەکان لەم کۆنگرەدا بەسداربوون قەشە تشارلز (تشاک) کوب، لە کڵێسەی مەعمەدانیەوە، و قەشە دەیڤد بیلجی، سەرۆکی کڵێسەی مەسیح لە یاڤا گیت. کۆربەندەکە لە ساڵی ٢٠١٨ کۆتایی پێیهات، دوای ئەوە بۆ حکومەت دەرکەوت کە ئەو بەشێک نیە لە چوارچێوەی حکومەت.",
 		],
 
 	"condensed-highlights-timeline-2012-visit" => [
 		"en"	=> "Visit to the Kurdistan Region, at the invitation of the World Kurdish Forum.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "زيارة إقليم كوردستان بدعوة من المنتدى الكردي العالمي.",
+		"ku"	=> "سەردان بۆ هەرێمی کوردستان، بە پێی بانگێشتکردنی لە لایەن کۆربەندی جیهانی کوردیەوە.",
 		],
 
 	"condensed-highlights-timeline-2010-lecturer" => [
 		"en"	=> "Lecturer, The Hebrew University of Jerusalem.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "محاضر، الجامعة العبرية في القدس.",
+		"ku"	=> "وانەبێژ، لە زانکۆی عیبری ئۆرشەلیم.",
 		],
 
 	"condensed-highlights-timeline-2010-speaker" => [
 		"en"	=> "Spoke in the Parliament of Berlin, Germany.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "تحدث في برلمان برلين ، ألمانيا.",
+		"ku"	=> "لە پەرلەمانی بەرلین دا قسەکرد، ئەلمانیا.",
 		],
 
 	"condensed-highlights-timeline-2007-published" => [
 		"en"	=> "Published: Jewish Subjects and their Tribal Chieftains in Kurdistan: A Study in Survival. This book was partly based on his doctorate dissertation.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "نُشر في: الرعايا اليهود ورؤساء القبائل في كردستان: دراسة في البقاء. استند هذا الكتاب جزئيًا إلى أطروحة الدكتوراه الخاصة به.",
+		"ku"	=> "چاپکراو: جووە ژێردەستەکان و سەرۆک هۆزەکانیان لە کوردستان: توێژینەوەیەک لەسەر مانەوە. بەشێکی ئەم پەرتووکە لەسەر بنەمای  نامەی دکتۆراکەی نوسراوە. ",
 		],
 
 	"condensed-highlights-timeline-2007-head" => [
 		"en"	=> "Head of the Minority Affairs Desk at Israel's Ministry of Internal Security.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "رئيس مكتب شؤون الأقليات في وزارة الأمن الداخلي الإسرائيلية.",
+		"ku"	=> "سەرۆکی مەکتەبی کاروباری کەمینەکانە لە وەزارەتی ئاسایشی ناوخۆ ئیسرائیلی.",
 		],
 	
 	"condensed-highlights-timeline-2003-published" => [
 		"en"	=> "Published: Thesis on Jews of Kurdistan, through Hebrew University. He began working on this research project around 1985, culminating in his dissertation which unfolds the story of the Jews in Kurdistan in urban centers and villages, and their relations with their tribal chieftains (aghas) from whom they received patronage and protection in the tribal Kurdish society, in return for their loyalty and other social and financial duties and obligations. The second part of the thesis deals with the history of the Assyrians in Kurdistan, during the 19th and 20th centuries.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "نُشر في: أطروحة عن يهود كوردستان ، من خلال الجامعة العبرية. بدأ العمل في هذا المشروع البحثي حوالي عام 1985 ، وبلغت ذروته في أطروحته التي تكشف قصة اليهود في كردستان في المراكز والقرى الحضرية ، وعلاقاتهم مع زعماء القبائل (الآغوات) الذين تلقوا منهم الرعاية والحماية في القبائل الكردية. في مقابل ولائهم وواجباتهم والتزاماتهم الاجتماعية والمالية الأخرى. يتناول الجزء الثاني من الأطروحة تاريخ الآشوريين في كردستان خلال القرنين التاسع عشر والعشرين.",
+		"ku"	=> "چاپکراوەکان: نامەکان لەسەر جووەکانی کوردستان، لە رێی زانکۆی عیبری. ئەو دەستی کرد بە کارکردن لەسەر ئەم پرۆژەی لێکۆلینەوەیە لە دەوروبەری ساڵی ١٩٨٥،نامەی دکتۆراکەی گەیشتە لوتکە ئەوەی چیرۆکی جووەکانی کوردستان لە سەنتەری شارەکان و گوندەکان دا پیشان دا و دەریخست، و پەیوەندیەکانیان لەگەڵ سەرۆک هۆزەکانیان(ئاغایەکان) ئەوانەی چاودیری و پشتگیری بۆیان دەهات لە کۆمەڵگای هۆزی کوردیەوە بەرامبەر دڵسۆزی و ئەرکەکانی کۆمەڵایەتی و دارایی دیکەی ئەوان.  بەشی دووەمی نامەکان سەرەدەری لەگەڵ مێژووی ئاشووریەکان لە کوردستاندا دەکات، بە درێژایی چەرخی نۆزدە و بیست.",
 		],
 	
 	"condensed-highlights-kurdish-national-issue" => [
 		"en"	=> "The Kurdish national issue started long before the establishment of the Jewish state, and like the establishment of the Jewish state it is a moral cause.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "القضية القومية الكردية بدأت قبل وقت طويل من قيام الدولة اليهودية ، وهي قضية أخلاقية مثل قيام الدولة اليهودية.",
+		"ku"	=> "دۆزی نەتەوی کورد لەپێش دامەزراندنی دەولەتی یەهودی( جولە) بە کاتێکی زۆر  دەستی پێکرد، ئەویش کێشەیێکی ئەخلاقیە وەکو دامەزراندنی دەوڵەتی یەهودی.",
 		],
 
 	"condensed-highlights-akre-near-duhok" => [
