@@ -93,7 +93,7 @@ echo '<link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap
 // Material icons
 echo '<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">';
 
-echo "<title>". $title_temp ."</title>";
+echo "<title>". translatable_elements($pageview_request) ."</title>";
 
 echo "<meta name='theme-color' content='#2878b4'>";
 
