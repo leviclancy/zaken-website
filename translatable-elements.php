@@ -565,8 +565,8 @@
 	"condensed-highlights-timeline-1992-taught" => [
 		"en"	=> "Upon returning to Israel in 1992, Dr. Zaken taught at The Hebrew University of Jerusalem for several years.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "لدى عودته إلى إسرائيل عام 1992 ، درس الدكتور زاكين في الجامعة العبرية في القدس لعدة سنوات.",
+		"ku"	=> "لە کاتی گەڕانەوەی بۆ ئیسرائیل لە سالی ١٩٩٢، د. زاکین بۆ چەندین ساڵ وانەبێژ بوو لە زانکۆی عیبری ئۆرشەلیم. ",
 		],
 
 	"condensed-highlights-timeline-1990-published" => [
@@ -579,57 +579,57 @@
 	"condensed-highlights-timeline-1989-director" => [
 		"en"	=> "National Director of the Institute of Students and Faculty on Israel (ISFI), an organization under the auspices of the Israeli Foreign Ministry and the Israeli Consulate in New York City, while living there.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "المدير الوطني لمعهد الطلاب والكلية عن إسرائيل (ISFI) ، وهي منظمة تحت رعاية وزارة الخارجية الإسرائيلية والقنصلية الإسرائيلية في مدينة نيويورك ، أثناء إقامته هناك.",
+		"ku"	=> "رێڤەبەری نیشتمانی پەیمانگای قوتابیەکان و کۆلیژە بوو لەسەر ئیسرائیل (ISFI) بوو، ڕێکخراوەیێکە لەژێر ریعایەی وەزارەتی دەرەوەی ئیسرائیل و قونسوڵخانەی ئیسرائیل لە نیۆرک دایە, کاتێک لەوێ دەژیا. ",
 		],
 
 	"condensed-highlights-timeline-1987-suny" => [
 		"en"	=> "Studied in the United States on Grants at SUNY Binghamton’s history department (1987-1989) and at NYU, in the Kevorkian Middle East Center (1990-1991).",
 		"he"	=> "",
 		"ar"	=> "",
-		"ku"	=> "",
+		"ku"	=> "لە ویلایەتە یەکگرتوەکان خوێندووە لە بەشی مێژوو لە زانکۆی نیۆرک بینگهامتۆن (١٩٧٨-١٩٨٩) و لە زانکۆی نیۆرک، لە سەنتەری کیفۆرکیانی رۆژهەلاتی ناوەراست(١٩٩٠-١٩٩١). ",
 		],
 
 	"condensed-highlights-timeline-1988-ma" => [
 		"en"	=> "Completed his MA in Near Eastern and Islamic Studies at The Hebrew University of Jerusalem, with specialization in the minorities in the Middle East and in particular the Jews and the Assyrian Christians within Kurdish-majority areas.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "أكمل درجة الماجستير في دراسات الشرق الأدنى والدراسات الإسلامية في الجامعة العبرية في القدس ، مع تخصص في الأقليات في الشرق الأوسط وخاصة اليهود والمسيحيين الآشوريين في المناطق ذات الأغلبية الكردية.",
+		"ku"	=> "بڕوانامەی ماستەر لە خوێندنەکانی ڕۆژهەڵاتی نیزیک و خوێندنەکانی ئیسلامی بەدەستهێناوە لە زانکۆی عیبری ئۆرشەلیم ، و لەگەڵ پسپۆڕی کەمینەکان لە رۆژهەڵاتی ناوەراست و بە تایبەت جوو و مەسیحی و ئاشووریەکان لەناو ئەو ناوچانەدا کە زۆڕبیان کوردن. ",
 		],
 
 	"condensed-highlights-feel-safe" => [
 		"en"	=> "The Kurdistan Region is a place where Jews can feel safe. Unlike Iraq and other countries, it does not operate as an enemy state, and Israel should acknowledge this special status.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "إقليم كردستان مكان يشعر فيه اليهود بالأمان. على عكس العراق ودول أخرى ، فهي لا تعمل كدولة معادية ، ويجب على إسرائيل الاعتراف بهذا الوضع الخاص.",
+		"ku"	=> "هەرێمی کوردستان شوێنێکە کە جووەکان  تێیدا دەتوانن هەست بە ئارامی بکەن. بە پێچەوانەی عێراق یان وڵاتانی دیکە، وەکو دەوڵەتێکی دوژمندار سەرەدەری ناکەت،  و لەسەر ئیسرائیل پێویستە ئەم بارودۆخی تایبەت باش بزانێت.",
 		],
 
 	"condensed-highlights-mala-mustafa" => [
 		"en"	=> "Mala Mustafa at an Israeli Air Force base, around 1969.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "ملا مصطفى في قاعدة جوية إسرائيلية ، حوالي عام 1969.",
+		"ku"	=> "مەڵا موستەفا بارزانی لە بنکەیێکی هێزەکانی ئاسمانی ئیسرائیلی، لە دەوروبەری ساڵی ١٩٦٩.",
 		],
 
 	"condensed-highlights-the-relationship" => [
 		"en"	=> "The relationship between Israel and the Jews, and the Kurds, should be strengthened and encouraged because these two people have a lot in common. I welcome all Kurds to establish contact with Jews.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "يجب تقوية وتشجيع العلاقة بين إسرائيل واليهود والأكراد لأن هذين الشخصين لديهما الكثير من القواسم المشتركة. أرحب بجميع الأكراد لإقامة اتصال مع اليهود.",
+		"ku"	=> "پەیوەندی لە نێوان ئیسرائل و جووەکان  و کوردەکان، دەبێت بە هێزبکرێت و پشتگیری لێ بکرێت چونکە ئەم هەردوو خەڵکە زۆر شتی هاوبەش لە نێوانیان دا هەیە. پیشوازی لە هەر کوردێک ئەکەم کە پەیوەندی لەگەڵ جووەکان  دورستبکات.",
 		],
 
 	"condensed-highlights-timeline-1985-he-conducted" => [
 		"en"	=> "He conducted hundreds of first-hand oral history accounts in Israel and abroad with more than 60 elderly Kurdish Jews, originally from Kurdistan, who shared their knowledge on the tribal Kurdish society and setting with him. From this, Dr. Zaken was able to reconstruct and tell the history of the Jews and the tribal Kurdish society.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "أجرى المئات من روايات التاريخ الشفوي المباشر في إسرائيل والخارج مع أكثر من 60 يهوديًا كرديًا مسنًا ، أصلهم من كردستان ، شاركوا معرفتهم حول المجتمع الكردي القبلية والاقامة معه. من هذا المنطلق ، تمكن الدكتور زاكين من إعادة البناء وسرد تاريخ اليهود والمجتمع الكردي القبلي.",
+		"ku"	=> "ئەو بە سەدان دیداری مێژوویی زارەکی ڕاستەوخۆ ئەنجامداوە لەناو ئیسرائیل و دەرەوە لەگەڵ زیاتر لە ٦٠ کەسانی بەتەمەنی کوردی جوو دا کە لە بنەڕەتدا خەڵکی کوردستانن، و بۆی باسی زانیاری خۆیان کردووە لەسەر کۆمەڵگای هۆزی کوردی لەکاتی دانیشتنیان لەگەڵی. بە هۆی ئەمە د. زاکین توانی مێژووی جووەکان  و کۆمەڵگای هۆزیی کوردی دووبارە ئاوەدان بکات و باس بکات. ",
 		],
 
 	"condensed-highlights-timeline-1984-ma-student" => [
 		"en"	=> "As an MA student at The Hebrew University, he wished to write a paper on the economy of Kurdistani Jews. To his astonishment, he discovered that there was hardly any written material on the Kurds and on the Jews of Kurdistan. Because of the lack of written material, he had to resort to oral-history and interviewed 12 elderly Kurdistani Jews for that paper alone.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "كطالب ماجستير في الجامعة العبرية ، كان يرغب في كتابة ورقة بحثية عن اقتصاد يهود كردستان. و لدهشته ، اكتشف أنه لم يكن هناك أي مواد مكتوبة عن الأكراد ويهود كردستان. بسبب نقص المواد المكتوبة ، اضطر إلى اللجوء إلى التاريخ الشفوي وأجرى مقابلات مع 12 من كبار السن من اليهود الكردستانيين لهذه الورقة وحدها.",
+		"ku"	=> "وەکو قوتابی ماستەر لە زانکۆی عیبری، ئەو دەیویست لێکۆڵینەوەیێک لەسەر باری ئابووری جووەکانی کوردستان دا بکات. بە سەرسامیەوە دۆزیەوە کە هیچ بەرهەمێکی نوسراو لەسەر کوردەکان و جووەکانی کوردستان نیە. لەبەر کەمی بەرهەمەکانی نوسراو، پەنای بردە مێژووی زارەکی و چاوپێکەوتنی لەگەڵ ١٢ پیاوی بەتەمەنی کوردی جوو دا کرد تەنها بۆ لێکۆلینەوەکەی. ",
 		],
 
 	"condensed-highlights-timeline-1983-co-chief-editor" => [
