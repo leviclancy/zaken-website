@@ -878,13 +878,13 @@ View on academia.edu: https://www.academia.edu/7162488/_Kurdistan_a_Historical_V
 		"he"	=> "",
 		"ar"	=> "كردستان - نظرة تاريخية
 
-مقال نشر بالعبرية في "توعع دفاريم" في 19 أيار (مايو) 2003.
+مقال نشر بالعبرية في 'توعع دفاريم' في 19 أيار (مايو) 2003.
 
 
 https://www.academia.edu/7162488/_Kurdistan_a_Historical_View_Teva_ha_Dvarim_91_May_2003_88_91_Heb_ ",
 		"ku"	=> "کوردستان - دیتنێکی مێژوویی
 
-وتارێکە بە عەرەبی بڵاوکراوە لە " تەوع دەڤاریم" لە ١٩ ی ئایاری ٢٠٠٣. 
+وتارێکە بە عەرەبی بڵاوکراوە لە 'تەوع دەڤاریم' لە ١٩ ی ئایاری ٢٠٠٣. 
 
 https://www.academia.edu/7162488/_Kurdistan_a_Historical_View_Teva_ha_Dvarim_91_May_2003_88_91_Heb_",
 		],
