@@ -436,13 +436,33 @@ function translatable_elements($string_id, $language_temp=null) {
 			if (!(empty($content_temp))): return $content_temp; endif;
 			endforeach;
 		endif;
-	$string_temp = $translatable_elements[$string_id][$language_temp];
+	
+	$translatable_element = $translatable_elements[$string_id][$language_temp];
 
-//	https://stackoverflow.com/questions/1960461/convert-plain-text-urls-into-html-hyperlinks-in-php
-	$url = '@(http)?(s)?(://)?(([a-zA-Z])([-\w]+\.)+([^\s\.]+[^\s]*)+[^,.\s])@';
-	$string_temp = preg_replace($url, '<a href="http$2://$4" target="_blank" title="$0">'.current(explode('/', 'test/me/until/')).'</a>', $string_temp);	
-	return $string_temp; }
-
+	$replace_array = [];
+	
+	$string_array_temp = preg_split('/\s+/', $translatable_element, -1, PREG_SPLIT_NO_EMPTY);
+	foreach ($string_array_temp as $string_temp):
+		if (strpos($string_temp, "http") === FALSE): continue; endif;
+		if (in_array($string_temp, $replace_array) !== FALSE): continue; endif;
+		$replace_array["length_".strlen($string_temp)."_".rand(1000000,9999999)] = [
+			"search" => $string_temp,
+			"replace" => "<a href='".$string_temp."' target='_blank'>".current(explode("/", $string_temp))."</a>"
+			];
+		endforeach;
+	
+	if (!(empty($replace_array))):
+		krsort($replace_array);
+		foreach ($replace_array as $replace_string):
+			$translatable_element = str_replace($replace_string['search'], $replace_string['replace'], $translatable_element);
+			endforeach;
+		endif;
+	
+	return $translatable_element;
+	
+	}
+	
+	
 function image_output ($media_url, $media_width, $media_height, $media_caption=null, $parallax_speed=null) {
 	global $translatable_elements;
 	global $language_request;
