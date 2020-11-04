@@ -792,12 +792,16 @@ Arabic translation available for free: https://drive.google.com/file/d/1pnjiz4KB
 		],
 
 	"publications-and-lectures-2007-the-jews-of-kurdistan" => [
-		"en"	=> "Dr. Zaken’s book was first published by Brill, based on his PhD thesis. The second edition is available for sale at https://kurdishjews.com",
+		"en"	=> "The Jews of Kurdistan
+
+Dr. Zaken’s book was first published by Brill, based on his PhD thesis. The second edition is available for sale at https://kurdishjews.com",
 		"he"	=> "",
 		"ar"	=> "يهود كردستان 
 
 صدر كتاب الدكتور زاكين لأول مرة من قبل بريل ، بناءً على أطروحة الدكتوراه الخاصة به. الطبعة الثانية متاحة للبيع على موقع https://kurdishjews.com",
-		"ku"	=> "کتێبی د. زاکین لە سەرەتادا لە لایەن برێڵەوە بڵاوکرا، لەسەر بنەمای نامەی دکتۆراکەی. چاپی دووەم لێرە بەردەستە بۆ فرۆشتن https://kurdishjews.com",
+		"ku"	=> "جووەکانی کوردستان
+
+کتێبی د. زاکین لە سەرەتادا لە لایەن برێڵەوە بڵاوکرا، لەسەر بنەمای نامەی دکتۆراکەی. چاپی دووەم لێرە بەردەستە بۆ فرۆشتن https://kurdishjews.com",
 		],
 
 	"publications-and-lectures-2005-juifs-kurdes-et-arabes" => [
@@ -805,16 +809,39 @@ Arabic translation available for free: https://drive.google.com/file/d/1pnjiz4KB
 
 A French translation of one part of the book was published in French in Etudes Kurdes (Kurdish Studies) on 7th of May, 2005.
 
-Download the French version: https://drive.google.com/file/d/14hGPx31iLGlEpklrudwQm3dqfass7-J6/view?usp=sharing
+Download the French version: https://drive.google.com/file/d/14hGPx31iLGlEpklrudwQm3dqfass7-J6/view?usp=sharing 
 
-Download the Kurdish version: https://drive.google.com/file/d/1zTVaG9RO03ZOKiNvNTzF_r5TaZxYP-zs/view?usp=sharing
+Download the Kurdish version: https://drive.google.com/file/d/1zTVaG9RO03ZOKiNvNTzF_r5TaZxYP-zs/view?usp=sharing 
 
-View the French version on academia.edu: https://www.academia.edu/7162475/_Juifs_Kurdes_et_Arabes_entre_1941_et_1952_Etudes_Kurdes_7_May_2005_7_43_
+View the French version: https://www.academia.edu/7162475/_Juifs_Kurdes_et_Arabes_entre_1941_et_1952_Etudes_Kurdes_7_May_2005_7_43_ 
 
-View the Kurdish version on academia.edu: https://www.academia.edu/7913952/Jews_Kurds_and_Arabs_in_Iraqi_Kurdistan_1941_1952_in_Kurmanji",
+View the Kurdish version: https://www.academia.edu/7913952/Jews_Kurds_and_Arabs_in_Iraqi_Kurdistan_1941_1952_in_Kurmanji",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "Juifs, Kurdes et Arabes, entre 1941 et 1952
+
+نُشرت الترجمة الفرنسية لجزء واحد من الكتاب باللغة الفرنسية في الدراسات الكردية (الدراسات الكردية) في 7 مايو 2005.
+
+تنزيل النسخة الفرنسية: 
+https://drive.google.com/file/d/14hGPx31iLGlEpklrudwQm3dqfass7-J6/view?usp=sharing 
+
+تحميل النسخة الكردية: 
+https://drive.google.com/file/d/1zTVaG9RO03ZOKiNvNTzF_r5TaZxYP-zs/view?usp=sharing 
+
+شاهد النسخة الفرنسية: https://www.academia.edu/7162475/_Juifs_Kurdes_et_Arabes_entre_1941_et_1952_Etudes_Kurdes_7_May_2005_7_43_ 
+
+شاهد النسخة الكردية: https://www.academia.edu/7913952/Jews_Kurds_and_Arabs_in_Iraqi_Kurdistan_1941_1952_in_Kurmanji",
+		"ku"	=> "Juifs, Kurdes et Arabes, entre 1941 et 1952
+
+  بەشێکی کتێبەکە بۆ زمانی فەرەنسی وەرگێڕا و بە فەرەنسی بڵاوکرا لە خوێندنەکانی کوردی لە ٧ ئایاری ٢٠٠٥.   
+
+ڤێرژنی فەرەنسی لێرە دابەزێنە: https://drive.google.com/file/d/14hGPx31iLGlEpklrudwQm3dqfass7-J6/view?usp=sharing 
+
+ڤێرژنی کوردی لێرە بەردەستە: 
+https://drive.google.com/file/d/1zTVaG9RO03ZOKiNvNTzF_r5TaZxYP-zs/view?usp=sharing 
+
+ڤێرژنی فەرەنسی: https://www.academia.edu/7162475/_Juifs_Kurdes_et_Arabes_entre_1941_et_1952_Etudes_Kurdes_7_May_2005_7_43_ 
+
+ڤێرژنی کوردی: https://www.academia.edu/7913952/Jews_Kurds_and_Arabs_in_Iraqi_Kurdistan_1941_1952_in_Kurmanji",
 		],
 
 	"publications-and-lectures-2003-tribal-chieftains" => [
@@ -826,8 +853,20 @@ Evaluation from Dr. Joyce Blau: https://drive.google.com/file/d/1xmY13QpqpykNv1H
 
 Evaluation from Dr. Moshe Sharon: https://drive.google.com/file/d/1__J6XEeHGa5zxXPV6B_uPNiI01q7XJ5d/view?usp=sharing",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "زعماء القبائل ورعاياهم اليهود في كردستان: دراسة مقارنة في البقاء
+
+أطروحة دكتوراه.
+
+تقييم من د. جويس بلاو: https://drive.google.com/file/d/1xmY13QpqpykNv1HirC8m-NJdbAa-Bd5x/view?usp=sharing 
+
+تقييم الدكتور موشيه شارون: https://drive.google.com/file/d/1__J6XEeHGa5zxXPV6B_uPNiI01q7XJ5d/view?usp=sharing",
+		"ku"	=> "ئاغاکانی هۆزەکان و ڕەوەندە جووەکان  لە کوردستان: لێکۆڵینەوەیێکی بەراوردکراو لەسەر مانەوە. 
+
+نامە دکتۆرا.
+
+لە لایەن جویس بلاوەوە هەڵسەنگێندراوە: https://drive.google.com/file/d/1xmY13QpqpykNv1HirC8m-NJdbAa-Bd5x/view?usp=sharing 
+
+لە لایەن د. مۆشی شارۆنەوە هەڵسەنگێندراوە: https://drive.google.com/file/d/1__J6XEeHGa5zxXPV6B_uPNiI01q7XJ5d/view?usp=sharing ",
 		],
 
 	"publications-and-lectures-2003-kurdistan" => [
