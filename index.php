@@ -447,7 +447,7 @@ function translatable_elements($string_id, $language_temp=null) {
 		if (in_array($string_temp, $replace_array) !== FALSE): continue; endif;
 		$replace_array["length_".strlen($string_temp)."_".rand(1000000,9999999)] = [
 			"search" => $string_temp,
-			"replace" => "<a href='".$string_temp."' target='_blank'>".current(explode("/", $string_temp))."</a>"
+			"replace" => "<a href='".$string_temp."' target='_blank'>".current(explode("/", str_replace(["https://", "http://"], null, $string_temp)))."</a>"
 			];
 		endforeach;
 	
