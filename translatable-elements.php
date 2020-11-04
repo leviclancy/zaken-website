@@ -59,7 +59,7 @@
 	"publications-and-lectures" => [
 		"en"	=> "Publications and Lectures",
 		"he"	=> "",
-		"ar"	=> "چاپکراوەکان و وانەکان",
+		"ar"	=> "المنشورات والمحاضرات",
 		"ku"	=> "چاپکراوەکان و وانەکان",
 		],
 
@@ -876,8 +876,17 @@ Article published in Hebrew in Teva’ ha-Dvarim, on the 19th of May, 2003.
 
 View on academia.edu: https://www.academia.edu/7162488/_Kurdistan_a_Historical_View_Teva_ha_Dvarim_91_May_2003_88_91_Heb_",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "كردستان - نظرة تاريخية
+
+مقال نشر بالعبرية في "توعع دفاريم" في 19 أيار (مايو) 2003.
+
+
+https://www.academia.edu/7162488/_Kurdistan_a_Historical_View_Teva_ha_Dvarim_91_May_2003_88_91_Heb_ ",
+		"ku"	=> "کوردستان - دیتنێکی مێژوویی
+
+وتارێکە بە عەرەبی بڵاوکراوە لە " تەوع دەڤاریم" لە ١٩ ی ئایاری ٢٠٠٣. 
+
+https://www.academia.edu/7162488/_Kurdistan_a_Historical_View_Teva_ha_Dvarim_91_May_2003_88_91_Heb_",
 		],
 
 	"publications-and-lectures-2001-the-lost-from-the-land-of-ashur" => [
