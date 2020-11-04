@@ -175,10 +175,10 @@
 		],
 
 	"biographical-notes-video-screened" => [
-		"en"	=> "Video screened at the official ceremony in Jerusalem, in March 2019, when Dr. Zaken was awarded the Prime Minister’s Prize for research on the Jews of the Middle East and Iran. Transcript here: <a href='https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing'>docs.google.com</a>",
+		"en"	=> "Video screened at the official ceremony in Jerusalem, in March 2019, when Dr. Zaken was awarded the Prime Minister’s Prize for research on the Jews of the Middle East and Iran. Transcript here: https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing",
 		"he"	=> "",
 		"ar"	=> "",
-		"ku"	=> "ڤیدیۆیەکە لە ئاهەنگێکی فەرمی دا لە ئۆرشەلیم  نمایشکرا، لە ئاداری ٢٠١٩، کاتێک د. زاکین خەڵاتکرا لە لایەن سەرۆک وەزیرانەوە لەبەر لێکۆلینەکەی لەسەر جووەکانی رۆژهەڵاتی ناوەراست و ئێران. بڕوانامەکە لێرەیە: <a href='https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing'>docs.google.com</a>",
+		"ku"	=> "ڤیدیۆیەکە لە ئاهەنگێکی فەرمی دا لە ئۆرشەلیم  نمایشکرا، لە ئاداری ٢٠١٩، کاتێک د. زاکین خەڵاتکرا لە لایەن سەرۆک وەزیرانەوە لەبەر لێکۆلینەکەی لەسەر جووەکانی رۆژهەڵاتی ناوەراست و ئێران. بڕوانامەکە لێرەیە: https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing",
 		],
 
 	"biographical-notes-doctoral-thesis" => [
@@ -430,7 +430,7 @@
 		],
 
 	"condensed-highlights-timeline-2013-presentation" => [
-		"en"	=> "Presentation to the World Kurdish Forum at their convention in Stockholm. Watch here: <a href='https://www.youtube.com/watch?v=UkSRVefP1Qw'>youtube.com</a>",
+		"en"	=> "Presentation to the World Kurdish Forum at their convention in Stockholm. Watch here: https://www.youtube.com/watch?v=UkSRVefP1Qw",
 		"he"	=> "",
 		"ar"	=> "عرض للمنتدى الكردي العالمي في مؤتمرهم في ستوكهولم. مشاهدة هنا: https://www.youtube.com/watch?v=UkSRVefP1Qw",
 		"ku"	=> "بەستنی کۆربەندی جیهانی کوردی لە ستۆکهۆڵم. لێرە بینەر بە: https://www.youtube.com/watch?v=UkSRVefP1Qw",
@@ -700,9 +700,9 @@
 
 Published in Routledge’s Handbook on the Kurds, edited by Michael Gunter and published in 2018.
 
-<a href='https://drive.google.com/file/d/15wqMazPL65Tb4jQSDlKGhxskzvflN_GA/view?usp=sharing'>drive.google.com</a>
+https://drive.google.com/file/d/15wqMazPL65Tb4jQSDlKGhxskzvflN_GA/view?usp=sharing
 
-<a href='https://www.academia.edu/37279884/routledgezaken_corrections_September_8_2017_pdf'>academia.edu</a>",
+https://www.academia.edu/37279884/routledgezaken_corrections_September_8_2017_pdf",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -730,20 +730,18 @@ https://www.gfbv.de/de/zeitschriftfuervielfalt/295-minderheiten-im-heiligen-land
 
 Second edition, including an eBook.
 
-eBook available for sale: <a href='https://kurdishjews.com'>kurdishjews.com</a>
+eBook available for sale: https://kurdishjews.com
 
-Kurdish translation available for free:
-<a href='https://drive.google.com/file/d/1BZcX6TJaIk6HVMbPiZ65nbVOnsQdgdKF/view?usp=sharing'>drive.google.com</a>
+Kurdish translation available for free: https://drive.google.com/file/d/1BZcX6TJaIk6HVMbPiZ65nbVOnsQdgdKF/view?usp=sharing
 
-Arabic translation available for free:
-<a href='https://drive.google.com/file/d/1pnjiz4KBex5sW6V6nFCOOF0NNYNgKAbw/view?usp=sharing'>drive.google.com</a> ",
+Arabic translation available for free: https://drive.google.com/file/d/1pnjiz4KBex5sW6V6nFCOOF0NNYNgKAbw/view?usp=sharing",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
 	"publications-and-lectures-2007-the-jews-of-kurdistan" => [
-		"en"	=> "Dr. Zaken’s book was first published by Brill, based on his PhD thesis. The second edition is available for sale at <a href='https://kurdishjews.com'>kurdishjews.com</a>",
+		"en"	=> "Dr. Zaken’s book was first published by Brill, based on his PhD thesis. The second edition is available for sale at https://kurdishjews.com",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -754,15 +752,13 @@ Arabic translation available for free:
 
 A French translation of one part of the book was published in French in Etudes Kurdes (Kurdish Studies) on 7th of May, 2005.
 
-Download the French version: <a href='https://drive.google.com/file/d/14hGPx31iLGlEpklrudwQm3dqfass7-J6/view?usp=sharing'>drive.google.com</a>
+Download the French version: https://drive.google.com/file/d/14hGPx31iLGlEpklrudwQm3dqfass7-J6/view?usp=sharing
 
-Download the Kurdish version: <a href='https://drive.google.com/file/d/1zTVaG9RO03ZOKiNvNTzF_r5TaZxYP-zs/view?usp=sharing'>drive.google.com</a>
+Download the Kurdish version: https://drive.google.com/file/d/1zTVaG9RO03ZOKiNvNTzF_r5TaZxYP-zs/view?usp=sharing
 
-View the French version on academia.edu:
-<a href='https://www.academia.edu/7162475/_Juifs_Kurdes_et_Arabes_entre_1941_et_1952_Etudes_Kurdes_7_May_2005_7_43_'>academia.edu</a>
+View the French version on academia.edu: https://www.academia.edu/7162475/_Juifs_Kurdes_et_Arabes_entre_1941_et_1952_Etudes_Kurdes_7_May_2005_7_43_
 
-View the Kurdish version on academia.edu:
-<a href='https://www.academia.edu/7913952/Jews_Kurds_and_Arabs_in_Iraqi_Kurdistan_1941_1952_in_Kurmanji'>academia.edu</a>",
+View the Kurdish version on academia.edu: https://www.academia.edu/7913952/Jews_Kurds_and_Arabs_in_Iraqi_Kurdistan_1941_1952_in_Kurmanji",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -773,9 +769,9 @@ View the Kurdish version on academia.edu:
 
 PhD thesis.
 
-Evaluation from Dr. Joyce Blau: <a href='https://drive.google.com/file/d/1xmY13QpqpykNv1HirC8m-NJdbAa-Bd5x/view?usp=sharing'>drive.google.com</a>
+Evaluation from Dr. Joyce Blau: https://drive.google.com/file/d/1xmY13QpqpykNv1HirC8m-NJdbAa-Bd5x/view?usp=sharing
 
-Evaluation from Dr. Moshe Sharon: <a href='https://drive.google.com/file/d/1__J6XEeHGa5zxXPV6B_uPNiI01q7XJ5d/view?usp=sharing'>drive.google.com</a>",
+Evaluation from Dr. Moshe Sharon: https://drive.google.com/file/d/1__J6XEeHGa5zxXPV6B_uPNiI01q7XJ5d/view?usp=sharing",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -786,7 +782,7 @@ Evaluation from Dr. Moshe Sharon: <a href='https://drive.google.com/file/d/1__J6
 
 Article published in Hebrew in Teva’ ha-Dvarim, on the 19th of May, 2003.
 
-View on academia.edu: <a href='https://www.academia.edu/7162488/_Kurdistan_a_Historical_View_Teva_ha_Dvarim_91_May_2003_88_91_Heb_'>academia.edu</a>",
+View on academia.edu: https://www.academia.edu/7162488/_Kurdistan_a_Historical_View_Teva_ha_Dvarim_91_May_2003_88_91_Heb_",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -797,9 +793,9 @@ View on academia.edu: <a href='https://www.academia.edu/7162488/_Kurdistan_a_His
 
 Published in \"The Tribes - Evidence of Israel, Exile, Immigrations, Absorption, Contribution and Integration\" edited by A. Mizrahi and A. Ben-David (2001).
 
-<a href='https://drive.google.com/file/d/1lwIt0OBPNmMtYmVg2HERr8n_oezbsQW3/view?usp=sharing'>drive.google.com</a>
+https://drive.google.com/file/d/1lwIt0OBPNmMtYmVg2HERr8n_oezbsQW3/view?usp=sharing
 
-<a href='https://www.academia.edu/7162495/_The_Lost_from_the_Land_of_Ashur_the_migrations_from_Kurdistan_and_the_settlement_in_Eretz_Israel_in_A_Mizrahi_and_A_Ben_David_eds_The_Tribes_Evidence_of_Israel_Exile_Immigrations_Absorption_Contribution_and_Integration_2001_340_373_Heb_uploaded_a_PDF_of_its_WORD_version_'>academia.edu</a>",
+https://www.academia.edu/7162495/_The_Lost_from_the_Land_of_Ashur_the_migrations_from_Kurdistan_and_the_settlement_in_Eretz_Israel_in_A_Mizrahi_and_A_Ben_David_eds_The_Tribes_Evidence_of_Israel_Exile_Immigrations_Absorption_Contribution_and_Integration_2001_340_373_Heb_uploaded_a_PDF_of_its_WORD_version_",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -808,7 +804,7 @@ Published in \"The Tribes - Evidence of Israel, Exile, Immigrations, Absorption,
 	"publications-and-lectures-1999-on-the-anfal" => [
 		"en"	=> "On the Anfal
 
-Download here: <a href='https://drive.google.com/file/d/1yfryMvZKhJ5JNuXMV55VrNaEKDEK3eFO/view?usp=sharing'>drive.google.com</a>",
+Download here: https://drive.google.com/file/d/1yfryMvZKhJ5JNuXMV55VrNaEKDEK3eFO/view?usp=sharing",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -819,9 +815,9 @@ Download here: <a href='https://drive.google.com/file/d/1yfryMvZKhJ5JNuXMV55VrNa
 
 Published in Massorot: Studies in Language Traditions and Jewish Languages, in volumes 9, 10, and 11 (1997). Edited by M. Bar-Asher.
 
-<a href='https://docs.google.com/document/d/12tY8ZvbF2YkFkQVzx8SKLacS2EUQzw1jGCzocmpNZOc/edit?usp=sharing'>docs.google.com</a>
+https://docs.google.com/document/d/12tY8ZvbF2YkFkQVzx8SKLacS2EUQzw1jGCzocmpNZOc/edit?usp=sharing
 
-<a href='https://www.academia.edu/7162534/_Inventors_Fate_A_Folk_Tale_in_the_Neo_Aramaic_of_Zakho_in_M_Bar_Asher_ed_Massorot_Studies_in_Language_Traditions_and_Jewish_Languages_vols_9_10_11_1997_383_395_Heb_'>academia.edu</a>",
+https://www.academia.edu/7162534/_Inventors_Fate_A_Folk_Tale_in_the_Neo_Aramaic_of_Zakho_in_M_Bar_Asher_ed_Massorot_Studies_in_Language_Traditions_and_Jewish_Languages_vols_9_10_11_1997_383_395_Heb_",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
