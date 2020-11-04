@@ -439,8 +439,8 @@ function translatable_elements($string_id, $language_temp=null) {
 	$string_temp = $translatable_elements[$string_id][$language_temp];
 
 //	https://stackoverflow.com/questions/1960461/convert-plain-text-urls-into-html-hyperlinks-in-php
-	$url = '@(http)?(s)?(://)?(([a-zA-Z])([-\w]+\.)+([^\s\.]+[^\s]*)+[^,.\s])?(/)?(([a-zA-Z])([-\w]+\.)+([^\s\.]+[^\s]*)+[^,.\s])@';
-	$string_temp = preg_replace($url, '<a href="http$2://$4" target="_blank" title="$0">'.current(explode("/", '$4')).'</a>', $string_temp);	
+	$url = '@(http)?(s)?(://)?(([a-zA-Z])([-\w]+\.)+([^\s\.]+[^\s]*)+[^,.\s])@';
+	$string_temp = preg_replace($url, '<a href="http$2://$4" target="_blank" title="$0">'.explode("/", '$4').'</a>', $string_temp);	
 	return $string_temp; }
 
 function image_output ($media_url, $media_width, $media_height, $media_caption=null, $parallax_speed=null) {
