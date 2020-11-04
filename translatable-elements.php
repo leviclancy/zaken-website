@@ -704,8 +704,23 @@ https://drive.google.com/file/d/15wqMazPL65Tb4jQSDlKGhxskzvflN_GA/view?usp=shari
 
 https://www.academia.edu/37279884/routledgezaken_corrections_September_8_2017_pdf",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "الجاليات اليهودية في كردستان ضمن المجتمع الكردي العشائري
+
+
+نُشر في دليل روتليدج عن الأكراد ، وحرره مايكل غونتر ونشر في عام 2018.
+
+https://drive.google.com/file/d/15wqMazPL65Tb4jQSDlKGhxskzvflN_GA/view?usp=sharing 
+
+https://www.academia.edu/37279884/routledgezaken_corrections_September_8_2017_pdf ",
+		"ku"	=> "رەوەندەکانی جوو لە کوردستان لەناو کۆمەڵگای هۆزی کوردی
+
+
+لە نامیلکەی رۆتلیدج بڵاوکراوەتەوە لەسەر کوردەکان، لە لایەن مایکل گۆنترەوە دەستکاری کراوە و لە ساڵی ٢٠١٨ بڵاوکرایەوە. 
+
+https://drive.google.com/file/d/15wqMaz
+PL65Tb4jQSDlKGhxskzvflN_GA/view?usp=sharing 
+
+https://www.academia.edu/37279884/routledgezaken_corrections_September_8_2017_pdf ",
 		],
 
 	"publications-and-lectures-2016-minderheiten" => [
@@ -721,8 +736,28 @@ http://www.gfbv.it/3dossier/isr-pal/isr-min.html
 
 https://www.gfbv.de/de/zeitschriftfuervielfalt/295-minderheiten-im-heiligen-land/",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "Minderheiten in Israel: Zwischen staatlicher Fürsorge und langsamer Assimilierung
+
+ترجمة قصيرة إلى الألمانية لمقال للدكتور زاكين عن الأقليات في إسرائيل.
+
+https://www.academia.edu/37290239/I_Die_Minderheiten_und_der_Krieg 
+
+https://docs.google.com/document/d/1ZD-qa_P5LPv3k5rxczD5zVM9Ahe3-zJkDrlkuH_hQok/edit?usp=sharing 
+
+http://www.gfbv.it/3dossier/isr-pal/isr-min.html 
+
+https://www.gfbv.de/de/zeitschriftfuervielfalt/295-minderheiten-im-heiligen-land/",
+		"ku"	=> "Minderheiten in Israel: Zwischen staatlicher Fürsorge und langsamer Assimilierung
+
+وەرگێڕانیکی کورت بۆ سەر زمانی ئەلمانی بۆ وتارێکی د. زاکین لەسەر کەمینەکان لە ئیسرائیل. 
+ 
+https://www.academia.edu/37290239/I_Die_Minderheiten_und_der_Krieg
+
+https://docs.google.com/document/d/1ZD-qa_P5LPv3k5rxczD5zVM9Ahe3-zJkDrlkuH_hQok/edit?usp=sharing 
+
+http://www.gfbv.it/3dossier/isr-pal/isr-min.html
+
+https://www.gfbv.de/de/zeitschriftfuervielfalt/295-minderheiten-im-heiligen-land/",
 		],
 
 	"publications-and-lectures-2015-the-jews-of-kurdistan" => [
@@ -736,8 +771,24 @@ Kurdish translation available for free: https://drive.google.com/file/d/1BZcX6TJ
 
 Arabic translation available for free: https://drive.google.com/file/d/1pnjiz4KBex5sW6V6nFCOOF0NNYNgKAbw/view?usp=sharing",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "يهود كردستان
+
+الطبعة الثانية ، بما في ذلك الكتاب الإلكتروني.
+
+الكتاب الإلكتروني المتاح للبيع: https://kurdishjews.com
+
+الترجمة الكردية متاحة مجانا: https://drive.google.com/file/d/1BZcX6TJaIk6HVMbPiZ65nbVOnsQdgdKF/view?usp=sharing 
+
+الترجمة العربية متاحة مجانا: https://drive.google.com/file/d/1pnjiz4KBex5sW6V6nFCOOF0NNYNgKAbw/view?usp=sharing ",
+		"ku"	=> "جووەکانی کوردستان
+
+چاپی دووەم،پەرتووکی ئەلیکترۆنیش لەخۆدەگرێت.
+
+پەرتوکی ئەلیکترۆنی بۆ فرۆشتن: https://kurdishjews.com
+
+کتێبی وەرگێڕاو بۆ سەر زمانی کوردی لێرە بە خۆرایی بەردەستە: https://drive.google.com/file/d/1BZcX6TJaIk6HVMbPiZ65nbVOnsQdgdKF/view?usp=sharing 
+
+کتێبی وەرگێڕاو بۆ زمانی عەرەبی لێرە بە خۆرایی بەردەستە: https://drive.google.com/file/d/1pnjiz4KBex5sW6V6nFCOOF0NNYNgKAbw/view?usp=sharing ",
 		],
 
 	"publications-and-lectures-2007-the-jews-of-kurdistan" => [
@@ -828,7 +879,7 @@ https://www.academia.edu/7162534/_Inventors_Fate_A_Folk_Tale_in_the_Neo_Aramaic_
 
 Published in Mamostaye Kurd, volume 22 (1994), in Sorani.
 
-<a href='https://www.academia.edu/7162548/_The_Kurdish_Jews_in_Transition_From_Kurdistan_to_Israel_Mamostaye_Kurd_Stockholm_Vol_22_1994_59_68_Sorani_uploaded_its_English_version_'>academia.edu</a>",
+https://www.academia.edu/7162548/_The_Kurdish_Jews_in_Transition_From_Kurdistan_to_Israel_Mamostaye_Kurd_Stockholm_Vol_22_1994_59_68_Sorani_uploaded_its_English_version_",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -839,9 +890,9 @@ Published in Mamostaye Kurd, volume 22 (1994), in Sorani.
 
 Published in The American Israelite.
 
-<a href='https://drive.google.com/file/d/1Rsxhl9tjKYhIUTLfiuQbrNIatvrf3Wq6/view?usp=sharing'>drive.google.com</a>
+https://drive.google.com/file/d/1Rsxhl9tjKYhIUTLfiuQbrNIatvrf3Wq6/view?usp=sharing
 
-<a href='https://docs.google.com/document/d/1IDuT8DhRHjpMAWkPh9XIPKgJYXo8KZ-SIkBsyMRuNvU/edit?usp=sharing'>docs.google.com</a>",
+https://docs.google.com/document/d/1IDuT8DhRHjpMAWkPh9XIPKgJYXo8KZ-SIkBsyMRuNvU/edit?usp=sharing",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -852,9 +903,9 @@ Published in The American Israelite.
 
 Published in The Chicago Tribune.
 
-<a href='https://drive.google.com/file/d/1cQmGnd6gFqwRmJX8wGqBZXIXQG8TOkL1/view?usp=sharing'>drive.google.com</a>
+https://drive.google.com/file/d/1cQmGnd6gFqwRmJX8wGqBZXIXQG8TOkL1/view?usp=sharing
 
-<a href='https://docs.google.com/document/d/1nXhWVZdmdFZZF_p5BI-WqX4QJJPP-eUs1qrrUxUOEWg/edit?usp=sharing'>docs.google.com</a>",
+https://docs.google.com/document/d/1nXhWVZdmdFZZF_p5BI-WqX4QJJPP-eUs1qrrUxUOEWg/edit?usp=sharing",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -865,9 +916,9 @@ Published in The Chicago Tribune.
 
 Published in The Wisconsin Jewish Chronicle.
 
-<a href='https://drive.google.com/file/d/16gauZcc-8xPwtdk_VYMWSXpjpB4XeH47/view?usp=sharing'>drive.google.com</a>
+https://drive.google.com/file/d/16gauZcc-8xPwtdk_VYMWSXpjpB4XeH47/view?usp=sharing
 
-<a href='https://docs.google.com/document/d/1QSgpY__Ub5BSyR0R-udA_7AX8HjW--szxhh7I_GMTfQ/edit?usp=sharing'>docs.google.com</a>",
+https://docs.google.com/document/d/1QSgpY__Ub5BSyR0R-udA_7AX8HjW--szxhh7I_GMTfQ/edit?usp=sharing",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -880,9 +931,9 @@ Written by B. Goldberg and M. Zaken. Published in Studies in Neo-Aramaic, by Cam
 
 The translation was recorded from Gurgo Nahum (also known as Ze'ev Arieli, his Hebrew name) and was prepared for publication together with Gideon Goldenberg.
 
-<a href='https://docs.google.com/document/d/1a8aQ9rjwOL90L2ycLMxjE9t8xpYuHQkRwYofqykb7A8/edit?usp=sharing'>docs.google.com</a>
+https://docs.google.com/document/d/1a8aQ9rjwOL90L2ycLMxjE9t8xpYuHQkRwYofqykb7A8/edit?usp=sharing
 
-<a href='https://www.academia.edu/7162561/_The_Book_of_Ruth_in_Neo_Aramaic_By_G_Goldenberg_and_M_Zaken_in_W_Heinrichs_Ed_Studies_in_Neo_Aramaic_Cambridge_Harvard_Semitic_Studies_Series_1990_151_157'>academia.edu</a>",
+https://www.academia.edu/7162561/_The_Book_of_Ruth_in_Neo_Aramaic_By_G_Goldenberg_and_M_Zaken_in_W_Heinrichs_Ed_Studies_in_Neo_Aramaic_Cambridge_Harvard_Semitic_Studies_Series_1990_151_157",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -891,7 +942,7 @@ The translation was recorded from Gurgo Nahum (also known as Ze'ev Arieli, his H
 	"publications-and-lectures-1988-the-kurdish-jews" => [
 		"en"	=> "The Kurdish Jews in Transition: From Kurdistan to Israel
 
-<a href='https://drive.google.com/file/d/1V9z2dw_ZGHxBCGb4nTKPYOJhgwT6CCo_/view?usp=sharing'>drive.google.com</a>",
+https://drive.google.com/file/d/1V9z2dw_ZGHxBCGb4nTKPYOJhgwT6CCo_/view?usp=sharing",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -902,7 +953,7 @@ The translation was recorded from Gurgo Nahum (also known as Ze'ev Arieli, his H
 
 Published in Hebrew in Hithadhoo, volume 5 (1985).
 
-<a href='https://www.academia.edu/7162569/_Social_and_economic_institutions_among_the_Jews_of_Kurdistan_Hithadshut_5_1985_11_22_Heb_'>academia.edu</a>",
+https://www.academia.edu/7162569/_Social_and_economic_institutions_among_the_Jews_of_Kurdistan_Hithadshut_5_1985_11_22_Heb_",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -911,9 +962,9 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 	"lectures-2015-the-jews-of-kurdistan" => [
 		"en"	=> "\"The Jews of Kurdistan: Identity and Heritage\" at Bar-Ilan University in Tel Aviv.
 
-<a href='https://www.youtube.com/watch?v=8xh9hY1q0kE'>youtube.com</a>
+https://youtube.com/watch?v=8xh9hY1q0kE
 
-<a href='https://drive.google.com/file/d/1YfWiAZBuq_s1n5OqASg_qtEhggWTRlGh/view?usp=sharing'>drive.google.com</a>",
+https://drive.google.com/file/d/1YfWiAZBuq_s1n5OqASg_qtEhggWTRlGh/view?usp=sharing",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -922,7 +973,7 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 	"lectures-2013-world-kurdish-congress" => [
 		"en"	=> "\"The Jews of Kurdistan\" at the World Kurdish Congress (WKC) in Stockholm, Sweden.
 
-<a href='https://www.youtube.com/watch?v=9FODj66nvkk'>youtube.com</a>",
+https://youtube.com/watch?v=9FODj66nvkk",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -1090,7 +1141,7 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		],
 
 	"the-jews-of-kurdistan-buy" => [
-		"en"	=> "Buy The Jews of Kurdistan: A Study in Survival for $15 at <a href='https://kurdishjews.com'>kurdishjews.com</a>",
+		"en"	=> "Buy The Jews of Kurdistan: A Study in Survival for $15 at https://kurdishjews.com",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -1104,14 +1155,14 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		],
 
 	"the-jews-of-kurdistan-dr-moshe-sharons-full-review" => [
-		"en"	=> "Dr. Moshe Sharon’s full review: <a href='https://drive.google.com/file/d/1__J6XEeHGa5zxXPV6B_uPNiI01q7XJ5d/view?usp=sharing'>drive.google.com</a>",
+		"en"	=> "Dr. Moshe Sharon’s full review: https://drive.google.com/file/d/1__J6XEeHGa5zxXPV6B_uPNiI01q7XJ5d/view?usp=sharing",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
 	"the-jews-of-kurdistan-dr-joyce-blaus-full-review" => [
-		"en"	=> "Dr. Joyce Blau’s full review: <a href='https://drive.google.com/file/d/1xmY13QpqpykNv1HirC8m-NJdbAa-Bd5x/view?usp=sharing'>drive.google.com</a>",
+		"en"	=> "Dr. Joyce Blau’s full review: https://drive.google.com/file/d/1xmY13QpqpykNv1HirC8m-NJdbAa-Bd5x/view?usp=sharing",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -1158,14 +1209,14 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 		],
 
 	"the-jews-of-kurdistan-download-the-arabic" => [
-		"en"	=> "Download the Arabic translation: <a href='https://www.academia.edu/37290014/jewish_subjects_in_Kurdistan_in_Arabic_PDF'>academia.edu</a>",
+		"en"	=> "Download the Arabic translation: https://www.academia.edu/37290014/jewish_subjects_in_Kurdistan_in_Arabic_PDF",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
 		],
 
 	"the-jews-of-kurdistan-download-the-sorani" => [
-		"en"	=> "Download the Sorani translation: <a href='https://www.academia.edu/37290157/Kurdistan_Jews_IN_SORANI_pdf'>academia.edu</a>",
+		"en"	=> "Download the Sorani translation: https://www.academia.edu/37290157/Kurdistan_Jews_IN_SORANI_pdf",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
