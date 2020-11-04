@@ -292,22 +292,22 @@
 	"scholarly-achievement-he-had-to-resort" => [
 		"en"	=> "He had to resort to the methodology and craft of oral history interviews. He focused on finding elderly Kurdish Jews who were resourceful informants capable of sharing with him their rich life experiences. Not only was this very time-intensive, but also Dr. Zaken faced obstacles from prevailing attitudes at the time among historians that oral history was useful for anthropology or sociology, but that it was too crude for history. For his term paper, Dr. Zaken ended up interviewing twelve Jewish informants for that paper alone, and consequently became fascinated with the intimate yet rewarding process of oral interviews with elderly informants who shared their personal life history with him.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "كان عليه أن يلجأ إلى منهجية ومقابلات التاريخ الشفوي. ركز على إيجاد اليهود الأكراد المسنين الذين كانوا مخبرين بارعين قادرين على مشاركة خبراتهم الحياتية الغنية معه. لم يكن هذا الأمر كثيفًا للوقت فحسب ، بل واجه الدكتور زاكين أيضًا عقبات من المواقف السائدة في ذلك الوقت بين المؤرخين بأن التاريخ الشفوي كان مفيدًا للأنثروبولوجيا أو علم الاجتماع ، ولكنه كان فظًا جدًا بالنسبة للتاريخ. في مقالته ، انتهى الأمر بالدكتور زاكين إلى إجراء مقابلات مع اثني عشر مخبرًا يهوديًا لتلك الصحيفة وحدها ، وبالتالي أصبح مفتونًا بعملية المقابلات الشفوية الحميمة والمجزية مع المخبرين المسنين الذين شاركوه تاريخ حياتهم الشخصية.",
+		"ku"	=> "د. زاکین بۆ دەستکەوتنی زانیاری ناچار بوو پەنا بباتە بەر ڕێبازی دیداری مێژوویی زارەکی. ئەو هەموو سەرنجی خستە سەر خستە سەر دۆزینەوەی خەڵکی بەتەمەنی کوردی جوو ئەوانەی کە زانیاری بەخش بوون و لە توانایاندا بوو باسی ئەزموونی ژیانی دەوڵەمەندی خۆیان بۆی بکەن.  نەک تەنها ئەم کارە کاتێکی زۆر بۆی ئەویست، بەڵام لە هەمان کاتدا د. زاکین ڕوبەڕوی چەندین ئاستەنگ هاتەوە بەهۆی ڕوانگەی زاڵی ئەو سەردەمە لەناو مێژووناسەکان دا کە مێژووی زارەکی بە سوودبوو بۆ ئەنثرۆپۆلۆجی( مرۆڤزانی) و سۆسیۆلۆجیا(کۆمەڵزانی)، بەڵام ئەمە کەرەستەیەکی زۆر سەرەتایی بوو بۆ مێژوو. لە لێکۆلینەوەکەی دا، د. زاکین چاوپێکەوتنی لەگەڵ دوانزە جووی زانیاری بەخش دا کرد تەنها بۆ ئەو لێکۆڵینەوەیە، ولە ئاکامدا د. زاکین سەرسام بوو بە گەرموگوی و بەرهەمداری دیدارەکانی لەگەڵ جووە بە ساڵاچووەکان دا کە باسی مێژووی ژیانی تایبەتی خۆیان بۆی ئەکرد.",
 		],
 
 	"scholarly-achievement-he-embarked" => [
 		"en"	=> "He embarked on the fieldwork of documenting oral histories by interviewing Jewish informants who had been born in Kurdistan. He found many whose memories were remarkably detailed and who had the talent to communicate vividly and expressively.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "شرع في العمل الميداني لتوثيق التاريخ الشفوي من خلال مقابلة مخبرين يهود ولدوا في كردستان. وجد العديد ممن تم تفصيل ذكرياتهم بشكل ملحوظ ولديهم موهبة للتواصل بشكل واضح وصريح.",
+		"ku"	=> "ئەو دەست بە خەباتی مەیدانی کرد بۆ دۆکیۆمێنتکردنی مێژووی زارەکی بە رێگای چاوپێکەوتن لەگەڵ جووەکانی زانیاری بەخش دا ئەوانەی کە لە کوردستان لە دایک بوون. ئەو زۆر خەڵکی دۆزییەوە کە بە شێوەیێکی سەرەنجڕاکێش باسی وردەکاری بیرەوەرییەکانی خۆیان ئەکرد و لە توانایاندابوو بە شێوەیێکی ڕوون و ئاشکرا و ڕاستگۆ باسی ژیانی خۆیان بۆی بکەن. ",
 		],
 
 	"scholarly-achievement-he-devoted" => [
 		"en"	=> "He devoted his time and skills to interviewing such qualified informants who were willing to share their histories, and then translated, reviewed, double-checked and cross-examined the oral data with information from other informants or with the available written or archival data. He would interview them once and again, as many times and over as many years as they were able. In this manner, Dr. Zaken ultimately recorded and saved the oral history and life history of many Jewish individuals from Kurdistan. He interviewed Jewish informants from different towns and villages, trying to find out the main motives and the main sources for the Jewish-Kurdish relationship and trying to figure out the key issues in the life and experience of the Jews of Kurdistan within the Kurdish society.  He then managed to place all the oral data gathered within the structure of the relationship between the Jews and the Kurds.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "كرس وقته ومهاراته لإجراء مقابلات مع هؤلاء المخبرين المؤهلين الذين كانوا على استعداد لمشاركة تاريخهم ، ثم قام بترجمة ومراجعة ومراجعة وتدقيق البيانات الشفوية مع معلومات من مخبرين آخرين أو مع البيانات المكتوبة أو الأرشيفية المتاحة كان يقابلهم مرارًا وتكرارًا ، عدة مرات وعلى مدار سنوات عديدة قدر استطاعتهم. بهذه الطريقة ، سجل الدكتور زاكين في النهاية وحفظ التاريخ الشفوي وتاريخ حياة العديد من الأفراد اليهود من كردستان. أجرى مقابلات مع مخبرين يهود من مدن وقرى مختلفة ، في محاولة لمعرفة الدوافع الرئيسية والمصادر الرئيسية للعلاقة اليهودية الكردية ومحاولة معرفة القضايا الرئيسية في حياة وخبرة يهود كردستان داخل المجتمع الكردي. ثم نجح في وضع جميع البيانات الشفوية التي تم جمعها ضمن هيكل العلاقة بين اليهود والأكراد.",
+		"ku"	=> "ئەو کات و بەهرەکانی خۆی تەرخانکرد بۆ چاوپێکەوتنی کەسانی زانیاری بەخشی شایستە ئەوانەی کە ئامادە بوون باسی مێژووی خۆیان بکەن، و پاشان دەستی ئەکرد بە وەرگێڕان، پێداچوونەوە، دووبارە پشکنین و بەراوردکردنیان لەگەڵ زانیاری زارەکی کەسە زانیارییەبەخشەکانی دیکە دا یان لەگەڵ زانیاری نووسڕاو یان ئەرشیفکراوی بەردەست دا. ئەو بە بەردەوامی چاوپێکەوتنی لەگەڵ ئەوان دا ئەکرد بۆ چەندین جار، تاکو چەندین ساڵ بە پێی توانایان. بەم شێوەیە، د. زاکین لە کۆتاییدا مێژووی زارەکی و مێژووی ژیانی چەندین جووی خەلکی کوردستانی تۆمارکرد و پاراست. ئەو چاوپێکەوتنی لەگەڵ جووەکانی زانیاری بەخش دا ئەکرد کە خەڵکی شار وشارۆچکەی جیاواز بوون، لە هەوڵدان دا بوو بۆ دۆزینەوەی ئەگەر وسەرچاوە سەرەکیەکان بۆ پەیوەندیەکانی نێوان کورد و جووەکان و هەروەها هەوڵ ئەدا بۆ زانینی ئاریشە سەرەکیەکان لە ژیان و ئەزموونی ژیانی جووەکانی کوردستان لەناو کۆمەڵگای کوردی دا. پاشان توانی هەموو زانیاری زارەکی کۆکراوە بخاتە ناو پێکهاتەی پەیوەندیەکانی نێوان جووەکان و کوردەکان.",
 		],
 
 	"scholarly-achievement-he-was-lucky-enough" => [
@@ -635,43 +635,43 @@
 	"condensed-highlights-timeline-1983-co-chief-editor" => [
 		"en"	=> "Co-Chief Editor of ‘Tipul Shoresh’, part of the public activists' program at The Hebrew University, the circulation of which was stopped by the directors and university administration due to its critical approach towards the university policy regarding social issues.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> 'رئيس التحرير المشارك لـ "تيبول شوريش" ، جزء من برنامج الناشطين العامين في الجامعة العبرية ، والذي أوقف مدراء وإدارة الجامعة تداوله بسبب نهجها النقدي تجاه سياسة الجامعة في القضايا الاجتماعية.',
+		"ku"	=> "یەکێک لە سەرنووسەرەکانی'Tipul Shoresh' بوو، بەشێکە لە بەرنامەی چاڵاکوانانی گشتی زانکۆی عیبری، ئەوەی کە رێڤەبەر و ئیدارەی زانکۆیەکە راوەستاند بەهۆێ بۆچوون و رەخنەگرتنیان بەرامبەر سیاسەتی زانکۆ دەربارەی ئاریشە کۆمەڵایەتیەکان. ",
 		],
 
 	"condensed-highlights-timeline-1982-editor-in-chief" => [
 		"en"	=> "Editor-in-Chief of ‘Pi Ha-Aton’ (פי-האתו) student newspaper. On 1982 Apr 26, for a special Independence Day edition, Dr. Zaken published photos taken in 1948 by Arabs (and the story behind the photos’ uncovering) which showed mutilated faces and bodies of Jewish soldiers who had been in an army unit which later became known as the ‘Nabi Daniel Caravan' (שיירת נבי דניאל).",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> 'المحرر العام للقوات المسلحة من (פי-האתו) صحيفة الطالب بي ها-آتون ". في 26 أبريل 1982 ، في طبعة خاصة بمناسبة عيد الاستقلال ، نشر الدكتور زاكين صورًا التقطت في عام 1948 من قبل العرب (والقصة وراء الكشف عن الصور) والتي أظهرت وجوهًا مشوهة وجثثًا لجنود يهود كانوا في وحدة عسكرية والتي لاحقًا أصبح يعرف باسم "النبى دانيال القافلة" (שיירת נבי דניאל).',
+		"ku"	=> "سەرنوسەری گشتی 'پسی ها-ئاتۆن' (פי-האתו) کە رۆژنامەیێکی تایبەتە بە قوتابیان. لە ٢٦ نیسانی ساڵی ١٩٨٢، بۆ چاپی تایبەت بە رۆژی سەربەخۆیی، د. زاکین ئەو وێنانەی لە ساڵی ١٩٤٨ لە لایەن عەرەبەکانەوە چرکێندرا بوون بڵاوکردن( و چیرۆکی لە پشت ئەو وێنانە' ئاشکەرا کرد) کە تێیدا دەم و چاو و لەشی شێواوی سەربازەکانی جووەکان  پیشان دەدا ئەوانەی کە لە یەکەیێکی سەربازیدا بوون کە دواتر بە 'نابی دانیێل کاراڤان'  (שיירת נבי דניאל) ناسراو بوو.",
 		],
 
 	"condensed-highlights-timeline-1980-baccalaureate-studies" => [
 		"en"	=> "Baccalaureate studies at The Hebrew University of Jerusalem. Graduated with his BA in Political Science and Near Eastern & Islamic Studies.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "دراسة البكالوريا في الجامعة العبرية في القدس. تخرج بدرجة البكالوريوس في العلوم السياسية ودراسات الشرق الأدنى والإسلام.",
+		"ku"	=> "خوێندنی بەکالۆریۆس لە زانکۆی عیبری ئۆرشەلیم . هەڵگری باوەرنامەی بەکالۆریۆسە لە زانستی سیاسی و رۆژهەڵاتی نێزیک و خوێندنەکانی ئیسلامی.",
 		],
 
 	"condensed-highlights-timeline-1958-born" => [
 		"en"	=> "Moti was born in Jerusalem to his mother Batyah and his father Saleh; his mother was born in Israel of Kurdish descent, and his father was born in Zakho in the Kurdistan Region.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "ولد موتي في القدس لأمه بطية ووالده صالح. والدته ولدت في إسرائيل من أصل كردي ، ووالده ولد في زاخو بإقليم كوردستان.",
+		"ku"	=> "مۆتی لە ئۆرشەلیم  لەدایکبووە دایکی بەتیاهە و باوکی ساڵحە; دایکی لە ناوچەی کوردەکان لە ئیسرائیل لەدایکبووە، و باوکی لە زاخۆ لە هەرێمی کوردستان لە دایکبووە. ",
 		],
 
 	"condensed-highlights-many-kurdish-jews" => [
 		"en"	=> "Many Kurdish Jews lived In the neighborhood where I grew up, in Katamonim (or Gonenim) in Jerusalem. They spoke Aramaic, they sang Kurdish songs and often tried to tune into Kurdish radio stations through the old radio systems. In the festivals and weddings they even dressed in Kurdish dresses and danced the traditional Kurdish dancing. Their kitchen was mostly Kurdish cuisine and filled with aromas of Kurdistan. These people left Kurdistan, but Kurdistan did not leave them.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "عاش العديد من اليهود الأكراد في الحي الذي نشأت فيه ، في القطمونيم (أو غونينيم) في القدس. كانوا يتحدثون الآرامية وغنوا الأغاني الكردية وحاولوا في كثير من الأحيان الاستماع إلى المحطات الإذاعية الكردية من خلال أنظمة الراديو القديمة. حتى أنهم ارتدوا الثياب الكردية في المهرجانات وحفلات الزفاف ورقصوا الرقص الكردي التقليدي. كان مطبخهم في الغالب مطبخًا كرديًا ومليئًا برائحة كردستان. هؤلاء الناس غادروا كردستان لكن كردستان لم تتركهم.",
+		"ku"	=> "زۆر کوردی جوو لەو گەرەکە دەژیان ئەوەی من تێیدا گەورە بووم، لە کەتمۆنیۆم (یان گۆننیم) لە ئۆرشەلیم . ئەوان بە زمانی ئارامی قسەیان دەکرد، ئەوان بە زمانی کوردی گۆرانیان دەوت و زۆربەی جاران هەوڵیان ئەدا گوێ لە وێستگای رادیۆی کوردی بگرن بە رێگای سیستەمی رادیۆی کۆنەوە. لە فێستیڤاڵ و شاهیەکان دا جڵی کوردی لەبەر خۆیان دەکرد و هەڵپەڕکێی کوردیان دەکرد. خواردنەکانیان زۆربەیان کوردی بوون و بە تام و بۆنی کوردیەوە پڕ بوون. ئەم خەڵکە کوردستانیان بەجێهشت بەڵام کوردستان ئەاوانی بەجێنەهشت.",
 		],
 
 	"condensed-highlights-the-road-to-the-monastery" => [
 		"en"	=> "The road to the Monastery of Rabban Hormizd, in the Assyrian town of Alqosh.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "الطريق إلى دير الربان هرمزد في بلدة القوش الأشورية.",
+		"ku"	=> "رێگای دێری ڕاببان هۆرمزد، لە شاری ئەلقوشی ئاشووریەکان.",
 		],
 
 	"publications-and-lectures-the-book-of" => [
