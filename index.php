@@ -458,7 +458,7 @@ function translatable_elements($string_id, $language_temp=null) {
 			endforeach;
 		endif;
 	
-	return $translatable_element;
+	return trim(str_replace("  ", " ", $translatable_element));
 	
 	}
 	
