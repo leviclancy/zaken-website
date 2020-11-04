@@ -432,8 +432,8 @@
 	"condensed-highlights-timeline-2013-presentation" => [
 		"en"	=> "Presentation to the World Kurdish Forum at their convention in Stockholm. Watch here: <a href='https://www.youtube.com/watch?v=UkSRVefP1Qw'>youtube.com</a>",
 		"he"	=> "",
-		"ar"	=> "عرض للمنتدى الكردي العالمي في مؤتمرهم في ستوكهولم. مشاهدة هنا: <a href='https://www.youtube.com/watch?v=UkSRVefP1Qw'>youtube.com</a>",
-		"ku"	=> "بەستنی کۆربەندی جیهانی کوردی لە ستۆکهۆڵم. لێرە بینەر بە: <a href='https://www.youtube.com/watch?v=UkSRVefP1Qw'>youtube.com</a>",
+		"ar"	=> "عرض للمنتدى الكردي العالمي في مؤتمرهم في ستوكهولم. مشاهدة هنا: https://www.youtube.com/watch?v=UkSRVefP1Qw",
+		"ku"	=> "بەستنی کۆربەندی جیهانی کوردی لە ستۆکهۆڵم. لێرە بینەر بە: https://www.youtube.com/watch?v=UkSRVefP1Qw",
 		],
 
 	"condensed-highlights-timeline-2013-with-christian-leaders" => [
@@ -677,22 +677,22 @@
 	"publications-and-lectures-the-book-of" => [
 		"en"	=> "The book of Dr. Mordechai Zaken is the most important book written on the Jews of Kurdistan.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "كتاب الدكتور مردخاي زاكين هو أهم كتاب كتب عن يهود كردستان.",
+		"ku"	=> "کتێبی د. مۆردەخای  زاکین گرنگترین  کتێبە لەسەر جووەکانی کوردستانەوە نوسرا بێت.",
 		],
 
 	"publications-and-lectures-lora-galichco" => [
 		"en"	=> "Lora Galichco, scholar and descendant of Kurdish Jews",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "لورا غاليشكو ، عالمة ومن نسل اليهود الأكراد",
+		"ku"	=> "لۆرا گالیچکۆ، زانا و لە نەوەی کوردی جووە",
 		],
 
 	"publications-and-lectures-below-is-an-abridged-list" => [
-		"en"	=> "Below is an abridged list of Dr. Zaken’s publications, available also at: <a href='https://independent.academia.edu/MordechaiZaken'>academia.edu</a>",
+		"en"	=> "Below is an abridged list of Dr. Zaken’s publications, available also at: https://independent.academia.edu/MordechaiZaken",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "فيما يلي قائمة مختصرة بإصدارات الدكتور زاكين ، وهي متاحة أيضًا على: https://independent.academia.edu/MordechaiZaken",
+		"ku"	=> "لە خوارەوە لیستێکی کورتکراوی بەرهەمەکانی د. زاکینن، هەروەها لێرە بەردەستن: https://independent.academia.edu/MordechaiZaken",
 		],
 
 	"publications-and-lectures-2018-the-jewish-communities" => [
@@ -713,13 +713,13 @@ Published in Routledge’s Handbook on the Kurds, edited by Michael Gunter and p
 
 A short translation into German of an article of Dr. Zaken’s on the minorities in Israel.
 
-<a href='https://www.academia.edu/37290239/I_Die_Minderheiten_und_der_Krieg'>academia.edu</a>
+https://www.academia.edu/37290239/I_Die_Minderheiten_und_der_Krieg
 
-<a href='https://docs.google.com/document/d/1ZD-qa_P5LPv3k5rxczD5zVM9Ahe3-zJkDrlkuH_hQok/edit?usp=sharing'>docs.google.com</a>
+https://docs.google.com/document/d/1ZD-qa_P5LPv3k5rxczD5zVM9Ahe3-zJkDrlkuH_hQok/edit?usp=sharing
 
-<a href='http://www.gfbv.it/3dossier/isr-pal/isr-min.html'>gfbv.it</a>
+http://www.gfbv.it/3dossier/isr-pal/isr-min.html
 
-<a href='https://www.gfbv.de/de/zeitschriftfuervielfalt/295-minderheiten-im-heiligen-land/'>gfbv.de</a>",
+https://www.gfbv.de/de/zeitschriftfuervielfalt/295-minderheiten-im-heiligen-land/",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
