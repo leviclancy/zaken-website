@@ -429,15 +429,19 @@ echo '<amp-animation id="fadeTransition"
 function translatable_elements($string_id, $language_temp=null) {
 	global $translatable_elements;
 	global $language_request;
+	
+	$translatable_element = null;
+	
 	if (empty($language_temp)): $language_temp = $language_request; endif;
 	if (empty($translatable_elements[$string_id])): return; endif;
 	if (empty($translatable_elements[$string_id][$language_temp])):
 		foreach ($translatable_elements[$string_id] as $language_temp => $content_temp):
-			if (!(empty($content_temp))): return $content_temp; endif;
+			if (!(empty($content_temp))): $translatable_element = $content_temp; endif;
 			endforeach;
+	else:
+		$translatable_element = $translatable_elements[$string_id][$language_temp];
 		endif;
 	
-	$translatable_element = $translatable_elements[$string_id][$language_temp];
 
 	$replace_array = [];
 	
