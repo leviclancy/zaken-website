@@ -794,8 +794,10 @@ Arabic translation available for free: https://drive.google.com/file/d/1pnjiz4KB
 	"publications-and-lectures-2007-the-jews-of-kurdistan" => [
 		"en"	=> "Dr. Zaken’s book was first published by Brill, based on his PhD thesis. The second edition is available for sale at https://kurdishjews.com",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "يهود كردستان 
+
+صدر كتاب الدكتور زاكين لأول مرة من قبل بريل ، بناءً على أطروحة الدكتوراه الخاصة به. الطبعة الثانية متاحة للبيع على موقع https://kurdishjews.com",
+		"ku"	=> "کتێبی د. زاکین لە سەرەتادا لە لایەن برێڵەوە بڵاوکرا، لەسەر بنەمای نامەی دکتۆراکەی. چاپی دووەم لێرە بەردەستە بۆ فرۆشتن https://kurdishjews.com",
 		],
 
 	"publications-and-lectures-2005-juifs-kurdes-et-arabes" => [
