@@ -870,36 +870,47 @@ Evaluation from Dr. Moshe Sharon: https://drive.google.com/file/d/1__J6XEeHGa5zx
 		],
 
 	"publications-and-lectures-2003-kurdistan" => [
-		"en"	=> "Kurdistan – a Historical View
+		"en"	=> 'Kurdistan – a Historical View
 
-Article published in Hebrew in Teva’ ha-Dvarim, on the 19th of May, 2003.
+Article published in Hebrew in “Teva ha-Dvarim” on the 19th of May, 2003.
 
-View on academia.edu: https://www.academia.edu/7162488/_Kurdistan_a_Historical_View_Teva_ha_Dvarim_91_May_2003_88_91_Heb_",
+https://www.academia.edu/7162488/_Kurdistan_a_Historical_View_Teva_ha_Dvarim_91_May_2003_88_91_Heb_ ',
 		"he"	=> "",
-		"ar"	=> "كردستان - نظرة تاريخية
+		"ar"	=> 'كردستان - نظرة تاريخية
 
-مقال نشر بالعبرية في 'توعع دفاريم' في 19 أيار (مايو) 2003.
+مقال نشر بالعبرية في "توعع دفاريم" في 19 أيار (مايو) 2003.
 
+https://www.academia.edu/7162488/_Kurdistan_a_Historical_View_Teva_ha_Dvarim_91_May_2003_88_91_Heb_',
+		"ku"	=> 'کوردستان - دیتنێکی مێژوویی
 
-https://www.academia.edu/7162488/_Kurdistan_a_Historical_View_Teva_ha_Dvarim_91_May_2003_88_91_Heb_ ",
-		"ku"	=> "کوردستان - دیتنێکی مێژوویی
+وتارێکە بە عەرەبی بڵاوکراوە لە " تەوع دەڤاریم" لە ١٩ ی ئایاری ٢٠٠٣. 
 
-وتارێکە بە عەرەبی بڵاوکراوە لە 'تەوع دەڤاریم' لە ١٩ ی ئایاری ٢٠٠٣. 
-
-https://www.academia.edu/7162488/_Kurdistan_a_Historical_View_Teva_ha_Dvarim_91_May_2003_88_91_Heb_",
+https://www.academia.edu/7162488/_Kurdistan_a_Historical_View_Teva_ha_Dvarim_91_May_2003_88_91_Heb_',
 		],
 
 	"publications-and-lectures-2001-the-lost-from-the-land-of-ashur" => [
-		"en"	=> "\"The Lost from the Land of Ashur\" - the migrations from Kurdistan and the settlement in Eretz-Israel
+		"en"	=> '“The Lost from the Land of Ashur” - the migrations from Kurdistan and the settlement in Eretz-Israel
 
-Published in \"The Tribes - Evidence of Israel, Exile, Immigrations, Absorption, Contribution and Integration\" edited by A. Mizrahi and A. Ben-David (2001).
+Published in “The Tribes - Evidence of Israel, Exile, Immigrations, Absorption, Contribution and Integration” edited by A. Mizrahi and A. Ben-David (2001).
 
-https://drive.google.com/file/d/1lwIt0OBPNmMtYmVg2HERr8n_oezbsQW3/view?usp=sharing
+https://drive.google.com/file/d/1lwIt0OBPNmMtYmVg2HERr8n_oezbsQW3/view?usp=sharing 
 
-https://www.academia.edu/7162495/_The_Lost_from_the_Land_of_Ashur_the_migrations_from_Kurdistan_and_the_settlement_in_Eretz_Israel_in_A_Mizrahi_and_A_Ben_David_eds_The_Tribes_Evidence_of_Israel_Exile_Immigrations_Absorption_Contribution_and_Integration_2001_340_373_Heb_uploaded_a_PDF_of_its_WORD_version_",
+https://www.academia.edu/7162495/_The_Lost_from_the_Land_of_Ashur_the_migrations_from_Kurdistan_and_the_settlement_in_Eretz_Israel_in_A_Mizrahi_and_A_Ben_David_eds_The_Tribes_Evidence_of_Israel_Exile_Immigrations_Absorption_Contribution_and_Integration_2001_340_373_Heb_uploaded_a_PDF_of_its_WORD_version_ ',
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> 'المفقودون من أرض آشور" - الهجرات من كردستان والاستيطان في أرض إسرائيل 
+
+نُشر في "القبائل - دليل على إسرائيل ، النفي ، الهجرة ، الامتصاص ، المساهمة والاندماج" ، تحرير أ. مزراحي وأ. بن دافيد (2001).
+
+https://drive.google.com/file/d/1lwIt0OBPNmMtYmVg2HERr8n_oezbsQW3/view?usp=sharing 
+
+https://www.academia.edu/7162495/_The_Lost_from_the_Land_of_Ashur_the_migrations_from_Kurdistan_and_the_settlement_in_Eretz_Israel_in_A_Mizrahi_and_A_Ben_David_eds_The_Tribes_Evidence_of_Israel_Exile_Immigrations_Absorption_Contribution_and_Integration_2001_340_373_Heb_uploaded_a_PDF_of_its_WORD_version_ ',
+		"ku"	=> '"ونبووەکانی خاکی ئاشوور" - کۆچکردنەوەکان لە کوردستانەوە و جێگیربوونیان لە خاکی ئیسرائیل
+
+لە " هۆزەکان- بەڵگەی ئیسرائیلن، کۆچکردنەوەکان، هەڵمژین، بەشداریکردن و یەکگرتنەوە" بڵاوکرایەوە و لە لایەن ا.مزراحیەوە و ا.بێن داڤیدەوە دەستکاریکراوە.
+
+https://drive.google.com/file/d/1lwIt0OBPNmMtYmVg2HERr8n_oezbsQW3/view?usp=sharing 
+
+https://www.academia.edu/7162495/_The_Lost_from_the_Land_of_Ashur_the_migrations_from_Kurdistan_and_the_settlement_in_Eretz_Israel_in_A_Mizrahi_and_A_Ben_David_eds_The_Tribes_Evidence_of_Israel_Exile_Immigrations_Absorption_Contribution_and_Integration_2001_340_373_Heb_uploaded_a_PDF_of_its_WORD_version_ ',
 		],
 
 	"publications-and-lectures-1999-on-the-anfal" => [
@@ -907,8 +918,14 @@ https://www.academia.edu/7162495/_The_Lost_from_the_Land_of_Ashur_the_migrations
 
 Download here: https://drive.google.com/file/d/1yfryMvZKhJ5JNuXMV55VrNaEKDEK3eFO/view?usp=sharing",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "على الأنفال
+
+حمل هنا:
+https://drive.google.com/file/d/1yfryMvZKhJ5JNuXMV55VrNaEKDEK3eFO/view?usp=sharing ",
+		"ku"	=> "لەسەر ئەنفال
+
+لێرە دابەزێنە:
+https://drive.google.com/file/d/1yfryMvZKhJ5JNuXMV55VrNaEKDEK3eFO/view?usp=sharing ",
 		],
 
 	"publications-and-lectures-1997-inventors-fate" => [
