@@ -717,8 +717,7 @@ https://www.academia.edu/37279884/routledgezaken_corrections_September_8_2017_pd
 
 لە نامیلکەی رۆتلیدج بڵاوکراوەتەوە لەسەر کوردەکان، لە لایەن مایکل گۆنترەوە دەستکاری کراوە و لە ساڵی ٢٠١٨ بڵاوکرایەوە. 
 
-https://drive.google.com/file/d/15wqMaz
-PL65Tb4jQSDlKGhxskzvflN_GA/view?usp=sharing 
+https://drive.google.com/file/d/15wqMazPL65Tb4jQSDlKGhxskzvflN_GA/view?usp=sharing 
 
 https://www.academia.edu/37279884/routledgezaken_corrections_September_8_2017_pdf ",
 		],
