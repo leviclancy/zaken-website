@@ -127,11 +127,11 @@ $style_array = [
 		],
 	
 	".en" => [
-		"text-direction"	=> "ltr",
+		"direction"	=> "ltr",
 		],
 	
 	".ku, .ar" => [
-		"text-direction"	=> "ltr",
+		"direction"	=> "ltr",
 		],
 	
 	"#website-toggle-languages" => [
