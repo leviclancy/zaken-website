@@ -35,16 +35,18 @@ $sitemap_array = [
 		],
 	];
 		
-$pageview_request = ( empty($_REQUEST['pageview']) ? null : $_REQUEST['pageview'] );
+// Set up redirect array
+$redirect_array_default = $redirect_array_validated = [ "pageview" => "pageview=".$pageview_request, "language" => "language=".$language_request, ];
 
-// The language is also passed in the URL
-// $language_request_allowed = [ "ar"=>"عربي", "en"=>"English", "he"=>"עברית", "ku"=>"کوردی", ];
-// $language_request_allowed = [ "en"=>"English", "ku"=>"کوردی", "ar"=>"عربي", ];
+// Language is a REQUEST variable
 $language_request_allowed = [ "en"=>"En", "ku"=>"کو", "ar"=>"عر", ];
 $language_request = ( empty($_REQUEST['language']) ? null : $_REQUEST['language'] );
 
-// Set up redirect array
-$redirect_array_default = $redirect_array_validated = [ "pageview" => "pageview=".$pageview_request, "language" => "language=".$language_request, ];
+// Check if language is valid
+if (!(isset($language_request_allowed[$language_request]))): $redirect_array_validated['language'] = "language=en"; endif;
+
+// Pageview is a REQUEST variable
+$pageview_request = ( empty($_REQUEST['pageview']) ? null : $_REQUEST['pageview'] );
 
 // Check if pageview is valid
 $pageview_valid = 0;
@@ -53,8 +55,8 @@ foreach ($sitemap_array as $pageview_allowed => $subpageview_allowed_array):
 	if (in_array($pageview_request, $subpageview_allowed_array)): $pageview_valid = 1; break; endif;
 	endforeach;
 if ($pageview_valid !== 1): $redirect_array_validated['pageview'] = "pageview=biographical-notes"; endif;
-if (!(isset($language_request_allowed[$language_request]))): $redirect_array_validated['language'] = "language=en"; endif;
 
+// If we have redirects due to invalid parameters, then assemble them
 if ($redirect_array_default !== $redirect_array_validated):
 	header("HTTP/1.1 301 Moved Permanently");
 	header("Location: https://".$_SERVER['HTTP_HOST']."?".implode("&", $redirect_array_validated));
@@ -71,7 +73,7 @@ if (!(empty($google_analytics_code))):
 	
 echo "<script async src='https://cdn.ampproject.org/v0.js'></script>";
 
-echo "<link rel='canonical' href='https://". $domain ."'>";
+echo "<link rel='canonical' href='https://". $_SERVER['SERVER_NAME'] ."/?pageview=". $pageview_request ."&language=". $language_request ."'>";
 
 echo "<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>";
 
