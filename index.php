@@ -126,6 +126,14 @@ $style_array = [
 		"display"		=> "none",
 		],
 	
+	".en" => [
+		"text-direction"	=> "ltr",
+		],
+	
+	".ku, .ar" => [
+		"text-direction"	=> "ltr",
+		],
+	
 	"#website-toggle-languages" => [
 		"position"		=> "fixed",
 		"top"			=> "5px",
@@ -464,7 +472,7 @@ function translatable_elements($string_id, $language_temp=null) {
 			endforeach;
 		endif;
 	
-	return trim(str_replace("  ", " ", $translatable_element));
+	return "<span class='".$language_temp."'>". trim(str_replace("  ", " ", $translatable_element)) ."</span>";
 	
 	}
 	
