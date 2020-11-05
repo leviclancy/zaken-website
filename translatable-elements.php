@@ -184,8 +184,8 @@
 	"biographical-notes-doctoral-thesis" => [
 		"en"	=> "Dr. Zaken’s doctoral thesis, and the books which resulted from it, were praised by eminent scholars such as Dr. Joyce Blau (INALCO in Paris) and Dr. Moshe Sharon (The Hebrew University of Jerusalem) for skillfully documenting and thereby saving the oral history of the Jews of Kurdistan. Dr. Zaken’s research prevented a large part of history from being lost forever, and his book became the leading resource on the Jews of Kurdistan because of its depth and accessibility. It was compiled from hundreds of interviews with native Kurdish Jews who immigrated to Israel, and was made widely available in multiple languages including English, Arabic, Kurdish, and French.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "حظيت اطروحة الدكتوراه للدكتور زاكين والكتب التي نتجت عنها بإشادة علماء بارزين مثل جويس بلاو من (INALCO في باريس) وموشيه شارون من الجامعة العبرية في القدس لاستخدامهم بمهارة في توثيق التاريخ الشفوي لليهود في كردستان وإنقاذهم التاريخ الشفوي ليهود كوردستان من الضياع إلى الأبد. حالت أبحاث الدكتور زاكين دون ضياع جزء كبير من التاريخ إلى الأبد ، وأصبح كتابه المصدر الرئيسي عن يهود كردستان بسبب عمقه وسهولة الوصول إليه. تم تجميعه من مئات المقابلات مع اليهود الأكراد الأصليين الذين هاجروا إلى إسرائيل ، وتم إتاحته على نطاق واسع بلغات متعددة بما في ذلك الإنجليزية والعربية والكردية والفرنسية.",
+		"ku"	=> "نامەکانی دکتۆرای د. زاکین و هەروها ئەو پەرتووکانەی کە لەوان دورستکراون، لە لایەن چەندین زانای بە تواناوە پەسنکراون وەکو جۆیس بلاو (INALCO لە پاریس) و هەروەها مۆشی شارۆن مامۆستای زانکۆی ئۆرشەلیم ی عیبری،بۆ بە دۆکیومێنتکردنی زانستیانەی مێژووی زارەکی جووەکانی کوردستان بەمەش پاراستنی لە لەناوچوون. نامەکانی و هەروها پەرتووکەکانی بوون بە سەرەکیترین و گرنکترین ژێدەر بۆ بابەتەکە، چونکە تێیدا بە سەدان چاوپێکەوتن لەگەل جووەکانی کورد ئەوانەی کۆچیان کردبوو بۆ ئیسرائیل کۆکرابوونەوە،وە لێکۆڵینەوەکەش بەشێوەیەکی فراوان بڵاببووەوە بەهۆی وەرگێڕانی بۆ سەر چەندین زمان لەوانە ئینگلیزی، عەرەبی، کوردی وە فەڕەنسی.",
 		],
 
 	"biographical-notes-speaks-fluently" => [
@@ -937,8 +937,21 @@ https://docs.google.com/document/d/12tY8ZvbF2YkFkQVzx8SKLacS2EUQzw1jGCzocmpNZOc/
 
 https://www.academia.edu/7162534/_Inventors_Fate_A_Folk_Tale_in_the_Neo_Aramaic_of_Zakho_in_M_Bar_Asher_ed_Massorot_Studies_in_Language_Traditions_and_Jewish_Languages_vols_9_10_11_1997_383_395_Heb_",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> '"مصير المخترعين": حكاية شعبية في الآرامية الجديدة في زاخو
+
+نُشر في Massorot: دراسات في التقاليد اللغوية واللغات اليهودية ، في المجلدات ٩و ١٠و ١١(١٩٩٧). حرره  م.بار ئاشیر.
+
+https://docs.google.com/document/d/12tY8ZvbF2YkFkQVzx8SKLacS2EUQzw1jGCzocmpNZOc/edit?usp=sharing 
+
+https://www.academia.edu/7162534/_Inventors_Fate_A_Folk_Tale_in_the_Neo_Aramaic_of_Zakho_in_M_Bar_Asher_ed_Massorot_Studies_in_Language_Traditions_and_Jewish_Languages_vols_9_10_11_1997_383_395_Heb_ ',
+		"ku"	=> 'چارەنووسی داهێنەرەکان": چیرۆکێکی شەعبی لە ئارامی نوێی زاخۆ.
+
+لە Massorot بڵاوکراویەوە: خوێندنەکان لە دابونەریتی زمان و زمانەکانی جوو لە بەرگی ٩، ١٠، و ١١ (١٩٩٧). لە لایەن م.بار ئاشیر دەستکاریکراوە. 
+
+https://docs.google.com/document/d/12tY8ZvbF2YkFkQVzx8SKLacS2EUQzw1jGCzocmpNZOc/edit?usp=sharing 
+
+https://www.academia.edu/7162534/_Inventors_Fate_A_Folk_Tale_in_the_Neo_Aramaic_of_Zakho_in_M_Bar_Asher_ed_Massorot_Studies_in_Language_Traditions_and_Jewish_Languages_vols_9_10_11_1997_383_395_Heb_ 
+',
 		],
 
 	"publications-and-lectures-1994-the-kurdish-jews-in-transition" => [
@@ -948,8 +961,16 @@ Published in Mamostaye Kurd, volume 22 (1994), in Sorani.
 
 https://www.academia.edu/7162548/_The_Kurdish_Jews_in_Transition_From_Kurdistan_to_Israel_Mamostaye_Kurd_Stockholm_Vol_22_1994_59_68_Sorani_uploaded_its_English_version_",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "اليهود الأكراد في المرحلة الانتقالية: من كردستان إلى إسرائيل 
+
+نُشر في Mamostaye Kurd ، المجلد ٢٢ (١٩٩٤) ، باللهجة السورانية.
+
+https://www.academia.edu/7162548/_The_Kurdish_Jews_in_Transition_From_Kurdistan_to_Israel_Mamostaye_Kurd_Stockholm_Vol_22_1994_59_68_Sorani_uploaded_its_English_version_ ",
+		"ku"	=> "کوردانی جوڵە لە کاتی گواستنەوەدا: لە کوردستانەوە بۆ ئیسرائیل 
+
+لە Mamostaye Kurd بڵاوکراوە، بەرگی٢٢ (١٩٩)، بە زاراوی سۆرانی. 
+
+https://www.academia.edu/7162548/_The_Kurdish_Jews_in_Transition_From_Kurdistan_to_Israel_Mamostaye_Kurd_Stockholm_Vol_22_1994_59_68_Sorani_uploaded_its_English_version_ ",
 		],
 
 	"publications-and-lectures-1991-naysayers" => [
@@ -961,8 +982,21 @@ https://drive.google.com/file/d/1Rsxhl9tjKYhIUTLfiuQbrNIatvrf3Wq6/view?usp=shari
 
 https://docs.google.com/document/d/1IDuT8DhRHjpMAWkPh9XIPKgJYXo8KZ-SIkBsyMRuNvU/edit?usp=sharing",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "كان يجب على الرافضين أن يزنوا الكلمات بعناية
+
+نُشرت في The American Israelite. 
+
+https://drive.google.com/file/d/1Rsxhl9tjKYhIUTLfiuQbrNIatvrf3Wq6/view?usp=sharing 
+
+https://docs.google.com/document/d/1IDuT8DhRHjpMAWkPh9XIPKgJYXo8KZ-SIkBsyMRuNvU/edit?usp=sharing
+",
+		"ku"	=> "لەسەر نەڕازیبووەکان پێویست بوو بە هۆشیاری وەزنی وشەکان بکێشن.  
+
+لە American Israelite بڵاوکرایەوە. 
+
+https://drive.google.com/file/d/1Rsxhl9tjKYhIUTLfiuQbrNIatvrf3Wq6/view?usp=sharing 
+
+https://docs.google.com/document/d/1IDuT8DhRHjpMAWkPh9XIPKgJYXo8KZ-SIkBsyMRuNvU/edit?usp=sharing ",
 		],
 
 	"publications-and-lectures-1991-kurdish-unity" => [
@@ -974,8 +1008,19 @@ https://drive.google.com/file/d/1cQmGnd6gFqwRmJX8wGqBZXIXQG8TOkL1/view?usp=shari
 
 https://docs.google.com/document/d/1nXhWVZdmdFZZF_p5BI-WqX4QJJPP-eUs1qrrUxUOEWg/edit?usp=sharing",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "الوحدة الكردية و ابتسامة صدام 
+
+نشرت في شيكاغو تريبيون. 
+
+https://drive.google.com/file/d/1cQmGnd6gFqwRmJX8wGqBZXIXQG8TOkL1/view?usp=sharing 
+https://docs.google.com/document/d/1nXhWVZdmdFZZF_p5BI-WqX4QJJPP-eUs1qrrUxUOEWg/edit?usp=sharing ",
+		"ku"	=> "یەکگرتنی کوردەکان و زەردەخەنەی سەدام حوسێن
+
+لە The Chicago Tribune بڵاوکرایەوە.
+
+https://drive.google.com/file/d/1cQmGnd6gFqwRmJX8wGqBZXIXQG8TOkL1/view?usp=sharing 
+
+https://docs.google.com/document/d/1nXhWVZdmdFZZF_p5BI-WqX4QJJPP-eUs1qrrUxUOEWg/edit?usp=sharing ",
 		],
 
 	"publications-and-lectures-1991-israel-should-assist" => [
@@ -987,8 +1032,20 @@ https://drive.google.com/file/d/16gauZcc-8xPwtdk_VYMWSXpjpB4XeH47/view?usp=shari
 
 https://docs.google.com/document/d/1QSgpY__Ub5BSyR0R-udA_7AX8HjW--szxhh7I_GMTfQ/edit?usp=sharing",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "على إسرائيل مساعدة الأكراد في محاربة العراق
+
+نُشرت في The Wisconsin Jewish Chronicle.
+
+https://drive.google.com/file/d/16gauZcc-8xPwtdk_VYMWSXpjpB4XeH47/view?usp=sharing 
+
+https://docs.google.com/document/d/1QSgpY__Ub5BSyR0R-udA_7AX8HjW--szxhh7I_GMTfQ/edit?usp=sharing ",
+		"ku"	=> "ئیسرائیل دەبێت هاوکاری کوردەکان بکات لە شەری دژی عێراق 
+
+لە Wisconsin Jewish Chronicle بڵاوکرایەوە.
+
+https://drive.google.com/file/d/16gauZcc-8xPwtdk_VYMWSXpjpB4XeH47/view?usp=sharing 
+
+https://docs.google.com/document/d/1QSgpY__Ub5BSyR0R-udA_7AX8HjW--szxhh7I_GMTfQ/edit?usp=sharing ",
 		],
 
 	"publications-and-lectures-1990-the-book-of-ruth" => [
@@ -1002,8 +1059,24 @@ https://docs.google.com/document/d/1a8aQ9rjwOL90L2ycLMxjE9t8xpYuHQkRwYofqykb7A8/
 
 https://www.academia.edu/7162561/_The_Book_of_Ruth_in_Neo_Aramaic_By_G_Goldenberg_and_M_Zaken_in_W_Heinrichs_Ed_Studies_in_Neo_Aramaic_Cambridge_Harvard_Semitic_Studies_Series_1990_151_157",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "كتاب راعوث في الآرامية الجديدة
+
+بقلم ب. غولدبرغ وم. زاكين. نُشرت في دراسات في الآرامية الجديدة ، بقلم كامبريدج في سلسلة دراساتها السامية بجامعة هارفارد ، بقلم دبليو هاينريش (1990).
+
+تم تسجيل الترجمة من جورغو ناحوم (المعروف أيضًا باسم زئيف أرييلي ، اسمه العبري) وتم إعدادها للنشر مع جدعون غولدنبرغ.
+
+https://docs.google.com/document/d/1a8aQ9rjwOL90L2ycLMxjE9t8xpYuHQkRwYofqykb7A8/edit?usp=sharing 
+
+https://www.academia.edu/7162561/_The_Book_of_Ruth_in_Neo_Aramaic_By_G_Goldenberg_and_M_Zaken_in_W_Heinrichs_Ed_Studies_in_Neo_Aramaic_Cambridge_Harvard_Semitic_Studies_Series_1990_151_157 ",
+		"ku"	=> "کتێبی راعوث بە زمانی ئارامی نوێ 
+
+لە لایەن ب.گۆلدبرێگ و م.زاکینەوە نوسراوە. لە خوێندنەکانی ئارامی نوێ دا بڵاوکرایەوە لە لایەن کامبرێجەوە لە زنجیرەی خوێندنەکانی سامی لە زانکۆی هارڤارد، و لە لایەن و.هاینریشەوە دەستکاری کراوە (١٩٩٠). 
+
+وەرگێڕانەکە لە گورگۆ ناحومەوە(هەروەها بە زەئیف ئەریلی بەرنیاسە، ناوی عیبریە) تۆمارکرابوو و بۆ بڵاوکردنەوە ئامەدەکرابوو بە هاوکاری جدعون گۆلدنبیرگ.  
+
+https://docs.google.com/document/d/1a8aQ9rjwOL90L2ycLMxjE9t8xpYuHQkRwYofqykb7A8/edit?usp=sharing 
+
+https://www.academia.edu/7162561/_The_Book_of_Ruth_in_Neo_Aramaic_By_G_Goldenberg_and_M_Zaken_in_W_Heinrichs_Ed_Studies_in_Neo_Aramaic_Cambridge_Harvard_Semitic_Studies_Series_1990_151_157 ",
 		],
 
 	"publications-and-lectures-1988-the-kurdish-jews" => [
@@ -1011,8 +1084,13 @@ https://www.academia.edu/7162561/_The_Book_of_Ruth_in_Neo_Aramaic_By_G_Goldenber
 
 https://drive.google.com/file/d/1V9z2dw_ZGHxBCGb4nTKPYOJhgwT6CCo_/view?usp=sharing",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "اليهود الأكراد في المرحلة الانتقالية: من كردستان إلى إسرائيل
+
+https://drive.google.com/file/d/1V9z2dw_ZGHxBCGb4nTKPYOJhgwT6CCo_/view?usp=sharing 
+",
+		"ku"	=> "کوردانی جوڵە لە کاتی گواستنەوەدا: لە کوردستانەوە بۆ ئیسرائیل 
+
+https://drive.google.com/file/d/1V9z2dw_ZGHxBCGb4nTKPYOJhgwT6CCo_/view?usp=sharing  ",
 		],
 
 	"publications-and-lectures-1985-social-and-economic-institutions" => [
@@ -1022,35 +1100,81 @@ Published in Hebrew in Hithadhoo, volume 5 (1985).
 
 https://www.academia.edu/7162569/_Social_and_economic_institutions_among_the_Jews_of_Kurdistan_Hithadshut_5_1985_11_22_Heb_",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "المؤسسات الاجتماعية والاقتصادية بين يهود كردستان.
+
+نُشرت بالعبرية في Hithadhoo ، المجلد ٥ (١٩٨٥).
+
+https://www.academia.edu/7162569/_Social_and_economic_institutions_among_the_Jews_of_Kurdistan_Hithadshut_5_1985_11_22_Heb_ ",
+		"ku"	=> "رێکخراوەکانی ئابووری و کۆمەڵایەتی لەناو کوردەکان. 
+
+بە زمانی عیبری لە  Hithadhoo بڵاوکرایەوە، بەرگی ٥ (١٩٨٥) .
+
+https://www.academia.edu/7162569/_Social_and_economic_institutions_among_the_Jews_of_Kurdistan_Hithadshut_5_1985_11_22_Heb_ ",
 		],
 
 	"lectures-2015-the-jews-of-kurdistan" => [
-		"en"	=> "\"The Jews of Kurdistan: Identity and Heritage\" at Bar-Ilan University in Tel Aviv.
+		"en"	=> "The Jews of Kurdistan: Identity and Heritage
+		
+Bar-Ilan University in Tel Aviv.
 
 https://youtube.com/watch?v=8xh9hY1q0kE
 
 https://drive.google.com/file/d/1YfWiAZBuq_s1n5OqASg_qtEhggWTRlGh/view?usp=sharing",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "يهود كردستان: الهوية والتراث
+
+جامعة بار إيلان في تل أبيب.
+
+https://www.youtube.com/watch?v=8xh9hY1q0kE 
+
+https://drive.google.com/file/d/1YfWiAZBuq_s1n5OqASg_qtEhggWTRlGh/view?usp=sharing 
+
+https://www1.biu.ac.il/File/news/file_biu_14_12_31_10_26.pdf
+",
+		"ku"	=> "جووەکانی کوردستان: ناسنامە و کەلەپوور
+
+زانکۆی بار ئیلان لە تل ئەبیب.
+
+https://www.youtube.com/watch?v=8xh9hY1q0kE 
+
+https://drive.google.com/file/d/1YfWiAZBuq_s1n5OqASg_qtEhggWTRlGh/view?usp=sharing 
+
+
+https://www1.biu.ac.il/File/news/file_biu_14_12_31_10_26.pdf ",
 		],
 
 	"lectures-2013-world-kurdish-congress" => [
-		"en"	=> "\"The Jews of Kurdistan\" at the World Kurdish Congress (WKC) in Stockholm, Sweden.
+		"en"	=> "The Jews of Kurdistan
+		
+World Kurdish Congress (WKC) in Stockholm, Sweden.
 
 https://youtube.com/watch?v=9FODj66nvkk",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "يهود كردستان
+
+المؤتمر الكردي العالمي (WKC) في ستوكهولم ، السويد. 
+
+https://www.youtube.com/watch?v=9FODj66nvkk ",
+		"ku"	=> "جووەکانی کوردستان
+
+کۆنگرەی کوردی جیهانی    (KWC) لە ستۆکهۆڵم، سوید. 
+
+
+https://www.youtube.com/watch?v=9FODj66nvkk ",
 		],
 
 	"lectures-2011-jews-and-christians" => [
-		"en"	=> "\"Jews and Christians in the tribal Kurdish society\" at Haifa University.",
+		"en"	=> "Jews and Christians in the tribal Kurdish society
+		
+Haifa University.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "اليهود والمسيحيون في المجتمع الكردي القبلي
+
+جامعة حيفا.",
+		"ku"	=> "
+جووەکان و کرستیانەکان لەناو کۆمەڵگا هۆزی کوردیدا
+
+زانکۆی هەیفا ",
 		],
 
 	"lectures-2011-the-tribal-kurdish-society" => [
@@ -1061,122 +1185,195 @@ https://youtube.com/watch?v=9FODj66nvkk",
 		],
 
 	"lectures-2010-the-jews-and-the-tribal-kurdish-society" => [
-		"en"	=> "\"The Jews and the tribal Kurdish society\" at the Dayan Center, Tel Aviv University.",
+		"en"	=> "The Jews and the tribal Kurdish society
+		
+Dayan Center, Tel Aviv University.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "المجتمع الكردي القبلي ويهود كردستان وإسرائيل
+
+جيسن بألمانيا.",
+		"ku"	=> "کۆمەڵگای هۆزی کوردی و جووەکانی کوردستان و ئیسرائیل
+
+گیسن، ئەڵمانیا. ",
 		],
 
 	"lectures-2010-on-the-jews-kurds-and-palestinians" => [
-		"en"	=> "\"On the Jews, Kurds and Palestinians\" at the Parliament in Berlin.",
+		"en"	=> "On the Jews, Kurds and Palestinians
+		
+Parliament in Berlin.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "حول اليهود والأكراد والفلسطينيين
+
+البرلمان في برلين.",
+		"ku"	=> "لەسەر جولەکان، کوردەکان، فەڵەستینیەکان
+
+پەرلەمانی بەرلین.",
 		],
 
 	"lectures-2010-jews-and-the-christians-in-kurdistan" => [
-		"en"	=> "\"Jews and the Christians in Kurdistan and Lutheran missionaries in the 19th and 20th century\" at the Lutheran Church, the Old City of Jerusalem.",
+		"en"	=> "Jews and the Christians in Kurdistan and Lutheran missionaries in the 19th and 20th century
+
+Lutheran Church, the Old City of Jerusalem.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "اليهود والمسيحيون في كردستان واللوثريون في القرن التاسع عشر والقرن العشرين
+
+الكنيسة اللوثرية بالبلدة القديمة في القدس.",
+		"ku"	=> "جووەکان و کرستیانەکان لە کوردستان و لۆسەریەکان لە سەدەکانی ١٩ و ٢٠
+
+کڵێسەی لۆسەری، لە ئۆرشەلیم ی کۆن.",
 		],
 
 	"lectures-2008-some-aspects" => [
-		"en"	=> "\"Some Aspects about the Christian Minorities in Israel and the Middle East\" at the Ecumenical Theological Research Fraternity in Israel.",
+		"en"	=> "Some Aspects about the Christian Minorities in Israel and the Middle East
+		
+Ecumenical Theological Research Fraternity in Israel.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "بعض الجوانب المتعلقة بالأقليات المسيحية في إسرائيل والشرق الأوسط
+
+أخوية البحوث اللاهوتية المسكونية في إسرائيل.",
+		"ku"	=> "هەندێک لایەنی تایبەت بە کەمینەکانی کرستیانەکان لە ئیسرائیل و لە رۆژهەلاتی ناوەراست
+
+توێژینەوەکانی لاهوتی هەستی برایەنە لە ئیسرائیل.
+",
 		],
 
 	"lectures-2005-the-case-of-the-kurds" => [
-		"en"	=> "\"The Case of the Kurds\" at the conference on the Politics of Forced Migration, at the Lawyers' Chamber, Jerusalem.",
+		"en"	=> "The Case of the Kurds
+
+Conference on the Politics of Forced Migration, at the Lawyers' Chamber, Jerusalem.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "حالة الكرد
+
+مؤتمر سياسة الهجرة القسرية بقاعة المحامين بالقدس.",
+		"ku"	=> "
+کەیسی کوردەکان
+
+کۆنفرانسی سیاسەتی کۆچبەری ناچاری، لە هۆڵی پارێزەرەکان لە ئۆرشەلیم . ",
 		],
 
 	"lectures-2004-research-of-the-jews-and-minorities-of-kurdistan" => [
-		"en"	=> "\"Research of the Jews and minorities of Kurdistan\" at the conference entitled \"We were Zionists: The community of Zakho in Kurdistan\" at the Yad Ben Zvi Institute, Jerusalem.",
+		"en"	=> "Research of the Jews and minorities of Kurdistan
+		
+Conference entitled \"We were Zionists: The community of Zakho in Kurdistan\" at the Yad Ben Zvi Institute, Jerusalem.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> 'بحث عن يهود وأقليات كوردستان
+
+مؤتمر "كنا صهاينة: مجتمع زاخو في كردستان" في معهد ياد بن تسفي بالقدس.',
+		"ku"	=> 'لێکۆڵینەوەیەک لەسەر جووەکان  و کەمینەکانی کوردستان
+
+کۆنفرانسێکدا بە ناوی" ئێمە زایۆنیست(جووگەر) بووین: کۆمەڵگای زاخۆ لە کوردستان" لە پەیمانگای یاد بن زڤی لە ئۆرشەلیم .
+',
 		],
 
 	"lectures-2003-remarks-on-kurdistani-jews" => [
-		"en"	=> "\"Remarks on Kurdistani Jews\" at the 3rd International Congress of the Babylonian Jewry Heritage Center.",
+		"en"	=> "Remarks on Kurdistani Jews
+		
+The 3rd International Congress of the Babylonian Jewry Heritage Center.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "ملاحظات حول يهود كردستان
+
+المؤتمر الدولي الثالث لمركز التراث اليهودي البابلي.",
+		"ku"	=> "لێدوانەکان لەسەر کوردانی جوو
+
+کۆنگرەی سێیەمی نیودەوڵەتی لە سەنتەری کەلەپوری یەهودی بابلی.",
 		],
 
 	"lectures-2000-notes-on-the-history" => [
-		"en"	=> "\"Notes on the History of the Kurdistani Jews\" at the conference Between Kurdistan and the Jews of Bavel, at the Babylonian Jewry Heritage Center.",
+		"en"	=> "Notes on the History of the Kurdistani Jews
+		
+The conference Between Kurdistan and the Jews of Bavel, at the Babylonian Jewry Heritage Center.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "ملاحظات حول تاريخ يهود كردستان
+
+مؤتمر بين كوردستان ويهود بافل في مركز التراث اليهودي البابلي.
+",
+		"ku"	=> "تێبینیەکان لەسەر مێژووی جووەکانی کوردستان،
+
+کۆنفرانسی نێوان کوردستان و جووەکانی باڤیل دا لە سەنتەری کەلەپوری یەهودی بابلی. 
+",
 		],
 
 	"lectures-1998-minorities-in-israel" => [
-		"en"	=> "\"Minorities in Israel and the Middle East\" a presentation on behalf the Israeli delegation at the \"International Convention on the Elimination of all Forms of Racial Discrimination\" (CERD), at the Palais des Nations, Geneva.",
+		"en"	=> "Minorities in Israel and the Middle East
+		
+Presentation on behalf the Israeli delegation at the \"International Convention on the Elimination of all Forms of Racial Discrimination\" (CERD), at the Palais des Nations, Geneva.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> '"الأقليات في إسرائيل والشرق الأوسط
+
+عرض نيابة عن الوفد الإسرائيلي في "الاتفاقية الدولية للقضاء على جميع أشكال التمييز العنصري" ، في قصر الأمم ، جنيف.',
+		"ku"	=> 'کەمینەکان لە ئیسرائیل و رۆژهەلاتی ناوەراست
+
+  پێشکێشکردنێک (پرێزنتەیشن) بوو لە جیاتی وەفدی ئیسرائیلی لە "رێکەوتنامەی نێودەوڵەتی بۆ لابردنی هەموو جۆرە جیاکردنەوەیێکی عونسری و نەتەوەیی (CERD)" لە کۆشکی نەتەوەکان، لە جنێف.'
 		],
 
 	"lectures-1997-the-kurdish-minority" => [
-		"en"	=> "\"The Kurdish minority\" at the Conference on \"Minorities, Strangers and Others\" at the Van Leer Institute, Jerusalem.",
+		"en"	=> "The Kurdish minority
+		
+Conference on \"Minorities, Strangers and Others\" at the Van Leer Institute, Jerusalem.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> 'الأقلية الكردية
+
+مؤتمر "الأقليات والغرباء وغيرهم" ، معهد فان لير ، القدس.
+',
+		"ku"	=> 'کەمینەی کورد
+
+کۆنفرانسێک لەسەر "کەمینەکان، نە ناسیارەکان و ئەوانەی دیکە"، لە پەیمانگای ڤان لیر، لە ئۆرشەلیم. ',
 		],
 
 	"lectures-1994-the-suffering-of-the-kurdish-people" => [
-		"en"	=> "\"The suffering of the Kurdish people\" presented to the parliamentary committee on xenophobia and hatred of strangers, at the Knesset.",
+		"en"	=> "The suffering of the Kurdish people
+		
+Ppresented to the parliamentary committee on xenophobia and hatred of strangers, at the Knesset.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "معاناة الشعب الكردي
+
+محاضرة في الكنيست أمام اللجنة البرلمانية حول كراهية الأجانب وكراهية الغرباء.
+",
+		"ku"	=> "نەخۆشیەکانی خەڵکی  کورد
+ 
+وتارێکە بەرامبەر لیژنەی پەرلەمان لەسەر ڕق لە بێگانەکان لە کەنیست.",
 		],
 
 	"the-jews-of-kurdistan-this-is-highly-original" => [
 		"en"	=> "[This] is highly original and makes a significant contribution … His documentation is based on firsthand information, and is of the highest value.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "[هذا] أصلي للغاية ويقدم مساهمة كبيرة ... يعتمد توثيقه على معلومات مباشرة ، وهو ذو قيمة عالية.",
+		"ku"	=> "ئەمە زۆر بنەڕەتی و ئەسڵی یە و بەشدارییێکی گرنگ و بەرچاو دەخاتە روو...و پشتراستبوونی دۆکیۆمێنتکردنی بنەڕەتە لەسەر زانیاری ڕاستەوخۆ، و یەکێکە لە بەها بەرزەکانی.",
 		],
 
 	"joyce-blau" => [
 		"en"	=> "Prof. Joyce Blau, scholar",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "البروفيسور جويس بلاو ، باحث",
+		"ku"	=> "پرۆفیسۆر جۆیس بلاو، لێکۆڵەر",
 		],
 
 	"the-jews-of-kurdistan-this-is-an-original" => [
 		"en"	=> "This is an original, comprehensive study on the Jewish community in Kurdistan in the last stages of its existence, during the first half of the 20th century. The scope of this study is far wider than its name.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "هذه دراسة أصيلة وشاملة عن الجالية اليهودية في كردستان في المراحل الأخيرة من وجودها ، خلال النصف الأول من القرن العشرين. نطاق هذه الدراسة أوسع بكثير من اسمها.",
+		"ku"	=> "ئەمە لێکۆڵینەوەیێکی ڕەسەن و گشتگیرە لەسەر رەوەندی جووەکان لە کوردستان لە دوایین قۆناغەکانی مانەوەیان، لە ماوەی نیوەی یەکەمی سەدەی بیستەم. مەودای ئەم لێکۆڵینەوە زۆر فراوانترە لە ناوەکەی.",
 		],
 
 	"moshe-sharon" => [
 		"en"	=> "Prof. Moshe Sharon, Hebrew University",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "الأستاذ موشيه شارون ، الجامعة العبرية",
+		"ku"	=> "پرۆفیسۆر مۆشیە شارۆن، زانکۆی عیبری",
 		],
 
 	"the-jews-of-kurdistan-tells-the-stories" => [
 		"en"	=> "The Jews of Kurdistan tells the stories of Jewish subjects that had lived and survived under the patronage of their tribal chieftains (or ‘aghas,’ i.e., masters) during the 19th and 20th centuries, in towns as well as in distant villages.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> 'يروي يهود كردستان قصص رعايا يهود عاشوا ونجوا تحت رعاية زعماء قبائلهم (أو أسيادهم "الأغوات") خلال القرنين التاسع عشر والعشرين ، في المدن وكذلك في القرى البعيدة.',
+		"ku"	=> "جووەکانی کوردستان باسی چیرۆکەکانی رەوەندەکانی جووەکان دەکەن ئەوانەی ژیاون لە ژێر چاودێری سەرۆک هۆزەکانیان (یان گەورەکانیان 'ئاغایەکان) لە ماوەی سەدەکانی نۆزدە و بیست، لە شارۆچکەکان و هەروەها گوندەکانی دوورەدەست دا. ",
 		],
 
 	"the-jews-of-kurdistan-the-aim-of-the-author" => [
 		"en"	=> "The aim of the author of the thesis was exhaustively to describe the relations between the Kurdish chiefs and their Jewish subjects during the first part of the 20th century in northwestern Iraqi Kurdistan.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "كان هدف مؤلف الأطروحة هو وصف العلاقات بين الزعماء الأكراد ورعاياهم اليهود خلال الجزء الأول من القرن العشرين في شمال غرب كردستان العراق.",
+		"ku"	=> "ئامانجی نووسەری ئەم دکتۆرانامە و ماستەرنامانە وەسفی پەیوەندیەکانی لە نێوان سەرکردە و ئاغاکانی کورد و هاووڵاتیەکانیانی جوو دا بوو لە ماوەی بەشی یەکەمی سەدەی بیست لە باکوری رۆژئاوای کوردستانی عێراق.",
 		],
 
 	"the-jews-of-kurdistan-it-so-happened" => [
