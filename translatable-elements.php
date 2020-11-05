@@ -112,8 +112,8 @@
 		"ku"	=> "ئیسرائیل",
 		],
 
-	"minorities-affairs" => [
-		"en"	=> "Minorities Affairs",
+	"minority-affairs" => [
+		"en"	=> "Minority Affairs",
 		"he"	=> "",
 		"ar"	=> "شؤون الأقليات",
 		"ku"	=> "کاروباری کەمینەکان",
@@ -507,7 +507,7 @@
 		],
 
 	"condensed-highlights-timeline-2001-adviser" => [
-		"en"	=> "Adviser on Minorities Affairs at Israel's Ministry of Internal Security.",
+		"en"	=> "Adviser on Minority Affairs at Israel's Ministry of Internal Security.",
 		"he"	=> "",
 		"ar"	=> "مستشار شؤون الأقليات في وزارة الأمن الداخلي الإسرائيلية.",
 		"ku"	=> "ڕاوێژکاری کاروباری کەمینەکان لە وەزارەتی ئەمنی داخلی ئیسرائیلی.",
@@ -1797,63 +1797,63 @@ Ppresented to the parliamentary committee on xenophobia and hatred of strangers,
 		"ku"	=> "د. زاکین (لە لای ڕاست) لەگەڵ سەرۆک وەزیران نەتەنیاهۆ و ڕۆڤین ریڤلین ( سەرۆکی ئێستا) لەکاتی سەرەدانیان بۆ گوندەکانی بەدوو لە نەقەب، لە ماوەی کاری د. زاکین دا وەکو ڕاوێژکاری کاروباری عەرەبەکان. سیرکا 1998.",
 		],
 
-	"minorities-affairs-in-israel-he-founded" => [
+	"minority-affairs-in-israel-he-founded" => [
 		"en"	=> "In Israel, he founded the Government - Christians Forum (2015) which was devoted to the needs of Christians of Western denominations (mostly evangelical) in Israel. At the core of Dr. Zaken's work on Arab, Bedouin, Christian, and other minority affairs is attention to improving life for all Israelis, a commitment to Israeli democracy, and a dedication to eradicating hate crimes and extremism.",
 		"he"	=> "",
 		"ar"	=> "في إسرائيل ، أسس منتدى الحكومة - المسيحيين (2015) الذي كان مكرسًا لاحتياجات المسيحيين من الطوائف الغربية (معظمهم من الإنجيليين) في إسرائيل. في صميم عمل الدكتور زاكين حول شؤون العرب والبدو والمسيحيين والأقليات الأخرى هو الاهتمام بتحسين الحياة لجميع الإسرائيليين ، والالتزام بالديمقراطية الإسرائيلية ، والتفاني في القضاء على جرائم الكراهية والتطرف.",
 		"ku"	=> "لە ئیسرائیل، ئەو کۆڕبەندی حکومەت-کریستیانەکان (2015) دامەزراند ئەوەی تەرخانکرا بوو بۆ پێویستیەکانی کریستیانەکانی بە ئایینزا رۆژئاوایی (زۆربەیان ئینجیلین) لە ئیسرائیل. بەشی سەرەکی کاری د. زاکین لەسەر کاروباری عەرەبەکان، بەدووەکان (کۆچەر)، کریستیانەکان و کەمینەکانی دیکە ئەوە کە گرنگی بە باشترکردنی ژیان بدات بۆ هەموو ئیسرائیلیەکان، و پابەندبوون بە دیموکراسیەتی ئیسرائیل و،کارکردن لەپێناو نەهێشتنی تاوانەکانی توندڕەوی و ڕق لە یەکتربوون.  ",
 		],
 
-	"minorities-affairs-in-my-position" => [
+	"minority-affairs-in-my-position" => [
 		"en"	=> "In my position, I understand the importance of having a strong, defended and prospering Christian community in Israel.",
 		"he"	=> "",
 		"ar"	=> "في موقفي ، أفهم أهمية وجود مجتمع مسيحي قوي ومدافع ومزدهر في إسرائيل.",
 		"ku"	=> "لە شوێنەکەم دا، گرنگی هەبوونی کۆمەڵگایێکی کرستیانی بە هێز و بە بەرگری و سەرکەوتوو تێدەگەم.",
 		],
 
-	"minorities-affairs-during-the-second-lebanon-war" => [
+	"minority-affairs-during-the-second-lebanon-war" => [
 		"en"	=> "During the Second Lebanon War in 2006, many shells and bombs fell in the north of Israel. One such shell fell in Nazareth, in a courtyard of a garage. The photo shows Dr. Zaken visiting this courtyard along with Deputy Mayor of Nazareth Ali Salam (today the Mayor), as well as an Anglican Archbishop and the police chief.",
 		"he"	=> "",
 		"ar"	=> "خلال حرب لبنان الثانية عام 2006 ، سقطت العديد من القذائف والقنابل في شمال إسرائيل. سقطت إحدى هذه القذائف في مدينة الناصرة ، في ساحة مرآب. تُظهر الصورة الدكتور زاكين وهو يزور هذا الفناء مع نائب رئيس بلدية الناصرة علي سلام (رئيس البلدية حاليًا) ، بالإضافة إلى رئيس أساقفة إنجليكاني وقائد الشرطة.",
 		"ku"	=> "لە کاتی جەنگی دووەمی لوبنان دا 2006، زۆر تۆپ و تەقەمەنی بە باکوری ئیسرائیل کەوتن. یەکێک لەم تۆپانە لە شاری نازەریث کەوتە خوارەوە، لە گۆرەپانی گەراجێک. لە وێنەکدا دیارە د. زاکین سەرەدانی ئەم شوێنە دەکات لەگەڵ جێگری سەرۆکی شارەوانی نازەریث عەلی سەلام ( ئێستا سەرۆکی شارەوانیە)، و هەروەها لەگەڵ سەرۆکی قەشەکان و بەڕێوبەرێکی پۆلیس. ",
 		],
 
-	"minorities-affairs-interview-about-the-importance" => [
+	"minority-affairs-interview-about-the-importance" => [
 		"en"	=> "Interview about the importance of Christians in the region and in Israel.",
 		"he"	=> "",
 		"ar"	=> "مقابلة حول أهمية المسيحيين في المنطقة وفي إسرائيل.",
 		"ku"	=> "چاوپێکەوتنەک لەسەر گرنگی کریستیانەکان لە ناوچەکە و لە ئیسرائیل.",
 		],
 
-	"minorities-affairs-it-is-very-important-that-we-will" => [
+	"minority-affairs-it-is-very-important-that-we-will" => [
 		"en"	=> "It is very important that we will cooperate to solve problems, and to improve relations. We value the Christian groups and representatives. They are a very important asset for the Jewish state.",
 		"he"	=> "",
 		"ar"	=> "من المهم للغاية أن نتعاون لحل المشاكل وتحسين العلاقات. نحن نقدر الجماعات والممثلين المسيحيين. إنهم رصيد مهم للغاية للدولة اليهودية.",
 		"ku"	=> "زۆر گرنگە لەگەڵ یەکتر هاوکاربین بۆ چارەسەرکردنی کێشەکان و باشترکردنی پەیوەندیەکان. ئێمە کۆمەڵەی کریستیانەکان و نوێنەرەکانیان بە گرنگ دەزانین. ئەوان سامانێکی گرنگن بۆ وڵاتی ئیسرائیل. ",
 		],
 
-	"minorities-affairs-interview-about-meetings-organized" => [
+	"minority-affairs-interview-about-meetings-organized" => [
 		"en"	=> "Interview about meetings organized by Dr. Zaken between Israeli officials and Christian leaders.",
 		"he"	=> "",
 		"ar"	=> "مقابلة حول اللقاءات التي نظمها الدكتور زاكين بين مسؤولين إسرائيليين وقادة مسيحيين.",
 		"ku"	=> "چاوپێکەوتنەک دەربارەی ئەو کۆبوونەوانەی لە لایەن د. زاکینەوە رێکخرا بوون لە نێوان بەرپڕسانی ئیسرائیلی و سەرکردەکانی کریستیانەکان. ",
 		],
 
-	"minorities-affairs-interview-about-combating" => [
+	"minority-affairs-interview-about-combating" => [
 		"en"	=> "Interview about combating anti-Christian hate.",
 		"he"	=> "",
 		"ar"	=> "مقابلة حول مكافحة الكراهية ضد المسيحيين.",
 		"ku"	=> "چاوپێکەوتنێک دەربارەی بەرەنگار بوونەوەی ڕق لێیەتی کریستیانەکان.",
 		],
 
-	"minorities-affairs-its-not-enough-to-only-show-solidarity" => [
+	"minority-affairs-its-not-enough-to-only-show-solidarity" => [
 		"en"	=> "It's not enough to only show solidarity. We must continue to educate those who are responsible for hate. Also, we have to make sure that the police and other authorities will find those responsible for hate crimes. They must be caught and brought into trial.",
 		"he"	=> "",
 		"ar"	=> "لا يكفي إظهار التضامن فقط. يجب أن نستمر في تثقيف المسؤولين عن الكراهية. أيضًا ، علينا التأكد من أن الشرطة والسلطات الأخرى ستعثر على المسؤولين عن جرائم الكراهية. يجب القبض عليهم وتقديمهم للمحاكمة.",
 		"ku"	=> "پیشاندانی هاوبەستی تەنها بەس نیە. دەبێت بەردەوام بین لەسەر پەروەردەکردنی ئەو کەسانەی کە بەرپڕسن لەم توندڕەوی و ڕق لەیەکتر بوونە. هەروەها، دەبێت دڵنیا بین کە پۆڵیس و دەستەڵاتدارانی دیکە ئەو کەسانە بدۆزنەوە کە بەرپرسن لە تاوانەکانی ڕ‌ق و کینە. دەبێت دەستگیربکرێن و ڕاپێچی دادگا بکرێن.",
 		],
 
-	"minorities-affairs-meeting-with-the-greek-orthodox-patriarch" => [
+	"minority-affairs-meeting-with-the-greek-orthodox-patriarch" => [
 		"en"	=> "Meeting with the Greek Orthodox Patriarch.",
 		"he"	=> "",
 		"ar"	=> "لقاء مع بطريرك اليوناية الأرثوذكسية.",
