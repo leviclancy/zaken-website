@@ -28,7 +28,7 @@ $sitemap_array = [
 		"world-kurdish-forum",
 		],
 	"israel" => [
-		"minorities-affairs",
+		"minority-affairs",
 		],
 	"press-coverage" => [
 //		"press-history",
@@ -975,37 +975,37 @@ if ($pageview_request == "israel"):
 
 	endif;
 
-if ($pageview_request == "minorities-affairs"):
+if ($pageview_request == "minority-affairs"):
 
-	echo "<p>". translatable_elements("minorities-affairs-in-israel-he-founded") ."</p>";
+	echo "<p>". translatable_elements("minority-affairs-in-israel-he-founded") ."</p>";
 
-	echo blockquote("minorities-affairs-in-my-position", "dr-mordechai-zaken");
+	echo blockquote("minority-affairs-in-my-position", "dr-mordechai-zaken");
 
-	echo image_output("/media/website-29.jpg", "1.5", "1", "minorities-affairs-during-the-second-lebanon-war");
+	echo image_output("/media/website-29.jpg", "1.5", "1", "minority-affairs-during-the-second-lebanon-war");
 
 	echo "<figure>";
 	echo "<amp-youtube data-videoid='6fvQdbLJOBQ' layout='responsive' width='640' height='360'></amp-youtube>";
-	echo "<figcaption>". translatable_elements("minorities-affairs-interview-about-the-importance") ."</figcaption></figure>";
+	echo "<figcaption>". translatable_elements("minority-affairs-interview-about-the-importance") ."</figcaption></figure>";
 	
-	echo blockquote("minorities-affairs-it-is-very-important-that-we-will", "dr-mordechai-zaken");
+	echo blockquote("minority-affairs-it-is-very-important-that-we-will", "dr-mordechai-zaken");
 
 	echo "<figure>";
 	echo "<amp-youtube data-videoid='i8yI-SLzSKg' layout='responsive' width='640' height='360'></amp-youtube>";
-	echo "<figcaption>". translatable_elements("minorities-affairs-interview-about-meetings-organized") ."</figcaption></figure>";
+	echo "<figcaption>". translatable_elements("minority-affairs-interview-about-meetings-organized") ."</figcaption></figure>";
 	
 	echo "<figure>";
 	echo "<amp-youtube data-videoid='B3tVz2kAv1k' layout='responsive' width='640' height='360'></amp-youtube>";
-	echo "<figcaption>". translatable_elements("minorities-affairs-interview-about-combating") ."</figcaption></figure>";
+	echo "<figcaption>". translatable_elements("minority-affairs-interview-about-combating") ."</figcaption></figure>";
 	
-	echo blockquote("minorities-affairs-its-not-enough-to-only-show-solidarity", "dr-mordechai-zaken");
+	echo blockquote("minority-affairs-its-not-enough-to-only-show-solidarity", "dr-mordechai-zaken");
 
 	echo "<figure>";
 	echo "<amp-youtube data-videoid='Mn88fWoYmYY' layout='responsive' width='640' height='360'></amp-youtube>";
-	echo "<figcaption>". translatable_elements("minorities-affairs-interview-about-combating") ."</figcaption></figure>";
+	echo "<figcaption>". translatable_elements("minority-affairs-interview-about-combating") ."</figcaption></figure>";
 	
 	echo "<figure>";
 	echo "<amp-youtube data-videoid='KK2l8vaqrLo' layout='responsive' width='640' height='360'></amp-youtube>";
-	echo "<figcaption>". translatable_elements("minorities-affairs-meeting-with-the-greek-orthodox-patriarch") ."</figcaption></figure>";
+	echo "<figcaption>". translatable_elements("minority-affairs-meeting-with-the-greek-orthodox-patriarch") ."</figcaption></figure>";
 	
 	endif;
 
