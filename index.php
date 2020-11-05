@@ -95,7 +95,7 @@ echo '<link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap
 // Material icons
 echo '<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">';
 
-echo "<title>". translatable_elements($pageview_request) ."</title>";
+echo translatable_elements($pageview_request, $language_request, "title");
 
 echo "<meta name='theme-color' content='#2878b4'>";
 
@@ -436,7 +436,7 @@ echo '<amp-animation id="fadeTransition"
   </script>
 </amp-animation>';
 
-function translatable_elements($string_id, $language_temp=null) {
+function translatable_elements($string_id, $language_temp=null, $html_tag_temp=null) {
 	global $translatable_elements;
 	global $language_request;
 	
@@ -472,7 +472,8 @@ function translatable_elements($string_id, $language_temp=null) {
 			endforeach;
 		endif;
 	
-	return "<span class='".$language_temp."'>". trim(str_replace("  ", " ", $translatable_element)) ."</span>";
+	if ($html_tag_temp == null): $html_tag_temp = "span"; endif;
+	return "<".$html_tag_temp." class='".$language_temp."'>". trim(str_replace("  ", " ", $translatable_element)) ."</". $html_tag_temp .">";
 	
 	}
 	
@@ -1083,7 +1084,7 @@ echo "<div id='Contact'>";
 
 	echo "<dl id='contact-footer-primary'>";
 		echo "<dt>". translatable_elements("footer-to-reach-dr-zaken") ."</dt>";
-		echo "<dd><a href='mailto:info@drmordechaizaken.com'>info@drmordechaizaken.com</a></dd>";
+		echo "<dd class='en'><a href='mailto:info@drmordechaizaken.com'>info@drmordechaizaken.com</a></dd>";
 		echo "</dl>";
 
 //	echo "<dl>";
@@ -1094,11 +1095,11 @@ echo "<div id='Contact'>";
 
 	echo "<dl>";
 		echo "<dt>". translatable_elements("footer-with-motis-permission-and-support") ."</dt>";
-		echo "<dd><a href='https://ours.foundation'>ours.foundation</a><br>";
+		echo "<dd class='en'><a href='https://ours.foundation'>ours.foundation</a><br>";
 		echo "<a href='mailto:info@ours.foundation'>info@ours.foundation</a><br>";
 		echo "<a href='https://wa.me/12072165608'>+1 (207) 216-5608</a> (WhatsApp)</dd>";
 		echo "</dl>";
 
-	echo "<p>". translatable_elements("footer-last-updated") ."</p>";
+//	echo "<p>". translatable_elements("footer-last-updated") ."</p>";
 
 	echo "</div>"; ?>
