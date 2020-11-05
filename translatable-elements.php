@@ -1962,7 +1962,7 @@ Ppresented to the parliamentary committee on xenophobia and hatred of strangers,
 		"en"	=> "With Moti’s permission and support, this website has been developed and maintained by Foundation of Ours as part of the Foundation’s mission to support Jewish expression in the Kurdistan Region. ",
 		"he"	=> "",
 		"ar"	=> "بإذن ودعم موتي ، تم تطوير موقع الويب هذا وصيانته بواسطة Foundation of Ours كجزء من مهمة المؤسسة لدعم التعبير اليهودي في إقليم كردستان.",
-		"ku"	=> "بە ڕازەمەندی و پشتگیری مۆتی، ئەم وێبسایتە دورستکراوە لە لایەن Foundation of ours ەوە وەکو بەشێک لە ئەرکی رێکخراوەکە بۆ پشتگیری کردنی دەربڕینی جووەکە لە هەرێمی کوردستان. ",
+		"ku"	=> "بە ڕازەمەندی و پشتگیری مۆتی، ئەم وێبسایتە دورستکراوە لە لایەن Foundation of Ours ەوە وەکو بەشێک لە ئەرکی رێکخراوەکە بۆ پشتگیری کردنی دەربڕینی جووەکە لە هەرێمی کوردستان. ",
 		],
 
 	]; ?>
