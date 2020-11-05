@@ -1378,71 +1378,72 @@ Ppresented to the parliamentary committee on xenophobia and hatred of strangers,
 	"the-jews-of-kurdistan-it-so-happened" => [
 		"en"	=> "It so happened that  the Jews of Kurdistan were able to preserve their own history and the history of their neighbours.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "لقد حدث أن يهود كردستان كانوا قادرين على الحفاظ على تاريخهم وتاريخ جيرانهم.",
+		"ku"	=> "وا رویدا کە لە توانای جووەکانی کوردستان دابوو پاراستن لەسەر دیرۆکی خۆیان و دیرۆکی دراوسێکانی خۆیان بکەن. ",
 		],
 
 	"the-jews-of-kurdistan-the-task-of-gathering" => [
 		"en"	=> "The task of gathering and ordering all this fieldwork was immense, and the candidate is to be congratulated on the methodology that he chose. This part of Mr. Zaken’s thesis, concerning Jewish life in Bahdinan, well complements the impressive work of the pioneer ethologist Erich Brauer.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "كانت مهمة جمع وترتيب كل هذا العمل الميداني هائلة ، ويجب تهنئة المرشح على المنهجية التي اختارها. هذا الجزء من أطروحة السيد زاكين ، المتعلقة بالحياة اليهودية في بهدينان ، يكمل بشكل جيد العمل المثير للإعجاب لعالم السلوك الرائد إريك براور.",
+		"ku"	=> "کاری کۆکردنەوە و رێکخستنەوەی ئەم هەموو کاری مەیدانی ئیشێکی گەورە بوو، و دەبێت پیرۆزبایی لە کاندیدەکە بکرێت لەسەر ئەو شێوازناسیەی(مەنهەج) کە هەڵبژاردووە. ئەم بەشی بیردۆزەکانی د. زاکین، ئەوەی پەیوەندی بە ژیانی جووەکان  هەیە لە دەڤەری بادینان، تەواوکاریێکی باشە بۆ کاری کاریگەری زانای پێشەرەوا ئێریک براور.",
 		],
 
 	"the-jews-of-kurdistan-kurdish-jews-from-kurdistan" => [
 		"en"	=> "Kurdish Jews from Kurdistan immigrated to Israel and continued wearing Kurdish clothes, eating Kurdish food, and listening to Kurdish music every day of their lives. They kept the traditions of Kurdistan alive, and their stories are recorded in this authoritative book.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "اليهود الأكراد من كردستان الذين هاجروا إلى إسرائيل واستمروا في ارتداء الملابس الكردية ، وتناول الطعام الكردي ، والاستماع إلى الموسيقى الكردية كل يوم من حياتهم. لقد أبقوا تقاليد كردستان حية ، وقصصهم مسجلة في هذا الكتاب الموثوق.",
+		"ku"	=> "جووەکانی کوردی خەڵکی کوردستان ئەوانەی کۆچبەری ئیسرائیل ببون بەردەوام بوون لە لەبەرکردنی جلەکانی کوردی، خواردنی خواردەمەنی کوردی، گوێگرتنی مۆزیکی کوردی لە هەموو رۆژێکی ژیانیان دا. ئەوان دابوو نەریت و کەلەپوری کوردی زیندوویان هشت، و چیرۆکەکانیان لەم کتێبی باوەڕپێکراو دا تۆمارکراون. ",
 		],
 
 	"the-jews-of-kurdistan-many-years-were-needed" => [
 		"en"	=> "Many years were needed to accomplish this study, for two main reasons: First, the quality of the documents gathered and researched. … The second was the decision to widen the scope of the research beyond its original plan, and include in it the comparative study of the Assyrian Christians.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "كانت هناك حاجة لسنوات عديدة لإنجاز هذه الدراسة ، لسببين رئيسيين: أولاً ، جودة الوثائق التي تم جمعها والبحث فيها. …  والثاني هو قرار توسيع نطاق البحث إلى ما بعد خطته الأصلية ، وتضمينه الدراسة المقارنة للمسيحيين الآشوريين.",
+		"ku"	=> "چەندین ساڵ پێویست بوون بۆ داهێنان و تەواوکردنی ئەم لێکۆڵینەوەیە، لەبەر دوو هۆکاری سەرەکی: یەکەم، کوالێتی دۆکیۆمێنتەکانی کۆکراو و لۆکۆڵینکراو. … دووەم بریاری فراوانکردنوەوی مەودای لێکۆڵینەوەکە بوو لە دوای پلانی بنچینەیی، و لێکۆڵینەوەی بەراوردکراوی کرستیانەکانی ئاشووری لە خۆ بگرێت.",
 		],
 
 	"the-jews-of-kurdistan-buy" => [
 		"en"	=> "Buy The Jews of Kurdistan: A Study in Survival for $15 at https://kurdishjews.com",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "اشتري كتاب يهود كردستان: دراسة في البقاء مقابل 15 دولارًا على موقع  https://kurdishjews.com",
+		"ku"	=> "کتێبی جووەکانی کوردستان بکرە: لێکۆڵینەوەیێک لە مانەوە دا بە نرخی ١٥$ لە وێبسایتی https://kurdishjews.com",
 		],
 
 	"the-jews-of-kurdistan-the-study-portrays" => [
 		"en"	=> "The study portrays the life of individuals and communities and of their relationships with the government, and its judicial system, as well as with the Kurdish tribal law. Of great significance are the chapters in the research dedicated to the methods adopted by Jews in order to survive in conditions of complete inferiority, submissiveness and dependence, and with no measures of self-defense or safety outside the tribal framework.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "الدراسة تصور حياة الأفراد والمجتمعات وعلاقاتهم مع الحكومة ونظامها القضائي ، وكذلك مع قانون العشائر الكردية. إن الفصول ذات الأهمية الكبيرة في البحث مخصصة للأساليب التي اعتمدها اليهود من أجل البقاء في ظروف من الدونية الكاملة والخضوع والتبعية ، وبدون أي تدابير للدفاع عن النفس أو الأمان خارج الإطار القبلي.",
+		"ku"	=> "لێکۆڵینەوەکە وێنەی ژیانی خەڵک و کۆمەڵگایەکان دەکێشێت و هەروها پەیوەندیەکانیان لەگەڵ حکومەت، و سیستەمەکەی دادوەری، و هەروەها لەگەل دەستووری هۆزەکانی کوردی. بەشەکانی خاوەن گرنگیێکی زۆر لە لێکۆڵینەوەکەدا تەرخانکراون بەو شێوازانەی کە جووەکان  لەخۆیان گرتبوون بۆ مانەوە و ژیان کردن لە بارودۆخەکانی ئایەخی تەواو دا، ملکەچی و پشتبەستن، و بەبێ هیچ رێوشوێنێک بۆ بەرگری لەخۆکردن یان سەڵامەتی و ئەمانەت لە دەروەی چوارچێوەی هۆزیدا.",
 		],
 
 	"the-jews-of-kurdistan-dr-moshe-sharons-full-review" => [
 		"en"	=> "Dr. Moshe Sharon’s full review: https://drive.google.com/file/d/1__J6XEeHGa5zxXPV6B_uPNiI01q7XJ5d/view?usp=sharing",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "لقراءة المراجعة الكاملة للدكتور موشيه شارون: https://drive.google.com/file/d/1__J6XEeHGa5zxXPV6B_uPNiI01q7XJ5d/view?usp=sharing ",
+		"ku"	=> "بۆ خوێندنەوی پێداچۆنەوەکەی تەواوی د. مۆشیە شارۆن: https://drive.google.com/file/d/1__J6XEeHGa5zxXPV6B_uPNiI01q7XJ5d/view?usp=sharing ",
 		],
 
 	"the-jews-of-kurdistan-dr-joyce-blaus-full-review" => [
 		"en"	=> "Dr. Joyce Blau’s full review: https://drive.google.com/file/d/1xmY13QpqpykNv1HirC8m-NJdbAa-Bd5x/view?usp=sharing",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "لقراءة المراجعة الكاملة للدكتور جويس بلاو: https://drive.google.com/file/d/1xmY13QpqpykNv1HirC8m-NJdbAa-Bd5x/view?usp=sharing ",
+		"ku"	=> "پێداچۆنەوەکەی تەواوی د. جۆیس بلاو: https://drive.google.com/file/d/1xmY13QpqpykNv1HirC8m-NJdbAa-Bd5x/view?usp=sharing",
 		],
 
 	"the-jews-of-kurdistan-translations" => [
 		"en"	=> "Translations",
 		"he"	=> "",
 		"ar"	=> "الترجمات",
-		"ku"	=> "",
+		"ku"	=> "وەرگێرانەکان",
 		],
 
 	"the-jews-of-kurdistan-the-book-the-jews-of-kurdistan" => [
 		"en"	=> "The book \"The Jews of Kurdistan\" has been translated into multiple languages, including an Arabic version, which was published in Beirut. The in the inner flap of the book describes Professor Mordechai Zaken as follows,",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> 'كتاب "يهود كردستان" ترجم الى عدة لغات منها نسخة عربية صدرت في بيروت. يصف الجزء الداخلي من الكتاب الأستاذ مردخاي زاكين على النحو التالي،
+',
+		"ku"	=> 'کتێبی "جووەکانی کوردستان" بۆ چەندین زمان وەرگێڕاوە لەوانەش نوسخەی عەرەبی، کە لە بەیرووت  چاپکراوە. بەشی ناوخۆی کتێبەکە باسی پرۆفیسۆر مۆردەخای  زاکین دەکات بەم شیوەیە، ',
 		],
 
 	"the-jews-of-kurdistan-descended-from" => [
@@ -1453,15 +1454,27 @@ Ppresented to the parliamentary committee on xenophobia and hatred of strangers,
 • An expert in oral history.
 • Fluent in Farsi, Kurdish, Hebrew, and Arabic, as well as English.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "
+أصله من يهود كردستان العراق • 
+حائز على الدكتوراه من جامعة نيويورك الولايات المتحدة الاميركي •
+• استغرق مشروع كتابة الدكتوراه من العام ١٩٨٥_ ٢٠٠٢
+مورخ خبير عن يهود كردستان و المجتمع الكردي القبلي •
+• خبير في التاريخ الشفوي
+• يجيد اللغة الفارسية، والكردية والعبرية والعربية، فضلا عن اللغة الانكليزية
+",
+		"ku"	=> "• بە رەچەڵەک جولەکەی کوردستانی عێراقە.
+• بروانامەی دکتۆرا لە زانکۆی نیۆرکی ویلایەتە یەکگرتووەکان بەدەست هێناوە.
+• دکتۆرانامەکەی لە سالێ  ١٩٨٥ بۆ ساڵی ٢٠٠٢ نوسیەوە.
+• مێژووناسێکی پسپۆڕە لەسەر جووەکانی کوردستان و کۆمەڵگای هۆزیی کوردی.
+• پسپۆڕە لە میژووی زارەکی.
+• زمانی فارسی، کوردی، عیبری، و عەرەبی، و هەروەها ئینگلیزی بە باشی دەزانێت. ",
 		],
 
 	"the-jews-of-kurdistan-the-fact-that" => [
 		"en"	=> "The fact that he is an Israeli was removed from the biography printed on the book cover in Arabic. The author is indeed highly praised, but he is introduced as an American (Jewish) scholar from NYU.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "حقيقة أنه إسرائيلي شُطب من السيرة المطبوعة على غلاف الكتاب بالعربية. لقد تم الإشادة بالكاتب حقًا ، ولكن تم تقديمه باحث أمريكي (يهودي) من جامعة نيويورك.",
+		"ku"	=> "ئەو راستیەی کە دەڵێت ئەو ئیسرائیلیە لە ژییانامەکەی چاپکراوی لەسەر بەرگی کتێبیەکەی بە زمانی عەرەبی دا رەشکراوە. نووسەرەکە لە راستیدا زۆر ستایش لیکرا، بەڵام ئەو وەکو لێکۆڵەرێکی ئەمریکی(جولە) ناسراوە لە لای زانکۆی نیۆرکەوە.",
 		],
 
 	"the-jews-of-kurdistan-interestingly-the-cover" => [
