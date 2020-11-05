@@ -61,7 +61,7 @@ echo $_SERVER['QUERY_STRING']; exit;
 // If we have redirects due to invalid parameters, then assemble them
 if ($_SERVER['QUERY_STRING'] !== $sanitized_query_string):
 	header("HTTP/1.1 301 Moved Permanently");
-	header("Location: https://".$_SERVER['HTTP_HOST'].$sanitized_query_string));
+	header("Location: https://".$_SERVER['HTTP_HOST'].$sanitized_query_string);
 	exit;
 	endif;
 
