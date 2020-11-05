@@ -131,7 +131,7 @@ $style_array = [
 		],
 	
 	".ku, .ar" => [
-		"direction"	=> "ltr",
+		"direction"	=> "rtl",
 		],
 	
 	"#website-toggle-languages" => [
@@ -440,19 +440,20 @@ function translatable_elements($string_id, $language_temp=null, $html_tag_temp=n
 	global $translatable_elements;
 	global $language_request;
 	
-	$translatable_element = null;
-	
 	if (empty($language_temp)): $language_temp = $language_request; endif;
+	
+	// If the string does not exist
 	if (empty($translatable_elements[$string_id])): return; endif;
+	
+	// If the string exists, but the field for the requested language is empty
 	if (empty($translatable_elements[$string_id][$language_temp])):
 		foreach ($translatable_elements[$string_id] as $language_temp => $content_temp):
-			if (!(empty($content_temp))): $translatable_element = $content_temp; endif;
+			if (!(empty($content_temp))): break; endif;
 			endforeach;
-	else:
-		$translatable_element = $translatable_elements[$string_id][$language_temp];
-		endif;
-	
 
+	// Now get the translatable element
+	$translatable_element = $translatable_elements[$string_id][$language_temp];
+	
 	$replace_array = [];
 	
 	$string_array_temp = preg_split('/\s+/', $translatable_element, -1, PREG_SPLIT_NO_EMPTY);
