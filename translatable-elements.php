@@ -572,8 +572,8 @@
 	"condensed-highlights-timeline-1990-published" => [
 		"en"	=> "Published: The Book of Ruth. The entire Book of Ruth was translated into New-Aramaic by the great Semitic scholar Gideon Goldberg, and Dr. Zaken.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "الناشر: كتاب راعوث. تمت ترجمة سفر راعوث بأكمله إلى الآرامية الجديدة بواسطة العالم السامي العظيم جدعون غولدبرغ والدكتور زاكين.",
+		"ku"	=> "چاپکراوە: سەفەری راعوث تەواوی ئەم کتێبە وەڕگێڕاوە بۆ سەر زمانی ئارامی نوێ لە لایەن زانای سامی لێهاتووە جدعون گولدبرگ و د. زاکینەوە.",
 		],
 
 	"condensed-highlights-timeline-1989-director" => [
@@ -1058,7 +1058,7 @@ https://docs.google.com/document/d/1a8aQ9rjwOL90L2ycLMxjE9t8xpYuHQkRwYofqykb7A8/
 
 https://www.academia.edu/7162561/_The_Book_of_Ruth_in_Neo_Aramaic_By_G_Goldenberg_and_M_Zaken_in_W_Heinrichs_Ed_Studies_in_Neo_Aramaic_Cambridge_Harvard_Semitic_Studies_Series_1990_151_157",
 		"he"	=> "",
-		"ar"	=> "كتاب راعوث في الآرامية الجديدة
+		"ar"	=> "سفر راعوث في الآرامية الجديدة
 
 بقلم ب. غولدبرغ وم. زاكين. نُشرت في دراسات في الآرامية الجديدة ، بقلم كامبريدج في سلسلة دراساتها السامية بجامعة هارفارد ، بقلم دبليو هاينريش (1990).
 
@@ -1067,7 +1067,7 @@ https://www.academia.edu/7162561/_The_Book_of_Ruth_in_Neo_Aramaic_By_G_Goldenber
 https://docs.google.com/document/d/1a8aQ9rjwOL90L2ycLMxjE9t8xpYuHQkRwYofqykb7A8/edit?usp=sharing 
 
 https://www.academia.edu/7162561/_The_Book_of_Ruth_in_Neo_Aramaic_By_G_Goldenberg_and_M_Zaken_in_W_Heinrichs_Ed_Studies_in_Neo_Aramaic_Cambridge_Harvard_Semitic_Studies_Series_1990_151_157 ",
-		"ku"	=> "کتێبی راعوث بە زمانی ئارامی نوێ 
+		"ku"	=> "سەفەری راعوث بە زمانی ئارامی نوێ 
 
 لە لایەن ب.گۆلدبرێگ و م.زاکینەوە نوسراوە. لە خوێندنەکانی ئارامی نوێ دا بڵاوکرایەوە لە لایەن کامبرێجەوە لە زنجیرەی خوێندنەکانی سامی لە زانکۆی هارڤارد، و لە لایەن و.هاینریشەوە دەستکاری کراوە (1990). 
 
@@ -1856,8 +1856,8 @@ Ppresented to the parliamentary committee on xenophobia and hatred of strangers,
 	"minorities-affairs-meeting-with-the-greek-orthodox-patriarch" => [
 		"en"	=> "Meeting with the Greek Orthodox Patriarch.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "لقاء مع بطريرك اليوناية الأرثوذكسية.",
+		"ku"	=> "چاوپێکەوتنێک لەگەڵ پاتریکی ئۆرثۆدۆکسی یۆنانی.",
 		],
 
 	"press-coverage-this-affection-between-our-nations" => [
