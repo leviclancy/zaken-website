@@ -34,16 +34,13 @@ $sitemap_array = [
 //		"press-history",
 		],
 	];
-		
-// Set up redirect array
-$redirect_array_default = $redirect_array_validated = [ "pageview" => "pageview=".$pageview_request, "language" => "language=".$language_request, ];
 
 // Language is a REQUEST variable
 $language_request_allowed = [ "en"=>"En", "ku"=>"کو", "ar"=>"عر", ];
 $language_request = ( empty($_REQUEST['language']) ? null : $_REQUEST['language'] );
 
 // Check if language is valid
-if (!(isset($language_request_allowed[$language_request]))): $redirect_array_validated['language'] = "language=en"; endif;
+if (!(isset($language_request_allowed[$language_request]))): $language_request = "en"; endif;
 
 // Pageview is a REQUEST variable
 $pageview_request = ( empty($_REQUEST['pageview']) ? null : $_REQUEST['pageview'] );
@@ -54,12 +51,17 @@ foreach ($sitemap_array as $pageview_allowed => $subpageview_allowed_array):
 	if ($pageview_request == $pageview_allowed): $pageview_valid = 1; break; endif;
 	if (in_array($pageview_request, $subpageview_allowed_array)): $pageview_valid = 1; break; endif;
 	endforeach;
-if ($pageview_valid !== 1): $redirect_array_validated['pageview'] = "pageview=biographical-notes"; endif;
+if ($pageview_valid !== 1): $pageview_request = "biographical-notes"; endif;
+
+// Generate a sanitized query string
+$sanitized_query_string = "?pageview=".$pageview_request."&language=".$language_request";
+
+echo $_SERVER['QUERY_STRING']; exit;
 
 // If we have redirects due to invalid parameters, then assemble them
-if ($redirect_array_default !== $redirect_array_validated):
-	header("HTTP/1.1 301 Moved Permanently");
-	header("Location: https://".$_SERVER['HTTP_HOST']."?".implode("&", $redirect_array_validated));
+if ($_SERVER['QUERY_STRING'] !== $sanitized_query_string):
+header("HTTP/1.1 301 Moved Permanently");
+	header("Location: https://".$_SERVER['HTTP_HOST'].$sanitized_query_string));
 	exit;
 	endif;
 
