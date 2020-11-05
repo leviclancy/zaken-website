@@ -329,6 +329,7 @@ $style_array = [
 		"font-weight"		=> "700",
 		"line-height"		=> "1.4em",
 		"text-align"		=> "center",
+		"font-style"		=> "italic",
 		],
 	
 	"h1" => [
