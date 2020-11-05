@@ -88,7 +88,7 @@
 		"en"	=> "Tomb of the Prophet Nahum",
 		"he"	=> "",
 		"ar"	=> "مرقد النبي ناحوم",
-		"ku"	=> "گۆڕی  نەبی ناحوم",
+		"ku"	=> "مەزاری نەبی ناحوم",
 		],
 
 	"kurdistan-region-and-israel" => [
@@ -398,7 +398,7 @@
 		"en"	=> "Recently, he was named by the Association as the Counselor to the Kurdistan Regional Government, serving as a representative on the interests of the Jewish community and supervising the important Jewish heritage sites including the tomb of the Prophet Nahum in alQosh and other projects.",
 		"he"	=> "",
 		"ar"	=> "في الآونة الأخيرة ، عينته الجمعية مستشارًا لحكومة إقليم كردستان ، حيث عمل كممثل لمصالح الجالية اليهودية وأشرف على مواقع التراث اليهودي المهمة بما في ذلك قبر النبي ناحوم في القوش ومشاريع أخرى.",
-		"ku"	=> "لەم دواییەدا، کۆمەلەکە ئەوی وەکو راوێژکاری حکومەتی هەرێمی کوردستان دەستنیشانکرد، ئەو وەکو نوێنەر کاردەکات لەسەر بەرژەوەندیەکانی رەوەندی جووەکان و هەروەها سەرپەرشتی چەندین شوێنەکانی پاشماوەی جووەکان دەکات وەکو گۆڕی نەبی ناحوم لە ئەلقوش و پڕۆژەی دیکە.  ",
+		"ku"	=> "لەم دواییەدا، کۆمەلەکە ئەوی وەکو راوێژکاری حکومەتی هەرێمی کوردستان دەستنیشانکرد، ئەو وەکو نوێنەر کاردەکات لەسەر بەرژەوەندیەکانی رەوەندی جووەکان و هەروەها سەرپەرشتی چەندین شوێنەکانی پاشماوەی جووەکان دەکات وەکو مەزاری نەبی ناحوم لە ئەلقوش و پڕۆژەی دیکە.  ",
 		],
 
 	"condensed-highlights-coexistence-and-mutual-traditions" => [
@@ -1499,8 +1499,8 @@ Ppresented to the parliamentary committee on xenophobia and hatred of strangers,
 	"the-jews-of-kurdistan-naze-a-voice-from-the-past" => [
 		"en"	=> "Naze: A voice from the past",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "نازە: صوت من الماضي",
+		"ku"	=> "نازە: دەنگێک لە ڕابردووەوە",
 		],
 
 	"the-jews-of-kurdistan-the-publication" => [
@@ -1513,8 +1513,8 @@ Ppresented to the parliamentary committee on xenophobia and hatred of strangers,
 	"the-jews-of-kurdistan-her-grandchildren" => [
 		"en"	=> "Her grandchildren Hamza and Irfan Iktan produced both a documentary film and also a book on the topic, and reached out to Dr. Zaken about the project. Interestingly, information about Naze’s life corroborated the book perfectly, including verbatim quotes.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> 'أنتج أحفادها حمزة وعرفان إكتان فيلمًا وثائقيًا وكتابًا حول هذا الموضوع ، وتواصلوا مع الدكتور زاكين حول المشروع. ومن المثير للاهتمام ، أن المعلومات حول حياة نيز أيدت الكتاب تمامًا ، بما في ذلك الاقتباسات الحرفية.',
+		"ku"	=> 'نەوەکانی حەمزە و عەرفان ئیکتان فیلیمێکی دۆکیۆمێنتاری وکتێبێکیان لەسەر ئەم بابەتە بەرهەمهێنا و، و پەیوەندیان بە د. زاکینەوە کرد لەسەر ئەم پرۆژەیە. بە سەرەنجڕاکێشیەوە، زانیاریەکان لەسەر ژیانی نازە کتێبەکەی بە تەواوی پەسەندکرد و، قسەی نەستەقی دەقاودەق لەخۆ دەگرێت. ',
 		],
 
 	"the-jews-of-kurdistan-naze-was-coerced" => [
@@ -1556,7 +1556,7 @@ Ppresented to the parliamentary committee on xenophobia and hatred of strangers,
 		"en"	=> "The tomb of the Prophet Nahum, located in alQosh, is being renovated under the management of the Alliance for the Restoration of Cultural Heritage (ARCH) and the Kurdistan Regional Government.",
 		"he"	=> "",
 		"ar"	=> "مرقد النبي ناحوم ، الواقع في القوش ، يجري ترميمه تحت إدارة التحالف من أجل ترميم التراث الثقافي (ARCH) وحكومة إقليم كردستان. ",
-		"ku"	=> "گۆڕی  نەبی ناحوم، کە دەکەوێتە ئەلقوش ، نوژەن دەکرێت لە ژێر چاودێری هاوپەیمانەکان بۆ ژیاندنەوەی کەلەپوری کەلتووری(ARCH) و حکومەتی هەرێمی کوردستان. ",
+		"ku"	=> "مەزاری نەبی ناحوم، کە دەکەوێتە ئەلقوش ، نوژەن دەکرێت لە ژێر چاودێری هاوپەیمانەکان بۆ ژیاندنەوەی کەلەپوری کەلتووری (ARCH) و حکومەتی هەرێمی کوردستان. ",
 		],
 
 	"tomb-of-the-prophet-nahum-renovation-work" => [
