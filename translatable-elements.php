@@ -24,8 +24,8 @@
 	"prepared-by-foundation-of-ours" => [
 		"en"	=> "Official site. Prepared by Foundation of Ours.",
 		"he"	=> "",
-		"ar"	=> "موقع رسمي. من إعداد مؤسسة ئاورس.",
-		"ku"	=> "وێبسایتی فەرمی. ئامەدەکراوە لە لایەن رێکخراوەی ئاوەرس.",
+		"ar"	=> "موقع رسمي. من إعداد Foundation of Ours.",
+		"ku"	=> "وێبسایتی فەرمی. ئامەدەکراوە لە لایەن Foundation of Ours.",
 		],
 		
 	"biographical-notes" => [
@@ -81,7 +81,7 @@
 		"en"	=> "Kurdistan Region",
 		"he"	=> "",
 		"ar"	=> "إقليم كوردستان",
-		"ku"	=> "وەرگێرانەکان",
+		"ku"	=> "هەرێمی کوردستان",
 		],
 	
 	"tomb-of-the-prophet-nahum" => [
@@ -1527,323 +1527,324 @@ Ppresented to the parliamentary committee on xenophobia and hatred of strangers,
 	"kurdistan-region-dr-zaken-left-with-yona-sabar-right" => [
 		"en"	=> "Dr. Zaken (left) with Yona Sabar (right) at the Citadel in Erbil, in front of a house whose doorway had a place for a mezuzah, the Jewish relic that almost every Jewish family had on their door.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "د. زاكين (يسار) ويونا سابار (يمين) في القلعة في أربيل ، أمام منزل يوجد في باب مدخله مكان مخصص لميزوزا ، وهي بقايا يهودية تمتلكها كل عائلة يهودية تقريبًا على بابها.",
+		"ku"	=> "د. زاکین (لە لای چەپ) و یۆنا سابار (لە لای راستەوە) لە قەلای هەولێر، بەرامبەری ماڵێک کە دەروازەکەی شوێنێکی تایبەت بە میزۆرا هەبوو، ئەویش پاشماوەیەکی دێرینی جووی ە و بە نێزیکیەوە هەر ماڵێکی جوو لەسەر دەرگای خۆیان هەبوو.",
 		],
 
 	"kurdistan-region-dr-zaken-is-the-counselor" => [
 		"en"	=> "Dr. Zaken is the Counselor to the Kurdistan Region regarding Jewish concerns, religious sites, heritage sites, and culture, on behalf of the community of Jews from Kurdistan by the authority of the National Association of Jews from Kurdistan in Israel.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "الدكتور زاكين هو مستشار إقليم كوردستان فيما يتعلق بأمور اليهودية والمواقع الدينية والمواقع التراثية والثقافة ، نيابة عن الجالية اليهودية من كردستان من قبل سلطة الرابطة الوطنية لليهود من كردستان في إسرائيل.",
+		"ku"	=> "د. زاکین ڕاوێژکاری هەرێمی کوردستانە تایبەت بە کاروباری جووەکان' شوێنە ئایینیەکان و، شوێنە کەلەپوری و شارستانیەکان، لە جیاتی رەوەندی جووەکانی کورستان بە رێگەپێدانی کۆمەڵەی نیشتمانی جووەکانی کوردستان لە ئیسرائیل. ",
 		],
 
 	"kurdistan-region-newroz-celebrations" => [
 		"en"	=> "Newroz celebrations at the Peshmerga frontline.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "احتفالات نوروز على جبهة البيشمركة.",
+		"ku"	=> "ئاهەنگی نەورۆز لە چەپەرەکانی پێشمەرگە.",
 		],
 
 	"kurdistan-region-please-check-back-soon" => [
 		"en"	=> "Please check back soon for more announcements on additional projects.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "يرجى التحقق مرة أخرى قريبًا لمزيد من الإعلانات حول المشاريع الإضافية.",
+		"ku"	=> "تکایە بەمزووانە سەرەدانمان بکەروە بۆ زانینی ئاگاداری و بڵاونامەی زیاتر لەسەر پڕۆژەی دیکە.",
 		],
 
 	"tomb-of-the-prophet-nahum-the-tomb-of-the-prophet" => [
 		"en"	=> "The tomb of the Prophet Nahum, located in alQosh, is being renovated under the management of the Alliance for the Restoration of Cultural Heritage (ARCH) and the Kurdistan Regional Government.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "مرقد النبي ناحوم ، الواقع في القوش ، يجري ترميمه تحت إدارة التحالف من أجل ترميم التراث الثقافي (ARCH) وحكومة إقليم كردستان. ",
+		"ku"	=> "گۆڕی  نەبی ناحوم، کە دەکەوێتە ئەلقوش ، نوژەن دەکرێت لە ژێر چاودێری هاوپەیمانەکان بۆ ژیاندنەوەی کەلەپوری کەلتووری(ARCH) و حکومەتی هەرێمی کوردستان. ",
 		],
 
 	"tomb-of-the-prophet-nahum-renovation-work" => [
 		"en"	=> "Renovation work at the tomb of the Prophet Nahum.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "أعمال الترميم في ضريح النبي ناحوم.",
+		"ku"	=> "کاری نوژەنکردنەوە لە ئارامگای نەبی ناحوم.",
 		],
 
 	"tomb-of-the-prophet-nahum-dr-zaken-serves" => [
 		"en"	=> "Dr. Zaken serves as a member of the board which is entrusted with monitoring the site, and has been instrumental in providing the blessing of the community of Jews from Kurdistan for whom the tomb complex served as a beating heart for thousands of years.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "يعمل الدكتور زاكين كعضو في مجلس الإدارة المكلف بمراقبة الموقع ، وكان له دور فعال في تقديم مباركة المجتمع اليهودي من كردستان الذين كان مجمع المقابر بمثابة قلب نابض لآلاف السنين.",
+		"ku"	=> "د. زاکین وەکو ئەندام کاردەکات لە ئەنجومەنی کارگێڕی سپێردراو بۆ چاودێری شوێنەکە، و ڕۆلێکی دیار و بەرچاو هەیە لە دەستەبەرکردنی پیرۆزی و بەرەکتی کۆمەڵگای جووەکانی کوردستان ئەوانەی بۆیان کۆمەڵی گۆرستانەکان وەکو دڵێکە کە بە هەزاران ساڵان لێدەدات.",
 		],
 	
 	"kurdistan-region-and-israel-senior-israeli-officials" => [
 		"en"	=> "Senior Israeli officials and agents with Mala Mustafa in Kurdistan.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "مسؤولون وعملاء إسرائيليون كبار مع مالا مصطفى في كردستان.",
+		"ku"	=> "بەرپرس و نوێنەرە باڵاکانی ئیسرائیل لەگەڵ مەلا مستەفا بارزانی لە کوردستان. ",
 		],
 
 	"kurdistan-region-and-israel-in-1950-and-1951" => [
 		"en"	=> "In 1950 and 1951, the entire Kurdish Jewish community immigrated to Israel. Over the years, Israeli Kurds followed the struggle of their Muslim brothers with great interest.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "في عامي 1950 و 1951 ، هاجرت الجالية اليهودية الكردية بأكملها إلى إسرائيل. على مر السنين ، تابع أكراد إسرائيل كفاح إخوانهم المسلمين باهتمام كبير.",
+		"ku"	=> "لە ساڵەکانی 1950 و 1951 رەوەندی جووی  کوردی بە تەواوی کۆچبەری ئیسرائیل بوون. بە درێژایی چەندین ساڵ، کوردانی ئیسرائیل بەدواداچوونی هەوڵ و تێکۆشانی برایانی موسڵمانی خۆیان دەکرد بە بایەخێکی زۆرەوە. ",
 		],
 
 	"kurdistan-region-and-israel-the-initial-immigrants" => [
 		"en"	=> "The initial immigrants have established in Israel a community of hundreds of thousands of Jews from Kurdistan, through their children, grandchildren, and further descendants.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "أسس المهاجرون الأوائل في إسرائيل مجتمعًا يضم مئات الآلاف من اليهود من كردستان ، من خلال أبنائهم وأحفادهم.",
+		"ku"	=> "کۆچەرە بەراییەکان لە ئیسرائیل کۆمەڵگەیەکیان دورستکردووە کە لە سەدان هەزارن جووەکانی کوردستان پێکهاتووە، بە ڕێگای مناڵ و نەوەکانیان. ",
 		],
 
 	"kurdistan-region-and-israel-dancing-at-the-sahrane" => [
 		"en"	=> "Dancing at the Sahrane festival for Kurdish Jews, in Israel.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "الرقص في مهرجان سهران لليهود الأكراد في إسرائيل.",
+		"ku"	=> "سەما لە فێستەڤەڵی سەهرانی کوردانی جوو دا لە ئیسرائیل.",
 		],
 
 	"kurdistan-region-and-israel-mala-mustafa-at-an-israeli-air-force-base" => [
 		"en"	=> "Mala Mustafa at an Israeli Air Force base, around 1969.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "ملا مصطفى في قاعدة جوية إسرائيلية ، حوالي عام 1969.",
+		"ku"	=> "مەڵا مستەفا بارزانی لە بنکەیێکی ئاسمانی ئیسرائیلی، لە دەوروبەری سالی 1969.",
 		],
 
 	"kurdistan-region-and-israel-eliyahu-gabai-was-the-leader" => [
 		"en"	=> "Eliyahu Gabai was the leader of the Iraqi Jewish community of Aqra in the 1930s, and at that time supplied food and aid to the Kurds who were revolting against the British. Some say that this special connection between the two families helped to increase Barzani's confidence in Israel decades later.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "كان الياهو غباي زعيم الجالية اليهودية العراقية في عقرة في الثلاثينيات ، وفي ذلك الوقت كان يزود الأكراد الذين ثاروا ضد البريطانيين بالغذاء والمساعدات. يقول البعض إن هذه العلاقة الخاصة بين العائلتين ساعدت على زيادة ثقة بارزاني بإسرائيل بعد عقود.",
+		"ku"	=> "ئالیاهۆ گابای سەرۆکی ڕەوەندی جووەکانی عێراق بوو لە ئاکرێ لە ساڵەکانی 1930دا، و لەو کاتە دا هاوکاری ئەو کوردانەی دەکرد ئەوانەی دژی ئنگلیزەکان شۆرشیان ئەکرد بە خواردن و هاوکاری دیکە. هەندێک کەس دەڵین ئەم پەیوەندییەی تایبەت لەنێوان هەردوو بنەمالەکان دا هاوکار بوو بۆ زیادبوونی باوەڕی بارزانی بە ئیسرائیل دوای چەندین ساڵ. ",
 		],
 
 	"kurdistan-region-and-israel-the-late-kurdish-leader-mala-mustafa" => [
 		"en"	=> "The late Kurdish leader Mala Mustafa Barzani secretly visited Israel twice to meet with Israeli authorities. Mala Mustafa also saw David Gabai (Dawud Khawaja Khinno), his Jewish friend whose father Eliyahu Gabai had sponsored the Kurdish rebels. The special relations and bond between the Barzani family and Gabai family ultimately led to the strengthening of the relationship between Barzani and the Israel establishment. This is the ethical and historical background for the Barzani-Israel relations.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "قام الزعيم الكردي الراحل ملا مصطفى برزاني بزيارة إسرائيل سرا مرتين للقاء السلطات الإسرائيلية. رأى مالا مصطفى أيضًا ديفيد غباي (داود خواجة خنو) ، صديقه اليهودي الذي كان والده إلياهو غباي قد رعى المتمردين الأكراد. أدت العلاقة بين عائلة بارزاني وعائلة غباي في النهاية إلى تعزيز العلاقة بين بارزاني والمؤسسة الإسرائيلية. هذه هي الخلفية الأخلاقية والتاريخية لعلاقات بارزاني - إسرائيل.",
+		"ku"	=> "سەرۆکی کوردی کۆچکردوو مەڵا مستەفا بارزانی دوو جار  سەرەدانی ئیسرائیل کرد بۆ بینینی دەسەڵاتدارانی ئیسرائیلی. هەروەها مەلا مستەفا بارزانی چاوپێکەوتن لەگەڵ دەیڤد گابای (داود خەواجە خنۆ) دا کرد، هاورێ جوویەکەی ئەوەی باوکی ئیلیاهۆ گابای بوو کە پشتگیری کوردە شۆڕشگێڕەکان ئەکرد. پەیوەندییە تایبەتەکان لەنێوان بنەماڵەی بارزانی و بنەماڵی گابای دا لە کۆتاییدا بوونە هۆکاری بەهێزبوونی پەیوەندی لە نێوان بارزانی و دەزاگی ئیسرائیلی دا. ئەمەیە باکگراوندی ئەخلاقی و مێژوویی پەیوەندیەکانی بارزانی- ئیسرائیل. ",
 		],
 
 	"kurdistan-region-and-israel-moti-right-with-natan-sharansky" => [
 		"en"	=> "Moti (right) with Natan Sharansky, the decorated Israeli politician and a prisoner of Zion. Mr. Sharansky and Dr. Zaken jointly attended the World Kurdish Forum, held in October 2013 in Stockholm, to address the Kurdish audience.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "موتي (إلى اليمين) مع ناتان شارانسكي ، السياسي الإسرائيلي وسجين صهيون. حضر السيد شارانسكي والدكتور زاكين بشكل مشترك المنتدى الكردي العالمي ، الذي عقد في أكتوبر 2013 في ستوكهولم ، لمخاطبة الجمهور الكردي.",
+		"ku"	=> "مۆتی (لە لای راست) لەگەڵ ناتان شارانسکی، سیاسەتمەداری ئیسرائیلی و زیندانی زایۆن. بەرێز شارانسکی و د. زاکین پێکەوە بەشداری کۆربەندی کوردی جیهانی بوون، لە تشرینی یەکەمی 2013 لە ستۆکهۆڵم، بۆ قسەکردن لەگەڵ جەماوەری کوردی دا. ",
 		],
 
 	"kurdistan-region-and-israel-israel-has-a-moral-obligation" => [
 		"en"	=> "Israel has a moral obligation to help the Kurds. The Iraqi genocide against the Kurds is a signal that sympathy is not enough for survival in the Middle East.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "إسرائيل عليها التزام أخلاقي بمساعدة الأكراد. الإبادة الجماعية العراقية ضد الأكراد هي إشارة إلى أن التعاطف لا يكفي للبقاء في الشرق الأوسط.",
+		"ku"	=> "لەسەر ئیسرائیل ئەرکێکی ئەخلاقی هەیە بۆ هاوکاریکردنی کوردەکان. جینۆسایدی عێراقی دژی کوردەکان ئامەژەیێکە بۆ ئەوە کە تەنها هاوسۆزی بەس نیە بۆ ڕزگاربوون و مانەوە لە رۆژهەڵاتی ناوەراست. ",
 		],
 
 	"kurdistan-region-and-israel-since-the-referendum" => [
 		"en"	=> "Since the referendum on independence, there has emerged a renewed solidarity between Jews in Israel and Kurds in Kurdistan. Israeli flags waved at rallies in the Kurdistan Region, while Kurdish flags waved at rallies in Israel.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "منذ الاستفتاء على الاستقلال ، ظهر تضامن متجدد بين اليهود في إسرائيل والأكراد في كردستان. رفعت الأعلام الإسرائيلية في التجمعات في إقليم كردستان ، بينما رفعت الأعلام الكردية في التجمعات في إسرائيل.",
+		"ku"	=> "لە کاتی ڕیفڕاندۆمی سەربەخۆییەوە، پشتگیری و هاوبەستیێکی نوێ سەریهڵداوە لە نیوان جووەکانی ئیسرائیل و کوردانی کوردستان دا. ئاڵای ئیسرائیل لە کۆبوونەوەکانی جەماوەریدا بەرزدەکرایەوە لە هەرێمی کوردستان، لە کاتێکدا ئاڵای کوردستان بەرزدەکرایەوە لە کۆبوونەوە جەماوەرییەکان دا دا لە ئیسرائیل. ",
 		],
 
 	"kurdistan-region-and-israel-israeli-agent-haimke-levakov" => [
 		"en"	=> "Israeli agent Haimke Levakov (left) with Mala Mustafa in Kurdistan.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "العميل الإسرائيلي هيمكة ليفاكوف (يسار) مع ملا مصطفى في كردستان.",
+		"ku"	=> "بریکاری ئیسرائیلی هیمکە لیفڤکۆڤ ( لە لای چەپ) لە گەڵ مەڵا مستەفا بارزانی لە کوردستان.",
 		],
 
 	"kurdistan-region-and-israel-some-aghas-were-not-so-nice" => [
 		"en"	=> "Some aghas were not so nice, exploited the Jews, and took advantage of the Jews economically, physically, and other ways. However, I want to emphasize the good values, the good memories the Jews had from Kurdistan. And I want to share this with people.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "بعض الآغوات لم يكونوا لطيفين ، واستغلوا اليهود واستغلوا اليهود اقتصاديًا وجسديًا وغير ذلك من الطرق. ومع ذلك ، أريد أن أؤكد على القيم الطيبة ، الذكريات الطيبة التي كانت لدى اليهود من كردستان. وأريد مشاركة هذا مع الناس.",
+		"ku"	=> "هەندێک لە ئاغایەکان باش نەبوون و، جووەکان بۆ مەرەمی تایبەتی خۆیان بەکاردەهێنا وەکو مەرامی ئابووری و مرۆیی و چەندین مەرامی دیکە. هەرچۆنێک بێت، دەمەوێ جەخت لە بەها باشەکان بکەم، بیرەوەرییە خۆشەکانی جووەکان لە کوردستان. وە ئەمەوێ باسی ئەم شتە بکەم بۆ خەڵک. ",
 		],
 
 	"kurdistan-region-and-israel-despite-historical-antisemitism" => [
 		"en"	=> "Despite historical antisemitism by Kurdish chieftains, including attacks and abuses against the Jews under their authority, the Kurdish society has expressed an interest in the survival of Jews and Israel that reflects their own quest for self-determination.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "على الرغم من معاداة السامية التاريخية من قبل زعماء القبائل الأكراد ، بما في ذلك الهجمات والانتهاكات ضد اليهود تحت سلطتهم ، فقد أعرب المجتمع الكردي عن اهتمامه ببقاء اليهود وإسرائيل مما يعكس سعيهم الخاص لتقرير المصير.",
+		"ku"	=> "سەرەڕای دژایەتیکردنی مێژویی سامییەکان لە لایەن سەرۆک هۆزەکانی کوردەکانەوە، کە بریتین لە هێرشەکان و ‌هەڵسوکەوتی خراپ دژی جووەکان لەژێر دەسەڵاتی ئەوان، کۆمەڵگای کوردی حەزی خۆیان دەربڕیوە بۆ مانەوەی جووەکان و ئیسرائیل کە بەدواگەڕانی ئەوان بۆ چارەنووسی خۆیان دەریدەخات. ",
 		],
 
 	"kurdistan-region-and-israel-mala-mustafa-on-a-visit-to-israel" => [
 		"en"	=> "Mala Mustafa on a visit to Israel.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "ملا مصطفى في زيارة لإسرائيل.",
+		"ku"	=> "مەڵا مستەفا بارزانی لە سەرەدانێکدا بۆ ئیسرائیل.",
 		],
 
 	"kurdistan-region-and-israel-today-there-is-an-inextricable-relationship" => [
 		"en"	=> "Today, there is an inextricable relationship between Jewish people and Kurdish people in terms of culture, heritage, and existence in the Arab-majority Middle East.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "اليوم ، هناك علاقة لا تنفصم بين الشعبين اليهودي والأكراد من حيث الثقافة والتراث والوجود في الشرق الأوسط ذي الأغلبية العربية.",
+		"ku"	=> "ئەمڕۆ،  پەیوەندیێک هەیە لەنێوان گەڵی کورد و گەلی جوو دا کە لێک جیانابێتەوە لە ڕووی کەلتووری و کەلەپووری و بوونیان لە رۆژهەڵاتی ناوەڕاست کە زۆربەی عەرەبن. ",
 		],
 
  	"kurdistan-region-and-israel-the-kurds-are-entitled" => [
 		"en"	=> "The Kurds are entitled to an independent Kurdish national home just like the Jews, and they will sooner or later be granted this statehood.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "الأكراد يستحقون وطنًا قوميًا كرديًا مستقلًا تمامًا مثل اليهود ، وسيتم منحهم عاجلاً أم آجلاً هذه الدولة.",
+		"ku"	=> "کوردەکان شایستەی وڵاتێکی بە نەتەوە کورد و سەربەخۆن وەکو جووەکان، و ئەم وڵاتە پێیان دەبەخشێت چی زوو بێت یان درەنگ.
+",
 		],
 
 	"kurdistan-region-and-israel-on-january-4th-2015" => [
 		"en"	=> "On January 4th 2015, Dr. Zaken gave a lecture (in Hebrew) at Bar-Ilan University on his October 2012 trip to Kurdistan, with some remarks on the Israeli-Kurdish relations.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "في الرابع من كانون الثاني (يناير) 2015 ، ألقى الدكتور زاكين محاضرة (باللغة العبرية) في جامعة بار إيلان عن رحلته في أكتوبر 2012 إلى كردستان ، مع بعض الملاحظات حول العلاقات الإسرائيلية الكردية.",
+		"ku"	=> "لە رۆژی 4ی کانوونی دووەمی 2015، د. زاکین وانەیێک پێشکێش کرد (بە زمانی عیبری) لە زانکۆی بار ئیلان لەسەر گەشتەکەی بۆ کوردستان لە ئۆکتۆبەری 2012، و لەگەڵ چەند تێبینیێک لەسەر پەیوەندیەکانی ئیسرائیلی و کوردی.",
 		],
 
 	"world-kurdish-forum-in-early-october-2012" => [
 		"en"	=> "In early October 2012, Moti was invited by Prof. Alan Dilani, founder of the World Kurdish Forum, to attend the Forum’s conference in Erbil, the capital of the autonomous Kurdistan Region.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "في أوائل أكتوبر 2012 ، تمت دعوة موتي من قبل البروفيسور آلان ديلاني ، مؤسس المنتدى الكردي العالمي ، لحضور مؤتمر المنتدى في أربيل ، عاصمة إقليم كردستان المستقل.",
+		"ku"	=> "لە سەرەتاکانی ئۆکتۆبەری 2012، د. زاکین لە لایەن پرۆفیسۆر ئالان دیلانیەوە ، دامەزرێنەری کۆڕبەندی کوردی جیهانی،  بانگهێشتکرا بۆ ئامادەبوون لە کۆنگرەی کۆڕبەندەکە لە هەولێر، پایتەختی هەرێمی کوردستانی سەربەخۆ. ",
 		],
 
 	"world-kurdish-forum-during-the-days" => [
 		"en"	=> "During the days of the conference, I met many people and was able to see Kurdistan for myself, after more than two decades of research from afar.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "خلال أيام المؤتمر ، التقيت بالعديد من الأشخاص وتمكنت من رؤية كردستان بنفسي ، بعد أكثر من عقدين من البحث من بعيد.",
+		"ku"	=> "لە ڕۆژەکانی کۆنگرەکەدا، چاوپێکەوتنم لەگەڵ چەندین کەس دا کرد وتوانیم کوردستان ببینم، دوای زیاتر لە دوو دەیەی لێکۆڵینەوە لە دوورەوە.",
 		],
 
 	"world-kurdish-forum-moti-left-and-yona-sabar-right" => [
 		"en"	=> "Moti (left) and Yona Sabar (right) at the doorway of a former Jewish residence in Erbil Citadel, Oct. 2012",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "موتي (يسار) و يونا سابار (يمين) عند مدخل سكن يهودي سابق في قلعة أربيل ، أكتوبر 2012.",
+		"ku"	=> "مۆتی (لە لای چەپ) و یۆنا سابار (لە لای ڕاست) لە لای دەروازەی ماڵێکی پێشوتری جوو دا لە قەڵای هەولێر، ئۆکتۆبەری 2012.",
 		],
 
 	"world-kurdish-forum-at-the-citadel" => [
 		"en"	=> "At the Citadel, I came across several houses whose doorways had a small socket for a mezuzah, the case for a Hebrew scroll containing passages from the Torah, indicating of course that it had been a residence of a Jewish family.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "في القلعة ، صادفت العديد من المنازل التي تحتوي أبوابها على مقبس صغير للمیزوزة ، وهي علبة لفيفة عبرية تحتوي على مقاطع من التوراة ، مما يشير بالطبع إلى أنها كانت مسكنًا لعائلة يهودية.",
+		"ku"	=> "لە قەڵایەکە، چەندین ماڵم بینی کە لە سەر دەروازەکەیان چاڵێکی بچووک هەبوو بۆ مزوزایێک، سندوقێکی بچوکە بۆ لولەکێکی نووسینی عیبری کە لە چەند بەشی کتێبی تەورات پێکدێت، وا دەریدەخات کە ئەو ماڵی خێزانێکی جوو بوو.",
 		],
 
 	"world-kurdish-forum-families-atop-the-citadel" => [
 		"en"	=> "Families atop the Citadel.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "عائلات على قمة القلعة.",
+		"ku"	=> "خێزانەکان لەسەر قەڵایەکە.",
 		],
 
 	"world-kurdish-forum-i-visited-the-large-mosque" => [
 		"en"	=> "I visited the large mosque of the Citadel, located in a structure that had been previously a Jewish synagogue, as could be judged from its Jewish characteristics including the many symbols painted on its walls, and the purification bath adjacent to it.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "زرت المسجد الكبير للقلعة ، الذي يقع في مبنى كان في السابق كنيسًا يهوديًا ، كما يمكن الحكم عليه من خصائصه اليهودية بما في ذلك العديد من الرموز المرسومة على جدرانه ، وحمام التطهير المجاور له.",
+		"ku"	=> "سەرەدانی مزگەوتی گەورەی قەڵاتەکەم کرد، ئەوەی کە دەکەوێتە ناو تەلارێکەوە کە لە پێشوو دا کەنیشتەیێکی جووەکان بوو، هەروەک دەتوانین لە تایبەتمەندیەکانی جولەکانەوە و هەبوونی چەندین دروشمی وێنەکێشاو لەسەر دیوارەکان بڕیار لەسەر بدەین، و گەرماوی پاککردنەوە لە لایەکەوە.",
 		],
 
 	"world-kurdish-forum-moti-in-the-old-jewish-neighborhood" => [
 		"en"	=> "Moti in the old Jewish neighborhood of Zakho, during his visit in Oct. 2012.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "موتي في الحي اليهودي القديم في زاخو ، خلال زيارته في أكتوبر 2012.",
+		"ku"	=> "مۆتی لە گەڕەکی جووەکانی کۆن لە زاخۆ، لە کاتی سەرەدانکەی لە ئۆکتۆبەری 2012. ",
 		],
 
 	"world-kurdish-forum-thanks-to-the-office-of-the-kurdistan-regions-presidency" => [
 		"en"	=> "Thanks to the office of the Kurdistan Region’s Presidency, I was driven to the city of Zakho, where my father was born and which was previously home to a large Jewish community. I visited the Jewish neighborhood and the Jewish market, and I visited the remains of the small synagogue in Zakho. I also spoke with elderly local Kurds.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "بفضل مكتب رئاسة إقليم كوردستان ، تم نقلي بالسيارة إلى مدينة زاخو ، حيث ولد والدي والتي كانت في السابق موطنًا لجالية يهودية كبيرة. زرت الحي اليهودي والسوق اليهودي ، وزرت بقايا الكنيس الصغير في زاخو. كما تحدثت مع أكراد محليين مسنين.",
+		"ku"	=> "سپاسی مەکتەبی سەرۆکایەتی هەرێمی کوردستان دەکەم کە ئەوان منیان برد بۆ باژێری زاخۆ، ئەو شوێنەی کە باوکم لێی دایکبووە و کە لە ڕابردووودا نیشتمانی رێژەیێکی زۆری جووەکان بوو، و سەرەدانی پاشماوەکانی کنیشتەی بچووکم کرد لە زاخۆ. هەروەها قسەم لەگەڵ پیاوە بە تەمەنەکانی کوردم دا کرد.",
 		],
 
 	"israel-jaffa-street-in-jerusalem" => [
 		"en"	=> "Jaffa Street in Jerusalem.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "شارع يافا في القدس.",
+		"ku"	=> "شەقامی یافا لە ئۆرشەلیم.",
 		],
 
 	"israel-israel-is-a-safe-haven" => [
 		"en"	=> "Israel is a safe haven in this region, in the Middle East, and in the cradle of mankind.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "إسرائيل ملاذ آمن في هذه المنطقة وفي الشرق الأوسط وفي مهد البشرية.",
+		"ku"	=> "ئیسرائیل پەناگەیێکی ئارامە لەم ناوچەیە و لە رۆژهەڵاتی ناوەڕاست، و لە بێشکەی مرۆڤایەتیدا.",
 		],
 
 	"israel-dr-zaken-served" => [
 		"en"	=> "Dr. Zaken served as the National Director of the Institute of Students and Faculty on Israel (ISFI) in New York (1988-1991), and when returning to Israel, he continued his academic career, studying Islamic and Middle Eastern studies at The Hebrew University of Jerusalem. While at ISFI, he provided cultural resources, ideas, and tools for pro-Israel student activists throughout the US and Canada to promote the message of Israel and hold pro-Israel activities on their campuses.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "شغل الدكتور زاكين منصب المدير الوطني لمعهد الطلاب والكلية عن إسرائيل (ISFI) في نيويورك (1988-1991) ، وعند عودته إلى إسرائيل ، واصل مسيرته الأكاديمية ودرس الدراسات الإسلامية والشرق أوسطية في الجامعة العبرية في القدس. أثناء وجوده في ISFI ، قدم موارد ثقافية وأفكارًا وأدوات للطلبة النشطاء المؤيدين لإسرائيل في جميع أنحاء الولايات المتحدة وكندا للترويج رسالة إسرائيل والقيام بأنشطة مؤيدة لإسرائيل في حرم جامعاتهم.",
+		"ku"	=> "د. زاکین وەکو بەڕێوبەری نەتەوەیی لە پەیمانگای خوێندکاران و لە کۆلیژە دەربارەی ئیسرائیل (ISFI) لە نیۆرک( 1988-1991) کار ئەکرد، و لەکاتی گەڕانەوەی دا بۆ ئیسرائیل، ئەو درێژەی بە پیشەی خۆی ئەکادیمی دا و دەستی بە خوێندنی لێکۆڵینەوە ئیسلامیەکان و ڕۆژهەڵاتی ناوەڕاست کرد لە زانکۆی عیبری لە ئۆرشەلیم . لە کاتی کارکردنیدا لە ISFI،  بەردەوام سەرچاوە و بیرۆکەو ئامرازە ڕۆشنبیرەکانی دابین ئەکرد دابین ئەکردن بۆ قوتابیانی چاڵاکوانانی لایەنگەری ئیسرائیلی لە سەرانسەری ویلایەتە یەکگرتووەکان و کەنەدا بۆ بڵاو کردنی پەیامی ئیسرائیل و ئەنجامدانی چاڵاکیەکانی تایبەت بە ئیسرائیل لە کامپسی زانکۆیەکە. ",
 		],
 
 	"israel-in-1997" => [
 		"en"	=> "In 1997, he was asked to serve as the adviser on Arab Affairs to Prime Minister Benjamin Netanyahu (1997-1999), focusing on the Israeli Arab minority. He later served as the advisor on Arab Affairs at the Ministry of Public Security (2001-until now).",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "في عام 1997 ، طُلب منه أن يكون مستشارًا للشؤون العربية لرئيس الوزراء بنيامين نتنياهو (1997-1999) ، مع التركيز على الأقلية العربية الإسرائيلية. عمل لاحقًا مستشارًا للشؤون العربية في وزارة الأمن العام (2001 - حتى الآن).",
+		"ku"	=> "لە ساڵی 1997، داوای لێ کرا بیبێت بە ڕاوێژکاری کاروباری عەرەبەکان بۆ سەرک وەزیران بنیامین نتنیاهو(1997-1999)، بۆ بایەخپیدانی کەمینەکانی عەرەبی ئیسرائیلی. پاشان وەکو ڕاوێژکاری کاروباری عەرەبکان لە وەزارەتی ئەمنی داخلی لە ساڵی(2001- تاکو ئێستا).",
 		],
 
 	"israel-in-my-humble-opinion" => [
 		"en"	=> "In my humble opinion, it is incumbent upon the Jewish people, as a people that has lived as a minority for thousands of years, to be sensitive to, and have a high degree of consciousness vis-a-vis the minorities living in their midst. I seek to operate in my position in accordance with this belief, to bring hearts together, and to widen the circles of co-existence between Arabs and Jews.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "في رأيي المتواضع ، من واجب الشعب اليهودي ، كشعب عاش كأقلية منذ آلاف السنين ، أن يكون حساسًا ، وأن يكون لديه درجة عالية من الوعي تجاه الأقليات التي تعيش في وسط. أسعى للعمل في موقفي وفقًا لهذا الاعتقاد ، ولجمع القلوب ، وتوسيع دوائر التعايش بين العرب واليهود.",
+		"ku"	=> "بە بۆچۆنی من، ئەرکە لەسەر گەلی جوو کە هەزاران ساڵە وەکو کەمینە ژیاون، لە لای ئەوان هەستیاری و پلەیێکی بەرزی هۆشیاریان هەبێت بەرامبەر ئەو کەمینانەی لە نێوانیاندا دەژین.  ئەمەوێ ئیش بکەم لە شوێنەکەم دا بە پێی ئەم بیروڕایە، بۆ کۆکردنەوی دڵەکان و فراوانکردنەوەی بازنەی پێکەوەژیان لە نێوانی عەرەب و جووەکان دا. ",
 		],
 
 	"israel-dr-zaken-right-with-prime-minister-netanyahu" => [
 		"en"	=> "Dr. Zaken (right) with Prime Minister Netanyahu and Reuven Rivlim (the current President) while visiting the Bedouin in the Negev, during Dr. Zaken’s service as an adviser on Arab Affairs. Circa 1998.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "د. زاكين (يمين) مع رئيس الوزراء نتنياهو و روفين ريفلين (الرئيس الحالي) أثناء زيارته للبدو في النقب ، خلال خدمة الدكتور زاكين كمستشار للشؤون العربية. سيركا 1998.",
+		"ku"	=> "د. زاکین (لە لای ڕاست) لەگەڵ سەرۆک وەزیران نەتەنیاهۆ و ڕۆڤین ریڤلین ( سەرۆکی ئێستا) لەکاتی سەرەدانیان بۆ گوندەکانی بەدوو لە نەقەب، لە ماوەی کاری د. زاکین دا وەکو ڕاوێژکاری کاروباری عەرەبەکان. سیرکا 1998.",
 		],
 
 	"minorities-affairs-in-israel-he-founded" => [
 		"en"	=> "In Israel, he founded the Government - Christians Forum (2015) which was devoted to the needs of Christians of Western denominations (mostly evangelical) in Israel. At the core of Dr. Zaken's work on Arab, Bedouin, Christian, and other minority affairs is attention to improving life for all Israelis, a commitment to Israeli democracy, and a dedication to eradicating hate crimes and extremism.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "في إسرائيل ، أسس منتدى الحكومة - المسيحيين (2015) الذي كان مكرسًا لاحتياجات المسيحيين من الطوائف الغربية (معظمهم من الإنجيليين) في إسرائيل. في صميم عمل الدكتور زاكين حول شؤون العرب والبدو والمسيحيين والأقليات الأخرى هو الاهتمام بتحسين الحياة لجميع الإسرائيليين ، والالتزام بالديمقراطية الإسرائيلية ، والتفاني في القضاء على جرائم الكراهية والتطرف.",
+		"ku"	=> "لە ئیسرائیل، ئەو کۆڕبەندی حکومەت-کریستیانەکان (2015) دامەزراند ئەوەی تەرخانکرا بوو بۆ پێویستیەکانی کریستیانەکانی بە ئایینزا رۆژئاوایی (زۆربەیان ئینجیلین) لە ئیسرائیل. بەشی سەرەکی کاری د. زاکین لەسەر کاروباری عەرەبەکان، بەدووەکان (کۆچەر)، کریستیانەکان و کەمینەکانی دیکە ئەوە کە گرنگی بە باشترکردنی ژیان بدات بۆ هەموو ئیسرائیلیەکان، و پابەندبوون بە دیموکراسیەتی ئیسرائیل و،کارکردن لەپێناو نەهێشتنی تاوانەکانی توندڕەوی و ڕق لە یەکتربوون.  ",
 		],
 
 	"minorities-affairs-in-my-position" => [
 		"en"	=> "In my position, I understand the importance of having a strong, defended and prospering Christian community in Israel.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "في موقفي ، أفهم أهمية وجود مجتمع مسيحي قوي ومدافع ومزدهر في إسرائيل.",
+		"ku"	=> "لە شوێنەکەم دا، گرنگی هەبوونی کۆمەڵگایێکی کرستیانی بە هێز و بە بەرگری و سەرکەوتوو تێدەگەم.",
 		],
 
 	"minorities-affairs-during-the-second-lebanon-war" => [
 		"en"	=> "During the Second Lebanon War in 2006, many shells and bombs fell in the north of Israel. One such shell fell in Nazareth, in a courtyard of a garage. The photo shows Dr. Zaken visiting this courtyard along with Deputy Mayor of Nazareth Ali Salam (today the Mayor), as well as an Anglican Archbishop and the police chief.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "خلال حرب لبنان الثانية عام 2006 ، سقطت العديد من القذائف والقنابل في شمال إسرائيل. سقطت إحدى هذه القذائف في مدينة الناصرة ، في ساحة مرآب. تُظهر الصورة الدكتور زاكين وهو يزور هذا الفناء مع نائب رئيس بلدية الناصرة علي سلام (رئيس البلدية حاليًا) ، بالإضافة إلى رئيس أساقفة إنجليكاني وقائد الشرطة.",
+		"ku"	=> "لە کاتی جەنگی دووەمی لوبنان دا 2006، زۆر تۆپ و تەقەمەنی بە باکوری ئیسرائیل کەوتن. یەکێک لەم تۆپانە لە شاری نازەریث کەوتە خوارەوە، لە گۆرەپانی گەراجێک. لە وێنەکدا دیارە د. زاکین سەرەدانی ئەم شوێنە دەکات لەگەڵ جێگری سەرۆکی شارەوانی نازەریث عەلی سەلام ( ئێستا سەرۆکی شارەوانیە)، و هەروەها لەگەڵ سەرۆکی قەشەکان و بەڕێوبەرێکی پۆلیس. ",
 		],
 
 	"minorities-affairs-interview-about-the-importance" => [
 		"en"	=> "Interview about the importance of Christians in the region and in Israel.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "مقابلة حول أهمية المسيحيين في المنطقة وفي إسرائيل.",
+		"ku"	=> "چاوپێکەوتنەک لەسەر گرنگی کریستیانەکان لە ناوچەکە و لە ئیسرائیل.",
 		],
 
 	"minorities-affairs-it-is-very-important-that-we-will" => [
 		"en"	=> "It is very important that we will cooperate to solve problems, and to improve relations. We value the Christian groups and representatives. They are a very important asset for the Jewish state.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "من المهم للغاية أن نتعاون لحل المشاكل وتحسين العلاقات. نحن نقدر الجماعات والممثلين المسيحيين. إنهم رصيد مهم للغاية للدولة اليهودية.",
+		"ku"	=> "زۆر گرنگە لەگەڵ یەکتر هاوکاربین بۆ چارەسەرکردنی کێشەکان و باشترکردنی پەیوەندیەکان. ئێمە کۆمەڵەی کریستیانەکان و نوێنەرەکانیان بە گرنگ دەزانین. ئەوان سامانێکی گرنگن بۆ وڵاتی ئیسرائیل. ",
 		],
 
 	"minorities-affairs-interview-about-meetings-organized" => [
 		"en"	=> "Interview about meetings organized by Dr. Zaken between Israeli officials and Christian leaders.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "مقابلة حول اللقاءات التي نظمها الدكتور زاكين بين مسؤولين إسرائيليين وقادة مسيحيين.",
+		"ku"	=> "چاوپێکەوتنەک دەربارەی ئەو کۆبوونەوانەی لە لایەن د. زاکینەوە رێکخرا بوون لە نێوان بەرپڕسانی ئیسرائیلی و سەرکردەکانی کریستیانەکان. ",
 		],
 
 	"minorities-affairs-interview-about-combating" => [
 		"en"	=> "Interview about combating anti-Christian hate.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "مقابلة حول مكافحة الكراهية ضد المسيحيين.",
+		"ku"	=> "چاوپێکەوتنێک دەربارەی بەرەنگار بوونەوەی ڕق لێیەتی کریستیانەکان.",
 		],
 
 	"minorities-affairs-its-not-enough-to-only-show-solidarity" => [
 		"en"	=> "It's not enough to only show solidarity. We must continue to educate those who are responsible for hate. Also, we have to make sure that the police and other authorities will find those responsible for hate crimes. They must be caught and brought into trial.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "لا يكفي إظهار التضامن فقط. يجب أن نستمر في تثقيف المسؤولين عن الكراهية. أيضًا ، علينا التأكد من أن الشرطة والسلطات الأخرى ستعثر على المسؤولين عن جرائم الكراهية. يجب القبض عليهم وتقديمهم للمحاكمة.",
+		"ku"	=> "پیشاندانی هاوبەستی تەنها بەس نیە. دەبێت بەردەوام بین لەسەر پەروەردەکردنی ئەو کەسانەی کە بەرپڕسن لەم توندڕەوی و ڕق لەیەکتر بوونە. هەروەها، دەبێت دڵنیا بین کە پۆڵیس و دەستەڵاتدارانی دیکە ئەو کەسانە بدۆزنەوە کە بەرپرسن لە تاوانەکانی ڕ‌ق و کینە. دەبێت دەستگیربکرێن و ڕاپێچی دادگا بکرێن.",
 		],
 
 	"minorities-affairs-meeting-with-the-greek-orthodox-patriarch" => [
@@ -1856,15 +1857,15 @@ Ppresented to the parliamentary committee on xenophobia and hatred of strangers,
 	"press-coverage-this-affection-between-our-nations" => [
 		"en"	=> "This affection between our nations is mutual. Not only are the Kurds very popular in Israel, but Israel and the Jews enjoy a good deal of respect and sympathy among the Kurds.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "هذه المودة بين بلدينا متبادلة. لا يتمتع الأكراد بشعبية كبيرة في إسرائيل فحسب ، بل يتمتع إسرائيل واليهود بقدر كبير من الاحترام والتعاطف بين الأكراد.",
+		"ku"	=> "ئەم خۆشەویستیە لە نێوان گەلەکانماندا هاوبەشە. نەوەك تەنها کوردەکان خاوەنی پێگەیەکی جەماوەرین لە ئیسرائیل، بگرە جووەکانیش لەنێو کوردەکان دا خاوەنی ڕێز و هاوسۆزیەکی گەورەن.",
 		],
 
 	"press-coverage-there-is-a-desire" => [
 		"en"	=> "There is a desire to work to promote equal rights and opportunities in Israel.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "هناك رغبة في العمل على تعزيز المساواة في الحقوق والفرص في إسرائيل.",
+		"ku"	=> "ئارەزوێک هەیە بۆ کارکردن لەسەر باشترکردنی مافەکانی یەکسانی و دەرفەتەکان لە ئیسرائیل.",
 		],
 
 	"" => [
@@ -1947,21 +1948,21 @@ Ppresented to the parliamentary committee on xenophobia and hatred of strangers,
 	"footer-to-reach-dr-zaken" => [
 		"en"	=> "To reach Dr. Zaken,",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "للوصول إلى د. زاكين,",
+		"ku"	=> "بۆ پەیوەندیکردن بە د. زاکین، ",
 		],
 	"footer-to-contact-the-national-association" => [
 		"en"	=> "To contact the National Association of Jews from Kurdistan in Israel,",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "للتواصل مع الجمعية الوطنية ليهود كردستان في إسرائيل،",
+		"ku"	=> "بۆ پەیوەندیکردن بە کۆمەلەی نیشتمانی جووەکانی کوردستان لە ئیسرائیل،",
 		],
 
 	"footer-with-motis-permission-and-support" => [
 		"en"	=> "With Moti’s permission and support, this website has been developed and maintained by Foundation of Ours as part of the Foundation’s mission to support Jewish expression in the Kurdistan Region. ",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "بإذن ودعم موتي ، تم تطوير موقع الويب هذا وصيانته بواسطة Foundation of Ours كجزء من مهمة المؤسسة لدعم التعبير اليهودي في إقليم كردستان.",
+		"ku"	=> "بە ڕازەمەندی و پشتگیری مۆتی، ئەم وێبسایتە دورستکراوە لە لایەن Foundation of ours ەوە وەکو بەشێک لە ئەرکی رێکخراوەکە بۆ پشتگیری کردنی دەربڕینی جووەکە لە هەرێمی کوردستان. ",
 		],
 
 	]; ?>
