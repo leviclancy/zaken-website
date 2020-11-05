@@ -1512,8 +1512,8 @@ Ppresented to the parliamentary committee on xenophobia and hatred of strangers,
 	"the-jews-of-kurdistan-the-publication" => [
 		"en"	=> "The publication of The Jews of Kurdistan has not been the final fruit of the informants’ oral histories. Memories from the past have kept returning even across multiple generations, such as when a family in Turkey read about in Dr. Zaken’s book about an Akreyi Jew named Khawaja Khinno. It became clear that this must be the same gentleman who had raised their grandmother Naze, who they knew had been born in Akre but had been raised under the protection of her uncle named Khawaja after her father died when she was still an infant.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> 'لم يكن نشر "يهود كردستان" هو الثمرة النهائية للتاريخ الشفوي للمخبرين. استمرت ذكريات الماضي في العودة حتى عبر أجيال متعددة ، مثل عندما قرأت عائلة في تركيا عن كتاب الدكتور زاكين عن يهودي أكري يُدعى خواجة خينو. أصبح من الواضح أن هذا الرجل يجب أن يكون هو نفسه الذي قام بتربية جدتهم نازە ، التي كانوا يعرفون أنها ولدت في عقرة لكنها نشأت تحت حماية عمها المسمى خواجة بعد وفاة والدها وهي لا تزال رضيعة.',
+		"ku"	=> 'بڵاوکردنەوەی "جووەکانی کودستان" بەرهەمی دووای نەبوو بۆ مێژووی زارەکی کەسانی زانیاری بەخش. یادگاریەکانی رابردوو بە بەردەوامی دەگەرانەوە تەنانەت بە درێژایی چەندین نەوەوە، بۆ نموونە کاتێک خێزانێک لە تورکیا لە کتێبەکەی د. زاکین دا لەسەر جووی ئاکرەیی بە ناوی خەواجە خینۆ خوێندیانەوە. بۆیان دەرکەوت کە ئەمە ئەو پیاوە بەڕێزەیە ئەوەی داپیرەکەیان کە ناوی نازە بوو بەخێو کردبوو، ئەوان دەیزانی کە ئەو لە ئاکرێ لە دایکببوو بەڵام لە ژێر چاودێری  مامەکەی گەورە ببوو کە ناوی خەواجە بوو دوای مردنی باوکی کاتێک ئەو هێشتا ساوا بوو. ',
 		],
 
 	"the-jews-of-kurdistan-her-grandchildren" => [
@@ -1524,10 +1524,10 @@ Ppresented to the parliamentary committee on xenophobia and hatred of strangers,
 		],
 
 	"the-jews-of-kurdistan-naze-was-coerced" => [
-		"en"	=> "Naze was coerced into leaving Akre in the early 20th century and was married to a Muslim youth named Khaled/Halit who was from Gevar village (Yuksekova in Turkish) in the Hakkar region. He had seduced her, and Naze lived all her life as a sort of undesirable or unwanted Jew in-law in the eyes of her mother-in-law. Her incredible life story would have been completely hidden had it not been for her skillful grandchildren, who felt it is important to tell her story in spite of the difficulties. Irfan Iktan published “Nazê, a story of migration” in 2005 in Turkish. Now, through multiple generations and in multiple formats, her story has been conserved with the dignity it deserves and integrated into the broader stories of the Jews of Kurdistan.",
+		"en"	=> "Naze was coerced into leaving Akre in the early 20th century and was married to a Muslim youth named Khaled/Halit who was from Gevar village (Yuksekova in Turkish) in the Hakkar region. He had seduced her, and Naze lived all her life as a sort of undesirable or unwanted Jew in-law in the eyes of her mother-in-law. Her incredible life story would have been completely hidden had it not been for her skillful grandchildren, who felt it is important to tell her story in spite of the difficulties. Irfan Iktan published “Nazê: A Story of Migration” in 2005 in Turkish. Now, through multiple generations and in multiple formats, her story has been conserved with the dignity it deserves and integrated into the broader stories of the Jews of Kurdistan.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> 'تم إجبار نازە على مغادرة عقرة في أوائل القرن العشرين وتزوجت من شاب مسلم يدعى خالد / حالد من قرية جيفار (يوكسكوفا بالتركية) في منطقة هاكار. لقد أغراها ، وعاشت نازە طوال حياتها كنوع من صهرها اليهودي غير المرغوب فيه أو غير المرغوب فيه في نظر حماتها. كانت قصة حياتها المذهلة ستختفي تمامًا لولا أحفادها الماهرين ، الذين شعروا أنه من المهم سرد قصتها على الرغم من الصعوبات. عرفان إكتان نشر عام 2005 باللغة التركية "نازە: قصة هجرة". الآن ، عبر أجيال متعددة وبصيغ متعددة ، تم الحفاظ على قصتها بالكرامة التي تستحقها وتم دمجها في القصص الأوسع ليهود كردستان.',
+		"ku"	=> 'زۆری لە نازە کرا ئاکرێ بەجێ بێلێت لە  سەرەتاکانی سەدی بیستەوە و هاوسەرگیری لەگەڵ گەنجێکی موسڵمان دا کرد بە ناوی خالد/حالد کە خەڵکی گوندی گیڤار بوو( یوکسکۆڤا بە زمانی ترکی) لە ناوچەی هەکارێ. نازە لە لایەن ئەو کورەوە خاپێندرا بوو، و ئەو هەموو ژیانی خۆی وەکو بووکێکی نەویستراوی جوو بەسەربرد لە چاوی خەسووەکەی دا. چیرۆکی ناوەزە و سەرەنجراکێشی نازە بە تەواوی وون دەبوو ئەگەر نەوەکانی ئەوی بەتوانا نەبووانە، ئەوانەی هەستیان بەوە کرد کە گرنگە باسی چیرۆکی ژیانی داپیری خۆیان بکەن سەرەڕای ئاستەنگی و زەحمەتیەکان. عیرفان ئیکتان لە سالێ 2005 "نازە: چیرۆکی کۆچبەری" بە زمانی تورکی بڵاو کرد. تا ئێستا بە درێژایی چەندین نەوە و شێوازی جیاوازەوە، پارێزگاری لە چیرۆکەکەی کرا بەو گەورەیی و کەرامەتەوە ئەوەی کە ئەو شایەنیێتی و بە چیرۆکەکانی فراوانتری جووەکانی کوردستان بەسترا. ',
 		],
 
 	"kurdistan-region-dr-zaken-left-with-yona-sabar-right" => [
