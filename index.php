@@ -450,6 +450,7 @@ function translatable_elements($string_id, $language_temp=null, $html_tag_temp=n
 		foreach ($translatable_elements[$string_id] as $language_temp => $content_temp):
 			if (!(empty($content_temp))): break; endif;
 			endforeach;
+		endif;
 
 	// Now get the translatable element
 	$translatable_element = $translatable_elements[$string_id][$language_temp];
