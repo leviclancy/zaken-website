@@ -487,9 +487,10 @@ function image_output ($media_url, $media_width, $media_height, $media_caption=n
 	$parallax_temp = null;
 	if (!(empty($parallax_speed))): $parallax_temp =  "amp-fx='parallax' data-parallax-factor='". $parallax_speed ."'"; endif;
 	
-	$string_temp = "<figure class='amp-img-fader' ". $parallax_temp .">";
-	$string_temp .= '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
-	$string_temp .= '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
+	$string_temp = "<figure ". $parallax_temp .">";
+//	$string_temp = "<figure class='amp-img-fader' ". $parallax_temp .">";
+//	$string_temp .= '<amp-position-observer on="scroll:fadeTransition.seekTo(percent=event.percent)" intersection-ratios="0" layout="nodisplay"></amp-position-observer>';
+//	$string_temp .= '<amp-position-observer on="enter:slideTransition.start; exit:slideTransition.start,slideTransition.reverse" intersection-ratios="0.3" layout="nodisplay"></amp-position-observer>';
 	$string_temp .= "<amp-img src='" . $media_url ."' width='" . $media_width ."' height='". $media_height ."' layout='responsive'></amp-img>";
 	if (!(empty($media_caption))): $string_temp .= "<figcaption>". translatable_elements($media_caption) ."</figcaption>"; endif;
 	$string_temp .= "</figure>";
