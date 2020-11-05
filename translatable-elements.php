@@ -1175,10 +1175,16 @@ Haifa University.",
 		],
 
 	"lectures-2011-the-tribal-kurdish-society" => [
-		"en"	=> "\"The tribal Kurdish society and the Jews of Kurdistan and Israel\" in Giessen, Germany.",
+		"en"	=> "The tribal Kurdish society and the Jews of Kurdistan and Israel
+		
+		Giessen, Germany.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "المجتمع الكردي القبلي ويهود كردستان وإسرائيل
+
+جيسن بألمانيا.",
+		"ku"	=> "کۆمەڵگای هۆزی کوردی و جووەکانی کوردستان و ئیسرائیل
+
+گیسن، ئەڵمانیا.",
 		],
 
 	"lectures-2010-the-jews-and-the-tribal-kurdish-society" => [
