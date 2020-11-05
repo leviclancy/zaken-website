@@ -130,7 +130,7 @@
 		"en"	=> "Dr. Zaken in Erbil, Kurdistan, Oct. 2012.",
 		"he"	=> "",
 		"ar"	=> "د. زاكين في أربيل ، كردستان ، أكتوبر 2012.",
-		"ku"	=> "د. زاکین لە هەولێر، کوردستان ، ئۆکتۆبەری ٢٠١٢.",
+		"ku"	=> "د. زاکین لە هەولێر، کوردستان ، ئۆکتۆبەری 2012.",
 		],
 	"biographical-notes-dr-mordechai-zaken-born" => [
 		"en"	=> "Dr. Mordechai Zaken, born in Jerusalem of Kurdistani Jewish descent, is an eminent and authoritative historian of the Jews of Kurdistan, as well as the native Assyrians and the tribal Kurdish society.",
@@ -171,14 +171,14 @@
 		"en"	=> "In 2019, he received the Prime Minister’s Prize for his research and leadership. The video screened at his acceptance is shown below.",
 		"he"	=> "",
 		"ar"	=> "في عام 2019 ، حصل على جائزة رئيس الوزراء لأبحاثه وقيادته. يظهر الفيديو الذي تم فحصه عند قبوله أدناه.",
-		"ku"	=> "لە ساڵی ٢٠١٩، خەڵاتی سەرۆک وەزیرانی وەرگرت بۆ لێکۆڵینەوە و پێشەنگی. لە ڤیدیۆی خوارە دا دیارە.",
+		"ku"	=> "لە ساڵی 2019، خەڵاتی سەرۆک وەزیرانی وەرگرت بۆ لێکۆڵینەوە و پێشەنگی. لە ڤیدیۆی خوارە دا دیارە.",
 		],
 
 	"biographical-notes-video-screened" => [
 		"en"	=> "Video screened at the official ceremony in Jerusalem, in March 2019, when Dr. Zaken was awarded the Prime Minister’s Prize for research on the Jews of the Middle East and Iran. Transcript here: https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing",
 		"he"	=> "",
 		"ar"	=> "",
-		"ku"	=> "ڤیدیۆیەکە لە ئاهەنگێکی فەرمی دا لە ئۆرشەلیم  نمایشکرا، لە ئاداری ٢٠١٩، کاتێک د. زاکین خەڵاتکرا لە لایەن سەرۆک وەزیرانەوە لەبەر لێکۆلینەکەی لەسەر جووەکانی رۆژهەڵاتی ناوەراست و ئێران. بڕوانامەکە لێرەیە: https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing",
+		"ku"	=> "ڤیدیۆیەکە لە ئاهەنگێکی فەرمی دا لە ئۆرشەلیم  نمایشکرا، لە ئاداری 2019، کاتێک د. زاکین خەڵاتکرا لە لایەن سەرۆک وەزیرانەوە لەبەر لێکۆلینەکەی لەسەر جووەکانی رۆژهەڵاتی ناوەراست و ئێران. بڕوانامەکە لێرەیە: https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing",
 		],
 
 	"biographical-notes-doctoral-thesis" => [
@@ -237,14 +237,14 @@
 		"en"	=> "Dr. Zaken, as the Prime Minister’s adviser on Arab affairs, with Prime Minister Benjamin Netanyahu, during a tour in the Negev to cities and un-sedentary encampments of Bedouin communities (1998).",
 		"he"	=> "",
 		"ar"	=> "د. زاكين ، مستشار رئيس الوزراء للشؤون العربية ، مع رئيس الوزراء بنيامين نتنياهو ، خلال جولة في النقب إلى المدن والمخيمات غير المستقرة للمجتمعات البدوية ، في عام 1998.",
-		"ku"	=> "د. زاکین، راویژکاری سەرۆک وەزیران بۆ کاروباری عەرەب، لەگەڵ سەرۆک وەزیران بنيامين نتنياهو، لە گەشتێکدا بۆ ناوچەی نێگێڤ بۆ شارەکان و خیوەتگاکانی کۆمەڵگەی بەدەوی. (١٩٩٨).",
+		"ku"	=> "د. زاکین، راویژکاری سەرۆک وەزیران بۆ کاروباری عەرەب، لەگەڵ سەرۆک وەزیران بنيامين نتنياهو، لە گەشتێکدا بۆ ناوچەی نێگێڤ بۆ شارەکان و خیوەتگاکانی کۆمەڵگەی بەدەوی. (1998).",
 		],
 
 	"biographical-notes-dr-zaken-at-the-synagogue" => [
 		"en"	=> "Dr. Zaken at the ruined synagogue in Zakho, in October 2012.",
 		"he"	=> "",
 		"ar"	=> "د. زاكين في الكنيس المدمر في زاخو ، أكتوبر 2012.",
-		"ku"	=> "د. زاکین لە کەنیشتەی ڕووخاوی جووەکان لە زاخۆ، ئۆکتۆبەری ٢٠١٢. ",
+		"ku"	=> "د. زاکین لە کەنیشتەی ڕووخاوی جووەکان لە زاخۆ، ئۆکتۆبەری 2012. ",
 		],
 	
 	"biographical-notes-website-administration" => [
@@ -272,21 +272,21 @@
 		"en"	=> "Usually Dr. Zaken interviewed his Jewish informants at their homes. At times, he met them at the synagogue, or at a community center. He interviewed some of his informants on a bench near their synagogue, where they used to hang out during the afternoon, before the evening prayer. In the photo above, Dr. Zaken (right) interviews Muallem Levi (center) of Zakho, a frequent visitor to his parents’ home. To the left is Dr. Zaken’s father, Saleh, who was also born in Zakho. Circa 1987.",
 		"he"	=> "",
 		"ar"	=> "عادة ما أجرى الدكتور زاكين مقابلات مع مخبريه اليهود في منازلهم. في بعض الأحيان كان يقابلهم في الكنيس أو في مركز مجتمعي. أجرى مقابلة مع بعض مخبريه على مقعد بالقرب من كنيسهم ، حيث اعتادوا قضاء فترة ما بعد الظهر ، قبل صلاة العشاء. في الصورة أعلاه ، الدكتور زاكين (على اليمين) يقابل المعلم ليفي (وسط) زاخو ، وهو زائر دائم لمنزل والديه. إلى اليسار ، والد الدكتور زاكين ، صالح ، من مواليد زاخو. حوالي 1987.",
-		"ku"	=> "د. زاکین لە زۆربەی کاتەکانی خۆی چاوپێکەوتنەکانی لەگەڵ جووەکانی زانیاری بەخش دا لە ماڵی ئەوان دا ئەنجام دەدان. هەندێک جار لە کەنیشتە یان سەنتەرێکی جڤاکی چاوپێکەوتن لەگەڵ ئەوان دا ئەکرد. لەگەڵ هەندێک کەسە زانیاری بەخشەکانی دا چاوپێکەوتنەکانی لەسەر کورسیێک ئەنجام دەدان کە نێزیک بوو لە کەنیشتەکەیان، ئەو شوێنەی ئەوان ڕاهاتبون لەوێ لەگەڵ یەکتر کات بەسەر ببەن دوای نیوەرۆ، بەر لە سەڵاتی ئێوارە. لێرە وەک، لەم وێنەی سەرەوە دا دیارە، ئەو چاوپێکەوتن لەگەڵ موعەلم لیڤیی (ناوەراست) زاخۆ دەکات، کە ئەویش زیارەتکارێکی بەردەوامە بۆ ماڵی دایک و باوکی. هەروەها ئەوەی دانیشتوو لەگەڵ ئەوان، باوکی د. زاکینە،سالح(لە لای چەپەوە)، کە لە زاخۆ دایک بووە. نێزیکی ١٩٨٧.  ",
+		"ku"	=> "د. زاکین لە زۆربەی کاتەکانی خۆی چاوپێکەوتنەکانی لەگەڵ جووەکانی زانیاری بەخش دا لە ماڵی ئەوان دا ئەنجام دەدان. هەندێک جار لە کەنیشتە یان سەنتەرێکی جڤاکی چاوپێکەوتن لەگەڵ ئەوان دا ئەکرد. لەگەڵ هەندێک کەسە زانیاری بەخشەکانی دا چاوپێکەوتنەکانی لەسەر کورسیێک ئەنجام دەدان کە نێزیک بوو لە کەنیشتەکەیان، ئەو شوێنەی ئەوان ڕاهاتبون لەوێ لەگەڵ یەکتر کات بەسەر ببەن دوای نیوەرۆ، بەر لە سەڵاتی ئێوارە. لێرە وەک، لەم وێنەی سەرەوە دا دیارە، ئەو چاوپێکەوتن لەگەڵ موعەلم لیڤیی (ناوەراست) زاخۆ دەکات، کە ئەویش زیارەتکارێکی بەردەوامە بۆ ماڵی دایک و باوکی. هەروەها ئەوەی دانیشتوو لەگەڵ ئەوان، باوکی د. زاکینە،سالح(لە لای چەپەوە)، کە لە زاخۆ دایک بووە. نێزیکی 1987.  ",
 		],
 
 	"scholarly-achievement-became-curious" => [
 		"en"	=> "When Mordechai Zaken became curious about the Jews of Kurdistan, during the early 1980s, he was puzzled to see that there was hardly any written material.",
 		"he"	=> "",
 		"ar"	=> "عندما أصبح مردخاي زاكين فضوليًا بشأن يهود كردستان ، في أوائل الثمانينيات ، كان في حيرة من عدم وجود أي مصادر مكتوبة.",
-		"ku"	=> "کاتێک مۆردەخای زاکین زانینخواز  بوو و ئەیەویست  لەسەر جووەکانی کوردستان بزانێت، لە سەرەتاکانی ١٩٨٠ەوە،  سەرسورمان بوو کە زۆر بە زەحمەت ژێدەری نوسڕاو بەردەست هەن. ",
+		"ku"	=> "کاتێک مۆردەخای زاکین زانینخواز  بوو و ئەیەویست  لەسەر جووەکانی کوردستان بزانێت، لە سەرەتاکانی 1980ەوە،  سەرسورمان بوو کە زۆر بە زەحمەت ژێدەری نوسڕاو بەردەست هەن. ",
 		],
 
 	"scholarly-achievement-as-a-student" => [
 		"en"	=> "As a student in Middle Eastern and Islamic studies at The Hebrew University of Jerusalem in the early 1980s, he was working on a term paper when he came across the lack of sufficient written material on the Jews of Kurdistan. Of what had been written, part of it was indeed good (such as the pioneer research of Erich Brauer, on the Jews of Kurdistan) but the overall written material was certainly insufficient to enable research of the subject.",
 		"he"	=> "",
 		"ar"	=> "كطالب في دراسات الشرق الأوسط والدراسات الإسلامية في الجامعة العبرية في القدس في أوائل الثمانينيات ، كان يعمل على ورقة بحثية عندما وجد نقصًا في المواد المكتوبة الكافية عن يهود كردستان. من بين ما كتب ، كان جزءًا منه جيدًا بالفعل (مثل البحث الرائد الذي أجراه إريك براور حول يهود كردستان) ولكن المواد المكتوبة الإجمالية كانت بالتأكيد غير كافية لتمكين البحث في الموضوع.",
-		"ku"	=> "وەکو قوتابیێک لە خوێندنەکانی رۆژهەلاتی ناوەراست و خوێندنەکانی ئیسلامی لە زانکۆی عیبری ئۆرشەلیم  لە سەرەتاکانی ١٩٨٠ەوە، کاتێک ئەو خەریکی لێکۆڵینەوەیێکی زانکۆ بوو ئەو ڕوبەروی کەمی بەرهەمەکانی نووسراوی پێویست بوو  لەسەر جووەکانی کوردستان.ئەو بەرهەمانەشی کە نووسراو بوون، بەشێکیان لە راستی دا باش بوون( وەکو لێکۆڵینەوەی پێشەنگەکەی ئیریک براور، لەسەر جووەکانی کوردستان) بەڵام تێکڕای بەرهەمە نووسراوەکان بە دڵنیاییەوە بەشی ئەوەیان نەدەکرد  تاکو بۆ لێکۆلینەوەی بابەتەکە بەکاربێن.",
+		"ku"	=> "وەکو قوتابیێک لە خوێندنەکانی رۆژهەلاتی ناوەراست و خوێندنەکانی ئیسلامی لە زانکۆی عیبری ئۆرشەلیم  لە سەرەتاکانی 1980ەوە، کاتێک ئەو خەریکی لێکۆڵینەوەیێکی زانکۆ بوو ئەو ڕوبەروی کەمی بەرهەمەکانی نووسراوی پێویست بوو  لەسەر جووەکانی کوردستان.ئەو بەرهەمانەشی کە نووسراو بوون، بەشێکیان لە راستی دا باش بوون( وەکو لێکۆڵینەوەی پێشەنگەکەی ئیریک براور، لەسەر جووەکانی کوردستان) بەڵام تێکڕای بەرهەمە نووسراوەکان بە دڵنیاییەوە بەشی ئەوەیان نەدەکرد  تاکو بۆ لێکۆلینەوەی بابەتەکە بەکاربێن.",
 		],
 
 	"scholarly-achievement-he-had-to-resort" => [
@@ -328,14 +328,14 @@
 		"en"	=> "Dr. Zaken speaking in Jerusalem. 1993.",
 		"he"	=> "",
 		"ar"	=> "الدكتور زاكين يتحدث في القدس عام 1993.",
-		"ku"	=> "د. زاکین لە ئۆرشەلیم  قسە دەکات، ١٩٩٣.",
+		"ku"	=> "د. زاکین لە ئۆرشەلیم  قسە دەکات، 1993.",
 		],
 
 	"scholarly-achievement-main-scholarly-achievement" => [
 		"en"	=> "Dr. Zaken's main scholarly achievement stems from the fact that his research of the Jews of Kurdistan harnessed the craft of oral history and oral interviews, as soon as it became clear to him that there was insufficient written material on this unique community. Most of the 62 total Jewish Informants for his research carried the lifeblood of a sophisticated oral and verbal culture and knew names, events, topographic maps, and human genealogies almost by heart. They were able to speak of events or incidents with great detail, including the prices and weights of certain goods at specific times and places. Ultimately, he emerged as an oral historian who succeeded to save the memories stored by Kurdish Jewish informants from being lost forever.",
 		"he"	=> "",
 		"ar"	=> "ينبع الإنجاز العلمي الرئيسي للدكتور زاكين من حقيقة أن بحثه عن يهود كردستان سخر حرفة التاريخ الشفوي والمقابلات الشفوية ، بمجرد أن اتضح له أنه لا توجد مواد مكتوبة كافية عن هذا المجتمع الفريد. حمل معظم المخبرين اليهود البالغ عددهم 62 في بحثه شريان الحياة لثقافة شفهية وشفوية متطورة وعرفوا الأسماء والأحداث والخرائط الطبوغرافية وأنساب الإنسان عن ظهر قلب تقريبًا. كانوا قادرين على التحدث عن الأحداث أو الحوادث بتفاصيل كبيرة ، بما في ذلك أسعار وأوزان سلع معينة في أوقات وأماكن محددة. في النهاية ، ظهر كمؤرخ شفهي نجح في إنقاذ الذكريات التي خزنها المخبرون اليهود الأكراد من الضياع إلى الأبد. ",
-		"ku"	=> "دەستکەوتی زانستی هەرە سەرەکی د. زاکین لەو راستییەوە هاتووە کە لێکۆلینەکەی لەسەر جووەکانی کوردستان پیشەی مێژووی زارەکی و چاوپێکەوتنی زارەکی دامەزراند، هەر زوو بۆی دیاربوو کە بەرهەمی نوسراوی بەردەست زۆر کەمن لەسەر ئەم کۆمەڵگا ناوازەیە. زۆربەی ئەو ٦٢ جووانەی زانیاری بەخش بۆ لێکۆلینەوەکەی دەستنیشانکرابوون  هەڵگری خوێنی ژیانەوەیی و شارستانیێکی زارەکی ودەمۆکی پێشکەوتوو بوون و ناوەکان، روداوەکان، نەخشەکانی تۆپۆگرافی، و بۆماوەزانی مرۆڤ  بە نیزیکی هەر لە خۆیانەوە دەزانی . لە توانایان دابوو باسی بویەر و روداوەکان بکەن بە وردەکاری زۆر باشەوە، لە نێوانیاندا باسی نرخەکان و کێشی چەندین جۆری کەلوپەلەکانیان ئەکرد  لە شوێن و کاتی دیاریکراو دا. لە کۆتاییدا، ئەو وەکو مێژووناسێکی زارەکی دەردەکەوێت کە سەرکەوتوبوو لە پاراستنی یادەوەریەکانی کوردانی جوو لە ونبوون. ",
+		"ku"	=> "دەستکەوتی زانستی هەرە سەرەکی د. زاکین لەو راستییەوە هاتووە کە لێکۆلینەکەی لەسەر جووەکانی کوردستان پیشەی مێژووی زارەکی و چاوپێکەوتنی زارەکی دامەزراند، هەر زوو بۆی دیاربوو کە بەرهەمی نوسراوی بەردەست زۆر کەمن لەسەر ئەم کۆمەڵگا ناوازەیە. زۆربەی ئەو 62 جووانەی زانیاری بەخش بۆ لێکۆلینەوەکەی دەستنیشانکرابوون  هەڵگری خوێنی ژیانەوەیی و شارستانیێکی زارەکی ودەمۆکی پێشکەوتوو بوون و ناوەکان، روداوەکان، نەخشەکانی تۆپۆگرافی، و بۆماوەزانی مرۆڤ  بە نیزیکی هەر لە خۆیانەوە دەزانی . لە توانایان دابوو باسی بویەر و روداوەکان بکەن بە وردەکاری زۆر باشەوە، لە نێوانیاندا باسی نرخەکان و کێشی چەندین جۆری کەلوپەلەکانیان ئەکرد  لە شوێن و کاتی دیاریکراو دا. لە کۆتاییدا، ئەو وەکو مێژووناسێکی زارەکی دەردەکەوێت کە سەرکەوتوبوو لە پاراستنی یادەوەریەکانی کوردانی جوو لە ونبوون. ",
 		],
 
 	"scholarly-achievement-what-fascinated-me" => [
@@ -349,7 +349,7 @@
 		"en"	=> "The author with Bapir Agha, a Kurdish informant of Jewish ancestry, in London, 1992. The meeting was arranged by Dr. Kamal Mirawdali.",
 		"he"	=> "",
 		"ar"	=> "الكاتب مع بابير آغا ، وهو مخبر كردي من أصل يهودي ، في لندن ، 1992. اللقاء نظمه د. كمال ميراودلي.",
-		"ku"	=> "نووسەرەکە لەگەڵ باپیر ئاغا، کوردێکی زانیاری بەخشی بە ڕەگەز جووە، لە لەندەن، ١٩٩٢. چاوپێکەوتنەکە لە لایەن د. کەمال میرئاودلیەوە ڕێکخرابوو. ",
+		"ku"	=> "نووسەرەکە لەگەڵ باپیر ئاغا، کوردێکی زانیاری بەخشی بە ڕەگەز جووە، لە لەندەن، 1992. چاوپێکەوتنەکە لە لایەن د. کەمال میرئاودلیەوە ڕێکخرابوو. ",
 		],
 
 	"scholarly-achievemnt-two-and-four-times" => [
@@ -370,7 +370,7 @@
 		"en"	=> "Dr. Zaken during the jubilee celebration of Rahat, the largest Bedouin city in the Negev, in 1998.",
 		"he"	=> "",
 		"ar"	=> "د. زاكين خلال الاحتفال بيوبيل رهط ، أكبر مدينة بدوية في النقب ، 1998.",
-		"ku"	=> "د. زاکین لەکاتی ئاهەنگی یوبێل لە شاری رەهت، گەورەترین شاری بەدووەکانە لە نەقەب، ١٩٩٨.",
+		"ku"	=> "د. زاکین لەکاتی ئاهەنگی یوبێل لە شاری رەهت، گەورەترین شاری بەدووەکانە لە نەقەب، 1998.",
 		],
 
 	"scholarly-achievement-important-contribution" => [
@@ -391,7 +391,7 @@
 		"en"	=> "Dr. Zaken is an expert on the tribal Kurdish society. As a pro-Kurdish activist, he established the Israeli-Kurdish Friendship League (IKFL) in 1992 in Jerusalem, probably the first friendship league between Jews and Muslims. Today, he serves as the Counselor of the National Association of Jews from Kurdistan regarding Jewish history and heritage in Kurdistan.",
 		"he"	=> "",
 		"ar"	=> "الدكتور زاكين خبير في المجتمع الكردي القبلي. بصفته ناشطًا مؤيدًا للأكراد ، أسس رابطة الصداقة الإسرائيلية الكردية (IKFL) في عام 1992 في القدس ، وربما كانت أول رابطة صداقة بين اليهود والمسلمين. يشغل اليوم منصب مستشار الجمعية الوطنية لليهود من كردستان فيما يتعلق بالتاريخ والتراث اليهودي في كردستان.",
-		"ku"	=> "د. زاکین شارەزای کۆمەڵگای هۆزەکانی کوردی. وەکو چاڵاکوانێک و لەیەنگرێکی کورد، دەستەی دۆستایەتی کوردی-ئیسرائیلی (IKFL) دامەزراند لە سالی ١٩٩٢ لە ئیسرائیل، ڕەنگە یەکەم دەستەی دۆستایەتی بێت لەنێوان جووەکان و موسلمانەکان دا. ئەمرۆ ئەو وەکو راوێژکاری کۆمەڵی نیشتیمانی جووەکانی خەلکی کوردستان کارئەکات ئەوەی پەیوەندی بە مێژوو و کەلەپووری جووەکانەوە هەیە لە کوردستان.",
+		"ku"	=> "د. زاکین شارەزای کۆمەڵگای هۆزەکانی کوردی. وەکو چاڵاکوانێک و لەیەنگرێکی کورد، دەستەی دۆستایەتی کوردی-ئیسرائیلی (IKFL) دامەزراند لە سالی 1992 لە ئیسرائیل، ڕەنگە یەکەم دەستەی دۆستایەتی بێت لەنێوان جووەکان و موسلمانەکان دا. ئەمرۆ ئەو وەکو راوێژکاری کۆمەڵی نیشتیمانی جووەکانی خەلکی کوردستان کارئەکات ئەوەی پەیوەندی بە مێژوو و کەلەپووری جووەکانەوە هەیە لە کوردستان.",
 		],
 
 	"kurdish-advocacy-named-by-the-association" => [
@@ -440,7 +440,7 @@
 		"en"	=> "With Christian leaders, Dr. Zaken initiated the Government-Christians Forum that addressed the Evangelical Christian community's concerns regarding the government. Two prominent Christian leaders in this forum have been Rev. Charles (Chuck) Kopp, of the Baptist Church and Rev. David Pillegi, Rector of the Christ Church in Jaffa Gate. The Forum came to a conclusion in 2018, once the government concluded it was not part of the government's scope.",
 		"he"	=> "",
 		"ar"	=> "مع القادة المسيحيين ، أطلق الدكتور زاكين منتدى الحكومة المسيحية الذي تناول مخاوف المجتمع المسيحي الإنجيلي فيما يتعلق بالحكومة. اثنان من القادة المسيحيين البارزين في هذا المنتدى هما القس تشارلز (تشاك) كوب ، من الكنيسة المعمدانية ، والقس ديفيد بيلجي ، رئيس كنيسة المسيح في يافا جيت. انتهى المنتدى في عام 2018 ، بمجرد أن خلصت الحكومة إلى أنه ليس جزءًا من نطاق الحكومة.",
-		"ku"	=> "لەگەڵ سەرکردە کرستیانەکان، د. زاکین دەست بە کۆنگرەی حکومەتی کرستیانی کرد و باسی مەترسیەکانی کۆمەڵگای کریستیانی ئینجیلی کرد ئەوانەی پەیوەندیان بە حکومەتەوە هەیە. دوو لە سەرکردە لێهاتووەکانی کرستیانەکان لەم کۆنگرەدا بەسداربوون قەشە تشارلز (تشاک) کوب، لە کڵێسەی مەعمەدانیەوە، و قەشە دەیڤد بیلجی، سەرۆکی کڵێسەی مەسیح لە یاڤا گیت. کۆربەندەکە لە ساڵی ٢٠١٨ کۆتایی پێیهات، دوای ئەوە بۆ حکومەت دەرکەوت کە ئەو بەشێک نیە لە چوارچێوەی حکومەت.",
+		"ku"	=> "لەگەڵ سەرکردە کرستیانەکان، د. زاکین دەست بە کۆنگرەی حکومەتی کرستیانی کرد و باسی مەترسیەکانی کۆمەڵگای کریستیانی ئینجیلی کرد ئەوانەی پەیوەندیان بە حکومەتەوە هەیە. دوو لە سەرکردە لێهاتووەکانی کرستیانەکان لەم کۆنگرەدا بەسداربوون قەشە تشارلز (تشاک) کوب، لە کڵێسەی مەعمەدانیەوە، و قەشە دەیڤد بیلجی، سەرۆکی کڵێسەی مەسیح لە یاڤا گیت. کۆربەندەکە لە ساڵی 2018 کۆتایی پێیهات، دوای ئەوە بۆ حکومەت دەرکەوت کە ئەو بەشێک نیە لە چوارچێوەی حکومەت.",
 		],
 
 	"condensed-highlights-timeline-2012-visit" => [
@@ -482,7 +482,7 @@
 		"en"	=> "Published: Thesis on Jews of Kurdistan, through Hebrew University. He began working on this research project around 1985, culminating in his dissertation which unfolds the story of the Jews in Kurdistan in urban centers and villages, and their relations with their tribal chieftains (aghas) from whom they received patronage and protection in the tribal Kurdish society, in return for their loyalty and other social and financial duties and obligations. The second part of the thesis deals with the history of the Assyrians in Kurdistan, during the 19th and 20th centuries.",
 		"he"	=> "",
 		"ar"	=> "نُشر في: أطروحة عن يهود كوردستان ، من خلال الجامعة العبرية. بدأ العمل في هذا المشروع البحثي حوالي عام 1985 ، وبلغت ذروته في أطروحته التي تكشف قصة اليهود في كردستان في المراكز والقرى الحضرية ، وعلاقاتهم مع زعماء القبائل (الآغوات) الذين تلقوا منهم الرعاية والحماية في القبائل الكردية. في مقابل ولائهم وواجباتهم والتزاماتهم الاجتماعية والمالية الأخرى. يتناول الجزء الثاني من الأطروحة تاريخ الآشوريين في كردستان خلال القرنين التاسع عشر والعشرين.",
-		"ku"	=> "چاپکراوەکان: نامەکان لەسەر جووەکانی کوردستان، لە رێی زانکۆی عیبری. ئەو دەستی کرد بە کارکردن لەسەر ئەم پرۆژەی لێکۆلینەوەیە لە دەوروبەری ساڵی ١٩٨٥،نامەی دکتۆراکەی گەیشتە لوتکە ئەوەی چیرۆکی جووەکانی کوردستان لە سەنتەری شارەکان و گوندەکان دا پیشان دا و دەریخست، و پەیوەندیەکانیان لەگەڵ سەرۆک هۆزەکانیان(ئاغایەکان) ئەوانەی چاودیری و پشتگیری بۆیان دەهات لە کۆمەڵگای هۆزی کوردیەوە بەرامبەر دڵسۆزی و ئەرکەکانی کۆمەڵایەتی و دارایی دیکەی ئەوان.  بەشی دووەمی نامەکان سەرەدەری لەگەڵ مێژووی ئاشووریەکان لە کوردستاندا دەکات، بە درێژایی چەرخی نۆزدە و بیست.",
+		"ku"	=> "چاپکراوەکان: نامەکان لەسەر جووەکانی کوردستان، لە رێی زانکۆی عیبری. ئەو دەستی کرد بە کارکردن لەسەر ئەم پرۆژەی لێکۆلینەوەیە لە دەوروبەری ساڵی 1985،نامەی دکتۆراکەی گەیشتە لوتکە ئەوەی چیرۆکی جووەکانی کوردستان لە سەنتەری شارەکان و گوندەکان دا پیشان دا و دەریخست، و پەیوەندیەکانیان لەگەڵ سەرۆک هۆزەکانیان(ئاغایەکان) ئەوانەی چاودیری و پشتگیری بۆیان دەهات لە کۆمەڵگای هۆزی کوردیەوە بەرامبەر دڵسۆزی و ئەرکەکانی کۆمەڵایەتی و دارایی دیکەی ئەوان.  بەشی دووەمی نامەکان سەرەدەری لەگەڵ مێژووی ئاشووریەکان لە کوردستاندا دەکات، بە درێژایی چەرخی نۆزدە و بیست.",
 		],
 	
 	"condensed-highlights-kurdish-national-issue" => [
@@ -552,7 +552,7 @@
 		"en"	=> "Dr. Zaken with the Prime Minister, while Dr. Zaken was serving as an adviser on Arab affairs from 1996 to 1999.",
 		"he"	=> "",
 		"ar"	=> "د. زاكين مع رئيس الوزراء ، بينما كان الدكتور زاكين مستشاراً للشؤون العربية من 1996 إلى 1999.",
-		"ku"	=> "د. زاکین لەگەڵ سەرۆک وەزیرانی، لە ماوەی کارکردنی دا وەکو ڕاوێژکار لەسەر کاروباری عەرەبەکان لە ١٩٩٦ەوە تاکو ١٩٩٩.",
+		"ku"	=> "د. زاکین لەگەڵ سەرۆک وەزیرانی، لە ماوەی کارکردنی دا وەکو ڕاوێژکار لەسەر کاروباری عەرەبەکان لە 1996ەوە تاکو 1999.",
 		],
 
 	"condensed-highlights-timeline-1993-cofounder" => [
@@ -566,7 +566,7 @@
 		"en"	=> "Upon returning to Israel in 1992, Dr. Zaken taught at The Hebrew University of Jerusalem for several years.",
 		"he"	=> "",
 		"ar"	=> "لدى عودته إلى إسرائيل عام 1992 ، درس الدكتور زاكين في الجامعة العبرية في القدس لعدة سنوات.",
-		"ku"	=> "لە کاتی گەڕانەوەی بۆ ئیسرائیل لە سالی ١٩٩٢، د. زاکین بۆ چەندین ساڵ وانەبێژ بوو لە زانکۆی عیبری ئۆرشەلیم. ",
+		"ku"	=> "لە کاتی گەڕانەوەی بۆ ئیسرائیل لە سالی 1992، د. زاکین بۆ چەندین ساڵ وانەبێژ بوو لە زانکۆی عیبری ئۆرشەلیم. ",
 		],
 
 	"condensed-highlights-timeline-1990-published" => [
@@ -587,7 +587,7 @@
 		"en"	=> "Studied in the United States on Grants at SUNY Binghamton’s history department (1987-1989) and at NYU, in the Kevorkian Middle East Center (1990-1991).",
 		"he"	=> "",
 		"ar"	=> "",
-		"ku"	=> "لە ویلایەتە یەکگرتوەکان خوێندووە لە بەشی مێژوو لە زانکۆی نیۆرک بینگهامتۆن (١٩٧٨-١٩٨٩) و لە زانکۆی نیۆرک، لە سەنتەری کیفۆرکیانی رۆژهەلاتی ناوەراست(١٩٩٠-١٩٩١). ",
+		"ku"	=> "لە ویلایەتە یەکگرتوەکان خوێندووە لە بەشی مێژوو لە زانکۆی نیۆرک بینگهامتۆن (1978-1989) و لە زانکۆی نیۆرک، لە سەنتەری کیفۆرکیانی رۆژهەلاتی ناوەراست(1990-1991). ",
 		],
 
 	"condensed-highlights-timeline-1988-ma" => [
@@ -608,7 +608,7 @@
 		"en"	=> "Mala Mustafa at an Israeli Air Force base, around 1969.",
 		"he"	=> "",
 		"ar"	=> "ملا مصطفى في قاعدة جوية إسرائيلية ، حوالي عام 1969.",
-		"ku"	=> "مەڵا موستەفا بارزانی لە بنکەیێکی هێزەکانی ئاسمانی ئیسرائیلی، لە دەوروبەری ساڵی ١٩٦٩.",
+		"ku"	=> "مەڵا موستەفا بارزانی لە بنکەیێکی هێزەکانی ئاسمانی ئیسرائیلی، لە دەوروبەری ساڵی 1969.",
 		],
 
 	"condensed-highlights-the-relationship" => [
@@ -622,14 +622,14 @@
 		"en"	=> "He conducted hundreds of first-hand oral history accounts in Israel and abroad with more than 60 elderly Kurdish Jews, originally from Kurdistan, who shared their knowledge on the tribal Kurdish society and setting with him. From this, Dr. Zaken was able to reconstruct and tell the history of the Jews and the tribal Kurdish society.",
 		"he"	=> "",
 		"ar"	=> "أجرى المئات من روايات التاريخ الشفوي المباشر في إسرائيل والخارج مع أكثر من 60 يهوديًا كرديًا مسنًا ، أصلهم من كردستان ، شاركوا معرفتهم حول المجتمع الكردي القبلية والاقامة معه. من هذا المنطلق ، تمكن الدكتور زاكين من إعادة البناء وسرد تاريخ اليهود والمجتمع الكردي القبلي.",
-		"ku"	=> "ئەو بە سەدان دیداری مێژوویی زارەکی ڕاستەوخۆ ئەنجامداوە لەناو ئیسرائیل و دەرەوە لەگەڵ زیاتر لە ٦٠ کەسانی بەتەمەنی کوردی جوو دا کە لە بنەڕەتدا خەڵکی کوردستانن، و بۆی باسی زانیاری خۆیان کردووە لەسەر کۆمەڵگای هۆزی کوردی لەکاتی دانیشتنیان لەگەڵی. بە هۆی ئەمە د. زاکین توانی مێژووی جووەکان  و کۆمەڵگای هۆزیی کوردی دووبارە ئاوەدان بکات و باس بکات. ",
+		"ku"	=> "ئەو بە سەدان دیداری مێژوویی زارەکی ڕاستەوخۆ ئەنجامداوە لەناو ئیسرائیل و دەرەوە لەگەڵ زیاتر لە 60 کەسانی بەتەمەنی کوردی جوو دا کە لە بنەڕەتدا خەڵکی کوردستانن، و بۆی باسی زانیاری خۆیان کردووە لەسەر کۆمەڵگای هۆزی کوردی لەکاتی دانیشتنیان لەگەڵی. بە هۆی ئەمە د. زاکین توانی مێژووی جووەکان  و کۆمەڵگای هۆزیی کوردی دووبارە ئاوەدان بکات و باس بکات. ",
 		],
 
 	"condensed-highlights-timeline-1984-ma-student" => [
 		"en"	=> "As an MA student at The Hebrew University, he wished to write a paper on the economy of Kurdistani Jews. To his astonishment, he discovered that there was hardly any written material on the Kurds and on the Jews of Kurdistan. Because of the lack of written material, he had to resort to oral-history and interviewed 12 elderly Kurdistani Jews for that paper alone.",
 		"he"	=> "",
 		"ar"	=> "كطالب ماجستير في الجامعة العبرية ، كان يرغب في كتابة ورقة بحثية عن اقتصاد يهود كردستان. و لدهشته ، اكتشف أنه لم يكن هناك أي مواد مكتوبة عن الأكراد ويهود كردستان. بسبب نقص المواد المكتوبة ، اضطر إلى اللجوء إلى التاريخ الشفوي وأجرى مقابلات مع 12 من كبار السن من اليهود الكردستانيين لهذه الورقة وحدها.",
-		"ku"	=> "وەکو قوتابی ماستەر لە زانکۆی عیبری، ئەو دەیویست لێکۆڵینەوەیێک لەسەر باری ئابووری جووەکانی کوردستان دا بکات. بە سەرسامیەوە دۆزیەوە کە هیچ بەرهەمێکی نوسراو لەسەر کوردەکان و جووەکانی کوردستان نیە. لەبەر کەمی بەرهەمەکانی نوسراو، پەنای بردە مێژووی زارەکی و چاوپێکەوتنی لەگەڵ ١٢ پیاوی بەتەمەنی کوردی جوو دا کرد تەنها بۆ لێکۆلینەوەکەی. ",
+		"ku"	=> "وەکو قوتابی ماستەر لە زانکۆی عیبری، ئەو دەیویست لێکۆڵینەوەیێک لەسەر باری ئابووری جووەکانی کوردستان دا بکات. بە سەرسامیەوە دۆزیەوە کە هیچ بەرهەمێکی نوسراو لەسەر کوردەکان و جووەکانی کوردستان نیە. لەبەر کەمی بەرهەمەکانی نوسراو، پەنای بردە مێژووی زارەکی و چاوپێکەوتنی لەگەڵ 12 پیاوی بەتەمەنی کوردی جوو دا کرد تەنها بۆ لێکۆلینەوەکەی. ",
 		],
 
 	"condensed-highlights-timeline-1983-co-chief-editor" => [
@@ -643,7 +643,7 @@
 		"en"	=> "Editor-in-Chief of ‘Pi Ha-Aton’ (פי-האתו) student newspaper. On 1982 Apr 26, for a special Independence Day edition, Dr. Zaken published photos taken in 1948 by Arabs (and the story behind the photos’ uncovering) which showed mutilated faces and bodies of Jewish soldiers who had been in an army unit which later became known as the ‘Nabi Daniel Caravan' (שיירת נבי דניאל).",
 		"he"	=> "",
 		"ar"	=> 'المحرر العام للقوات المسلحة من (פי-האתו) صحيفة الطالب بي ها-آتون ". في 26 أبريل 1982 ، في طبعة خاصة بمناسبة عيد الاستقلال ، نشر الدكتور زاكين صورًا التقطت في عام 1948 من قبل العرب (والقصة وراء الكشف عن الصور) والتي أظهرت وجوهًا مشوهة وجثثًا لجنود يهود كانوا في وحدة عسكرية والتي لاحقًا أصبح يعرف باسم "النبى دانيال القافلة" (שיירת נבי דניאל).',
-		"ku"	=> "سەرنوسەری گشتی 'پسی ها-ئاتۆن' (פי-האתו) کە رۆژنامەیێکی تایبەتە بە قوتابیان. لە ٢٦ نیسانی ساڵی ١٩٨٢، بۆ چاپی تایبەت بە رۆژی سەربەخۆیی، د. زاکین ئەو وێنانەی لە ساڵی ١٩٤٨ لە لایەن عەرەبەکانەوە چرکێندرا بوون بڵاوکردن( و چیرۆکی لە پشت ئەو وێنانە' ئاشکەرا کرد) کە تێیدا دەم و چاو و لەشی شێواوی سەربازەکانی جووەکان  پیشان دەدا ئەوانەی کە لە یەکەیێکی سەربازیدا بوون کە دواتر بە 'نابی دانیێل کاراڤان'  (שיירת נבי דניאל) ناسراو بوو.",
+		"ku"	=> "سەرنوسەری گشتی 'پسی ها-ئاتۆن' (פי-האתו) کە رۆژنامەیێکی تایبەتە بە قوتابیان. لە 26 نیسانی ساڵی 1982، بۆ چاپی تایبەت بە رۆژی سەربەخۆیی، د. زاکین ئەو وێنانەی لە ساڵی 1948 لە لایەن عەرەبەکانەوە چرکێندرا بوون بڵاوکردن( و چیرۆکی لە پشت ئەو وێنانە' ئاشکەرا کرد) کە تێیدا دەم و چاو و لەشی شێواوی سەربازەکانی جووەکان  پیشان دەدا ئەوانەی کە لە یەکەیێکی سەربازیدا بوون کە دواتر بە 'نابی دانیێل کاراڤان'  (שיירת נבי דניאל) ناسراو بوو.",
 		],
 
 	"condensed-highlights-timeline-1980-baccalaureate-studies" => [
@@ -715,7 +715,7 @@ https://www.academia.edu/37279884/routledgezaken_corrections_September_8_2017_pd
 		"ku"	=> "رەوەندەکانی جوو لە کوردستان لەناو کۆمەڵگای هۆزی کوردی
 
 
-لە نامیلکەی رۆتلیدج بڵاوکراوەتەوە لەسەر کوردەکان، لە لایەن مایکل گۆنترەوە دەستکاری کراوە و لە ساڵی ٢٠١٨ بڵاوکرایەوە. 
+لە نامیلکەی رۆتلیدج بڵاوکراوەتەوە لەسەر کوردەکان، لە لایەن مایکل گۆنترەوە دەستکاری کراوە و لە ساڵی 2018 بڵاوکرایەوە. 
 
 https://drive.google.com/file/d/15wqMazPL65Tb4jQSDlKGhxskzvflN_GA/view?usp=sharing 
 
@@ -831,7 +831,7 @@ https://drive.google.com/file/d/1zTVaG9RO03ZOKiNvNTzF_r5TaZxYP-zs/view?usp=shari
 شاهد النسخة الكردية: https://www.academia.edu/7913952/Jews_Kurds_and_Arabs_in_Iraqi_Kurdistan_1941_1952_in_Kurmanji",
 		"ku"	=> "Juifs, Kurdes et Arabes, entre 1941 et 1952
 
-  بەشێکی کتێبەکە بۆ زمانی فەرەنسی وەرگێڕا و بە فەرەنسی بڵاوکرا لە خوێندنەکانی کوردی لە ٧ ئایاری ٢٠٠٥.   
+  بەشێکی کتێبەکە بۆ زمانی فەرەنسی وەرگێڕا و بە فەرەنسی بڵاوکرا لە خوێندنەکانی کوردی لە 7 ئایاری 2005.   
 
 ڤێرژنی فەرەنسی لێرە دابەزێنە: https://drive.google.com/file/d/14hGPx31iLGlEpklrudwQm3dqfass7-J6/view?usp=sharing 
 
@@ -882,7 +882,7 @@ https://www.academia.edu/7162488/_Kurdistan_a_Historical_View_Teva_ha_Dvarim_91_
 https://www.academia.edu/7162488/_Kurdistan_a_Historical_View_Teva_ha_Dvarim_91_May_2003_88_91_Heb_',
 		"ku"	=> 'کوردستان - دیتنێکی مێژوویی
 
-وتارێکە بە عەرەبی بڵاوکراوە لە " تەوع دەڤاریم" لە ١٩ ی ئایاری ٢٠٠٣. 
+وتارێکە بە عەرەبی بڵاوکراوە لە " تەوع دەڤاریم" لە 19 ی ئایاری 2003. 
 
 https://www.academia.edu/7162488/_Kurdistan_a_Historical_View_Teva_ha_Dvarim_91_May_2003_88_91_Heb_',
 		],
@@ -938,14 +938,14 @@ https://www.academia.edu/7162534/_Inventors_Fate_A_Folk_Tale_in_the_Neo_Aramaic_
 		"he"	=> "",
 		"ar"	=> '"مصير المخترعين": حكاية شعبية في الآرامية الجديدة في زاخو
 
-نُشر في Massorot: دراسات في التقاليد اللغوية واللغات اليهودية ، في المجلدات ٩و ١٠و ١١(١٩٩٧). حرره  م.بار ئاشیر.
+نُشر في Massorot: دراسات في التقاليد اللغوية واللغات اليهودية ، في المجلدات 9و 10و 11(1997). حرره  م.بار ئاشیر.
 
 https://docs.google.com/document/d/12tY8ZvbF2YkFkQVzx8SKLacS2EUQzw1jGCzocmpNZOc/edit?usp=sharing 
 
 https://www.academia.edu/7162534/_Inventors_Fate_A_Folk_Tale_in_the_Neo_Aramaic_of_Zakho_in_M_Bar_Asher_ed_Massorot_Studies_in_Language_Traditions_and_Jewish_Languages_vols_9_10_11_1997_383_395_Heb_ ',
 		"ku"	=> 'چارەنووسی داهێنەرەکان": چیرۆکێکی شەعبی لە ئارامی نوێی زاخۆ.
 
-لە Massorot بڵاوکراویەوە: خوێندنەکان لە دابونەریتی زمان و زمانەکانی جوو لە بەرگی ٩، ١٠، و ١١ (١٩٩٧). لە لایەن م.بار ئاشیر دەستکاریکراوە. 
+لە Massorot بڵاوکراویەوە: خوێندنەکان لە دابونەریتی زمان و زمانەکانی جوو لە بەرگی 9، 10، و 11 (1997). لە لایەن م.بار ئاشیر دەستکاریکراوە. 
 
 https://docs.google.com/document/d/12tY8ZvbF2YkFkQVzx8SKLacS2EUQzw1jGCzocmpNZOc/edit?usp=sharing 
 
@@ -962,12 +962,12 @@ https://www.academia.edu/7162548/_The_Kurdish_Jews_in_Transition_From_Kurdistan_
 		"he"	=> "",
 		"ar"	=> "اليهود الأكراد في المرحلة الانتقالية: من كردستان إلى إسرائيل 
 
-نُشر في Mamostaye Kurd ، المجلد ٢٢ (١٩٩٤) ، باللهجة السورانية.
+نُشر في Mamostaye Kurd ، المجلد 22 (1994) ، باللهجة السورانية.
 
 https://www.academia.edu/7162548/_The_Kurdish_Jews_in_Transition_From_Kurdistan_to_Israel_Mamostaye_Kurd_Stockholm_Vol_22_1994_59_68_Sorani_uploaded_its_English_version_ ",
 		"ku"	=> "کوردانی جوڵە لە کاتی گواستنەوەدا: لە کوردستانەوە بۆ ئیسرائیل 
 
-لە Mamostaye Kurd بڵاوکراوە، بەرگی٢٢ (١٩٩)، بە زاراوی سۆرانی. 
+لە Mamostaye Kurd بڵاوکراوە، بەرگی22 (199)، بە زاراوی سۆرانی. 
 
 https://www.academia.edu/7162548/_The_Kurdish_Jews_in_Transition_From_Kurdistan_to_Israel_Mamostaye_Kurd_Stockholm_Vol_22_1994_59_68_Sorani_uploaded_its_English_version_ ",
 		],
@@ -1069,7 +1069,7 @@ https://docs.google.com/document/d/1a8aQ9rjwOL90L2ycLMxjE9t8xpYuHQkRwYofqykb7A8/
 https://www.academia.edu/7162561/_The_Book_of_Ruth_in_Neo_Aramaic_By_G_Goldenberg_and_M_Zaken_in_W_Heinrichs_Ed_Studies_in_Neo_Aramaic_Cambridge_Harvard_Semitic_Studies_Series_1990_151_157 ",
 		"ku"	=> "کتێبی راعوث بە زمانی ئارامی نوێ 
 
-لە لایەن ب.گۆلدبرێگ و م.زاکینەوە نوسراوە. لە خوێندنەکانی ئارامی نوێ دا بڵاوکرایەوە لە لایەن کامبرێجەوە لە زنجیرەی خوێندنەکانی سامی لە زانکۆی هارڤارد، و لە لایەن و.هاینریشەوە دەستکاری کراوە (١٩٩٠). 
+لە لایەن ب.گۆلدبرێگ و م.زاکینەوە نوسراوە. لە خوێندنەکانی ئارامی نوێ دا بڵاوکرایەوە لە لایەن کامبرێجەوە لە زنجیرەی خوێندنەکانی سامی لە زانکۆی هارڤارد، و لە لایەن و.هاینریشەوە دەستکاری کراوە (1990). 
 
 وەرگێڕانەکە لە گورگۆ ناحومەوە(هەروەها بە زەئیف ئەریلی بەرنیاسە، ناوی عیبریە) تۆمارکرابوو و بۆ بڵاوکردنەوە ئامەدەکرابوو بە هاوکاری جدعون گۆلدنبیرگ.  
 
@@ -1101,12 +1101,12 @@ https://www.academia.edu/7162569/_Social_and_economic_institutions_among_the_Jew
 		"he"	=> "",
 		"ar"	=> "المؤسسات الاجتماعية والاقتصادية بين يهود كردستان.
 
-نُشرت بالعبرية في Hithadhoo ، المجلد ٥ (١٩٨٥).
+نُشرت بالعبرية في Hithadhoo ، المجلد 5 (1985).
 
 https://www.academia.edu/7162569/_Social_and_economic_institutions_among_the_Jews_of_Kurdistan_Hithadshut_5_1985_11_22_Heb_ ",
 		"ku"	=> "رێکخراوەکانی ئابووری و کۆمەڵایەتی لەناو کوردەکان. 
 
-بە زمانی عیبری لە  Hithadhoo بڵاوکرایەوە، بەرگی ٥ (١٩٨٥) .
+بە زمانی عیبری لە  Hithadhoo بڵاوکرایەوە، بەرگی 5 (1985) .
 
 https://www.academia.edu/7162569/_Social_and_economic_institutions_among_the_Jews_of_Kurdistan_Hithadshut_5_1985_11_22_Heb_ ",
 		],
@@ -1126,7 +1126,7 @@ https://drive.google.com/file/d/1YfWiAZBuq_s1n5OqASg_qtEhggWTRlGh/view?usp=shari
 
 https://www.youtube.com/watch?v=8xh9hY1q0kE 
 
-https://drive.google.com/file/d/1YfWiAZBuq_s1n5OqASg_qtEhggWTRlGh/view?usp=sharing 
+https://drive.google.com/file/d/1YfWiAZBuq_s1n5OqASg_qtEhggWTRlGh/view?usp=sharing
 
 https://www1.biu.ac.il/File/news/file_biu_14_12_31_10_26.pdf
 ",
@@ -1137,7 +1137,6 @@ https://www1.biu.ac.il/File/news/file_biu_14_12_31_10_26.pdf
 https://www.youtube.com/watch?v=8xh9hY1q0kE 
 
 https://drive.google.com/file/d/1YfWiAZBuq_s1n5OqASg_qtEhggWTRlGh/view?usp=sharing 
-
 
 https://www1.biu.ac.il/File/news/file_biu_14_12_31_10_26.pdf ",
 		],
@@ -1157,7 +1156,6 @@ https://www.youtube.com/watch?v=9FODj66nvkk ",
 		"ku"	=> "جووەکانی کوردستان
 
 کۆنگرەی کوردی جیهانی    (KWC) لە ستۆکهۆڵم، سوید. 
-
 
 https://www.youtube.com/watch?v=9FODj66nvkk ",
 		],
@@ -1217,7 +1215,7 @@ Lutheran Church, the Old City of Jerusalem.",
 		"ar"	=> "اليهود والمسيحيون في كردستان واللوثريون في القرن التاسع عشر والقرن العشرين
 
 الكنيسة اللوثرية بالبلدة القديمة في القدس.",
-		"ku"	=> "جووەکان و کرستیانەکان لە کوردستان و لۆسەریەکان لە سەدەکانی ١٩ و ٢٠
+		"ku"	=> "جووەکان و کرستیانەکان لە کوردستان و لۆسەریەکان لە سەدەکانی 19 و 20
 
 کڵێسەی لۆسەری، لە ئۆرشەلیم ی کۆن.",
 		],
@@ -1407,7 +1405,7 @@ Ppresented to the parliamentary committee on xenophobia and hatred of strangers,
 		"en"	=> "Buy The Jews of Kurdistan: A Study in Survival for $15 at https://kurdishjews.com",
 		"he"	=> "",
 		"ar"	=> "اشتري كتاب يهود كردستان: دراسة في البقاء مقابل 15 دولارًا على موقع  https://kurdishjews.com",
-		"ku"	=> "کتێبی جووەکانی کوردستان بکرە: لێکۆڵینەوەیێک لە مانەوە دا بە نرخی ١٥$ لە وێبسایتی https://kurdishjews.com",
+		"ku"	=> "کتێبی جووەکانی کوردستان بکرە: لێکۆڵینەوەیێک لە مانەوە دا بە نرخی 15$ لە وێبسایتی https://kurdishjews.com",
 		],
 
 	"the-jews-of-kurdistan-the-study-portrays" => [
@@ -1457,14 +1455,14 @@ Ppresented to the parliamentary committee on xenophobia and hatred of strangers,
 		"ar"	=> "
 أصله من يهود كردستان العراق • 
 حائز على الدكتوراه من جامعة نيويورك الولايات المتحدة الاميركي •
-• استغرق مشروع كتابة الدكتوراه من العام ١٩٨٥_ ٢٠٠٢
+• استغرق مشروع كتابة الدكتوراه من العام 1985_ 2002
 مورخ خبير عن يهود كردستان و المجتمع الكردي القبلي •
 • خبير في التاريخ الشفوي
 • يجيد اللغة الفارسية، والكردية والعبرية والعربية، فضلا عن اللغة الانكليزية
 ",
 		"ku"	=> "• بە رەچەڵەک جولەکەی کوردستانی عێراقە.
 • بروانامەی دکتۆرا لە زانکۆی نیۆرکی ویلایەتە یەکگرتووەکان بەدەست هێناوە.
-• دکتۆرانامەکەی لە سالێ  ١٩٨٥ بۆ ساڵی ٢٠٠٢ نوسیەوە.
+• دکتۆرانامەکەی لە سالێ  1985 بۆ ساڵی 2002 نوسیەوە.
 • مێژووناسێکی پسپۆڕە لەسەر جووەکانی کوردستان و کۆمەڵگای هۆزیی کوردی.
 • پسپۆڕە لە میژووی زارەکی.
 • زمانی فارسی، کوردی، عیبری، و عەرەبی، و هەروەها ئینگلیزی بە باشی دەزانێت. ",
@@ -1480,22 +1478,22 @@ Ppresented to the parliamentary committee on xenophobia and hatred of strangers,
 	"the-jews-of-kurdistan-interestingly-the-cover" => [
 		"en"	=> "Interestingly, the cover is the famous 1878 artwork ‘Jews Praying in the Synagogue on Yom Kippur’, by Jewish painter Mauryey Gottlieb (1856-1879). He was a Polish Jewish realist painter who made significant contributions towards creating the genre of Jewish Art. The editors of the book in Arabic needed a picture for its cover, and when looking for a picture of Jews or some sort of symbol of Judaism, someone must have pulled this painting from the internet. Imagery and symbolism about Yom Kippur (the holiest day of the year for Jews) is prominent in the piece, which exemplifies many artistic values that are significant to Eastern European Jews at the time. It also contains many deeper allusions about Gottlieb’s short life. However, it has nothing to do with the Jews of the East and the Jews of Kurdistan.",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "ومن المثير للاهتمام أن الغلاف هو العمل الفني الشهير عام 1878 "اليهود يصلون في الكنيس اليهودي في يوم كيبور" للرسام اليهودي موريي جوتليب (1856-1879). كان رسامًا واقعيًا يهوديًا بولنديًا قدم مساهمات كبيرة في إنشاء هذا النوع من الفن اليهودي. احتاج محررو الكتاب باللغة العربية إلى صورة الغلاف ، وعند البحث عن صورة لليهود أو أي نوع من رموز اليهودية ، لا بد أن أحدهم قد سحب هذه اللوحة من الإنترنت. تبرز الصور والرمزية حول يوم كيبور (أقدس يوم في السنة بالنسبة لليهود) في القطعة ، التي تجسد العديد من القيم الفنية المهمة ليهود أوروبا الشرقية في ذلك الوقت. كما أنه يحتوي على العديد من التلميحات العميقة حول حياة جوتليب القصيرة. ومع ذلك ، فإن الأمر لا علاقة له بيهود الشرق ويهود كردستان.",
+		"ku"	=> "بە سەرەنجڕاکێشیەوە، بەڕگەکە کاری هۆنەری ناوداری ساڵی 1878 'جووەکان  دوعا دەکەن لە کەنیشتەی یۆم کیبۆر' هی هۆنەرمەندی جوو مۆریی گۆتلیب (1856-1879). هۆنەرمەندێکی ریالزمی جووی پۆڵەندی بوو ڕۆلێکی زۆڕ گەورە هەبوو لە بنیاتدانی ئەم جۆرە هۆنەری جولە. سەرنووسەرەکانی کتێبەکەی بە زمانی عەرەبی پێویستیان بە وێنەیێک هەبوو بۆ بەرگی کتێبەکە، و لە کاتی لێگەرینەوەدا بۆ وێنەیێکی تایبەت بە جووەکان  یان هەر جۆرە سیمبولێک یان نیشانێک کە تایبەت بێت بە جولەکان، هەر دەبێت کەسێک لەوان ئەم وێنەیە لە ئینتەرنێتەوە دابەزاندبێت. وێنەکانی خەیاڵی و هێماگەری دەربارەی یۆم کیبۆر( پیرۆزترین رۆژی سالە بۆ جولەکان) بەرچاو دەبێت دەبێت لەم لەوحەدا، کە بەهاکانی هۆنەری نیشاندەدات ئەوانەی گرنگن بۆ جووەکانی رۆژهەلاتی ئەورپا لەو سەردەمەدا. هەروەها لە چەندین هێمای قوول پێکدێت دەربارەی ژیانی کورتی گۆتلیب. و سەرەرای ئەمەش، ئەم شتە هیچ پەیوەندیێک بە جووەکانی رۆژهەلات و جووەکانی کوردستانەوە نیە. ",
 		],
 
 	"the-jews-of-kurdistan-download-the-arabic" => [
 		"en"	=> "Download the Arabic translation: https://www.academia.edu/37290014/jewish_subjects_in_Kurdistan_in_Arabic_PDF",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "تحميل الترجمة العربية: https://www.academia.edu/37290014/jewish_subjects_in_Kurdistan_in_Arabic_PDF ",
+		"ku"	=> "وەرگێرانەکەی بە زمانی عەرەبی لێرە دابەزێنە: https://www.academia.edu/37290014/jewish_subjects_in_Kurdistan_in_Arabic_PDF ",
 		],
 
 	"the-jews-of-kurdistan-download-the-sorani" => [
 		"en"	=> "Download the Sorani translation: https://www.academia.edu/37290157/Kurdistan_Jews_IN_SORANI_pdf",
 		"he"	=> "",
-		"ar"	=> "",
-		"ku"	=> "",
+		"ar"	=> "تحميل ترجمة اللهجة السورانية: https://www.academia.edu/37290157/Kurdistan_Jews_IN_SORANI_pdf ",
+		"ku"	=> "وەرگێڕانەکەی زاراوی سۆرانی لیرە دابەزینە: https://www.academia.edu/37290157/Kurdistan_Jews_IN_SORANI_pdf ",
 		],
 
 	"the-jews-of-kurdistan-naze-a-voice-from-the-past" => [
