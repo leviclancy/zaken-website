@@ -54,14 +54,12 @@ foreach ($sitemap_array as $pageview_allowed => $subpageview_allowed_array):
 if ($pageview_valid !== 1): $pageview_request = "biographical-notes"; endif;
 
 // Generate a sanitized query string
-$sanitized_query_string = "?pageview=".$pageview_request."&language=".$language_request;
-
-echo $_SERVER['QUERY_STRING']; exit;
+$sanitized_query_string = "pageview=".$pageview_request."&language=".$language_request;
 
 // If we have redirects due to invalid parameters, then assemble them
 if ($_SERVER['QUERY_STRING'] !== $sanitized_query_string):
 	header("HTTP/1.1 301 Moved Permanently");
-	header("Location: https://".$_SERVER['HTTP_HOST'].$sanitized_query_string);
+	header("Location: https://".$_SERVER['HTTP_HOST']."?".$sanitized_query_string);
 	exit;
 	endif;
 
