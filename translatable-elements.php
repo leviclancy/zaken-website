@@ -1,7 +1,7 @@
 <? $translatable_elements = [
 		
 	"last-updated" => [
-		"en"	=> "Last updated October 21st, 2020",
+		"en"	=> "Last updated November 5th, 2020",
 		"he"	=> "",
 		"ar"	=> "",
 		"ku"	=> "",
@@ -1948,8 +1948,8 @@ Ppresented to the parliamentary committee on xenophobia and hatred of strangers,
 	"footer-to-reach-dr-zaken" => [
 		"en"	=> "To reach Dr. Zaken,",
 		"he"	=> "",
-		"ar"	=> "للوصول إلى د. زاكين,",
-		"ku"	=> "بۆ پەیوەندیکردن بە د. زاکین، ",
+		"ar"	=> "للوصول إلى د. زاكين،",
+		"ku"	=> "بۆ پەیوەندیکردن بە د. زاکین،",
 		],
 	"footer-to-contact-the-national-association" => [
 		"en"	=> "To contact the National Association of Jews from Kurdistan in Israel,",
