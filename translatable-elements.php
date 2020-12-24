@@ -161,21 +161,21 @@
 		],
 
 	"biographical-notes-author-of-the-jews-of-kurdistan" => [
-		"en"	=> "Author of ‘The Jews of Kurdistan’, and 2019 recipient of the Prime Minister’s Prize for his lifetime of research and dedication regarding the Kurdish Jewish community.",
+		"en"	=> "Author of 'The Aghas and their Jews in Kurdistan', which has been widely published and has been translated into Arabic, Kurdish, and French.",
 		"he"	=> "",
 		"ar"	=> 'مؤلف كتاب "يهود كردستان" ، وحصل على جائزة رئيس الوزراء لعام 2019 عن حياته في البحث والتفاني فيما يتعلق بالجالية اليهودية الكردية.',
 		"ku"	=> 'مدیر الحالي لشئون الأقليات بوزارة الأمن العام. (مستشار سابق لرئيس وزراء إسرائيل للشؤون العربية.)',
 		],
 
 	"biographical-notes-in-2019-he-received" => [
-		"en"	=> "In 2019, he received the Prime Minister’s Prize for his research and leadership. The video screened at his acceptance is shown below.",
+		"en"	=> 'He is the 2019 recipient of the "Prime Minister\'s Prize" (in Israel) for his research on the Jews of Kurdistan and the Jews of the Middle East. The video screened at his acceptance ceremony is shown below.',
 		"he"	=> "",
 		"ar"	=> "في عام 2019 ، حصل على جائزة رئيس الوزراء لأبحاثه وقيادته. يظهر الفيديو الذي تم فحصه عند قبوله أدناه.",
 		"ku"	=> "لە ساڵی 2019، خەڵاتی سەرۆک وەزیرانی وەرگرت بۆ لێکۆڵینەوە و پێشەنگی. لە ڤیدیۆی خوارە دا دیارە.",
 		],
 
 	"biographical-notes-video-screened" => [
-		"en"	=> "Video screened at the official ceremony in Jerusalem, in March 2019, when Dr. Mordechai Zaken was awarded the Prime Minister’s Prize for research on the Jews of the Middle East and Iran. Transcript here: https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing",
+		"en"	=> "Video screened at the official ceremony in Jerusalem, in March 2019, when Dr. Mordechai Zaken was awarded the \"Prime Minister's Prize\" for research on the Jews of the Middle East and Iran. Transcript here: https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing",
 		"he"	=> "",
 		"ar"	=> "تم عرض مقطع فيديو في الحفل الرسمي في القدس ، في آذار / مارس 2019، عندما حصل الدكتور مردخاي زاكين على جائزة رئيس الوزراء للبحث عن يهود الشرق الأوسط وإيران . نسخة مكتوبة هنا: https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing ",
 		"ku"	=> "ڤیدیۆیەکە لە ئاهەنگێکی فەرمی دا لە ئۆرشەلیم  نمایشکرا، لە ئاداری 2019، کاتێک د. مۆردەخای زاکین خەڵاتکرا لە لایەن سەرۆک وەزیرانەوە لەبەر لێکۆلینەکەی لەسەر جووەکانی رۆژهەڵاتی ناوەراست و ئێران. بڕوانامەکە لێرەیە: https://docs.google.com/document/d/1C7RHxNWgn13X9jm_dFQClStACOqCygpKgTVC4342bCA/edit?usp=sharing ",
@@ -197,15 +197,15 @@
 
 
 	"biographical-notes-expresses" => [
-		"en"	=> "Dr. Zaken expresses gratitude to the scholars who inspired him and guided him in his research,
+		"en"	=> "Dr. Zaken has always expressed gratitude and recognized the scholars who inspired him and those who guided and taught him:
 
-• the late Semitic linguist Gideon Goldenberg
-• the late historian of the Iranian Jews, Amnon Netzer
-• the historian Benjamin Z. Kedar
-• the historian Martin van Bruinessen
-• the Kurdish linguist Michael Chyet
-• the scholar of Islamic history, Moshe Sharon
-• the Kurdish linguist Joyce Blau",
+• the late and great Semitic linguist Gideon Goldenberg
+• the late historian of Iranian Jewry, Amnon Netzer
+• the eminent medieval historian Benjamin Z. Kedar
+• Martin van Bruinessen, one of great scholars on Kurdistan
+• Michael Chyet, an eminent Kurdish linguist and compiler of dictionaries 
+• Moshe Sharon, eminent scholar of Islamic history
+• Joyce Blau, eminent scholar of Kurdistan, Kurdish linguist and compiler of Kurdish dictionaries",
 		"he"	=> "",
 		"ar"	=> "يعبر الدكتور زاكين عن امتنانه للعلماء الذين ألهموه ووجهوه في بحثه،
 • اللغوي السامي الراحل جدعون غولدنبرغ
